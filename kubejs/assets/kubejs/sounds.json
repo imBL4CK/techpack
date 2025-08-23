@@ -1,0 +1,11 @@
+{
+    "wrench_interact": {
+      "sounds": [
+        {
+          "type": "file",
+          "name": "kubejs:wrench_interact"
+        }
+      ],
+      "subtitle": "kubejs.subtitle.wrench_interact"
+    }
+  }

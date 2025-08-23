@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_iv"
+	group: "047995488C1C959F"
+	icon: "thermal:machine_frame"
+	id: "098264AB96359862"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "08A6395CAD77721B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3822D0DCC9A76F0B"
+				item: {
+					Count: 1
+					id: "create:chromatic_compound"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Welcome to industrial revolution 3.0"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["08A6395CAD77721B"]
+			id: "16F895CD242493F8"
+			tasks: [{
+				id: "0534CC6552FCC518"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08A6395CAD77721B"]
+			id: "270137B39AB6572D"
+			tasks: [{
+				id: "523BE1D061F3349C"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["16F895CD242493F8"]
+			id: "55EAB637A67232F3"
+			tasks: [{
+				id: "1EA11F6498BD9EF7"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["270137B39AB6572D"]
+			id: "7C386033968300C8"
+			tasks: [{
+				id: "78D077BE7FAAEA5E"
+				item: "enderio:alloy_smelter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"7C386033968300C8"
+				"55EAB637A67232F3"
+			]
+			id: "2CE4FBD18B25FB8C"
+			size: 1.0d
+			tasks: [{
+				id: "60E9051558A622C6"
+				item: "kubejs:shadow_bronze_coil"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2CE4FBD18B25FB8C"]
+			id: "57A04F6E6073CD15"
+			tasks: [{
+				id: "595EC20C710013F5"
+				item: "kubejs:hdpe_sheet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["57A04F6E6073CD15"]
+			id: "4DFF787259A5DB87"
+			shape: "square"
+			tasks: [{
+				id: "0D428DBC6D92F36A"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4DFF787259A5DB87"]
+			id: "3BDB129AA38AEDFD"
+			shape: "square"
+			tasks: [{
+				id: "23A9CBCCCCBD5AF9"
+				item: "kubejs:bio_plastic_mesh"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["57A04F6E6073CD15"]
+			id: "48467734E88CEF5D"
+			tasks: [{
+				id: "3AEAAD3A854302FE"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/assembler"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48467734E88CEF5D"]
+			icon_scale: 0.8d
+			id: "369BDB7F606C9D35"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "05966195BC87785A"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["369BDB7F606C9D35"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "pneumaticcraft:pneumatic_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0A66DE8EDCB87978"
+			shape: "circle"
+			tasks: [
+				{
+					id: "64B8D926E3BC0DE1"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BBF678F718053B8"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "599B721EC1190038"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36A067F853E8AA9D"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["369BDB7F606C9D35"]
+			disable_toast: true
+			icon: "pneumaticcraft:assembly_controller"
+			id: "241D71D7E3D0F7B1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "418B5A0588DA53DE"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "6068F7AD2F931CA1"
+					item: "pneumaticcraft:assembly_drill"
+					type: "item"
+				}
+				{
+					id: "19A64615B73F4B45"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					type: "item"
+				}
+				{
+					id: "23723CBC5733A7BF"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					type: "item"
+				}
+				{
+					id: "2D2A3927F84AFA89"
+					item: "pneumaticcraft:assembly_laser"
+					type: "item"
+				}
+				{
+					id: "53D159E8ABB7F45E"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["369BDB7F606C9D35"]
+			id: "3A463A706C6EFBFB"
+			subtitle: "&5An Upgrade for Techlab Machines"
+			tasks: [{
+				id: "333930151267882A"
+				item: "kubejs:advanced_machine_casing"
+				type: "item"
+			}]
+			title: "Advanced Tier Machines"
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7DD9D46FF4D3D170"
+				"48467734E88CEF5D"
+			]
+			icon: "tfmg:rotor"
+			id: "391FC8150E4BC767"
+			shape: "circle"
+			size: 1.0d
+			tasks: [
+				{
+					id: "62E5D0B670120A73"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "623D1AAD7EB9AA7D"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "15A916FFB5981120"
+					item: { Count: 8, id: "tfmg:stator" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3D6C45DADE0F4AD2"]
+			icon: "mm:chemical_reactor_controller"
+			id: "68DA8A36136C1FE8"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7C2298B2C58A1A71"
+					item: "mm:chemical_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "2A55CA06F205842E"
+					item: { Count: 20, id: "kubejs:chemically_resistant_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36123023159B026A"
+					item: "mm:steel_energy_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4961B2957FFCBD6B"
+					item: "mm:steel_fluid_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1EAABA71FEA14347"
+					item: "mm:steel_fluid_port_output"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "697B9B7536CBBEAC"
+					item: "mm:steel_item_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "53B1DEF53C2F12D8"
+					item: "mm:steel_item_port_output"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["68DA8A36136C1FE8"]
+			id: "48FE24D26F580643"
+			tasks: [{
+				id: "2059CCF67A06CD78"
+				item: "mm:large_steam_turbine_controller"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["68DA8A36136C1FE8"]
+			id: "4D628B0BFC620CF8"
+			tasks: [{
+				id: "4701C50143128874"
+				item: "mm:large_steam_boiler_controller"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["369BDB7F606C9D35"]
+			icon: "mm:blueprint"
+			id: "3D6C45DADE0F4AD2"
+			tasks: [{
+				id: "7EFCBAE93AEFCCC9"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Multiblocks"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["369BDB7F606C9D35"]
+			id: "67E052B2076E6AFF"
+			tasks: [{
+				id: "0334C8DE251A28F2"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6F2A345683F544D4"]
+			id: "55EF9C7047A5ED92"
+			tasks: [{
+				id: "0F6011FAC4B6C86A"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67E052B2076E6AFF"]
+			id: "6F2A345683F544D4"
+			tasks: [{
+				id: "1339D25E9A2D812D"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55EF9C7047A5ED92"]
+			id: "196EEFCBC131CBC0"
+			shape: "circle"
+			tasks: [{
+				id: "60CACBC492DE9FE6"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["67E052B2076E6AFF"]
+			id: "6FB0A11B84A39B3E"
+			tasks: [{
+				id: "62BF3A3AF6E17771"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FB0A11B84A39B3E"]
+			id: "43E9DEE6318A77E0"
+			tasks: [{
+				id: "7330D8514789478D"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E9DEE6318A77E0"]
+			id: "10920A5F9FA3BFB8"
+			shape: "circle"
+			tasks: [{
+				id: "7375D23521412C22"
+				item: "industrialforegoing:laser_lens15"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["67E052B2076E6AFF"]
+			id: "656FEE5AA9E33A6B"
+			shape: "circle"
+			tasks: [{
+				id: "54E3F77D0F8E4AFD"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+	]
+	title: "Chapter IV"
+}

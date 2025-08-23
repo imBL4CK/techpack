@@ -1,0 +1,399 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: "047995488C1C959F"
+	icon: {
+		Count: 1
+		id: "kubejs:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2B6FD208FB8A58AF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Techpack is a modpack inspired by other hits such as: &9Gregtech New Horizons&r, &9Enigmatica 2 Expert &r , &9Create Above and Beyond&r and &9Factorio&r"
+				""
+				"Its goal is to recover all lost human knowledge about technology and magic, in order to rebuild the technological world!"
+				""
+				"The modpack has a strong focus on automation and player fun, without ignoring aspects of a more expert experience."
+			]
+			icon_scale: 0.8d
+			id: "44D8AACDA42FCF19"
+			rewards: [{
+				id: "646CFBEF29D9AFA2"
+				item: {
+					Count: 1
+					id: "akashictome:tome"
+					tag: {
+						"akashictome:data": {
+							ad_astra: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.ad_astra.astrodux\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.ad_astra.astrodux\"}]}"
+									}
+									"patchouli:book": "ad_astra:astrodux"
+								}
+							}
+							alexsmobs: {
+								Count: 1b
+								id: "alexsmobs:animal_dictionary"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.alexsmobs.animal_dictionary\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.alexsmobs.animal_dictionary\"}]}"
+									}
+								}
+							}
+							botania: {
+								Count: 1b
+								id: "botania:lexicon"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.botania.lexicon\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.botania.lexicon\"}]}"
+									}
+								}
+							}
+							buildinggadgets2: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"Gadgets for Derps\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"Gadgets for Derps\"}]}"
+									}
+									"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+								}
+							}
+							eidolon: {
+								Count: 1b
+								id: "eidolon:codex"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.eidolon.codex\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.eidolon.codex\"}]}"
+									}
+								}
+							}
+							enderio: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"guidebook.enderio.book_title\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"guidebook.enderio.book_title\"}]}"
+									}
+									"patchouli:book": "enderio:guide"
+								}
+							}
+							industrialforegoing: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"text.industrialforegoing.book.title\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"text.industrialforegoing.book.title\"}]}"
+									}
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+							}
+							malum: {
+								Count: 1b
+								id: "malum:encyclopedia_arcana"
+							}
+							pneumaticcraft: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "pneumaticcraft:book"
+								}
+							}
+							tconstruct: {
+								Count: 1b
+								id: "tconstruct:encyclopedia"
+								tag: {
+									"akashictome:displayName": {
+										text: "{\"translate\":\"item.tconstruct.encyclopedia\"}"
+									}
+									"akashictome:is_morphing": 1b
+									display: {
+										Name: "{\"translate\":\"akashictome.sudo_name\",\"with\":[{\"color\":\"green\",\"translate\":\"item.tconstruct.encyclopedia\"}]}"
+									}
+									mantle: {
+										book: {
+											current_page: "materials_armor.page0"
+										}
+									}
+								}
+							}
+							thermal: {
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "thermal:guidebook"
+								}
+							}
+						}
+						"akashictome:is_morphing": 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Welcome to Techpack!"
+			tasks: [{
+				icon: "ad_astra:earth_globe"
+				id: "07B09384B812C765"
+				stage: "starting_kit"
+				type: "gamestage"
+			}]
+			title: "Welcome!"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"In the quests of this modpack you will find some patterns that correspond to the following concepts:"
+				""
+				"{@pagebreak}"
+				"&9# Colors"
+				""
+				"&rIn the techpack, a color pattern was adopted in order to facilitate the player's understanding, they are:"
+				""
+				"- &5Purple&r: Indicates the name of an item or a subtitle"
+				"- &eYellow&r: tutorial and topics"
+				"- &9Blue&r: simply highlight text"
+				"- &aGreen&r: tips"
+				"- &cRed&r: alert"
+				""
+				"&c⚠ Alert:&r(On certain occasions the colors may deviate from this pattern, but you will be warned when this occurs)&r"
+				""
+				"{@pagebreak}"
+				"&9# Quest shape&r"
+				""
+				"The shape of a quest icon also has a meaning, they are:"
+				""
+				"- &9Rounded Square&r : Normal Quest"
+				"- &9Circle&r: Optional Quest"
+				"- &9Square:&r Second path"
+				"- &9Gear&r: Important advancement&r"
+			]
+			icon: "minecraft:writable_book"
+			id: "0D20C2E3C2E9E984"
+			subtitle: "&5 Concepts of questing"
+			tasks: [{
+				id: "47F7555E4C4DAD1C"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Quests"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"In techpack, progression can be seen in two ways"
+				""
+				"&9Chapters&r: time markers and advances, as if they were eras of sevtech"
+				""
+				"&9Gates&r: A deepening of the concept introduced in a chapter."
+			]
+			icon: "create:linked_controller"
+			id: "6CA8993CF66410D9"
+			subtitle: "&5Difference between Chapters and Gates"
+			tasks: [{
+				id: "06A62C2A2C2B0F33"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Progression"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"There are pages dedicated to research, they are like a gallery where you can review your progress or check the next stage of achievement."
+				""
+				"&a⚠ Tip&r: They have a functionality like a side questline"
+			]
+			icon: "eidolon:completed_research"
+			id: "0E45B51616B2DC18"
+			subtitle: "&5Research Pages"
+			tasks: [{
+				id: "616D0BC79A9916D5"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Researches"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: ["A special thanks to &9Gkiritol&r who helped me a lot in the process of creating the pack, with feedback, tips and suggestions, thank you!"]
+			icon: {
+				Count: 1
+				id: "minecraft:player_head"
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1611846608
+							-655602542
+							-1576424045
+							-112226439
+						]
+						Name: "Gkiritol"
+						Properties: {
+							textures: [{
+								Signature: "ftex9iSZe7VQTYBfgKyWlO8zXHKhT754RL8AzqYvmIVOnmbml3fHUKYOSwfOd9g6P50g+d7OKZCRrYqqELL9rWymHGLNj3xCDfNqxWJVSmipxdrJ6iPpp5RWtNtA5g7+NhiUgTZvxgQBzvZTFNm+IimcNsGewfOla+1B6AjqtBuPE2fFsTPA34GrnT28SmfsjgDbnQXEAR3m8IUK3OoT6WAF/gy0R1PgpljLQ3Abt9uWrd/tRLB4tuIJ1aUeHqeEX4A1+YFJI+YUfGz2c4V7qPVbxnuUt8tiIoH1zjdu741n97NvkXrirjhI9RF4YuFLLO/akJ0Ukp4uHfNDHzUkDCI6YJBlejO3uv4AaSXofYJd68CZeKMMDAwdoSu69D2XVRTpMg8rLyHygfDnWJKc/U06JpXu5KjXVT+o6m3sZwEIc1P7WSr9qWxW3zGICUWEbo68yDqqVMDGVPTyF/NuKErk+JsycAJfkMn/PH8ySrfO2pfuQaX8cB+H1j7W+apXC1VX/DnXBwekUTCIW9kQwSowKwoJAE6LuGmq/vs8SDFfAC8ru8dDjEWqxDOuOt/e4SRzpTNj8Bt7X/Rn5RdOGU62TodOpNtU2zADTEHgyHFkmnnEVoErHASiJYWeuSXSFhrECqVasq9WQ+Zi4bniGK3e4yCGDZKbmynCMl9MRug="
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTc0NjI4MDQ5NDY2OSwKICAicHJvZmlsZUlkIiA6ICI5ZmVkMmMzMGQ4ZWM0YzkyYTIwOWFkOTNmOTRmOGY3OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHa2lyaXRvbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMDY3MjQyY2JkYjQwNTI5NWYzNDZlZTIzMjJkZTE5MGY3YTBmOGI0MDczOWQzNGRlNzA0OWI3MWMzMzhiOTVhIgogICAgfQogIH0KfQ=="
+							}]
+						}
+					}
+				}
+			}
+			id: "022266B0796E03A3"
+			subtitle: "&5Feedback and Support"
+			tasks: [{
+				id: "2223D3AA0810C3A7"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Supporters"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"In Techpack, certain ores have variations in their quantity generation according to the biome temperature. Temperatures are divided into 3: &9temperate, hot and cold.&r"
+				""
+				"&e-&r If you want to know more, use Moddedpedia and open it at &9Techlab&r > &9Ore Generation&r"
+				""
+				"&a⚠ Tip&r: this generation of ores only applies to the overworld."
+			]
+			id: "63DC2A7E9EE0D4C7"
+			subtitle: "&5Explore the caves around overworld"
+			tasks: [{
+				id: "72237B28CE65BF62"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			title: "Custom Ore Generation"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"The modpack has its own shop, where you can buy raw materials, food, supplies, etc."
+				""
+				"It was made with the intention of avoiding grinding, but without being broken, so keep in mind that things are expensive"
+				""
+				"&e-&r You can access it through the inventory, in the upper left corner, or by clicking &9F4&r"
+				"&e-&r The sales are Questlocked, that is, they will only appear when certain quests are completed."
+				"&e-&r When you unlock a new sale, it appears normally in the shop, but with a description indicating which quest is necessary to obtain it"
+			]
+			icon: "kubejs:epic_techbuck"
+			id: "24CA383E120B2E10"
+			subtitle: "&5Supply Shop"
+			tasks: [{
+				id: "4BD7039D1D2E957E"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Shop"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"The modpack has its own machines and multiblocks with specific functions that you will learn about during gameplay"
+				""
+				"The machines and multiblocks were heavily inspired by mods like &9Industrial Craft 2&r and &9Gregtech 5&r"
+				""
+				"&a⚠ Tip&r: In Modded Ask you will find chapters dedicated to explaining how machines and multiblocks work."
+			]
+			icon: {
+				Count: 1
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:industrialrevival/energetic_smelter"
+				}
+			}
+			id: "3B5FC3101C03663B"
+			subtitle: "&5Exclusive machines"
+			tasks: [{
+				id: "499E59EBAF8F6ECD"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Techlab Machines and Multiblocks"
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["44D8AACDA42FCF19"]
+			description: [
+				"If you want a more personal space to build without too much hassle, use the void dimension"
+				""
+				"The &9void dimension&r is an empty dimension with a portal in the center"
+				""
+				"&e-&r you spawn on top of a platform with the portal in the middle allowing you to return to the overworld"
+				"&e-&r the dimension will always be daytime"
+				"&e-&r mobs do not spawn naturally"
+			]
+			icon: "tempad:he_who_remains_tempad"
+			id: "1A8151F53C060AFD"
+			rewards: [{
+				id: "7BD9ABA190ED01EB"
+				item: "javd:portal_block"
+				type: "item"
+			}]
+			subtitle: "&5Build calmly"
+			tasks: [{
+				id: "1070B7191B33B662"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Void Dimension"
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Introduction"
+}

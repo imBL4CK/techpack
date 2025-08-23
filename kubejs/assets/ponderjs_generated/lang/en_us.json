@@ -1,0 +1,11 @@
+{
+  "kubejs.ponder.arc_furnace.header": "Arc furnace structure",
+  "kubejs.ponder.arc_furnace.text_1": "controller always needs to be in the middle of two ports",
+  "kubejs.ponder.arc_furnace.text_2": "the two ports adjacent to the controller can be either item input or output",
+  "kubejs.ponder.arc_furnace.text_3": "the power port needs to be in this position",
+  "kubejs.ponder.freezer.header": "Freezer structure",
+  "kubejs.ponder.freezer.text_1": "the item ports needs to be in this position, either input or output",
+  "kubejs.ponder.freezer.text_2": "the fluid ports needs to be in this position, either input or output",
+  "kubejs.ponder.freezer.text_3": "controller goes here.",
+  "kubejs.ponder.freezer.text_4": "the power port needs to be in this position"
+}

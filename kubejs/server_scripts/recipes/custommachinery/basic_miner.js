@@ -1,0 +1,211 @@
+ServerEvents.recipes((e) => {
+  let temperate = [
+    "atmospheric:grimwoods",
+    "atmospheric:laurel_forest",
+    "environmental:marsh",
+    "hexerei:willow_swamp",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:deep_dark",
+    "minecraft:dripstone_caves",
+    "minecraft:flower_forest",
+    "minecraft:forest",
+    "minecraft:mangrove_swamp",
+    "minecraft:mushroom_fields",
+    "minecraft:oak_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:ocean",
+    "minecraft:plains",
+    "minecraft:river",
+    "minecraft:stony_shore",
+    "minecraft:sunflower_plains",
+    "minecraft:swamp",
+    "natures_spirit:alpine_clearings",
+    "natures_spirit:alpine_highlands",
+    "natures_spirit:aspen_forest",
+    "natures_spirit:blooming_sugi_forest",
+    "natures_spirit:coniferous_covert",
+    "natures_spirit:cypress_fields",
+    "natures_spirit:fir_forest",
+    "natures_spirit:floral_ridges",
+    "natures_spirit:flowering_shrubland",
+    "natures_spirit:golden_wilds",
+    "natures_spirit:heather_fields",
+    "natures_spirit:maple_woodlands",
+    "natures_spirit:marigold_meadows",
+    "natures_spirit:marsh",
+    "natures_spirit:prairie",
+    "natures_spirit:red_peaks",
+    "natures_spirit:redwood_forest",
+    "natures_spirit:sugi_forest",
+    "natures_spirit:white_cliffs",
+    "natures_spirit:wisteria_forest",
+    "natures_spirit:woody_highlands",
+    "quark:glimmering_weald",
+    "wetland_whimsy:marsh",
+  ];
+  let cold = [
+    "atmospheric:aspen_parkland",
+    "atmospheric:snowy_scrubland",
+    "environmental:blossom_valleys",
+    "environmental:blossom_woods",
+    "environmental:old_growth_pine_barrens",
+    "environmental:pine_barrens",
+    "environmental:pine_slopes",
+    "environmental:snowy_pine_barrens",
+    "minecraft:cherry_grove",
+    "minecraft:cold_ocean",
+    "minecraft:deep_cold_ocean",
+    "minecraft:deep_frozen_ocean",
+    "minecraft:deep_ocean",
+    "minecraft:frozen_ocean",
+    "minecraft:frozen_peaks",
+    "minecraft:frozen_river",
+    "minecraft:grove",
+    "minecraft:ice_spikes",
+    "minecraft:jagged_peaks",
+    "minecraft:meadow",
+    "minecraft:old_growth_pine_taiga",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_slopes",
+    "minecraft:snowy_taiga",
+    "minecraft:stony_peaks",
+    "minecraft:taiga",
+    "minecraft:windswept_forest",
+    "minecraft:windswept_gravelly_hills",
+    "minecraft:windswept_hills",
+    "natures_spirit:boreal_taiga",
+    "natures_spirit:sleeted_slopes",
+    "natures_spirit:snowcapped_red_peaks",
+    "natures_spirit:snowy_fir_forest",
+    "natures_spirit:snowy_redwood_forest",
+    "natures_spirit:tundra",
+    "natures_spirit:windswept_sugi_forest",
+  ];
+  let hot = [
+    "atmospheric:dunes",
+    "atmospheric:flourishing_dunes",
+    "atmospheric:hot_springs",
+    "atmospheric:kousa_jungle",
+    "atmospheric:petrified_dunes",
+    "atmospheric:rainforest",
+    "atmospheric:rainforest_basin",
+    "atmospheric:rocky_dunes",
+    "atmospheric:scrubland",
+    "atmospheric:sparse_rainforest",
+    "atmospheric:sparse_rainforest_basin",
+    "atmospheric:spiny_thicket",
+    "minecraft:bamboo_jungle",
+    "minecraft:badlands",
+    "minecraft:beach",
+    "minecraft:deep_lukewarm_ocean",
+    "minecraft:desert",
+    "minecraft:eroded_badlands",
+    "minecraft:jungle",
+    "minecraft:lush_caves",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:sparse_jungle",
+    "minecraft:warm_ocean",
+    "minecraft:windswept_savanna",
+    "minecraft:wooded_badlands",
+    "natures_spirit:arid_highlands",
+    "natures_spirit:arid_savanna",
+    "natures_spirit:bamboo_wetlands",
+    "natures_spirit:blooming_dunes",
+    "natures_spirit:blooming_highlands",
+    "natures_spirit:carnation_fields",
+    "natures_spirit:chaparral",
+    "natures_spirit:drylands",
+    "natures_spirit:dusty_slopes",
+    "natures_spirit:lavender_fields",
+    "natures_spirit:lively_dunes",
+    "natures_spirit:oak_savanna",
+    "natures_spirit:scorched_dunes",
+    "natures_spirit:shrubby_highlands",
+    "natures_spirit:shrubland",
+    "natures_spirit:sparse_tropical_woods",
+    "natures_spirit:stratified_desert",
+    "natures_spirit:tropical_basin",
+    "natures_spirit:tropical_shores",
+    "natures_spirit:tropical_woods",
+    "natures_spirit:wooded_drylands",
+    "natures_spirit:xeric_plains",
+  ];
+  //Temperate
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/basic_miner", 2400)
+      .requireEnergyPerTick(40)
+      .biomeWhitelist(temperate)
+      .biomeBlacklist([cold, hot])
+      .requirePosition("", "[-54,0]", "")
+      .requireStructure(
+        [
+          ["ccc", "ccc", "ccc"],
+          [" s ", "scs", " m "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+        ],
+        { c: "kubejs:steel_casing", s: "tfmg:steel_scaffolding" }
+      )
+      .damageItemTag("techpack:miners_drill", 1)
+      .lootTableOutput("custommachinery:miner/temperate")
+      .info(info => info
+        .tooltip("Only in Temperate Climate Biomes")
+        .item("minecraft:oak_sapling")
+    );
+  }
+  //Cold
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/basic_miner", 2400)
+      .requireEnergyPerTick(40)
+      .biomeWhitelist(cold)
+      .biomeBlacklist([temperate, hot])
+      .requirePosition("", "[-54,0]", "")
+      .requireStructure(
+        [
+          ["ccc", "ccc", "ccc"],
+          [" s ", "scs", " m "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+        ],
+        { c: "kubejs:steel_casing", s: "tfmg:steel_scaffolding" }
+      )
+      .damageItemTag("techpack:miners_drill", 1)
+      .lootTableOutput("custommachinery:miner/temperate").info(info => info
+        .tooltip("Only in Cold Climate Biomes")
+        .item("minecraft:spruce_sapling")
+    );
+  }
+  //Hot
+  {
+    e.recipes.custommachinery
+      .custom_machine("custommachinery:industrialrevival/basic_miner", 2400)
+      .requireEnergyPerTick(40)
+      .biomeWhitelist(hot)
+      .biomeBlacklist([cold, temperate])
+      .requirePosition("", "[-54,0]", "")
+      .requireStructure(
+        [
+          ["ccc", "ccc", "ccc"],
+          [" s ", "scs", " m "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+          [" s ", "scs", " s "],
+        ],
+        { c: "kubejs:steel_casing", s: "tfmg:steel_scaffolding" }
+      )
+      .damageItemTag("techpack:miners_drill", 1)
+      .lootTableOutput("custommachinery:miner/temperate")
+      .info(info => info
+        .tooltip("Only in Hot Climate Biomes")
+        .item("minecraft:acacia_sapling")
+    );
+  }
+});

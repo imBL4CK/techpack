@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "kubejs:item/soul_stained_steel_wand_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "kubejs:item/soul_stained_steel_wand_gui"
+    },
+    "fixed": {
+      "parent": "kubejs:item/soul_stained_steel_wand_gui"
+    }
+  }
+}

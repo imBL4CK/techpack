@@ -1,0 +1,118 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "under_pressure"
+	group: "027DF5719475D040"
+	icon: {
+		Count: 1
+		id: "pneumaticcraft:pneumatic_wrench"
+		tag: {
+			"pneumaticcraft:air": 30000
+		}
+	}
+	id: "2ABF349C540270AE"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0B639F84CE23C817"]
+			id: "0D9B5C288940E3DE"
+			tasks: [{
+				id: "5CAA7DBC94F8AF4D"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D9B5C288940E3DE"]
+			icon: "pneumaticcraft:pressure_chamber_valve"
+			id: "5971772093F3BBC5"
+			tasks: [
+				{
+					count: 2L
+					id: "7BF163C8380D33FD"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					id: "0D30BC21A2CC99B9"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "45EE06382955F768"
+					item: { Count: 25, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "16AEDB6B0F280B76"
+					item: { Count: 47, id: "pneumaticcraft:pressure_chamber_glass" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5971772093F3BBC5"]
+			id: "5BE4CB7D266D67BB"
+			tasks: [{
+				id: "4C7F60A977888180"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5971772093F3BBC5"]
+			icon: "pneumaticcraft:refinery"
+			id: "31FDCA85793CC758"
+			tasks: [
+				{
+					id: "4F451EB2B7174FA0"
+					item: "pneumaticcraft:refinery"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "49AD85432FE34569"
+					item: "pneumaticcraft:refinery_output"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0F0A11A40160CA3F"]
+			id: "0B639F84CE23C817"
+			tasks: [{
+				id: "022E8657C6C238D2"
+				item: "pneumaticcraft:pressure_tube"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "0F0A11A40160CA3F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4E07C3E5632FD0E5"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			title: "Starting in Pneumaticcraft"
+			x: -2.5d
+			y: -0.5d
+		}
+	]
+	title: "Under Pressure"
+}

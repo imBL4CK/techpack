@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "culinary"
+	group: "4AD243FA5382E478"
+	icon: "farmersdelight:roast_chicken_block"
+	id: "7A37FEBF0A4F1C65"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Culinary"
+}

@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_transport"
+	group: "4AD243FA5382E478"
+	icon: "thermal:energy_duct"
+	id: "592957165FFD5FF3"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4103111D331BDB6B"]
+			id: "597370B8D8639497"
+			tasks: [{
+				id: "107D70975A164F7C"
+				item: "thermal:energy_duct"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4103111D331BDB6B"]
+			id: "58385E316067067C"
+			shape: "square"
+			tasks: [{
+				id: "2F0C1BCE1E480FD5"
+				item: "actuallyadditions:laser_relay"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["58385E316067067C"]
+			id: "525DC961796770EA"
+			shape: "square"
+			tasks: [{
+				id: "6F30B7B654ACD4BD"
+				item: "actuallyadditions:laser_relay_advanced"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["525DC961796770EA"]
+			id: "04F492357077C58B"
+			shape: "circle"
+			tasks: [{
+				id: "779935FF1CD4D371"
+				item: "actuallyadditions:laser_relay_extreme"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4103111D331BDB6B"]
+			id: "52BAAAC037964B45"
+			tasks: [{
+				id: "360221CA18EC5695"
+				item: "enderio:basic_energy_conduit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52BAAAC037964B45"]
+			id: "29C5DA9031074E4B"
+			tasks: [{
+				id: "1BEA4630400FF3E7"
+				item: "enderio:enhanced_energy_conduit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29C5DA9031074E4B"]
+			id: "59C6771914F89226"
+			tasks: [{
+				id: "169E1751265A8597"
+				item: "enderio:ender_energy_conduit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "51B35F18ABF82DE9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5676BB959692F3EC"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51B35F18ABF82DE9"]
+			id: "2BCA340BED31D1D5"
+			tasks: [{
+				id: "3C56E287EE83B543"
+				item: "thermal:fluid_duct"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			icon: "minecraft:chest"
+			icon_scale: 0.8d
+			id: "318D69EC33FBA1DF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "33EAF7A4406B7DAB"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["318D69EC33FBA1DF"]
+			id: "2E4A4195C264A243"
+			tasks: [{
+				id: "7D6025E749F339E8"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E4A4195C264A243"]
+			id: "6524F181DAD66C42"
+			tasks: [{
+				id: "71E977717A9DC96A"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			icon_scale: 0.8d
+			id: "4103111D331BDB6B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "16777AE6A9AE07DA"
+				item: "createaddition:copper_spool"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+	]
+	title: "Logistics"
+}

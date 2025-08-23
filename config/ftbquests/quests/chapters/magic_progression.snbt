@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "magic_progression"
+	group: "4AD243FA5382E478"
+	icon: "eidolon:crucible"
+	id: "6F209FCB727F4A18"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "7497B7C6DE49AA8D"
+			tasks: [{
+				id: "6170E1BD6511B011"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["550B0BB18300FADB"]
+			id: "7CD3F4D3F97B4B41"
+			tasks: [{
+				id: "37BC19BEF72A6C70"
+				item: "malum:runewood_obelisk"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["550B0BB18300FADB"]
+			id: "0E91686F7DC948D9"
+			tasks: [{
+				id: "36A36A4B478A4994"
+				item: "forbidden_arcanus:clibano_core"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["550B0BB18300FADB"]
+			id: "31EC1C6F2B75A280"
+			tasks: [{
+				id: "2F4F04E02BB5AB6F"
+				item: "malum:spirit_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["550B0BB18300FADB"]
+			id: "08B2817C064C702C"
+			tasks: [{
+				id: "341F266A16667B77"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08B2817C064C702C"]
+			icon: "forbidden_arcanus:hephaestus_forge"
+			id: "4D243B47D943562B"
+			tasks: [{
+				icon: "forbidden_arcanus:hephaestus_forge"
+				id: "404B7BEF8B023BC0"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:hephaestus_forge"
+				type: "observation"
+			}]
+			title: "Ancient forge"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["08B2817C064C702C"]
+			description: [
+				"&9Hexerei&r adds an interesting feature, brooms! "
+				""
+				"They can fly around the world, but they use up durability from your brush, which can be easily crafted in case of total loss"
+				""
+				"&e-&r Brooms can also be customized by the player, who can add satchels, new brushes or decorative accessories"
+			]
+			icon: {
+				Count: 1
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "28F7AA1258919A48"
+			rewards: [{
+				id: "01376540EFAEB262"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Craft  a Broom"
+			tasks: [{
+				id: "730243183E42B334"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_broom"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Brooms!"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			id: "68E43B333193A3FC"
+			shape: "circle"
+			tasks: [{
+				id: "6DB4EBCD0C6076E2"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			icon_scale: 0.8d
+			id: "652F9843A9F3CF99"
+			shape: "circle"
+			tasks: [{
+				id: "2464C8873493C080"
+				item: "malum:repair_pylon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2C82A646DD73D098"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1EB19F04F4C19D5A"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			title: "Studying is the basis of everything"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "13A8204A678E8D08"
+			tasks: [{
+				id: "6FED9E75E9D6B46F"
+				item: "eidolon:brazier"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "4B5DCE1829967837"
+			shape: "circle"
+			tasks: [{
+				id: "0E620C928ACA4D1E"
+				item: "eidolon:soul_enchanter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			id: "3E4ED31F1BC63DD0"
+			tasks: [{
+				id: "3D4033B399693257"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["550B0BB18300FADB"]
+			description: [
+				"It's annoying to have to build using scaffolding or walking around the base, so the solution to your problems is the &5magic feather&r!"
+				""
+				"&e-&r The magic feather allows you to fly like in creative mode, but &9128&r blocks near a beacon."
+				""
+				"&e-&r Magic feather is used as a base for other creative fly items like the Flügel Tiara "
+				""
+				"&c⚠ Alert:&r not to be confused with creative fly jetpacks, Jetpacks do not stay in the air like creative fly and use energy, but they can fly without restrictions."
+			]
+			id: "52AF86F646090848"
+			rewards: [{
+				id: "57EA35FBBA1538B5"
+				item: "kubejs:rare_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Craft Magic Feather"
+			tasks: [{
+				id: "1C7F5BF3D3840FD4"
+				item: "magicfeather:magic_feather"
+				type: "item"
+			}]
+			title: "Fly Away!"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			icon: {
+				Count: 1
+				id: "malum:malignant_stronghold_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3CD651F10DC829B5"
+			shape: "circle"
+			subtitle: "&5Get Malignant  Fortress full set"
+			tasks: [
+				{
+					id: "4963537C01CEEAA6"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69EF685DB38C4CB2"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E176718139EFE91"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FF90AFB1C96C741"
+					item: {
+						Count: 1
+						id: "malum:malignant_stronghold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Magic Fortress"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D243B47D943562B"]
+			id: "2847D0C043D8A59F"
+			shape: "circle"
+			tasks: [{
+				id: "54D1C22092C0F4FB"
+				item: {
+					Count: 1
+					id: "kubejs:elder_miners_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			description: [
+				"Wands are catalysts for malum spirits, they are very important items within the modpack, with them you can collect spirits from nodes by pressing &eRight-click&r directly, each tier of wands has a cooldown."
+				""
+				"Wands can also be used to replicate researches in a &9Research table&r, if the wand is present in the table, only duplication recipes can be made"
+				"{@pagebreak}"
+				"To get &9Runewood Wand&r press &eRight-Click&r in an Exposed Runewood Log with Totemic Staff"
+			]
+			id: "3F9E0827AC1FDEEC"
+			rewards: [{
+				id: "1D7375EFE07CA20B"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Get an Runewood Wand"
+			tasks: [{
+				id: "45FB9AE0F2689541"
+				item: {
+					Count: 1
+					id: "kubejs:runewood_wand"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["30559657FEA0CE42"]
+			id: "785F4037E985A5AE"
+			tasks: [{
+				id: "6146153C3CDD4134"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/basic_spirit_catalyzer"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C82A646DD73D098"]
+			id: "30559657FEA0CE42"
+			tasks: [{
+				id: "0D65FDE6187C71C3"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/research_table"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30559657FEA0CE42"]
+			id: "639E37C2B17AB963"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "4656C9B02660E995"
+				item: {
+					Count: 1
+					id: "kubejs:magic_mirror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"104E7094B28E8114"
+				"13A8204A678E8D08"
+			]
+			icon: "malum:spirit_altar"
+			id: "550B0BB18300FADB"
+			tasks: [
+				{
+					id: "6A796994F4942577"
+					item: "malum:encyclopedia_arcana"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58228E061EB59104"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+			]
+			title: "Manipulating spirits"
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "Magic Progression"
+}

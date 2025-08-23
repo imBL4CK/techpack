@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utilities__qol"
+	group: "4AD243FA5382E478"
+	icon: "ad_astra:wrench"
+	id: "47585FB508FF20CA"
+	images: [
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "suppsquared:item/item_shelves/item_shelf"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 4.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "comforts:sleeping_bag_white"
+			id: "22350396F07E287A"
+			tasks: [
+				{
+					id: "4CEBF0081A548564"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					title: "Any #comforts:sleeping_bags"
+					type: "item"
+				}
+				{
+					id: "3F90A0D47A262238"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Portable Bed"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "7652B75CEE9E68B5"
+			tasks: [
+				{
+					id: "18141F5CBAB0E75F"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "constructionwand:stone_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:iron_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:diamond_wand"
+									tag: {
+										Damage: 0
+										wand_options: { }
+									}
+								}
+								{
+									Count: 1b
+									id: "constructionwand:infinity_wand"
+									tag: {
+										wand_options: { }
+									}
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "412A7ADB0D60F6A7"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Avada Kedavra"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			icon: "breezy:hot_air_balloon"
+			id: "29C3701102469630"
+			tasks: [
+				{
+					id: "7FDE39CFA7DDD915"
+					item: "breezy:hot_air_balloon"
+					type: "item"
+				}
+				{
+					id: "1BC23480768FD858"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			icon: "woodworks:sawmill"
+			id: "16688A207B3B95FB"
+			tasks: [
+				{
+					id: "67995F3D2435431F"
+					item: "woodworks:sawmill"
+					type: "item"
+				}
+				{
+					id: "32D2768B1CE9711C"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "actuallyadditions:ring_of_magnetizing"
+				tag: { }
+			}
+			id: "5F968F496125C02A"
+			tasks: [
+				{
+					id: "257C21C84172844D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "actuallyadditions:ring_of_magnetizing"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "00D31291A2C23BE9"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: "actuallyadditions:crafter_on_a_stick"
+			id: "1B0CAF47BD76317F"
+			tasks: [
+				{
+					id: "78876DAF361543C0"
+					item: "actuallyadditions:crafter_on_a_stick"
+					type: "item"
+				}
+				{
+					id: "33F5F398DB5B0108"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5F5801B50F3313C8"
+			tasks: [
+				{
+					id: "3CDE9276F359D454"
+					item: {
+						Count: 1
+						id: "quark:pickarang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3475E46E9516B24B"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "7ED78758347D6C1B"
+			tasks: [{
+				id: "0105AD4B7AE00074"
+				item: "easel_does_it:easel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Open: 0b
+						SelectedSlot: 0b
+						Size: 6
+					}
+				}
+				id: "supplementaries:lunch_basket"
+			}
+			id: "03852DF6437F8413"
+			tasks: [
+				{
+					id: "3335F0329535333B"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "1932124FDC219E6E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Open: 0b
+								SelectedSlot: 0b
+								Size: 6
+							}
+						}
+						id: "supplementaries:lunch_basket"
+					}
+					type: "item"
+				}
+			]
+			title: "Lunch Basket"
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:industrialrevival/fishing_basin"
+				}
+			}
+			id: "5F9C124AFFE377A1"
+			tasks: [
+				{
+					id: "1F06C3FE48B7E47E"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "6A11D5794B7FC792"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/fishing_basin"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fishing Basin"
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			icon: "supplementaries:faucet"
+			id: "46779F1A99465E3C"
+			tasks: [
+				{
+					id: "34A6ACDF2CD9BD52"
+					item: "supplementaries:faucet"
+					type: "item"
+				}
+				{
+					id: "14D7925CEF22B592"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			icon: "horseexpert:monocle"
+			id: "426C788B96FC8F89"
+			tasks: [
+				{
+					id: "0101027763C8F583"
+					item: "horseexpert:monocle"
+					type: "item"
+				}
+				{
+					id: "16DB6E007F860078"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			icon: "jecalculation:item_calculator_craft"
+			id: "1E9F98AD02A66B5E"
+			tasks: [
+				{
+					id: "33EA602AF7BDFA78"
+					item: "jecalculation:item_calculator_craft"
+					type: "item"
+				}
+				{
+					id: "6AA1721AA65F4ACD"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "buildinggadgets2:gadget_building"
+				tag: {
+					uuid: [I;
+						-953719106
+						2076983711
+						-1893963409
+						1666223997
+					]
+				}
+			}
+			id: "307830CAC8A979A7"
+			tasks: [
+				{
+					id: "4EF63AB131C3DACC"
+					item: {
+						Count: 1
+						id: "buildinggadgets2:gadget_building"
+						tag: {
+							uuid: [I;
+								-953719106
+								2076983711
+								-1893963409
+								1666223997
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6780222E6E2AA42F"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Utilities and QoL"
+}

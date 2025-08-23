@@ -1,0 +1,653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii"
+	group: "047995488C1C959F"
+	icon: "tfmg:radial_engine"
+	id: "6B362B835840791F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19836D161547333E"]
+			description: [
+				"This chapter will focus on advancing in &9Create: The Factory Must Grow&r and in logistics technologies."
+				""
+				"&e-&r Oil will be your focus in advancing as it is a great source of energy."
+				"&e-&r Steel will also be very important in the rest of the entire modpack, it is the most used resource to make resistant components."
+			]
+			icon: "tfmg:steel_flywheel"
+			id: "104E7094B28E8114"
+			rewards: [
+				{
+					id: "019D48EE362885EA"
+					item: "thermal:rubberwood_sapling"
+					type: "item"
+				}
+				{
+					id: "11FD042B4571C32A"
+					item: "kubejs:common_techbuck"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5The black gold"
+			tasks: [{
+				id: "076F0038C4B33B4B"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Heavy Machinery"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34CBD50768BD259C"]
+			icon: "create:blaze_burner"
+			id: "7E023B9ECD1E2E3C"
+			tasks: [
+				{
+					id: "4A0475CA0F643CFF"
+					item: "create:empty_blaze_burner"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1902B7492FBEEBDE"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Alive Heat Source"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["104E7094B28E8114"]
+			description: [
+				"Your first way to manipulate fluids is by using the create components."
+				""
+				"&e-&r They are made using bronze, and since you probably don't have a smeltery yet, you can make &9Bronze Blends&r in a pestle and mortar and then heat them."
+				""
+				"{@pagebreak}"
+				"&9Mechanical Pump&r: is a mechanical component that pumps fluids when energized. You can energize it using cogwheels."
+				""
+				"&e-&r it is possible to change whether it will pull or push fluids according to the direction of rotation"
+				""
+				"By pressing &9W&r and hovering over &5Mechanical Pump&r, you can see the weight of the structure."
+				""
+				"{@pagebreak}"
+				"&9Fluid Pipe&r: used as a path through which fluids will flow"
+				""
+				"&e-&r You can click with the wrench to show which fluid is flowing through the pipe"
+				"&e-&r Using &9Copper Casings&r you can lock a connection, thus avoiding logistical errors in nearby pipes"
+				""
+				"By pressing &9W&r and hovering over &5Fluid Pipe&r, you can see the weight of the structure."
+				""
+				"{@pagebreak}"
+				"&9Fluid Tanks&r: are used to store fluids"
+				""
+				"&e-&r Have 8 storage buckets"
+				"&e-&r Can form multiblocks (2x2, 3x3)"
+				""
+				"By pressing &9W&r and hovering over &5Fluid Tank&r, you can see the weight of the structure."
+			]
+			icon: "create:fluid_tank"
+			id: "0943528D87916444"
+			shape: "circle"
+			subtitle: "&5Craft fluid related items"
+			tasks: [
+				{
+					count: 4L
+					id: "7659A7F76EAE87A7"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "502992F23332A8C7"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3DF76BA8E501AF1C"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "Fluid Logistics"
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["104E7094B28E8114"]
+			description: [
+				"Spirit altar is a ritual that infuses spirits and items, you can see its recipes in the &9JEI/EMI&r."
+				""
+				"The altar requires pillars to add other items, if you look at the JEI/EMI there is an item in the middle and others on the outside, the middle item is placed directly on the altar."
+				"{@pagebreak}"
+				"It is good to remember that the ritual will only happen if compatible spirits are on the altar, that is, requested in the recipe."
+				""
+				"It is possible to speed up the ritual using &9Runewood Obelisks&r"
+			]
+			icon: "malum:spirit_altar"
+			id: "34CBD50768BD259C"
+			subtitle: "&5Craft a spirit altar"
+			tasks: [
+				{
+					id: "2ACD3FC914F8FD61"
+					item: "malum:encyclopedia_arcana"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6FD1E8F7BF21FA41"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+			]
+			title: "Manipulating spirits"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E023B9ECD1E2E3C"]
+			hide_dependency_lines: true
+			icon: "create:polished_rose_quartz"
+			id: "2600F1D15E7F6E92"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "7CD225E6B023D0D5"
+					item: "create:rose_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6979AFEF87E3F9E6"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3BDA6CA63C4F22A9"]
+			icon: {
+				Count: 1
+				id: "kubejs:rustic_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "596DCDACAC56F48B"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "2C830BCDFCC5070B"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7147FE4B27ABE6F9"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F73B397D5CF5A7D"
+					item: {
+						Count: 1
+						id: "kubejs:rustic_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BDA6CA63C4F22A9"]
+			description: [
+				"The Blast Furnace has a simple functionality, it is smelt Coal Coke Dust and Blasting Mixture into Molten Steel and Molten Slag."
+				""
+				"&eHow to use:&r You have to drop the items  in the &9top&r of structure and extract fluids in &5Blast Furnace Output&r "
+				""
+				"Pressing &9W&r hovering &5Blast Furnace Output&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&c⚠ Alert:&r If an item falls inside the structure and causes a bug, you can break the &5Blast Furnace Output&r  and the item will be dropped."
+				""
+				"&a⚠ Tip:&r To make your life easier, you can access a ready-made schematic from &5Schematic Table&r&r"
+			]
+			icon: "tfmg:blast_furnace_output"
+			id: "449BBCE11138BB0E"
+			subtitle: "&5The Great Red Furnace&r"
+			tasks: [
+				{
+					id: "6AD73E8EAE08A550"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "66A44854F3AAAB6F"
+					item: { Count: 16, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "10F36F01F877582A"
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+			]
+			title: "The Blast Furnace"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			icon: "create:smart_chute"
+			id: "42ADADFE7997A42B"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1F147131813D1F53"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "2CB348D932B79847"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "372BB9A9F25827CA"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "348A23857B7FAB95"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "20091916AFADAE5D"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			title: "Smart Parts"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"449BBCE11138BB0E"
+				"2600F1D15E7F6E92"
+			]
+			icon: "create:precision_mechanism"
+			id: "0D6DAED46CCFA300"
+			tasks: [{
+				id: "556C7B5372FEF16C"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			description: [
+				"The Coke Oven is a multiblock structure that  turns &5Coal&r into &5Coal Coke&r."
+				""
+				"&eHow to use&r: "
+				"&e-&r Using a hopper or any type of piping items you insert coal. "
+				"&e-&r While recipe is running, Coke Oven produces creosote and CO2."
+				"&e-&r When recipe ends, the output is dropperd in the door of Coke Oven."
+				""
+				"Pressing &9W&r hovering &5Coke Oven&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&a⚠ Tip:&r You can void CO2 Using Exhaust"
+				""
+				"&a⚠ Tip:&r Its recommended that you use more than one Coke Oven "
+				""
+				"&a⚠ Tip:&r To make your life easier, you can access a ready-made schematic from &5Schematic Table&r&r"
+			]
+			id: "228ABE25D3D564C6"
+			subtitle: "&5Coke Empire&r"
+			tasks: [{
+				count: 9L
+				id: "1C48DC06693A4956"
+				item: { Count: 9, id: "tfmg:coke_oven" }
+				type: "item"
+			}]
+			title: "The Coke Oven"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0D6DAED46CCFA300"]
+			icon: "tfmg:casting_spout"
+			id: "4E8ED1850D00554D"
+			tasks: [
+				{
+					id: "6214C4C05EBB2440"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+				{
+					id: "1C7ADF5B3294146F"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E8ED1850D00554D"
+				"228ABE25D3D564C6"
+			]
+			description: [
+				"The steel mechanism marks the beginning of a new era, the oil era!"
+				""
+				"&e-&r With oil, you can get more rotational power, making your farms more efficient."
+				"&e-&r In the future, you can use petroleum derivatives to generate electricity"
+				""
+				"{@pagebreak}"
+				"You can find oil in various ways, create: the factory must grow, pneumaticraft or thermal "
+				""
+				"- &9Create: the factory must grow:&r deposits in bedrock, large amount of crude oil"
+				"- &9Pneumatic Craft&r: deposits in surface, moderate amount of crude oil"
+				"- &9Thermal Series&r: Oil Sands can be found in surface of  overworld, moderate amout of crude oil"
+				""
+				"&c⚠ Alert: &rAd Astra Oil deposits are disabled"
+			]
+			icon: "tfmg:steel_mechanism"
+			id: "4788CF6CA963803C"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Beginning of the Oil Age"
+			tasks: [{
+				id: "1D073C5D44C912B2"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 2.5357142857142776d
+			y: 3.9991496598639458d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: {
+				Count: 1
+				id: "kubejs:basic_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61FF40E20DF6B835"
+			tasks: [
+				{
+					id: "75123E44ABBEC92E"
+					item: {
+						Count: 1
+						id: "kubejs:basic_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "738C04E493AA1273"
+					item: {
+						Count: 1
+						id: "kubejs:basic_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BA7572A9920CD5B"
+					item: {
+						Count: 1
+						id: "kubejs:basic_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63473DA36680E86F"
+					item: {
+						Count: 1
+						id: "kubejs:wrench"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: "create:controls"
+			id: "216FFEAF98DC6B1D"
+			shape: "circle"
+			tasks: [{
+				id: "737E46769C28A694"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			icon: "integratedterminals:part_terminal_storage"
+			id: "18EED714606C13D4"
+			subtitle: "&5Logistic System"
+			tasks: [
+				{
+					id: "68B3A11E6A145881"
+					item: "integratedterminals:part_terminal_storage"
+					type: "item"
+				}
+				{
+					id: "6F42B0CA98AF719B"
+					item: "integrateddynamics:cable"
+					type: "item"
+				}
+				{
+					id: "248E505063B1E61D"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+			]
+			title: "Storage management"
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4788CF6CA963803C"]
+			description: [
+				"Surface Scanner can find ore deposits near it, It has a face that has to be energized with rotational power to work."
+				""
+				"&eHow to use&r: "
+				"&e-&r Place Surface Scanner in the ground"
+				"&e- &rEnergize Surface Scanner with rotational power on its dedicated face "
+				""
+				"Pressing &9W&r hovering &5Surface Scanner&r you can see the ponder of structure."
+			]
+			id: "0565516A4C96C1C1"
+			subtitle: "&5Finding Oil"
+			tasks: [{
+				id: "565CE24D5482B563"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5884CEFF22577A10"]
+			description: [
+				"Your first way to obtain crude oil by-products is the Distillation Tower, it is a multi-block structure that receives oil through its controller and returns by-products through the outputs."
+				""
+				"&eHow to use&r:"
+				"&e-&r Build structure like the ponder"
+				"&e-&r Insert &5Crude Oil&r in &5Distillation Controller&r"
+				"&e-&r Extract  by-products in &5Distillation Output&r"
+				""
+				"Pressing &9W&r hovering &5Steel Distillation Controller&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&c⚠ Alert:&r  The structure pauses oil processing if the outputs are full, remember to pump the liquids to external tanks"
+				""
+				"&a⚠ Tip:&r To make your life easier, you can access a ready-made schematic from &5Schematic Table&r"
+			]
+			icon: "tfmg:steel_distillation_controller"
+			id: "43465DA686CDFA87"
+			subtitle: "&5Efficient Fuels"
+			tasks: [
+				{
+					id: "20628A1658AE6662"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "69D7FEDDFCFAC561"
+					item: { Count: 5, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+			]
+			title: "The Distillation Tower"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0565516A4C96C1C1"]
+			description: [
+				"Oil Rig is a multiblock structure that  extract &5Crude Oil&r from bedrock."
+				""
+				"&eHow to use&r:"
+				"&e-&r Build  the structure like the ponder above an oil deposit."
+				""
+				"Pressing &9W&r hovering &5any part of structure&r you can see the ponder of structure."
+			]
+			icon: "tfmg:pumpjack_crank"
+			id: "5884CEFF22577A10"
+			subtitle: "&5Oil Rig"
+			tasks: [
+				{
+					id: "1CF62BA8210D733F"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "437F01E28A2F660A"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "1747EC03CCB08EE7"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+			]
+			title: "Black Gold"
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["43465DA686CDFA87"]
+			icon: "tfmg:radial_engine"
+			id: "7DD9D46FF4D3D170"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "03DFB5DAA8D41BC2"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfmg:gasoline_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:lpg_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:turbine_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:diesel_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:radial_engine"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1A386000ED917C"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "The Factory is Growing!"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7E023B9ECD1E2E3C"]
+			id: "3BDA6CA63C4F22A9"
+			tasks: [{
+				id: "55F53B30F6DC9369"
+				item: "tconstruct:smeltery_controller"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+	]
+	title: "Chapter II"
+}

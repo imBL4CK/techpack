@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_race"
+	group: "4AD243FA5382E478"
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_1_rocket"
+		tag: { }
+	}
+	id: "3AFD86A2F50A28C9"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7DB26F632507933F"
+			tasks: [{
+				id: "5C16387BA7CB0C7F"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7DB26F632507933F"]
+			id: "13D167D3BACF821E"
+			shape: "square"
+			tasks: [{
+				id: "3CD84C8AE7937A92"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13D167D3BACF821E"]
+			id: "46BB4C09A206D606"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "099BA370F0F6338D"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["13D167D3BACF821E"]
+			id: "29EB8D0B28E68355"
+			shape: "square"
+			tasks: [{
+				id: "374F6E452CDC114B"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["29EB8D0B28E68355"]
+			id: "2DCBAC5F681EC0B9"
+			shape: "square"
+			tasks: [{
+				id: "7DC3693B6EED6D72"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2DCBAC5F681EC0B9"]
+			id: "625EE56E95686576"
+			shape: "square"
+			tasks: [{
+				id: "1D5DBAFE02C0AA84"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29EB8D0B28E68355"]
+			id: "0B8EE4929065147C"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "ad_astra:mars"
+				icon: "ad_astra:mars_globe"
+				id: "5AB5576A7B21A15A"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2DCBAC5F681EC0B9"]
+			id: "16B4ECA9ED0B8966"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "ad_astra:mercury"
+				icon: "ad_astra:mercury_globe"
+				id: "0AA84959CF5497CD"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2DCBAC5F681EC0B9"]
+			id: "14D1A09F53B21052"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				dimension: "ad_astra:venus"
+				icon: "ad_astra:venus_globe"
+				id: "1A44300702680FCF"
+				type: "dimension"
+			}]
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["625EE56E95686576"]
+			id: "546332C4B79BEB53"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3BDD9A6CF1FBC5FD"
+				item: "ad_astra:glacio_globe"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -11.0d
+		}
+	]
+	title: "Space Race"
+}

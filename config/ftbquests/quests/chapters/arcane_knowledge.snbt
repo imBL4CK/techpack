@@ -1,0 +1,243 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane_knowledge"
+	group: "027DF5719475D040"
+	icon: "malum:encyclopedia_arcana"
+	id: "524194A25C5A1528"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["066BA0C840FC2DB5"]
+			icon: "malum:runewood_sapling"
+			id: "1EBC6B3E2D46C739"
+			tasks: [
+				{
+					id: "7AB04DAC47522CAE"
+					item: "malum:runewood_sapling"
+					type: "item"
+				}
+				{
+					id: "0D62871F908C171E"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["066BA0C840FC2DB5"]
+			icon: "malum:processed_soulstone"
+			id: "6AE21B1BBBA329F8"
+			tasks: [
+				{
+					id: "631BE3E100CDF14A"
+					item: "malum:processed_soulstone"
+					type: "item"
+				}
+				{
+					id: "758E525AE94B78AB"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AE21B1BBBA329F8"]
+			icon: {
+				Count: 1
+				id: "malum:crude_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58F83B7579BF694E"
+			tasks: [{
+				id: "61D2CF022EBF3406"
+				item: {
+					Count: 1
+					id: "malum:crude_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EBC6B3E2D46C739"]
+			icon: "malum:runewood_planks"
+			id: "7E8166811303D329"
+			tasks: [{
+				count: 8L
+				id: "1737A5E3DBD14652"
+				item: { Count: 8, id: "malum:runewood_planks" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7E8166811303D329"
+				"58F83B7579BF694E"
+			]
+			icon: "malum:spirit_altar"
+			id: "5646B34856B42668"
+			tasks: [
+				{
+					id: "2DB39A9A1250F9AD"
+					item: "malum:spirit_altar"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6DD88CD39B6870D1"
+					item: { Count: 4, id: "malum:runewood_item_pedestal" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58F83B7579BF694E"]
+			icon: "malum:arcane_spirit"
+			id: "6CA792F9759088AC"
+			shape: "gear"
+			tasks: [{
+				id: "44EAB851ABEF2E0B"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "malum:sacred_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:wicked_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:arcane_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:eldritch_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:aerial_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:aqueous_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:earthen_spirit"
+							}
+							{
+								Count: 1b
+								id: "malum:infernal_spirit"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5646B34856B42668"]
+			id: "5327812A0BCEAF64"
+			tasks: [{
+				id: "023771A851B49FF9"
+				item: "malum:runewood_obelisk"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "066BA0C840FC2DB5"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4A4B4D744E7C2985"
+				item: "malum:encyclopedia_arcana"
+				type: "item"
+			}]
+			title: "Starting in Malum"
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5646B34856B42668"]
+			icon: "malum:runewood_totem_base"
+			id: "1680EAACA5685048"
+			shape: "circle"
+			tasks: [
+				{
+					id: "25EC554FEC104029"
+					item: "malum:runewood_totem_base"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3C8ED55041EE40BE"
+					item: { Count: 5, id: "malum:runewood_log" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5327812A0BCEAF64"]
+			id: "34C0DB6B54504221"
+			tasks: [{
+				id: "67A79B6BEDBDCC20"
+				item: "malum:spirit_crucible"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5327812A0BCEAF64"]
+			id: "2168F07CEF2A2E79"
+			tasks: [{
+				id: "0DA3FE8DAA562AA9"
+				item: "malum:repair_pylon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6CA792F9759088AC"]
+			id: "570A582E328D605B"
+			shape: "circle"
+			tasks: [{
+				id: "6ABB9004631104E3"
+				item: "malum:spirit_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+	]
+	title: "Arcane Knowledge"
+}

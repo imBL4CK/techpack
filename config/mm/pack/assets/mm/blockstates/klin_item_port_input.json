@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mm:block/klin_item_port_input"
+    }
+  }
+}

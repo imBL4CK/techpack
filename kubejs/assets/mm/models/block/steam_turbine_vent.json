@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cube_all",
+	"textures": {
+		"all": "kubejs:block/steam_turbine_vent",
+		"particle": "kubejs:block/steam_turbine_vent"
+	}
+}

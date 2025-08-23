@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "047995488C1C959F", title: "Progression" }
+		{ id: "4AD243FA5382E478", title: "Researches" }
+		{ id: "027DF5719475D040", title: "Gates" }
+	]
+}

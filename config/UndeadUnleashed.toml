@@ -1,0 +1,5 @@
+
+["Gravesite Ruin Generation"]
+	#Whether or not should Gravesite Ruins appear in the Overworld (these aren't implemented as *structures* so their generation has to be toggled separately, can't be done using mods or datapacks)
+	"Enable Generation" = true
+

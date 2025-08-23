@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "actually_additions"
+	group: "027DF5719475D040"
+	icon: "actuallyadditions:atomic_reconstructor"
+	id: "6FCDC4C2A43C1641"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "actuallyadditions:iron_casing"
+			icon_scale: 0.8d
+			id: "6F9B91A2C4BBCB39"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4DB0381A0D9CCE09"
+				item: "actuallyadditions:iron_casing"
+				type: "item"
+			}]
+			title: "Starting in Actually Substractions"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F9B91A2C4BBCB39"]
+			id: "5A932E5F0284C713"
+			shape: "square"
+			tasks: [{
+				id: "316673E72C770D17"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A932E5F0284C713"]
+			id: "56A8AAEFE57D271A"
+			tasks: [{
+				id: "469EE885593678B4"
+				item: "actuallyadditions:crusher"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A932E5F0284C713"]
+			id: "32C484812E7FC849"
+			tasks: [{
+				id: "74FF3868966B1EB1"
+				item: "actuallyadditions:powered_furnace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A932E5F0284C713"]
+			id: "582FF46B9D93A243"
+			tasks: [{
+				id: "3A2ABC4524615DC9"
+				item: "actuallyadditions:energizer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["56A8AAEFE57D271A"]
+			id: "3229056510B0F294"
+			tasks: [{
+				id: "138BABECA8A651EB"
+				item: "actuallyadditions:crusher_double"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["582FF46B9D93A243"]
+			id: "76BB3589C5F8C9BF"
+			tasks: [{
+				id: "549A1BE3671E0ED1"
+				item: "actuallyadditions:enervator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6F9B91A2C4BBCB39"]
+			id: "42443D4B4B82D9B4"
+			shape: "circle"
+			tasks: [{
+				id: "308D015BFC52B9B4"
+				item: "actuallyadditions:wood_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["42443D4B4B82D9B4"]
+			id: "47D0FEA8C380A88E"
+			shape: "circle"
+			tasks: [{
+				id: "79A83CC821B2CD52"
+				item: "actuallyadditions:canola_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42443D4B4B82D9B4"]
+			id: "0D9EDB6FC8D73E0F"
+			shape: "circle"
+			tasks: [{
+				id: "103A9F688E724577"
+				item: "actuallyadditions:coal_generator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["32C484812E7FC849"]
+			id: "5E2133ABDE01EEB7"
+			tasks: [{
+				id: "21491344F81E7193"
+				item: "actuallyadditions:oil_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5A932E5F0284C713"]
+			id: "76D5C3B1307B34FD"
+			tasks: [{
+				id: "2883C3BCC32DDB99"
+				item: "actuallyadditions:leaf_generator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A932E5F0284C713"]
+			id: "42704696DCF82995"
+			tasks: [{
+				id: "781B695830336CC7"
+				item: "actuallyadditions:farmer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["76D5C3B1307B34FD"]
+			id: "2C1723310FA027A1"
+			shape: "circle"
+			tasks: [{
+				id: "5BC22EEAF7718CF9"
+				item: "actuallyadditions:bio_reactor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42704696DCF82995"]
+			id: "1E5AA7EB754565A7"
+			shape: "circle"
+			tasks: [{
+				id: "7181B5F8E15CA84A"
+				item: "actuallyadditions:coffee_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AB4180AD1B8A37B"]
+			id: "6532D33CA2456A91"
+			shape: "circle"
+			tasks: [{
+				id: "7A01827AFAB1E75C"
+				item: "actuallyadditions:empowerer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F9B91A2C4BBCB39"]
+			id: "4AB4180AD1B8A37B"
+			shape: "rsquare"
+			tasks: [{
+				id: "728CD1E353696063"
+				item: "actuallyadditions:battery_box"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F9B91A2C4BBCB39"]
+			id: "3C069A28B24AADB4"
+			shape: "rsquare"
+			tasks: [{
+				id: "56F7A4C91DF32B29"
+				item: "actuallyadditions:laser_relay"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3C069A28B24AADB4"]
+			id: "7494EA578423238E"
+			shape: "circle"
+			tasks: [{
+				id: "466C70AA753F20AC"
+				item: "actuallyadditions:shock_suppressor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"76BB3589C5F8C9BF"
+				"3229056510B0F294"
+				"5E2133ABDE01EEB7"
+			]
+			icon_scale: 0.8d
+			id: "7FF9DDF882C72804"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5980BEB782F682FB"
+				item: "actuallyadditions:phantom_energyface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Actually Additions"
+}

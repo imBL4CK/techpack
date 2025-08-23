@@ -1,0 +1,139 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "energy_generation"
+	group: "4AD243FA5382E478"
+	icon: "thermal:dynamo_stirling"
+	id: "2BDB9F4CDC4DFF5D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "5647F5BBF251DE05"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6B72ED35496542A1"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F4D8DE73BEC7E01"]
+			id: "447DBC1D60AB8376"
+			shape: "circle"
+			tasks: [{
+				id: "359B44DD05010737"
+				item: "tfmg:rotor"
+				type: "item"
+			}]
+			x: 1.2857142857142847d
+			y: 0.8367346938775491d
+		}
+		{
+			dependencies: ["5647F5BBF251DE05"]
+			id: "4F48E31599416888"
+			tasks: [{
+				id: "0A4A78A81D69203B"
+				item: "thermal:dynamo_magmatic"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5647F5BBF251DE05"]
+			id: "10AD271149987B3C"
+			tasks: [{
+				id: "748E81C5E17B027F"
+				item: "enderio:stirling_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1340263C97FE14E6"]
+			icon: "mm:large_steam_turbine_controller"
+			id: "10143A89F9D641E5"
+			tasks: [
+				{
+					id: "4E1B46982F38DB34"
+					item: "mm:large_steam_turbine_controller"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "7AC2822347EC40E7"
+					item: "kubejs:heatproof_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "14D1E0F596E62CA2"
+					item: "mm:steam_turbine_vent"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6167343DD7EC4A58"
+					item: "mm:steel_fluid_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DE94E3148DF5A69"
+					item: "mm:steel_fluid_port_output"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "70A99E5E467FA747"
+					item: "mm:steel_energy_port_output"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F4D8DE73BEC7E01"]
+			id: "1340263C97FE14E6"
+			tasks: [{
+				id: "3CF6E8F71561946E"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/steam_turbine"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5647F5BBF251DE05"]
+			id: "4F4D8DE73BEC7E01"
+			tasks: [{
+				id: "74D2CE9D06751512"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/generator"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+	]
+	title: "Energy Generation"
+}

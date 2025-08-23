@@ -1,0 +1,38 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_v"
+	group: "047995488C1C959F"
+	icon: "ad_astra:nasa_workbench"
+	id: "15A9A499842B397D"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "523B596E86A9A1B3"
+			tasks: [{
+				id: "20AB0EED41C70D71"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["523B596E86A9A1B3"]
+			id: "5CB778D9E6B4F902"
+			tasks: [{
+				id: "168FB1B04C541EDB"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+	]
+	title: "Chapter V"
+}

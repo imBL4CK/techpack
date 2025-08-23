@@ -1,0 +1,169 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblocks"
+	group: "4AD243FA5382E478"
+	icon: "mm:arc_furnace_controller"
+	id: "231BF65D18A5A3D9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "034E2730EEAB5A1A"
+			shape: "square"
+			tasks: [{
+				id: "0EE433A1CA8ACD61"
+				item: "mm:arc_furnace_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "39486713692046DB"
+			shape: "square"
+			tasks: [{
+				id: "3ADB58B0D7E04CFF"
+				item: "mm:steam_macerator_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "69B328E1D2C5F537"
+			shape: "square"
+			tasks: [{
+				id: "11A744323C0BE13B"
+				item: "mm:freezer_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "58C83F95DF52E71E"
+			shape: "square"
+			tasks: [{
+				id: "2A4EC191E23B621E"
+				item: "mm:pyrolyse_oven_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "0FF4D6D0F834A9DF"
+			shape: "square"
+			tasks: [{
+				id: "25B0BF69BC3AFF24"
+				item: "mm:steam_boiler_controller"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "7DDE7E51E4BFFEF4"
+			shape: "square"
+			tasks: [{
+				id: "4F8163E5EDB8B299"
+				item: "mm:diesel_generator_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "59050C94F88F6864"
+			shape: "square"
+			tasks: [{
+				id: "454298B4682BFAEF"
+				item: "mm:large_steam_turbine_controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			id: "3B5C2F070AFFDA79"
+			shape: "square"
+			tasks: [{
+				id: "5E90B7329A914F2C"
+				item: "mm:large_pump_controller"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			icon: "mm:chemical_reactor_controller"
+			id: "3DA13E3F172B70B5"
+			shape: "square"
+			tasks: [
+				{
+					id: "585F8F017E7CE268"
+					item: "mm:chemical_reactor_controller"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "31814594590EB76D"
+					item: { Count: 20, id: "kubejs:chemically_resistant_casing" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17555205BDBA68E6"
+					item: "mm:steel_energy_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7ABA39F7C7533A14"
+					item: "mm:steel_fluid_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "21AABB06B5521E12"
+					item: "mm:steel_fluid_port_output"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6EC3F7C73ECCABBA"
+					item: "mm:steel_item_port_input"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3724CE0CC25B7E5A"
+					item: "mm:steel_item_port_output"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "41B3F07D177943BB"
+			shape: "square"
+			tasks: [{
+				id: "6FEADED8C93A745B"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/basic_miner"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	title: "Multiblocks"
+}

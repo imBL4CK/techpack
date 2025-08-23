@@ -1,0 +1,8 @@
+{
+    "item_settings": {
+      "display_name": {
+        "type": "translatable",
+        "translate": "techpack.guide_name"
+      }
+    }
+  }

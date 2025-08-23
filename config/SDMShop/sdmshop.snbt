@@ -1,0 +1,1429 @@
+{
+	shopUUID: [I;
+		-2057943197
+		397231395
+		-1331480584
+		-2029577367
+	]
+	sdmversion: "1.0.0"
+	shopName: ""
+	shopTabs: [
+		{
+			shopTabUUID: [I;
+				1633306840
+				1151550390
+				-1455223522
+				418835046
+			]
+			icon: {
+				id: "kubejs:epic_techbuck"
+				Count: 1b
+			}
+			tabEntry: [
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 1b
+					entryPrice: 10L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:common_techbuck"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1954365662
+						145902496
+						-1377974854
+						1777401219
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 1b
+					entryPrice: 100L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:uncommon_techbuck"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-334388206
+						-331004711
+						-1807474194
+						417961815
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 1b
+					entryPrice: 1000L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:rare_techbuck"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						644037431
+						1623802549
+						-2003100567
+						-541888564
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 1b
+					entryPrice: 10000L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:epic_techbuck"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						554813426
+						998459015
+						-1648989465
+						308835237
+					]
+				}
+			]
+			title: "Money Exchange"
+			tabCondition: [{
+				entryConditionID: "ftbquestConditions"
+				questID: [ ]
+			}]
+		}
+		{
+			shopTabUUID: [I;
+				-1507281589
+				848775927
+				-1563187721
+				-35473480
+			]
+			icon: {
+				id: "create:raw_zinc"
+				Count: 1b
+			}
+			tabEntry: [
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 50L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:raw_copper"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-185958808
+						151276768
+						-1209466190
+						-402201481
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 50L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:raw_iron"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1401685807
+						-1264693544
+						-1318329391
+						-827173404
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:raw_gold"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						794571189
+						-1885779398
+						-1127680613
+						1348846845
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 70L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:raw_tin"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						990659891
+						-1272558872
+						-1593710806
+						271342346
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 70L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "create:raw_zinc"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-543355902
+						1000161932
+						-2001154944
+						876941038
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 70L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:raw_nickel"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1868474045
+						799097973
+						-2099637091
+						-1438876424
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 120L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:raw_lead"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-250280140
+						1913998676
+						-1637986461
+						-774114549
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					limit: 8
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 120L
+					description: ["Requires: \"Base Materials\""]
+					globalLimit: 0b
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:raw_silver"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1084769848
+						450642927
+						-1772490602
+						1545887529
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 120L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 8
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tfmg:raw_lithium"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-523916364
+						-437959936
+						-1290527167
+						-261543758
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 50L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 16
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:coal"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-2013199445
+						-85835204
+						-1521636268
+						1880594384
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:diamond"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-468259918
+						1937526640
+						-1188293499
+						-92492513
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 150L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 12
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:redstone"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						350958746
+						-1668789907
+						-1163139145
+						1022051571
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 150L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 12
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "minecraft:lapis_lazuli"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1237662750
+						756173102
+						-1543087209
+						-301114644
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 50L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 12
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:niter"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-704324849
+						-1225832268
+						-1456781340
+						-476224905
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 50L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 12
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:sulfur"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1566318006
+						1578061650
+						-1981376466
+						1898614437
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 5000L
+					description: ["Requires: \"Ancient forge\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["4D243B47D943562B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "forbidden_arcanus:stellarite_piece"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-268846231
+						1993098338
+						-1155320457
+						-1353791003
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 300L
+					description: ["Requires: \"Base Materials\""]
+					entryCount: 4
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["07FFBA74160FAE8B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "malum:natural_quartz"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1178699441
+						491212069
+						-1473690141
+						-1419318704
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 2000L
+					description: ["Requires: \"Ancient forge\""]
+					entryCount: 3
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["4D243B47D943562B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "forbidden_arcanus:xpetrified_orb"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1851916807
+						-103855400
+						-1355126722
+						260235006
+					]
+				}
+			]
+			title: "Resources"
+			tabCondition: [{
+				entryConditionID: "ftbquestConditions"
+				questID: [ ]
+			}]
+		}
+		{
+			shopTabUUID: [I;
+				2020579941
+				-1404222295
+				-1362691864
+				427881319
+			]
+			icon: {
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:industrialrevival/energetic_smelter"
+				}
+				Count: 1b
+			}
+			tabEntry: [
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 1
+					title: "Basic Machine Casing"
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:basic_machine_casing"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1768483156
+						244861926
+						-1109947166
+						1230281235
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "custommachinery:custom_machine_item"
+							tag: {
+								machine: "custommachinery:industrialrevival/generator"
+							}
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-724762448
+						-807255152
+						-1975489890
+						713427760
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 2500L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "custommachinery:custom_machine_item"
+							tag: {
+								machine: "custommachinery:industrialrevival/steam_turbine"
+							}
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						596897286
+						9915237
+						-1809969689
+						-2140703725
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 2000L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "custommachinery:custom_machine_item"
+							tag: {
+								machine: "custommachinery:industrialrevival/batbox"
+							}
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1354481651
+						1954629209
+						-1186808166
+						1776352800
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 4
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "pneumaticcraft:pressure_tube"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-824045785
+						-918403543
+						-1946362672
+						-1780527318
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 400L
+					description: ["Requires: \"Hydro Power Plant\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["2C6B32004A775B6E"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "create:water_wheel"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-81176613
+						43467184
+						-1926767253
+						1544817372
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Alive Heat Source\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["7E023B9ECD1E2E3C"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "create:empty_blaze_burner"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						271313657
+						1831947651
+						-1437714362
+						1228465390
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 200L
+					description: ["Requires: \"Redstone Machinery\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["11899420472A9464"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:logistic_machine"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						868673298
+						670844213
+						-1976354607
+						2093793190
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Mechanism Factory\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["19836D161547333E"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:makeshift_mechanism"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1919259441
+						-434289210
+						-1259465696
+						1633570985
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 750L
+					description: ["Requires: \"The Factory is Growing!\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["7DD9D46FF4D3D170"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "create:precision_mechanism"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-345755086
+						-890221061
+						-2038170317
+						1948655228
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Requires: \"The Factory is Growing!\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["7DD9D46FF4D3D170"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tfmg:steel_mechanism"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1687246724
+						505956000
+						-1196470571
+						-1908273022
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Eletronic Art\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["29FF470AC8763F0A"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:vaccum_tube"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-501801145
+						623792076
+						-1456949229
+						117128079
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Eletronic Art\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["29FF470AC8763F0A"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:rf_coil"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1219944408
+						1011697467
+						-1700262752
+						1434567099
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					description: ["Requires: \"Eletronic Art\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["29FF470AC8763F0A"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "thermal:redstone_servo"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1834739360
+						112544986
+						-1867855159
+						-1769753425
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Welcome to industrial revolution 3.0"]
+					entryCount: 1
+					title: "Welcome to industrial revolution 3.0"
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "kubejs:basic_circuit"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-858198979
+						1584284271
+						-2041951990
+						175442476
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					description: ["Requires: \"Welcome to industrial revolution 3.0\""]
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: ["08A6395CAD77721B"]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "tfmg:capacitor_"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1188568372
+						-1772863214
+						-1351211425
+						-868218759
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 2500L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "create:chromatic_compound"
+							tag: { }
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						810966606
+						-365477857
+						-1783823382
+						-1837016785
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 1000L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "pneumaticcraft:plastic"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						-1639699901
+						-1250147861
+						-2019500311
+						1829224660
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					entryCount: 4
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "enderio:grains_of_infinity"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						1982334289
+						-435863290
+						-1642567999
+						1929298018
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 250L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "createaddition:copper_spool"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						424729584
+						-1853996863
+						-1524625918
+						713207958
+					]
+				}
+				{
+					shopSeller: {
+						moneyID: "base_money"
+						shopSellerTypeID: "money"
+					}
+					icon: {
+						id: "minecraft:barrier"
+						Count: 1b
+					}
+					isSell: 0b
+					entryPrice: 500L
+					entryCount: 1
+					entryCondition: [{
+						entryConditionID: "ftbquestConditions"
+						questID: [ ]
+					}]
+					entryType: {
+						shopEntryTypeID: "shopItemEntryType"
+						itemStack: {
+							id: "createaddition:electrum_spool"
+							Count: 1b
+						}
+					}
+					entryUUID: [I;
+						2079889355
+						2029341960
+						-1454535226
+						-1256918917
+					]
+				}
+			]
+			description: ["sales of machines and machine-related items"]
+			title: "Machines"
+			tabCondition: [{
+				entryConditionID: "ftbquestConditions"
+				questID: [ ]
+			}]
+		}
+		{
+			shopTabUUID: [I;
+				1198216454
+				367084579
+				-2118582711
+				465814470
+			]
+			icon: {
+				id: "malum:encyclopedia_arcana"
+				Count: 1b
+			}
+			tabEntry: [ ]
+			title: "Arcane Shop"
+			tabCondition: [{
+				entryConditionID: "ftbquestConditions"
+				questID: [ ]
+			}]
+		}
+	]
+}

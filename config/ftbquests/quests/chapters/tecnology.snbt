@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tecnology"
+	group: "027DF5719475D040"
+	icon: "thermal:machine_furnace"
+	id: "49E7284C5561D110"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		icon: "thermal:machine_frame"
+		id: "4931C163111A3695"
+		tasks: [
+			{
+				id: "0294A5E01EFE45BB"
+				item: "thermal:machine_frame"
+				type: "item"
+			}
+			{
+				id: "67B407766E96CEE1"
+				item: "enderio:void_chassis"
+				type: "item"
+			}
+		]
+		title: "Starting in Tecnology"
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Tecnology"
+}

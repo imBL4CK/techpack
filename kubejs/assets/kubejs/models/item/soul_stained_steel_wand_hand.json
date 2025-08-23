@@ -1,0 +1,6 @@
+{
+  "parent": "kubejs:item/runewood_wand_hand",
+  "textures": {
+    "1": "kubejs:item/soul_stained_steel_wand"
+  }
+}

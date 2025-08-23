@@ -1,0 +1,486 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cchapter_1"
+	group: "047995488C1C959F"
+	icon: "kubejs:makeshift_mechanism"
+	id: "70854EC513EDF2DB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5424DB4A95F1C2E4"]
+			description: [
+				"Crafting tools are the foundation of the technological beginning of the techpack."
+				""
+				"&e-&r You will use them to make machines, tools, crafting parts, etc. Initially, you will use iron to create primitive-level tools."
+				""
+				"&e-&r Primitive tools have around &9128&r durability."
+			]
+			icon: {
+				Count: 1
+				id: "kubejs:primitive_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "247A85BA2D94377F"
+			rewards: [{
+				id: "21D622955DE8B9F7"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Get the first tools"
+			tasks: [
+				{
+					id: "4C506558D5E3A956"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5DEE06FAA177FD09"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7049EE87E90CB766"
+					item: {
+						Count: 1
+						id: "kubejs:primitive_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "First craft tools"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["247A85BA2D94377F"]
+			description: [
+				"The smithing table marks the beginning of the technological age. With it, you can create your first machine parts from the Create mod."
+				""
+				"&e-&r It can also be used to upgrade your crafting tools, backpack, etc."
+			]
+			id: "720CC28CC9F618B8"
+			rewards: [{
+				id: "06139F0ED2422CF9"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5Craft a Smithing table"
+			tasks: [{
+				id: "0BDFA91E2CB4ED6D"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			title: "Smithing Crontraptions"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["720CC28CC9F618B8"]
+			description: [
+				"Makeshift mechanisms are the first crafting components. They are used in basic crafts during the early stages."
+				""
+				"&e-&r At first, you will have to craft them manually using the smithing table. Later on, you can automate their production through the sequenced assembly process."
+			]
+			id: "708D8EA7F48BBCC9"
+			rewards: [{
+				id: "5BB9E202819DD1A2"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5Craft Makeshift Mechanisms Manually"
+			tasks: [{
+				id: "6F8B591AAD496F98"
+				item: "kubejs:makeshift_mechanism"
+				type: "item"
+			}]
+			title: "First Toys"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719CCBB870F4E1BB"]
+			description: [
+				"Before you start your first factories, you need to craft the first machines."
+				""
+				"Each part has a specific function that, when put together, forms a beautiful farm."
+				""
+				"Your first farm will be a &5Makeshift Mechanism&r, so you won't have to worry about crafting large quantities the next time you make a factory."
+				""
+				"&c⚠ Alert:&r In this modpack, it is expected that you already have knowledge of the create mod, but if you don't, don't worry, here is a brief tutorial on what each block does."
+				""
+				"{@pagebreak}"
+				"&9Mechanical Press&r: is a mechanical component that can press, compact, or pack items that are in a depot, basin, or belt below it"
+				""
+				"Pressing &9W&r hovering &5Mechanical Press&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&9Mechanical Mixer&r: is a mechanical component that can mix items that are in a depot, basin, or belt below it"
+				""
+				"Pressing &9W&r hovering &5Mechanical Mixer&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&9Mechanical Saw&r: It is a mechanical component that cuts items dropped on its face which has a saw. "
+				""
+				"It can also be used in moving contraptions, cutting any type of wood that comes into contact with its face which has a saw."
+				""
+				"Pressing &9W&r hovering &5Mechanical Saw&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&9Encased Fan&r: It is a mechanical component that creates an air current that can either pull or push air depending on the rotation it receives, whether clockwise or counterclockwise."
+				""
+				"- When still water is in front of it, it is capable of making bulk washing recipes."
+				""
+				"- When lava is in front of it, it is capable of making bulk blasting recipes."
+				""
+				"- When fire or a campfire is in front of it, it is capable of making bulk smoking recipes."
+				""
+				"- When soul fire or a soul campfire is in front of it, it is capable of making bulk hauting recipes."
+				""
+				"Pressing &9W&r hovering &5Encased Fan&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&9Deployer&r: It is a mechanical component that is capable of interacting with the world as if it were a player clicking on it."
+				""
+				"- It can place blocks or hit entities, and its interaction mode can be changed using a &5Wrench&r"
+				""
+				"- It can automate manual item application recipes and has its own recipe format"
+				""
+				"- When in &9Use&r mode, it works like a right-click, and when in &9Attack&r mode, it works like a left-click"
+				""
+				"Pressing &9W&r hovering &5Deployer&r you can see the ponder of structure."
+				""
+				"{@pagebreak}"
+				"&9Mechanical Drill&r: It is a mechanical component that  break blocks on its face which has a drill. "
+				""
+				"It can also be used in moving contraptions, break blocks into contact with its face which has a drill."
+				""
+				"Pressing &9W&r hovering &5Mechanical Drill&r you can see the ponder of structure."
+			]
+			icon: "create:mechanical_press"
+			id: "0BD719E2B483532D"
+			rewards: [{
+				id: "53F33A8D78B3EEDA"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5Starting Tech Era"
+			tasks: [
+				{
+					id: "6485B8DB2C1D3175"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "3E4255F3D1BF7D16"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "180936A0A368204D"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "6C1933A15BD71662"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "0153B0473FAB24DA"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7EA0A4DBDD865BD6"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			title: "Basic Parts"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["708D8EA7F48BBCC9"]
+			description: [
+				"Basic method of rotational energy generation. Water wheels generate energy when placed above flowing water. If the water is still, the wheel will not spin."
+				""
+				"&e-&r There are two sizes: small and large. Small ones generate 256 &9SU&r at &932 RPM&r and large ones generate 512 &9SU&r at &916 RPM&r"
+				""
+				"&c⚠ Alert &r: Water wheels used to generate more energy based on the amount of flowing water in contact, but this feature has been removed."
+			]
+			id: "719CCBB870F4E1BB"
+			rewards: [{
+				id: "7C7FCF334D915D8C"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5First Rotation Power Source&r"
+			tasks: [{
+				id: "4EECF75E6BBD3A14"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Wave Power"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["719CCBB870F4E1BB"]
+			description: [
+				"&9SU&r will be very important in the early ages as it is the method to power Create machines, so generating a high amount of &9SU&r will be very useful."
+				""
+				"&e-&r Build a reliable SU source using &5Large water wheel&r."
+				""
+				"&e-&r There is an example setup in the modpack guide, as well as a schematic preset."
+			]
+			hide_until_deps_visible: true
+			id: "2C6B32004A775B6E"
+			optional: true
+			rewards: [{
+				id: "37812CE832CBC11D"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Craft 6x Water Wheels"
+			tasks: [{
+				count: 6L
+				id: "56637A565C03CAD3"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Hydro Power Plant"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			description: [
+				"&9Millstone&r is a machine that crushes items. It can receive rotational power from the sides by cogwheels or from below, using shafts."
+				""
+				"&e-&r You can manually insert items by dropping them on the top face."
+				"&e-&r Using funnels or item pipes you can insert or remove items from any face."
+			]
+			hide_until_deps_visible: true
+			id: "736B38375EA1F744"
+			optional: true
+			rewards: [{
+				id: "5A86F04FA120F2A6"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Get a Millstone"
+			tasks: [{
+				id: "1157209A0F643C7F"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Milling Stones"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			description: [
+				"Makeshift mechanisms will be used a lot, so the ideal is to automate them with the &9sequence assembly&r process."
+				""
+				"Automate them in the way you think best, the important thing is to have a project that is easy to make changes and maintain."
+			]
+			icon: "create:brass_hand"
+			id: "19836D161547333E"
+			rewards: [{
+				id: "18DC048C3AAFABBE"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Makeshift Factory"
+			tasks: [
+				{
+					count: 16L
+					id: "5D7427A822DF1AFF"
+					item: "kubejs:makeshift_mechanism"
+					type: "item"
+				}
+				{
+					id: "0A5C3EEDAAF71002"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Mechanism Factory"
+			x: -2.0357142857142847d
+			y: 1.4795918367346914d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			description: [
+				"The wrench is essential for manipulating or rotating various components or machines in Create."
+				""
+				"&e-&r &9Right-click&r to rotate or manipulate blocks."
+				"&e-&r &9Shift-right-click&r to take blocks directly to your inventory."
+			]
+			hide_until_deps_visible: true
+			id: "45EB75887C0072AF"
+			optional: true
+			rewards: [{
+				id: "25CEA2741A84B4BE"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Get a Wrench"
+			tasks: [{
+				id: "03DC1573612C72D5"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide_until_deps_visible: true
+			icon: "minecraft:oak_log"
+			id: "27E6AAD9172781C3"
+			rewards: [{
+				id: "3DB56A6F4E84BA01"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&5Automate wood logs"
+			tasks: [
+				{
+					id: "32A55BB83673DB96"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+				{
+					id: "6031F1F5AB5612AB"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide_until_deps_visible: true
+			icon: "minecraft:cobblestone"
+			id: "3665DFE2A1D09BE1"
+			rewards: [{
+				id: "75A80FC202681306"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&5Automate cobblestone"
+			tasks: [
+				{
+					count: 32L
+					id: "420DF5AA35AA38FA"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "52F6E1C7296BF97D"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19836D161547333E"]
+			hide_until_deps_visible: true
+			icon: "create:andesite_alloy"
+			id: "28DAC721F5712F37"
+			rewards: [{
+				id: "612D19C2E9196F1E"
+				item: "kubejs:uncommon_techbuck"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&5Automate andesite alloys"
+			tasks: [
+				{
+					count: 32L
+					id: "3E49633266B18EAF"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "6C196E217C38D9D3"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BD719E2B483532D"]
+			description: [
+				"The &9belt&r is your first means of moving items. The belt is placed on two shafts, thus making its connection."
+				""
+				"Items dropped on the belt are indexed as if it were an inventory, avoiding despawning."
+				""
+				"&e-&r Using the wrench you can shorten a belt by clicking on one of the ends, or split it into two belts by clicking on its middle (if you have shafts and belts in the inventory)"
+				"&e-&r It is possible to embellish belts with casings"
+			]
+			icon: "create:belt_connector"
+			id: "18BF2395E0A87ABC"
+			optional: true
+			rewards: [{
+				id: "3C59A2A476A50B8C"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Get Mechanical Belts"
+			tasks: [{
+				id: "6866DA7E87D27778"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Moving items"
+			x: -1.0d
+			y: 0.5d
+		}
+	]
+	title: "Chapter I"
+}

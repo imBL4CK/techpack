@@ -1,0 +1,571 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0"
+	group: "047995488C1C959F"
+	icon: "supplementaries:globe"
+	id: "544B77AFD2678363"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Let's start getting our hands dirty!"
+				""
+				"The first steps of the modpack can be embarrassing, so it is essential to have questlines. If you follow the quests, your experience will be much better."
+				""
+				"Let's start with the basics, but without grinding too much."
+			]
+			icon: "ad_astra:earth_globe"
+			id: "7EA5A95D900AE893"
+			rewards: [{
+				count: 2
+				id: "5A7F69E7DE8FE684"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&5Lets' start"
+			tasks: [{
+				id: "6DF5619E638D4CC6"
+				type: "checkmark"
+			}]
+			title: "First Steps"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7EA5A95D900AE893"]
+			description: [
+				"Crafting is the most important mechanic in the game, it is the beginning of all the mechanics of the modpack, because without it it is not possible to create tools or machines."
+				""
+				"The crafting table has a changed crafting in this modpack, however, making it is very simple, use 2x &5Logs&r and 2x &5Flints&r."
+				""
+				"&a⚠ Tip:&r Flint can be obtained by breaking gravel or by crafting using 3x &5Gravel&r"
+			]
+			id: "6F564216B9F32497"
+			rewards: [
+				{
+					id: "76FBDB3B9503BCCA"
+					item: "minecraft:oak_sign"
+					type: "item"
+				}
+				{
+					id: "0291F6190EF4A77F"
+					item: "kubejs:common_techbuck"
+					type: "item"
+				}
+			]
+			subtitle: "&5Craft a Crafting Table"
+			tasks: [{
+				id: "61D260A67673D166"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Your old friend"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6F564216B9F32497"]
+			description: [
+				"To be able to get your first ores you need at least stone tools. Stone tools are the link between the minerals and the player, so without them it is not possible to get your first ores."
+				""
+				"The recipe hasn't changed, don't get too attached to them either, once you make your &5Seared Melter&r you'll have access to better tool materials."
+				""
+				"&a⚠ Tip:&r vanilla tools after stone have their durability changed to 1, where their only function is to serve as a crafting ingredient."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1388452A2332908E"
+			rewards: [{
+				id: "7C0DBBF92FE885CA"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5Get the basic tools"
+			tasks: [
+				{
+					id: "18B81A8C14018A5C"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A3E935EAA99346F"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76361603E508BDE9"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "First Tools"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1388452A2332908E"]
+			description: [
+				"Ores are the source of any machinery, and you need to store a lot of them."
+				""
+				"&e-&r All machines or magical rituals require at least some ores in their crafting tree, ores also make alloys that are used in components of more advanced machines."
+				""
+				"Mining in the modpack is not boring, for example, you can find some &9veins&r of resources throughout the world, so gather lots of resources to have fun and remember to enjoy every moment in the Techpack!"
+				""
+				""
+				"{@pagebreak}"
+				"The techpack's ores generation is different from the others, ores have a different spawn quantity depending on the &9temperature&r of the biomes. In general, the amount of ores has increased"
+				""
+				"&e-&r You can check the chances of finding them by pressing &9U&r on an ore block or raw item"
+				""
+				"&e-&r The modpack guide has a page dedicated to explaining this feature, with spawning chances and which biomes have specific temperatures"
+			]
+			icon: "minecraft:raw_iron"
+			id: "1B935334CB080110"
+			rewards: [
+				{
+					count: 16
+					id: "0EE0ABE930987BAF"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4CA0F271FF844968"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "40ACA08AE62FA30F"
+					item: "thermal:raw_tin"
+					type: "item"
+				}
+				{
+					id: "3E878C35DC98B4AD"
+					item: "kubejs:common_techbuck"
+					type: "item"
+				}
+			]
+			subtitle: "&5Go to the caves and get the raw basic ores"
+			tasks: [
+				{
+					count: 8L
+					id: "2F837C0C557020CB"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0DE6E7BAE6A4C7C0"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "35707DB1143C7BBC"
+					item: "thermal:raw_tin"
+					type: "item"
+				}
+			]
+			title: "Base Materials"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B935334CB080110"]
+			description: [
+				"Early in the game, ore processing is a bit different than in other experiences, but don't worry because it is easily automatable even in the early game."
+				""
+				"To process ores, you need to follow these steps"
+				""
+				"&e-&r 1: crush the raw ore in a &5Pestle and mortar&r to obtain the crushed version of it"
+				"&e-&r 2: heat the crushed in a &5Seared melter&r."
+				"&e-&r 3: solidify the molten fluid into bars, slabs, or any other mold you want"
+				""
+				"You can check out an early game ore processing automation setup in the modpack Guide at &9Setups -> First Ore Processing&r"
+				""
+				"{@pagebreak}"
+				"To build your first melter, place the Seared melter above the &9Seared heater&r or&9 Seared tank&r"
+				""
+				"&e-&r to pour the molten fluid into casts, use faucets"
+				"&e-&r For a smelter to work, fuel is needed, if you use the Seared heater use any item fuel, for the Seared tank use any fluid fuel"
+				"&e-&r you can automate the input of items into the melter using funnels, and the output using a redstone signal in the faucet"
+				""
+				"&a⚠ Tip:&r  EMI (or JEI) shows which are the possible fuels that can be used for melting"
+				""
+				"{@pagebreak}"
+				"Automating pestle and mortar is very easy"
+				""
+				"&e-&r You can insert or extract items using hopper"
+				""
+				"&c⚠ Alert:&r Be careful when automating certain recipes with pestle and mortar because if any additional item is added to the inputs it pauses the recipe"
+			]
+			icon: "tconstruct:seared_melter"
+			id: "07FFBA74160FAE8B"
+			rewards: [{
+				id: "379B61423BE96302"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5First Ore Processing"
+			tasks: [
+				{
+					id: "54539ACBE191A686"
+					item: "tconstruct:seared_melter"
+					type: "item"
+				}
+				{
+					id: "6771BA5FD0EE162A"
+					item: "tconstruct:seared_heater"
+					type: "item"
+				}
+				{
+					id: "0B52BB4544BE8E69"
+					item: "hexerei:pestle_and_mortar"
+					type: "item"
+				}
+			]
+			title: "Ore Processing"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07FFBA74160FAE8B"]
+			description: [
+				"just store your previously collected resources"
+				""
+				"&e-&r Keep in mind that in Techpack, plates and gears are used a lot, so a good way out would be to store your resources in fluids, so that it is easier to mold them into plates through Tinkers"
+				""
+				"&e-&r At this point, the best tank you can have is the &9Tinker's construct&r's tank, but don't worry, as soon as you have access to bronze you can craft the create's tank"
+			]
+			icon: "minecraft:iron_ingot"
+			id: "542401D3462C88C5"
+			rewards: [{
+				id: "3FDD39C5841C9DE7"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			subtitle: "&5Do your first mineral processing"
+			tasks: [
+				{
+					count: 8L
+					id: "1C634CD84F8AF56F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5BEFC5501505AAB6"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "64BA73345D78A4D6"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+			]
+			title: "Ingots, Ingots and Ingots"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["542401D3462C88C5"]
+			description: [
+				"As previously mentioned, the durability of tools after the stone tools in vanilla  has been changed to &91&r point. Therefore, create your first iron tools from Tinkers"
+				""
+				"&e-&r It is likely that you do not have enough gold to spend, so use sand molds that can be made by pouring &5Blank sand cast&r on top of some tool part in a casting table"
+			]
+			icon: {
+				Count: 1
+				id: "tconstruct:pickaxe"
+				tag: {
+					Damage: 0
+					tic_broken: 0b
+					tic_materials: [
+						"tconstruct:iron"
+						"tconstruct:iron"
+						"tconstruct:iron"
+					]
+					tic_modifiers: [
+						{
+							level: 3
+							name: "tconstruct:magnetic"
+						}
+						{
+							level: 1
+							name: "tconstruct:pierce"
+						}
+					]
+					tic_persistent: { }
+					tic_stats: {
+						"tconstruct:attack_damage": 3.0f
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:durability": 275.0f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:mining_speed": 6.0f
+					}
+					tic_volatile_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			id: "77B9E0D588D8AE06"
+			rewards: [
+				{
+					id: "01B6FEDE31AA6523"
+					item: {
+						Count: 1
+						id: "tconstruct:vein_hammer"
+						tag: {
+							Damage: 0
+							tic_broken: 0b
+							tic_materials: [
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+								"tconstruct:iron"
+							]
+							tic_modifiers: [
+								{
+									level: 4
+									name: "tconstruct:magnetic"
+								}
+								{
+									level: 2
+									name: "tconstruct:pierce"
+								}
+							]
+							tic_multipliers: {
+								"tconstruct:attack_damage": 1.25f
+								"tconstruct:durability": 5.0f
+								"tconstruct:mining_speed": 0.3f
+							}
+							tic_name: "Hulk Smash"
+							tic_persistent: { }
+							tic_stats: {
+								"tconstruct:attack_damage": 7.5f
+								"tconstruct:attack_speed": 0.85f
+								"tconstruct:durability": 1375.0f
+								"tconstruct:harvest_tier": "minecraft:iron"
+								"tconstruct:mining_speed": 1.8000001f
+							}
+							tic_volatile_data: {
+								abilities: 1
+								upgrades: 2
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "508ACFA2FF9D52F7"
+					item: "kubejs:common_techbuck"
+					type: "item"
+				}
+			]
+			subtitle: "&5Get your first iron tools"
+			tasks: [
+				{
+					id: "659A34F6FE316B2E"
+					item: {
+						Count: 1
+						id: "tconstruct:pick_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "7F9D46957AA55F93"
+					item: {
+						Count: 1
+						id: "tconstruct:small_axe_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "6CF6386F68DFF0CF"
+					item: {
+						Count: 1
+						id: "tconstruct:adze_head"
+						tag: {
+							Material: "tconstruct:iron"
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Iron Parts"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["77B9E0D588D8AE06"]
+			description: [
+				"&9Congratulations!&r, you have completed pack tutorial!"
+				""
+				"Now is the time when the fun begins, it is good to have a stock of items and plenty of creativity to set up your automation setups"
+				""
+				"The first mods you will come across are &9Create&r and &9Eidolon&r, one tech and the other magical, take your time and have fun exploring each part of the progression"
+				""
+				"&a⚠ Tip:&r With the excavator you won in the previous quest, collect a good base of resources so you don't have to worry about grinding as you progress"
+			]
+			icon: "create:goggles"
+			id: "5424DB4A95F1C2E4"
+			rewards: [{
+				id: "54E10B19453F99F6"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Finished!"
+			tasks: [{
+				id: "251C7A07107E1767"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Finished"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5424DB4A95F1C2E4"]
+			description: ["in this pack, blocks related to redstone logic are obtained by placing a logic machine on the stonecutter"]
+			id: "11899420472A9464"
+			optional: true
+			rewards: [{
+				id: "6C41976519A255C8"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Craft a Logistic Machine"
+			tasks: [{
+				id: "50AEF39098FC13C5"
+				item: "kubejs:logistic_machine"
+				type: "item"
+			}]
+			title: "Redstone Machinery"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F564216B9F32497"]
+			description: [
+				"Chests are the most common method of organization, craft some and start organizing your items "
+				""
+				"&e-&r in the future you can upgrade your chests into crates, which fit more items per block"
+				"&e-&r you can insert or extract items using a hopper, to extract, place the hopper below chest, to insert above  the chest"
+			]
+			hide_until_deps_visible: true
+			icon: "woodworks:oak_chest"
+			id: "5B052E46774AA7E7"
+			optional: true
+			rewards: [{
+				id: "3DEFA4CAAC87C5CC"
+				item: "kubejs:common_techbuck"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "&5Storing Items&r"
+			tasks: [{
+				id: "472DFB9274967897"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "woodworks:oak_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:spruce_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:jungle_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:acacia_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:dark_oak_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:mangrove_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:cherry_chest"
+							}
+							{
+								Count: 1b
+								id: "upgrade_aquatic:driftwood_chest"
+							}
+							{
+								Count: 1b
+								id: "upgrade_aquatic:river_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:crimson_chest"
+							}
+							{
+								Count: 1b
+								id: "woodworks:warped_chest"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Chests"
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+	title: "Chapter 0"
+}

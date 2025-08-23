@@ -1,0 +1,80 @@
+{
+  "name": "machine",
+  "namespace": "machine",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/machine",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 103
+    },
+    {
+      "text": "machine_name",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png",
+      "x": 213,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png",
+      "tooltips": [
+        {
+          "text": "I/O Side Configuration"
+        }
+      ],
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "x": 213,
+      "y": 39,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 15,
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    }
+  ],
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "id": "upgrade_slot",
+      "mode": "input"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    }
+  ]
+}

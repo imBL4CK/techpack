@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dinosaur_park"
+	group: "027DF5719475D040"
+	icon: "unusualprehistory:analyzer"
+	id: "00B75CCE661CB5B7"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "Dinosaur Park"
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "kubejs:block/spirit_nodes/common",
+	"textures": {
+		"0": "kubejs:block/spirit_nodes/aqueous",
+		"particle": "kubejs:block/spirit_nodes/aqueous"
+	}
+}

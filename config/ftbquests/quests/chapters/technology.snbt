@@ -1,0 +1,484 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technology"
+	group: "4AD243FA5382E478"
+	icon: {
+		Count: 1
+		id: "custommachinery:custom_machine_item"
+		tag: {
+			machine: "custommachinery:industrialrevival/assembler"
+		}
+	}
+	id: "77CD3E8330FF9891"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2008A1146FB00CF6"]
+			id: "098D737CC2FABF11"
+			tasks: [{
+				id: "5799EAEDF776A747"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "2008A1146FB00CF6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "345989D0AECD7315"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["098D737CC2FABF11"]
+			id: "1BDE6C1C9AD314B1"
+			tasks: [{
+				id: "411E827BC0CFC176"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"719CCBB870F4E1BB"
+				"1BDE6C1C9AD314B1"
+			]
+			icon: "create:mechanical_press"
+			id: "51C26E723E8B1AD5"
+			tasks: [
+				{
+					id: "03067DA45FB40E27"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "6A63965C55AB2139"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "58D96EC3EDC0418C"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "51587C778DB62DF1"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "7E1A0D3923832685"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "7A630ADEDA07CD9B"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
+			title: "Basic Parts"
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["51C26E723E8B1AD5"]
+			id: "22BCE3B55A225671"
+			tasks: [{
+				id: "0C24F285B451E6F8"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["22BCE3B55A225671"]
+			icon: "tfmg:blast_furnace_output"
+			id: "02D13D41445B268C"
+			tasks: [
+				{
+					id: "56DB92E83FEBB3BE"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "511D45070219AF07"
+					item: { Count: 16, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7E0037E140D6F2AB"
+					item: { Count: 8, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3155098AAEE1A292"
+					item: { Count: 9, id: "tfmg:coke_oven" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02D13D41445B268C"]
+			id: "2DEC2E22A7E25923"
+			tasks: [{
+				id: "18DC0D92AF9CC691"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0565516A4C96C1C1"
+				"2DEC2E22A7E25923"
+			]
+			icon: "tfmg:pumpjack_crank"
+			id: "3D5473CF418407A0"
+			tasks: [
+				{
+					id: "0559C4E13286A038"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "0DBA1A37E690F5F8"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "69CE2D563A832DD4"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5884CEFF22577A10"
+				"3D5473CF418407A0"
+			]
+			icon: "tfmg:steel_distillation_controller"
+			id: "13C630026EFAD881"
+			tasks: [
+				{
+					id: "17038374D4D30C13"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3EEE97D8670676A4"
+					item: { Count: 5, id: "tfmg:steel_distillation_output" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"43465DA686CDFA87"
+				"13C630026EFAD881"
+			]
+			icon: "tfmg:radial_engine"
+			id: "6A360A841E844D11"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "240F1D43474F3B0B"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tfmg:gasoline_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:lpg_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:turbine_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:diesel_engine"
+								}
+								{
+									Count: 1b
+									id: "tfmg:radial_engine"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A66B4340A8F3197"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "The Factory is Growing!"
+			x: -2.4285714285714306d
+			y: -0.017857142857138797d
+		}
+		{
+			dependencies: [
+				"7DD9D46FF4D3D170"
+				"02D13D41445B268C"
+			]
+			icon: "tfmg:rotor"
+			id: "69A21CDD8DE8B2E7"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "360ABA8D236A310F"
+					title: "Done"
+					type: "checkmark"
+				}
+				{
+					id: "210AB03708B791F0"
+					item: "tfmg:rotor"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5EC89F61B1227A31"
+					item: { Count: 8, id: "tfmg:stator" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69A21CDD8DE8B2E7"]
+			id: "78779A2F5AC607A3"
+			tasks: [{
+				id: "521870902B376FA0"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78779A2F5AC607A3"]
+			id: "4E476232DAF76BCB"
+			tasks: [{
+				id: "5B716907724B4918"
+				item: "actuallyadditions:iron_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E476232DAF76BCB"]
+			id: "2D1CFFB5CE0E759A"
+			tasks: [{
+				id: "2E57ECE87C7C55B3"
+				item: "actuallyadditions:atomic_reconstructor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D1CFFB5CE0E759A"]
+			id: "299D206A4ECB2335"
+			tasks: [{
+				id: "4F61BD0B8A2D4E47"
+				item: "kubejs:basic_circuit"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["299D206A4ECB2335"]
+			id: "49C178F7F406634B"
+			tasks: [{
+				id: "32C9431738A157D8"
+				item: "kubejs:basic_machine_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C178F7F406634B"]
+			icon: {
+				Count: 1
+				id: "custommachinery:custom_machine_item"
+				tag: {
+					machine: "custommachinery:industrialrevival/energetic_smelter"
+				}
+			}
+			id: "1F0CD3E009734DA4"
+			tasks: [
+				{
+					id: "2983835B3B999D00"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/energetic_smelter"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4ACE5D92780A762E"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/compressor"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "461988838EE2FB51"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:industrialrevival/macerator"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F0CD3E009734DA4"]
+			id: "6AF5D953D46E190C"
+			tasks: [{
+				id: "781BC015735E1C5F"
+				item: "thermal:dynamo_stirling"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AF5D953D46E190C"]
+			icon: "thermal:machine_frame"
+			id: "68146FEA5C3597B9"
+			tasks: [
+				{
+					id: "7C9E42C65D081247"
+					item: "thermal:machine_frame"
+					type: "item"
+				}
+				{
+					id: "28178FC6A6B50E0D"
+					item: "enderio:void_chassis"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["68146FEA5C3597B9"]
+			id: "7EEB1953152B2A3E"
+			tasks: [{
+				id: "40BF6486F34985C9"
+				item: "kubejs:hdpe_sheet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7EEB1953152B2A3E"]
+			id: "30645363D90B9CF2"
+			tasks: [{
+				id: "76A4F55A3A403A2E"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/assembler"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30645363D90B9CF2"]
+			id: "563506D7FC5214D6"
+			tasks: [{
+				id: "3585C0609B22A818"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["563506D7FC5214D6"]
+			id: "5C71859378A1AAF6"
+			tasks: [{
+				id: "377C82241B8FB104"
+				item: "kubejs:advanced_machine_casing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49C178F7F406634B"]
+			id: "28E1F9464C8BD13A"
+			shape: "circle"
+			tasks: [{
+				id: "2D041B1D3C564ECF"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:industrialrevival/steam_turbine"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Technology"
+}
