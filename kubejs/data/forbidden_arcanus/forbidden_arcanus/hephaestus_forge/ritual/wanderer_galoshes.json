@@ -1,0 +1,34 @@
+{
+  "essences": {
+    "aureal": 300,
+    "experience": 50,
+    "souls": 1
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "malum:void_salts"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "techpack:void_seed"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "malum:cthonic_gold"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "malum:soul_hunter_boots"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "id": "techpack:wanderer_galoshes"
+    }
+  }
+}

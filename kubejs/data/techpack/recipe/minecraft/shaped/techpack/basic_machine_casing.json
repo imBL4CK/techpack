@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "MGM",
+    "PRP"
+  ],
+  "key": {
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "M": {
+      "item": "techpack:mica"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    }
+  },
+  "result": {
+    "id": "techpack:basic_machine_casing"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M",
+    "Z",
+    "T"
+  ],
+  "key": {
+    "M": {
+      "item": "techpack:mica"
+    },
+    "Z": {
+      "item": "create:zinc_ingot"
+    },
+    "T": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "id": "createaddition:capacitor"
+  }
+}

@@ -1,0 +1,452 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1__rustic_era"
+	group: "225813B7649167DE"
+	icon: {
+		id: "supplementaries:sack"
+	}
+	id: "0D8BD511F4895AA9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "186763FC5A59D49A"
+			tasks: [{
+				id: "3A0A572A40C08F81"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A719562329A55D7"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "00370791B3F4498A"
+			shape: "circle"
+			tasks: [{
+				id: "468B08B39E490286"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(techpack:can_storage_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["186763FC5A59D49A"]
+			icon: {
+				id: "techpack:mortar_mix"
+			}
+			id: "250E31A75164ECFE"
+			tasks: [{
+				id: "119D5E1C33057778"
+				item: { count: 1, id: "techpack:mortar_mix" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["250E31A75164ECFE"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "techpack:rustic_oven"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "281FDAC6E901BD9E"
+			tasks: [{
+				id: "403DCABF091DD131"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:rustic_oven" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["281FDAC6E901BD9E"]
+			icon_scale: 0.8d
+			id: "6A3DD1774BC7481F"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5A5ED17C2228D74B"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["281FDAC6E901BD9E"]
+			id: "5CA545337702A880"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "00C1DD70FAD9A860"
+				item: { count: 1, id: "techpack:tanned_leather" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A3DD1774BC7481F"]
+			id: "3827FDBB6FDA7DAC"
+			tasks: [{
+				id: "33C5F4995EE8C993"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:blast_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A3DD1774BC7481F"]
+			id: "3024F1E7770C7B1D"
+			tasks: [{
+				id: "23B6F4481345BC61"
+				item: { count: 1, id: "create:andesite_casing" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			id: "2AC97EB35CA8AC08"
+			tasks: [{
+				id: "5BD765819EF13EB7"
+				item: { count: 1, id: "techpack:wrought_iron_ingot" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AC97EB35CA8AC08"]
+			icon: {
+				id: "techpack:wrought_iron_pickaxe"
+			}
+			id: "276625D22CD9F37B"
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "7336C87DB7F69E22"
+					item: { count: 1, id: "techpack:wrought_iron_sword" }
+					type: "item"
+				}
+				{
+					id: "436D99BB6A99454D"
+					item: { count: 1, id: "techpack:wrought_iron_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "7B75A2DFB822F535"
+					item: { count: 1, id: "techpack:wrought_iron_axe" }
+					type: "item"
+				}
+				{
+					id: "3962173E0E179B21"
+					item: { count: 1, id: "techpack:wrought_iron_shovel" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3024F1E7770C7B1D"]
+			id: "1333EA4B54BEBCD3"
+			tasks: [{
+				id: "206B8C6BCCCBD1A4"
+				item: { count: 1, id: "nomansland:tap" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1333EA4B54BEBCD3"]
+			id: "29EEA4229CD05317"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7D46C876F4F37BAE"
+				item: { count: 1, id: "techpack:makeshift_mechanism" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29EEA4229CD05317"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "516493216BEC484C"
+			tasks: [
+				{
+					id: "1E88FB3E363EAE8C"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "7778B12D002DBF4E"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "5D148ECFC000F1A2"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					id: "69CBB32F617727CB"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "276A29FA706DB97E"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "45F733F90184F2D1"
+					item: { count: 1, id: "create:mechanical_drill" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			id: "5FB97C7AD100E989"
+			tasks: [{
+				id: "7F8CA4419951F69F"
+				item: { count: 1, id: "techpack:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["29EEA4229CD05317"]
+			id: "3B9E5A89B2ED5C71"
+			tasks: [{
+				id: "37C604EED5272C6E"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3B9E5A89B2ED5C71"]
+			id: "19F32B9CCB6C65AF"
+			tasks: [{
+				id: "07487AC1384EFB95"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5FB97C7AD100E989"
+				"19F32B9CCB6C65AF"
+				"36B9DBC8AD941C6E"
+			]
+			icon: {
+				components: {
+					"custommachinery:machine": "techpack:steam_alloy_foundry"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			icon_scale: 0.8d
+			id: "5CD88DC12A6DE7FD"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "43FDC7B5444FDF30"
+					item: { components: { "custommachinery:machine": "techpack:steam_alloy_foundry" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+				{
+					id: "4CBC9CAC46F09596"
+					item: { components: { "custommachinery:machine": "techpack:steam_compressor" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+				{
+					id: "083EA4F4E2F52085"
+					item: { components: { "custommachinery:machine": "techpack:steam_macerator" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+				{
+					id: "63FF01BC04BE6CC0"
+					item: { components: { "custommachinery:machine": "techpack:steam_metal_former" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+				{
+					id: "44FFCF94A3D4B00E"
+					item: { components: { "custommachinery:machine": "techpack:steam_smelter" }, count: 1, id: "custommachinery:custom_machine_item" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["039AD7F88A0159CD"]
+			id: "15F90AD6D095D568"
+			tasks: [{
+				id: "7F2CFB1EDFBFC992"
+				item: { count: 1, id: "techpack:basic_circuit" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15F90AD6D095D568"]
+			id: "46ECDD632284CEF0"
+			tasks: [{
+				id: "293F6B1BD05905FF"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15F90AD6D095D568"]
+			id: "785CF666F705A22B"
+			tasks: [{
+				id: "5E3E7E4BED0534E9"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5CD88DC12A6DE7FD"]
+			icon: {
+				id: "techpack:redstone_reception_coil"
+			}
+			id: "039AD7F88A0159CD"
+			tasks: [
+				{
+					id: "1B4FFA4CC1F09838"
+					item: { count: 1, id: "techpack:redstone_reception_coil" }
+					type: "item"
+				}
+				{
+					id: "444BD12A486A8D7B"
+					item: { count: 1, id: "techpack:redstone_transmission_coil" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			id: "36B9DBC8AD941C6E"
+			tasks: [{
+				id: "61984A0E93279CE1"
+				item: { components: { "custommachinery:machine": "techpack:low_pressure_boiler" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["186763FC5A59D49A"]
+			id: "5A719562329A55D7"
+			tasks: [{
+				id: "7DE59D219035BD6A"
+				item: { count: 1, id: "farmersdelight:basket" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["516493216BEC484C"]
+			id: "1CF3499992DEAC9D"
+			tasks: [{
+				id: "6230E01835506EA8"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1CF3499992DEAC9D"]
+			id: "18BD92C01809163B"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "731C15F1D4738B9F"
+				item: { count: 1, id: "supplementaries:planter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["29EEA4229CD05317"]
+			id: "069EA756F232E4F6"
+			tasks: [{
+				id: "251E2115D456A822"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["516493216BEC484C"]
+			icon: {
+				id: "create:white_sail"
+			}
+			id: "65F7EB4863FD3FDD"
+			tasks: [
+				{
+					id: "62DD659E6FE2242A"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "09CACFE81AD5ACE1"
+					item: { count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["069EA756F232E4F6"]
+			id: "7108004BE6176984"
+			shape: "circle"
+			tasks: [{
+				id: "131F49E2323CB44D"
+				item: { count: 1, id: "create:empty_blaze_burner" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+	]
+}

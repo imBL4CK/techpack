@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PHP",
+    "HGH",
+    "PHP"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "H": {
+      "item": "techpack:heavy_steel_plate"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    }
+  },
+  "result": {
+    "id": "techpack:steel_casing"
+  }
+}

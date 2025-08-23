@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:sifted_sand"
+    },
+    {
+      "item": "techpack:sifted_sand"
+    },
+    {
+      "item": "techpack:sifted_sand"
+    },
+    {
+      "item": "techpack:sifted_sand"
+    }
+  ],
+  "result": {
+    "id": "minecraft:sand"
+  }
+}

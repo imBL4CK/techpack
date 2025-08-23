@@ -1,0 +1,27 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraIngredients": [
+        {
+            "item": "malum:hallowed_gold_nugget",
+            "count": 4
+        },
+        {
+            "item": "techpack:quicksilver",
+            "count": 1
+        }
+    ],
+    "ingredient": {
+        "item": "malum:warp_flux",
+        "count": 1
+    },
+    "output": {
+        "id": "malum:convoluted_lens",
+        "count": 2
+    },
+    "spirits": [
+        {
+            "type": "aerial",
+            "count": 1
+        }
+    ]
+}

@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mysteries_of_this_world"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "malum:encyclopedia_arcana"
+	}
+	id: "5D365D0FAB7BA68D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["689A412F4D529E43"]
+			id: "641436DAB4BEAE18"
+			tasks: [{
+				id: "0F5EC194481D5028"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["260EC27B5BE80815"]
+			id: "11927E2D181B985E"
+			tasks: [{
+				id: "5149932254C00B3F"
+				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["641436DAB4BEAE18"]
+			id: "5BFA90D464D2BECB"
+			tasks: [{
+				icon: {
+					id: "forbidden_arcanus:hephaestus_forge_tier_1"
+				}
+				id: "0489D5FFFFB342D9"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:hephaestus_forge_tier_1"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "689A412F4D529E43"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "538A78625598026C"
+				item: { count: 1, id: "malum:encyclopedia_arcana" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BFA90D464D2BECB"]
+			id: "4BD0D15459102CA2"
+			tasks: [{
+				id: "6995A371671B4604"
+				item: { count: 1, id: "malum:spirit_jar" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5BFA90D464D2BECB"]
+			id: "1F064D22C47A9D7E"
+			shape: "circle"
+			tasks: [{
+				id: "7953AEE539069ACA"
+				item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["641436DAB4BEAE18"]
+			id: "260EC27B5BE80815"
+			tasks: [{
+				id: "3250C6E1B0599F13"
+				item: { count: 1, id: "techpack:basic_alchemical_crucible" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+	]
+}

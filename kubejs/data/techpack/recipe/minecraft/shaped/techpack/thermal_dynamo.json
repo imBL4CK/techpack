@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "ISI",
+    "PCP"
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:redstone_transmission_coil"
+    },
+    "I": {
+      "item": "techpack:invar_ingot"
+    },
+    "S": {
+      "item": "techpack:copper_plate"
+    },
+    "P": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    }
+  },
+  "result": {
+    "id": "techpack:thermal_dynamo"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "CBC",
+    " R "
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:redstone_transmission_coil"
+    },
+    "C": {
+      "item": "techpack:cesu"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    }
+  },
+  "result": {
+    "id": "createaddition:modular_accumulator"
+  }
+}

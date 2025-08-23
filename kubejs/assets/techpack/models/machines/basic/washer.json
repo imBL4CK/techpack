@@ -1,0 +1,23 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"face": "techpack:block/machines/basic/washer",
+    	"side": "techpack:block/basic_machine_casing",
+		"up": "techpack:block/basic_machine_casing_top",
+		"down": "techpack:block/basic_machine_casing_bottom",
+    	"particle": "techpack:block/basic_machine_casing"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#down", "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#face", "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+            }
+        }
+    ]
+}

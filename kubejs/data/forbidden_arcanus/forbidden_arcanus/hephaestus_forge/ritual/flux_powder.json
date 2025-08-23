@@ -1,0 +1,28 @@
+{
+  "essences": {
+    "aureal": 50
+  },
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:glowstone_dust"
+      }
+    },
+    {
+      "ingredient": {
+        "item": "minecraft:redstone"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "minecraft:blaze_powder"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 4,
+      "id": "techpack:flux_powder"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    "MC#"
+  ],
+  "key": {
+    "M": {
+      "item": "techpack:makeshift_mechanism"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "#": {
+      "item": "create:whisk"
+    }
+  },
+  "result": {
+    "id": "create:mechanical_mixer",
+    "count": 1
+  }
+}

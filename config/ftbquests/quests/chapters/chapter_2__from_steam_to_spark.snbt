@@ -1,0 +1,422 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_2__from_steam_to_spark"
+	group: "225813B7649167DE"
+	icon: {
+		id: "techpack:basic_circuit"
+	}
+	id: "28ABDB4C54685DEA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["15F90AD6D095D568"]
+			icon_scale: 0.8d
+			id: "0F914F8C5666E10B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "32F2AAAF2D976ACD"
+				item: { count: 1, id: "techpack:basic_machine_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F914F8C5666E10B"]
+			icon: {
+				id: "techpack:basic_smelter"
+			}
+			id: "7F7BC1DCAFD51ED7"
+			tasks: [
+				{
+					id: "7C8D3C508EFC8BE4"
+					item: { count: 1, id: "techpack:basic_alloy_foundry" }
+					type: "item"
+				}
+				{
+					id: "49731C9C730EB5AF"
+					item: { count: 1, id: "techpack:basic_compressor" }
+					type: "item"
+				}
+				{
+					id: "5CBA422245601CFE"
+					item: { count: 1, id: "techpack:basic_macerator" }
+					type: "item"
+				}
+				{
+					id: "53A76B5645207FCC"
+					item: { count: 1, id: "techpack:basic_metal_former" }
+					type: "item"
+				}
+				{
+					id: "6B8CB67D98746C85"
+					item: { count: 1, id: "techpack:basic_smelter" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2610D92D5D724454"]
+			id: "507AF2E73ED7EE0D"
+			tasks: [{
+				id: "743CB7169817C13A"
+				item: { count: 1, id: "techpack:steam_dynamo" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["507AF2E73ED7EE0D"]
+			id: "123270565A77CAC1"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "209B99FFBE1F4FD4"
+				item: { count: 1, id: "techpack:thermal_dynamo" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7F7BC1DCAFD51ED7"]
+			id: "591CDC829FF9FC28"
+			tasks: [{
+				id: "6672F071A3A8C7C5"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F914F8C5666E10B"]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_valve"
+			}
+			id: "0441A15B3E47D93F"
+			tasks: [
+				{
+					count: 2L
+					id: "464271ECAAFF8E8A"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+				{
+					id: "0A6400CF42176AA4"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0441A15B3E47D93F"]
+			icon: {
+				id: "pneumaticcraft:refinery"
+			}
+			id: "07FBD1E23915AF6B"
+			tasks: [
+				{
+					id: "6EAF44E8C33FD012"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "217A55E4525ECD46"
+					item: { count: 4, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F914F8C5666E10B"]
+			icon: {
+				id: "industrialforegoing:latex_processing_unit"
+			}
+			id: "7218229E14CE6FB3"
+			shape: "circle"
+			tasks: [
+				{
+					id: "634F96E35011B70E"
+					item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+					type: "item"
+				}
+				{
+					id: "4616CEF1BE4CBB25"
+					item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["591CDC829FF9FC28"]
+			id: "3EA0672425F7A37F"
+			tasks: [{
+				id: "4D10E6A89FBE2500"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["07FBD1E23915AF6B"]
+			icon: {
+				id: "techpack:transistor"
+			}
+			id: "69CDC1ABCED6AD47"
+			tasks: [
+				{
+					id: "565D7B24AD6B10C1"
+					item: { count: 1, id: "techpack:transistor" }
+					type: "item"
+				}
+				{
+					id: "502E918678B4392B"
+					item: { count: 1, id: "techpack:resistor" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69CDC1ABCED6AD47"
+				"34B0C2176A78341B"
+			]
+			id: "7E8F71BE09B67753"
+			size: 1.0d
+			tasks: [{
+				id: "233A5B621E30844D"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:arc_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69CDC1ABCED6AD47"]
+			id: "659E7809B3C26998"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "630FBD2CC0093B0A"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:pyrolyse_oven" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3099B9CF5A6DABBF"]
+			id: "14D21C3042F0550E"
+			tasks: [{
+				id: "5D3FEBCC619F8BFB"
+				item: { count: 1, id: "ae2:inscriber" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"14D21C3042F0550E"
+				"3EA0672425F7A37F"
+			]
+			icon: {
+				id: "ae2:logic_processor"
+			}
+			icon_scale: 0.8d
+			id: "3DE253B80BC28A15"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "39FD3BDB8AA17B09"
+					item: { count: 1, id: "ae2:logic_processor" }
+					type: "item"
+				}
+				{
+					id: "6A847907E36A9DF0"
+					item: { count: 1, id: "ae2:engineering_processor" }
+					type: "item"
+				}
+				{
+					id: "35657B24365318C0"
+					item: { count: 1, id: "ae2:calculation_processor" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7F7BC1DCAFD51ED7"]
+			id: "3099B9CF5A6DABBF"
+			tasks: [{
+				id: "0F1E885A996950CF"
+				item: { count: 1, id: "ae2:meteorite_compass" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2610D92D5D724454"]
+			icon: {
+				id: "techpack:basic_alternator"
+			}
+			id: "3DF1AEE7CF11AB76"
+			tasks: [
+				{
+					id: "2BF438CF42324182"
+					item: { count: 1, id: "techpack:basic_alternator" }
+					type: "item"
+				}
+				{
+					id: "2D3783524692D5FD"
+					item: { count: 1, id: "techpack:basic_electric_motor" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F914F8C5666E10B"]
+			id: "2610D92D5D724454"
+			tasks: [{
+				id: "122C449456DEC227"
+				item: { count: 1, id: "techpack:battery_box" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F914F8C5666E10B"]
+			icon: {
+				id: "malum:encyclopedia_esoterica"
+			}
+			id: "237194A5F3216ABE"
+			size: 1.0d
+			tasks: [
+				{
+					id: "49890CFF891ADD67"
+					observe_type: 0
+					timer: 0L
+					to_observe: "malum:void_conduit"
+					type: "observation"
+				}
+				{
+					id: "7E5C83C7E2FCD0F0"
+					item: { count: 1, id: "malum:encyclopedia_esoterica" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DE253B80BC28A15"]
+			id: "7F5AFDB7019CD36F"
+			tasks: [{
+				id: "66C825DBBB9265CF"
+				item: { count: 1, id: "techpack:basic_assembler" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["65D99804AD9EBCF9"]
+			icon_scale: 0.8d
+			id: "55D4F942D097AFE9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "41B219400978FB22"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			id: "65D99804AD9EBCF9"
+			tasks: [{
+				id: "04A11416620CA70A"
+				item: { count: 1, id: "techpack:hdpe_sheet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["237194A5F3216ABE"]
+			id: "2878606D4273FB1C"
+			tasks: [{
+				id: "0F75D2529D6049CA"
+				item: { count: 1, id: "techpack:glutton" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["237194A5F3216ABE"]
+			id: "34B0C2176A78341B"
+			tasks: [{
+				id: "00CB9F44D230E0C9"
+				item: { count: 1, id: "malum:anomalous_design" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"641436DAB4BEAE18"
+				"237194A5F3216ABE"
+			]
+			id: "57C18C902133FA4F"
+			tasks: [{
+				icon: {
+					id: "forbidden_arcanus:hephaestus_forge_tier_1"
+				}
+				id: "33D0D9C1E29B6D83"
+				observe_type: 0
+				timer: 0L
+				to_observe: "forbidden_arcanus:hephaestus_forge_tier_1"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["57C18C902133FA4F"]
+			id: "6DC4B98B6837AB86"
+			tasks: [{
+				id: "52114EEFDB0BAFFB"
+				item: { count: 1, id: "malum:spirit_jar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+}

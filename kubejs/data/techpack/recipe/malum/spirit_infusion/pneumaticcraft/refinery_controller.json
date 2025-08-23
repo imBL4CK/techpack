@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraIngredients": [
+    {
+      "tag": "techpack:electrical_insulators",
+      "count": 4
+    },
+    {
+      "item": "techpack:redstone_transmission_coil",
+      "count": 1
+    },
+    {
+      "item": "pneumaticcraft:reinforced_stone",
+      "count": 2
+    },
+    {
+      "item": "techpack:basic_circuit",
+      "count": 1
+    }
+  ],
+  "ingredient": {
+    "item": "pneumaticcraft:small_tank",
+    "count": 1
+  },
+  "output": {
+    "id": "pneumaticcraft:refinery"
+  },
+  "spirits": [
+    {
+      "type": "infernal",
+      "count": 4
+    },
+    {
+      "type": "aqueous",
+      "count": 2
+    }
+  ]
+}

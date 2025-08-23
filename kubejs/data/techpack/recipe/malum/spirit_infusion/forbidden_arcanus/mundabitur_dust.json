@@ -1,0 +1,31 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraIngredients": [
+        {
+            "item": "minecraft:redstone"
+        },
+        {
+            "item": "minecraft:phantom_membrane"
+        },
+        {
+            "item": "malum:hex_ash"
+        },
+        {
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "ingredient": {
+        "item": "forbidden_arcanus:arcane_crystal_dust",
+        "count": 1
+    },
+    "output": {
+        "id": "forbidden_arcanus:mundabitur_dust",
+        "count": 1
+    },
+    "spirits": [
+        {
+            "type": "arcane",
+            "count": 3
+        }
+    ]
+}

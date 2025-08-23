@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraIngredients": [
+    {
+      "item": "malum:rotting_essence",
+      "count": 2
+    },
+    {
+      "item": "malum:alchemical_calx",
+      "count": 4
+    },
+    {
+      "item": "malum:grim_talc",
+      "count": 2
+    },
+    {
+      "item": "malum:void_salts",
+      "count": 1
+    }
+  ],
+  "ingredient": {
+    "item": "malum:paracausal_flame",
+    "count": 1
+  },
+  "output": {
+    "id": "techpack:organic_component"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 8
+    },
+    {
+      "type": "sacred",
+      "count": 12
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "name": {
+    "text": "Basic Washer"
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/basic/washer#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 4000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_tank",
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "fluid_output_tank",
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH"
+      },
+      "id": "energy_input_slot",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": "Basic Washer"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 43,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 61,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 43,
+      "y": 40,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 85,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 61,
+      "y": 57,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 115,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 43,
+      "y": 57
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "- Energy storage: 4000 RF"
+    },
+    {
+      "text": "- Energy I/O: 1000 RF/t"
+    }
+  ]
+}

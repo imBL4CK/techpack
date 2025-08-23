@@ -1,0 +1,14 @@
+{
+  "type": "forbidden_arcanus:clibano_combustion",
+  "category": "misc",
+  "cooking_time": 120,
+  "experience": 0.2,
+  "fire_type": "fire",
+  "ingredients": {
+    "item": "techpack:cinnabar"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:quicksilver"
+  }
+}

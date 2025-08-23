@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:bronze_machine_casing"
+    },
+    {
+      "item": "modular_machinery_reborn:fluidinputhatch_tiny"
+    }
+  ],
+  "result": {
+    "id": "modular_machinery_reborn:fluidinputhatch_small"
+  }
+}

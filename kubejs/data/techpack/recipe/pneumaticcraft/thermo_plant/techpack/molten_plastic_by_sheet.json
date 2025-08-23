@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "item": {
+      "item": "pneumaticcraft:plastic"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "pneumaticcraft:plastic",
+      "amount": 1000
+    }
+  },
+  "temperature": {
+    "min": 373
+  }
+}

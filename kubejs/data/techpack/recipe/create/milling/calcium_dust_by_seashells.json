@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "processing_time": 50,
+  "ingredients": [
+    {
+      "item": "nomansland:seashells"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:calcium_dust",
+      "count": 2
+    }
+  ]
+}

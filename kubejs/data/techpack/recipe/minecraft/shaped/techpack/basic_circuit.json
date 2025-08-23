@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "EBE",
+    "RTC"
+  ],
+  "key": {
+    "S": {
+      "item": "createaddition:copper_spool"
+    },
+    "E": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "B": {
+      "item": "techpack:basic_circuit_board"
+    },
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:redstone_transmission_coil"
+    }
+  },
+  "result": {
+    "id": "techpack:basic_circuit"
+  }
+}

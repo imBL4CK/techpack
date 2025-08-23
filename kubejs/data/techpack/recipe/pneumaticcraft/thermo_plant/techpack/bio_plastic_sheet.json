@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "fluid": {
+      "amount": 250,
+      "tag": "c:fuels/biodiesel"
+    },
+    "item": {
+      "item": "minecraft:charcoal"
+    }
+  },
+  "outputs": {
+    "item_output": {
+      "id": "techpack:bio_plastic_sheet"
+    }
+  },
+  "temperature": {
+    "min": 373
+  }
+}

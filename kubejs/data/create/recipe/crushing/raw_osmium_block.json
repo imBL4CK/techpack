@@ -1,0 +1,34 @@
+{
+  "type": "create:crushing",
+  "conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "neoforge:storage_blocks/raw_osmium"
+      }
+    }
+  ],
+  "ingredients": [
+    {
+      "tag": "c:storage_blocks/raw_osmium"
+    }
+  ],
+  "processingTime": 400,
+  "results": [
+    {
+      "count": 9,
+      "id": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.5,
+      "count": 9,
+      "id": "create:crushed_raw_osmium"
+    },
+    {
+      "chance": 0.75,
+      "count": 9,
+      "id": "create:experience_nugget"
+    }
+  ]
+}

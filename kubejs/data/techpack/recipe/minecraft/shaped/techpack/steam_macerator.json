@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LMS",
+    "PCP",
+    "GTG"
+  ],
+  "key": {
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "techpack:bronze_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "L": {
+      "item": "create:millstone"
+    },
+    "S": {
+      "item": "minecraft:piston"
+    }
+  },
+  "result": {
+    "id": "techpack:steam_macerator"
+  }
+}

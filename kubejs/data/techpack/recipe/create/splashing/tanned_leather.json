@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "techpack:sealed_leather"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:tanned_leather"
+    }
+  ]
+}

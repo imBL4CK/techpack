@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BPB",
+    "LSL",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "item": "farmersdelight:tree_bark"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "tag": "c:stripped_logs"
+    },
+    "S": {
+      "item": "create:shaft"
+    }
+  },
+  "result": {
+    "id": "create:water_wheel"
+  }
+}

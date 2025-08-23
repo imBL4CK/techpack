@@ -1,0 +1,122 @@
+{
+  "name": {
+    "text": "Steam Dynamo"
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/steam/steam_dynamo#standalone",
+    "custommachinery:item": "techpack:machines/steam/steam_dynamo#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "whitelist": "techpack:steam",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "NONE",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "fluid_tank",
+      "capacity": 16000,
+      "max_input": 4000,
+      "max_output": 4000
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 32000,
+      "max_input": 4000,
+      "max_output": 4000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "OUTPUT",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 4.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "ENABLED",
+        "LEFT": "DISABLED"
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": "Steam Dynamo"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_insert_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 8,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_input",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "x": 8,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 78,
+      "y": 35,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "- Steam storage: 16.000 mB"
+    },
+    {
+      "text": "- Energy generation: 50 RF/t"
+    },
+    {
+      "text": "- Energy storage: 32.000 RF"
+    },
+    {
+      "text": "- Energy I/O: 4000 RF/t"
+    }
+  ]
+}

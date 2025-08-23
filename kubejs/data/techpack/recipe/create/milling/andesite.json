@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.15,
+      "id": "techpack:mica"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BPB",
+    "LWL",
+    "BPB"
+  ],
+  "key": {
+    "B": {
+      "item": "farmersdelight:tree_bark"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "tag": "c:stripped_logs"
+    },
+    "W": {
+      "item": "create:water_wheel"
+    }
+  },
+  "result": {
+    "id": "create:large_water_wheel"
+  }
+}

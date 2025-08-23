@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RTR",
+    "RBR",
+    "FCF"
+  ],
+  "key": {
+    "R": {
+      "item": "pneumaticcraft:reinforced_bricks"
+    },
+    "T": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "B": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:air_compressor"
+  }
+}

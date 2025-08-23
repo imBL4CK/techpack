@@ -1,0 +1,24 @@
+{
+  "essences": {
+    "aureal": 1000,
+    "blood": 9000,
+    "souls": 50
+  },
+  "forge_tier": 2,
+  "inputs": [
+    {
+      "ingredient": {
+        "item": "minecraft:barrier"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:upgrade_tier",
+  "main_ingredient": {
+    "item": "minecraft:barrier"
+  },
+  "match_tier_exact": true,
+  "result": {
+    "type": "forbidden_arcanus:upgrade_tier",
+    "result_tier": 3
+  }
+}

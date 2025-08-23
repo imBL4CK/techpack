@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EAE",
+    "TBR",
+    "OCO"
+  ],
+  "key": {
+    "E": {
+      "item": "techpack:basic_electric_motor"
+    },
+    "A": {
+      "item": "malum:anomalous_design"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    },
+    "T": {
+      "item": "techpack:transistor"
+    },
+    "B": {
+      "item": "techpack:steel_casing"
+    },
+    "R": {
+      "item": "techpack:resistor"
+    },
+    "O": {
+      "item": "techpack:redstone_reception_coil"
+    }
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:arc_furnace"
+    }
+  }
+}

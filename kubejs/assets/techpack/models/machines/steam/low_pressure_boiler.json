@@ -1,0 +1,23 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"face": "techpack:block/machines/steam/low_pressure_boiler",
+    	"side": "techpack:block/machines/steam/low_pressure_boiler_side",
+		"up": "techpack:block/bronze_machine_casing_top",
+		"down": "techpack:block/fireproof_bricks",
+    	"particle": "techpack:block/machines/steam/low_pressure_boiler_side"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#down", "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#up", "cullface": "up" },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#face", "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+            }
+        }
+    ]
+}

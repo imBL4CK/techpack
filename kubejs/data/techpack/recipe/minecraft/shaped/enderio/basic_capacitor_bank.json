@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TCT",
+    "CBC",
+    "TCT"
+  ],
+  "key": {
+    "C": {
+      "item": "enderio:basic_capacitor"
+    },
+    "B": {
+      "item": "techpack:battery_box"
+    },
+    "T": {
+      "tag": "c:ingots/tin"
+    }
+  },
+  "result": {
+    "id": "enderio:basic_capacitor_bank"
+  }
+}

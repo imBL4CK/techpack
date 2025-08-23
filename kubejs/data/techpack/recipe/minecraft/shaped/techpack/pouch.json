@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TF",
+    "TT"
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:tanned_leather"
+    },
+    "F": {
+      "item": "supplementaries:flax"
+    }
+  },
+  "result": {
+    "id": "techpack:pouch"
+  }
+}

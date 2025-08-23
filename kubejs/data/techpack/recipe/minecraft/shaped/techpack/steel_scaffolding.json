@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    "PHP",
+    " P "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/steel"
+    },
+    "H": {
+      "item": "techpack:heavy_steel_plate"
+    }
+  },
+  "result": {
+    "id": "techpack:steel_scaffolding"
+  }
+}

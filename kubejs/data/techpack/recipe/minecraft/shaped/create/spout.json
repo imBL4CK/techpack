@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "R"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:ingots/copper"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    }
+  },
+  "result": {
+    "id": "create:spout"
+  }
+}

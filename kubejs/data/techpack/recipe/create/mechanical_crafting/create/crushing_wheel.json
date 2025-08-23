@@ -1,0 +1,32 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    " AAA ",
+    "AWSWA",
+    "ADBDA",
+    "AWSWA",
+    " AAA "
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    },
+    "B": {
+      "item": "techpack:bronze_gear"
+    }
+  },
+  "result": {
+    "id": "create:crushing_wheel",
+    "count": 2
+  }
+}

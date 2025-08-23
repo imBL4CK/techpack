@@ -1,0 +1,282 @@
+{
+  "name": {
+    "text": "Basic Assembler"
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/basic/assembler#standalone",
+    "custommachinery:item": "techpack:machines/basic/assembler#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_5",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_6",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "fluid_output_tank",
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_tank_1",
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_tank_2",
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 4000,
+      "max_input": 1000,
+      "max_output": 1000
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/assembler.png"
+      },
+      "width": 176,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": "Assembler"
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 31,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 49,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 67,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 31,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_5",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 49,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_6",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 67,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 127,
+      "y": 21
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 127,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 127,
+      "y": 57
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 31,
+      "y": 58,
+      "height": 18,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 31,
+      "y": 75
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 93,
+      "y": 30,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 49,
+      "y": 75
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 67,
+      "y": 75
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 127,
+      "y": 74
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "- Energy storage: 4000 RF"
+    },
+    {
+      "text": "- Energy I/O: 1000 RF/t"
+    }
+  ]
+}

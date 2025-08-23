@@ -1,0 +1,26 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraIngredients": [
+    {
+      "tag": "c:plates/iron",
+      "count": 4
+    }
+  ],
+  "ingredient": {
+    "item": "minecraft:netherrack",
+    "count": 1
+  },
+  "output": {
+    "id": "create:empty_blaze_burner"
+  },
+  "spirits": [
+    {
+      "type": "arcane",
+      "count": 2
+    },
+    {
+      "type": "infernal",
+      "count": 1
+    }
+  ]
+}

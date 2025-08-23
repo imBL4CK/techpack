@@ -1,0 +1,88 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:copper_block"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": {
+        "id": "create:steam_engine"
+      }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_block"
+        },
+        {
+          "item": "create:precision_mechanism"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "minecraft:copper_block"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_block"
+        },
+        {
+          "item": "techpack:basic_circuit"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "minecraft:copper_block"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_block"
+        },
+        {
+          "tag": "c:plates/bronze"
+        }
+      ],
+      "results": [
+        {
+          "item": {
+            "id": "minecraft:copper_block"
+          }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:copper_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:copper_block"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": {
+      "id": "create:copper_casing"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:andesite_alloy"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": { "id": "techpack:makeshift_mechanism" }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "techpack:electrical_insulators"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "create:andesite_alloy" }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        },
+        {
+          "tag": "c:nuggets/copper"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "create:andesite_alloy" }
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:andesite_alloy"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "create:andesite_alloy" }
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": { "id": "create:andesite_alloy" }
+  }
+}

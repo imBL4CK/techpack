@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:pouch"
+    },
+    {
+      "item": "techpack:calcium_dust"
+    }
+  ],
+  "result": {
+    "id": "techpack:calcium_fertilizer"
+  }
+}

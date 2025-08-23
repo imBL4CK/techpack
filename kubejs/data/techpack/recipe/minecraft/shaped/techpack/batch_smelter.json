@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AEA",
+    "MBM",
+    "RCR"
+  ],
+  "key": {
+    "A": {
+      "item": "malum:auric_embers"
+    },
+    "E": {
+      "item": "techpack:basic_electric_motor"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    },
+    "M": {
+      "item": "techpack:mica"
+    },
+    "B": {
+      "item": "techpack:bronze_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    }
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:batch_smelter"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "count": 1,
+      "item": "createaddition:copper_spool"
+    },
+    {
+      "count": 1,
+      "item": "create:electron_tube"
+    },
+    {
+      "count": 1,
+      "tag": "techpack:electrical_insulators"
+    },
+    {
+      "count": 1,
+      "item": "techpack:basic_circuit_board"
+    },
+    {
+      "count": 1,
+      "item": "techpack:redstone_transmission_coil"
+    },
+    {
+      "count": 1,
+      "item": "techpack:redstone_reception_coil"
+    }
+  ],
+  "pressure": 3.0,
+  "results": [
+    {
+      "count": 1,
+      "id": "techpack:basic_circuit"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_sword"
+  },
+  "addition": {
+    "item": "techpack:wrought_iron_ingot"
+  },
+  "template": {
+    "item": "techpack:handle"
+  },
+  "result": {
+    "id": "techpack:wrought_iron_sword"
+  }
+}

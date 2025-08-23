@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WI",
+    "PP"
+  ],
+  "key": {
+    "W": {
+      "item": "techpack:wrought_iron_ingot"
+    },
+    "I": {
+      "tag": "c:plates/iron"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "id": "minecraft:smithing_table"
+  }
+}
