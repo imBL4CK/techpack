@@ -1,0 +1,8 @@
+ServerEvents.highPriorityData(e => {
+    let customPentacles = [
+        {
+            name: 'machineRecipes',
+            
+        }
+    ]
+})

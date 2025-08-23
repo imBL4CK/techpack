@@ -1,0 +1,18 @@
+{
+    "item": "enderio:double_layer_capacitor",
+    "machines": [
+        "custommachinery:assembler",
+        "custommachinery:primitive_manufacture",
+        "custommachinery:primitive_furnace"],
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:speed",
+	    "mode": "input",
+	    "operation": "multiplication",
+	    "modifier": 0.5
+	}
+    ],
+    "tooltip": {
+        "text": "Accelerates the processing time of machines in Techpack: Machines by 50% machine speed"
+    }
+}

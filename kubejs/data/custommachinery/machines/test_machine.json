@@ -1,0 +1,62 @@
+{
+    "name": "Test Machine",
+    "appearance": {},
+    "gui": [
+      {
+        "texture": "kubejs:textures/gui/assembler_background.png",
+        "x": 38,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 95,
+        "type": "custommachinery:player_inventory"
+    },
+    {
+        "id": "input_slot",
+        "x": 90,
+        "y": 40,
+        "type": "custommachinery:slot"
+    },
+    {
+        "id": "output_slot",
+        "x": 145,
+        "y": 40,
+        "type": "custommachinery:slot"
+      },
+    {
+        "x": 115,
+        "y": 41,
+        "type": "custommachinery:progress"
+    },
+    {
+        "x": 48,
+        "y": 30,
+        "type": "custommachinery:energy",
+        "texture_empty": "kubejs:textures/gui/energy_bar_empty.png",
+        "texture_filled": "kubejs:textures/gui/energy_bar_filled.png",
+        "highlight": false
+    },
+    {
+        "x": 196,
+        "y": 5,
+        "type": "custommachinery:status"
+    }],
+    "components": [
+        {
+          "mode": "input",
+          "id": "input_slot",
+          "type": "custommachinery:item"
+        },
+        {
+            "mode": "output",
+            "id": "output_slot",
+            "type": "custommachinery:item"
+          },
+        {
+            "capacity": 50000,
+            "type": "custommachinery:energy"
+        }
+    ]
+}

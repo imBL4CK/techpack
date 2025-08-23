@@ -1,0 +1,19 @@
+{
+    "item": "enderio:octadic_capacitor",
+    "machines": [
+        "custommachinery:assembler",
+        "custommachinery:primitive_manufacture",
+        "custommachinery:primitive_furnace"
+],
+    "modifiers": [
+        {
+	    "requirement": "custommachinery:speed",
+	    "mode": "input",
+	    "operation": "multiplication",
+	    "modifier": 0.25
+	}
+    ],
+    "tooltip": {
+        "text": "Accelerates the processing time of machines in Techpack: Machines by 75% machine speed"
+    }
+}

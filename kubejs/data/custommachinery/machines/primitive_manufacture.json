@@ -1,0 +1,198 @@
+{
+    "name": "Primitive Manufacture Machine",
+    "namespace": "primitive_manufacture",
+    "appearance": {
+      "lightmode": "running",
+      "block": "kubejs:machine/primitive_manufacture",
+      "interaction_sound": "minecraft:iron_block",
+      "tool_type": "minecraft:mineable/pickaxe",
+      "mining_level": "minecraft:needs_iron_tool",
+      "light": -1
+    },
+    "processor": {
+      "type": "custommachinery:machine"
+    },
+    "gui": [
+      {
+        "texture": "kubejs:textures/gui/assembler_background.png",
+        "x": 38,
+        "y": 0,
+        "type": "custommachinery:texture"
+      },
+      {
+        "x": 47,
+        "y": 98,
+        "type": "custommachinery:player_inventory"
+      },
+      {
+        "id": "input1",
+        "x": 95,
+        "y": 20,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input2",
+        "x": 113,
+        "y": 20,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input3",
+        "x": 131,
+        "y": 20,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input4",
+        "x": 95,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input5",
+        "x": 113,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input6",
+        "x": 131,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input7",
+        "x": 95,
+        "y": 56,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input8",
+        "x": 113,
+        "y": 56,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "input9",
+        "x": 131,
+        "y": 56,
+        "type": "custommachinery:slot"
+      },
+      {
+        "x": 50,
+        "y": 15,
+        "type": "custommachinery:energy",
+        "texture_empty": "kubejs:textures/gui/energy_bar_empty.png",
+        "texture_filled": "kubejs:textures/gui/energy_bar_filled.png",
+        "highlight": false
+      },
+      {
+        "id": "output1",
+        "x": 186,
+        "y": 38,
+        "type": "custommachinery:slot"
+      },
+      {
+        "id": "upgrade",
+        "x": 48,
+        "y": 59,
+        "type": "custommachinery:slot",
+        "texture": "kubejs:textures/gui/upgrade_slot.png"
+      },
+      {
+        "x": 154,
+        "y": 38,
+        "type": "custommachinery:progress"
+      },
+      {
+        "x": 196,
+        "y": 5,
+        "type": "custommachinery:status"
+      },
+      {
+        "text": "Primitive Manufacture",
+        "x": 96,
+        "y": 5,
+        "type": "custommachinery:text"
+      },
+      {
+        "type": "custommachinery:text",
+        "text": "Inventory",
+        "x": 47,
+        "y": 88
+      },
+      {
+        "type": "custommachinery:config",
+        "x": 220,
+        "y": 20
+    }
+    ],
+    "components": [
+      {
+        "mode": "input",
+        "id": "input1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input2",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input3",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input4",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input5",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input6",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input7",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input8",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "input9",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "output",
+        "id": "output1",
+        "type": "custommachinery:item"
+      },
+      {
+        "mode": "input",
+        "id": "upgrade",
+        "type": "custommachinery:item",
+        "variant": "custommachinery:upgrade",
+        "capacity": 1
+      },
+      {
+        "capacity": 20000,
+        "type": "custommachinery:energy",
+        "maxInput": 15
+      },
+      {
+          "type": "custommachinery:redstone",
+          "poweroutput": 15
+      }
+    ]
+  }
