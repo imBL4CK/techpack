@@ -1,0 +1,16 @@
+{
+  "feature": "techlab:spirit_nodes/spirit_node",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 24
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE"
+    }
+  ]
+}

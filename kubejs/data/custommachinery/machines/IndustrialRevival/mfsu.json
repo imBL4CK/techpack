@@ -1,0 +1,137 @@
+{
+  "name": {
+    "text": "MFSU"
+  },
+  "namespace": "mfsu",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/mfsu",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "tooltips": [
+    {
+      "text": "Energy Storage: 50.000.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Transfer: 75.000 FE",
+      "color": "blue"
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 103
+    },
+    {
+      "text": "MFSU",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png",
+      "x": 213,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png",
+      "tooltips": [
+        {
+          "text": "I/O Side Configuration"
+        }
+      ],
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "x": 213,
+      "y": 39,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "id": "output_slot",
+      "x": 119,
+      "y": 25,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "input_slot",
+      "x": 119,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "x": 119,
+      "y": 45,
+      "id": "energy",
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    }
+  ],
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "id": "upgrade_slot",
+      "mode": "input"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:energy"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:energy"
+    },
+    {
+      "id": "energy",
+      "type": "custommachinery:energy",
+      "maxInput": 75000,
+      "capacity": 50000000,
+      "maxOutput": 75000,
+      "config": {
+        "default": "none",
+        "TOP": "none",
+        "BOTTOM": "none",
+        "FRONT": "both",
+        "RIGHT": "none",
+        "BACK": "both",
+        "LEFT": "none",
+        "input": true,
+        "output": true
+      }
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    }
+  ]
+}

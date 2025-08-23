@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#techlab:climate_hot",
+  "features": [
+    "techlab:spirit_nodes/spirit_node"
+  ],
+  "step": "surface_structures"
+}

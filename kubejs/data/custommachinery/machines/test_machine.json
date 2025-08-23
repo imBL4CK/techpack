@@ -1,0 +1,31 @@
+{
+    "name": "Test Machine",
+    "namespace": "test_machine",
+    "gui": [
+        {
+            "texture": "kubejs:textures/gui/base_gui.png",
+            "x": 40,
+            "y": 10,
+            "type": "custommachinery:texture"
+        },
+        {
+            "x": 47,
+            "y": 103,
+            "type": "custommachinery:player_inventory"
+        },
+        {
+            "id": "slot_1",
+            "type": "custommachinery:slot",
+            "x": 118,
+            "y": 50
+        }
+    ],
+    "components": [
+        {
+            "id": "slot_1",
+            "mode": "both",
+            "type": "custommachinery:item",
+            "variant": "custommachinery:filter"
+        }
+    ]
+}

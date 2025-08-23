@@ -1,0 +1,29 @@
+{
+  "values": [
+    "mm:arc_furnace_controller",
+    "mm:alloy_klin_controller",
+    "mm:steam_macerator_controller",
+    "mm:freezer_controller",
+    "mm:pyrolyse_oven_controller",
+    "mm:large_steam_boiler_controller",
+    "mm:diesel_generator_controller",
+    "mm:large_steam_turbine_controller",
+    "mm:large_pump_controller",
+    "mm:chemical_reactor_controller",
+    "mm:klin_item_port_input",
+    "mm:klin_item_port_output",
+    "mm:steel_energy_port_input",
+    "mm:steel_energy_port_output",
+    "mm:steel_item_port_input",
+    "mm:steel_item_port_output",
+    "mm:steel_fluid_port_input",
+    "mm:steel_fluid_port_output",
+    "mm:advanced_alloy_energy_port_input",
+    "mm:advanced_alloy_energy_port_output",
+    "mm:advanced_alloy_item_port_input",
+    "mm:advanced_alloy_item_port_output",
+    "mm:advanced_alloy_fluid_port_input",
+    "mm:advanced_alloy_fluid_port_output",
+    "mm:steam_turbine_vent"
+  ]
+}

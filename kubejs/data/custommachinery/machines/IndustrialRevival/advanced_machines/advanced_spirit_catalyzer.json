@@ -1,0 +1,86 @@
+{
+  "name": "Advanced Spirit Catalyzer",
+  "namespace": "advanced_spirit_catalyzer",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/advanced_spirit_catalyzer",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "tooltips": [
+    {
+      "text": "+50% Faster than Basic Spirit Catalyzer",
+      "color": "green"
+    },
+    {
+      "text": "+50% Energy cost",
+      "color": "red"
+    },
+    {
+      "text": "Energy Storage: 100.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Transfer: 8.000 FE",
+      "color": "blue"
+    }
+  ],
+  "parent": "custommachinery:industrialrevival/basic_spirit_catalyzer",
+  "components": [
+    {
+      "mode": "input",
+      "id": "energy_slot",
+      "type": "custommachinery:item",
+      "capacity": 1,
+      "variant": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "id": "upgrade_slot",
+      "mode": "input"
+    },
+    {
+      "mode": "input",
+      "id": "wand_slot",
+      "type": "custommachinery:item",
+      "filter": ["#techpack:wands"],
+      "whitelist": true
+    },
+    {
+      "mode": "output",
+      "id": "output_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 8000,
+      "config": {
+        "default": "input"
+      }
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "comparatorinputtype": "custommachinery:item",
+      "comparatorinputid": "input"
+    }
+  ],
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.5
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.5
+    }
+  ]
+}

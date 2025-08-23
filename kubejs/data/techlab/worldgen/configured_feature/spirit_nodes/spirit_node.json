@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:simple_block",
+  "config": {
+    "to_place": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:aerial_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:aqueous_spirit_node"
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "kubejs:arcane_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:earthen_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:eldritch_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:infernal_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:sacred_spirit_node"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "kubejs:wicked_spirit_node"
+          }
+        }
+      ]
+    }
+  }
+}

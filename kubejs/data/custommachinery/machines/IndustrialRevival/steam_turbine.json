@@ -1,0 +1,194 @@
+{
+  "name": "Steam Turbine",
+  "namespace": "steam_turbine",
+  "appearance": {
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool",
+    "idle": {
+      "block": "kubejs:machine/industrial_revival/steam_turbine_idle"
+    },
+    "running": {
+      "block": "kubejs:machine/industrial_revival/steam_turbine_running"
+    },
+    "errored": {
+      "block": "kubejs:machine/industrial_revival/steam_turbine_idle"
+    },
+    "paused": {
+      "block": "kubejs:machine/industrial_revival/steam_turbine_idle"
+    }
+  },
+  "tooltips": [
+    {
+      "text": "Generation Rate: 120 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Energy Storage: 32.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Transfer: 2.000 FE",
+      "color": "blue"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 103
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png",
+      "x": 213,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png",
+      "tooltips": [
+        {
+          "text": "I/O Side Configuration"
+        }
+      ],
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "x": 213,
+      "y": 39,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 15,
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    },
+    {
+      "id": "fluid_input",
+      "type": "custommachinery:fluid",
+      "x": 118,
+      "y": 24,
+      "width": 18,
+      "height": 18,
+      "texture": "kubejs:textures/gui/industrialrevival/fluid_slot.png"
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 118,
+      "y": 44,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "fluid_output",
+      "type": "custommachinery:fluid",
+      "x": 118,
+      "y": 64,
+      "width": 18,
+      "height": 18,
+      "texture": "kubejs:textures/gui/industrialrevival/fluid_slot.png"
+    }
+  ],
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "id": "upgrade_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:energy",
+      "maxInput": 0,
+      "capacity": 32000,
+      "maxOutput": 2000,
+      "config": {
+        "default": "output",
+        "TOP": "output",
+        "BOTTOM": "output",
+        "FRONT": "output",
+        "RIGHT": "output",
+        "BACK": "output",
+        "LEFT": "output",
+        "input": false,
+        "output": true
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "filter": [
+        "systeams:steam"
+      ],
+      "mode": "input",
+      "id": "fluid_input",
+      "whitelist": true,
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "filter": [
+        "minecraft:water"
+      ],
+      "mode": "output",
+      "id": "fluid_output",
+      "whitelist": true,
+      "capacity": 8000,
+      "max_input": 1000,
+      "max_output": 1000
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "comparatorinputtype": "custommachinery:energy",
+      "comparatorinputid": "input"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_assembler_gui.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "fluid_input",
+      "type": "custommachinery:fluid",
+      "x": 118,
+      "y": 24,
+      "width": 18,
+      "height": 18,
+      "texture": "kubejs:textures/gui/industrialrevival/fluid_slot.png"
+    },
+    {
+      "type": "custommachinery:energy",
+      "x": 118,
+      "y": 44,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "fluid_output",
+      "type": "custommachinery:fluid",
+      "x": 118,
+      "y": 64,
+      "width": 18,
+      "height": 18,
+      "texture": "kubejs:textures/gui/industrialrevival/fluid_slot.png"
+    }
+  ]
+}

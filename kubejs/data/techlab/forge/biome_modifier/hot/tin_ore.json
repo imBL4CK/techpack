@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#techlab:climate_hot",
+    "features": "techlab:hot/tin_ore",
+    "step": "underground_ores"
+  }

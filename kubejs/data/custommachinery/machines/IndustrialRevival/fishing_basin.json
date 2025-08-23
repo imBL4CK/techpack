@@ -1,0 +1,121 @@
+{
+  "name": "Fishing Basin",
+  "namespace": "fishing_basin",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/fishing_basin",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "processor": {
+    "type": "custommachinery:machine"
+  },
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "x": 47,
+      "y": 103,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_slot",
+      "x": 115,
+      "y": 20,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot_1",
+      "x": 79,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot_2",
+      "x": 97,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot_3",
+      "x": 115,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot_4",
+      "x": 133,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "output_slot_5",
+      "x": 151,
+      "y": 65,
+      "type": "custommachinery:slot"
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 213,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
+    },
+    {
+      "x": 115,
+      "y": 45,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 196,
+      "y": 25,
+      "type": "custommachinery:status"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    }
+  ]
+}

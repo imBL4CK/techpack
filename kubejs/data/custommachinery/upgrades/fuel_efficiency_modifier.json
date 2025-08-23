@@ -1,0 +1,18 @@
+{
+    "item": "kubejs:fuel_efficiency_modifier",
+    "machines": [
+        "custommachinery:industrialrevival/generator"
+    ],
+    "tooltip": {
+        "text": "increases fuel efficiency by 50%",
+        "color": "blue"
+    },
+    "modifiers": [
+        {
+            "requirement": "custommachinery:fuel",
+            "mode": "input",
+            "operation": "multiplication",
+            "modifier": 1.5
+        }
+    ]
+}

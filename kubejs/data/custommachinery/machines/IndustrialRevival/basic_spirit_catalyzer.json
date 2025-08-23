@@ -1,0 +1,192 @@
+{
+  "name": "Basic Spirit Catalyzer",
+  "namespace": "basic_spirit_catalyzer",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/basic_spirit_catalyzer",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "tooltips": [
+    {
+      "text": "Energy Storage: 50.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Transfer: 4.000 FE",
+      "color": "blue"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 47,
+      "y": 103
+    },
+    {
+      "text": "Basic Spirit Catalyzer",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png",
+      "x": 213,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png",
+      "tooltips": [
+        {
+          "text": "I/O Side Configuration"
+        }
+      ],
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "x": 213,
+      "y": 39,
+      "width": 18,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 15,
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    },
+    {
+      "id": "energy_slot",
+      "x": 52,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "x": 52,
+      "y": 44,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "wand_slot",
+      "x": 109,
+      "y": 36,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/storage_slot.png"
+    },
+    {
+      "id": "output_slot",
+      "x": 127,
+      "y": 36,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "x": 119,
+      "y": 58,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/spirit_empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/spirit_filled_progress_bar.png"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "energy_slot",
+      "type": "custommachinery:item",
+      "capacity": 1,
+      "variant": "custommachinery:energy"
+    },
+    {
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1,
+      "id": "upgrade_slot",
+      "mode": "input"
+    },
+    {
+      "mode": "input",
+      "id": "wand_slot",
+      "type": "custommachinery:item",
+      "filter": ["#techpack:wands"],
+      "whitelist": true
+    },
+    {
+      "mode": "output",
+      "id": "output_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 50000,
+      "maxInput": 4000,
+      "config": {
+        "default": "input"
+      }
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "comparatorinputtype": "custommachinery:item",
+      "comparatorinputid": "input"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "energy_slot",
+      "x": 52,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "x": 52,
+      "y": 44,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "wand_slot",
+      "x": 109,
+      "y": 36,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/storage_slot.png"
+    },
+    {
+      "id": "output_slot",
+      "x": 127,
+      "y": 36,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "x": 119,
+      "y": 58,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/spirit_empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/spirit_filled_progress_bar.png"
+    }
+  ]
+}

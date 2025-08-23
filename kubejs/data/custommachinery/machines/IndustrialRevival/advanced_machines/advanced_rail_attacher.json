@@ -1,0 +1,248 @@
+{
+  "name": "Advanced Rail Attacher",
+  "namespace": "advanced_rail_attacher",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/advanced_rail_attacher",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "parent": "custommachinery:industrialrevival/rail_attacher",
+  "tooltips": [
+    {
+      "text": "+25% Faster than Basic Tier",
+      "color": "green"
+    },
+    {
+      "text": "+25% Energy cost",
+      "color": "red"
+    },
+    {
+      "text": "Energy Storage: 16.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Input: 4.000 FE",
+      "color": "blue"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    },
+    {
+      "mode": "input",
+      "id": "input_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot3",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot4",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot5",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "input_slot6",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "input",
+      "id": "energy_input_slot",
+      "type": "custommachinery:item",
+      "capacity": 1,
+      "variant": "custommachinery:energy"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot2",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot3",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 16000,
+      "maxInput": 4000,
+      "config": {
+        "default": "input"
+      }
+    }
+  ],
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/industrialrevival/assembler.png",
+      "x": 40,
+      "y": 0,
+      "type": "custommachinery:texture"
+    },
+    {
+      "text": "Advanced Rail Attacher",
+      "x": 50,
+      "y": 6,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 107,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "id": "input_slot",
+      "x": 70,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot2",
+      "x": 88,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot3",
+      "x": 106,
+      "y": 17,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot4",
+      "x": 70,
+      "y": 35,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot5",
+      "x": 88,
+      "y": 35,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot6",
+      "x": 106,
+      "y": 35,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "energy_input_slot",
+      "x": 70,
+      "y": 71,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "output_slot",
+      "x": 170,
+      "y": 17,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot2",
+      "x": 170,
+      "y": 35,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot3",
+      "x": 170,
+      "y": 53,
+      "width": 18,
+      "height": 18,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "x": 136,
+      "y": 19,
+      "type": "custommachinery:progress",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 70,
+      "y": 53,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 213,
+      "y": 9,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
+    },
+    {
+      "type": "custommachinery:config",
+      "tooltips": "I/O Side Configuration",
+      "width": 18,
+      "height": 18,
+      "x": 213,
+      "y": 29,
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png"
+    },
+    {
+      "x": 196,
+      "y": 5,
+      "type": "custommachinery:status",
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    }
+  ],
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.75
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.25
+    }
+  ]
+}

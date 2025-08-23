@@ -1,0 +1,33 @@
+{
+    "item": "kubejs:speed_modifier",
+    "machines": [
+        "custommachinery:industrialrevival/macerator",
+        "custommachinery:industrialrevival/assembler",
+        "custommachinery:industrialrevival/energetic_smelter",
+        "custommachinery:industrialrevival/metal_former",
+        "custommachinery:industrialrevival/rail_attacher",
+        "custommachinery:industrialrevival/compressor",
+        "custommachinery:industrialrevival/basic_spirit_catalyzer",
+        "custommachinery:industrialrevival/industrial_furnace",
+        "custommachinery:industrialrevival/advanced_machines/advanced_energetic_smelter",
+        "custommachinery:industrialrevival/advanced_machines/advanced_macerator",
+        "custommachinery:industrialrevival/advanced_machines/advanced_assembler",
+        "custommachinery:industrialrevival/advanced_machines/advanced_energetic_smelter",
+        "custommachinery:industrialrevival/advanced_machines/advanced_metal_former",
+        "custommachinery:industrialrevival/advanced_machines/advanced_rail_attacher",
+        "custommachinery:industrialrevival/advanced_machines/advanced_compressor",
+        "custommachinery:industrialrevival/advanced_machines/advanced_spirit_catalyzer"
+    ],
+    "tooltip": {
+        "text": "increases processing speed by 50%",
+        "color": "blue"
+    },
+    "modifiers": [
+        {
+            "requirement": "custommachinery:speed",
+            "mode": "input",
+            "operation": "multiplication",
+            "modifier": 0.5
+        }
+    ]
+}

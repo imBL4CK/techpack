@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "natures_spirit:aspen_forest",
+    "natures_spirit:blooming_sugi_forest",
+    "natures_spirit:boreal_taiga",
+    "natures_spirit:fir_forest",
+    "natures_spirit:golden_wilds",
+    "natures_spirit:redwood_forest",
+    "natures_spirits:snowy_fir_forest",
+    "natures_spirit:snowy_redwood_forest",
+    "natures_spirit:sugi_forest",
+    "natures_spirit:wisteria_forest",
+    "natures_spirit:windswept_sugi_forest",
+    "natures_spirit:"
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "name": "Industrial Furnace",
+  "appearance": {
+    "lightmode": "running",
+    "block": "kubejs:machine/industrial_revival/industrial_furnace",
+    "interaction_sound": "minecraft:iron_block",
+    "tool_type": "minecraft:mineable/pickaxe",
+    "mining_level": "minecraft:needs_iron_tool"
+  },
+  "tooltips": [
+    {
+      "text": "Energy Storage: 100.000 FE",
+      "color": "blue"
+    },
+    {
+      "text": "Max Input: 2.000 FE",
+      "color": "blue"
+    }
+  ],
+  "gui": [
+    {
+      "texture": "kubejs:textures/gui/base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture"
+    },
+    {
+      "text": "Industrial Furnace",
+      "x": 50,
+      "y": 16,
+      "type": "custommachinery:text"
+    },
+    {
+      "x": 47,
+      "y": 103,
+      "type": "custommachinery:player_inventory"
+    },
+    {
+      "x": 92,
+      "y": 47,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    },
+    {
+      "id": "input_slot_1",
+      "x": 83,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot_2",
+      "x": 101,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "energy_slot",
+      "x": 92,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "output_slot_1",
+      "x": 149,
+      "y": 28,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot_2",
+      "x": 149,
+      "y": 46,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 122,
+      "y": 30,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "id": "upgrade_slot",
+      "x": 213,
+      "y": 19,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/upgrade_slot.png"
+    },
+    {
+      "type": "custommachinery:config",
+      "tooltips": "I/O Side Configuration",
+      "width": 18,
+      "height": 18,
+      "x": 213,
+      "y": 39,
+      "texture": "kubejs:textures/gui/industrialrevival/side_config_slot.png",
+      "texture_hovered": "kubejs:textures/gui/industrialrevival/hovered_side_config_slot.png"
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 196,
+      "y": 15,
+      "texture_idle": "kubejs:textures/gui/industrialrevival/status_idle.png",
+      "texture_running": "kubejs:textures/gui/industrialrevival/status_running.png",
+      "texture_errored": "kubejs:textures/gui/industrialrevival/status_errored.png"
+    }
+  ],
+  "components": [
+    {
+      "mode": "input",
+      "id": "upgrade_slot",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:upgrade",
+      "capacity": 1
+    },
+    {
+      "id": "input_slot_1",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "input_slot_2",
+      "mode": "input",
+      "type": "custommachinery:item"
+    },
+    {
+      "id": "energy_slot",
+      "mode": "input",
+      "type": "custommachinery:item",
+      "variant": "custommachinery:energy",
+      "capacity": 1
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_1",
+      "type": "custommachinery:item"
+    },
+    {
+      "mode": "output",
+      "id": "output_slot_2",
+      "type": "custommachinery:item"
+    },
+    {
+      "type": "custommachinery:energy",
+      "capacity": 100000,
+      "maxInput": 2000,
+      "config": {
+        "default": "input"
+      }
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "comparatorinputtype": "custommachinery:item",
+      "comparatorinputid": "input"
+    }
+  ],
+  "jei": [
+    {
+      "texture": "kubejs:textures/gui/jei/jei_base_gui.png",
+      "x": 40,
+      "y": 10,
+      "type": "custommachinery:texture",
+      "jei": true
+    },
+    {
+      "id": "input_slot_1",
+      "x": 83,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "input_slot_2",
+      "x": 101,
+      "y": 28,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "energy_slot",
+      "x": 92,
+      "y": 63,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/energy_input_slot.png"
+    },
+    {
+      "id": "output_slot_1",
+      "x": 149,
+      "y": 28,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "id": "output_slot_2",
+      "x": 149,
+      "y": 46,
+      "width": 20,
+      "height": 20,
+      "type": "custommachinery:slot",
+      "texture": "kubejs:textures/gui/industrialrevival/slot.png"
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 120,
+      "y": 30,
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_progress_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_progress_bar.png"
+    },
+    {
+      "x": 92,
+      "y": 47,
+      "type": "custommachinery:energy",
+      "texture_empty": "kubejs:textures/gui/industrialrevival/empty_energy_bar.png",
+      "texture_filled": "kubejs:textures/gui/industrialrevival/filled_energy_bar.png",
+      "highlight": false
+    }
+  ]
+}

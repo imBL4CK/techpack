@@ -1,0 +1,6 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#techlab:climate_hot",
+    "features": "techlab:hot/copper_ore",
+    "step": "underground_ores"
+  }
