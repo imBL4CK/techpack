@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pressured_future"
+	group: "370C655D5970A835"
+	icon: {
+		Count: 1
+		id: "pneumaticcraft:jackhammer"
+		tag: {
+			"pneumaticcraft:air": 120000
+		}
+	}
+	id: "7FA5E5CA84702971"
+	order_index: 14
+	quest_links: [ ]
+	quests: [ ]
+	title: "Pressured Future!"
+}

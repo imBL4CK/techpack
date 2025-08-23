@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining_levels"
+	group: "15F98A2EFD1DC6AE"
+	icon: {
+		Count: 1
+		id: "minecraft:netherite_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "17497681C81362F5"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mining Levels"
+}

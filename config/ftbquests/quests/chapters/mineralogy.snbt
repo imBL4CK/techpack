@@ -1,0 +1,173 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mineralogy"
+	group: "56ADA29725643EC3"
+	icon: "thermal:raw_lead"
+	id: "214A3432E071E7DF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "255CF8E7D762B552"
+			tasks: [{
+				id: "213AC13DAEC01993"
+				item: "kubejs:red_alloy_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			id: "6CA75F34E8B41013"
+			tasks: [{
+				id: "2274214072CE7DA4"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "2AB1CD41F1059AB0"
+			tasks: [{
+				id: "5CAF44CAC69E6F56"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "53A686C231F0AD75"
+			tasks: [{
+				id: "5C2F4EC0314BD3B8"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			id: "0F674D2FD4CCC60D"
+			tasks: [{
+				id: "6888155C6D019284"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "5759C7359920922F"
+			tasks: [{
+				id: "549EEBAB9D26CC22"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			id: "48DE203D3E9BF58D"
+			tasks: [{
+				id: "00526C3650FEDEC9"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			id: "56D37E276ADD4911"
+			tasks: [{
+				id: "2934615B397DE538"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "0A82011F44F6B55E"
+			tasks: [{
+				id: "3A3A847109F77A78"
+				item: "thermal:invar_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			id: "6FF9609D40A2B3F9"
+			tasks: [{
+				id: "7E7FD219A96B688A"
+				item: "thermal:raw_tin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "4EA91410E1784A85"
+			tasks: [{
+				id: "291F53A0710670C4"
+				item: "thermal:raw_nickel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "1BE46C8153CA83FA"
+			tasks: [{
+				id: "1BC58FACC6FAEBA7"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			id: "40EC7548180DAD33"
+			tasks: [{
+				id: "6C3E321C0AE66C91"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "5F3901BE94B86E9B"
+			tasks: [{
+				id: "1DCA2F4FC14D5903"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "4C61D74AE5A6E8BF"
+			tasks: [{
+				id: "065206AF063E599F"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			id: "347374D5BF1F3087"
+			tasks: [{
+				id: "2E00D7EF2FB3C9C0"
+				item: "create_new_age:thorium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	title: "Base Materials"
+}

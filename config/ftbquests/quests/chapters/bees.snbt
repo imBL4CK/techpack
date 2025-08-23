@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bees"
+	group: "370C655D5970A835"
+	icon: {
+		Count: 1
+		id: "productivebees:nest_locator"
+		tag: { }
+	}
+	id: "52BF95DC359C11CD"
+	order_index: 19
+	quest_links: [ ]
+	quests: [ ]
+	title: "Forest Bees"
+}

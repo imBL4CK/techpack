@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression"
+	group: "13199AD38773E247"
+	icon: "create:precision_mechanism"
+	id: "19EF046197F5D7C6"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7FF0D6A1661B51EB"
+			tasks: [{
+				id: "6BBD94F3032B35B2"
+				item: "kubejs:makeshift_mechanism"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4680F61C2E0CB6E2"]
+			id: "251B09830056DBDC"
+			tasks: [{
+				id: "68C27AB72E115E43"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["251B09830056DBDC"]
+			id: "79F75226D2CA5917"
+			tasks: [{
+				id: "6D0B04375B018CB6"
+				item: "kubejs:engine_mechanism"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FF0D6A1661B51EB"]
+			id: "6E63291906601C5D"
+			tasks: [{
+				id: "04AE821B20D1974C"
+				item: "create_things_and_misc:vibration_mechanism"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7FF0D6A1661B51EB"]
+			id: "4680F61C2E0CB6E2"
+			tasks: [{
+				id: "20108D31B40011FB"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["251B09830056DBDC"]
+			id: "70950A1A842D2C10"
+			tasks: [{
+				id: "1928FE767CBA983B"
+				item: "kubejs:primitive_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["521DDCDD4ED6F4F7"]
+			id: "01141E6155A848B3"
+			tasks: [{
+				id: "3C06FFC955C101F6"
+				item: "kubejs:circuit_mechanism"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70950A1A842D2C10"]
+			id: "521DDCDD4ED6F4F7"
+			tasks: [{
+				id: "2684ABD48E2EBAAF"
+				item: "kubejs:thermo_mechanism"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7FF0D6A1661B51EB"]
+			id: "66C6D632B5B63D8F"
+			tasks: [{
+				id: "7D9BBEC85B3A7DAB"
+				item: "kubejs:logistic_machine"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Progression"
+}

@@ -1,0 +1,13 @@
+{
+  "block.mm.chemical_reactor_controller": "Chemical Reactor Controller",
+  "block.mm.ebf_controller": "Electric Blast Furnace Controller",
+  "block.mm.steel_energy_hatch_input": "Steel Energy Port Input",
+  "block.mm.steel_energy_hatch_output": "Steel Energy Port Output",
+  "block.mm.steel_fluid_hatch_input": "Steel Fluid Hatch Input",
+  "block.mm.steel_fluid_hatch_output": "Steel Fluid Hatch Output",
+  "block.mm.steel_item_hatch_input": "Steel Item Hatch Input",
+  "block.mm.steel_item_hatch_output": "Steel Item Hatch Output",
+  "block.mm.steel_stress_hatch_input": "Steel Stress Hatch Input",
+  "block.mm.steel_stress_hatch_output": "Steel Stress Hatch Output",
+  "item.mm.blueprint": "Blueprint"
+}

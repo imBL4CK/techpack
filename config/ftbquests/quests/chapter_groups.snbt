@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "13199AD38773E247", title: "Main questline" }
+		{ id: "15F98A2EFD1DC6AE", title: "Side Questilines" }
+		{ id: "56ADA29725643EC3", title: "Researches" }
+		{ id: "370C655D5970A835", title: "Gates" }
+		{ id: "1F644EB4C1FDA66E", title: "Utlity and QoL" }
+	]
+}

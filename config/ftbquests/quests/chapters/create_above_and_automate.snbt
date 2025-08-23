@@ -1,0 +1,503 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_above_and_automate"
+	group: "370C655D5970A835"
+	icon: "create:wrench"
+	id: "30EBA495BCFE668E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "76E149B31D5B874D"
+			tasks: [{
+				id: "32E77452CE9F8B5D"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			id: "338EEDC2707AD313"
+			tasks: [{
+				id: "19EB3FBCF56F85A2"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "3D1BD562F53B68F8"
+			tasks: [{
+				id: "050A84B3B12BF992"
+				item: "create_things_and_misc:sprinkler"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "4E7C7876D57A255F"
+			tasks: [{
+				id: "28F872A248B40A50"
+				item: "create_things_and_misc:brass_speaker"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "0816B477F7D72DEB"
+			tasks: [{
+				id: "05E7FFA031226A8E"
+				item: "create_sa:brass_drone_item"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			id: "5433C36AD751D192"
+			tasks: [{
+				id: "7D08041421CD9F2F"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			id: "699F48F37051E03A"
+			tasks: [{
+				id: "1A7C53D7ED8AA873"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			id: "76CC89ADB91E1AD7"
+			tasks: [{
+				id: "3E8BDB0B69F56052"
+				item: "createaddition:redstone_relay"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			id: "279D39E2EA324411"
+			tasks: [{
+				id: "1916B8A074D44A19"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "171EAC5998329A8D"
+			tasks: [{
+				id: "723989F345B7526A"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "364A6B003063067A"
+			tasks: [{
+				id: "0D945F06F02F9C47"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			id: "44223F3629232D36"
+			tasks: [{
+				id: "27ABA55B4D17D9CC"
+				item: "createaddition:connector"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "1DCD3713EE2E9791"
+			tasks: [{
+				id: "01059D8364BAD704"
+				item: "createaddition:large_connector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			id: "0E38989C612B1B51"
+			tasks: [{
+				id: "3BEBF1586F0958E7"
+				item: "tfmg:steel_distillation_controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.5d
+		}
+		{
+			id: "65DA5C0C2ECB2670"
+			tasks: [{
+				id: "425BDBEB47F90225"
+				item: "tfmg:cast_iron_distillation_controller"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			id: "5643DEF6D321087C"
+			tasks: [{
+				id: "3DA7709223972303"
+				item: "tfmg:steel_flywheel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -10.5d
+		}
+		{
+			id: "6110D490DB0BA640"
+			tasks: [{
+				id: "043C4DC5005F273C"
+				item: "tfmg:aluminum_flywheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.5d
+		}
+		{
+			id: "44B964322360DC88"
+			tasks: [{
+				id: "50A0A7FEED220907"
+				item: "tfmg:cast_iron_flywheel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			id: "6ED9CC776B883C4D"
+			tasks: [{
+				id: "214D102CE4767C73"
+				item: "tfmg:blast_furnace_output"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			id: "1BA1589F95781FFD"
+			tasks: [{
+				id: "312CA631E630FB0B"
+				item: "tfmg:casting_spout"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			id: "290D106D2FA2F577"
+			tasks: [{
+				id: "5C155C087FD4C8BE"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			id: "16D82FF12B1260CF"
+			tasks: [{
+				id: "735D3690C8FAD44C"
+				item: "tfmg:air_intake"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.5d
+		}
+		{
+			id: "4F9361731930C4F3"
+			tasks: [{
+				id: "767E49ADD3DADCC7"
+				item: "tfmg:gasoline_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.5d
+		}
+		{
+			id: "3B4F354C460197C5"
+			tasks: [{
+				id: "0E749F2660B9FFDA"
+				item: "tfmg:lpg_engine"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			id: "45A3DEEFEDB23068"
+			tasks: [{
+				id: "4E85F09429DD5024"
+				item: "tfmg:turbine_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			id: "512DAD9BDE361628"
+			tasks: [{
+				id: "74D4D12056171F17"
+				item: "tfmg:diesel_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -9.5d
+		}
+		{
+			id: "575DBDEFFD84B20B"
+			tasks: [{
+				id: "51A2513831BA0D28"
+				item: "tfmg:radial_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			id: "76236C41C3758312"
+			tasks: [{
+				id: "448BD6AFA92DFFC4"
+				item: "tfmg:large_radial_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.5d
+		}
+		{
+			id: "3E86D2418AA1DEAA"
+			tasks: [{
+				id: "3BC61F88231E112F"
+				item: "tfmg:compact_engine"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			id: "1337F5FDB56D6108"
+			tasks: [{
+				id: "7A063F52BBDD1B2B"
+				item: "tfmg:low_grade_fuel_engine"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			id: "18A069B7D9A4390A"
+			tasks: [{
+				id: "636EF8958ABD6696"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "1A8C5489E17339DD"
+			tasks: [{
+				id: "2EE34CD0488E183F"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			id: "4A1D7615F4ECFC71"
+			tasks: [{
+				id: "5348628364D6F4E9"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			id: "3F6FC5E2C9F643D4"
+			tasks: [{
+				id: "6D5690785323D631"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			id: "643180137EC7BF26"
+			tasks: [{
+				id: "7DF40ABCDCDC1E00"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			id: "0197EB166823F71F"
+			tasks: [{
+				id: "737FA3F784997ED0"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			id: "23A1664DBF8DDE51"
+			tasks: [{
+				id: "443000BB1CBEFEB3"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			id: "18C6690AC086407E"
+			tasks: [{
+				id: "58C61C3D837FBB24"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			id: "5D9813E97E39E19A"
+			tasks: [{
+				id: "183703985A38619B"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			id: "4D3CE65BC42A7523"
+			tasks: [{
+				id: "7C917EF3FD19CE5E"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.5d
+		}
+		{
+			id: "7CDC8FED112A446D"
+			tasks: [{
+				id: "464256EEB3809746"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			id: "589B2B3831A36B78"
+			tasks: [{
+				id: "6B7C07EAE9272EFE"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			id: "445067CEAE320A42"
+			tasks: [{
+				id: "7ED4A59EE6A462B2"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			id: "40223607750FB02F"
+			tasks: [{
+				id: "1E94E3E83A2B524A"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "2ADFAA2BADACA9FF"
+			tasks: [{
+				id: "3E07E39F13204582"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "0072CFB431B059F7"
+			tasks: [{
+				id: "3833012CD76C5C34"
+				item: "create_new_age:reactor_rod"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			id: "1A7A4099E50A8E07"
+			tasks: [{
+				id: "2948BA58E0E2F198"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			id: "79DA4EBBD8B20F3E"
+			tasks: [{
+				id: "5F2801F038D6651C"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "0679AD889D6FB93E"
+			tasks: [{
+				id: "08AD67B76D36B2F7"
+				item: "create_new_age:reactor_fuel_acceptor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+	]
+	title: "Create: Above "
+}

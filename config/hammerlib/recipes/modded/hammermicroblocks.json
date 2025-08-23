@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "active": {
+        "minecraft:smithing": {"hammermicroblocks:netherite_saw": true},
+        "minecraft:crafting": {
+            "hammermicroblocks:granite_saw": true,
+            "hammermicroblocks:gold_saw": true,
+            "hammermicroblocks:iron_saw": true,
+            "hammermicroblocks:diamond_saw": true,
+            "hammermicroblocks:microblock_cutting": true,
+            "hammermicroblocks:microblock_fusion": true
+        }
+    },
+    "unregistered": {}
+}

@@ -1,0 +1,689 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_i__the_steel_age"
+	group: "13199AD38773E247"
+	icon: "tfmg:gasoline_engine"
+	id: "699A224146D1CF47"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0C4261596EB9C92F"]
+			hide_dependency_lines: false
+			icon: "tfmg:steel_flywheel"
+			id: "7EC8DC43533C7FCF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "79A822CE331B3CF5"
+				title: "Let's  Go"
+				type: "checkmark"
+			}]
+			title: "The factory most grow"
+			x: 11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["26838A6D6DCA8EAC"]
+			id: "546C0B9068CF8B55"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "5740EF6107D8A9DA"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["52C47A5DB7567922"]
+			icon: "thermal:cured_rubber"
+			id: "26838A6D6DCA8EAC"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "26FDBD39F50B98E4"
+					item: "thermal:device_tree_extractor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2EE158B67BEE6E33"
+					item: "thermal:rubber"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0153738491DC7F0F"
+					item: "thermal:cured_rubber"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E3601A97666E59C"]
+			id: "311C9649BD6FCD18"
+			shape: "rsquare"
+			tasks: [{
+				id: "42216BD4E4B059B8"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["52C47A5DB7567922"]
+			icon: "create_things_and_misc:vibration_mechanism"
+			id: "68D93281C379D52C"
+			tasks: [
+				{
+					id: "164B9B249B57CFAD"
+					item: "minecraft:amethyst_shard"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1D4026FA86993511"
+					item: "kubejs:molten_red_alloy_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "635E9E23801F31F1"
+					item: "thermal:redstone_servo"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4B05A1DED8FEEED5"
+					item: "create:electron_tube"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4AF7CA2F946883E5"
+					item: "create_things_and_misc:vibration_mechanism"
+					type: "item"
+				}
+			]
+			title: "Vibrating Parts"
+			x: 12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"65711CACD26314CE"
+				"52C47A5DB7567922"
+				"68D93281C379D52C"
+			]
+			hide: false
+			id: "5E3601A97666E59C"
+			shape: "rsquare"
+			tasks: [{
+				id: "29CFB2D0F91C5788"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0C4261596EB9C92F"]
+			icon: "minecraft:netherrack"
+			id: "65711CACD26314CE"
+			shape: "circle"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6BD64AB1D020999F"
+				type: "dimension"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["311C9649BD6FCD18"]
+			id: "0EB810A3F785CA48"
+			shape: "rsquare"
+			tasks: [{
+				id: "184905DF53AC8DB0"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0EB810A3F785CA48"]
+			id: "79AE0DCB20FAF8B7"
+			shape: "rsquare"
+			tasks: [{
+				id: "54FF2F222728C841"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0EB810A3F785CA48"]
+			icon: "create:smart_chute"
+			id: "660973F4091AAE9D"
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "5F19EE9C65978F75"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "0D20AF6915C606B2"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "1F9B00C90447D90D"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					id: "1991D1B8D596B153"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "436CEFE59C45AC0A"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "383D9CE9B9AA4BEC"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "64E9CE865F03B806"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+				{
+					id: "7B93D417A0F0D5C1"
+					item: "create:sequenced_gearshift"
+					type: "item"
+				}
+			]
+			x: 13.235714285714288d
+			y: -1.7285714285714278d
+		}
+		{
+			dependencies: ["79AE0DCB20FAF8B7"]
+			icon: "tfmg:blast_furnace_output"
+			id: "3A0922565EE401DD"
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 16L
+					id: "1B62E85BD11EAB74"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "01EB1221E3525422"
+					item: "tfmg:fireproof_brick_reinforcement"
+					type: "item"
+				}
+				{
+					id: "2D7DDFD2DAA374F2"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26838A6D6DCA8EAC"]
+			icon: "create:fluid_tank"
+			id: "38473C37962D1643"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6069CCD618C8C7F8"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "378747161EBE9CC6"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "4FC8C61A44C84D42"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "01779549B3E05508"
+					item: "createdieselgenerators:canister"
+					type: "item"
+				}
+			]
+			title: "Copper Machinery"
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6BD23174AF4285FC"]
+			id: "5BCB68B012D67D12"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "2C0CBCA5D32BD665"
+				item: "thermal:steel_ingot"
+				type: "item"
+			}]
+			x: 8.011904761904766d
+			y: -0.9500000000000028d
+		}
+		{
+			dependencies: ["3A0922565EE401DD"]
+			id: "6BD23174AF4285FC"
+			shape: "rsquare"
+			tasks: [{
+				id: "373090B992ACF31A"
+				item: "tfmg:casting_spout"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["731AA6A2D8078092"]
+			icon: "createdieselgenerators:crude_oil_bucket"
+			id: "57E23FBD59CB0C9E"
+			size: 1.0d
+			tasks: [{
+				id: "19D168BC60C5BF4E"
+				title: "Let's go"
+				type: "checkmark"
+			}]
+			title: "Oil way"
+			x: 9.978571428571406d
+			y: 1.807142857142857d
+		}
+		{
+			dependencies: ["5BCB68B012D67D12"]
+			id: "46697EF1388FA028"
+			size: 1.0d
+			tasks: [{
+				id: "66E2A9D89544FB03"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57E23FBD59CB0C9E"]
+			icon: "tfmg:pumpjack_crank"
+			id: "536E70885CF8661D"
+			size: 1.0d
+			tasks: [
+				{
+					id: "75F3C1780C726DC9"
+					item: "tfmg:pumpjack_crank"
+					type: "item"
+				}
+				{
+					id: "7E15B85FA7D404DD"
+					item: "tfmg:pumpjack_hammer"
+					type: "item"
+				}
+				{
+					id: "13CFA3F410F37846"
+					item: "tfmg:pumpjack_hammer_part"
+					type: "item"
+				}
+				{
+					id: "74F8C32E3D9B20A4"
+					item: "tfmg:pumpjack_hammer_head"
+					type: "item"
+				}
+				{
+					id: "79D40CAE56ECFA99"
+					item: "tfmg:pumpjack_hammer_connector"
+					type: "item"
+				}
+				{
+					id: "18D92F7CFEF37AB4"
+					item: "tfmg:pumpjack_base"
+					type: "item"
+				}
+			]
+			title: "I'm Rich!"
+			x: 10.978571428571406d
+			y: 1.807142857142857d
+		}
+		{
+			dependencies: ["536E70885CF8661D"]
+			icon: "tfmg:steel_distillation_controller"
+			id: "569CFF6E92D1C94C"
+			size: 1.0d
+			tasks: [
+				{
+					id: "0CD7DFFD3BC3A5DD"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 5L
+					id: "41A1A5296713C3CE"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "25A6A0E5CC285D82"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "704CCE15A0EBE2FF"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3C2C6BB2DD76FC9F"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Money Tower"
+			x: 11.978571428571406d
+			y: 1.807142857142857d
+		}
+		{
+			dependencies: ["569CFF6E92D1C94C"]
+			icon: "createdieselgenerators:gasoline_bucket"
+			id: "37ED056BF39627F7"
+			size: 1.0d
+			tasks: [{
+				id: "028F68ABB1CEBDFE"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tfmg:diesel_bucket"
+							}
+							{
+								Count: 1b
+								id: "tfmg:kerosene_bucket"
+							}
+							{
+								Count: 1b
+								id: "tfmg:heavy_oil_bucket"
+							}
+							{
+								Count: 1b
+								id: "tfmg:gasoline_bucket"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 12.978571428571406d
+			y: 1.807142857142857d
+		}
+		{
+			dependencies: ["46697EF1388FA028"]
+			id: "731AA6A2D8078092"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "3CDB12EA19A8AFE2"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: ["46697EF1388FA028"]
+			icon: "tfmg:gasoline_engine"
+			id: "50384DF5D3F33553"
+			size: 1.0d
+			tasks: [{
+				id: "5F89C1B2BA17D740"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "tfmg:gasoline_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:lpg_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:turbine_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:diesel_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:radial_engine"
+							}
+							{
+								Count: 1b
+								id: "tfmg:large_radial_engine"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Motors!"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5BCB68B012D67D12"]
+			icon: {
+				Count: 1
+				id: "kubejs:basic_saw"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1BB3B1C1035A93CF"
+			shape: "circle"
+			tasks: [
+				{
+					id: "7D84607C25AB4457"
+					item: {
+						Count: 1
+						id: "kubejs:basic_saw"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E3FC158D3C263A5"
+					item: {
+						Count: 1
+						id: "kubejs:basic_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68F3EB77501BC1EB"
+					item: {
+						Count: 1
+						id: "kubejs:basic_wirecutter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AA0CE20DAEE8DA9"
+					item: {
+						Count: 1
+						id: "kubejs:basic_crowbar"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Upgraded Tools!"
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50384DF5D3F33553"]
+			id: "37EBBC2D6C27C7E4"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "307BDDC067276E15"
+				type: "checkmark"
+			}]
+			title: "Next Chapter!"
+			x: 7.997278911564614d
+			y: 3.9006802721088576d
+		}
+		{
+			dependencies: ["7EC8DC43533C7FCF"]
+			id: "52C47A5DB7567922"
+			tasks: [{
+				id: "291A441AF2FD6440"
+				title: "Done"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["52C47A5DB7567922"]
+			icon: "balanced_crates:oak_crate"
+			id: "6ADC0D8A62B1CA6E"
+			shape: "circle"
+			tasks: [{
+				id: "6ED53965449A3EEC"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "balanced_crates:oak_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:spruce_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:birch_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:jungle_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:acacia_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:dark_oak_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:mangrove_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:cherry_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:bamboo_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:crimson_crate"
+							}
+							{
+								Count: 1b
+								id: "balanced_crates:warped_crate"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5BCB68B012D67D12"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: "create:controls"
+			id: "32FD657954F79355"
+			shape: "circle"
+			tasks: [{
+				id: "5C9EF2FD157A1BA6"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BCB68B012D67D12"]
+			hide_dependency_lines: true
+			id: "1742703EF4B7CAA6"
+			shape: "circle"
+			tasks: [{
+				id: "4BA0312BCC7A7D06"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+	]
+	title: "Chapter II - Industrial Revolution"
+}

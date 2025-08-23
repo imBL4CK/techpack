@@ -1,0 +1,30 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nutrition"
+	group: "15F98A2EFD1DC6AE"
+	icon: "farmersdelight:hamburger"
+	id: "2573800A64A32135"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			id: "farmersdelight:skillet"
+			tag: {
+				Damage: 0
+			}
+		}
+		id: "0223BCACC4DFFAC8"
+		shape: "gear"
+		size: 2.0d
+		tasks: [{
+			id: "0E33A877285B187D"
+			title: "Let's Cooook!"
+			type: "checkmark"
+		}]
+		x: 0.5d
+		y: 0.0d
+	}]
+	title: "Nutrition"
+}

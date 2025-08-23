@@ -1,0 +1,93 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemist"
+	group: "56ADA29725643EC3"
+	icon: "kubejs:empty_alchemy_jar"
+	id: "4662F8B77A554047"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "71C052234F3D6D41"
+			tasks: [{
+				id: "4D5B84D817FC4A81"
+				item: "kubejs:niter_reagent"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "6C1FFFCCD4677192"
+			tasks: [{
+				id: "3683919D44B10054"
+				item: "kubejs:sulfur_reagent"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			id: "1B9480207CA650F1"
+			tasks: [{
+				id: "42A0AC71B4E659B9"
+				item: "kubejs:copper_reagent"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "4AE17C3AC6D2E909"
+			tasks: [{
+				id: "2998F04CBA2F9C06"
+				item: "kubejs:amethyst_reagent"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "793B67121D96E42D"
+			tasks: [{
+				id: "203715FE3A897A1F"
+				item: "kubejs:ferrous_pewter_reagent"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			id: "339B97D3A20BE09E"
+			tasks: [{
+				id: "2A34794470CD8B61"
+				item: "kubejs:deorum_reagent"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "53F746261CFEF3BA"
+			tasks: [{
+				id: "7EA7C5CD325C5BDC"
+				item: "kubejs:nickel_reagent"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "19AED6BF8D5DA6E3"
+			tasks: [{
+				id: "2C7E9A50674720EF"
+				item: "kubejs:iron_reagent"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+	]
+	title: "Alchemist"
+}

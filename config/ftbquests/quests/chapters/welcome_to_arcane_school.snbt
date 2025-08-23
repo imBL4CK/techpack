@@ -1,0 +1,178 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_arcane_school"
+	group: "370C655D5970A835"
+	icon: "hexerei:mixing_cauldron"
+	id: "3D81BFF2E72A71B1"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19B3B5975F3B5B23"]
+			icon: {
+				Count: 1
+				id: "hexerei:book_of_shadows"
+				tag: { }
+			}
+			id: "3421D27DDC74B315"
+			tasks: [
+				{
+					id: "35570F179C9009A1"
+					item: {
+						Count: 1
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "08D1818BB10945CC"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:book_of_shadows_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:willow_altar"
+								}
+								{
+									Count: 1b
+									id: "hexerei:witch_hazel_altar"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "hexerei:willow_sapling"
+			id: "19B3B5975F3B5B23"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "17447F780A14BEDA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_sapling"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "First Steps"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3421D27DDC74B315"]
+			id: "276D52970FCB3421"
+			tasks: [{
+				id: "4D851B594623FDD1"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["276D52970FCB3421"]
+			id: "37722A0CBC5BAA4C"
+			tasks: [{
+				id: "5FBA48BFD4A8101B"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["276D52970FCB3421"]
+			id: "173D733F0D6130BC"
+			tasks: [{
+				id: "5B833D08D6A2455B"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3421D27DDC74B315"]
+			id: "1298D904E6180F68"
+			shape: "circle"
+			tasks: [{
+				id: "4220AC8BF37E5997"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["173D733F0D6130BC"]
+			id: "627F8A91D9828D46"
+			tasks: [{
+				id: "5FE1350F45255436"
+				item: {
+					Count: 1
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37722A0CBC5BAA4C"]
+			id: "6E055AF85D4C887D"
+			tasks: [{
+				id: "3421E6633A8DB9FB"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E055AF85D4C887D"]
+			icon: "kubejs:crow_image"
+			id: "4E834A5E2B05822F"
+			shape: "circle"
+			tasks: [{
+				id: "7FE945C0D97E5539"
+				observe_type: 5
+				timer: 0L
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	title: "Welcome to Arcane School"
+}

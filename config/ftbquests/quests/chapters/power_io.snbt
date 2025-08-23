@@ -1,0 +1,42 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "power_io"
+	group: "56ADA29725643EC3"
+	icon: "ad_astra:steel_cable"
+	id: "1FD77AF1DD68D915"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "createaddition:copper_spool"
+			id: "1C7438BA6B653DF6"
+			tasks: [
+				{
+					id: "16ADF4BB416BEE2B"
+					item: "create_new_age:copper_wire"
+					type: "item"
+				}
+				{
+					id: "4162AD2AD8EF0838"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C7438BA6B653DF6"]
+			id: "31719556CE5702AB"
+			tasks: [{
+				id: "398DE9849535903D"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "Power IO"
+}

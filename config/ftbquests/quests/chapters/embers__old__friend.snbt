@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "embers__old__friend"
+	group: "370C655D5970A835"
+	icon: "embers:combustion_chamber"
+	id: "2E1D446517504817"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Embers: Flames"
+}

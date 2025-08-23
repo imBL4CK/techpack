@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "io_logistics"
+	group: "370C655D5970A835"
+	icon: "enderio:alloy_smelter"
+	id: "44EBA889708D5A0B"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "IO logistics"
+}

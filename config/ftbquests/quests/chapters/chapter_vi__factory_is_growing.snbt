@@ -1,0 +1,231 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_vi__factory_is_growing"
+	group: "13199AD38773E247"
+	icon: "thermal:machine_frame"
+	id: "00E39C888A9F6A60"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			icon: "thermal:machine_frame"
+			id: "4934E76B7A23D8E6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "55A192758A5B81BF"
+				title: "Done"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C664737293C09E0"]
+			id: "0203F2442960E9F3"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "005F9F15E6E066EA"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78519197E7CE6FF0"]
+			id: "2C664737293C09E0"
+			tasks: [{
+				id: "58C1B15F54EE93A2"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78519197E7CE6FF0"]
+			id: "14548AF865BE90A6"
+			tasks: [{
+				id: "3B0A2FB832418094"
+				item: "kubejs:empty_alchemy_jar"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4934E76B7A23D8E6"]
+			id: "78519197E7CE6FF0"
+			tasks: [{
+				id: "09B446E93D03B7C9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78519197E7CE6FF0"]
+			hide_dependent_lines: true
+			id: "517EFD47FE52CBD0"
+			tasks: [{
+				id: "531407B1B70ACED4"
+				item: "enderio:grains_of_infinity"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2C664737293C09E0"
+				"517EFD47FE52CBD0"
+			]
+			id: "1575A99B8132582E"
+			tasks: [{
+				id: "31408A89FBC4570E"
+				item: "enderio:primitive_alloy_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1575A99B8132582E"]
+			id: "21A098468010A4AD"
+			shape: "circle"
+			tasks: [{
+				id: "0DBC9EFFBD2E4547"
+				item: "tfmg:blast_furnace_output"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2C664737293C09E0"]
+			hide_dependency_lines: false
+			id: "5B0B06D495A70CCD"
+			shape: "circle"
+			tasks: [{
+				id: "7294861575EE5CFC"
+				item: {
+					Count: 1
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1575A99B8132582E"]
+			id: "26771047633F383E"
+			size: 1.0d
+			tasks: [{
+				id: "62366C0295E10C1D"
+				item: "enderio:void_chassis"
+				type: "item"
+			}]
+			title: "Ender Machines"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26771047633F383E"]
+			icon: "enderio:alloy_smelter"
+			id: "425A3FB4244A82F1"
+			shape: "circle"
+			tasks: [
+				{
+					id: "1B41A6935947EAC1"
+					item: "enderio:alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "6C521EE7C97F11E5"
+					item: "enderio:sag_mill"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["26771047633F383E"]
+			id: "6E9CAC34FD910545"
+			tasks: [{
+				id: "360982C2179FEAD3"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7C6CE5ABA83FA26C"]
+			id: "7C71E44FA5753B37"
+			tasks: [{
+				id: "2B739D46A80C31B2"
+				item: "kubejs:radiant_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"26771047633F383E"
+				"6E9CAC34FD910545"
+			]
+			id: "072A1635981C2495"
+			tasks: [{
+				id: "3E1C798D4A93AEF1"
+				item: "kubejs:hdpe_sheet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6E9CAC34FD910545"]
+			id: "789AF0CE376C9290"
+			shape: "circle"
+			tasks: [{
+				id: "393AADBC0D9349B8"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["072A1635981C2495"]
+			icon: "create:shadow_steel"
+			id: "7C6CE5ABA83FA26C"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "266A4CB3566A4991"
+					item: "create:shadow_steel"
+					type: "item"
+				}
+				{
+					id: "448EB9577839B5D3"
+					item: "create:refined_radiance"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 6.5d
+		}
+	]
+	title: "Chapter VI - Factory is Growing"
+}

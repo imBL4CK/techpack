@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "utility"
+	group: "1F644EB4C1FDA66E"
+	icon: "buildinggadgets2:gadget_building"
+	id: "7E78BA4BC002BF9D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "597CC8173384AF4B"
+			tasks: [{
+				id: "6832740624C0F24B"
+				item: "kubejs:logistic_machine"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			icon: "functionalstorage:oak_1"
+			id: "68DFDD1A479F0385"
+			tasks: [{
+				id: "536865E69CB52A10"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "Any #functionalstorage:drawer"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+	]
+	title: "Utility"
+}

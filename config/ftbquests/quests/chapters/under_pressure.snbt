@@ -1,0 +1,71 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "under_pressure"
+	group: "370C655D5970A835"
+	icon: "pneumaticcraft:pressure_gauge"
+	id: "28096699AC552489"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6B9F5E74DE640944"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "52BDC489969DC3EA"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B9F5E74DE640944"]
+			id: "028E0E84BF8338FD"
+			tasks: [{
+				id: "0E4F211B5D59B8A2"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["028E0E84BF8338FD"]
+			id: "4C173571B8DA6404"
+			tasks: [{
+				id: "50F8A2ACA0539D5C"
+				item: "pneumaticcraft:pressure_chamber_interface"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C173571B8DA6404"]
+			id: "3B783B5B4881318F"
+			shape: "circle"
+			tasks: [{
+				id: "3BB9F45342B02249"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4C173571B8DA6404"]
+			id: "5932A58E2A94A954"
+			shape: "circle"
+			tasks: [{
+				id: "381E4211C444AAEA"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+	]
+	title: "Under Pressure"
+}

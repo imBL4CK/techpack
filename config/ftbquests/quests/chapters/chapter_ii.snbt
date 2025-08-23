@@ -1,0 +1,476 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_ii"
+	group: "13199AD38773E247"
+	icon: {
+		Count: 1
+		id: "custommachinery:custom_machine_item"
+		tag: {
+			machine: "custommachinery:primitive_furnace"
+		}
+	}
+	id: "3FEC3B1DC29F892A"
+	images: [{
+		height: 1.0d
+		image: "images:item/thermo_dynamics"
+		rotation: 0.0d
+		width: 4.758139534883721d
+		x: 2.0d
+		y: -6.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37EBBC2D6C27C7E4"]
+			icon: "thermal:invar_ingot"
+			id: "42137FFB640579EB"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "776D260A669BB997"
+					item: "thermal:invar_ingot"
+					type: "item"
+				}
+				{
+					id: "768B4C9E72E39297"
+					item: "thermal:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "1B46BF155D99060B"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["16C5A46CD1A5B236"]
+			id: "08398D1D8922E825"
+			size: 0.75d
+			tasks: [{
+				id: "417C571F24630066"
+				item: "thermal:servo_attachment"
+				type: "item"
+			}]
+			x: -0.9824889258028975d
+			y: -3.9617346938775455d
+		}
+		{
+			dependencies: ["16C5A46CD1A5B236"]
+			id: "0D14BD0618623979"
+			size: 0.75d
+			tasks: [{
+				id: "4AA461BA427C5EAF"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: -1.68078231292521d
+			y: -1.8870748299319544d
+		}
+		{
+			dependencies: [
+				"1B3C7AE6C3F8FAE5"
+				"42137FFB640579EB"
+			]
+			id: "24129AFF07322787"
+			tasks: [{
+				id: "1262A24C56B1FB8D"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			id: "765596566DA73755"
+			tasks: [{
+				id: "03A462F081549AEC"
+				item: "ad_astra:steel_cable"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["16C5A46CD1A5B236"]
+			id: "4BFFD4E159689AB7"
+			size: 0.75d
+			tasks: [{
+				id: "132581CAD34DF828"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -2.3636054421768975d
+			y: -1.8829081632653057d
+		}
+		{
+			dependencies: ["24129AFF07322787"]
+			icon: "create_new_age:electrical_connector"
+			id: "719045902B47C5CC"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "7E6508F8CB447235"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create_new_age:electrical_connector"
+							}
+							{
+								Count: 1b
+								id: "createaddition:connector"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 2.6999999999999997d
+			y: -2.25d
+		}
+		{
+			dependencies: ["60660BD48877449F"]
+			id: "0B2078985D822FE5"
+			size: 1.0d
+			tasks: [{
+				id: "402820E5B2E76F65"
+				item: "kubejs:primitive_circuit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.1130952380952337d
+		}
+		{
+			dependencies: ["16C5A46CD1A5B236"]
+			id: "3A0DA7E5AB38620E"
+			shape: "circle"
+			size: 0.7d
+			tasks: [{
+				id: "1C0BB117A25743BE"
+				item: "railcraft:manual_rolling_machine"
+				type: "item"
+			}]
+			x: -1.7950680272109096d
+			y: -2.9727891156462434d
+		}
+		{
+			dependencies: ["1B3C7AE6C3F8FAE5"]
+			id: "16C5A46CD1A5B236"
+			tasks: [{
+				id: "2438C08D994746A8"
+				item: "thermal:bronze_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16C5A46CD1A5B236"]
+			id: "2026D8905D5FC393"
+			size: 0.75d
+			tasks: [{
+				id: "1411ED3CF92AC306"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: -0.965221088435392d
+			y: -1.8880102040816382d
+		}
+		{
+			id: "1B3C7AE6C3F8FAE5"
+			tasks: [{
+				id: "3B41745AFA573D56"
+				title: "ROADS!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1B3C7AE6C3F8FAE5"]
+			icon: "railcraft:low_pressure_steam_boiler_tank"
+			id: "6F758E2984CDFF4C"
+			size: 0.9d
+			tasks: [
+				{
+					id: "47C58FC753B71D1B"
+					item: "railcraft:solid_fueled_firebox"
+					type: "item"
+				}
+				{
+					id: "737E746530D24201"
+					item: "railcraft:low_pressure_steam_boiler_tank"
+					type: "item"
+				}
+			]
+			x: 0.5326530612244724d
+			y: -1.8063775510204039d
+		}
+		{
+			dependencies: ["6F758E2984CDFF4C"]
+			id: "27FCA7B29F738B70"
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "3596E2FB747D61A6"
+				item: "railcraft:steam_turbine"
+				type: "item"
+			}]
+			x: 0.1370748299319402d
+			y: -0.9147959183673606d
+		}
+		{
+			dependencies: ["6F758E2984CDFF4C"]
+			id: "136FBED3A321674F"
+			shape: "circle"
+			size: 0.75d
+			tasks: [{
+				id: "600915BD4C807379"
+				item: "railcraft:steam_oven"
+				type: "item"
+			}]
+			x: 0.9222729789590147d
+			y: -0.9107142857142847d
+		}
+		{
+			dependencies: ["24129AFF07322787"]
+			id: "6D514699C24B20DB"
+			tasks: [{
+				id: "519BB29CE346C4D9"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D514699C24B20DB"]
+			id: "3356860F9B86757B"
+			tasks: [{
+				id: "47E2AAD02B4DE392"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B2078985D822FE5"]
+			icon: "pneumaticcraft:pressure_chamber_valve"
+			id: "2A957B2BA21B1F3F"
+			tasks: [
+				{
+					id: "5541A55853BEBB11"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4061AB92147D3EA5"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					type: "item"
+				}
+				{
+					count: 62L
+					id: "40ABDD6B2A19C993"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "1B8EC2A0F7797179"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -1.1130952380952337d
+		}
+		{
+			dependencies: ["24129AFF07322787"]
+			id: "60660BD48877449F"
+			tasks: [{
+				id: "63240D9F522A2FFD"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.1130952380952337d
+		}
+		{
+			dependencies: ["2A957B2BA21B1F3F"]
+			icon: "createaddition:capacitor"
+			id: "4EB4D0C0E8B39FA6"
+			tasks: [
+				{
+					id: "20ECCECDD1E7BC9B"
+					item: "railcraft:charge_coil"
+					type: "item"
+				}
+				{
+					id: "541571FDCEB5295D"
+					item: "createdieselgenerators:engine_piston"
+					type: "item"
+				}
+				{
+					id: "4942191200374412"
+					item: "railcraft:charge_motor"
+					type: "item"
+				}
+				{
+					id: "340A03D229778210"
+					item: "createaddition:capacitor"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4EB4D0C0E8B39FA6"]
+			icon: "railcraft:crusher"
+			id: "6A625D5914E6DF8E"
+			tasks: [
+				{
+					id: "41344D4F8E6CCBA7"
+					item: "railcraft:powered_rolling_machine"
+					type: "item"
+				}
+				{
+					id: "7355D0E392C8509E"
+					item: "railcraft:crusher"
+					type: "item"
+				}
+				{
+					id: "45102AE9E144FC64"
+					item: {
+						Count: 1
+						id: "custommachinery:custom_machine_item"
+						tag: {
+							machine: "custommachinery:primitive_manufacture"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A625D5914E6DF8E"]
+			id: "25A69154E288DC82"
+			tasks: [{
+				id: "4B0BEBB8F3654512"
+				item: "kubejs:arcanite_plate_scrap"
+				type: "item"
+			}]
+			title: "Revoltion Scraps"
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["25A69154E288DC82"]
+			id: "2A3A7AD19BB3F23B"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "592EBFF54984FC00"
+				item: "kubejs:thermo_mechanism"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.1785714285714306d
+		}
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			id: "08A536F431B5C791"
+			tasks: [{
+				id: "31CC7CB8AD9BB099"
+				item: {
+					Count: 1
+					id: "custommachinery:custom_machine_item"
+					tag: {
+						machine: "custommachinery:primitive_furnace"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			id: "31F5E361F2A53349"
+			tasks: [{
+				id: "31B2252E6EFF9442"
+				item: "ad_astra:compressor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			id: "0FD9D1378848E640"
+			tasks: [{
+				id: "76325EE4C075155E"
+				item: "prettypipes:item_terminal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4EB4D0C0E8B39FA6"]
+			icon: "createdieselgenerators:diesel_engine"
+			id: "534D9C0FD102E297"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "3D7606E1A97E20BD"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createdieselgenerators:large_diesel_engine"
+							}
+							{
+								Count: 1b
+								id: "createdieselgenerators:diesel_engine"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 4.248803591203917d
+			y: -0.2857142857142847d
+		}
+		{
+			dependencies: ["2A3A7AD19BB3F23B"]
+			id: "0D7EC077CBDC748B"
+			shape: "circle"
+			tasks: [{
+				id: "3243C314B8060035"
+				item: "mm:ebf_controller"
+				type: "item"
+			}]
+			x: 5.0235544217686865d
+			y: 2.214285714285701d
+		}
+	]
+	title: "Chapter III -  Tesla's  Electricity"
+}

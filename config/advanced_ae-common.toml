@@ -1,0 +1,4 @@
+#ME Advanced Import/Export Bus speed multiplier
+#Range: 2 ~ 128
+exBusMultiplier = 8
+

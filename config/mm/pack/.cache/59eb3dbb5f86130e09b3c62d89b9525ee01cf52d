@@ -1,0 +1,11 @@
+// 1.20.1	2024-06-28T20:35:21.8966842	Loot Tables
+5c9ebd42fea889bcf132d9cbf0d7b51d7406439d data/mm/loot_tables/blocks/chemical_reactor_controller.json
+dd909f10d9820ded637073b421358768eb0d21b3 data/mm/loot_tables/blocks/ebf_controller.json
+82d5405aa80f14731b4e06a31298f2d1405831a3 data/mm/loot_tables/blocks/steel_energy_hatch_input.json
+92ae0b80fb59e82b7496c7f03880407bc9647044 data/mm/loot_tables/blocks/steel_energy_hatch_output.json
+a1c06db0da85442fa42b8457144fe6bca051ff01 data/mm/loot_tables/blocks/steel_fluid_hatch_input.json
+a1b0567da2037bd0d7e6e743fb4f3fdcea47f6b5 data/mm/loot_tables/blocks/steel_fluid_hatch_output.json
+0476a39b79fae23d6984bb381113e2ebeff6928d data/mm/loot_tables/blocks/steel_item_hatch_input.json
+ccf1a69def815f0f85d2d19266c98869023c6d8a data/mm/loot_tables/blocks/steel_item_hatch_output.json
+4db0ff0555b7772d21fd1eafd892b31757a7ee8e data/mm/loot_tables/blocks/steel_stress_hatch_input.json
+8ad7a0e837fe7040586054cb3f9c101bf3e3f600 data/mm/loot_tables/blocks/steel_stress_hatch_output.json

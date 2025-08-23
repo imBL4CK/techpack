@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "druid__magic"
+	group: "370C655D5970A835"
+	icon: "botania:mana_pool"
+	id: "5E4DA2D6677C4CB4"
+	order_index: 20
+	quest_links: [ ]
+	quests: [{
+		id: "40927E8646D9D8BB"
+		rewards: [{
+			id: "6883D80632752DE6"
+			item: "botania:floating_pure_daisy"
+			type: "item"
+		}]
+		tasks: [{
+			id: "5D671CB6194AC982"
+			item: "botania:pure_daisy"
+			type: "item"
+		}]
+		x: 1.0d
+		y: -0.5d
+	}]
+	title: "Druid  Magic"
+}

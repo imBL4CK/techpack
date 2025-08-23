@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eidolon_peak"
+	group: "370C655D5970A835"
+	icon: "eidolon:gold_inlay"
+	id: "67EC886B44CDE50B"
+	order_index: 17
+	quest_links: [ ]
+	quests: [ ]
+	title: "Eidolon Peak"
+}

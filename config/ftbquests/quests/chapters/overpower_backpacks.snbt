@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overpower_backpacks"
+	group: "370C655D5970A835"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "55E620B0300E2A66"
+	order_index: 15
+	quest_links: [ ]
+	quests: [ ]
+	title: "Overpower Backpacks"
+}

@@ -1,0 +1,14 @@
+{
+  "values": [
+    "mm:ebf_controller",
+    "mm:chemical_reactor_controller",
+    "mm:steel_energy_hatch_input",
+    "mm:steel_energy_hatch_output",
+    "mm:steel_item_hatch_input",
+    "mm:steel_item_hatch_output",
+    "mm:steel_fluid_hatch_input",
+    "mm:steel_fluid_hatch_output",
+    "mm:steel_stress_hatch_input",
+    "mm:steel_stress_hatch_output"
+  ]
+}

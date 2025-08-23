@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "occult_path"
+	group: "15F98A2EFD1DC6AE"
+	icon: {
+		Count: 1
+		id: "occultism:book_of_calling_foliot_lumberjack"
+		tag: {
+			spiritName: "Ulfmurdorne"
+		}
+	}
+	id: "193010F2B7470F17"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1F5366376923EAEC"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				icon: "occultism:spirit_fire"
+				id: "0E8F145FEF65F214"
+				observe_type: 0
+				timer: 0L
+				to_observe: "occultism:spirit_fire"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F5366376923EAEC"]
+			id: "3F20270EC76E136D"
+			tasks: [{
+				id: "51AB0461A8DDCAB9"
+				item: "eidolon:worktable"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3F20270EC76E136D"]
+			id: "7BB5737DF82F65EE"
+			tasks: [{
+				id: "4872C85C664DF4A7"
+				item: "eidolon:crucible"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BB5737DF82F65EE"]
+			id: "13C4662036D74431"
+			tasks: [{
+				id: "76955C13231F997E"
+				item: "forbidden_arcanus:mundabitur_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13C4662036D74431"]
+			id: "6A5C08BD44422E10"
+			tasks: [{
+				id: "6F05215FB62C53CF"
+				item: "forbidden_arcanus:deorum_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A5C08BD44422E10"]
+			id: "5943C1454B600DFE"
+			tasks: [{
+				id: "2AC0D11324949730"
+				item: "forbidden_arcanus:hephaestus_forge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3F20270EC76E136D"]
+			id: "5473CC6AA1C0206A"
+			shape: "circle"
+			size: 0.9d
+			tasks: [{
+				id: "05C4A146E6EC8D57"
+				item: "occultism:sacrificial_bowl"
+				type: "item"
+			}]
+			x: -0.9885204081632679d
+			y: -3.392857142857146d
+		}
+		{
+			dependencies: ["3F20270EC76E136D"]
+			id: "160E64ABF5B4F2F1"
+			shape: "gear"
+			size: 1.75d
+			tasks: [{
+				id: "5FFA064EDF76BBFF"
+				item: "occultism:golden_sacrificial_bowl"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1F5366376923EAEC"]
+			id: "62149E4BEDB4C77A"
+			tasks: [{
+				id: "09226E662BA1A03E"
+				item: {
+					Count: 1
+					id: "occultism:chalk_white"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1F5366376923EAEC"]
+			id: "1980D692C1870F29"
+			tasks: [{
+				id: "57E1210883A517BE"
+				item: "eidolon:pewter_blend"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["1980D692C1870F29"]
+			id: "6285A4398E0E2D34"
+			tasks: [{
+				id: "55CAAF542D960991"
+				item: "eidolon:pewter_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["160E64ABF5B4F2F1"]
+			id: "2D53CE250FEC33FB"
+			tasks: [{
+				id: "412DDE4D4B89458C"
+				item: "kubejs:dusk_world_crystal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D53CE250FEC33FB"]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "159A2B4C7FC1F76F"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "429E4A5D5C58591B"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5943C1454B600DFE"]
+			id: "68456F614A498409"
+			shape: "diamond"
+			size: 1.0d
+			tasks: [{
+				id: "16983A3AC56098CF"
+				item: "forbidden_arcanus:clibano_core"
+				type: "item"
+			}]
+			x: 7.0051020408163325d
+			y: -0.5204081632653015d
+		}
+		{
+			dependencies: ["7BB5737DF82F65EE"]
+			icon: "kubejs:sulfur_reagent"
+			id: "122744F7E80B48AC"
+			shape: "circle"
+			tasks: [{
+				id: "4ACEAB8A03A10FCD"
+				title: "Reagents"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["160E64ABF5B4F2F1"]
+			icon: "occultism:ritual_dummy/summon_demonic_wife"
+			id: "5AB33240D43EB11D"
+			shape: "circle"
+			tasks: [{
+				id: "2D352B3DCA50C2F6"
+				title: "Done"
+				type: "checkmark"
+			}]
+			title: "Summoning Rituals"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5943C1454B600DFE"]
+			hide_dependency_lines: true
+			id: "1B6BFBDF558A89A2"
+			shape: "diamond"
+			tasks: [{
+				id: "23FD763DD9184468"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7BB5737DF82F65EE"]
+			icon: "eidolon:merammer_root"
+			id: "3C844F5520CAC547"
+			shape: "circle"
+			tasks: [
+				{
+					id: "48CBFC9974586C64"
+					item: "eidolon:merammer_root"
+					type: "item"
+				}
+				{
+					id: "7DA4E7F1CA52C3DC"
+					item: "eidolon:avennian_sprig"
+					type: "item"
+				}
+				{
+					id: "592C4A03FC7B2782"
+					item: "eidolon:oanna_bloom"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3F20270EC76E136D"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "34E3E8E54B536F22"
+			shape: "circle"
+			tasks: [{
+				id: "3115C28411824A7D"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34E3E8E54B536F22"]
+			id: "2EB9B6B296291E8F"
+			tasks: [{
+				id: "19E2C978F5436FE6"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5943C1454B600DFE"]
+			hide_dependency_lines: true
+			id: "47A42A924EF7E752"
+			shape: "diamond"
+			tasks: [{
+				id: "4C76FB76A0F236CE"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+	]
+	title: "Sorcery Academy"
+}

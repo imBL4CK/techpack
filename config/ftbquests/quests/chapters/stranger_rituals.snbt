@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "stranger_rituals"
+	group: "370C655D5970A835"
+	icon: "occultism:spirit_fire"
+	id: "6F180F1F6750D48F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			Count: 1
+			id: "hostilenetworks:data_model"
+			tag: {
+				data_model: {
+					id: "hostilenetworks:blaze"
+				}
+			}
+		}
+		id: "7E0C5AA84AD8D591"
+		tasks: [
+			{
+				id: "64C76F9381DCBAEF"
+				item: "minecraft:blaze_powder"
+				optional_task: true
+				type: "item"
+			}
+			{
+				count: 4L
+				id: "5345A78EE244F69E"
+				item: "minecraft:netherrack"
+				optional_task: true
+				type: "item"
+			}
+			{
+				count: 2L
+				id: "6A41222EF6686A30"
+				item: "kubejs:orichalcum_ingot"
+				optional_task: true
+				type: "item"
+			}
+			{
+				count: 4L
+				id: "6249390CB4C72E81"
+				item: "ars_nouveau:fire_essence"
+				optional_task: true
+				type: "item"
+			}
+			{
+				id: "75F3CED89CBD81E2"
+				item: "enderio:grains_of_infinity"
+				optional_task: true
+				type: "item"
+			}
+			{
+				id: "01E9A6F3158A367E"
+				item: "supplementaries:ash"
+				optional_task: true
+				type: "item"
+			}
+			{
+				id: "22D8F5F5686EC21C"
+				title: "Done"
+				type: "checkmark"
+			}
+		]
+		title: "Blaze Rituals"
+		x: -2.0d
+		y: 0.0d
+	}]
+	title: "Stranger Rituals"
+}

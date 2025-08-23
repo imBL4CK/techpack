@@ -1,0 +1,576 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_0__beggins"
+	group: "13199AD38773E247"
+	icon: "supplementaries:globe"
+	id: "74F022FC2658EE6A"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The C4du's Techpack is an expert modpack made by Im_C4du, and, in this pack you will go to automate all resources"
+				""
+				"To beggin, collect wood"
+			]
+			icon: "ad_astra:earth_globe"
+			id: "6999478201E801FD"
+			rewards: [
+				{
+					count: 8
+					id: "594E10125B00798C"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0107A26FB75615BC"
+					item: "create:honeyed_apple"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "12B1037F77A682AE"
+					title: "I will start!"
+					type: "checkmark"
+				}
+				{
+					count: 4L
+					id: "219A473476AB0F13"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					title: "Any #minecraft:logs"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6999478201E801FD"]
+			description: [
+				"In this pack, the craft of crafting table was made difficult"
+				""
+				"You will need to craft a wooden gear, and wooden shears"
+			]
+			icon: "kubejs:wooden_gear"
+			id: "7914A328E96FD1E4"
+			rewards: [{
+				id: "2E70A8C1BAEE06F2"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Craft a crafting table components"
+			tasks: [
+				{
+					id: "41FD140B94BFA5EE"
+					item: {
+						Count: 1
+						id: "woodenshears:wooden_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B6B103E4B418331"
+					item: "kubejs:wooden_gear"
+					type: "item"
+				}
+			]
+			title: "It's Really Expert?"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7914A328E96FD1E4"]
+			description: ["our old friend crafting table, it is the basis of any gameplay"]
+			id: "356032CD8F7173F2"
+			rewards: [{
+				id: "4B4C19FF03A6DD9F"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "get your first crafting table"
+			tasks: [{
+				id: "5E5FB718843A57F5"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["65E1ACF3BAFF2FA0"]
+			description: ["Placing ores in the furnace you obtain ingots, this materias are useds in crafts"]
+			icon: "minecraft:iron_ingot"
+			id: "16EF037A678EBC4C"
+			rewards: [{
+				id: "5B2A1A7D992CCC05"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Smelts ores to obtain ingots"
+			tasks: [
+				{
+					id: "2140DD24AD71C114"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "14581261757D8CBA"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "1714032F2FE2054F"
+					item: "thermal:tin_ingot"
+					type: "item"
+				}
+				{
+					id: "644C258585D06D2E"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+			]
+			title: "First Ingots!"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["356032CD8F7173F2"]
+			description: ["The first level of equipment is made of stones, they will help you in your quest to collect your first raw ores"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6246C752191088E1"
+			rewards: [{
+				id: "7F7B6C8DF6CD22E8"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "get a stone equipments"
+			tasks: [
+				{
+					id: "332D6102D75C6265"
+					item: {
+						Count: 1
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C8C031A332B4FAA"
+					item: {
+						Count: 1
+						id: "minecraft:stone_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C637E95C963229"
+					item: {
+						Count: 1
+						id: "minecraft:stone_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "First equipments"
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6246C752191088E1"]
+			description: ["This ores is a base for modpack, iron is used to craft plates, rods and other crafts, the same thing applies to other materials"]
+			icon: "minecraft:raw_iron"
+			id: "3FA6A9A12457DB09"
+			rewards: [{
+				id: "78B2E0C7701E6897"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Get Raw Iron, Copper, Tin and Zinc"
+			tasks: [
+				{
+					id: "30C8CACB05E832A5"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "02B697F9EFDDFB86"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "485477C2D1195DA5"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "050C3A966822DAEB"
+					item: "thermal:raw_tin"
+					type: "item"
+				}
+			]
+			title: "Base metals"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FA6A9A12457DB09"]
+			description: [
+				"The furnace smelts items, this is one of most important features of the gameplay"
+				""
+				"Tip: Place a coal on the crafting table to obtain a tiny coal, this fuel only heats one item, which avoids loos of coal "
+			]
+			id: "65E1ACF3BAFF2FA0"
+			rewards: [{
+				id: "731698CB2D8E8D21"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Craft a Furnace"
+			tasks: [{
+				id: "2EAD032138DA17FC"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Smelting Ingots"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["65E1ACF3BAFF2FA0"]
+			description: ["Tiny coal can smelt a one item, this is a good thing to smelt a amount of item."]
+			hide: true
+			icon: "tinycoal:tinycoal"
+			id: "6085B87A6298A264"
+			optional: true
+			rewards: [{
+				id: "22A422782C2473EC"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.9d
+			subtitle: "Craft a tiny coal"
+			tasks: [{
+				id: "718AD78B04EC35F9"
+				item: "tinycoal:tinycoal"
+				type: "item"
+			}]
+			title: "(Opitional) Tiny Coal"
+			x: -0.9744897959183731d
+			y: -0.984693877551031d
+		}
+		{
+			dependencies: ["65E1ACF3BAFF2FA0"]
+			description: [
+				"At a moment, you will have to be more space to store your items"
+				""
+				"Chests are your first way to keep your items safe, but, in this pack the craft was made difficult, using wooden gears, stone button and planks"
+			]
+			hide: true
+			id: "2813BF10C08695E7"
+			optional: true
+			rewards: [{
+				id: "44CF6D7061E270DE"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.9d
+			subtitle: "Craft a Chest"
+			tasks: [{
+				id: "77E70E9027C4833C"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			title: "First and Boring Storage..."
+			x: -1.8214285714285765d
+			y: -2.892857142857139d
+		}
+		{
+			dependencies: ["16EF037A678EBC4C"]
+			description: ["The iron equipments is a good upgrade on your gameplay, These are the equipment you will use most for a long time"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "565AD7D4492AB491"
+			rewards: [{
+				id: "6F338B83F85D9787"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Geat a good upgrade!"
+			tasks: [
+				{
+					id: "218B209E5067DE59"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76A76FB2380193B1"
+					item: {
+						Count: 1
+						id: "minecraft:iron_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37B326AD6070D092"
+					item: {
+						Count: 1
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "More Upgrades!"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16EF037A678EBC4C"]
+			description: ["The Iron gear is a good way to defend yourself"]
+			hide: true
+			icon: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "62CC88451F91A6D9"
+			optional: true
+			rewards: [{
+				id: "6A61321768E749A0"
+				item: "kubejs:commum_techcoin"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.9d
+			subtitle: "First Gear"
+			tasks: [
+				{
+					id: "340D227CB8A7F9FE"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABECCF2B093705C"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C3FA434C9B413B8"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1414953911E837CB"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "(Optional) Iron Fortress"
+			x: -3.164285714285718d
+			y: -2.864285714285714d
+		}
+		{
+			dependencies: ["565AD7D4492AB491"]
+			icon: "create:goggles"
+			id: "0C16E7B23A37B930"
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "34EBCD807FF25A94"
+					title: "Let's to next chapter!"
+					type: "checkmark"
+				}
+				{
+					id: "0C424789C69EFB1B"
+					item: {
+						Count: 1
+						id: "eccentrictome:tome"
+						tag: {
+							"eccentrictome:mods": {
+								buildinggadgets2: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "buildinggadgets2:buildinggadgets2book"
+										}
+									}
+								}
+								industrialforegoing: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "industrialforegoing:industrial_foregoing"
+										}
+									}
+								}
+								laserio: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "laserio:laseriobook"
+										}
+									}
+								}
+								pneumaticcraft: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "pneumaticcraft:book"
+										}
+									}
+								}
+								productivebees: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "productivebees:guide"
+										}
+									}
+								}
+								railcraft: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "railcraft:guide_book"
+										}
+									}
+								}
+								thermal: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "thermal:guidebook"
+										}
+									}
+								}
+								twilightdelight: {
+									0: {
+										Count: 1b
+										id: "patchouli:guide_book"
+										tag: {
+											"patchouli:book": "twilightdelight:twilight_guide"
+										}
+									}
+								}
+							}
+							"eccentrictome:version": 1
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Done!"
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0C16E7B23A37B930"]
+			icon: "kubejs:logistic_machine"
+			id: "64921CC5740FBF31"
+			shape: "circle"
+			size: 0.9d
+			tasks: [
+				{
+					id: "4E8CDD4E7CD19704"
+					item: "kubejs:logistic_machine"
+					type: "item"
+				}
+				{
+					id: "3DA1601189107D53"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -4.50714285714286d
+			y: -2.9102040816326564d
+		}
+	]
+	title: "Chapter 0 - Beggings"
+}

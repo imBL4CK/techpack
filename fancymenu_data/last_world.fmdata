@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Carlin/curseforge/minecraft/Instances/Techpack/saves/New World (3)
+}
+
