@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "item": "techpack:advanced_machine_casing"
+    },
+    {
+      "item": "ae2:calculation_processor"
+    },
+    {
+      "item": "techpack:hdpe_sheet",
+      "count": 4
+    },
+    {
+      "item": "ae2:fluix_dust"
+    }
+  ],
+  "pressure": 3.0,
+  "results": [
+    {
+      "id": "ae2:condenser"
+    }
+  ]
+}

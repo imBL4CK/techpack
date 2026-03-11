@@ -1,0 +1,12 @@
+Aluminum: Moon
+Chrome: Moon
+Platinum: Moon
+
+Iron: Overworld, Moon
+Copper: Overworld, Moon, Nether
+Gold: Overworld, Moon, Nether
+Zinc: Overworld, Moon
+Silver: Overworld, Moon, Nether
+Nickel: Overworld, Moon
+Lead: Overworld, Moon
+Tin: Overworld, Moon

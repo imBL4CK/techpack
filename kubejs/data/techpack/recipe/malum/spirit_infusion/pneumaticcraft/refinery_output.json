@@ -1,0 +1,34 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "tag": "techpack:electrical_insulators",
+      "count": 2
+    },
+    {
+      "item": "techpack:polished_diamond",
+      "count": 1
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "count": 3
+    },
+    {
+      "item": "minecraft:tinted_glass",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "create:fluid_tank",
+    "count": 1
+  },
+  "result": {
+    "id": "pneumaticcraft:refinery_output"
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "SAS",
+    "FCF"
+  ],
+  "key": {
+    "P": {
+      "item": "enderio:photovoltaic_plate"
+    },
+    "G": {
+      "tag": "c:glass_blocks"
+    },
+    "S": {
+      "item": "pneumaticcraft:solar_cell"
+    },
+    "A": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "stellaris:solar_panel"
+  }
+}

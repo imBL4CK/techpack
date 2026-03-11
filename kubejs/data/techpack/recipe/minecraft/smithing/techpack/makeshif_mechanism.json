@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "create:andesite_casing"
+  },
+  "addition": {
+    "tag": "techpack:electrical_insulators"
+  },
+  "template": {
+    "item": "techpack:bearing"
+  },
+  "result": {
+    "id": "techpack:makeshift_mechanism"
+  }
+}

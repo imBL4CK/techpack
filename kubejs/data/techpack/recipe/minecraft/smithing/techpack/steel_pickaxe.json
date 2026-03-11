@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "techpack:wrought_iron_pickaxe"
+  },
+  "addition": {
+    "item": "techpack:steel_ingot"
+  },
+  "template": {
+    "item": "techpack:steel_ingot"
+  },
+  "result": {
+    "id": "techpack:steel_pickaxe"
+  }
+}

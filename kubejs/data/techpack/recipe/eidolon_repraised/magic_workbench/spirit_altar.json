@@ -1,0 +1,26 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " G ",
+    "GPG",
+    "PPP"
+  ],
+  "reagents": [
+    "r"
+  ],
+  "key": {
+    "P": {
+    	"tag": "malum:runewood_planks"
+    },
+    "G": {
+    	"tag": "c:ingots/gold"
+    },
+    "r": {
+    	"item": "malum:refined_soulstone"
+    }
+    
+  },
+  "result": {
+    "id": "malum:spirit_altar"
+  }
+}

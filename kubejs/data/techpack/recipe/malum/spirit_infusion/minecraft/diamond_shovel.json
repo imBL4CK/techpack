@@ -1,0 +1,34 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "malum:alchemical_calx",
+      "count": 1
+    },
+    {
+      "item": "techpack:polished_diamond",
+      "count": 1
+    },
+    {
+      "item": "malum:hex_ash",
+      "count": 3
+    }
+  ],
+  "input": {
+    "item": "techpack:wrought_iron_shovel",
+    "count": 1
+  },
+  "result": {
+    "id": "minecraft:diamond_shovel"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 4
+    },
+    {
+      "type": "malum:earthen",
+      "count": 2
+    }
+  ]
+}

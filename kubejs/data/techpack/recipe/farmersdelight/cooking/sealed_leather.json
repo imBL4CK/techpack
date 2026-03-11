@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "techpack:washed_leather"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "techpack:sealed_leather"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "RBR",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "B": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "id": "create:item_vault"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "TCT",
+    "GBG"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "item": "techpack:gold_gear"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:stasis_chamber"
+  }
+}

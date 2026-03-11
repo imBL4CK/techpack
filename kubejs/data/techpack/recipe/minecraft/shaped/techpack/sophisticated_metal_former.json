@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDS",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    },
+    "S": {
+      "item": "create:mechanical_saw"
+    },
+    "W": {
+      "item": "pipez:energy_pipe"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "item": "techpack:stainless_steel_gear"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_metal_former"
+  }
+}

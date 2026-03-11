@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ILI",
+    "CVC",
+    "GPG"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/dark_steel"
+    },
+    "L": {
+      "item": "ae2:logic_processor"
+    },
+    "C": {
+      "item": "create:mechanical_crafter"
+    },
+    "V": {
+      "item": "enderio:void_chassis"
+    },
+    "P": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "G": {
+      "tag": "c:gears/invar"
+    }
+  },
+  "result": {
+    "id": "enderio:crafter"
+  }
+}

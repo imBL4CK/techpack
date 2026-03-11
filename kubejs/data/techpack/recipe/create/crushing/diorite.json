@@ -1,0 +1,19 @@
+{
+  "type": "create:crushing",
+  "processing_time": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:diorite"
+    }
+  ],
+  "results": [
+    {
+      "chance": 0.25,
+      "id": "malum:natural_quartz"
+    },
+    {
+      "chance": 0.1,
+      "id": "techpack:mica"
+    }
+  ]
+}

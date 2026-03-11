@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "DBD",
+    " D "
+  ],
+  "key": {
+    "B": {
+      "item": "techpack:bearing"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    }
+  },
+  "result": {
+    "id": "techpack:diamond_gear"
+  }
+}

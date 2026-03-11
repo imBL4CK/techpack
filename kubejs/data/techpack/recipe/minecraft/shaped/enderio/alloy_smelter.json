@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "BVB",
+    "GPG"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/steel"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "V": {
+      "item": "enderio:void_chassis"
+    },
+    "P": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "G": {
+      "tag": "c:gears/invar"
+    }
+  },
+  "result": {
+    "id": "enderio:alloy_smelter"
+  }
+}

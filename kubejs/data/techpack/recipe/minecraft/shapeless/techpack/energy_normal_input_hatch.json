@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:basic_machine_casing"
+    },
+    {
+      "item": "modular_machinery_reborn:energyinputhatch_small"
+    },
+    {
+      "item": "techpack:silver_battery_cell"
+    }
+  ],
+  "result": {
+    "id": "modular_machinery_reborn:energyinputhatch_normal"
+  }
+}

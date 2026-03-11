@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "techpack:block/large_cinnabar_bud"
+  }
+}

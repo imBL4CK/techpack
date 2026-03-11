@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SMR",
+    "PCP",
+    "GTG"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:piston"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "W": {
+      "item": "create:mechanical_saw"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "techpack:bronze_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "id": "techpack:steam_metal_former"
+  }
+}

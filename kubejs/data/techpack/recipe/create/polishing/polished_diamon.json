@@ -1,0 +1,13 @@
+{
+  "type": "create:sandpaper_polishing",
+  "ingredients": [
+    {
+      "tag": "c:gems/diamond"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:polished_diamond"
+    }
+  ]
+}

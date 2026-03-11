@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "techpack:sifted_sand"
+    }
+  ],
+  "result": {
+    "id": "enderio:conduit_binder_composite",
+    "count": 4
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "malum:convoluted_lens",
+      "count": 2
+    },
+    {
+      "item": "malum:malignant_pewter_plating",
+      "count": 2
+    },
+    {
+      "item": "malum:large_strange_crystal"
+    },
+    {
+      "item": "techpack:instabillis_ingot"
+    },
+    {
+      "item": "techpack:spiritual_circuit"
+    }
+  ],
+  "input": {
+    "item": "techpack:advanced_machine_casing"
+  },
+  "result": {
+    "id": "tesseract:tesseract"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:sacred",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    }
+  ]
+}

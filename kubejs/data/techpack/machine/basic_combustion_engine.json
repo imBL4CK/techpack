@@ -1,0 +1,97 @@
+{
+  "name": {
+    "text": "Basic Combustion Engine"
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:block": "techpack:machines/basic/combustion_engine_running#standalone"
+    },
+    "custommachinery:block": "techpack:machines/basic/combustion_engine_idle#standalone",
+    "custommachinery:item": "techpack:machines/basic/combustion_engine_idle#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "OUTPUT",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "capacity": 16000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "INPUT",
+        "LEFT": "NONE",
+        "input": true
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_input_tank",
+      "capacity": 8000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "NONE",
+        "RIGHT": "OUTPUT",
+        "BACK": "NONE",
+        "LEFT": "OUTPUT"
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_output_tank",
+      "capacity": 8000
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      },
+      "x": 103,
+      "y": 23
+    }
+  ]
+}

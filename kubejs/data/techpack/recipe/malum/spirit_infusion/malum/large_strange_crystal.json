@@ -1,0 +1,19 @@
+{
+    "type": "malum:spirit_infusion",
+    "input": {
+        "item": "malum:strange_crystal"
+    },
+    "result": {
+        "id": "malum:large_strange_crystal"
+    },
+    "spirits": [
+        {
+            "type": "malum:arcane",
+            "count": 1
+        },
+        {
+            "type": "malum:earthen",
+            "count": 1
+        }
+    ]
+}

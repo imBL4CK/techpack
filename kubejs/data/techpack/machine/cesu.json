@@ -1,0 +1,108 @@
+{
+  "name": {
+    "text": {
+      "translate": "CESU"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/energy_storage/cesu#standalone",
+    "custommachinery:item": "techpack:machines/energy_storage/cesu#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 16000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "BOTH",
+        "RIGHT": "NONE",
+        "BACK": "BOTH",
+        "LEFT": "NONE",
+        "input": true
+      },
+      "capacity": 1000000,
+      "max_input": 16000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_output_slot",
+      "mode": "output",
+      "capacity": 1
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 40,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "CESU"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 1.000.000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 16.000 RF/t"
+      }
+    }
+  ]
+}

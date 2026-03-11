@@ -1,0 +1,37 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:redstone_transmission_coil",
+      "count": 2
+    },
+    {
+      "item": "pneumaticcraft:turbine_rotor",
+      "count": 1
+    },
+    {
+      "item": "pneumaticcraft:printed_circuit_board",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "techpack:advanced_machine_casing",
+    "count": 1
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:basic_steam_turbine"
+    }
+  },
+  "spirits": [
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    },
+    {
+      "type": "malum:aerial",
+      "count": 2
+    }
+  ]
+}

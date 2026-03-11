@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:iron_backpack"
+    }
+  ],
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:copper_backpack"
+    },
+    "W": {
+      "item": "techpack:wrought_iron_ingot"
+    },
+    "C": {
+      "item": "malum:alchemical_calx"
+    }
+  },
+  "pattern": [
+    "CWC",
+    "WBW",
+    "CWC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:iron_backpack"
+  }
+}

@@ -1,0 +1,31 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "malum:hallowed_gold_nugget",
+            "count": 4
+        },
+        {
+            "item": "techpack:quicksilver",
+            "count": 1
+        },
+        {
+            "tag": "malum:runewood_planks",
+            "count": 1
+        }
+    ],
+    "input": {
+        "item": "malum:warp_flux",
+        "count": 1
+    },
+    "result": {
+        "id": "malum:convoluted_lens",
+        "count": 2
+    },
+    "spirits": [
+        {
+            "type": "malum:aerial",
+            "count": 1
+        }
+    ]
+}

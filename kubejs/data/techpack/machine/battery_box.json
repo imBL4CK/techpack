@@ -1,0 +1,124 @@
+{
+  "name": {
+    "text": {
+      "translate": "Battery Box"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/energy_storage/battery_box#standalone",
+    "custommachinery:item": "techpack:machines/energy_storage/battery_box#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe"
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "BOTH",
+        "RIGHT": "NONE",
+        "BACK": "BOTH",
+        "LEFT": "NONE",
+        "input": true
+      },
+      "capacity": 500000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "max_output": 64,
+      "id": "energy_input_slot",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "max_output": 64,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_output_slot",
+      "mode": "output",
+      "capacity": 1,
+      "max_input": 64
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 40,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Battery Box"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 500.000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 4.000 RF/t"
+      }
+    }
+  ]
+}

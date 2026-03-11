@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "processing_time": 100,
+  "ingredients": [
+    {
+      "tag": "c:gems/quartz"
+    }
+  ],
+  "results": [
+    {
+      "id": "enderio:powdered_quartz"
+    }
+  ]
+}

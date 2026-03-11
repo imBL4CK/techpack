@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "B B",
+    "BCB"
+  ],
+  "key": {
+    "B": {
+      "item": "techpack:fireproof_brick"
+    },
+    "C": {
+      "item": "minecraft:campfire"
+    }
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:blast_furnace"
+    }
+  }
+}

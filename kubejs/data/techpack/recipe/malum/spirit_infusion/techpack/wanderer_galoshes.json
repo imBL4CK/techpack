@@ -1,0 +1,36 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "tag": "techpack:electrical_insulators",
+      "count": 2
+    },
+    {
+      "item": "malum:hex_ash"
+    },
+    {
+      "item": "malum:cthonic_gold_fragment"
+    }
+  ],
+  "input": {
+    "item": "malum:soul_hunter_boots",
+    "count": 1
+  },
+  "result": {
+    "id": "techpack:wanderer_galoshes"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 4
+    },
+    {
+      "type": "malum:arcane",
+      "count": 2
+    },
+    {
+      "type": "malum:earthen",
+      "count": 2
+    }
+  ]
+}

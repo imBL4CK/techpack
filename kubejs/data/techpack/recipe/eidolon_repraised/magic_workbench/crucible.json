@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    "I I",
+    "I I",
+    "III"
+  ],
+  "reagents": [
+    "e   "
+  ],
+  "key": {
+    "I": {
+    	"item": "eidolon_repraised:pewter_ingot"
+    },
+    "e": {
+    	"item": "malum:earthen_spirit"
+    }
+    
+  },
+  "result": {
+    "id": "eidolon_repraised:crucible"
+  }
+}

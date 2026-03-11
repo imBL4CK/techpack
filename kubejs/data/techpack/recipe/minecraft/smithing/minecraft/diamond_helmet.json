@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "techpack:curved_diamond_plate"
+  },
+  "template": {
+    "item": "techpack:curved_diamond_plate"
+  },
+  "result": {
+    "id": "minecraft:diamond_helmet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "techpack:organic_component"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:glutton"
+  }
+}

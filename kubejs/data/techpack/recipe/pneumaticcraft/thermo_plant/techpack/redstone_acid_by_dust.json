@@ -1,0 +1,17 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "item": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "techpack:redstone_acid",
+      "amount": 100
+    }
+  },
+  "temperature": {
+    "min": 373
+  }
+}

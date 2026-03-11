@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "TCS",
+    "GBG"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plastics"
+    },
+    "R": {
+      "tag": "c:ropes"
+    },
+    "T": {
+      "item": "minecraft:bucket"
+    },
+    "S": {
+      "item": "minecraft:shears"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "G": {
+      "item": "techpack:gold_gear"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:animal_rancher"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    " H ",
+    " G ",
+    "   "
+  ],
+  "reagents": [
+    "g q "
+  ],
+  "key": {
+    "G": {
+    	"tag": "c:glass_blocks"
+    },
+    "H": {
+    	"item": "malum:hallowed_gold_ingot"
+    },
+    "g": {
+    	"item": "eidolon_repraised:gold_inlay"
+    },
+    "q": {
+    	"item": "techpack:quicksilver"
+    }
+    
+  },
+  "result": {
+    "id": "malum:spirit_jar"
+  }
+}

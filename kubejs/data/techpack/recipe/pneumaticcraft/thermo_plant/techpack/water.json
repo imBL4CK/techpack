@@ -1,0 +1,18 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "item": {
+      "item": "techpack:ice_coolant_ball"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "minecraft:water",
+      "amount": 100
+    }
+  },
+  "temperature": {
+    "min": 303,
+    "max": 373
+  }
+}

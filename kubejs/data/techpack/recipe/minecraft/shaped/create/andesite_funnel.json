@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A",
+    "R"
+  ],
+  "key": {
+    "A": {
+      "item": "create:andesite_alloy"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    }
+  },
+  "result": {
+    "id": "create:andesite_funnel",
+    "count": 2
+  }
+}

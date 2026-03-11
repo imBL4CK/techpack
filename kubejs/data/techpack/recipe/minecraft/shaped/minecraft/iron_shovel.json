@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " H ",
+    " H "
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plates/iron"
+    },
+    "H": {
+      "item": "techpack:handle"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_shovel"
+  }
+}

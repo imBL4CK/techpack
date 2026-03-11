@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "techpack:stabillis_ingot"
+    },
+    "I": {
+      "item": "techpack:instabillis_ingot"
+    }
+  },
+  "result": {
+    "id": "techpack:worldshaper_pickaxe"
+  }
+}

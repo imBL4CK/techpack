@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HPH",
+    "MCM",
+    "TBT"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "P": {
+      "item": "actuallyadditions:palis_crystal"
+    },
+    "M": {
+      "item": "techpack:carbon_fiber"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "T": {
+      "item": "techpack:redstone_transmission_coil"
+    },
+    "B": {
+      "item": "enderio:basic_capacitor"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:biofuel_generator"
+  }
+}

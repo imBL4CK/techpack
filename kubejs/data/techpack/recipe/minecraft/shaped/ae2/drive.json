@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "GBG",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:platinum_ingot"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "G": {
+      "item": "ae2:fluix_glass_cable"
+    },
+    "B": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "ae2:drive"
+  }
+}

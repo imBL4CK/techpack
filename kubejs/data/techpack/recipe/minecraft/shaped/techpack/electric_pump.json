@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "RFR",
+    " P "
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:basic_circuit"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "F": {
+      "item": "techpack:invar_frame"
+    },
+    "P": {
+      "item": "create:mechanical_pump"
+    }
+  },
+  "result": {
+    "id": "techpack:electric_pump"
+  }
+}

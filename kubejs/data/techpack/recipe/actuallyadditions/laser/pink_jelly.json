@@ -1,0 +1,10 @@
+{
+  "type": "actuallyadditions:laser",
+  "energy": 2000,
+  "ingredient": {
+    "item": "industrialforegoing:pink_slime"
+  },
+  "result": {
+    "id": "techpack:pink_jelly"
+  }
+}

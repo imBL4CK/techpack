@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IMI",
+    "SCS",
+    "GBG"
+  ],
+  "key": {
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "M": {
+      "item": "create:mechanical_saw"
+    },
+    "S": {
+      "item": "create_new_age:copper_wire"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "G": {
+      "item": "techpack:steel_gear"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:basic_sawmill"
+  }
+}

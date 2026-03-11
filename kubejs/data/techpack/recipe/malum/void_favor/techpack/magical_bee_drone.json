@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "techpack:common_bee_drone"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:magical_bee_drone"
+  }
+}

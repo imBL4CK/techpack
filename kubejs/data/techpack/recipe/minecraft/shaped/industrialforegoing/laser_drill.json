@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FWF",
+    "EME",
+    "GCG"
+  ],
+  "key": {
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "W": {
+      "item": "techpack:wither_drop"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/aluminum"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:laser_drill"
+  }
+}

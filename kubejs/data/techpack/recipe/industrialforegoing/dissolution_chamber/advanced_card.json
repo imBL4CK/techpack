@@ -1,0 +1,34 @@
+{
+    "type": "industrialforegoing:dissolution_chamber",
+    "input": [
+        {
+            "item": "ae2:calculation_processor"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "techpack:flux_powder"
+        }
+    ],
+    "inputFluid": {
+        "amount": 100,
+        "fluid": "pneumaticcraft:plastic"
+    },
+    "output": {
+        "id": "ae2:advanced_card"
+    },
+    "processingTime": 300
+}

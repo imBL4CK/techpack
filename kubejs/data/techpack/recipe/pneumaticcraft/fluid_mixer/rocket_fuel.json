@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:fluid_mixer",
+  "fluid_output": {
+    "amount": 30,
+    "id": "stellaris:fuel"
+  },
+  "input1": {
+    "amount": 20,
+    "fluid": "pneumaticcraft:kerosene"
+  },
+  "input2": {
+    "amount": 20,
+    "fluid": "stellaris:hydrogen"
+  },
+  "item_output": {
+    "count": 1,
+    "id": "minecraft:snowball"
+  },
+  "pressure": 4.9,
+  "time": 20
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "techpack:block/basic_machine_casing",
+    "textures": {
+        "face": "techpack:block/machines/energy_storage/mfe_front",
+        "back": "techpack:block/machines/fluid_interface",
+        "top": "techpack:block/machines/combustion_engine_top_running"
+    }
+}

@@ -1,0 +1,182 @@
+{
+  "name": {
+    "text": {
+      "translate": "Electric Composter"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/electric_composter#standalone",
+    "custommachinery:item": "techpack:machines/basic/electric_composter#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 1000,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "input": true
+      },
+      "capacity": 4000,
+      "max_input": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_tank_output",
+      "capacity": 4000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_input_slot"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 56,
+      "y": 42,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_output",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 103,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 56,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 103,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Electric Composter"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 4000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 1000 RF/t"
+      }
+    }
+  ]
+}

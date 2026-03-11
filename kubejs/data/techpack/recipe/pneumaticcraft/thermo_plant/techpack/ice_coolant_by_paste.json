@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "item": {
+      "item": "techpack:ice_coolant_paste"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "techpack:ice_coolant",
+      "amount": 500
+    },
+    "item_output": {
+      "id": "minecraft:glass_bottle"
+    }
+  },
+  "temperature": {
+    "min": 323
+  }
+}

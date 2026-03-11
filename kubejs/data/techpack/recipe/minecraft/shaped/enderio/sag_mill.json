@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IEI",
+    "CVC",
+    "GPG"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/dark_steel"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "C": {
+      "item": "create:crushing_wheel"
+    },
+    "V": {
+      "item": "enderio:void_chassis"
+    },
+    "P": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "G": {
+      "tag": "c:gears/invar"
+    }
+  },
+  "result": {
+    "id": "enderio:sag_mill"
+  }
+}

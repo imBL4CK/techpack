@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "nomansland:resin"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:latex"
+    }
+  ]
+}

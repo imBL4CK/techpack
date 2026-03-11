@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " V ",
+    "VCV",
+    " V "
+  ],
+  "key": {
+    "V": {
+      "item": "techpack:void_machine_parts"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    }
+  },
+  "result": {
+    "id": "enderio:void_chassis"
+  }
+}

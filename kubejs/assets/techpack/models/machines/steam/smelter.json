@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:block/bronze_machine_casing",
+    "textures": {
+        "face": "techpack:block/machines/steam/smelter"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "actuallyadditions:empowered_canola_seed"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:void_seed"
+  }
+}

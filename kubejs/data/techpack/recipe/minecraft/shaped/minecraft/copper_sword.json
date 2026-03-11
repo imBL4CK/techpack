@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    " I ",
+    " H "
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/copper"
+    },
+    "H": {
+      "item": "techpack:handle"
+    }
+  },
+  "result": {
+    "id": "techpack:copper_sword"
+  }
+}

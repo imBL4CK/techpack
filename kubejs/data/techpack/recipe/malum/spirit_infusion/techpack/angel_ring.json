@@ -1,0 +1,38 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:stabillis_ingot"
+    },  
+    {
+      "item": "eidolon_repraised:raven_cloak"
+    },  
+    {
+      "item": "malum:warp_flux"
+    },  
+    {
+      "item": "minecraft:wind_charge",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "malum:gilded_ring"
+  },
+  "result": {
+    "id": "modular_angelring:angel_ring"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:sacred",
+      "count": 32
+    }
+  ]
+}

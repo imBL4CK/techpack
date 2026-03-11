@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "HCF",
+    "GBG"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:plastics"
+    },
+    "P": {
+      "item": "farmersdelight:cooking_pot"
+    },
+    "H": {
+      "item": "farmersdelight:honey_glazed_ham_block"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "F": {
+      "item": "farmersdelight:horse_feed"
+    },
+    "G": {
+      "item": "techpack:gold_gear"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:animal_feeder"
+  }
+}

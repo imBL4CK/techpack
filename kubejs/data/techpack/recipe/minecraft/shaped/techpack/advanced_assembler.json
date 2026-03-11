@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PEP",
+    "TCR",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "E": {
+      "item": "ae2:engineering_processor"
+    },
+    "T": {
+      "item": "techpack:transistor"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "R": {
+      "item": "techpack:resistor"
+    },
+    "G": {
+      "item": "techpack:advanced_alloy_gear"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "techpack:advanced_assembler"
+  }
+}

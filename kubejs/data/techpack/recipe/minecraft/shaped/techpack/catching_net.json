@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RS",
+    " SR",
+    "S R"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "R": {
+      "tag": "c:strings"
+    }
+  },
+  "result": {
+    "id": "techpack:catching_net"
+  }
+}

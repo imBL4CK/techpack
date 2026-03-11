@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " L ",
+    "RFR",
+    " W "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "F": {
+      "item": "techpack:invar_frame"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "result": {
+    "id": "techpack:inorganic_matter_generator"
+  }
+}

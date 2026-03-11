@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDS",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    },
+    "S": {
+      "item": "create:mechanical_saw"
+    },
+    "W": {
+      "item": "create_new_age:overcharged_golden_wire"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "item": "techpack:advanced_alloy_gear"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "techpack:advanced_metal_former"
+  }
+}

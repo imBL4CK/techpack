@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nomansland:resin"
+    },
+    {
+      "item": "nomansland:resin"
+    }
+  ],
+  "result": {
+    "id": "techpack:latex"
+  }
+}

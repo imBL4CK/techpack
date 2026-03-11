@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSH",
+    "DCD",
+    "GBG"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:ptfe_sheet"
+    },
+    "S": {
+      "item": "minecraft:brewing_stand"
+    },
+    "D": {
+      "item": "techpack:steel_drum"
+    }, 
+    "C": {
+      "item": "techpack:sophisticated_machine_casing"
+    }, 
+    "G": {
+      "item": "techpack:stainless_steel_gear"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_reaction_chamber"
+  }
+}

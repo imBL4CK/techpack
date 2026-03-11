@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    " S ",
+    " I "
+  ],
+  "key": {
+    "S": {
+      "item": "techpack:stabillis_ingot"
+    },
+    "I": {
+      "item": "techpack:instabillis_ingot"
+    }
+  },
+  "result": {
+    "id": "techpack:etheric_sword"
+  }
+}

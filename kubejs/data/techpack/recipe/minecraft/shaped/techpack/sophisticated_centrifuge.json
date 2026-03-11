@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PKP",
+    "WCW",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "K": {
+      "item": "create:whisk"
+    },
+    "W": {
+      "item": "pipez:energy_pipe"
+    },
+    "C": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "item": "techpack:stainless_steel_gear"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_centrifuge"
+  }
+}

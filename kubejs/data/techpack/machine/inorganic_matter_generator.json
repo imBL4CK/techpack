@@ -1,0 +1,210 @@
+{
+  "name": {
+    "text": {
+      "translate": "Inorganic Matter Generator"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/inorganic_matter_generator#standalone",
+    "custommachinery:item": "techpack:machines/inorganic_matter_generator#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_4",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 67,
+      "y": 34,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "priority": 1,
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 44,
+      "y": 33
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 97,
+      "y": 43
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 43,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Inorganic Matter Generator"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:progress",
+      "x": 67,
+      "y": 0,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 44,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 97,
+      "y": 0
+    }
+  ],
+  "tooltips": {
+    "text": {
+      "translate": "- Needs adjacent water and lava to function"
+    }
+  }
+}

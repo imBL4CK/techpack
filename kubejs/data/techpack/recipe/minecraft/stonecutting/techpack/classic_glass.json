@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "tag": "c:glass_blocks"
+    }
+  ],
+  "result": {
+    "id": "techpack:classic_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "RFR",
+    " N "
+  ],
+  "key": {
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "F": {
+      "item": "techpack:invar_frame"
+    },
+    "N": {
+      "item": "techpack:catching_net"
+    }
+  },
+  "result": {
+    "id": "techpack:resource_collector"
+  }
+}

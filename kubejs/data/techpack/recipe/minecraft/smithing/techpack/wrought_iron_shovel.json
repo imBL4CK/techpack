@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_shovel"
+  },
+  "addition": {
+    "item": "techpack:wrought_iron_ingot"
+  },
+  "template": {
+    "item": "techpack:wrought_iron_ingot"
+  },
+  "result": {
+    "id": "techpack:wrought_iron_shovel"
+  }
+}

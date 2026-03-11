@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "actuallyadditions:black_quartz",
+      "count": 1
+    },
+    {
+      "item": "techpack:quicksilver",
+      "count": 2
+    }
+  ],
+  "input": {
+    "tag": "c:glass_panes",
+    "count": 1
+  },
+  "result": {
+    "id": "actuallyadditions:lens"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 2
+    },
+    {
+      "type": "malum:arcane",
+      "count": 1
+    }
+  ]
+}

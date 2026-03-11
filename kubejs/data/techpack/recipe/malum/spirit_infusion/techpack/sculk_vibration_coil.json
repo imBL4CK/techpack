@@ -1,0 +1,20 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:lead_ingot"
+    }
+  ],
+  "input": {
+    "item": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "techpack:sculk_vibration_coil"
+  },
+  "spirits": [
+    {
+      "type": "malum:wicked",
+      "count": 8
+    }
+  ]
+}

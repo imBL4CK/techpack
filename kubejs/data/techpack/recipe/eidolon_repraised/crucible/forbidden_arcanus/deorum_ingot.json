@@ -1,0 +1,20 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:gold_ingot" },
+        { "item": "forbidden_arcanus:arcane_crystal_dust" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "forbidden_arcanus:mundabitur_dust" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "forbidden_arcanus:deorum_ingot",
+    "count": 2
+  }
+}

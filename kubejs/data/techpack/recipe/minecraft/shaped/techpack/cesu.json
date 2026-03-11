@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ILI",
+    "LBL",
+    "CLC"
+  ],
+  "key": {
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "L": {
+      "item": "techpack:lead_battery_cell"
+    },
+    "B": {
+      "item": "techpack:bronze_machine_casing"
+    },
+    "C": {
+      "item": "techpack:redstone_conductance_coil"
+    }
+  },
+  "result": {
+    "id": "techpack:cesu"
+  }
+}

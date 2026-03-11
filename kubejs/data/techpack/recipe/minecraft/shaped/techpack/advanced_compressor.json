@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "item": "create:mechanical_press"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    },
+    "W": {
+      "item": "create_new_age:overcharged_golden_wire"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "item": "techpack:advanced_alloy_gear"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "techpack:advanced_compressor"
+  }
+}

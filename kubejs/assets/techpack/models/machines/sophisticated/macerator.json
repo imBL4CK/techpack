@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:block/sophisticated_machine_casing",
+    "textures": {
+    	"face": "techpack:block/machines/electric/macerator"
+    }
+}

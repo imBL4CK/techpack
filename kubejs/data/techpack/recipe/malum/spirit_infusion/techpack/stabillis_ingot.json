@@ -1,0 +1,30 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:wither_drop"
+    }
+  ],
+  "input": {
+    "item": "techpack:instabillis_ingot",
+    "count": 8
+  },
+  "result": {
+    "id": "techpack:stabillis_ingot",
+    "count": 8
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    }
+  ]
+}

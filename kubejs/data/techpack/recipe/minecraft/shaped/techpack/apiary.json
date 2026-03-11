@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "R R",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "farmersdelight:canvas"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    }
+  },
+  "result": {
+    "id": "techpack:apiary"
+  }
+}

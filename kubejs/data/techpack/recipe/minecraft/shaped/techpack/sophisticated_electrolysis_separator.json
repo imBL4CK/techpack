@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HAH",
+    "RCR",
+    "GBG"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "A": {
+      "item": "enderio:double_layer_capacitor"
+    },
+    "R": {
+      "item": "enderio:infinity_rod"
+    },
+    "C": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "item": "techpack:stainless_steel_gear"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_electrolysis_separator"
+  }
+}

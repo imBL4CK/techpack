@@ -1,0 +1,9 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "techpack.item.guide_name"
+    },
+    "model": "techpack:item/moddedpedia"
+  }
+}

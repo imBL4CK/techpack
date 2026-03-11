@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSH",
+    "PCP",
+    "RBR"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "S": {
+      "item": "malum:spirit_jar"
+    },
+    "P": {
+      "item": "techpack:pink_jelly"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:bioreactor"
+  }
+}

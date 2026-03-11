@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SDS",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "S": {
+      "item": "create:millstone"
+    },
+    "D": {
+      "item": "techpack:polished_diamond"
+    },
+    "W": {
+      "item": "pipez:energy_pipe"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "item": "techpack:stainless_steel_gear"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_macerator"
+  }
+}

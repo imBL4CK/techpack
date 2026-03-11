@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "FCA",
+    "PBP"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:platinum_ingot"
+    },
+    "B": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "F": {
+      "item": "ae2:annihilation_core"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "A": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "result": {
+    "id": "ae2:interface"
+  }
+}

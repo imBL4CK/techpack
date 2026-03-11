@@ -1,9 +1,7 @@
 .cache/
 .mixin.out/
-assets/
 backups/
 crash-reports/
-data/
 datapacks/
 debug/
 defaultconfigs/

@@ -1,0 +1,2 @@
+[*]
+background:          techpack:textures/gui/quest.png; tile_size=16

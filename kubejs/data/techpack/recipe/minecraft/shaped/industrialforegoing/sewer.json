@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IPI",
+    "OCO",
+    "RBR"
+  ],
+  "key": {
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "P": {
+      "item": "minecraft:bucket"
+    },
+    "O": {
+      "item": "techpack:pouch"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:sewer"
+  }
+}

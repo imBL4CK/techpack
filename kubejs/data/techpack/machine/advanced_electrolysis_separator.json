@@ -1,0 +1,262 @@
+{
+  "name": {
+    "text": "Advanced Electrolysis Separator"
+  },
+  "parent": "techpack:basic_electrolysis_separator",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.75
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.25
+    }
+  ],
+  "appearance": {
+    "custommachinery:block": "techpack:machines/advanced/electrolysis_separator#standalone",
+    "custommachinery:item": "techpack:machines/advanced/electrolysis_separator#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "capacity": 16000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_tank_1",
+      "capacity": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "id": "fluid_input_tank_2",
+      "capacity": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "fluid_output_tank_1",
+      "capacity": 1000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "id": "fluid_output_tank_2",
+      "capacity": 1000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_input_slot"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/assembler.png"
+      },
+      "width": 176,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 83
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 38,
+      "y": 59,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 38,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 101,
+      "y": 40,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 119,
+      "y": 40,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 38,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 56,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 101,
+      "y": 22,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 119,
+      "y": 22,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 106
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 76,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 38,
+      "y": 78
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": "Advanced Electrolysis Separator"
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": "- Energy storage: 16000 RF"
+    },
+    {
+      "text": "- Energy I/O: 4000 RF/t"
+    },
+    {
+      "text": "- 20% Faster than basic tier",
+      "color": "green"
+    },
+    {
+      "text": "- 20% More energy cost",
+      "color": "red"
+    }
+  ]
+}

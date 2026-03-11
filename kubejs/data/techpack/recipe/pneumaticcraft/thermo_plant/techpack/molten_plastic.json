@@ -1,0 +1,18 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "fluid": {
+      "fluid": "techpack:ethylene",
+      "amount": 250
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "pneumaticcraft:plastic",
+      "amount": 250
+    }
+  },
+  "temperature": {
+    "min": 373
+  }
+}

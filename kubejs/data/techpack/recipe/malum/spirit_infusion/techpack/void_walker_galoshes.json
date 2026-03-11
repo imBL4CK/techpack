@@ -1,0 +1,31 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "malum:malignant_lead"
+    },
+    {
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "item": "techpack:void_seed"
+    }
+  ],
+  "input": {
+    "item": "techpack:wanderer_galoshes",
+    "count": 1
+  },
+  "result": {
+    "id": "techpack:void_walker_galoshes"
+  },
+  "spirits": [
+    {
+      "type": "malum:aerial",
+      "count": 16
+    },
+    {
+      "type": "malum:wicked",
+      "count": 8
+    }
+  ]
+}

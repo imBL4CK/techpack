@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "IMI",
+    "PCP"
+  ],
+  "key": {
+    "S": {
+      "item": "dungeonsdelight:stained_scrap"
+    },
+    "A": {
+      "item": "malum:alchemical_calx"
+    },
+    "I": {
+      "item": "techpack:instabillis_ingot"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "P": {
+      "item": "techpack:redstone_spiritual_coil"
+    },
+    "C": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "hostilenetworks:sim_chamber"
+  }
+}

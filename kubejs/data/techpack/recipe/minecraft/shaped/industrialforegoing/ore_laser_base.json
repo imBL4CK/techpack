@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PAP",
+    "IMI",
+    "GCG"
+  ],
+  "key": {
+    "P": {
+      "item": "malum:malignant_pewter_plating"
+    },
+    "A": {
+      "item": "malum:alchemical_impetus"
+    },
+    "I": {
+      "item": "techpack:stabillis_ingot"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/gold"
+    },
+    "C": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:ore_laser_base"
+  }
+}

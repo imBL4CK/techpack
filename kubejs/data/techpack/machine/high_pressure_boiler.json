@@ -1,0 +1,200 @@
+{
+  "name": {
+    "text": {
+      "translate": "High Pressure Boiler"
+    }
+  },
+  "parent": "techpack:low_pressure_boiler",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.5
+    },
+    {
+      "requirement": "custommachinery:fluid",
+      "mode": "output",
+      "operation": "multiplication",
+      "modifier": 2
+    }
+  ],
+  "appearance": {
+    "running": {
+      "custommachinery:block": "techpack:machines/steam/high_pressure_boiler_lit#standalone",
+      "custommachinery:item": "techpack:machines/steam/high_pressure_boiler_lit#standalone",
+      "custommachinery:light": 13
+    },
+    "custommachinery:block": "techpack:machines/steam/high_pressure_boiler#standalone",
+    "custommachinery:item": "techpack:machines/steam/high_pressure_boiler#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "whitelist": "minecraft:water",
+      "max_input": 4000,
+      "max_output": 4000,
+      "id": "fluid_tank_input",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "whitelist": "techpack:steam",
+      "max_input": 4000,
+      "max_output": 4000,
+      "id": "fluid_tank_output",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "id": "fluid_insert_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "fluid_output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "id": "fuel_slot",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 66
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_input",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 52,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_output",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 105,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 54,
+      "y": 44,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_fuel_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_fuel_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 76,
+      "y": 26,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 52,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "High Pressure Boiler"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Steam storage: 16000 mB"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Steam generation rate: 2 mB/t"
+      }
+    },
+    {
+      "text": {
+        "translate": "- 50% Faster than low pressure boiler"
+      },
+      "color": "green"
+    },
+    {
+      "text": {
+        "translate": "- 2x more efficient than low pressure boiler"
+      },
+      "color": "green"
+    }
+  ]
+}

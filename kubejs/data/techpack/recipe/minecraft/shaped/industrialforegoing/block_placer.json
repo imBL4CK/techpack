@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PDP",
+    "SMS",
+    "TCT"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "D": {
+      "item": "create:deployer"
+    },
+    "S": {
+      "item": "minecraft:dispenser"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "T": {
+      "tag": "c:gears/tin"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:block_placer"
+  }
+}

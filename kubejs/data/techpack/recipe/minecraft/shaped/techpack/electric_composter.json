@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "RFR",
+    " O "
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:basic_circuit"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "F": {
+      "item": "techpack:invar_frame"
+    },
+    "O": {
+      "item": "minecraft:composter"
+    }
+  },
+  "result": {
+    "id": "techpack:electric_composter"
+  }
+}

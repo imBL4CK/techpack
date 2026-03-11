@@ -1,0 +1,11 @@
+{
+  "type": "ae2:transform",
+  "ingredients": [
+    {
+      "item": "techpack:incandescent_graphite_electrode"
+    }
+  ],
+  "result": {
+    "id": "techpack:hop_graphite_electrode"
+  }
+}

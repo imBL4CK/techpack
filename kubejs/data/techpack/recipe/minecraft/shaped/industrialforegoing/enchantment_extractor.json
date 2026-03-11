@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HDH",
+    "LCL",
+    "SPS"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "D": {
+      "item": "forbidden_arcanus:dark_matter"
+    },
+    "L": {
+      "item": "malum:spirit_catalyzer"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "S": {
+      "item": "techpack:redstone_spiritual_coil"
+    },
+    "P": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:enchantment_extractor"
+  }
+}

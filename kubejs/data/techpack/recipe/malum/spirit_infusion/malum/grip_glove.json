@@ -1,0 +1,32 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "malum:cthonic_gold"
+        },
+        {
+            "item": "malum:refined_soulstone",
+            "count": 4
+        }
+    ],
+    "input": {
+        "item": "malum:soulwoven_silk"
+    },
+    "result": {
+        "id": "techpack:grip_glove"
+    },
+    "spirits": [
+        {
+            "type": "malum:aerial",
+            "count": 8
+        },
+        {
+            "type": "malum:earthen",
+            "count": 8
+        },
+        {
+            "type": "malum:arcane",
+            "count": 8
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "E",
+    "B",
+    "R"
+  ],
+  "key": {
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "B": {
+      "tag": "c:ingots/brass"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    }
+  },
+  "result": {
+    "id": "create:brass_funnel",
+    "count": 2
+  }
+}

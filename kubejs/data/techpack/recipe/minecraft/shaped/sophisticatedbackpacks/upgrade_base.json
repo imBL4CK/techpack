@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "SLS",
+    "CSC"
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:curved_iron_plate"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "L": {
+      "item": "techpack:tanned_leather"
+    }
+  },
+  "result": {
+    "id": "sophisticatedbackpacks:upgrade_base"
+  }
+}

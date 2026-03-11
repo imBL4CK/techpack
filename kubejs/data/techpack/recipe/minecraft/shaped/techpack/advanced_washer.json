@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PMP",
+    "WCW",
+    "GBG"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "M": {
+      "item": "create_new_age:advanced_motor"
+    },
+    "W": {
+      "item": "create_new_age:overcharged_golden_wire"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "item": "techpack:advanced_alloy_gear"
+    },
+    "B": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "techpack:advanced_washer"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "name": {
+    "text": {
+      "translate": "Creative Redstone-Flux Source"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/creative_redstone_flux_source#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "config": {
+        "output": true,
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "capacity": 2147483647,
+      "max_input": 0
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_output_slot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 40,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Creative Redstone Flux Source"
+        }
+      }
+    }
+  ],
+  "tooltips": {
+    "text": {
+      "translate": "Gives Infinity RF/t"
+    }
+  }
+}

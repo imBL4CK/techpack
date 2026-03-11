@@ -1,0 +1,32 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "enderio:infinity_rod"
+    },
+    {
+      "item": "techpack:polished_diamond"
+    },
+    {
+      "item": "techpack:carbon_fiber",
+      "count": 2
+    }
+  ],
+  "input": {
+    "item": "actuallyadditions:drill_core",
+    "count": 1
+  },
+  "result": {
+    "id": "actuallyadditions:drill_light_blue"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:aerial",
+      "count": 8
+    }
+  ]
+}

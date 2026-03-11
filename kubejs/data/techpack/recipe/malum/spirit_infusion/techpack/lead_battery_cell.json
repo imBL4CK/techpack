@@ -1,0 +1,34 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:flux_powder",
+      "count": 1
+    },
+    {
+      "item": "techpack:mica",
+      "count": 1
+    },
+    {
+      "tag": "c:plastics",
+      "count": 1
+    }
+  ],
+  "input": {
+    "tag": "c:ingots/lead",
+    "count": 1
+  },
+  "result": {
+    "id": "techpack:lead_battery_cell"
+  },
+  "spirits": [
+    {
+      "type": "malum:eldritch",
+      "count": 2
+    },
+    {
+      "type": "malum:sacred",
+      "count": 2
+    }
+  ]
+}

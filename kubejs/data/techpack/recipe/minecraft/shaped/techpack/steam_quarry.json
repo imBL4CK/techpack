@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HDH",
+    "ECE",
+    "GPG"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:heavy_steel_plate"
+    },
+    "D": {
+      "item": "create:mechanical_drill"
+    },
+    "E": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "techpack:steel_casing"
+    },
+    "G": {
+      "item": "techpack:bronze_gear"
+    },
+    "P": {
+      "item": "create:precision_mechanism"
+    }
+},
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:steam_quarry"
+    }
+  }
+}

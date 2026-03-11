@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "techpack:organic_compost"
+    },
+    {
+      "type": "fluid_stack",
+      "fluid": "techpack:organic_oil",
+      "amount": 500
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:biomass_pallet"
+    }
+  ]
+}

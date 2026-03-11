@@ -1,0 +1,171 @@
+{
+  "name": {
+    "text": {
+      "translate": "Basic Induction Furnace"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/basic/induction_furnace#standalone",
+    "custommachinery:item": "techpack:machines/basic/induction_furnace#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 1000,
+      "capacity": 4000,
+      "max_input": 1000
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#techpack:electrodes",
+      "id": "electrode_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "id": "output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_input_slot"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67,
+      "height": 18
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 56,
+      "y": 42,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 86,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "electrode_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/electrode_slot.png"
+      },
+      "x": 47,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 56,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 65,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 114,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Basic Induction Furnace"
+        }
+      }
+    }
+  ],
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 2
+  },
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 4000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 1000 RF/t"
+      }
+    },
+    {
+      "text": "- 2x faster than a furnace, but 4x more energy cost.",
+      "color": "light_purple"
+    }
+  ]
+}

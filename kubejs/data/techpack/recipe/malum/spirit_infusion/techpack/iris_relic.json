@@ -1,0 +1,40 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "item": "malum:fused_consciousness"
+    },
+    {
+      "item": "techpack:stabillis_ingot"
+    },  
+    {
+      "count": 2,
+      "item": "malum:malignant_pewter_ingot"
+    }
+  ],
+  "input": {
+    "item": "malum:totemic_staff"
+  },
+  "result": {
+    "id": "techpack:iris_relic"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    }
+  ]
+}

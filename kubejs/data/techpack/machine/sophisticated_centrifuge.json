@@ -1,0 +1,250 @@
+{
+  "name": {
+    "text": {
+      "translate": "Sophisticated Centrifuge"
+    }
+  },
+  "parent": "techpack:basic_centrifuge",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.5
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.5
+    }
+  ],
+  "appearance": {
+    "custommachinery:block": "techpack:machines/sophisticated/centrifuge#standalone",
+    "custommachinery:item": "techpack:machines/sophisticated/centrifuge#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 16000,
+      "capacity": 64000,
+      "max_input": 16000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_output_tank_1",
+      "capacity": 4000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_output_tank_2",
+      "capacity": 4000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 43,
+      "y": 42,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 97,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 115,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 67,
+      "y": 25,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 43,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 43,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 97,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 97,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 115,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Sophisticated Centrifuge"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 64.000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 16.000 RF/t"
+      }
+    },
+    {
+      "text": {
+        "translate": "- 50% Faster than basic tier"
+      },
+      "color": "green"
+    },
+    {
+      "text": {
+        "translate": "- 50% More energy cost"
+      },
+      "color": "red"
+    }
+  ]
+}

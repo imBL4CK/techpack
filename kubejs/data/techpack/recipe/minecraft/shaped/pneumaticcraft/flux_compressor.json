@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TRE",
+    "PAP",
+    "HCH"
+  ],
+  "key": {
+    "R": {
+      "item": "pneumaticcraft:turbine_rotor"
+    },
+    "T": {
+      "item": "actuallyadditions:restonia_crystal"
+    },
+    "E": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "P": {
+      "item": "pneumaticcraft:advanced_pressure_tube"
+    },
+    "A": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "H": {
+      "item": "techpack:high_pressure_boiler"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:flux_compressor"
+  }
+}

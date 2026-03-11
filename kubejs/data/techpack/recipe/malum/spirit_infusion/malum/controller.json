@@ -1,0 +1,44 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "techpack:platinum_ingot",
+            "count": 4
+        },
+        {
+            "item": "malum:malignant_pewter_plating"
+        },
+        {
+            "item": "ae2:fluix_pearl"
+        },
+        {
+            "item": "pneumaticcraft:printed_circuit_board"
+        }
+    ],
+    "input": {
+        "item": "ae2:engineering_processor",
+        "count": 1
+    },
+    "result": {
+        "id": "ae2:controller",
+        "count": 2
+    },
+    "spirits": [
+        {
+            "type": "malum:arcane",
+            "count": 16
+        },
+        {
+            "type": "malum:earthen",
+            "count": 16
+        },
+        {
+            "type": "malum:aerial",
+            "count": 8
+        },
+        {
+            "type": "malum:eldritch",
+            "count": 8
+        }
+    ]
+}

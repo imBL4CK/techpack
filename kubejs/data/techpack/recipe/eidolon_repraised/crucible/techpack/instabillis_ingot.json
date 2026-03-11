@@ -1,0 +1,18 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "malum:soul_stained_steel_ingot" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "techpack:void_seed" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "techpack:instabillis_ingot"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "techpack:rubber"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:rubber_sheet"
+    }
+  ]
+}
