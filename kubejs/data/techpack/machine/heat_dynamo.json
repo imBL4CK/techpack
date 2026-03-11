@@ -1,14 +1,14 @@
 {
   "name": {
     "text": {
-      "translate": "Thermal Dynamo"
+      "translate": "Heat Dynamo"
     }
   },
   "appearance": {
     "running": {
       "custommachinery:light": 15
     },
-    "custommachinery:block": "techpack:machines/thermal_dynamo#standalone",
+    "custommachinery:block": "techpack:machines/heat_dynamo#standalone",
     "custommachinery:interaction_sound": {
       "step": "minecraft:block.metal.step",
       "place": "minecraft:block.metal.place",
@@ -16,7 +16,7 @@
       "fall": "minecraft:block.metal.fall",
       "break": "minecraft:block.metal.break"
     },
-    "custommachinery:item": "techpack:machines/thermal_dynamo#standalone",
+    "custommachinery:item": "techpack:machines/heat_dynamo#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [

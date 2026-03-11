@@ -61,7 +61,7 @@ StartupEvents.registry("block", (e) => {
     "steel_drum",
 
     "steam_dynamo",
-    "thermal_dynamo",
+    "heat_dynamo",
     
     "basic_combustion_engine",
     "bee_house",

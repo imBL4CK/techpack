@@ -70,7 +70,6 @@ StartupEvents.registry("block", (e) => {
     .mapColor(13);
 
   e.create("techpack:fireclay")
-    .requiresTool(true)
     .soundType("mud")
     .tagBoth("minecraft:mineable/shovel")
     .mapColor(34);
@@ -90,4 +89,11 @@ StartupEvents.registry("block", (e) => {
     .noValidSpawns(true)
     .resistance(1200)
     .tagBoth("c:glass_blocks")
+
+  e.create("techpack:strange_dirt")
+    .requiresTool(true)
+    .soundType("mud")
+    .tagBoth("minecraft:mineable/shovel")
+    .hardness(0.5)
+    .mapColor(34);
 });

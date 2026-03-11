@@ -3,7 +3,7 @@
   "pattern": [
     " T ",
     "ISI",
-    "PCP"
+    "CMC"
   ],
   "key": {
     "T": {
@@ -15,14 +15,14 @@
     "S": {
       "item": "techpack:copper_plate"
     },
-    "P": {
-      "item": "pneumaticcraft:pressure_tube"
-    },
     "C": {
+      "item": "techpack:constantan_ingot"
+    },
+    "M": {
       "item": "techpack:basic_machine_casing"
     }
   },
   "result": {
-    "id": "techpack:thermal_dynamo"
+    "id": "techpack:heat_dynamo"
   }
 }

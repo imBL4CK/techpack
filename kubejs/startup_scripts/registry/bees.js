@@ -1,11 +1,36 @@
 import { beeSpecies } from "./bee_species";
+import { combTypes } from "./bee_species";
 
 StartupEvents.registry("item", (e) => {
   beeSpecies.forEach((registry) => {
-    e.create(`techpack:${registry.species}_bee_drone`).texture(`techpack:item/bees/${registry.species}_bee_drone`).unstackable().maxDamage(registry.droneHealth).tooltip(`This bee is active during ${registry.periodOfActivity}`).tag("techpack:bees").tag("techpack:bees/drones");
-    e.create(`techpack:${registry.species}_bee_queen`).texture(`techpack:item/bees/${registry.species}_bee_queen`).unstackable().maxDamage(registry.queenHealth).tooltip(`This bee is active during ${registry.periodOfActivity}`).tag("techpack:bees").tag("techpack:bees/queens");
+    //Drones
+    e.create(`techpack:${registry.species}_bee_drone`)
+      .texture(`techpack:item/bees/${registry.species}_bee_drone`)
+      .maxDamage(registry.droneHealth)
+      .tooltip(`This bee is active during ${registry.periodOfActivity}`)
+      .tag("techpack:bees")
+      .tag("techpack:bees/drones")
+      .unstackable();
+    //Princesses
+    e.create(`techpack:${registry.species}_bee_princess`)
+      .texture(`techpack:item/bees/${registry.species}_bee_princess`)
+      .maxDamage(registry.droneHealth)
+      .tooltip(`This bee is active during ${registry.periodOfActivity}`)
+      .tag("techpack:bees")
+      .tag("techpack:bees/princesses")
+      .unstackable();
+    //Queens
+    e.create(`techpack:${registry.species}_bee_queen`)
+      .texture(`techpack:item/bees/${registry.species}_bee_queen`)
+      .maxDamage(registry.queenHealth)
+      .tooltip(`This bee is active during ${registry.periodOfActivity}`)
+      .tag("techpack:bees")
+      .tag("techpack:bees/queens")
+      .unstackable();
   });
-  beeSpecies.forEach((registry) => {
-    e.create(`techpack:${registry.comb}_comb`).texture(`techpack:item/combs/${registry.comb}_comb`).tag("techpack:combs");
+  combTypes.forEach((registry) => {
+    e.create(`techpack:${registry}_comb`)
+      .texture(`techpack:item/combs/${registry}_comb`)
+      .tag("techpack:combs");
   });
 });

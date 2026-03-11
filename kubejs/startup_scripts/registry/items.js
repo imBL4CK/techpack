@@ -16,7 +16,7 @@ StartupEvents.registry("item", (e) => {
     "pink_jelly",
     "ice_coolant_ball",
     "ice_coolant_paste",
-    "scraps"
+    "rare_earths",
   ];
   let organicResources = [
     "washed_leather",
@@ -25,7 +25,7 @@ StartupEvents.registry("item", (e) => {
     "handle",
     "sawdust",
     "beewax",
-    "organic_matter"
+    "organic_matter",
   ];
   let processedMaterials = [
     "rubber",
@@ -79,6 +79,7 @@ StartupEvents.registry("item", (e) => {
     "soul_machine_parts",
   ];
   let items = [
+    "scraps",
     "curved_copper_plate",
     "curved_iron_plate",
     "curved_diamond_plate",
