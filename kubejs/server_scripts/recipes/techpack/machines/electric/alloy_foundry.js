@@ -2,17 +2,6 @@ import { techpackMachineAPI } from "./techpack_machineAPI";
 
 ServerEvents.recipes((e) => {
     const BasicRecipes = [
-        //Rose Quartz
-        {
-            "machineType": "techpack:basic_alloy_foundry",
-            "recipeTier": "basic",
-            "jeiDisplayPriority": 1,
-            "processingTime": 200,
-            "requireEnergy": { perTick: 10 },
-            "requireItem": ["#c:gems/quartz", "4x minecraft:redstone", "ae2:silicon"],
-            "produceItem": ["create:rose_quartz"]
-        },
-        //Bronze Ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -22,7 +11,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["3x #c:ingots/copper", "#c:ingots/tin"],
             "produceItem": ["4x techpack:bronze_ingot"]
         },
-        //Wrought iron ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -32,7 +20,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/iron", "techpack:sifted_sand"],
             "produceItem": ["2x techpack:wrought_iron_ingot"]
         },
-        //Brass ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -42,7 +29,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/copper", "#c:ingots/zinc"],
             "produceItem": ["2x create:brass_ingot"]
         },
-        //Electrum ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -52,7 +38,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/gold", "#c:ingots/silver"],
             "produceItem": ["2x techpack:electrum_ingot"]
         },
-        //Invar ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -62,7 +47,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["3x #c:ingots/iron", "#c:ingots/nickel"],
             "produceItem": ["4x techpack:invar_ingot"]
         },
-        //Redstone alloy ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -72,7 +56,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["minecraft:redstone", "#c:silicon"],
             "produceItem": ["enderio:redstone_alloy_ingot"]
         },
-        //Copper alloy ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -82,7 +65,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/copper", "#c:silicon"],
             "produceItem": ["enderio:copper_alloy_ingot"]
         },
-        //Constantan ingot
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",
@@ -92,7 +74,6 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/copper", "#c:ingots/nickel"],
             "produceItem": ["2x techpack:constantan_ingot"]
         },
-        //Silicon
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",

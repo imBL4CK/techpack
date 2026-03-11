@@ -77,7 +77,13 @@ ServerEvents.recipes(e => {
     {
         "processingTime": 300,
         "requireEnergyPerTick": 20,
-        "requireItem": ["4x #c:plastics"],
+        "requireItem": ["4x pneumaticcraft:plastic"],
+        "produceItem": ["techpack:hdpe_sheet", { item: "techpack:rich_slag", chance: 0.5 }]
+    },
+    {
+        "processingTime": 300,
+        "requireEnergyPerTick": 20,
+        "requireItem": ["4x techpack:bio_plastic_mesh"],
         "produceItem": ["techpack:hdpe_sheet", { item: "techpack:rich_slag", chance: 0.5 }]
     },
     {
@@ -103,6 +109,12 @@ ServerEvents.recipes(e => {
         "requireEnergyPerTick": 5,
         "requireItem": ["minecraft:redstone", "enderio:conductive_alloy_ingot", "minecraft:gold_ingot"],
         "produceItem": ["enderio:energetic_alloy_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
+    },
+    {
+        "processingTime": 1200,
+        "requireEnergyPerTick": 5,
+        "requireItem": ["2x #c:gems/quartz", "4x minecraft:redstone", "2x ae2:silicon"],
+        "produceItem": ["4x create:rose_quartz", { item: "techpack:rich_slag", chance: 0.5 }]
     },
 ]
     recipes.forEach((recipe) => {

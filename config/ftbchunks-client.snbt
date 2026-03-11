@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:glow_squid": true
 			"minecraft:rabbit": true
-			"minecraft:chicken": true
-			"minecraft:enderman": true
-			"primal:bear": true
-			"hominid:famished": true
-			"minecraft:villager": true
-			"minecraft:wither": true
-			"minecraft:donkey": true
-			"minecraft:creeper": true
-			"minecraft:horse": true
-			"minecraft:husk": true
-			"minecraft:axolotl": true
+			"minecraft:wandering_trader": true
 			"eidolon_repraised:slimy_slug": true
-			"minecraft:zombie_villager": true
-			"minecraft:cod": false
+			"minecraft:donkey": true
+			"minecraft:enderman": true
+			"minecraft:skeleton": true
+			"minecraft:spider": true
+			"minecraft:squid": true
+			"minecraft:wither": true
+			"primal:bear": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:pillager": true
+			"minecraft:husk": true
 			"hominid:fossilised": true
+			"minecraft:chicken": true
+			"minecraft:pig": true
+			"minecraft:glow_squid": true
 			"minecraft:wolf": true
-			"eidolon_repraised:wraith": true
-			"minecraft:sheep": true
 			"minecraft:trader_llama": true
 			"minecraft:salmon": false
-			"hominid:juggernaut": true
-			"minecraft:squid": true
-			"minecraft:skeleton": true
-			"minecraft:pillager": true
-			"minecraft:bat": true
 			"minecraft:zombie": true
-			"minecraft:spider": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:pig": true
-			"minecraft:wandering_trader": true
+			"hominid:juggernaut": true
+			"minecraft:creeper": true
+			"minecraft:villager": true
+			"minecraft:bat": true
+			"minecraft:cod": false
+			"minecraft:axolotl": true
+			"eidolon_repraised:wraith": true
 			"minecraft:cow": true
 			"nomansland:goose": true
 			"nomansland:tortoise": true
+			"minecraft:horse": true
 			"minecraft:witch": true
+			"minecraft:zombie_villager": true
+			"hominid:famished": true
+			"minecraft:sheep": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

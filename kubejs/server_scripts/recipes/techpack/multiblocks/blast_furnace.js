@@ -31,7 +31,7 @@ ServerEvents.recipes(e => {
     {
         "processingTime": 400,
         "requireItem": [coal, "#c:gems/quartz", "4x minecraft:redstone", "#c:silicon"],
-        "produceItem": ["create:rose_quartz", { item:"techpack:slag", chance: 0.5 }],
+        "produceItem": ["2x create:rose_quartz", { item:"techpack:slag", chance: 0.5 }],
     },
 ]
     recipes.forEach((recipe) => {

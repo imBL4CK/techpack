@@ -35,12 +35,12 @@
 			}
 			"ftblibrary:config": {
 				enabled: true
-				x: 2
+				x: 3
 				y: 1
 			}
 			"ftbchunks:claim_chunks": {
 				enabled: true
-				x: 3
+				x: 4
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
@@ -62,7 +62,7 @@
 		# Position of the sidebar
 		# Default: "top_left"
 		# Valid values: "top_left", "top_right", "bottom_left", "bottom_right"
-		position: "bottom_left"
+		position: "top_left"
 	}
 	tooltips: {
 		# Add the name of the mod that entities belong to in the entity face selection GUI.
