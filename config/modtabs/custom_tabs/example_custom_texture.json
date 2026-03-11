@@ -1,0 +1,16 @@
+{
+  "tabId": "example_custom_texture",
+  "enabled": false,
+  "icon": {
+    "fallbackItem": "minecraft:compass",
+    "scale": 1.0,
+    "customTexturePath": "config/modtabs/icons/my_custom_icon.png"
+  },
+  "tooltip": "Example Custom Texture Tab",
+  "order": 102,
+  "action": {
+    "type": "use_item",
+    "item": "minecraft:compass"
+  },
+  "requiredMods": []
+}

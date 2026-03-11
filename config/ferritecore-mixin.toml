@@ -20,3 +20,5 @@ useSmallThreadingDetector = false
 compactFastMap = false
 #Populate the neighbor table used by vanilla. Enabling this slightly increases memory usage, but can help with issues in the rare case where mods access it directly.
 populateNeighborTable = false
+#Save memory overhead from empty data component maps/patched
+dataComponentPatch = true

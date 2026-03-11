@@ -1,0 +1,28 @@
+ServerEvents.recipes((e) => {
+  let recipe = e.recipes.modular_machinery_reborn.machine_recipe;
+
+  recipe("techpack:satelite", 1200)
+    .dimensions("stellaris:earth_orbit", true)
+    .produceItem("techpack:earth_data_cube", 80, 21)
+    .width(128)
+    .height(64)
+    .progressData(ProgressData.create().x(52).y(23))
+  recipe("techpack:satelite", 1200)
+    .dimensions("stellaris:mars_orbit", true)
+    .produceItem("techpack:mars_data_cube", 80, 21)
+    .width(128)
+    .height(64)
+    .progressData(ProgressData.create().x(52).y(23))
+  recipe("techpack:satelite", 1200)
+    .dimensions("stellaris:mercury_orbit", true)
+    .produceItem("techpack:mercury_data_cube", 80, 21)
+    .width(128)
+    .height(64)
+    .progressData(ProgressData.create().x(52).y(23))
+  recipe("techpack:satelite", 1200)
+    .dimensions("stellaris:venus_orbit", true)
+    .produceItem("techpack:venus_data_cube", 80, 21)
+    .width(128)
+    .height(64)
+    .progressData(ProgressData.create().x(52).y(23))
+});

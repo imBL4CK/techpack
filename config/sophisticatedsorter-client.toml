@@ -1,0 +1,11 @@
+[Setting]
+	#name, mod, count, tags
+	SortBy = "name"
+	#Only valid for containers with more than 10 slots if true.
+	Filter1 = true
+	#Only valid for containers without invalid slot such as recipe result slot if true.
+	Filter2 = true
+	#Special of screens.
+	specialList = []
+	#是否启用默认拼音排序。
+	pinyin = true

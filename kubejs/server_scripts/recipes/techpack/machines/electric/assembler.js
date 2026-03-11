@@ -1,279 +1,799 @@
-import { techpackMachineAPI } from "./techpack_machineAPI"; 
+
 ServerEvents.recipes((e) => {
-  //Constantan Coil
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(1000)
-      .requireItem("techpack:steel_casing")
-      .requireItem(Item.of("techpack:constantan_plate", 3))
-      .produceItem("techpack:constantan_coil")
-      .jei()
-      .priority(1);
-  }
-  //Steam quarry
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(1000)
-      .requireItem("techpack:steel_casing")
-      .requireItem("techpack:basic_circuit")
-      .requireItem("ae2:engineering_processor")
-      .requireItem("2x techpack:basic_electric_motor")
-      .requireItem("2x malum:soul_stained_steel_ingot")
-      .produceItem(
-        'modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:steam_quarry"]'
-      )
-      .jei()
-      .priority(2);
-  }
-  //Deployer
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("create:brass_hand")
-      .produceItem("create:deployer")
-      .jei()
-      .priority(3);
-  }
-  //Encased Fan
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("create:propeller")
-      .produceItem("create:encased_fan")
-      .jei()
-      .priority(3);
-  }
-  //Mechanical press
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("minecraft:iron_block")
-      .produceItem("create:mechanical_press")
-      .jei()
-      .priority(3);
-  }
-  //Mechanical mixer
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("create:whisk")
-      .produceItem("create:mechanical_mixer")
-      .jei()
-      .priority(3);
-  }
-  //Mechanical drill
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("techpack:iron_plate")
-      .produceItem("create:mechanical_drill")
-      .jei()
-      .priority(3);
-  }
-  //Mechanical saw
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("techpack:makeshift_mechanism")
-      .requireItem("create:andesite_casing")
-      .requireItem("techpack:iron_gear")
-      .produceItem("create:mechanical_saw")
-      .jei()
-      .priority(3);
-  }
-  //Chest
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("8x #minecraft:planks")
-      .requireItem("2x farmersdelight:tree_bark")
-      .produceItem("minecraft:chest")
-      .jei()
-      .priority(4);
-  }
-  //Barrel
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(500)
-      .requireItem("6x #minecraft:planks")
-      .requireItem("4x farmersdelight:tree_bark")
-      .produceItem("minecraft:barrel")
-      .jei()
-      .priority(4);
-  }
-  //Precision mechanism
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(1000)
-      .requireItem("create:electron_tube")
-      .requireItem("minecraft:gold_ingot")
-      .requireItem("create:cogwheel")
-      .produceItem("2x create:precision_mechanism")
-      .jei()
-      .priority(5);
-  }
-  //Basic capacitor
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(2000)
-      .requireItem("create:polished_rose_quartz")
-      .requireItem("#c:ingots/tin")
-      .requireItem("createaddition:copper_wire")
-      .produceItem("2x create:electron_tube")
-      .jei()
-      .priority(5);
-  }
-  //Basic capacitor
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(2000)
-      .requireItem("2x enderio:grains_of_infinity")
-      .requireItem("#c:ingots/tin")
-      .requireItem("enderio:copper_alloy_ingot")
-      .requireItem("minecraft:redstone_torch")
-      .produceItem("2x enderio:basic_capacitor")
-      .jei()
-      .priority(6);
-  }
-  //Basic Conduit
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(1000)
-      .requireItem("2x enderio:conduit_binder")
-      .requireItem("1x enderio:conductive_alloy_ingot")
-      .requireFluid("200x pneumaticcraft:plastic")
-      .produceItem('4x enderio:conduit[enderio:conduit="enderio:energy"]')
-      .jei()
-      .priority(7);
-  }
-  //Enhanced Conduit
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(5000)
-      .requireItem("2x enderio:conduit_binder")
-      .requireItem("1x enderio:energetic_alloy_ingot")
-      .requireItem("actuallyadditions:ethetic_green_block")
-      .requireFluid("200x pneumaticcraft:plastic")
-      .produceItem('4x enderio:conduit[enderio:conduit="enderio:enhanced_energy"]')
-      .info(info => info
-          .tooltip("Requires Advanced Tier")
-          .item("techpack:advanced_machine_casing")
-      )
-      .jei()
-      .priority(7);
-  }
-  //Ender Conduit
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_assembler", 200)
-      .requireEnergy(1000)
-      .requireItem("2x enderio:conduit_binder")
-      .requireItem("1x enderio:vibrant_alloy_ingot")
-      .requireFluid("200x pneumaticcraft:plastic")
-      .produceItem('4x enderio:conduit[enderio:conduit="enderio:ender_energy"]')
-      .info(info => info
-          .tooltip("Requires Sophisticated Tier")
-          .item("techpack:sophisticated_machine_casing")
-      )
-      .jei()
-      .priority(7);
-  }
-  //Quartz fiber
-  {
-    e.recipes.custommachinery.custom_machine("techpack:basic_assembler", 200)
-    .requireItem("2x #c:dusts/quartz")
-    .requireItem("3x #c:glass_blocks")
-    .requireItem("#c:ingots/platinum")
-    .produceItem("6x ae2:quartz_fiber")
-  }
-  //Finished PCB
-  {
-    e.recipes.custommachinery.custom_machine("techpack:basic_assembler", 200)
-    .requireItem("pneumaticcraft:unassembled_pcb")
-    .requireItem("techpack:resistor")
-    .requireItem("techpack:transistor")
-    .requireItem("enderio:basic_capacitor")
-    .requireFluid("500x pneumaticcraft:plastic")
-    .produceItem("pneumaticcraft:printed_circuit_board")
-    .info(info => info.tooltip("This recipe make diamonds").item("techpack:basic_circuit"))
-    .jei()
-    .priority(7);
-  }
-  //Drill core
-  {
-    e.recipes.custommachinery.custom_machine("techpack:basic_assembler", 200)
-    .requireItem("techpack:basic_circuit")
-    .requireItem("techpack:redstone_conductance_coil")
-    .requireItem("actuallyadditions:restonia_crystal")
-    .requireItem("actuallyadditions:enori_crystal")
-    .requireItem("2x techpack:bearing")
-    .requireItem("create:hand_crank")
-    .requireFluid("500x pneumaticcraft:plastic")
-    .produceItem("actuallyadditions:drill_core")
-  }
-  //Display Stand
-  {
-    e.recipes.custommachinery.custom_machine("techpack:basic_assembler", 200)
-    .requireItem("pneumaticcraft:printed_circuit_board")
-    .requireItem("techpack:redstone_reception_coil")
-    .requireItem("3x actuallyadditions:ethetic_green_block")
-    .requireItem("3x actuallyadditions:ethetic_white_block")
-    .requireFluid("500x pneumaticcraft:plastic")
-    .produceItem("actuallyadditions:display_stand")
-    .jei()
-    .priority(8);
-  }
-  //Display Stand
-  {
-    e.recipes.custommachinery.custom_machine("techpack:basic_assembler", 200)
-    .requireItem("actuallyadditions:restonia_crystal")
-    .requireItem("2x techpack:lead_battery_cell")
-    .requireItem("techpack:basic_machine_casing")
-    .requireItem("actuallyadditions:display_stand")
-    .requireFluid("500x pneumaticcraft:plastic")
-    .produceItem("actuallyadditions:empowerer")
-    .jei()
-    .priority(8);
-  }
-});
-ServerEvents.recipes((e) => {
-    const recipes = [
-    {
-        "machineType": "techpack:basic_assembler",
-        "processingTime": 100,
-        "requireSU": [64, 4],
-        "producePressure": 2000,
-        "requireTime": "(,12000)",
-        "requireItem": ["techpack:silver_battery_cell"],
-        "produceItem": ["techpack:silver_battery_cell"]
-    }
-]
-recipes.forEach((recipe) => {
-        techpackMachineAPI(e,recipe)
+    const BasicRecipes = [
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:steel_casing", "3x techpack:constantan_plate"],
+            "produceItem": ["techpack:constantan_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:steel_casing", "3x techpack:kanthal_plate"],
+            "produceItem": ["techpack:kanthal_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:steel_casing","techpack:basic_circuit","create:mechanical_drill","ae2:engineering_processor","2x create_new_age:advanced_motor","2x malum:soul_stained_steel_ingot"],
+            "produceItem": ['modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:electric_quarry"]'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "create:brass_hand"],
+            "produceItem": ['create:deployer'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "create:propeller"],
+            "produceItem": ['create:encased_fan'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "minecraft:iron_block"],
+            "produceItem": ['create:mechanical_press'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "create:whisk"],
+            "produceItem": ['create:mechanical_mixer'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "techpack:iron_plate"],
+            "produceItem": ['create:mechanical_drill'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:makeshift_mechanism", "create:andesite_casing", "techpack:iron_gear"],
+            "produceItem": ['create:mechanical_saw'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 4,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["8x #minecraft:planks", "2x farmersdelight:tree_bark"],
+            "produceItem": ['minecraft:chest'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 4,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["6x #minecraft:planks", "4x farmersdelight:tree_bark"],
+            "produceItem": ['minecraft:barrel'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 5,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:electron_tube", "minecraft:gold_ingot", "create:cogwheel"],
+            "produceItem": ['2x create:precision_mechanism'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 5,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["create:polished_rose_quartz", "#c:ingots/tin", "create_new_age:copper_wire"],
+            "produceItem": ['2x create:electron_tube'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 6,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:grains_of_infinity", "#c:ingots/tin", "enderio:copper_alloy_ingot", "minecraft:redstone_torch"],
+            "produceItem": ['2x enderio:basic_capacitor'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 7,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:conduit_binder", "1x enderio:conductive_alloy_ingot"],
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:energy"]'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 7,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:conduit_binder", "#c:glass_blocks/clear"],
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:fluid"]'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 7,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:conduit_binder", "enderio:pulsating_alloy_nugget"],
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:item"]'],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "jeiDisplayPriority": 9,
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["pneumaticcraft:unassembled_pcb", "techpack:resistor", "techpack:transistor", "techpack:diode", "enderio:basic_capacitor"],
+            "requireFluid": ["500x pneumaticcraft:plastic"],
+            "produceItem": ["pneumaticcraft:printed_circuit_board"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:basic_circuit", "techpack:redstone_conductance_coil", "actuallyadditions:restonia_crystal", "actuallyadditions:enori_crystal", "2x techpack:bearing", "create:hand_crank"],
+            "requireFluid": ["1000x pneumaticcraft:plastic"],
+            "produceItem": ["actuallyadditions:drill_core"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 10,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["pneumaticcraft:printed_circuit_board", "techpack:redstone_reception_coil", "3x actuallyadditions:ethetic_green_block", "3x actuallyadditions:ethetic_white_block"],
+            "produceItem": ["actuallyadditions:display_stand"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 10,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 30 },
+            "requireItem": ["actuallyadditions:restonia_crystal", "2x techpack:lead_battery_cell", "techpack:basic_machine_casing", "actuallyadditions:display_stand"],
+            "produceItem": ["actuallyadditions:empowerer"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 9,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:polished_rose_quartz", "techpack:gold_plate", "minecraft:redstone"],
+            "produceItem": ["2x techpack:redstone_reception_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 9,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:polished_rose_quartz", "techpack:silver_plate", "minecraft:redstone"],
+            "produceItem": ["2x techpack:redstone_transmission_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 9,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:polished_rose_quartz", "techpack:electrum_plate", "minecraft:redstone"],
+            "produceItem": ["2x techpack:redstone_conductance_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 9,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:polished_rose_quartz", "malum:soul_stained_steel_plating", "minecraft:redstone"],
+            "produceItem": ["2x techpack:redstone_spiritual_coil"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["create:zinc_ingot", "minecraft:redstone", "#techpack:electrical_insulators"],
+            "produceItem": ["2x techpack:zinc_battery_cell"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["4x techpack:steel_ingot", "techpack:steel_gear", "techpack:mica", "#techpack:electrical_insulators"],
+            "produceItem": ["techpack:basic_machine_casing"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "jeiDisplayPriority": 10,
+            "recipeTier": "basic",
+            "processingTime": 300,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["4x techpack:advanced_alloy_ingot", "techpack:advanced_alloy_gear", "techpack:mica", "#techpack:electrical_insulators"],
+            "produceItem": ["techpack:advanced_machine_casing"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 11,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:basic_machine_casing", "techpack:basic_circuit", "2x techpack:redstone_transmission_coil", "2x create:steam_engine", "malum:anomalous_design"],
+            "produceItem": ["techpack:basic_combustion_engine"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["4x techpack:carbon_mesh"],
+            "produceItem": ["techpack:carbon_fiber"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 12,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:steel_scaffolding", "techpack:hdpe_sheet"],
+            "produceItem": ["techpack:cleanroom_casing"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 12,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:steel_scaffolding", "4x techpack:ptfe_sheet"],
+            "produceItem": ["techpack:chemical_inert_casing"],
+        },
+        /*Precision Assembler
+        {
+            "machineType": "techpack:basic_assembler",
+            "processingTime": 400,
+            "requireEnergy": { perTick: 4 },
+            "jeiDisplayPriority": 12,
+            "requireItem": ["techpack:advanced_machine_casing","2x techpack:redstone_reception_coil", "pneumaticcraft:printed_circuit_board", "4x techpack:hdpe_sheet", "malum:anomalous_design"],
+            "produceItem": ['modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:precision_assembler"]'],
+            "recipeTier": "basic",
+        },*/
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["4x minecraft:copper_ingot", "techpack:iron_gear"],
+            "requireFluid": ["500x techpack:redstone_acid"],
+            "produceItem": ["pipez:improved_upgrade"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["techpack:redstone_reception_coil", "2x actuallyadditions:restonia_crystal", "techpack:obsidian_glass", "2x minecraft:obsidian"],
+            "requireFluid": ["1000x techpack:redstone_acid"],
+            "produceItem": ["4x actuallyadditions:laser_relay"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["4x #c:ingots/iron", "4x minecraft:stick", "actuallyadditions:black_quartz"],
+            "produceItem": ["actuallyadditions:iron_casing"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["3x techpack:tanned_leather", "2x minecraft:string", "#c:chests/wooden"],
+            "produceItem": ["actuallyadditions:travelers_sack"],
+        },
+    ]
+    const AdvancedRecipes = [
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 1,
+            "requireCleanroom": true,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["2x #c:dusts/quartz", "3x #c:glass_blocks", "#c:ingots/platinum"],
+            "produceItem": ["6x ae2:quartz_fiber"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 2,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:ptfe_sheet", "techpack:stainless_steel_plate"],
+            "requireFluid": ["200x industrialforegoing:ether_gas"],
+            "produceItem": ["techpack:sophisticated_circuit_board"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 2,
+            "requireCleanroom": true,
+            "processingTime": 1200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:sophisticated_circuit_board", "techpack:transistor", "techpack:resistor", "techpack:diode", "techpack:crystal_electron_tube", "enderio:double_layer_capacitor"],
+            "requireFluid": ["500x techpack:redstone_acid"],
+            "produceItem": ["techpack:sophisticated_circuit"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 10 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["techpack:platinum_ingot", "ae2:logic_processor", "#techpack:electrical_insulators"],
+            "produceItem": ["ae2:cell_component_1k"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 20 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["3x ae2:cell_component_1k", "ae2:calculation_processor", "malum:soul_stained_steel_ingot"],
+            "produceItem": ["ae2:cell_component_4k"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 40 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["3x ae2:cell_component_4k", "ae2:calculation_processor", "malum:hallowed_gold_ingot"],
+            "produceItem": ["ae2:cell_component_16k"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 80 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["3x ae2:cell_component_16k", "ae2:calculation_processor", "malum:convoluted_lens"],
+            "produceItem": ["ae2:cell_component_64k"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 4,
+            "processingTime": 1200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:steel_casing", "2x techpack:redstone_reception_coil", "pneumaticcraft:printed_circuit_board", "create:mechanical_arm"],
+            "produceItem": ['modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:recycler"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 4,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:advanced_machine_casing", "2x techpack:redstone_reception_coil", "pneumaticcraft:printed_circuit_board",  "2x techpack:aluminum_ingot", "eidolon_repraised:wraith_heart", "4x malum:astral_weave"],
+            "produceItem": ['modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:freezer"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 4,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:heatproof_casing", "2x techpack:redstone_reception_coil", "pneumaticcraft:printed_circuit_board", "ae2:controller", "ae2:calculation_processor"],
+            "produceItem": ['modular_machinery_reborn:controller[modular_machinery_reborn:machine="techpack:satelite"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 400,
+            "requireEnergy": { perTick: 50 },
+            "requireFluid": ["200x techpack:polytetrafluoroethylene"],
+            "requireItem": ["4x techpack:stainless_steel_ingot", "techpack:stainless_steel_gear", "2x techpack:mica"],
+            "produceItem": ["techpack:sophisticated_machine_casing"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 5,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "requireItem": ["2x enderio:conduit_binder", "1x enderio:energetic_alloy_ingot", "actuallyadditions:ethetic_green_block"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:enhanced_energy"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 5,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:conduit_binder", "#enderio:fused_quartz"],
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:pressurized_fluid"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 5,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:conduit_binder", "enderio:pulsating_alloy_nugget", "malum:hallowed_gold_nugget"],
+            "requireFluid": ["200x pneumaticcraft:plastic"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:enhanced_item"]'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["4x minecraft:gold_ingot", "techpack:iron_gear"],
+            "requireFluid": ["500x techpack:redstone_acid"],
+            "produceItem": ["pipez:advanced_upgrade"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 6,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:obsidian_glass", "4x techpack:lead_ingot", "minecraft:copper_ingot"],
+            "requireFluid": ["500x techpack:redstone_acid", "1000x techpack:ice_coolant"],
+            "produceItem": ["4x pipez:energy_pipe"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 6,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:obsidian_glass", "4x techpack:bronze_ingot", "#techpack:electrical_insulators"],
+            "produceItem": ["4x pipez:fluid_pipe"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 6,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:obsidian_glass", "4x techpack:tin_ingot", "techpack:electrum_ingot"],
+            "produceItem": ["4x pipez:item_pipe"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ['2x enderio:basic_capacitor', "techpack:graphite_ingot", "enderio:energetic_alloy_ingot", "techpack:flux_powder"],
+            "produceItem": ['2x enderio:double_layer_capacitor'],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 7,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["malum:cthonic_gold_fragment", "malum:malignant_pewter_nugget", "malum:silver_node"],
+            "produceItem": ["2x techpack:malignant_pewter_capacitor"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 7,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["malum:cthonic_gold_fragment", "malum:malignant_pewter_nugget", "malum:gold_node"],
+            "produceItem": ["2x techpack:malignant_pewter_transistor"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 7,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["malum:cthonic_gold_fragment", "malum:malignant_pewter_nugget", "malum:copper_node"],
+            "produceItem": ["2x techpack:malignant_pewter_resistor"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 7,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["malum:large_strange_crystal", "malum:malignant_lead", "create_new_age:overcharged_golden_wire"],
+            "produceItem": ["2x techpack:crystal_electron_tube"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 8,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["pneumaticcraft:unassembled_pcb", "malum:malignant_pewter_plating", "techpack:malignant_pewter_transistor", "techpack:malignant_pewter_capacitor", "techpack:malignant_pewter_resistor", "techpack:crystal_electron_tube" ],
+            "requireFluid": ["200x techpack:redstone_acid"],
+            "produceItem": ["techpack:spiritual_circuit"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 9,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 30 },
+            "requireItem": ["5x techpack:heavy_duty_plate"],
+            "produceItem": ["stellaris:rocket_fin"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 9,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 30 },
+            "requireItem": ["3x techpack:heavy_duty_plate", "techpack:heavy_steel_plate"],
+            "produceItem": ["stellaris:rocket_nose_cone"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 9,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 30 },
+            "requireItem": ["4x techpack:heavy_duty_plate", "techpack:basic_combustion_engine"],
+            "produceItem": ["stellaris:rocket_engine"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "requireCleanroom": true,
+            "processingTime": 300,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x techpack:silver_ingot", "techpack:quicksilver", "techpack:hdpe_sheet"],
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "produceItem": ["4x techpack:silver_battery_cell"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "requireCleanroom": true,
+            "processingTime": 300,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["techpack:advanced_machine_casing", "ae2:calculation_processor", "ae2:logic_processor", "ae2:fluix_glass_cable"],
+            "produceItem": ["ae2:crafting_unit"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 10,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["pneumaticcraft:printed_circuit_board", "4x create:mechanical_arm", "techpack:malignant_pewter_transistor", "4x techpack:crystal_electron_tube"],
+            "produceItem": ["stellaris:rocket_station"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["actuallyadditions:laser_relay", "2x actuallyadditions:empowered_restonia_crystal", "2x actuallyadditions:empowered_enori_crystal"],
+            "produceItem": ["actuallyadditions:laser_relay_advanced"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:infinity_rod", "2x enderio:dark_steel_ingot"],
+            "produceItem": ["techpack:void_machine_parts"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x enderio:soul_chain", "2x enderio:soularium_ingot"],
+            "produceItem": ["techpack:soul_machine_parts"],
+        },
+    ]
+    const SophisticatedRecipes = [
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 160 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["3x ae2:cell_component_64k", "ae2:calculation_processor", "malum:mimicry_relay"],
+            "produceItem": ["ae2:cell_component_256k"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireFluid": ["200x techpack:polytetrafluoroethylene"],
+            "requireItem": ["2x enderio:conduit_binder", "enderio:vibrant_alloy_ingot", "actuallyadditions:ethetic_green_block"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:ender_energy"]'],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireFluid": ["200x techpack:polytetrafluoroethylene"],
+            "requireItem": ["2x enderio:conduit_binder", "enderio:vibrant_alloy_ingot", "#enderio:fused_quartz"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:ender_fluid"]'],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["2x enderio:conduit_binder", "enderio:pulsating_alloy_nugget", "malum:soul_stained_steel_nugget"],
+            "requireFluid": ["200x techpack:polytetrafluoroethylene"],
+            "produceItem": ['4x enderio:conduit[enderio:conduit="enderio:ender_item"]'],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["4x techpack:silver_ingot", "techpack:iron_gear"],
+            "requireFluid": ["500x techpack:redstone_acid"],
+            "produceItem": ["pipez:ultimate_upgrade"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 2,
+            "requireCleanroom": true,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:obsidian_glass", "2x techpack:invar_ingot", "2x techpack:electrum_ingot", "techpack:polished_diamond", "malum:large_strange_crystal"],
+            "requireFluid": ["500x techpack:redstone_acid", "1000x techpack:ice_coolant"],
+            "produceItem": ["2x pipez:universal_pipe"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 30,
+            "requireCleanroom": true,
+            "processingTime": 100,
+            "requireEnergy": { perTick: 100 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["ae2:printed_silicon", "#c:ingots/aluminum", "enderio:grains_of_infinity"],
+            "produceItem": ["techpack:smd_capacitor"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 30,
+            "requireCleanroom": true,
+            "processingTime": 100,
+            "requireEnergy": { perTick: 100 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["ae2:printed_silicon", "#c:ingots/gold", "enderio:grains_of_infinity"],
+            "produceItem": ["techpack:smd_transistor"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 30,
+            "requireCleanroom": true,
+            "processingTime": 100,
+            "requireEnergy": { perTick: 100 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["ae2:printed_silicon", "#c:ingots/copper", "enderio:grains_of_infinity"],
+            "produceItem": ["techpack:smd_resistor"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 30,
+            "requireCleanroom": true,
+            "processingTime": 100,
+            "requireEnergy": { perTick: 100 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["ae2:printed_silicon", "#c:ingots/steel", "enderio:grains_of_infinity"],
+            "produceItem": ["techpack:smd_diode"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:sculk_vibration_coil", "2x techpack:hdpe_sheet", "2x techpack:silver_ingot"],
+            "produceItem": ["8x industrialforegoingsouls:soul_network_pipe"],
+        },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "jeiDisplayPriority": 3,
+            "requireCleanroom": true,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:sculk_vibration_coil", "2x techpack:hdpe_sheet", "2x techpack:silver_plate"],
+            "produceItem": ["industrialforegoingsouls:soul_surge"],
+        },
+    ]
+    BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+    AdvancedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+    SophisticatedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+
+    //Upper tier inherit recipes from lower tier
+    const AdvancedToSophisticated = AdvancedRecipes.map((rec) => {
+    const clone = JSON.parse(JSON.stringify(rec));
+    clone.machineType = "techpack:sophisticated_assembler";
+    return clone;
     });
+    AdvancedToSophisticated.forEach((recipe) => { techpackMachineAPI(e,recipe)});
 });
+

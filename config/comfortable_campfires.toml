@@ -1,0 +1,14 @@
+# Maximum distance from campfire
+# default: 3
+distance = 3
+# Maximum duration of effect
+# default: 5
+duration = 5
+# Amplifier of effect
+# default: 0
+amplifier = 0
+
+# What effects should be applied
+[effects]
+	"minecraft:campfire" = "farmersdelight:nourishment"
+	"minecraft:soul_campfire" = "farmersdelight:nourishment"

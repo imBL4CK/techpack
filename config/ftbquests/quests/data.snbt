@@ -8,6 +8,27 @@
 	disable_gui: false
 	drop_book_on_death: false
 	drop_loot_crates: false
+	emergency_items: [
+		{
+			components: {
+				"guideme:guide_id": "techpack:moddedpedia"
+			}
+			count: 1
+			id: "guideme:guide"
+		}
+		{
+			count: 1
+			id: "modular_machinery_reborn:blueprint"
+		}
+		{
+			count: 1
+			id: "minecraft:oak_sapling"
+		}
+		{
+			count: 1
+			id: "minecraft:bread"
+		}
+	]
 	emergency_items_cooldown: 300
 	fallback_locale: ""
 	grid_scale: 0.5d

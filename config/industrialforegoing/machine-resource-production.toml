@@ -1,8 +1,8 @@
 	[MachineResourceProductionConfig.WashingFactoryConfig]
+		#Amount of Power Consumed per Tick - Default: [60FE]
+		powerPerTick = 200
 		#Progress bar size [20 Ticks per Second] - Default: [100 (5s)]
 		maxProgress = 100
-		#Amount of Power Consumed per Tick - Default: [60FE]
-		powerPerTick = 60
 		#Max Stored Power [FE] - Default: [10000 FE]
 		maxStoredPower = 10000
 		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]

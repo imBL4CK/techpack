@@ -22,7 +22,7 @@
 	sugi_and_stratified_pillars = true
 
 [datapack]
-	vanilla_trees_toggle = true
+	vanilla_trees_toggle = false
 	birch_forest_toggle = true
 	flower_forest_toggle = true
 	jungle_toggle = true

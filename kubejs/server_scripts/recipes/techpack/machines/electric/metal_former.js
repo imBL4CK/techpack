@@ -1,51 +1,35 @@
 ServerEvents.recipes((e) => {
-  let materials = [
-    "copper",
-    "iron",
-    "gold",
-    "tin",
-    "silver",
-    "nickel",
-    "lead",
-    "platinum",
-
-    "bronze",
-    "steel",
-    "silver",
-    "nickel",
-    "invar",
-    "constantan"
-  ];
-  materials.forEach((craft) => {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_metal_former", 300)
-      .requireEnergy(2000)
-      .requireItem(`#c:ingots/${craft}`)
-      .produceItem(`techpack:${craft}_plate`)
-      .jei()
-      .priority(2);
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_metal_former", 300)
-      .requireEnergy(2000)
-      .requireItem("techpack:bearing")
-      .requireItem(`2x #c:plates/${craft}`)
-      .produceItem(`techpack:${craft}_gear`)
-      .jei()
-      .priority(1);
+  const recipes = [
+    //Basic Circuit Board
+    {
+        "machineType": "techpack:basic_metal_former",
+        "jeiDisplayPriority": 3,
+        "processingTime": 200,
+        "requireEnergy": { perTick: 20 },
+        "requireItem": ["techpack:electrum_gear", "techpack:steel_plate"],
+        "produceItem": ["techpack:basic_circuit_board"]
+    },
+    //Carbon mesh
+    {
+        "machineType": "techpack:basic_metal_former",
+        "jeiDisplayPriority": 3,
+        "processingTime": 400,
+        "requireEnergy": { perTick: 50 },
+        "requireItem": ["techpack:graphite_ingot"],
+        "produceItem": ["techpack:carbon_mesh"]
+    },
+    //Bearing
+    {
+        "machineType": "techpack:basic_metal_former",
+        "jeiDisplayPriority": 3,
+        "processingTime": 200,
+        "requireEnergy": { perTick: 10 },
+        "requireItem": ["3x create:copper_nugget"],
+        "produceItem": ["techpack:bearing"]
+    },
+  ]
+  recipes.forEach((recipe) => {
+    techpackMachineAPI(e,recipe)
   });
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_metal_former", 300)
-    .requireEnergy(2000)
-    .requireItem("techpack:electrum_gear")
-    .requireItem("techpack:steel_plate")
-    .produceItem("techpack:basic_circuit_board")
-    .jei()
-    .priority(3);
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_metal_former", 300)
-    .requireEnergy(2000)
-    .requireItem(Item.of("techpack:steel_plate", 4))
-    .produceItem("techpack:heavy_steel_plate")
-    .jei()
-    .priority(4);
-});
+})
+ 

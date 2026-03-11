@@ -1,0 +1,21 @@
+# Afazeres
+- Colocar Translate nos nomes dos rituais do occultism
+- adicionar descricao para as quests de energy controll
+- nerfar as armaduras de dragao Forbidden
+- Adicionar as loot tables ao "Loot Integrations"
+- Adicionar usos e receitas para scraps
+- Biomassa
+
+- Melhorar a pagina das especies das abelhas
+
+# Anotacoes
+- atualizar as texturas das armaduras do stellaris
+- Alterar textura do uranium
+- Colocar o tips mod pra funcionar
+- Atualizar o bug de textura da dimensional detector na steam quarry 
+- Scraps sao obtidos em orbitas assim como factorio
+- induction furnace ic2
+
+# Alterar
+- Desabilitar o TIPS
+- Translate para os slots do curios

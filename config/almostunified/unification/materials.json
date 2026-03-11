@@ -5,7 +5,8 @@
     "farmersdelight",
     "create",
     "pneumaticcraft",
-    "ae2"
+    "ae2",
+    "occultism"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -34,7 +35,8 @@
     "c:flours/wheat",
     "c:slag",
     "c:plastics",
-    "c:silicon"
+    "c:silicon",
+    "c:tallow"
   ],
   "ignored_tags": [],
   "ignored_items": [

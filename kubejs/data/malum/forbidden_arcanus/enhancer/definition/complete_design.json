@@ -1,9 +1,0 @@
-{
-  "description": {
-    "hephaestus_forge": {
-      "translate": "item.forbidden_arcanus.enhancer.elementarium.hephaestus_forge"
-    }
-  },
-  "display_item": "malum:complete_design",
-  "effects": []
-}

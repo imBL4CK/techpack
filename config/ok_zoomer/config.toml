@@ -74,7 +74,7 @@
 	# The multiplier used by the multiplied cinematic camera.
 	# range: 2.2250738585072014E-308 - 32.0
 	# default: 4.0
-	cinematic_multiplier = 2.0
+	cinematic_multiplier = 4.0
 
 # Allows to configure the "Legacy" scrolling mode.
 [legacy_scroll_values]

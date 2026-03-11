@@ -1,0 +1,193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_program"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "stellaris:moon_globe"
+	}
+	id: "6D8DF15E67E008D3"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54F57AB2C707E0E0"]
+			icon_scale: 0.8d
+			id: "32737D429A709A97"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "09789A13AF67BCE3"
+				item: { components: { "stellaris:rocket_component": { fuel: 5000, fuel_capacity: 5000, fuel_texture: "stellaris:util/energy_full", fuel_type: "radioactive", model: "tiny", skin: "stellaris" } }, count: 1, id: "stellaris:rocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FC8D33BFBB76D04"]
+			icon: {
+				id: "stellaris:rocket_engine"
+			}
+			id: "54F57AB2C707E0E0"
+			tasks: [
+				{
+					id: "52E138C349AFE12C"
+					item: { count: 1, id: "stellaris:rocket_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "122F82AB7AF59C97"
+					item: { count: 1, id: "stellaris:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "3E3060F1B64B8FF6"
+					item: { count: 1, id: "stellaris:rocket_nose_cone" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "techpack:heavy_duty_plate"
+					}
+					id: "60D534AEAA6C68BE"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21079FF23179A062"]
+			id: "2FC8D33BFBB76D04"
+			tasks: [{
+				id: "72A23D935B3512B1"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["32737D429A709A97"]
+			id: "4A7DF1FB2DAC43DB"
+			tasks: [{
+				dimension: "stellaris:moon"
+				icon: {
+					id: "stellaris:moon_globe"
+				}
+				id: "2CEF1E067E37068E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21079FF23179A062"]
+			icon: {
+				id: "stellaris:space_suit_helmet"
+			}
+			id: "7B354A632B37DF1C"
+			tasks: [
+				{
+					id: "6398DF3348439ED7"
+					item: { count: 1, id: "stellaris:space_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "1FD74A2BA57DA4CD"
+					item: { components: { "stellaris:fluid": { amounts: [L; 0L, 0L ], fluids: [ "minecraft:empty", "minecraft:empty" ] } }, count: 1, id: "stellaris:space_suit_chestplate" }
+					type: "item"
+				}
+				{
+					id: "5AA9E1BE5F31B5C5"
+					item: { count: 1, id: "stellaris:space_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "1A3BD1EA02AF4E00"
+					item: { count: 1, id: "stellaris:space_suit_boots" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "21079FF23179A062"
+			tasks: [{
+				id: "2C84467B424AD0CC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["21079FF23179A062"]
+			icon: {
+				id: "farmersdelight:steak_and_potatoes"
+			}
+			id: "6D89226FAC5DB309"
+			tasks: [{
+				id: "4A3AF79709F1993F"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A7DF1FB2DAC43DB"]
+			id: "528E261570204A72"
+			tasks: [{
+				id: "0D4856F8D89FAE28"
+				item: { count: 1, id: "techpack:raw_aluminum" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A7DF1FB2DAC43DB"]
+			id: "1B1B0F76E52EA485"
+			tasks: [{
+				id: "6FEA2AB05E297BE5"
+				item: { count: 1, id: "techpack:raw_chrome" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A7DF1FB2DAC43DB"]
+			id: "4780F73371716FBC"
+			tasks: [{
+				id: "61E1FA320CF07A2A"
+				item: { count: 1, id: "techpack:raw_platinum" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "12C2E4875DB9B98A"
+			tasks: [{
+				id: "08B32E22B173A932"
+				item: { count: 1, id: "techpack:resource_collector" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "2D1936A5F578F179"
+			tasks: [{
+				id: "6950A67FD62A95F1"
+				item: { count: 1, id: "minecraft:oak_log" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+	]
+}

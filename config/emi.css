@@ -114,7 +114,7 @@
 	 * The maximum height the recipe screen will grow to be if space is available in
 	 * pixels.
 	 */
-	maximum-recipe-screen-height: 256;
+	maximum-recipe-screen-height: 272;
 
 	/**
 	 * The minimum width of the recipe screen in pixels. Controls how many tabs there
@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: favorites, craftables;
 
 	/**
 	 * The subpanels in the left sidebar

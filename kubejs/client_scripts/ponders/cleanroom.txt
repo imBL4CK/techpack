@@ -1,0 +1,4 @@
+Ponder.registry((e) => {
+    e.create('techpack:cleanroom_casing')
+        .scene('cleanroom', 'The Cleanroom', 'techpack:multiblocks/cleanroom', )
+});

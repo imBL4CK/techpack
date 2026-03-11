@@ -40,7 +40,7 @@
 		#Third person camera z-offset.
 		# Default: 4.0
 		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
-		offset_z = 4.0
+		offset_z = 3.9250000000000003
 
 		[camera.offset.min]
 			#When x-offset is limited this is the minimum amount.
@@ -218,6 +218,14 @@
 				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 				modifier_offset_z = 0.0
 
+		[camera.offset.presets]
+			#A list of x-offset presets that can be toggled via the 'Toggle X-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_x = []
+			#A list of y-offset presets that can be toggled via the 'Toggle Y-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_y = []
+			#A list of z-offset presets that can be toggled via the 'Toggle Z-Offset Presets' keybind. WARNING: Duplicate entries can result in undefined behavior!
+			presets_offset_z = []
+
 	[camera.camera_drag]
 		#x-axis multiplier for camera drag.
 		# Default: 0.0
@@ -280,6 +288,8 @@
 	# Default: 90.0
 	# Range: 0.0 ~ 180.0
 	player_y_rot_follow_angle_limit = 90.0
+	#Whether or not to turn the player model transparent when aiming. This config option only applies when adjust player transparency is enabled.
+	turn_player_transparent_when_aiming = false
 
 	[player.turning]
 		#Whether to turn the player when using an item. This config option only applies when camera is decoupled.
@@ -368,3 +378,9 @@
 	[integrations.epicfight]
 		#Whether to allow target lock-on when camera is decoupled.
 		decoupled_camera_lock_on = false
+
+	[integrations.curios]
+		#Items that when equipped in a curios slot, trigger the dynamic crosshair in adaptive mode. This config option supports regular expressions. The curios slot must be specified before the expression and is separated by an '@' character. Example: 'ring@angelring:.*_ring' matches 'angelring:diamond_ring' and 'angelring:angel_ring' when equipped in the 'ring' slot.
+		adaptive_crosshair_items = []
+		#Item properties of an item, that when equipped in a curios slot, trigger the dynamic crosshair in adaptive mode. Example: 'necklace@charged'
+		adaptive_crosshair_item_properties = []

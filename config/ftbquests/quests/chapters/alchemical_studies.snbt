@@ -1,0 +1,94 @@
+{
+	autofocus_id: "456483F245D53C22"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemical_studies"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "eidolon_repraised:crucible"
+	}
+	id: "6D756BCE50B770D7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "456483F245D53C22"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "1427D9D3E09A8808"
+				item: { count: 1, id: "eidolon_repraised:crucible" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			id: "1153F30F21CC20AC"
+			tasks: [{
+				id: "27B6DFEC95907A03"
+				item: { count: 1, id: "techpack:glutton" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			id: "58535926C5D34E59"
+			tasks: [{
+				id: "226744BB0DBF5C7C"
+				item: { count: 1, id: "eidolon_repraised:arcane_gold_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			id: "623AF0F5536033D7"
+			tasks: [{
+				id: "50B70D20D8046286"
+				item: { count: 1, id: "techpack:kiln" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D75A138430C9516"]
+			id: "0305B989088D30E8"
+			tasks: [{
+				id: "32414502DD266433"
+				item: { count: 1, id: "malum:spellweaving_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4D75A138430C9516"]
+			id: "3094DAE5E6DFA531"
+			tasks: [{
+				id: "13F0B5FD7ED25CFC"
+				item: { count: 1, id: "malum:spellweaving_axe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			id: "4D75A138430C9516"
+			tasks: [{
+				id: "798E79EE04B94F8B"
+				item: { count: 1, id: "malum:mimicry_relay" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}

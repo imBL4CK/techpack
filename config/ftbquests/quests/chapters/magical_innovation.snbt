@@ -1,0 +1,122 @@
+{
+	autofocus_id: "68361AB7488A4928"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical_innovation"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "malum:soulbinding_brazier"
+	}
+	id: "13B1AF83D3EFA283"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "techpack:spiritual_circuit"
+			}
+			icon_scale: 0.8d
+			id: "68361AB7488A4928"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "59E321C52E654C45"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68361AB7488A4928"]
+			id: "6C0683DEC74220F1"
+			tasks: [{
+				id: "640DA939EF68EE95"
+				item: { count: 1, id: "malum:spirit_crucible" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C0683DEC74220F1"]
+			id: "06625416DAFDD9E3"
+			tasks: [{
+				id: "03B0F7C52377AC08"
+				item: { count: 1, id: "malum:repair_pylon" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["68361AB7488A4928"]
+			id: "7D638213198A1B85"
+			tasks: [{
+				id: "7037A4F23CDD9C7B"
+				item: { count: 1, id: "malum:spirit_jar" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D638213198A1B85"]
+			icon: {
+				id: "malum:soulbinding_brazier"
+			}
+			id: "789303511617E95A"
+			tasks: [{
+				id: "3F47EE3255F8DB46"
+				item: { count: 1, id: "malum:soulbinding_brazier" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0683DEC74220F1"]
+			icon: {
+				id: "malum:alchemical_impetus"
+			}
+			id: "6668BBD8F76FC76E"
+			tasks: [{
+				id: "05EE7A5F1B5AECAD"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C0683DEC74220F1"]
+			id: "06A31488F0171F35"
+			tasks: [{
+				id: "6755CBEBD0B0B21C"
+				item: { count: 1, id: "malum:spirit_catalyzer" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68361AB7488A4928"]
+			id: "334601163287FAA5"
+			tasks: [{
+				id: "31F5F6553911A94C"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "3DC64198E7C44E85"
+			tasks: [{
+				id: "4E18DA1D2F7F55EF"
+				item: { count: 1, id: "techpack:iris_relic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

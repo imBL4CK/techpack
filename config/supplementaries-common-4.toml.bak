@@ -218,6 +218,9 @@
 		# Range: 0 ~ 500
 		cooldown = 60
 		music_disc_heave_ho = true
+		#Makes TNT-like block shot from a cannon explode on impact
+		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
+		explode_tnt = "IGNITE"
 
 		[functional.cannon.cannonball]
 			enabled = true
@@ -229,6 +232,13 @@
 			# Default: 1.1
 			# Range: 0.0 ~ 10.0
 			break_radius = 1.1
+
+		[functional.cannon.cannon_boat]
+			enabled = true
+			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
+			# Default: 0.5
+			# Range: 0.0 ~ 5.0
+			recoil_multiplier = 0.5
 
 	[functional.present]
 		enabled = true
@@ -377,6 +387,8 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
+		#Displays current coordinates when using a globe
+		show_coordinates = true
 
 	[building.way_sign]
 		enabled = true
@@ -443,6 +455,8 @@
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
 		quiver_pickup = true
+		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
+		quiver_skeleton_spawn_depend_on_global_difficulty = true
 
 	[tools.lunch_basket]
 		enabled = true
@@ -504,6 +518,8 @@
 		# Default: 64
 		# Range: 0 ~ 500
 		bound_distance = 64
+		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
+		unbound = false
 
 	[tools.bomb]
 		enabled = true
@@ -572,16 +588,14 @@
 	creative_tab = true
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
-	#Creates a creative tab full of filled jars
-	jar_tab = false
-	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
-	debug_save_dynamic_pack = false
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 
 #Vanilla tweaks
 [tweaks]
@@ -670,8 +684,6 @@
 	[tweaks.placeable_books]
 		#Allow books and enchanted books to be placed on the ground
 		enabled = true
-		#Allows written books to be placed down. Requires shift clicking
-		written_books = true
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
 
@@ -694,7 +706,7 @@
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
 		cat_unluck = true
-		#If you have unluck you are more likely to get hit by a lighting
+		#If you have unluck you are more likely to get hit by a lighting. Holding a lightning rod also causes this
 		lightning_unluck = true
 
 	[tweaks.item_lore]
@@ -709,8 +721,6 @@
 		enabled = true
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
-		#Show a slime overlay when you hit an entity with a slimeball
-		overlay = true
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"
@@ -722,3 +732,9 @@
 		# Default: 0.15
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
+
+	[tweaks.clock_and_compass]
+		#Allow to right click with a clock to display current time in numerical form
+		clock_right_click = true
+		#Allow to right click with a compass to display current coordinates in numerical form
+		compass_right_click = false

@@ -4,7 +4,7 @@
 	colorselector: {
 		# Colors recently selected in the color selector
 		# Default: []
-		recents: [I; ]
+		recents: [I;-16121]
 	}
 	sidebar: {
 		buttons: {
@@ -16,6 +16,11 @@
 			"ftbquests:quests": {
 				enabled: true
 				x: 1
+				y: 1
+			}
+			"ftbchunks:chunks": {
+				enabled: true
+				x: 2
 				y: 1
 			}
 			"ftblibrary:toggle/night": {
@@ -31,6 +36,11 @@
 			"ftblibrary:config": {
 				enabled: true
 				x: 2
+				y: 1
+			}
+			"ftbchunks:claim_chunks": {
+				enabled: true
+				x: 3
 				y: 1
 			}
 			"ftblibrary:toggle/day": {
@@ -55,6 +65,10 @@
 		position: "bottom_left"
 	}
 	tooltips: {
+		# Add the name of the mod that entities belong to in the entity face selection GUI.
+		# Default: true
+		entity_modname: true
+		
 		# Add the name of the mod that fluids belong to in the fluid selection GUI.
 		# Default: true
 		fluid_modname: true

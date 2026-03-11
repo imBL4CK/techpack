@@ -5,10 +5,10 @@ function techpackMachineAPI(e,recipeData) {
         recipeData.requireItem.forEach((inputItem) => {
             if (typeof inputItem === "string") {
                 recipe.requireItem(inputItem);
-            } else if (typeof inputItem === "object" && inputItem.chance) {
-                recipe.requireItem(inputItem.item).chance(inputItem.chance);
             } else if (typeof inputItem === "object" && inputItem.consumeOnEnd === true) {
                 recipe.requireItemOnEnd(inputItem.item);
+            } else {
+                recipe.requireItem(inputItem.item).chance(inputItem.chance);
             }
         })
     }
@@ -67,7 +67,7 @@ function techpackMachineAPI(e,recipeData) {
         recipe.requireSU(recipeData.requireSU[0])
     }
     if (recipeData.produceSU) {
-        recipe.produceSU(recipeData.produceSU[0])
+        recipe.produceSU(recipeData.produceSU.speed,recipeData.produceSU.stressMultiplier)
     }
     if (recipeData.requirePressure) {
         recipe.requirePressure(recipeData.requirePressure.minimum, recipeData.requirePressure.maximum)
@@ -75,7 +75,74 @@ function techpackMachineAPI(e,recipeData) {
     if (recipeData.producePressure) {
         recipe.producePressure(recipeData.producePressure)
     }
+    if (recipeData.requireDimension) {
+        recipe.dimensionWhitelist(recipeData.requireDimension)
+    }
+    if (recipeData.pollinate) {
+        recipe.requireBlock(recipeData.pollinate, true, 1, 0, 1, -1, 0, -1)
+    }
     if (recipeData.requireTime) {
         recipe.requireTime(recipeData.requireTime)
+    }
+    if (recipeData.requirePosition) {
+        recipe.requirePosition(
+            recipeData.requirePosition.x,
+            recipeData.requirePosition.y,
+            recipeData.requirePosition.z
+        )
+    }
+    if (recipeData.needsSky) {
+        recipe.mustSeeSky()
+    }
+    if (recipeData.jeiHide === true) {
+        recipe.hide()
+    }
+    if (recipeData.displayInfo) {
+        recipe.info(info => info.tooltip(`${recipeData.displayInfo.text}`).item(`${recipeData.displayInfo.icon}`))
+    }
+    if (recipeData.recipeTier === "basic") {
+        recipe.info(info => info.tooltip("Minimum Tier Required: Basic").item("techpack:basic_circuit"))
+    }
+    if (recipeData.recipeTier === "advanced") {
+        recipe.info(info => info.tooltip("Minimum Tier Required: Advanced").item("pneumaticcraft:printed_circuit_board"))
+    }
+    if (recipeData.recipeTier === "sophisticated") {
+        recipe.info(info => info.tooltip("Minimum Tier Required: Sophisticated").item("techpack:sophisticated_circuit"))
+    }
+    if (recipeData.requireCleanroom) {
+        recipe.requireStructure(
+            [
+                ["     ", " CCC ", " CAC ", " CCC ", "     "],
+                [" CCC ", "C   C", "C m C", "C   C", " CDC "],
+                [" CAC ", "C   C", "A   A", "C   C", " CDC "],
+                [" CCC ", "C   C", "C   C", "C   C", " CCC "],
+                ["     ", " CCC ", " CAC ", " CCC ", "     "],
+            ],
+            {
+                A: ["techpack:cleanroom_casing", "ae2:energy_acceptor", "ae2:interface", "ae2:pattern_provider", "techpack:battery_box", "techpack:cesu", "techpack:mfe","techpack:mfsu"],
+                C: "techpack:cleanroom_casing",
+                D: "create:framed_glass_door[open=false]",
+            },
+        )
+    }
+    if (recipeData.damageItem) {
+        recipeData.damageItem.forEach((inputItem) => {
+            if (typeof inputItem === "string") {
+                recipe.damageItem(inputItem);
+            } else if (typeof inputItem === "object" && inputItem.damage) {
+                recipe.damageItem(inputItem.item, inputItem.damage);
+            } else if (typeof inputItem === "object" && inputItem.damage && inputItem.chance) {
+                recipe.damageItem(inputItem.item, inputItem.damage).chance(inputItem.chance);
+            }
+        })
+    }
+    if (recipeData.produceLootTable) {
+        recipe.lootTableOutput(recipeData.produceLootTable)
+    }
+    if (recipeData.jeiDisplayPriority) {
+        recipe.jei().priority(recipeData.jeiDisplayPriority)
+    }
+    if (recipeData.resetOnError) {
+        recipe.resetOnError()
     }
 }

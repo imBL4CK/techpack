@@ -1,0 +1,39 @@
+#Print menu type to game chat whenever a new menu screen is opened. Intended for finding menu types to be added to "menu_blacklist".
+#Default Value: false
+debug_container_types = false
+#Print screen identifier to game chat or log file whenever a new screen is opened. Intended for finding screens to be added to "font_color_blacklist".
+#Default Value: false
+debug_all_screens = false
+#Exclude certain menus from showing the dark mode switcher. Useful when the box intersects other screen elements.
+#Default Value: []
+menu_blacklist = [""]
+#Specifies gui paths and resources to darken.
+#End a directory path using '/' to include every file without nested directories.
+#End a directory path using '/*' to include every file including nested directories.
+#Begin with a namespace or skip namespace to apply to all namespaces.
+#Begin with '!' to exclude matches, list those exclusions after entries that would otherwise include them.
+#Default Value: [minecraft:textures/gui/advancements/window.png, textures/gui/, !minecraft:textures/gui/book.png, textures/gui/container/*, textures/gui/sprites/advancements/*, textures/gui/sprites/boss_bar/*, textures/gui/sprites/container/*, textures/gui/sprites/dialog/*, textures/gui/sprites/gamemode_switcher/*, textures/gui/sprites/hud/*, textures/gui/sprites/popup/*, textures/gui/sprites/recipe_book/*, textures/gui/sprites/social_interactions/*, textures/gui/sprites/toast/*, textures/gui/sprites/tooltip/*, textures/gui/sprites/transferable_list/*, textures/gui/sprites/widget/*, textures/gui/sprites/world_list/*, trinkets:textures/gui/slots/*, craftingtweaks:gui.png, dankstorage:textures/container/gui/*, ae2:textures/guis/*, !modmenu:textures/gui/mod_configuration.png, !dynamiccrosshair:textures/gui/crosshairs.png, quark:textures/misc/backpack_gui.png, quark:textures/misc/matrix_enchanting.png, quark:textures/misc/shulker_widget.png]
+paths = ["minecraft:textures/gui/advancements/window.png", "textures/gui/", "!minecraft:textures/gui/book.png", "textures/gui/container/*", "textures/gui/sprites/advancements/*", "textures/gui/sprites/boss_bar/*", "textures/gui/sprites/container/*", "textures/gui/sprites/dialog/*", "textures/gui/sprites/gamemode_switcher/*", "textures/gui/sprites/hud/*", "textures/gui/sprites/popup/*", "textures/gui/sprites/recipe_book/*", "textures/gui/sprites/social_interactions/*", "textures/gui/sprites/toast/*", "textures/gui/sprites/tooltip/*", "textures/gui/sprites/transferable_list/*", "textures/gui/sprites/widget/*", "textures/gui/sprites/world_list/*", "trinkets:textures/gui/slots/*", "craftingtweaks:gui.png", "dankstorage:textures/container/gui/*", "ae2:textures/guis/*", "!modmenu:textures/gui/mod_configuration.png", "!dynamiccrosshair:textures/gui/crosshairs.png", "quark:textures/misc/backpack_gui.png", "quark:textures/misc/matrix_enchanting.png", "quark:textures/misc/shulker_widget.png"]
+#Do not add the dark mode toggle buttons to the top of every menu.
+#Default Value: false
+hide_in_game_switcher = false
+#Screens to add a dark mode toggle button to, so that toggling is possible outside of inventory menus.
+#Default Value: BOTH
+#Allowed Values: NONE, TITLE_SCREEN, PAUSE_SCREEN, BOTH
+dark_mode_toggle_screens = "BOTH"
+#Exclude certain screens from being affected by any text color alterations.
+#Default Value: [chat_screen.title, sign.edit, hanging_sign.edit, book.edit.title, book.view.title]
+font_color_blacklist = ["chat_screen.title", "sign.edit", "hanging_sign.edit", "book.edit.title", "book.view.title"]
+#Use a dark theme for the configuration screens.
+dark_theme = false
+#Percentage of original interface brightness to apply.
+# Default: 0.5
+# Range: 0.0 ~ 1.0
+texture_darkness = 0.5046948356807514
+#The minimum brightness value of font while dark mode is enabled.
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+font_brightness = 1.0
+#Algorithm selector for darkening interface pixels.
+#Allowed Values: GRAYSCALE_AND_HSP, HSP, GRAYSCALE_AND_HSL, HSL, GRAYSCALE_AND_LINEAR, LINEAR
+darkening_algorithm = "GRAYSCALE_AND_HSP"

@@ -9,6 +9,8 @@
 	allowTrampling = false
 	#If torches can be extinguished through interactions like campfires.
 	torchExtinguishing = true
+	#If snow and grass can combine to form snowlogged frosted grass.
+	allowGrassFrosting = true
 
 [biomes]
 	#If any custom biomes are enabled
@@ -33,6 +35,22 @@
 	oldGrowthForest = true
 	#If the boreal forest is enabled
 	borealForest = true
+	#If the prairie is enabled
+	prairie = true
+	#If the lavender field is enabled
+	lavenderField = true
+	#If the blackwater river sub-biome is enabled
+	blackwaterRiver = true
+	#If the lush river sub-biome is enabled
+	lushRiver = true
+	#If the desert river sub-biome is enabled
+	desertRiver = true
+	#If the frozen shore sub-biome is enabled
+	frozenShore = true
+	#If the mud beach sub-biome is enabled
+	mudBeach = true
+	#If the tropical beach sub-biome is enabled
+	tropicalBeach = true
 
 [tap]
 	#Time is calculated in ticks. 20 ticks make 1 second.

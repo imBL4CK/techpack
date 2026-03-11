@@ -1,0 +1,421 @@
+{
+	autofocus_id: "7D9FEA21EC32FF30"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3__above_and_beyond"
+	group: "225813B7649167DE"
+	icon: {
+		id: "techpack:advanced_machine_casing"
+	}
+	id: "4FBA4507730D2F9F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon_scale: 0.8d
+			id: "6C23D4D6D2CC0776"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "007626699CCEC239"
+				item: { count: 1, id: "techpack:advanced_machine_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			id: "2F9B50A24683B55D"
+			rewards: [{
+				count: 4
+				id: "0CF73DA7E8C4D296"
+				item: {
+					count: 1
+					id: "ae2:fluix_glass_cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "268BD47489F00BDA"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "2CCF2DA8517CADD0"
+			rewards: [
+				{
+					count: 2
+					id: "14F07D237173F386"
+					item: {
+						count: 1
+						id: "ae2:annihilation_core"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C69279506CE0BF8"
+					item: {
+						count: 1
+						id: "ae2:formation_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F15DE3ECD0DB4BA"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "47851A8850400707"
+			rewards: [{
+				count: 2
+				id: "028ABF36C6EE535B"
+				item: {
+					count: 1
+					id: "ae2:item_cell_housing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C4DE8CCE20BEB6A"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "7BAA685E060A0E52"
+			rewards: [{
+				id: "210A33146CE0EBE3"
+				item: {
+					count: 1
+					id: "ae2:semi_dark_monitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235BD6C1D2C832DC"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["123E0D14A836DCEE"]
+			icon_scale: 0.8d
+			id: "00E7DBCB639B2833"
+			rewards: [{
+				id: "238154E547498105"
+				item: {
+					count: 1
+					id: "techpack:sophisticated_circuit_board"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6EACBB5D545711D2"
+				item: { count: 1, id: "techpack:sophisticated_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34192ED1E524B08D"]
+			id: "1CA283D2AE709200"
+			rewards: [{
+				id: "3A2CB6770D85C04D"
+				item: {
+					components: {
+						"ftbquests:missing_item": "techpack:coolant_bucket"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E924241A528BEB9"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:freezer" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"14D704B6C031E5B8"
+				"1CA283D2AE709200"
+				"2E5A55ECEC89EE28"
+			]
+			id: "123E0D14A836DCEE"
+			rewards: [{
+				count: 4
+				id: "1F342C7BFCF8DD79"
+				item: {
+					count: 1
+					id: "techpack:stainless_steel_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A9CEA299723BBE"
+				item: { count: 1, id: "techpack:sophisticated_circuit_board" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CA9B342DD7898D5"]
+			id: "14D704B6C031E5B8"
+			rewards: [{
+				count: 4
+				id: "1DCC777D5CADD428"
+				item: {
+					count: 1
+					id: "techpack:ptfe_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55CD5C77F052D3FD"
+				item: { count: 1, id: "techpack:ptfe_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "1098AB546EA8E25F"
+			tasks: [{
+				id: "7F7DF02FA9264658"
+				item: { count: 1, id: "techpack:resource_collector" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			id: "2E5A55ECEC89EE28"
+			tasks: [{
+				id: "402975320E849673"
+				item: { count: 1, id: "techpack:advanced_assembler" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7961BA9015DE7075"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "4633868F78784A07"
+			rewards: [{
+				id: "75C3D9B44CE9593E"
+				item: {
+					count: 1
+					id: "industrialforegoing:ether_gas_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6941EAE80D0F609E"
+					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+					type: "item"
+				}
+				{
+					id: "05D22DCAEDB8F1A0"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "43A63116A39969F9"
+					item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B8E25DCCC07E764"]
+			id: "7961BA9015DE7075"
+			tasks: [{
+				id: "3C95D9165F259999"
+				item: { count: 1, id: "stellaris:rocket_station" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7961BA9015DE7075"]
+			id: "34192ED1E524B08D"
+			tasks: [{
+				id: "66E900774CCBB6B9"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			id: "3CA9B342DD7898D5"
+			tasks: [{
+				id: "4935B254EB2F7F92"
+				item: { count: 1, id: "techpack:budding_strange_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3CA9B342DD7898D5"]
+			id: "4C9158FCCC463F40"
+			tasks: [{
+				id: "4CC87AA9A99B0933"
+				item: { count: 1, id: "tesseract:tesseract" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:assembly_controller"
+			}
+			id: "5AE9F0D7DF8B4305"
+			tasks: [
+				{
+					id: "57674957533C5B61"
+					item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+					type: "item"
+				}
+				{
+					id: "04DE9D24AA83BEE1"
+					item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+					type: "item"
+				}
+				{
+					id: "4C5C1871B73C49E3"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_export" }
+					type: "item"
+				}
+				{
+					id: "54A9D424B3606A46"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_import" }
+					type: "item"
+				}
+				{
+					id: "54FB4CEEAFB7A1CD"
+					item: { count: 1, id: "pneumaticcraft:assembly_drill" }
+					type: "item"
+				}
+				{
+					id: "781B358F48D571B3"
+					item: { count: 1, id: "pneumaticcraft:assembly_laser" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "450307EC7615791E"
+			tasks: [{
+				id: "363C9A00085D09AB"
+				item: { count: 1, id: "stellaris:solar_panel" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "pipez:energy_pipe"
+			}
+			id: "6D124E989E9EDE6B"
+			tasks: [
+				{
+					id: "7E281FBBB00C5ED6"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "52533B3DA3F2EC4A"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "2C52865F919E6F29"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D124E989E9EDE6B"]
+			id: "094244A8243998D8"
+			tasks: [{
+				id: "10AD6156254F131A"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			icon: {
+				id: "techpack:cleanroom_casing"
+			}
+			id: "7B8E25DCCC07E764"
+			rewards: [{
+				id: "700285FA8731A71B"
+				item: {
+					count: 1
+					id: "techpack:cesu"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 51L
+					id: "7EC7B17200A2E9EE"
+					item: { count: 1, id: "techpack:cleanroom_casing" }
+					type: "item"
+				}
+				{
+					id: "64EA73311EC6DA59"
+					item: { count: 1, id: "create:framed_glass_door" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,95 @@
+{
+  "settings": {
+    "size": 24,
+    "enabled": false,
+    "dynamicEnabled": true,
+    "arrow": {
+      "x": 0.0625,
+      "y": 0.0625,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "techpack",
+        "path": "cursors/arrow.png"
+      }
+    },
+    "ibeam": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/ibeam.png"
+      }
+    },
+    "crosshair": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/crosshair.png"
+      }
+    },
+    "pointing_hand": {
+      "x": 0.375,
+      "y": 0.0,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/pointing_hand.png"
+      }
+    },
+    "resize_ns": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/resize_ns.png"
+      }
+    },
+    "resize_ew": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/resize_ew.png"
+      }
+    },
+    "resize_all": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "customcursor",
+        "path": "cursors/resize_all.png"
+      }
+    },
+    "not_allowed": {
+      "x": 0.5,
+      "y": 0.5,
+      "rotation": 0.0,
+      "mirroredX": false,
+      "mirroredY": false,
+      "identifier": {
+        "namespace": "minecraft",
+        "path": "textures/item/barrier.png"
+      }
+    }
+  }
+}

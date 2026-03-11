@@ -1,83 +1,138 @@
+import { techpackMachineAPI } from "./techpack_machineAPI"; 
+
 ServerEvents.recipes((e) => {
-  //Bronze
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("3x #c:ingots/copper")
-      .requireItem("#c:ingots/tin")
-      .produceItem("4x techpack:bronze_ingot");
-  }
-  //Wrought Iron
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:ingots/iron")
-      .requireItem("techpack:sifted_sand")
-      .produceItem("2x techpack:wrought_iron_ingot");
-  }
-  //Brass
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:ingots/copper")
-      .requireItem("#c:ingots/zinc")
-      .produceItem("2x create:brass_ingot");
-  }
-  //Electrum
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:ingots/gold")
-      .requireItem("#c:ingots/silver")
-      .produceItem("2x techpack:electrum_ingot");
-  }
-  //Invar
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("2x #c:ingots/iron")
-      .requireItem("#c:ingots/nickel")
-      .produceItem("3x techpack:invar_ingot");
-  }
-  //Redstone alloy
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("minecraft:redstone")
-      .requireItem("#c:silicon")
-      .produceItem("enderio:redstone_alloy_ingot");
-  }
-  //Copper alloy ingot
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:ingots/copper")
-      .requireItem("#c:silicon")
-      .produceItem("enderio:copper_alloy_ingot");
-  }
-  //Constantan
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:ingots/copper")
-      .requireItem("#c:ingots/nickel")
-      .produceItem("2x techpack:constantan_ingot");
-  }
-  //Silicon
-  {
-    e.recipes.custommachinery
-      .custom_machine("techpack:basic_alloy_foundry", 200)
-      .requireEnergy(2000)
-      .requireItem("#c:dusts/quartz")
-      .requireItem("techpack:sifted_sand")
-      .produceItem("2x ae2:silicon");
-  }
+    const BasicRecipes = [
+        //Rose Quartz
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#c:gems/quartz", "4x minecraft:redstone", "ae2:silicon"],
+            "produceItem": ["create:rose_quartz"]
+        },
+        //Bronze Ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["3x #c:ingots/copper", "#c:ingots/tin"],
+            "produceItem": ["4x techpack:bronze_ingot"]
+        },
+        //Wrought iron ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#c:ingots/iron", "techpack:sifted_sand"],
+            "produceItem": ["2x techpack:wrought_iron_ingot"]
+        },
+        //Brass ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#c:ingots/copper", "#c:ingots/zinc"],
+            "produceItem": ["2x create:brass_ingot"]
+        },
+        //Electrum ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["#c:ingots/gold", "#c:ingots/silver"],
+            "produceItem": ["2x techpack:electrum_ingot"]
+        },
+        //Invar ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["3x #c:ingots/iron", "#c:ingots/nickel"],
+            "produceItem": ["4x techpack:invar_ingot"]
+        },
+        //Redstone alloy ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["minecraft:redstone", "#c:silicon"],
+            "produceItem": ["enderio:redstone_alloy_ingot"]
+        },
+        //Copper alloy ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#c:ingots/copper", "#c:silicon"],
+            "produceItem": ["enderio:copper_alloy_ingot"]
+        },
+        //Constantan ingot
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["#c:ingots/copper", "#c:ingots/nickel"],
+            "produceItem": ["2x techpack:constantan_ingot"]
+        },
+        //Silicon
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 40 },
+            "requireItem": ["#c:dusts/quartz", "techpack:sifted_sand"],
+            "produceItem": ["2x ae2:silicon"]
+        },
+    ]
+    const AdvancedRecipes = [
+        //Obsidian Glass
+        {
+            "machineType": "techpack:advanced_alloy_foundry",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 1,
+            "processingTime": 1200,
+            "requireEnergy": { perTick: 60 },
+            "requireItem": ["#c:dusts/obsidian", "techpack:sifted_sand"],
+            "produceItem": ["techpack:obsidian_glass"]
+        },
+        {
+            "machineType": "techpack:advanced_alloy_foundry",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 1,
+            "processingTime": 1200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["8x techpack:hop_graphite_dust", "minecraft:blaze_rod"],
+            "produceItem": ["techpack:incandescent_graphite_electrode"]
+        },
+    ]
+  BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+  AdvancedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+  //SophisticatedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+
+  //Upper tier inherit recipes from lower tier
+  const AdvancedToSophisticated = AdvancedRecipes.map((rec) => {
+    const clone = JSON.parse(JSON.stringify(rec));
+    clone.machineType = "techpack:sophisticated_alloy_foundry";
+    return clone;
+  });
+  AdvancedToSophisticated.forEach((recipe) => { techpackMachineAPI(e,recipe)});
 });

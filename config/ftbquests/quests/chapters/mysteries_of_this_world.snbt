@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mysteries_of_this_world"
@@ -11,7 +12,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["689A412F4D529E43"]
+			dependencies: ["2B0815D3DA733D70"]
 			id: "641436DAB4BEAE18"
 			tasks: [{
 				id: "0F5EC194481D5028"
@@ -19,25 +20,28 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
-			dependencies: ["260EC27B5BE80815"]
+			dependencies: ["641436DAB4BEAE18"]
 			id: "11927E2D181B985E"
 			tasks: [{
 				id: "5149932254C00B3F"
-				item: { count: 1, id: "forbidden_arcanus:clibano_core" }
+				item: { components: { "ftbquests:missing_item": "forbidden_arcanus:clibano_core" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["641436DAB4BEAE18"]
 			id: "5BFA90D464D2BECB"
 			tasks: [{
 				icon: {
-					id: "forbidden_arcanus:hephaestus_forge_tier_1"
+					components: {
+						"ftbquests:missing_item": "forbidden_arcanus:hephaestus_forge_tier_1"
+					}
+					id: "ftbquests:missing_item"
 				}
 				id: "0489D5FFFFB342D9"
 				observe_type: 0
@@ -46,54 +50,154 @@
 				type: "observation"
 			}]
 			x: -1.5d
-			y: -1.0d
+			y: -2.5d
 		}
 		{
+			icon: {
+				id: "malum:encyclopedia_arcana"
+			}
 			icon_scale: 0.8d
 			id: "689A412F4D529E43"
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "538A78625598026C"
-				item: { count: 1, id: "malum:encyclopedia_arcana" }
-				type: "item"
+				id: "092128560AD7A663"
+				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["5BFA90D464D2BECB"]
 			id: "4BD0D15459102CA2"
+			optional: true
+			shape: "circle"
 			tasks: [{
 				id: "6995A371671B4604"
 				item: { count: 1, id: "malum:spirit_jar" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["5BFA90D464D2BECB"]
-			id: "1F064D22C47A9D7E"
-			shape: "circle"
-			tasks: [{
-				id: "7953AEE539069ACA"
-				item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
+			x: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["641436DAB4BEAE18"]
-			id: "260EC27B5BE80815"
+			icon: {
+				components: {
+					"ftbquests:missing_item": "occultism:ritual_dummy/summon_foliot_crusher"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "7CC89E1258DF4519"
 			tasks: [{
-				id: "3250C6E1B0599F13"
-				item: { count: 1, id: "techpack:basic_alchemical_crucible" }
+				id: "70F521F330F16058"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["641436DAB4BEAE18"]
+			id: "101DABA076176F24"
+			tasks: [{
+				id: "37ACBA9C43391F42"
+				item: { count: 1, id: "eidolon_repraised:crucible" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7CC89E1258DF4519"]
+			id: "6B3C115D4C040E1B"
+			shape: "circle"
+			tasks: [{
+				id: "47B4F439614E106B"
+				item: { components: { "ftbquests:missing_item": "occultism:storage_controller" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["689A412F4D529E43"]
+			id: "2B0815D3DA733D70"
+			tasks: [{
+				id: "7BF2353E7666A165"
+				item: { count: 1, id: "eidolon_repraised:worktable" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["689A412F4D529E43"]
+			id: "12FE041C4B756E3C"
+			tasks: [{
+				id: "6C4092E70F265C3F"
+				item: { count: 1, id: "malum:large_strange_crystal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"12FE041C4B756E3C"
+				"5BFA90D464D2BECB"
+			]
+			id: "4F19BD1BA52A8B04"
+			tasks: [{
+				id: "6211FD150FBB061E"
+				item: { count: 1, id: "techpack:budding_strange_crystal" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CC89E1258DF4519"]
+			id: "3D3C3259A9F656B8"
+			tasks: [{
+				id: "3B2EB7009A5B7AF4"
+				item: { count: 1, id: "modular_angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CC89E1258DF4519"]
+			id: "4EB641782BD71EB8"
+			tasks: [{
+				id: "5AFEDB73A6A55FB8"
+				item: { count: 1, id: "techpack:instabillis_ingot" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4EB641782BD71EB8"]
+			id: "3354CDE33604F8CF"
+			tasks: [{
+				id: "2CAAAA446ACC1B66"
+				item: { count: 1, id: "tesseract:tesseract" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["101DABA076176F24"]
+			id: "676F2321764053AE"
+			tasks: [{
+				id: "274D3DB891D6D485"
+				item: { count: 1, id: "malum:spirit_crucible" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
 		}
 	]
 }

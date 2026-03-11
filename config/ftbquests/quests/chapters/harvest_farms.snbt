@@ -28,8 +28,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -0.5d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["4BDD464E3F2ABE9D"]
@@ -135,7 +135,7 @@
 				{
 					count: 2L
 					id: "6434E1AE0B0938E2"
-					item: { count: 2, id: "create:portable_storage_interface" }
+					item: { count: 1, id: "create:portable_storage_interface" }
 					type: "item"
 				}
 			]
@@ -143,6 +143,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["4BDD464E3F2ABE9D"]
 			icon: {
 				id: "industrialforegoing:sewer"
 			}
@@ -159,10 +160,11 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -4.5d
 			y: 0.5d
 		}
 		{
+			dependencies: ["0C8E07CBA287F6A2"]
 			icon: {
 				id: "industrialforegoing:animal_feeder"
 			}
@@ -186,6 +188,72 @@
 			]
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["4BDD464E3F2ABE9D"]
+			id: "0D9EF9C63D2CDC1F"
+			tasks: [{
+				id: "14FEC5A57D2CD65D"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0D9EF9C63D2CDC1F"]
+			id: "1631EFA70645A927"
+			tasks: [{
+				id: "6DE3D687B6911D9F"
+				item: { count: 1, id: "industrialforegoing:bioreactor" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			id: "4A04F4D941F658E6"
+			tasks: [{
+				id: "7087400AAAB692F5"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A04F4D941F658E6"]
+			id: "7BB5DE5484347A22"
+			tasks: [{
+				id: "3280F488E32E43F4"
+				item: { count: 1, id: "techpack:apiary" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4A04F4D941F658E6"]
+			id: "06F0EAB239A18677"
+			tasks: [{
+				id: "1D6F91EF2B679044"
+				item: { count: 1, id: "techpack:bee_house" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"06F0EAB239A18677"
+				"7BB5DE5484347A22"
+			]
+			id: "0591E033D5A7F38F"
+			tasks: [{
+				id: "24BB2EB83DD040D8"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
 		}
 	]
 }

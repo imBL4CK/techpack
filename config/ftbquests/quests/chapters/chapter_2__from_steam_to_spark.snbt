@@ -1,14 +1,28 @@
 {
+	autofocus_id: "7F7BC1DCAFD51ED7"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_2__from_steam_to_spark"
 	group: "225813B7649167DE"
 	icon: {
-		id: "techpack:basic_circuit"
+		id: "techpack:basic_machine_casing"
 	}
 	id: "28ABDB4C54685DEA"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "3FD640173D9D14DB"
+			linked_quest: "0024155B82130D4C"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "2F9F261FA2D74F62"
+			linked_quest: "12D8383ABF9B4FC0"
+			x: -2.5d
+			y: 0.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["15F90AD6D095D568"]
@@ -30,6 +44,41 @@
 				id: "techpack:basic_smelter"
 			}
 			id: "7F7BC1DCAFD51ED7"
+			rewards: [
+				{
+					id: "70EB285E93CB655C"
+					item: {
+						count: 1
+						id: "techpack:basic_machine_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "3E645CA1610F178D"
+					item: {
+						count: 1
+						id: "techpack:basic_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "43A441705A194117"
+					item: {
+						count: 1
+						id: "create_new_age:electrical_connector"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4FE53D8CE9A34455"
+					item: {
+						count: 1
+						id: "create_new_age:copper_wire"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7C8D3C508EFC8BE4"
@@ -61,32 +110,16 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["2610D92D5D724454"]
-			id: "507AF2E73ED7EE0D"
-			tasks: [{
-				id: "743CB7169817C13A"
-				item: { count: 1, id: "techpack:steam_dynamo" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["507AF2E73ED7EE0D"]
-			id: "123270565A77CAC1"
-			optional: true
-			shape: "circle"
-			tasks: [{
-				id: "209B99FFBE1F4FD4"
-				item: { count: 1, id: "techpack:thermal_dynamo" }
-				type: "item"
-			}]
-			x: -3.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["7F7BC1DCAFD51ED7"]
 			id: "591CDC829FF9FC28"
+			rewards: [{
+				id: "5247F48057844185"
+				item: {
+					count: 1
+					id: "actuallyadditions:lens"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6672F071A3A8C7C5"
 				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
@@ -101,6 +134,15 @@
 				id: "pneumaticcraft:pressure_chamber_valve"
 			}
 			id: "0441A15B3E47D93F"
+			rewards: [{
+				count: 16
+				id: "1936CCFE75E3FD09"
+				item: {
+					count: 1
+					id: "pneumaticcraft:ingot_iron_compressed"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 2L
@@ -113,6 +155,19 @@
 					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
 					type: "item"
 				}
+				{
+					count: 22L
+					id: "2B8EBF06067DAA19"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3ACDF46629B2A808"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_glass" }
+					optional_task: true
+					type: "item"
+				}
 			]
 			x: 1.5d
 			y: 0.0d
@@ -123,6 +178,25 @@
 				id: "pneumaticcraft:refinery"
 			}
 			id: "07FBD1E23915AF6B"
+			rewards: [
+				{
+					count: 4
+					id: "279A0D6149D0D56E"
+					item: {
+						count: 1
+						id: "pneumaticcraft:heat_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "507B2848B12BBE9F"
+					item: {
+						count: 1
+						id: "pneumaticcraft:vortex_tube"
+					}
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "6EAF44E8C33FD012"
@@ -132,12 +206,12 @@
 				{
 					count: 4L
 					id: "217A55E4525ECD46"
-					item: { count: 4, id: "pneumaticcraft:refinery_output" }
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
 					type: "item"
 				}
 			]
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0F914F8C5666E10B"]
@@ -145,6 +219,15 @@
 				id: "industrialforegoing:latex_processing_unit"
 			}
 			id: "7218229E14CE6FB3"
+			rewards: [{
+				count: 8
+				id: "7A1E169C852FD857"
+				item: {
+					count: 1
+					id: "industrialforegoing:dryrubber"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [
 				{
@@ -164,6 +247,15 @@
 		{
 			dependencies: ["591CDC829FF9FC28"]
 			id: "3EA0672425F7A37F"
+			rewards: [{
+				count: 4
+				id: "77F76A550C92941A"
+				item: {
+					count: 1
+					id: "pipez:fluid_pipe"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D10E6A89FBE2500"
 				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
@@ -173,11 +265,20 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["07FBD1E23915AF6B"]
+			dependencies: ["0441A15B3E47D93F"]
 			icon: {
 				id: "techpack:transistor"
 			}
 			id: "69CDC1ABCED6AD47"
+			rewards: [{
+				count: 4
+				id: "253F6FD23F92A31F"
+				item: {
+					count: 1
+					id: "ae2:silicon"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "565D7B24AD6B10C1"
@@ -190,7 +291,7 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -199,31 +300,78 @@
 				"34B0C2176A78341B"
 			]
 			id: "7E8F71BE09B67753"
+			rewards: [{
+				count: 16
+				id: "0D1285763BC33BDF"
+				item: {
+					count: 1
+					id: "techpack:steel_ingot"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [{
 				id: "233A5B621E30844D"
 				item: { components: { "modular_machinery_reborn:machine": "techpack:arc_furnace" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["69CDC1ABCED6AD47"]
 			id: "659E7809B3C26998"
 			optional: true
+			rewards: [{
+				count: 4
+				id: "603F08748AE3D808"
+				item: {
+					count: 1
+					id: "techpack:coal_coke"
+				}
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "630FBD2CC0093B0A"
 				item: { components: { "modular_machinery_reborn:machine": "techpack:pyrolyse_oven" }, count: 1, id: "modular_machinery_reborn:controller" }
+				match_components: "strict"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3099B9CF5A6DABBF"]
 			id: "14D21C3042F0550E"
+			rewards: [
+				{
+					count: 4
+					id: "4AB7541904180B78"
+					item: {
+						count: 1
+						id: "techpack:flux_powder"
+					}
+					type: "item"
+				}
+				{
+					id: "1B88B275BEB6C30F"
+					item: {
+						count: 1
+						id: "techpack:transistor"
+					}
+					type: "item"
+				}
+				{
+					id: "0672CA36B5EA261C"
+					item: {
+						count: 1
+						id: "techpack:resistor"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5D3FEBCC619F8BFB"
 				item: { count: 1, id: "ae2:inscriber" }
@@ -242,6 +390,15 @@
 			}
 			icon_scale: 0.8d
 			id: "3DE253B80BC28A15"
+			rewards: [{
+				count: 16
+				id: "1F11F8B2EEE2D2E2"
+				item: {
+					count: 1
+					id: "ae2:silicon"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [
@@ -267,6 +424,14 @@
 		{
 			dependencies: ["7F7BC1DCAFD51ED7"]
 			id: "3099B9CF5A6DABBF"
+			rewards: [{
+				id: "518128B83E2EDFB2"
+				item: {
+					count: 1
+					id: "ae2:flawed_budding_quartz"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F1E885A996950CF"
 				item: { count: 1, id: "ae2:meteorite_compass" }
@@ -276,43 +441,20 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["2610D92D5D724454"]
-			icon: {
-				id: "techpack:basic_alternator"
-			}
-			id: "3DF1AEE7CF11AB76"
-			tasks: [
-				{
-					id: "2BF438CF42324182"
-					item: { count: 1, id: "techpack:basic_alternator" }
-					type: "item"
-				}
-				{
-					id: "2D3783524692D5FD"
-					item: { count: 1, id: "techpack:basic_electric_motor" }
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0F914F8C5666E10B"]
-			id: "2610D92D5D724454"
-			tasks: [{
-				id: "122C449456DEC227"
-				item: { count: 1, id: "techpack:battery_box" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["0F914F8C5666E10B"]
 			icon: {
 				id: "malum:encyclopedia_esoterica"
 			}
 			id: "237194A5F3216ABE"
+			rewards: [{
+				count: 8
+				id: "57BA3000E6F67868"
+				item: {
+					count: 1
+					id: "malum:refined_soulstone"
+				}
+				type: "item"
+			}]
 			size: 1.0d
 			tasks: [
 				{
@@ -334,6 +476,15 @@
 		{
 			dependencies: ["3DE253B80BC28A15"]
 			id: "7F5AFDB7019CD36F"
+			rewards: [{
+				count: 2
+				id: "795B55B3FD4043CD"
+				item: {
+					count: 1
+					id: "ae2:engineering_processor"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "66C825DBBB9265CF"
 				item: { count: 1, id: "techpack:basic_assembler" }
@@ -346,6 +497,14 @@
 			dependencies: ["65D99804AD9EBCF9"]
 			icon_scale: 0.8d
 			id: "55D4F942D097AFE9"
+			rewards: [{
+				id: "0231F9E528A60C0F"
+				item: {
+					count: 1
+					id: "pneumaticcraft:printed_circuit_board"
+				}
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -353,70 +512,81 @@
 				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.0d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
+			dependencies: [
+				"7F5AFDB7019CD36F"
+				"07FBD1E23915AF6B"
+			]
 			id: "65D99804AD9EBCF9"
+			rewards: [{
+				count: 8
+				id: "586612C28404C7A9"
+				item: {
+					count: 1
+					id: "pneumaticcraft:plastic"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "04A11416620CA70A"
 				item: { count: 1, id: "techpack:hdpe_sheet" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 4.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["237194A5F3216ABE"]
 			id: "2878606D4273FB1C"
+			optional: true
+			rewards: [
+				{
+					id: "7F1ECE7AA64BD1F3"
+					item: {
+						count: 1
+						id: "dungeonsdelight:tokayaki"
+					}
+					type: "item"
+				}
+				{
+					id: "15463BA807CA4D9D"
+					item: {
+						count: 1
+						id: "dungeonsdelight:ghast_roll"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
 			tasks: [{
 				id: "0F75D2529D6049CA"
 				item: { count: 1, id: "techpack:glutton" }
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["237194A5F3216ABE"]
 			id: "34B0C2176A78341B"
+			rewards: [{
+				id: "5AA32E375B4DF585"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "00CB9F44D230E0C9"
 				item: { count: 1, id: "malum:anomalous_design" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.0d
-		}
-		{
-			dependencies: [
-				"641436DAB4BEAE18"
-				"237194A5F3216ABE"
-			]
-			id: "57C18C902133FA4F"
-			tasks: [{
-				icon: {
-					id: "forbidden_arcanus:hephaestus_forge_tier_1"
-				}
-				id: "33D0D9C1E29B6D83"
-				observe_type: 0
-				timer: 0L
-				to_observe: "forbidden_arcanus:hephaestus_forge_tier_1"
-				type: "observation"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["57C18C902133FA4F"]
-			id: "6DC4B98B6837AB86"
-			tasks: [{
-				id: "52114EEFDB0BAFFB"
-				item: { count: 1, id: "malum:spirit_jar" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -3.5d
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 }

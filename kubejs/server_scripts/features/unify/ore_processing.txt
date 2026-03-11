@@ -1,0 +1,159 @@
+let resources = [
+  "iron",
+  "copper",
+  "gold",
+  "tin",
+  "lead",
+  "nickel",
+  "silver",
+  "platinum",
+  "chrome",
+  "aluminum",
+  "zinc",
+];
+let techpackLibrary = [
+  "tin",
+  "lead",
+  "nickel",
+  "silver",
+  "platinum",
+  "chrome",
+  "aluminum",
+];
+ServerEvents.recipes((e) => {
+  // Smelt raw to ingot
+  techpackLibrary.forEach((recipe) => {
+    let smeltRaw = {
+      type: "minecraft:smelting",
+      cookingtime: 200,
+      experience: 0.7,
+      ingredient: {
+        tag: `c:raw_materials/${recipe}`,
+      },
+      result: {
+        id: `techpack:${recipe}_ingot`,
+      },
+    };
+    e.smelting(smeltRaw);
+    e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100)
+      .requireEnergyPerTick(40)
+      .damageItem("#techpack:electrodes", 1).chance(0.5)
+      .requireItem(`#c:raw_materials/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200)
+      .requireEnergyPerTick(10)
+      .requireItem(`#c:raw_materials/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200)
+      .requireFluidPerTick("1x techpack:steam")
+      .requireItem(`#c:raw_materials/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+  });
+  // Smelt ore to ingot
+  techpackLibrary.forEach((recipe) => {
+    let smeltOre = {
+      type: "minecraft:smelting",
+      cookingtime: 200,
+      experience: 0.7,
+      ingredient: {
+        tag: `c:ores/${recipe}`,
+      },
+      result: {
+        id: `techpack:${recipe}_ingot`,
+      },
+    };
+    e.smelting(smeltOre);
+    e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100)
+      .requireEnergyPerTick(40)
+      .damageItem("#techpack:electrodes", 1).chance(0.5)
+      .requireItem(`#c:ores/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200)
+      .requireEnergyPerTick(1)
+      .requireItem(`#c:ores/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200)
+      .requireFluidPerTick("1x techpack:steam")
+      .requireItem(`#c:ores/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+  });
+  // Macerate raw to crushed raw
+  resources.forEach((recipe) => {
+    e.recipes.custommachinery.custom_machine("techpack:steam_macerator", 300)
+      .requireFluidPerTick("10x techpack:steam")
+      .requireItem(`#c:raw_materials/${recipe}`)
+      .produceItem(`create:crushed_raw_${recipe}`)
+      .jei().priority(20);
+    e.recipes.custommachinery.custom_machine("techpack:basic_macerator", 200)
+      .requireEnergyPerTick(10)
+      .requireItem(`#c:raw_materials/${recipe}`)
+      .produceItem(`create:crushed_raw_${recipe}`)
+      .jei().priority(20);
+  });
+  // Wash crushed raw to dust
+  resources.forEach((recipe) => {
+    e.recipes.custommachinery.custom_machine("techpack:basic_washer", 200)
+      .requireEnergyPerTick(2)
+      .requireFluid("500x minecraft:water")
+      .requireItem(`create:crushed_raw_${recipe}`)
+      .produceItem(`techpack:${recipe}_dust`)
+      .produceItem(`techpack:${recipe}_dust`).chance(0.5)
+      .jei().priority(20);
+  });
+  // Smelt crushed raw dust to ingot
+  techpackLibrary.forEach((recipe) => {
+    let smeltRaw = {
+      type: "minecraft:smelting",
+      cookingtime: 200,
+      experience: 0.7,
+      ingredient: {
+        item: `create:crushed_raw_${recipe}`,
+      },
+      result: {
+        id: `techpack:${recipe}_ingot`,
+      },
+    };
+    e.smelting(smeltRaw);
+    e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100)
+      .requireEnergyPerTick(40)
+      .damageItem("#techpack:electrodes", 1).chance(0.5)
+      .requireItem(`create:crushed_raw_${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200)
+      .requireEnergyPerTick(1)
+      .requireItem(`create:crushed_raw_${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200)
+      .requireFluidPerTick("1x techpack:steam")
+      .requireItem(`create:crushed_raw_${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+  });
+  // Smelt dust to ingot
+  techpackLibrary.forEach((recipe) => {
+    let smeltDust = {
+      type: "minecraft:smelting",
+      cookingtime: 200,
+      experience: 0.7,
+      ingredient: {
+        tag: `c:dusts/${recipe}`,
+      },
+      result: {
+        id: `techpack:${recipe}_ingot`,
+      },
+    };
+    e.smelting(smeltDust);
+    e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100)
+      .requireEnergyPerTick(40)
+      .damageItem("#techpack:electrodes", 1).chance(0.5)
+      .requireItem(`#c:dusts/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200)
+      .requireEnergyPerTick(1)
+      .requireItem(`#c:dusts/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+    e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200)
+      .requireFluidPerTick("1x techpack:steam")
+      .requireItem(`#c:dusts/${recipe}`)
+      .produceItem(`techpack:${recipe}_ingot`);
+  });
+});

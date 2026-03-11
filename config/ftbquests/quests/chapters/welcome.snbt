@@ -1,0 +1,148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: "21AA9A7C71ABF0D8"
+	icon: {
+		id: "supplementaries:globe"
+	}
+	id: "60C1129EFB537008"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "techpack:basic_circuit"
+			}
+			icon_scale: 0.8d
+			id: "1A3A54924B73AC16"
+			rewards: [{
+				id: "64F5C581FEA4C2AD"
+				item: {
+					components: {
+						"akashictome:tool_content": [
+							{
+								components: {
+									"akashictome:defined_mod": "actuallyadditions"
+								}
+								count: 1
+								id: "actuallyadditions:booklet"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "pneumaticcraft"
+									"patchouli:book": "pneumaticcraft:book"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "industrialforegoing"
+									"patchouli:book": "industrialforegoing:industrial_foregoing"
+								}
+								count: 1
+								id: "patchouli:guide_book"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "ae2"
+								}
+								count: 1
+								id: "ae2:guide"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "guideme"
+									"guideme:guide_id": "techpack:moddedpedia"
+								}
+								count: 1
+								id: "guideme:guide"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "eidolon_repraised"
+								}
+								count: 1
+								id: "eidolon_repraised:codex"
+							}
+							{
+								components: {
+									"akashictome:defined_mod": "malum"
+								}
+								count: 1
+								id: "malum:encyclopedia_arcana"
+							}
+						]
+					}
+					count: 1
+					id: "akashictome:tome"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0CAA99F0F153531E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A3A54924B73AC16"]
+			icon: {
+				components: {
+					"ftbquests:icon": "heart_crystals:block/heart_crystal"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "249468D2EF78C781"
+			tasks: [{
+				id: "156A88357B49872E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A3A54924B73AC16"]
+			icon: {
+				id: "create:cardboard"
+			}
+			id: "1A0195C3F2E573D2"
+			tasks: [{
+				id: "0C839B616617EECB"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A3A54924B73AC16"]
+			icon: {
+				id: "techpack:basic_assembler"
+			}
+			id: "61269CD93AF58105"
+			tasks: [{
+				id: "3A1900B02D223AF6"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A3A54924B73AC16"]
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "0DBE6BF4CFAF1A3B"
+			tasks: [{
+				id: "57804835506CADEF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

@@ -1,0 +1,253 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "overcharging_batteries"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "techpack:battery_box"
+	}
+	id: "7696EE02F2B1DD58"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["45A37C53986F22D5"]
+			id: "24F5ECC2B60B0519"
+			shape: "circle"
+			tasks: [{
+				id: "286E3C2672230093"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:basic_steam_turbine" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45A37C53986F22D5"]
+			id: "15ED0195EF216414"
+			tasks: [{
+				id: "139A5A05044CB96D"
+				item: { count: 1, id: "stellaris:solar_panel" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"0A8E9A4C0CB8B2F9"
+				"0F914F8C5666E10B"
+			]
+			id: "0024155B82130D4C"
+			rewards: [
+				{
+					id: "78F7E01F9931DEFC"
+					item: {
+						count: 1
+						id: "techpack:steam_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "777461E982473DA6"
+					item: {
+						count: 1
+						id: "create_new_age:electrical_connector"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7DA857EF626A22A0"
+					item: {
+						count: 1
+						id: "create_new_age:copper_wire"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5BAFA13793AB04CC"
+				item: { count: 1, id: "techpack:steam_dynamo" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0024155B82130D4C"]
+			id: "0E0E3A04DA447FCB"
+			tasks: [{
+				id: "56FA4233B0ED6B9F"
+				item: { count: 1, id: "techpack:thermal_dynamo" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["37D103217329768D"]
+			id: "7635673F8F876A6C"
+			tasks: [{
+				id: "11E7BE1168EABD6F"
+				item: { count: 1, id: "techpack:cesu" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["17ACC3F136B65A84"]
+			id: "37D103217329768D"
+			rewards: [
+				{
+					id: "645FBDC6926C584F"
+					item: {
+						components: {
+							"ftbquests:missing_item": "createaddition:connector"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "20AA8AF1845D8CB0"
+					item: {
+						components: {
+							"ftbquests:missing_item": "createaddition:gold_spool"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "616F6630C464772C"
+				item: { count: 1, id: "techpack:battery_box" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7635673F8F876A6C"]
+			id: "29073EC7402A5376"
+			tasks: [{
+				id: "306C29C5AA2B624B"
+				item: { count: 1, id: "techpack:mfe" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29073EC7402A5376"]
+			id: "160928995ACA6830"
+			tasks: [{
+				id: "3686EAD82775119D"
+				item: { count: 1, id: "techpack:mfsu" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37D103217329768D"]
+			id: "55E844F8235AB0BE"
+			tasks: [{
+				id: "39D4AE2CE8DD76B0"
+				item: { count: 1, id: "enderio:basic_capacitor_bank" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7635673F8F876A6C"]
+			id: "7707FFB553A7CA99"
+			tasks: [{
+				id: "5EDF848F22D3DF91"
+				item: { count: 1, id: "enderio:advanced_capacitor_bank" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["29073EC7402A5376"]
+			id: "7D907E59BC0C349B"
+			tasks: [{
+				id: "153FF7372B5A9624"
+				item: { count: 1, id: "enderio:vibrant_capacitor_bank" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "techpack:redstone_reception_coil"
+			}
+			icon_scale: 0.8d
+			id: "17ACC3F136B65A84"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "24E292689073998A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "techpack:redstone_transmission_coil"
+			}
+			icon_scale: 0.8d
+			id: "0A8E9A4C0CB8B2F9"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "1A353F5ED5BE4FEC"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0024155B82130D4C"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "12D8383ABF9B4FC0"
+			rewards: [{
+				id: "1084F7A3D0582D54"
+				item: {
+					count: 1
+					id: "create:rotation_speed_controller"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5EF6E908441107B2"
+				item: { count: 1, id: "create_new_age:generator_coil" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0024155B82130D4C"]
+			id: "45A37C53986F22D5"
+			tasks: [{
+				id: "0B5A713AC78B5D01"
+				item: { count: 1, id: "techpack:basic_combustion_engine" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+	]
+}

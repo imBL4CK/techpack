@@ -1,9 +1,11 @@
-ServerEvents.recipes(e => {
-  let recipe = e.recipes.modular_machinery_reborn.machine_recipe
-  let coal = "#techpack:library/coal_fragments"
+ServerEvents.recipes((e) => {
+  let recipe = e.recipes.modular_machinery_reborn.machine_recipe;
 
-  //Bronze ingot
-  recipe("techpack:large_boiler", 20).requireItem(coal, 20, 20).requireFluid("4000x minecraft:water", 40, 20).produceFluid("2000x techpack:steam", 90, 20)
-  .width(128).height(64).progressX(62).progressY(22)
-
-})
+  recipe("techpack:large_boiler", 100)
+    .requireEnergy(10, 0, 1)
+    .requireFluid("1000x minecraft:water", 20, 18)
+    .produceFluid("1000x techpack:steam", 70, 18)
+    .width(96)
+    .height(56)
+    .progressData(ProgressData.create().x(42).y(19))
+});

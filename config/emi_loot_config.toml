@@ -2,7 +2,7 @@
 version = 1
 debugMode = false
 parseChestLoot = true
-parseBlockLoot = false
+parseBlockLoot = true
 parseMobLoot = true
 parseGameplayLoot = true
 parseArchaeologyLoot = true
@@ -14,9 +14,12 @@ skippedKeys = [
     "emi_loot.function.limit_count"
 ]
 chestLootAlwaysStackSame = false
-mobLootIncludeDirectDrops = true
+splitChestLootByTrial = false
 chanceDecimalPlaces = 1
 conditionStyle = "default"
+linkFormatting = [
+    "UNDERLINE"
+]
 
 [debugModes]
 block = false
@@ -27,12 +30,19 @@ archaeology = false
 
 [compactLoot]
 block = true
-chest = false
-mob = false
-gameplay = false
+chest = true
+mob = true
+gameplay = true
 archaeology = true
 
-[logUnstranslatedTables]
+[logUntranslatedTables]
 chest = false
 gameplay = false
 archaeology = false
+
+[directDrops]
+chestLoot = true
+blockLoot = true
+mobLoot = true
+gameplayLoot = true
+archaeologyLoot = true

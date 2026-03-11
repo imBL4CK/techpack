@@ -1,0 +1,20 @@
+{
+  "tabId": "example_patchouli_book",
+  "enabled": false,
+  "icon": {
+    "item": "patchouli:guide_book",
+    "fallbackItem": "minecraft:book",
+    "scale": 1.0,
+    "patchouliBook": "examplemod:guide"
+  },
+  "tooltip": "Example Patchouli Book",
+  "order": 101,
+  "action": {
+    "type": "open_patchouli_book",
+    "bookId": "examplemod:guide"
+  },
+  "requiredMods": [
+    "patchouli",
+    "examplemod"
+  ]
+}

@@ -1,136 +1,153 @@
+import { techpackMachineAPI } from "./techpack_machineAPI"; 
+
 ServerEvents.recipes((e) => {
-  //Raw to crushed tin
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/tin")
-    .produceItem("create:crushed_raw_tin")
-    .priority(1)
-    .jei();
+    const BasicRecipes = [
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:sulfur_crystal"],
+            "produceItem": ["4x techpack:sulfur_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:sulfur_cluster"],
+            "produceItem": ["4x techpack:sulfur_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:cinnabar_block"],
+            "produceItem": ["4x techpack:cinnabar"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 2,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:cinnabar_cluster"],
+            "produceItem": ["4x techpack:cinnabar"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["techpack:fireclay"],
+            "produceItem": ["4x techpack:fireclay_ball"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:sand"],
+            "produceItem": ["4x techpack:sifted_sand"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#techpack:seashells"],
+            "produceItem": ["2x techpack:calcium_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:calcite"],
+            "produceItem": ["4x techpack:calcium_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["#c:bones"],
+            "produceItem": ["4x techpack:calcium_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:bone_meal"],
+            "produceItem": ["techpack:calcium_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:coal"],
+            "produceItem": ["enderio:powdered_coal"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 4,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:stone"],
+            "produceItem": ["minecraft:cobblestone"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 4,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:cobblestone"],
+            "produceItem": ["minecraft:gravel"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 4,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:gravel"],
+            "produceItem": ["minecraft:sand"]
+        },
+    ]
+    const AdvancedRecipes = [
+        {
+            "machineType": "techpack:advanced_macerator",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:coal_coke"],
+            "produceItem": ["techpack:hop_graphite_dust"]
+        },
+    ]
 
-  //Raw to crushed silver
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/silver")
-    .produceItem("create:crushed_raw_silver")
-    .priority(1)
-    .jei();
+  BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+  AdvancedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
+  //SophisticatedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
 
-  //Raw to crushed nickel
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/nickel")
-    .produceItem("create:crushed_raw_nickel")
-    .priority(1)
-    .jei();
-
-  //Raw to crushed copper
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/copper")
-    .produceItem("create:crushed_raw_copper")
-    .priority(1)
-    .jei();
-
-  //Raw to crushed iron
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/iron")
-    .produceItem("create:crushed_raw_iron")
-    .priority(1)
-    .jei();
-
-  //Raw to crushed gold
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/gold")
-    .produceItem("create:crushed_raw_gold")
-    .priority(1)
-    .jei();
-
-  //Raw to crushed zinc
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("#c:raw_materials/zinc")
-    .produceItem("create:crushed_raw_zinc")
-    .priority(1)
-    .jei();
-
-  //Sulfur crystal tso dusts
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("techpack:sulfur_crystal")
-    .produceItem("4x techpack:sulfur_dust")
-    .priority(2)
-    .jei();
-
-  //Sulfur cluster to dust
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("techpack:sulfur_cluster")
-    .produceItem("4x techpack:sulfur_dust")
-    .priority(2)
-    .jei();
-
-  //Cinnabar block to cinnabar
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("techpack:cinnabar_block")
-    .produceItem("4x techpack:cinnabar")
-    .priority(3)
-    .jei();
-
-  //Cinnabar cluster to cinnabar
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("techpack:cinnabar_cluster")
-    .produceItem("4x techpack:cinnabar")
-    .priority(3)
-    .jei();
-
-  //Fireclay Balls
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("techpack:fireclay")
-    .produceItem("techpack:fireclay_ball")
-    .priority(4)
-    .jei();
-
-  //Sifted sand
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("minecraft:sand")
-    .produceItem("4x techpack:sifted_sand")
-    .priority(4)
-    .jei();
-
-  //Calcium dust by seashells
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("nomansland:seashells")
-    .produceItem("techpack:calcium_dust")
-    .priority(5)
-    .jei();
-
-  //Calcium dust by calcite
-  e.recipes.custommachinery
-    .custom_machine("techpack:basic_macerator", 200)
-    .requireEnergy(2000)
-    .requireItem("minecraft:calcite")
-    .produceItem("techpack:calcium_dust")
-    .priority(5)
-    .jei();
+  //Upper tier inherit recipes from lower tier
+  const AdvancedToSophisticated = AdvancedRecipes.map((rec) => {
+    const clone = JSON.parse(JSON.stringify(rec));
+    clone.machineType = "techpack:sophisticated_macerator";
+    return clone;
+  });
+  AdvancedToSophisticated.forEach((recipe) => { techpackMachineAPI(e,recipe)});
 });

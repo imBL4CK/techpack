@@ -11,6 +11,8 @@
 	fireworkItems = ["minecraft:firework_rocket"]
 	#Blocks that should be protected in the prevent accidental mining tweak.
 	fragileBlocks = ["minecraft:small_amethyst_bud", "minecraft:medium_amethyst_bud", "minecraft:large_amethyst_bud", "minecraft:budding_amethyst"]
+	#Items that count as food for the offhand-torch and -use tweak options.
+	foodItems = ["supplementaries:lunch_basket"]
 
 [tweaks]
 	#This option will let you climb ladders automatically by just looking upwards, rather than requiring a key to be held down.

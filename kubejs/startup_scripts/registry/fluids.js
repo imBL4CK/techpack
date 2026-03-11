@@ -1,7 +1,15 @@
 StartupEvents.registry("fluid", (e) => {
     e.create("techpack:steam").stillTexture("techpack:fluids/steam_still").flowingTexture("techpack:fluids/steam_flow")
-    e.create("techpack:ethylene").stillTexture("techpack:fluids/ethylene_still").flowingTexture("techpack:fluids/ethylene_flow")
     e.create("techpack:wood_tar").stillTexture("techpack:fluids/wood_tar_still").flowingTexture("techpack:fluids/wood_tar_flow")
     e.create("techpack:benzene").stillTexture("techpack:fluids/benzene_still").flowingTexture("techpack:fluids/benzene_flow")
+    e.create("techpack:tetrafluoroethylene").stillTexture("techpack:fluids/tetrafluoroethylene_still").flowingTexture("techpack:fluids/tetrafluoroethylene_flow")
+    e.create("techpack:polytetrafluoroethylene").stillTexture("techpack:fluids/polytetrafluoroethylene_still").flowingTexture("techpack:fluids/polytetrafluoroethylene_flow")
+    
     e.create("techpack:creosote").stillTexture("techpack:fluids/creosote_still").flowingTexture("techpack:fluids/creosote_flow")
+    e.create("techpack:ice_coolant").stillTexture("techpack:fluids/ice_coolant_still").flowingTexture("techpack:fluids/ice_coolant_flow")
+    e.create("techpack:ethylene").stillTexture("techpack:fluids/ethylene_still").flowingTexture("techpack:fluids/ethylene_flow")
+    e.create("techpack:fluorine").stillTexture("techpack:fluids/fluorine_still").flowingTexture("techpack:fluids/fluorine_flow")
+
+    e.create("techpack:redstone_acid").stillTexture("techpack:fluids/redstone_acid_still").flowingTexture("techpack:fluids/redstone_acid_flow")
+    e.create("techpack:organic_oil").stillTexture("techpack:fluids/organic_oil_still").flowingTexture("techpack:fluids/organic_oil_flow")
 });

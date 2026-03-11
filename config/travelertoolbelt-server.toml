@@ -1,0 +1,30 @@
+#Server config settings
+[server]
+	#List of items allowed in the tool belt (this overrides the blacklist) (Use registry names or tags, for example: "minecraft:apple", "#minecraft:planks")
+	whitelist = []
+	#List of items not allowed in the tool belt (the whitelist takes precedence) (Use registry names or tags, for example: "minecraft:apple", "#minecraft:planks")
+	blacklist = []
+	#If true, all non-stackable items can be placed in the tool belt
+	allowAllNonStackableItems = true
+	#If true, any item can be placed in the tool belt
+	allowAllItems = false
+
+	[server.slotCount]
+		# Default: 2
+		# Range: 1 ~ 20
+		leatherSlotCount = 2
+		# Default: 3
+		# Range: 1 ~ 20
+		copperSlotCount = 3
+		# Default: 4
+		# Range: 1 ~ 20
+		ironSlotCount = 4
+		# Default: 5
+		# Range: 1 ~ 20
+		goldSlotCount = 5
+		# Default: 7
+		# Range: 1 ~ 20
+		diamondSlotCount = 7
+		# Default: 9
+		# Range: 1 ~ 20
+		netheriteSlotCount = 9

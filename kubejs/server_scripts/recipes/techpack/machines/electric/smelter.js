@@ -8,7 +8,7 @@ ServerEvents.recipes((e) => {
       let output = r.originalRecipeResult;
       e.recipes.custommachinery
         .custom_machine("techpack:basic_smelter", 200)
-        .requireEnergyPerTick(8)
+        .requireEnergyPerTick(10)
         .requireItem(ingredients[0])
         .produceItem(Item.of(output.id));
     }

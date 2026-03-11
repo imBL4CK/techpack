@@ -1,0 +1,108 @@
+{
+	autofocus_id: "6C94484DF36590E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane_artifacts"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "malum:erosion_scepter"
+	}
+	id: "1CEDC4FEE00CE52A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_details_until_startable: false
+			icon: {
+				id: "eidolon_repraised:worktable"
+			}
+			icon_scale: 0.8d
+			id: "6C94484DF36590E0"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "692A3B59A895E673"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "1C85EB0005A68FB4"
+			tasks: [{
+				id: "6E5B1891977158E9"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "046905B7B5A103DA"
+			tasks: [{
+				id: "209A0E6075E2E344"
+				item: { count: 1, id: "eidolon_repraised:research_table" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["046905B7B5A103DA"]
+			id: "3F1DBEFBC29CD8D0"
+			tasks: [{
+				id: "6441ADE44AD63ACA"
+				item: { count: 1, id: "eidolon_repraised:scriptorium" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			id: "49F40F7F6022D23D"
+			tasks: [{
+				id: "083DAD8B3E67368A"
+				item: { count: 1, id: "malum:runic_workbench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			id: "7BAD891E3F751E80"
+			tasks: [{
+				id: "2591B8487162B350"
+				item: { count: 1, id: "malum:runewood_obelisk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			id: "1CC4B12781DEA31D"
+			tasks: [{
+				id: "3B0B4491A2C96471"
+				item: { count: 1, id: "malum:brilliant_obelisk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "3DF515DC4F37E8B4"
+			tasks: [{
+				id: "2E6847DD31DA7B35"
+				item: { count: 1, id: "malum:weavers_workbench" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+}
