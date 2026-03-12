@@ -1,19 +1,18 @@
 StartupEvents.registry("block", (e) => {  
   //Sulfur
-  e.create("techpack:sulfur_crystal").tagBoth("c:storage_blocks/sulfur").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(30);
   e.create(`techpack:budding_sulfur`).soundType("amethyst").randomTick((tick) => global.buddingSulfur(tick)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").noDrops().mapColor(30);
+  e.create("techpack:sulfur_block").tagBoth("c:storage_blocks/sulfur").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(30);
   e.create("techpack:sulfur_cluster").box(0.25, 0.25, 0.25, 0.75, 0.75, 0.75, false).soundType("amethyst").transparent(true).notSolid().fullBlock(false).property(BlockProperties.FACING).renderType("cutout").placementState(event => event.set(BlockProperties.FACING, event.clickedFace)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(30);
   //Cinnabar
-  e.create("techpack:cinnabar_block").tagBoth("c:storage_blocks/cinnabar").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   e.create(`techpack:budding_cinnabar`).soundType("amethyst").randomTick((tick) => global.buddingCinnabar(tick)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").noDrops().mapColor(52);
+  e.create("techpack:cinnabar_block").tagBoth("c:storage_blocks/cinnabar").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   e.create("techpack:small_cinnabar_bud").box(0.25, 0.25, 0.25, 0.75, 0.75, 0.75, false).soundType("amethyst").transparent(true).notSolid().fullBlock(false).property(BlockProperties.FACING).renderType("cutout").placementState(event => event.set(BlockProperties.FACING, event.clickedFace)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   e.create("techpack:medium_cinnabar_bud").box(0.25, 0.25, 0.25, 0.75, 0.75, 0.75, false).soundType("amethyst").transparent(true).notSolid().fullBlock(false).property(BlockProperties.FACING).renderType("cutout").placementState(event => event.set(BlockProperties.FACING, event.clickedFace)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   e.create("techpack:large_cinnabar_bud").box(0.25, 0.25, 0.25, 0.75, 0.75, 0.75, false).soundType("amethyst").transparent(true).notSolid().fullBlock(false).property(BlockProperties.FACING).renderType("cutout").placementState(event => event.set(BlockProperties.FACING, event.clickedFace)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   e.create("techpack:cinnabar_cluster").box(0.25, 0.25, 0.25, 0.75, 0.75, 0.75, false).soundType("amethyst").transparent(true).notSolid().fullBlock(false).property(BlockProperties.FACING).renderType("cutout").placementState(event => event.set(BlockProperties.FACING, event.clickedFace)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(52);
   //Strange Crystal
-  e.create("techpack:strange_crystal_block").tagBoth("c:storage_blocks/strange_crystal").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(5);
   e.create(`techpack:budding_strange_crystal`).soundType("amethyst").randomTick((tick) => global.buddingStrangeCrystal(tick)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(2);
-  
+  e.create("techpack:strange_crystal_block").tagBoth("c:storage_blocks/strange_crystal").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(5);
 });
 
 // Credits for creating the function: liopyu on discord
