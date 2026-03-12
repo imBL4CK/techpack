@@ -12,30 +12,19 @@
       "chance": 0.25
     },
     {
-      "id": "create:crushed_raw_silver",
-      "chance": 0.25
-    },
-    {
-      "id": "techpack:crushed_raw_silicon",
-      "chance": 0.25
-    },
-    {
-      "id": "create:crushed_raw_platinum",
+      "id": "create:crushed_raw_aluminum",
       "chance": 0.1
-    },
-    {
-      "id": "create:crushed_raw_aluminum"
     },
     {
       "id": "techpack:crushed_raw_chrome",
       "chance": 0.1
     },
     {
-      "id": "techpack:cinnabar",
+      "id": "techpack:sulfur_dust",
       "chance": 0.25
     },
     {
-      "id": "techpack:sulfur_dust",
+      "id": "techpack:cinnabar",
       "chance": 0.25
     },
     {
