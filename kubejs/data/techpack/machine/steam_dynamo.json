@@ -1,0 +1,121 @@
+{
+  "name": {
+    "text": {
+      "translate": "Steam Dynamo"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:light": 10
+    },
+    "custommachinery:block": "techpack:machines/steam_dynamo#standalone",
+    "custommachinery:item": "techpack:machines/steam/steam_dynamo#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 4.0,
+      "config": {
+        "TOP": "DISABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "ENABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "OUTPUT",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "capacity": 32000,
+      "max_input": 4000
+    },
+    {
+      "type": "custommachinery:fluid",
+      "mode": "input",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "NONE",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "whitelist": "techpack:steam",
+      "max_input": 4000,
+      "max_output": 4000,
+      "id": "fluid_input_tank",
+      "capacity": 16000
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 103,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Steam Storage: 16.000 mB"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Steam I/O: 4000 mB"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy generation: 50 RF/t"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy storage: 32.000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 4000 RF/t"
+      }
+    }
+  ]
+}
