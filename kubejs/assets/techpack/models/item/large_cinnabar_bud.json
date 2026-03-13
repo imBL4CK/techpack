@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "techpack:item/bud/large_cinnabar_bud"
+    "layer0": "techpack:block/large_cinnabar_bud"
   }
 }

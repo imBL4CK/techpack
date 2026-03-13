@@ -1,5 +1,7 @@
 StartupEvents.registry("block", (e) => {
   let machines = [
+    "creative_redstone_flux_source",
+
     "low_pressure_boiler",
     "high_pressure_boiler",
 
@@ -56,14 +58,12 @@ StartupEvents.registry("block", (e) => {
     "mfe",
     "mfsu",
 
-    
-    "copper_drum",
-    "steel_drum",
-
     "steam_dynamo",
     "heat_dynamo",
+    "cryo_dynamo",
     
     "basic_combustion_engine",
+
     "bee_house",
     "apiary",
 
@@ -71,10 +71,11 @@ StartupEvents.registry("block", (e) => {
     "electric_pump",
     "resource_collector",
     "inorganic_matter_generator",
+
+    "basic_fluid_cell",
+
     "kiln",
     "glutton",
-
-    "creative_redstone_flux_source"
   ];
   machines.forEach((registry) => {
     e.create(`techpack:${registry}`, "custommachinery:custom_machine");

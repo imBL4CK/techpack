@@ -55,7 +55,7 @@ ServerEvents.recipes((e) => {
       "processingTime": 100,
       "requireEnergyPerTick": basicTierEnergyCost,
       "requireItem": ["techpack:basic_reaction_chamber"],
-      "produceItem": ["techpack:basic_machine_casing",  "techpack:steel_drum", "minecraft:brewing_stand", "techpack:redstone_reception_coil", "techpack:basic_circuit"],
+      "produceItem": ["techpack:basic_machine_casing",  "techpack:basic_fluid_cell", "minecraft:brewing_stand", "techpack:redstone_reception_coil", "techpack:basic_circuit"],
     },
     {
       "processingTime": 100,

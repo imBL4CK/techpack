@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "techpack:item/bud/sulfur_cluster"
+    "layer0": "techpack:block/sulfur_cluster"
   }
 }

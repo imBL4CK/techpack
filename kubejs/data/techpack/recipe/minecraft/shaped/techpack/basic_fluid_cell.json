@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EBE",
+    "BTB",
+    "EBE"
+  ],
+  "key": {
+    "E": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "B": {
+      "item": "techpack:bronze_ingot"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "id": "techpack:basic_fluid_cell"
+  }
+}

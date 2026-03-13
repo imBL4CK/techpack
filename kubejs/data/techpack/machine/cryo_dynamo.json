@@ -1,14 +1,14 @@
 {
   "name": {
     "text": {
-      "translate": "Heat Dynamo"
+      "translate": "Cryo Dynamo"
     }
   },
   "appearance": {
     "running": {
       "custommachinery:light": 15
     },
-    "custommachinery:block": "techpack:machines/heat_dynamo#standalone",
+    "custommachinery:block": "techpack:machines/cryo_dynamo#standalone",
     "custommachinery:interaction_sound": {
       "step": "minecraft:block.metal.step",
       "place": "minecraft:block.metal.place",
@@ -16,7 +16,7 @@
       "fall": "minecraft:block.metal.fall",
       "break": "minecraft:block.metal.break"
     },
-    "custommachinery:item": "techpack:machines/heat_dynamo#standalone",
+    "custommachinery:item": "techpack:machines/cryo_dynamo#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [
@@ -47,7 +47,7 @@
         "LEFT": "NONE",
         "input": true
       },
-      "whitelist": "#c:lava",
+      "whitelist": "#techpack:coolants",
       "max_input": 4000,
       "max_output": 4000,
       "id": "fluid_tank",
@@ -147,7 +147,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Heat Dynamo"
+          "translate": "Cryo Dynamo"
         }
       }
     }

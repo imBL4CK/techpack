@@ -29,8 +29,8 @@ ServerEvents.recipes(e => {
     {
       "processingTime": 300,
       "requireFluid": [{ perTick: "20x techpack:steam"}],
-      "requireItem": ["16x techpack:sulfur_crystal"],
-      "produceItem": ["64x techpack:sulfur_dust"],
+      "requireItem": ["7x techpack:sulfur_block"],
+      "produceItem": ["63x techpack:sulfur_dust"],
     },
     {
       "processingTime": 300,

@@ -102,7 +102,7 @@ RecipeViewerEvents.addInformation("item", e => {
     },
     {
       item: [
-        "techpack:sulfur_crystal",
+        "techpack:sulfur_block",
         "techpack:budding_sulfur",
         "techpack:sulfur_cluster",
         "techpack:sulfur_dust",

@@ -10,4 +10,6 @@ ServerEvents.recipes((e) => {
   replaceIronToCasingMaterials.forEach((recipe) => {
     e.replaceInput({ id: recipe }, "#c:ingots/iron", "#techpack:casing_materials");
   });
+
+  e.replaceInput({ id: "travelertoolbelt:belt" }, "minecraft:leather", "techpack:tanned_leather");
 })

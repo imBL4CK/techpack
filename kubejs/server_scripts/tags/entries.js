@@ -165,7 +165,12 @@ const itemTag = [
     action: "add"
   },
 ];
-const fluidTag = []
+const fluidTag = [
+  {
+    tag: "techpack:coolants",
+    fluid: ["techpack:ice_coolant"],
+    action: "add"
+  },]
 ServerEvents.tags("block", (e) => {
   blockTag.forEach((entry) => {
     if (entry.action == "add") {
@@ -187,9 +192,9 @@ ServerEvents.tags("item", (e) => {
 ServerEvents.tags("fluid", (e) => {
   fluidTag.forEach((entry) => {
     if (entry.action == "add") {
-      e.add(entry.tag, entry.block);
+      e.add(entry.tag, entry.fluid);
     } else if (entry.action == "remove") {
-      e.remove(entry.tag, entry.block);
+      e.remove(entry.tag, entry.fluid);
     }
   });
 });

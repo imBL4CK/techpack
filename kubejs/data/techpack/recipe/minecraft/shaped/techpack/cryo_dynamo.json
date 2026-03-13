@@ -3,7 +3,7 @@
   "pattern": [
     " T ",
     "ISI",
-    "CMC"
+    "AMA"
   ],
   "key": {
     "T": {
@@ -15,14 +15,14 @@
     "S": {
       "item": "create:steam_engine"
     },
-    "C": {
-      "item": "techpack:constantan_ingot"
+    "A": {
+      "item": "techpack:aluminum_ingot"
     },
     "M": {
-      "item": "techpack:basic_machine_casing"
+      "item": "techpack:advanced_machine_casing"
     }
   },
   "result": {
-    "id": "techpack:heat_dynamo"
+    "id": "techpack:cryo_dynamo"
   }
 }

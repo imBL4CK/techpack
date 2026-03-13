@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "HSH",
-    "DCD",
+    "FCF",
     "GBG"
   ],
   "key": {
@@ -12,8 +12,8 @@
     "S": {
       "item": "minecraft:brewing_stand"
     },
-    "D": {
-      "item": "techpack:steel_drum"
+    "F": {
+      "item": "techpack:basic_fluid_cell"
     }, 
     "C": {
       "item": "techpack:sophisticated_machine_casing"

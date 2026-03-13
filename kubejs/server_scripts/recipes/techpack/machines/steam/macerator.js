@@ -8,8 +8,8 @@ ServerEvents.recipes((e) => {
             "processingTime": 200,  
             "requireFluid": [{ perTick: "1x techpack:steam" }],
             "jeiDisplayPriority": 1,
-            "requireItem": ["techpack:sulfur_crystal"],
-            "produceItem": ["4x techpack:sulfur_dust"]
+            "requireItem": ["techpack:sulfur_block"],
+            "produceItem": ["9x techpack:sulfur_dust"]
         },
         //Sulfur cluster to dusts
         {

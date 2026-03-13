@@ -14,13 +14,11 @@ StartupEvents.registry("item", (e) => {
   e.create("techpack:wrought_iron_pickaxe", "pickaxe").tier("wrought_iron_tier").unstackable();
   e.create("techpack:wrought_iron_axe", "axe").tier("wrought_iron_tier").unstackable();
   e.create("techpack:wrought_iron_shovel", "shovel").tier("wrought_iron_tier").unstackable();
-  e.create("techpack:wrought_iron_shield", "shield").maxDamage(600).unstackable();
   //Steel Tools
   e.create("techpack:steel_sword", "sword").tier("steel_tier").unstackable();
   e.create("techpack:steel_pickaxe", "pickaxe").tier("steel_tier").unstackable();
   e.create("techpack:steel_axe", "axe").tier("steel_tier").unstackable();
   e.create("techpack:steel_shovel", "shovel").tier("steel_tier").unstackable();
-  e.create("techpack:steel_shield", "shield").maxDamage(1200).unstackable();
   //Stabillis Tools
   e.create("techpack:etheric_sword", "sword").tier("stabillis_tier").unstackable();
   e.create("techpack:worldshaper_pickaxe", "pickaxe").tier("stabillis_tier").unstackable();

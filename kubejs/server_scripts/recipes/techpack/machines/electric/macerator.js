@@ -8,8 +8,8 @@ ServerEvents.recipes((e) => {
             "jeiDisplayPriority": 1,
             "processingTime": 200,  
             "requireEnergy": { perTick: 20 },
-            "requireItem": ["techpack:sulfur_crystal"],
-            "produceItem": ["4x techpack:sulfur_dust"]
+            "requireItem": ["techpack:sulfur_block"],
+            "produceItem": ["9x techpack:sulfur_dust"]
         },
         {
             "machineType": "techpack:basic_macerator",

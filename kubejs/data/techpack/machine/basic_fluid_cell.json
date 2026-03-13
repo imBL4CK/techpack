@@ -1,0 +1,140 @@
+{
+  "name": {
+    "text": {
+      "translate": "Basic Fluid Cell"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/fluid_storage/basic_fluid_cell#standalone",
+    "custommachinery:item": "techpack:machines/fluid_storage/basic_fluid_cell#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:fluid",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "max_input": 4000,
+      "max_output": 4000,
+      "id": "fluid_tank",
+      "capacity": 16000
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "fluid_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "fluid_output_slot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "x": 61,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/flui"
+      },
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_input_slot.png"
+      },
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_output_slot.png"
+      },
+      "x": 97,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Basic Fluid Cell"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67,
+      "height": 18
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Fluid storage: 16.000 mB"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Fluid I/O: 4.000 mB/t"
+      }
+    }
+  ]
+}
