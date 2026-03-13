@@ -1,25 +1,25 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "PGP",
-    "SAS",
-    "FCF"
+    "FPF",
+    "DAD",
+    "SCS"
   ],
   "key": {
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
     "P": {
       "item": "enderio:photovoltaic_plate"
     },
-    "G": {
-      "tag": "c:glass_blocks"
-    },
-    "S": {
-      "item": "pneumaticcraft:solar_cell"
+    "D": {
+      "item": "stellaris:desh_ingot"
     },
     "A": {
       "item": "techpack:advanced_machine_casing"
     },
-    "F": {
-      "item": "techpack:carbon_fiber"
+    "S": {
+      "item": "techpack:steel_plate"
     },
     "C": {
       "item": "pneumaticcraft:printed_circuit_board"

@@ -23,4 +23,6 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("techpack:deepslate_lead_ore", "Deepslate Galena Ore");
   event.renameItem("techpack:chrome_ore", "Chromite Ore");
   event.renameItem("techpack:deepslate_chrome_ore", "Deepslate Chromite Ore");
+
+  event.renameItem("stellaris:raw_desh_ingot", "Raw Desh");
 });
