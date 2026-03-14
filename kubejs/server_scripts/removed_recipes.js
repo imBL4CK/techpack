@@ -1,3 +1,4 @@
+//priority: 1000
 ServerEvents.recipes((e) => {
   let remove_recipes = [
     "sophisticatedbackpacks:backpack",
@@ -299,7 +300,11 @@ ServerEvents.recipes((e) => {
     "industrialforegoing:diamond_gear",
     "create:pressing/copper_ingot",
     "create:pressing/iron_ingot",
-    "create:pressing/gold_ingot"
+    "create:pressing/gold_ingot",
+    "stellaris:misc/uranium_from_smelting_raw_uranium",
+    "stellaris:misc/uranium_from_smelting",
+    "stellaris:misc/uranium_from_blasting_raw_uranium",
+    "stellaris:misc/uranium_from_blasting"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

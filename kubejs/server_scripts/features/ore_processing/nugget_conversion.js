@@ -6,6 +6,7 @@ ServerEvents.recipes((e) => {
     "platinum",
     "aluminum",
     "chrome",
+    "uranium",
     "steel",
     "bronze",
     "electrum",

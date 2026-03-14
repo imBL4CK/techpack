@@ -4,7 +4,7 @@ ServerEvents.recipes((e) => {
   const recipes = [
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:bronze_dust"],
@@ -12,7 +12,7 @@ ServerEvents.recipes((e) => {
       },
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:steel_dust"],
@@ -20,7 +20,7 @@ ServerEvents.recipes((e) => {
       },
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:constantan_dust"],
@@ -28,7 +28,7 @@ ServerEvents.recipes((e) => {
       },
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:invar_dust"],
@@ -36,7 +36,7 @@ ServerEvents.recipes((e) => {
       },
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:electrum_dust"],
@@ -44,7 +44,7 @@ ServerEvents.recipes((e) => {
       },
       {
         "machineType": "techpack:basic_centrifuge",
-        "jeiDisplayPriority": 2,
+        "jeiDisplayPriority": 3,
         "processingTime": 600,
         "requireEnergy": { perTick: 50 },
         "requireItem": ["techpack:kanthal_dust"],

@@ -6,6 +6,7 @@ const entries = [
     nativeRaw: true,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -13,6 +14,7 @@ const entries = [
     nativeRaw: true,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -20,6 +22,7 @@ const entries = [
     nativeRaw: true,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -35,6 +38,7 @@ const entries = [
     nativeRaw: true,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -49,6 +53,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -63,6 +68,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -77,6 +83,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -91,6 +98,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -105,6 +113,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -119,6 +128,7 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -133,6 +143,20 @@ const entries = [
     hotIngot: false,
     plate: true,
     gear: true,
+    purifiedDust: true,
+    dust: true,
+  },
+  {
+    id: "uranium",
+    raw: true,
+    nativeRaw: true,
+    ingot: true,
+    nugget: true,
+    hotIngot: true,
+    hottestIngot: true,
+    plate: false,
+    gear: false,
+    purifiedDust: true,
     dust: true,
   },
   {
@@ -234,6 +258,12 @@ StartupEvents.registry("item", (e) => {
     }
   });
   entries.forEach((entry) => {
+    if (entry.hottestIngot) {
+      console.log(`. hottest ${entry.id} ingot registered.`)
+      e.create(`techpack:hottest_${entry.id}_ingot`).tag(`c:hottest_ingots`).tag(`c:hottest_ingots/${entry.id}`).texture(`techpack:item/material_builder/hottest_${entry.id}_ingot`);
+    }
+  });
+  entries.forEach((entry) => {
     if (entry.nugget) {
       console.log(`. ${entry.id} nugget registered.`)
       e.create(`techpack:${entry.id}_nugget`).tag(`c:nuggets`).tag(`c:nuggets/${entry.id}`).texture(`techpack:item/material_builder/${entry.id}_nugget`);
@@ -249,6 +279,12 @@ StartupEvents.registry("item", (e) => {
     if (entry.gear) {
       console.log(`. ${entry.id} gear registered.`)
       e.create(`techpack:${entry.id}_gear`).tag(`c:gears`).tag(`c:gears/${entry.id}`).texture(`techpack:item/material_builder/${entry.id}_gear`);
+    }
+  });
+  entries.forEach((entry) => {
+    if (entry.purifiedDust) {
+      console.log(`. purified ${entry.id} dust registered.`)
+      e.create(`techpack:purified_${entry.id}_dust`).tag(`c:purified_dusts`).tag(`c:purified_dusts/${entry.id}`).texture(`techpack:item/material_builder/purified_${entry.id}_dust`);
     }
   });
   entries.forEach((entry) => {

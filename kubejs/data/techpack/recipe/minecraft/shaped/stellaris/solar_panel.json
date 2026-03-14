@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "FPF",
-    "DAD",
-    "SCS"
+    "SAS",
+    "DCD"
   ],
   "key": {
     "F": {

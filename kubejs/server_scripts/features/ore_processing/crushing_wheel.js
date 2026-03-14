@@ -9,7 +9,8 @@ ServerEvents.recipes((e) => {
     "lead",
     "nickel",
     "platinum",
-    "aluminum", 
+    "aluminum",
+    "uranium"
   ];
   entries.forEach((entry) => {
     e.custom({

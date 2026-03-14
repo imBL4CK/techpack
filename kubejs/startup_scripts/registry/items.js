@@ -17,6 +17,7 @@ StartupEvents.registry("item", (e) => {
     "ice_coolant_ball",
     "ice_coolant_paste",
     "rare_earths",
+    "fissile_uranium"
   ];
   let organicResources = [
     "washed_leather",
@@ -55,6 +56,7 @@ StartupEvents.registry("item", (e) => {
     "basic_circuit",
     "sophisticated_circuit_board",
     "sophisticated_circuit",
+    //"computer_unit",
     "spiritual_circuit",
     "redstone_reception_coil",
     "redstone_conductance_coil",

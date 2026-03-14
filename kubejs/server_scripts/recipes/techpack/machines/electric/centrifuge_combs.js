@@ -4,7 +4,7 @@ ServerEvents.recipes((e) => {
   const recipes = [
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 20 },
       "requireItem": ["techpack:sweet_comb"],
@@ -20,7 +20,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 20 },
       "requireItem": ["techpack:sticky_comb"],
@@ -36,7 +36,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 20 },
       "requireItem": ["techpack:oscillanting_comb"],
@@ -52,7 +52,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 20 },
       "requireItem": ["techpack:warm_comb"],
@@ -68,7 +68,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 30 },
       "requireItem": ["techpack:depth_comb"],
@@ -82,7 +82,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 20 },
       "requireItem": ["techpack:arcane_comb"],
@@ -98,7 +98,7 @@ ServerEvents.recipes((e) => {
     },
     {
       "machineType": "techpack:basic_centrifuge",
-      "jeiDisplayPriority": 1,
+      "jeiDisplayPriority": 2,
       "processingTime": 600,
       "requireEnergy": { perTick: 50 },
       "requireItem": ["techpack:precious_comb"],
