@@ -1,0 +1,14 @@
+{
+  "type": "enderio:vat_fermenting",
+  "ticks": 200,
+  "input": {
+    "tag": "minecraft:water",
+    "amount": 1000
+  },
+  "left_reagent": "c:dusts/sulfur",
+  "right_reagent": "c:quicksilver",
+  "output": {
+    "id": "techpack:ore_washing_acid",
+    "amount": 1000
+  }
+}

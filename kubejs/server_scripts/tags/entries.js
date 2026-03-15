@@ -164,6 +164,11 @@ const itemTag = [
     item: ["#c:ingots/iron", "#c:ingots/tin", "#c:ingots/zinc"],
     action: "add"
   },
+  {
+    tag: "c:quicksilver",
+    item: ["techpack:quicksilver"],
+    action: "add"
+  },
 ];
 const fluidTag = [
   {

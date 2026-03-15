@@ -4,21 +4,6 @@
       "translate": "Advanced Centrifuge"
     }
   },
-  "parent": "techpack:basic_centrifuge",
-  "modifiers": [
-    {
-      "requirement": "custommachinery:speed",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 0.75
-    },
-    {
-      "requirement": "custommachinery:energy_per_tick",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 1.25
-    }
-  ],
   "appearance": {
     "custommachinery:block": "techpack:machines/advanced/centrifuge#standalone",
     "custommachinery:item": "techpack:machines/advanced/centrifuge#standalone",
@@ -27,70 +12,118 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "max_output": 4000,
       "capacity": 16000,
+      "max_output": 4000,
       "max_input": 4000
     },
     {
-      "type": "custommachinery:fluid",
-      "mode": "output",
-      "config": {
-        "TOP": "OUTPUT",
-        "BOTTOM": "OUTPUT",
-        "FRONT": "OUTPUT",
-        "RIGHT": "OUTPUT",
-        "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
-      },
-      "max_input": 1000,
-      "max_output": 1000,
       "id": "fluid_output_tank_1",
-      "capacity": 4000
-    },
-    {
       "type": "custommachinery:fluid",
       "mode": "output",
-      "config": {
-        "TOP": "OUTPUT",
-        "BOTTOM": "OUTPUT",
-        "FRONT": "OUTPUT",
-        "RIGHT": "OUTPUT",
-        "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
-      },
       "max_input": 1000,
       "max_output": 1000,
+      "capacity": 4000,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
       "id": "fluid_output_tank_2",
-      "capacity": 4000
+      "type": "custommachinery:fluid",
+      "mode": "output",
+      "max_input": 1000,
+      "max_output": 1000,
+      "capacity": 4000,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "input_slot",
-      "mode": "input"
+      "type": "custommachinery:item",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_1",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_2",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_3",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_4",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item_energy",
-      "id": "energy_input_slot"
+      "id": "energy_input_slot",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [

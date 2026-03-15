@@ -10,39 +10,55 @@
   "components": [
     {
       "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
       "id": "output_slot_1",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
       "id": "output_slot_2",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "input_slot_1",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "input_slot_2",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:energy",
@@ -53,7 +69,15 @@
     {
       "type": "custommachinery:item_energy",
       "id": "energy_input_slot",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [

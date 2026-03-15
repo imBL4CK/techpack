@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Steam Alloy Foundry"
+    "text": {
+      "translate": "Steam Alloy Foundry"
+    }
   },
   "appearance": {
     "custommachinery:block": "techpack:machines/steam/alloy_foundry#standalone",
@@ -9,7 +11,7 @@
   },
   "components": [
     {
-      "type": "custommachinery:item",
+      "type": "custommachinery:fluid",
       "config": {
         "TOP": "INPUT",
         "BOTTOM": "INPUT",
@@ -17,6 +19,48 @@
         "RIGHT": "INPUT",
         "BACK": "INPUT",
         "LEFT": "INPUT"
+      },
+      "whitelist": "techpack:steam",
+      "max_input": 1000,
+      "max_output": 1000,
+      "id": "fluid_tank",
+      "capacity": 8000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "input_slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "output_slot_1",
       "mode": "output"
@@ -24,46 +68,15 @@
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "output_slot_2",
       "mode": "output"
-    },
-    {
-      "type": "custommachinery:item_fluid",
-      "id": "fluid_insert_slot",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_slot_1",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_slot_2",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:fluid",
-      "whitelist": "techpack:steam",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
-      "id": "fluid_tank",
-      "capacity": 8000,
-      "max_input": 1000,
-      "max_output": 1000
     }
   ],
   "gui": [
@@ -74,19 +87,6 @@
       },
       "width": 176,
       "height": 176
-    },
-    {
-      "type": "custommachinery:player_inventory",
-      "x": 7,
-      "y": 91
-    },
-    {
-      "type": "custommachinery:text",
-      "x": 8,
-      "y": 6,
-      "text": {
-        "text": "Steam Alloy Foundry"
-      }
     },
     {
       "type": "custommachinery:config",
@@ -109,13 +109,20 @@
       "y": 49
     },
     {
-      "type": "custommachinery:slot",
-      "id": "input_slot_2",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/slot.png"
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 80,
+      "y": 32,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
       },
-      "x": 52,
-      "y": 31
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
     },
     {
       "type": "custommachinery:slot",
@@ -124,6 +131,15 @@
         "texture": "techpack:textures/gui/machines/slot.png"
       },
       "x": 34,
+      "y": 31
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 52,
       "y": 31
     },
     {
@@ -145,23 +161,26 @@
       "y": 49
     },
     {
-      "type": "custommachinery:progress",
-      "x": 80,
-      "y": 32,
-      "texture_empty": {
-        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
-      },
-      "texture_filled": {
-        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Steam Alloy Foundry"
+        }
       }
     }
   ],
   "tooltips": [
     {
-      "text": "- Steam storage: 8000 mB"
+      "text": {
+        "translate": "- Steam storage: 8000 mB"
+      }
     },
     {
-      "text": "- Steam I/O: 1000 mB/t"
+      "text": {
+        "translate": "- Steam I/O: 1000 mB/t"
+      }
     }
   ]
 }

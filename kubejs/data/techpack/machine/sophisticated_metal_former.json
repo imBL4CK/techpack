@@ -24,45 +24,61 @@
   },
   "components": [
     {
-      "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
       "id": "output_slot",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "id": "input_slot_1",
+      "type": "custommachinery:item",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "id": "input_slot_2",
+      "type": "custommachinery:item",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
-      "id": "energy_input_slot"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:energy",
       "capacity": 64000,
       "max_input": 16000,
       "max_output": 16000
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_slot_1",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item",
-      "id": "input_slot_2",
-      "mode": "input"
     }
   ],
   "gui": [
@@ -81,24 +97,26 @@
     },
     {
       "type": "custommachinery:text",
-      "x": 8,
-      "y": 6,
       "text": {
         "text": "Sophisticated Metal Former"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_slot",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/slot.png"
       },
-      "x": 111,
-      "y": 23
+      "x": 8,
+      "y": 6
     },
     {
-      "type": "custommachinery:slot",
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      },
+      "x": 53,
+      "y": 42
+    },
+    {
       "id": "energy_input_slot",
+      "type": "custommachinery:slot",
       "texture": {
         "texture": "techpack:textures/gui/machines/energy_input_slot.png"
       },
@@ -106,19 +124,8 @@
       "y": 59
     },
     {
-      "type": "custommachinery:energy",
-      "texture_filled": {
-        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
-      },
-      "x": 53,
-      "y": 42,
-      "texture_empty": {
-        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
       "id": "input_slot_1",
+      "type": "custommachinery:slot",
       "texture": {
         "texture": "techpack:textures/gui/machines/slot.png"
       },
@@ -126,24 +133,42 @@
       "y": 23
     },
     {
-      "type": "custommachinery:progress",
-      "x": 84,
-      "y": 24,
-      "texture_empty": {
-        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
-      },
-      "texture_filled": {
-        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
-      }
-    },
-    {
-      "type": "custommachinery:slot",
       "id": "input_slot_2",
+      "type": "custommachinery:slot",
       "texture": {
         "texture": "techpack:textures/gui/machines/slot.png"
       },
       "x": 62,
       "y": 23
+    },
+    {
+      "id": "output_slot",
+      "type": "custommachinery:slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 111,
+      "y": 23
+    },
+    {
+      "id": "energy_input_slot",
+      "type": "custommachinery:slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 53,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      },
+      "x": 84,
+      "y": 24
     },
     {
       "type": "custommachinery:config",

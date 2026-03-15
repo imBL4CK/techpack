@@ -1,22 +1,9 @@
 {
   "name": {
-    "text": "Advanced Assembler"
-  },
-  "parent": "techpack:basic_assembler",
-  "modifiers": [
-    {
-      "requirement": "custommachinery:speed",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 0.75
-    },
-    {
-      "requirement": "custommachinery:energy_per_tick",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 1.25
+    "text": {
+      "translate": "Advanced Assembler"
     }
-  ],
+  },
   "appearance": {
     "custommachinery:block": "techpack:machines/advanced/assembler#standalone",
     "custommachinery:item": "techpack:machines/advanced/assembler#standalone",
@@ -32,6 +19,14 @@
     {
       "type": "custommachinery:fluid",
       "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "max_input": 1000,
       "max_output": 1000,
       "id": "fluid_input_tank_1",
@@ -40,6 +35,14 @@
     {
       "type": "custommachinery:fluid",
       "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "max_input": 1000,
       "max_output": 1000,
       "id": "fluid_input_tank_2",
@@ -49,12 +52,12 @@
       "type": "custommachinery:fluid",
       "mode": "output",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "max_input": 1000,
       "max_output": 1000,
@@ -63,51 +66,131 @@
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_1",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_2",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_3",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_4",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_5",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot_6",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "output_slot_1",
       "mode": "output"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "output_slot_2",
       "mode": "output"
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "output_slot_3",
       "mode": "output"
     },
     {
       "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "energy_input_slot",
       "mode": "input"
     }
@@ -282,27 +365,39 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Advanced Assembler"
+        "text": {
+          "translate": "Advanced Assembler"
+        }
       }
     }
   ],
   "tooltips": [
     {
-      "text": "- Energy storage: 16000 RF"
+      "text": {
+        "translate": "- Energy storage: 16000 RF"
+      }
     },
     {
-      "text": "- Energy I/O: 4000 RF/t"
+      "text": {
+        "translate": "- Energy I/O: 4000 RF/t"
+      }
     },
     {
-      "text": "- Unlocks new recipes.",
+      "text": {
+        "translate": "- Unlocks new recipes."
+      },
       "color": "yellow"
     },
     {
-      "text": "- 25% Faster than basic tier",
+      "text": {
+        "translate": "- 25% Faster than basic tier"
+      },
       "color": "green"
     },
     {
-      "text": "- 25% More energy cost",
+      "text": {
+        "translate": "- 25% More energy cost"
+      },
       "color": "red"
     }
   ]

@@ -1,7 +1,7 @@
 import { techpackMachineAPI } from "././recipes/techpack/techpack_machineAPI"; 
 
 ServerEvents.recipes((e) => {
-    let acid = "10x techpack:redstone_acid"
+    let acid = "10x techpack:ore_washing_acid"
     const recipes = [
         {
             "machineType": "techpack:basic_washer",

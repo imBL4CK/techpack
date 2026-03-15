@@ -18,18 +18,26 @@
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
       "id": "input_slot",
       "mode": "input"
     },
     {
       "type": "custommachinery:item",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "output_slot",
       "mode": "output"
@@ -37,12 +45,12 @@
     {
       "type": "custommachinery:item_energy",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
       },
       "id": "energy_input_slot"
     }
@@ -136,12 +144,12 @@
   "tooltips": [
     {
       "text": {
-        "translate": "- Energy storage: 4000 RF"
+        "translate": "- Energy storage: 4.000 RF"
       }
     },
     {
       "text": {
-        "translate": "- Energy I/O: 1000 RF/t"
+        "translate": "- Energy I/O: 1.000 RF/t"
       }
     }
   ]

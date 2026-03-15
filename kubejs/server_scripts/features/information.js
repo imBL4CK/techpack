@@ -145,6 +145,18 @@ RecipeViewerEvents.addInformation("item", e => {
       item: "#techpack:electrodes",
       info: "Electrodes are essential for induction furnaces to function. Their durability varies depending on the material used in their recipe.",
     },
+    /*{
+      item: "techpack:silite",
+      info: "A solid rock, with a hardness similar to deepslate. Can be found in lunar caves",
+    },*/
+    {
+      item: "techpack:strange_dirt",
+      info: "A soil with a strange color, it seems to resemble sand, small stones can be found in its composition. Can be found in lunar caves",
+    },
+    {
+      item: "techpack:rare_earths",
+      info: "Small patches of strange land that have a higher concentration of ores.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

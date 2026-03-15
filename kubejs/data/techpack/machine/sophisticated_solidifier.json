@@ -25,48 +25,64 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "max_output": 16000,
       "capacity": 64000,
+      "max_output": 16000,
       "max_input": 16000
     },
     {
+      "id": "fluid_input_tank",
       "type": "custommachinery:fluid",
       "mode": "input",
       "max_input": 1000,
       "max_output": 1000,
-      "id": "fluid_input_tank",
-      "capacity": 4000
+      "capacity": 4000,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
       "id": "input_slot",
-      "mode": "input"
-    },
-    {
       "type": "custommachinery:item",
-      "id": "output_slot",
-      "mode": "output"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item_energy",
+      "id": "output_slot",
+      "type": "custommachinery:item",
+      "mode": "output",
       "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
       "id": "energy_input_slot",
-      "mode": "input"
+      "type": "custommachinery:item_energy",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [

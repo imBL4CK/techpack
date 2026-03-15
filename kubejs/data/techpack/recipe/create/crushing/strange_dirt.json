@@ -1,0 +1,23 @@
+{
+  "type": "create:crushing",
+  "processing_time": 100,
+  "ingredients": [
+    {
+      "item": "techpack:strange_dirt"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:rare_earths",
+      "count": 2
+    },
+    {
+      "id": "techpack:rare_earths",
+      "chance": 0.5
+    },
+    {
+      "id": "techpack:rare_earths",
+      "chance": 0.25
+    }
+  ]
+}

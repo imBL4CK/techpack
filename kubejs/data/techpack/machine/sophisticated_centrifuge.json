@@ -27,70 +27,118 @@
   "components": [
     {
       "type": "custommachinery:energy",
-      "max_output": 16000,
       "capacity": 64000,
+      "max_output": 16000,
       "max_input": 16000
     },
     {
+      "id": "fluid_output_tank_1",
       "type": "custommachinery:fluid",
       "mode": "output",
-      "config": {
-        "TOP": "OUTPUT",
-        "BOTTOM": "OUTPUT",
-        "FRONT": "OUTPUT",
-        "RIGHT": "OUTPUT",
-        "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
-      },
+      "capacity": 4000,
       "max_input": 1000,
       "max_output": 1000,
-      "id": "fluid_output_tank_1",
-      "capacity": 4000
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
+      "id": "fluid_output_tank_2",
       "type": "custommachinery:fluid",
       "mode": "output",
-      "config": {
-        "TOP": "OUTPUT",
-        "BOTTOM": "OUTPUT",
-        "FRONT": "OUTPUT",
-        "RIGHT": "OUTPUT",
-        "BACK": "OUTPUT",
-        "LEFT": "OUTPUT"
-      },
+      "capacity": 4000,
       "max_input": 1000,
       "max_output": 1000,
-      "id": "fluid_output_tank_2",
-      "capacity": 4000
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "input_slot",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "output_slot_1",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "output_slot_2",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "output_slot_3",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "output_slot_4",
-      "mode": "output"
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item_energy",
-      "id": "energy_input_slot"
+      "id": "energy_input_slot",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [

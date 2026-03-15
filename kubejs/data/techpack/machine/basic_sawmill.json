@@ -9,39 +9,87 @@
   },
   "components": [
     {
-      "type": "custommachinery:item",
-      "id": "input_slot",
-      "mode": "input"
-    },
-    {
-      "type": "custommachinery:item_energy",
-      "id": "energy_input_slot"
-    },
-    {
       "type": "custommachinery:energy",
       "capacity": 4000,
       "max_input": 1000,
       "max_output": 1000
     },
     {
+      "id": "input_slot",
       "type": "custommachinery:item",
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "id": "energy_input_slot",
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
       "id": "output_slot_1",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_2",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_3",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:item",
       "id": "output_slot_4",
-      "mode": "output"
+      "type": "custommachinery:item",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [
@@ -157,10 +205,10 @@
   ],
   "tooltips": [
     {
-      "text": "- Energy storage: 4000 RF"
+      "text": "- Energy storage: 4.000 RF"
     },
     {
-      "text": "- Energy I/O: 1000 RF/t"
+      "text": "- Energy I/O: 1.000 RF/t"
     }
   ]
 }

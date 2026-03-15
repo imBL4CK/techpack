@@ -1,22 +1,9 @@
 {
   "name": {
-    "text": "Advanced Alloy Foundry"
-  },
-  "parent": "techpack:basic_alloy_foundry",
-  "modifiers": [
-    {
-      "requirement": "custommachinery:speed",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 0.75
-    },
-    {
-      "requirement": "custommachinery:energy_per_tick",
-      "mode": "input",
-      "operation": "multiplication",
-      "modifier": 1.25
+    "text": {
+      "translate": "Advanced Alloy Foundry"
     }
-  ],
+  },
   "appearance": {
     "custommachinery:block": "techpack:machines/advanced/alloy_foundry#standalone",
     "custommachinery:item": "techpack:machines/advanced/alloy_foundry#standalone",
@@ -24,51 +11,75 @@
   },
   "components": [
     {
-      "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
-      "id": "output_slot_1",
-      "mode": "output"
-    },
-    {
-      "type": "custommachinery:item",
-      "config": {
-        "TOP": "INPUT",
-        "BOTTOM": "INPUT",
-        "FRONT": "INPUT",
-        "RIGHT": "INPUT",
-        "BACK": "INPUT",
-        "LEFT": "INPUT"
-      },
-      "id": "output_slot_2",
-      "mode": "output"
+      "type": "custommachinery:energy",
+      "max_output": 4000,
+      "capacity": 16000,
+      "max_input": 4000
     },
     {
       "type": "custommachinery:item",
       "id": "input_slot_1",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item",
       "id": "input_slot_2",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
-      "type": "custommachinery:energy",
-      "capacity": 16000,
-      "max_input": 4000,
-      "max_output": 4000
+      "type": "custommachinery:item",
+      "id": "output_slot_1",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_2",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     },
     {
       "type": "custommachinery:item_energy",
       "id": "energy_input_slot",
-      "mode": "input"
+      "mode": "input",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
     }
   ],
   "gui": [
@@ -81,44 +92,31 @@
       "height": 176
     },
     {
-      "type": "custommachinery:player_inventory",
-      "x": 7,
-      "y": 91
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67
     },
     {
-      "type": "custommachinery:text",
-      "x": 8,
-      "y": 6,
-      "text": {
-        "text": "Advanced Alloy Foundry"
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 43,
+      "y": 41,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
       }
     },
     {
-      "type": "custommachinery:slot",
-      "id": "energy_input_slot",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
-      },
-      "x": 43,
-      "y": 58
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_slot_1",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/slot.png"
-      },
-      "x": 106,
-      "y": 23
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "output_slot_2",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/slot.png"
-      },
-      "x": 124,
-      "y": 23
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
     },
     {
       "type": "custommachinery:progress",
@@ -132,15 +130,13 @@
       }
     },
     {
-      "type": "custommachinery:energy",
-      "texture_filled": {
-        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
       },
       "x": 43,
-      "y": 41,
-      "texture_empty": {
-        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
-      }
+      "y": 58
     },
     {
       "type": "custommachinery:slot",
@@ -161,30 +157,55 @@
       "y": 23
     },
     {
-      "type": "custommachinery:config",
-      "texture_hovered": {
-        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
-      },
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
       "texture": {
-        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+        "texture": "techpack:textures/gui/machines/slot.png"
       },
-      "x": 153,
-      "y": 67
+      "x": 106,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 124,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "Advanced Alloy Foundry"
+        }
+      }
     }
   ],
   "tooltips": [
     {
-      "text": "- Energy storage: 16000 RF"
+      "text": {
+        "translate": "- Energy storage: 16000 RF"
+      }
     },
     {
-      "text": "- Energy I/O: 4000 RF/t"
+      "text": {
+        "translate": "- Energy I/O: 4000 RF/t"
+      }
     },
     {
-      "text": "- 25% Faster than basic tier",
+      "text": {
+        "translate": "- 25% Faster than basic tier"
+      },
       "color": "green"
     },
     {
-      "text": "- 25% More energy cost",
+      "text": {
+        "translate": "- 25% More energy cost"
+      },
       "color": "red"
     }
   ]
