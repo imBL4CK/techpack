@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "P P",
+    "C C",
+    "E E"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "C": {
+      "tag": "c:ingots/calorite"
+    },
+    "E": {
+      "item": "stellaris:rocket_engine"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_boots"
+  }
+}

@@ -173,7 +173,7 @@ const itemTag = [
 const fluidTag = [
   {
     tag: "techpack:coolants",
-    fluid: ["techpack:ice_coolant"],
+    fluid: ["techpack:ice_coolant", "techpack:hydrogen_fluoride"],
     action: "add"
   },]
 ServerEvents.tags("block", (e) => {

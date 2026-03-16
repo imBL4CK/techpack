@@ -7,6 +7,8 @@ StartupEvents.registry("fluid", (e) => {
     //
     e.create("techpack:creosote").stillTexture("techpack:fluids/creosote_still").flowingTexture("techpack:fluids/creosote_flow")
     e.create("techpack:ice_coolant").stillTexture("techpack:fluids/ice_coolant_still").flowingTexture("techpack:fluids/ice_coolant_flow")
+    e.create("techpack:hydrogen_fluoride").stillTexture("techpack:fluids/hydrogen_fluoride_still").flowingTexture("techpack:fluids/hydrogen_fluoride_flow")
+    e.create("techpack:below_zero_coolant").stillTexture("techpack:fluids/below_zero_coolant_still").flowingTexture("techpack:fluids/below_zero_coolant_flow")
     e.create("techpack:ethylene").stillTexture("techpack:fluids/ethylene_still").flowingTexture("techpack:fluids/ethylene_flow")
     e.create("techpack:fluorine").stillTexture("techpack:fluids/fluorine_still").flowingTexture("techpack:fluids/fluorine_flow")
     //

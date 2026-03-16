@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "C C",
+    "T T"
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:thermal_insulating_fabric"
+    },
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "C": {
+      "tag": "c:ingots/calorite"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_leggings"
+  }
+}

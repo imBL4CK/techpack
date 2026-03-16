@@ -304,7 +304,11 @@ ServerEvents.recipes((e) => {
     "stellaris:misc/uranium_from_smelting_raw_uranium",
     "stellaris:misc/uranium_from_smelting",
     "stellaris:misc/uranium_from_blasting_raw_uranium",
-    "stellaris:misc/uranium_from_blasting"
+    "stellaris:misc/uranium_from_blasting",
+    "stellaris:armor/jet_suit_helmet",
+    "stellaris:armor/jet_suit_chestplate",
+    "stellaris:armor/jet_suit_leggings",
+    "stellaris:armor/jet_suit_boots"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

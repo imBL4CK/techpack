@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:wolf": true
-			"minecraft:chicken": true
 			"hominid:juggernaut": true
-			"minecraft:sheep": true
-			"minecraft:zombie_villager": true
-			"minecraft:cow": true
+			"minecraft:donkey": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
+			"minecraft:skeleton": true
+			"minecraft:pillager": true
+			"minecraft:spider": true
+			"nomansland:tortoise": true
+			"minecraft:creeper": true
+			"minecraft:glow_squid": true
+			"hominid:famished": true
+			"minecraft:wither": true
+			"minecraft:squid": true
+			"minecraft:wandering_trader": true
 			"minecraft:husk": true
-			"minecraft:villager": true
 			"minecraft:rabbit": true
+			"minecraft:wolf": true
 			"minecraft:enderman": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:witch": true
+			"nomansland:goose": true
 			"minecraft:cod": false
 			"primal:bear": true
-			"minecraft:axolotl": true
-			"minecraft:spider": true
-			"minecraft:donkey": true
-			"minecraft:pillager": true
-			"minecraft:horse": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:squid": true
-			"minecraft:witch": true
-			"minecraft:trader_llama": true
-			"eidolon_repraised:slimy_slug": true
-			"nomansland:goose": true
-			"nomansland:tortoise": true
+			"minecraft:sheep": true
+			"minecraft:cow": true
 			"eidolon_repraised:wraith": true
-			"hominid:fossilised": true
-			"minecraft:wither": true
 			"minecraft:salmon": false
-			"minecraft:zombie": true
-			"minecraft:skeleton": true
-			"minecraft:bat": true
-			"minecraft:wandering_trader": true
-			"hominid:famished": true
-			"minecraft:glow_squid": true
-			"minecraft:creeper": true
+			"minecraft:trader_llama": true
+			"minecraft:axolotl": true
+			"minecraft:villager": true
+			"eidolon_repraised:slimy_slug": true
+			"minecraft:horse": true
 			"minecraft:pig": true
+			"hominid:fossilised": true
+			"minecraft:zombie_villager": true
+			"minecraft:bat": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

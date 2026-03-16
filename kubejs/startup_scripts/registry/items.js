@@ -31,6 +31,7 @@ StartupEvents.registry("item", (e) => {
   let processedMaterials = [
     "rubber",
     "rubber_sheet",
+    "thermal_insulating_fabric",
     "bio_plastic_sheet",
     "bio_plastic_mesh",
     "hdpe_sheet",
@@ -79,6 +80,7 @@ StartupEvents.registry("item", (e) => {
     "silver_battery_cell",
     "void_machine_parts",
     "soul_machine_parts",
+    "flux_infused_alloy_plating",
   ];
   let items = [
     "scraps",
@@ -100,6 +102,9 @@ StartupEvents.registry("item", (e) => {
     "incomplete_electron_tube",
     "incomplete_steam_engine",
   ];
+  
+  e.create("techpack:stellarithe_capacitor","enderio:capacitor").displayName("Stellarithe Capacitor").rarity("epic").baseValue(5)
+
   rawResources.forEach((registry) => {
     e.create(`techpack:${registry}`);
   });

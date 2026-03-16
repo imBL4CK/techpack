@@ -149,13 +149,22 @@ const entries = [
   {
     id: "uranium",
     raw: true,
-    nativeRaw: true,
     ingot: true,
     nugget: true,
     hotIngot: true,
     hottestIngot: true,
     plate: false,
     gear: false,
+    purifiedDust: true,
+    dust: true,
+  },
+  {
+    id: "calorite",
+    raw: true,
+    ingot: true,
+    nugget: true,
+    hotIngot: true,
+    hottestIngot: true,
     purifiedDust: true,
     dust: true,
   },
@@ -205,6 +214,14 @@ const entries = [
     dust: true,
   },
   {
+    id: "flux_infused_alloy",
+    ingot: true,
+    nugget: true,
+    hotIngot: true,
+    hottestIngot: true,
+    dust: true,
+  },
+  {
     id: "kanthal",
     ingot: true,
     nugget: true,
@@ -229,6 +246,14 @@ const entries = [
     hotIngot: true,
     plate: true,
     gear: true,
+    dust: true,
+  },
+  {
+    id: "stellarithe",
+    ingot: true,
+    nugget: true,
+    hotIngot: true,
+    hottestIngot: true,
     dust: true,
   },
 ];
@@ -295,6 +320,7 @@ StartupEvents.registry("item", (e) => {
   });
   e.create("techpack:crushed_raw_chrome").texture(`techpack:item/material_builder/crushed_raw_chrome`);
   e.create("techpack:crushed_raw_silicon").texture(`techpack:item/material_builder/crushed_raw_silicon`);
+  e.create("techpack:crushed_raw_calorite").texture(`techpack:item/material_builder/crushed_raw_calorite`);
 });
 StartupEvents.registry("block", (e) => {
   function materialBuilderAPI(e, buildData) {

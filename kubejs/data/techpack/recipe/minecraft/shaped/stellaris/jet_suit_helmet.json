@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TPT",
+    "CGC"
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:thermal_insulating_fabric"
+    },
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "C": {
+      "tag": "c:ingots/calorite"
+    },
+    "G": {
+      "item": "techpack:obsidian_glass"
+    }
+  },
+  "result": {
+    "id": "stellaris:jet_suit_helmet"
+  }
+}

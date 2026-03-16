@@ -783,6 +783,15 @@ ServerEvents.recipes((e) => {
             "requireItem": ["techpack:sculk_vibration_coil", "2x techpack:hdpe_sheet", "2x techpack:silver_plate"],
             "produceItem": ["industrialforegoingsouls:soul_surge"],
         },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["2x techpack:flux_infused_alloy_ingot"],
+            "requireFluid": ["200x techpack:redstone_acid"],
+            "produceItem": ["techpack:flux_infused_alloy_plating"],
+        },
     ]
     BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
     AdvancedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});

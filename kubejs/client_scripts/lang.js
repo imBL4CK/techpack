@@ -10,12 +10,12 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("pipez:ultimate_upgrade", "Sophisticated Connection Module");
   event.renameItem("pipez:infinity_upgrade", "Creative Connection Module");
   event.renameItem("supplementaries:wrench", "Rotation Wrench");
+  event.renameItem("create:electron_tube", "Rose Quartz Electron Tube");
   
   event.renameItem("techpack:smd_capacitor", "SMD Capacitor");
   event.renameItem("techpack:smd_transistor", "SMD Transistor");
   event.renameItem("techpack:smd_resistor", "SMD Resistor");
   event.renameItem("techpack:smd_diode", "SMD Diode");
-  event.renameItem("create:electron_tube", "Rose Quartz Electron Tube");
 
   event.renameItem("techpack:aluminum_ore", "Bauxite Ore");
   event.renameItem("techpack:deepslate_aluminum_ore", "Deepslate Bauxite Ore");
