@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W W",
+    "TGT",
+    "WTW"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:wool"
+    },
+    "T": {
+      "item": "techpack:thermal_insulating_fabric"
+    },
+    "G": {
+      "item": "stellaris:oxygen_tank"
+    }
+  },
+  "result": {
+    "id": "stellaris:space_suit_chestplate"
+  }
+}

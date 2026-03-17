@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"hominid:juggernaut": true
-			"minecraft:donkey": true
-			"minecraft:zombie": true
-			"minecraft:chicken": true
-			"minecraft:skeleton": true
+			"minecraft:creeper": true
+			"minecraft:pig": true
+			"primal:bear": true
 			"minecraft:pillager": true
 			"minecraft:spider": true
-			"nomansland:tortoise": true
-			"minecraft:creeper": true
-			"minecraft:glow_squid": true
-			"hominid:famished": true
-			"minecraft:wither": true
-			"minecraft:squid": true
-			"minecraft:wandering_trader": true
+			"hominid:juggernaut": true
+			"minecraft:zombie": true
 			"minecraft:husk": true
-			"minecraft:rabbit": true
-			"minecraft:wolf": true
-			"minecraft:enderman": true
 			"eidolon_repraised:zombie_brute": true
-			"minecraft:witch": true
-			"nomansland:goose": true
-			"minecraft:cod": false
-			"primal:bear": true
-			"minecraft:sheep": true
-			"minecraft:cow": true
-			"eidolon_repraised:wraith": true
+			"minecraft:wolf": true
+			"minecraft:chicken": true
 			"minecraft:salmon": false
-			"minecraft:trader_llama": true
+			"hominid:fossilised": true
+			"nomansland:goose": true
+			"eidolon_repraised:wraith": true
+			"hominid:famished": true
+			"minecraft:enderman": true
+			"minecraft:horse": true
+			"minecraft:witch": true
+			"minecraft:donkey": true
+			"minecraft:wither": true
+			"minecraft:sheep": true
 			"minecraft:axolotl": true
 			"minecraft:villager": true
 			"eidolon_repraised:slimy_slug": true
-			"minecraft:horse": true
-			"minecraft:pig": true
-			"hominid:fossilised": true
-			"minecraft:zombie_villager": true
+			"minecraft:skeleton": true
 			"minecraft:bat": true
+			"minecraft:cod": false
+			"minecraft:zombie_villager": true
+			"minecraft:glow_squid": true
+			"minecraft:rabbit": true
+			"minecraft:squid": true
+			"minecraft:cow": true
+			"nomansland:tortoise": true
+			"minecraft:wandering_trader": true
+			"minecraft:trader_llama": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

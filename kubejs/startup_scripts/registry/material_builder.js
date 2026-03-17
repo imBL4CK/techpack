@@ -152,7 +152,6 @@ const entries = [
     ingot: true,
     nugget: true,
     hotIngot: true,
-    hottestIngot: true,
     plate: false,
     gear: false,
     purifiedDust: true,
@@ -164,7 +163,6 @@ const entries = [
     ingot: true,
     nugget: true,
     hotIngot: true,
-    hottestIngot: true,
     purifiedDust: true,
     dust: true,
   },
@@ -218,7 +216,6 @@ const entries = [
     ingot: true,
     nugget: true,
     hotIngot: true,
-    hottestIngot: true,
     dust: true,
   },
   {
@@ -253,7 +250,6 @@ const entries = [
     ingot: true,
     nugget: true,
     hotIngot: true,
-    hottestIngot: true,
     dust: true,
   },
 ];
@@ -280,12 +276,6 @@ StartupEvents.registry("item", (e) => {
     if (entry.hotIngot) {
       console.log(`. hot ${entry.id} ingot registered.`)
       e.create(`techpack:hot_${entry.id}_ingot`).tag(`c:hot_ingots`).tag(`c:hot_ingots/${entry.id}`).texture(`techpack:item/material_builder/hot_${entry.id}_ingot`);
-    }
-  });
-  entries.forEach((entry) => {
-    if (entry.hottestIngot) {
-      console.log(`. hottest ${entry.id} ingot registered.`)
-      e.create(`techpack:hottest_${entry.id}_ingot`).tag(`c:hottest_ingots`).tag(`c:hottest_ingots/${entry.id}`).texture(`techpack:item/material_builder/hottest_${entry.id}_ingot`);
     }
   });
   entries.forEach((entry) => {

@@ -157,6 +157,10 @@ RecipeViewerEvents.addInformation("item", e => {
       item: "techpack:rare_earths",
       info: "Small patches of strange land that have a higher concentration of ores.",
     },
+    {
+      item: "stellaris:fluid_cell",
+      info: "It is capable of interacting with fluids inside blocks, either obtaining them or transferring them, the tooltip indicates the fluid inside the item. Right-Click to use.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

@@ -85,7 +85,6 @@ ServerEvents.recipes((e) => {
         },
     ]
     const AdvancedRecipes = [
-        //Obsidian Glass
         {
             "machineType": "techpack:advanced_alloy_foundry",
             "recipeTier": "advanced",
@@ -103,6 +102,14 @@ ServerEvents.recipes((e) => {
             "requireEnergy": { perTick: 100 },
             "requireItem": ["8x techpack:hop_graphite_dust", "minecraft:blaze_rod"],
             "produceItem": ["techpack:incandescent_graphite_electrode"]
+        },
+        {
+            "machineType": "techpack:advanced_alloy_foundry",
+            "recipeTier": "advanced",
+            "processingTime": 200,
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:carbon_fiber", "techpack:aluminum_plate"],
+            "produceItem": ["2x techpack:thermal_insulating_fabric"]
         },
     ]
   BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});

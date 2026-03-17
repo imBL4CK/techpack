@@ -308,7 +308,12 @@ ServerEvents.recipes((e) => {
     "stellaris:armor/jet_suit_helmet",
     "stellaris:armor/jet_suit_chestplate",
     "stellaris:armor/jet_suit_leggings",
-    "stellaris:armor/jet_suit_boots"
+    "stellaris:armor/jet_suit_boots",
+    "stellaris:armor/space_suit_helmet",
+    "stellaris:armor/space_suit_chestplate",
+    "stellaris:armor/space_suit_leggings",
+    "stellaris:armor/space_suit_boots",
+    "stellaris:misc/fluid_cell"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

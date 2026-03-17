@@ -18,59 +18,31 @@ ServerEvents.recipes(e => {
         },
         {
             "processingTime": 300,
-            "requireEnergyPerTick": 100,
-            "requireFluid": ["1000x #techpack:coolants"],
+            "requireEnergyPerTick": 500,
+            "requireFluid": ["100x techpack:below_zero_coolant"],
             "requireItem": ["techpack:hot_uranium_ingot"],
             "produceItem": ["techpack:uranium_ingot"]
         },
         {
             "processingTime": 300,
-            "requireEnergyPerTick": 100,
-            "requireFluid": ["1000x #techpack:coolants"],
+            "requireEnergyPerTick": 500,
+            "requireFluid": ["100x techpack:below_zero_coolant"],
             "requireItem": ["techpack:hot_calorite_ingot"],
             "produceItem": ["techpack:calorite_ingot"]
         },
         {
             "processingTime": 300,
-            "requireEnergyPerTick": 100,
-            "requireFluid": ["1000x #techpack:coolants"],
+            "requireEnergyPerTick": 500,
+            "requireFluid": ["100x techpack:below_zero_coolant"],
             "requireItem": ["techpack:hot_flux_infused_alloy_ingot"],
             "produceItem": ["techpack:flux_infused_alloy_ingot"]
         },
         {
             "processingTime": 300,
-            "requireEnergyPerTick": 100,
-            "requireFluid": ["1000x #techpack:coolants"],
-            "requireItem": ["techpack:hot_stellarithe_ingot"],
-            "produceItem": ["techpack:stellarithe_ingot"]
-        },
-        {
-            "processingTime": 300,
-            "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
-            "requireItem": ["techpack:hottest_uranium_ingot"],
-            "produceItem": ["techpack:hot_uranium_ingot"]
-        },
-        {
-            "processingTime": 300,
-            "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
-            "requireItem": ["techpack:hottest_calorite_ingot"],
-            "produceItem": ["techpack:hot_calorite_ingot"]
-        },
-        {
-            "processingTime": 300,
-            "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
-            "requireItem": ["techpack:hottest_flux_infused_alloy_ingot"],
-            "produceItem": ["techpack:hot_flux_infused_alloy_ingot"]
-        },
-        {
-            "processingTime": 300,
             "requireEnergyPerTick": 1000,
             "requireFluid": ["100x techpack:below_zero_coolant"],
-            "requireItem": ["techpack:hottest_stellarithe_ingot"],
-            "produceItem": ["techpack:hot_stellarithe_ingot"]
+            "requireItem": ["techpack:hot_stellarithe_ingot"],
+            "produceItem": ["techpack:stellarithe_ingot"]
         }
     ]
     recipes.forEach((recipe) => {

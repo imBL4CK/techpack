@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "O",
+    "B"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:plates/bronze"
+    },
+    "O": {
+      "item": "techpack:obsidian_glass"
+    }
+  },
+  "result": {
+    "id": "stellaris:fluid_cell"
+  }
+}

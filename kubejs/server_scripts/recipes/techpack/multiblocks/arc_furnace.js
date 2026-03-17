@@ -102,7 +102,7 @@ ServerEvents.recipes(e => {
         "processingTime": 1200,
         "requireEnergyPerTick": 500,
         "requireItem": ["#c:ingots/electrum", "4x techpack:flux_powder"],
-        "produceItem": ["techpack:hottest_flux_infused_alloy_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
+        "produceItem": ["techpack:hot_flux_infused_alloy_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
     {
         "processingTime": 1200,
