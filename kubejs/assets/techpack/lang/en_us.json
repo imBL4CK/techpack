@@ -1,3 +1,4 @@
 {
-    "techpack.item.guide_name": "Moddedpedia"
+    "techpack.item.guide_name": "Moddedpedia",
+    "effect.techpack.nutrition.description": "Restores hunger slowly."
 }

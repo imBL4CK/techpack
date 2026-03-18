@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "stellaris:fluid_cell"
+    }
+  ],
+  "result": {
+    "id": "stellaris:fluid_cell"
+  }
+}

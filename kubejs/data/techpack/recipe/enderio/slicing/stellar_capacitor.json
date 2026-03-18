@@ -1,0 +1,28 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    {
+      "item": "techpack:carbon_fiber"
+    },
+    {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    {
+      "item": "techpack:carbon_fiber"
+    },
+    {
+      "item": "enderio:octadic_capacitor"
+    },
+    {
+      "item": "techpack:stellarithe_ingot"
+    },
+    {
+      "item": "enderio:octadic_capacitor"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "techpack:stellar_capacitor"
+  }
+}

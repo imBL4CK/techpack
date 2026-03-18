@@ -105,7 +105,7 @@ StartupEvents.registry("item", (e) => {
     "incomplete_steam_engine",
   ];
   
-  e.create("techpack:stellarithe_capacitor","enderio:capacitor").displayName("Stellarithe Capacitor").rarity("epic").baseValue(5)
+  e.create("techpack:stellar_capacitor","enderio:capacitor").displayName("Stellar Capacitor").rarity("epic").baseValue(5)
 
   rawResources.forEach((registry) => {
     e.create(`techpack:${registry}`);

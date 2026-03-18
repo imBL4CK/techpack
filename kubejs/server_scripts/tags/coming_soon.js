@@ -1,6 +1,5 @@
 ServerEvents.tags("item", (e) => {
   let id = [
-    "enderio:octadic_capacitor",
     "forbidden_arcanus:eternal_stella",
     "actuallyadditions:lens_of_the_miner",
     "ae2:quantum_ring",
