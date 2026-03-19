@@ -73,19 +73,19 @@
 		#The amount of FE transferred each tick
 		# Default: 32768
 		# Range: > 1
-		advanced = 16000
+		advanced = 64000
 		#The amount of FE transferred each tick
 		# Default: 131072
 		# Range: > 1
-		ultimate = 64000
+		ultimate = 256000
 		#The amount of FE transferred each tick
 		# Default: 8192
 		# Range: > 1
-		improved = 4000
+		improved = 16000
 		#The amount of FE transferred each tick
 		# Default: 256
 		# Range: > 1
-		no_upgrade = 1000
+		no_upgrade = 4000
 		#The amount of FE transferred each tick
 		# Default: 1024
 		# Range: > 1

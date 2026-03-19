@@ -19,28 +19,28 @@ ServerEvents.recipes(e => {
         {
             "processingTime": 300,
             "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
+            "requireFluid": ["100x techpack:cryogenic_coolant"],
             "requireItem": ["techpack:hot_uranium_ingot"],
             "produceItem": ["techpack:uranium_ingot"]
         },
         {
             "processingTime": 300,
             "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
+            "requireFluid": ["100x techpack:cryogenic_coolant"],
             "requireItem": ["techpack:hot_calorite_ingot"],
             "produceItem": ["techpack:calorite_ingot"]
         },
         {
             "processingTime": 300,
             "requireEnergyPerTick": 500,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
+            "requireFluid": ["100x techpack:cryogenic_coolant"],
             "requireItem": ["techpack:hot_flux_infused_alloy_ingot"],
             "produceItem": ["techpack:flux_infused_alloy_ingot"]
         },
         {
             "processingTime": 300,
             "requireEnergyPerTick": 1000,
-            "requireFluid": ["100x techpack:below_zero_coolant"],
+            "requireFluid": ["100x techpack:cryogenic_coolant"],
             "requireItem": ["techpack:hot_stellarithe_ingot"],
             "produceItem": ["techpack:stellarithe_ingot"]
         }

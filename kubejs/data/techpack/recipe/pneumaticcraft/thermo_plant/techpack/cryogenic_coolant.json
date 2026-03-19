@@ -1,0 +1,22 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "fluid": {
+      "fluid": "techpack:hydrogen_fluoride",
+      "amount": 1000
+    },
+    "item": {
+      "item": "techpack:ice_coolant_paste"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "techpack:cryogenic_coolant",
+      "amount": 1000
+    }
+  },
+  "temperature": {
+    "min": 0,
+    "max": 20
+  }
+}

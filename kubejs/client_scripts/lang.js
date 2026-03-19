@@ -25,5 +25,5 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("techpack:deepslate_chrome_ore", "Deepslate Chromite Ore");
 
   event.renameItem("stellaris:raw_desh_ingot", "Raw Desh");
-  event.renameItem("stellaris:fluid_cell", "Portable Fluid Cell");
+  event.renameItem("stellaris:fluid_cell", "Portable Fluid Capsule");
 });
