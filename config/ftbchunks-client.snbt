@@ -138,42 +138,42 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:axolotl": true
-			"minecraft:donkey": true
-			"minecraft:squid": true
+			"minecraft:glow_squid": true
+			"primal:bear": true
+			"minecraft:zombie_villager": true
+			"minecraft:villager": true
+			"minecraft:bat": true
+			"minecraft:sheep": true
+			"minecraft:husk": true
+			"minecraft:spider": true
+			"minecraft:chicken": true
 			"minecraft:zombie": true
+			"minecraft:donkey": true
+			"hominid:fossilised": true
+			"minecraft:skeleton": true
+			"minecraft:enderman": true
+			"minecraft:squid": true
+			"minecraft:trader_llama": true
+			"minecraft:creeper": true
+			"nomansland:goose": true
+			"eidolon_repraised:slimy_slug": true
+			"eidolon_repraised:wraith": true
+			"minecraft:cow": true
+			"minecraft:pig": true
+			"minecraft:horse": true
+			"minecraft:cod": false
+			"minecraft:salmon": false
+			"minecraft:witch": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:wolf": true
+			"minecraft:wither": true
+			"minecraft:rabbit": true
 			"minecraft:pillager": true
 			"hominid:famished": true
-			"minecraft:pig": true
-			"minecraft:wither": true
-			"minecraft:chicken": true
-			"minecraft:husk": true
-			"minecraft:zombie_villager": true
-			"eidolon_repraised:slimy_slug": true
-			"minecraft:enderman": true
-			"minecraft:wolf": true
-			"minecraft:villager": true
-			"minecraft:horse": true
-			"minecraft:trader_llama": true
-			"minecraft:cow": true
-			"eidolon_repraised:wraith": true
-			"minecraft:cod": false
-			"nomansland:tortoise": true
-			"minecraft:creeper": true
-			"minecraft:rabbit": true
-			"minecraft:wandering_trader": true
-			"minecraft:spider": true
-			"minecraft:sheep": true
-			"primal:bear": true
-			"minecraft:glow_squid": true
-			"nomansland:goose": true
-			"minecraft:salmon": false
-			"minecraft:skeleton": true
-			"minecraft:witch": true
 			"hominid:juggernaut": true
-			"minecraft:bat": true
-			"hominid:fossilised": true
-			"eidolon_repraised:zombie_brute": true
+			"minecraft:wandering_trader": true
+			"nomansland:tortoise": true
+			"minecraft:axolotl": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
