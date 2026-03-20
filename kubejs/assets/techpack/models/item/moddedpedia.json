@@ -1,6 +1,21 @@
 {
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "techpack:item/moddedpedia"
+  "parent": "item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "techpack:item/moddedpedia_in_hand"
+  },
+  "perspectives": {
+    "fixed": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "techpack:item/moddedpedia"
+		}
+    },
+    "gui": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "techpack:item/moddedpedia"
+		}
     }
+  }
 }
