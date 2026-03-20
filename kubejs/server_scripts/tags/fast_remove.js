@@ -1,5 +1,5 @@
 ServerEvents.tags("item", (e) => {
-  let id = [
+  let entry = [
     "stellaris:cable",
     "stellaris:cable_t3",
     "stellaris:pumpjack",
@@ -68,8 +68,33 @@ ServerEvents.tags("item", (e) => {
     "industrialforegoing:washing_factory",
     "industrialforegoing:fluid_sieving_machine",
     "industrialforegoing:fermentation_station",
+    "stellaris:big_blue_can",
+    "stellaris:big_purple_can",
+    "stellaris:big_red_can",
+    "stellaris:big_yellow_can",
+    "stellaris:small_blue_can",
+    "stellaris:small_purple_can",
+    "stellaris:small_red_can",
+    "stellaris:small_yellow_can",
+    "stellaris:tharsite_ingot",
+    "stellaris:raw_tharsite",
+    "stellaris:mars_tharsite_ore",
+    "stellaris:corronium_ingot",
+    "stellaris:raw_corronium",
+    "stellaris:venus_corronium_ore",
+    "stellaris:solerium",
+    "stellaris:raw_solerium",
+    "stellaris:mercury_solerium_ore",
+    "stellaris:plutonium_block",
+    "stellaris:plutonium_grain",
+    "stellaris:plutonium_piece",
+    "stellaris:moon_steel_ore",
+    "stellaris:mars_ostrum_ore",
+    "stellaris:mars_plutonium_ore",
+    "stellaris:oil_finder",
+    "stellaris:pumpjack_drill",
   ];
-  id.forEach((tag) => {
-    e.add("techpack:fast_remove", tag);
+  entry.forEach((remove) => {
+    e.add("techpack:fast_remove", remove);
   });
 });

@@ -26,4 +26,7 @@ ClientEvents.lang("en_us", (event) => {
 
   event.renameItem("stellaris:raw_desh_ingot", "Raw Desh");
   event.renameItem("stellaris:fluid_cell", "Portable Fluid Capsule");
+  event.renameItem("stellaris:oxygen_tank", "Small Oxygen Tank");
+  event.renameItem("stellaris:small_green_can", "Small Tin Can");
+  event.renameItem("stellaris:big_green_can", "Big Tin Can");
 });

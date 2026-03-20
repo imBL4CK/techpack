@@ -12,4 +12,6 @@ ServerEvents.recipes((e) => {
   });
 
   e.replaceInput({ id: "travelertoolbelt:belt" }, "minecraft:leather", "techpack:tanned_leather");
+  e.replaceInput({ id: "stellaris:misc/green_can" }, "minecraft:iron_nugget", "techpack:tin_plate");
+  e.replaceInput({ id: "stellaris:misc/small_green_can" }, "minecraft:iron_nugget", "techpack:tin_plate");
 })
