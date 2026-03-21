@@ -88,6 +88,8 @@ ServerEvents.tags("item", (e) => {
     "stellaris:plutonium_block",
     "stellaris:plutonium_grain",
     "stellaris:plutonium_piece",
+    "stellaris:plutonium_nugget",
+    "stellaris:plutonium_ingot",
     "stellaris:moon_steel_ore",
     "stellaris:mars_ostrum_ore",
     "stellaris:mars_plutonium_ore",

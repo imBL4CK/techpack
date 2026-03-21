@@ -299,7 +299,8 @@ ServerEvents.recipes((e) => {
     "stellaris:misc/spacesuit_leggings",
     "stellaris:misc/spacesuit_boots",
     "stellaris:misc/fluid_cell",
-    "enderio:octadic_capacitor"
+    "enderio:octadic_capacitor",
+    "stellaris:misc/water_pump"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

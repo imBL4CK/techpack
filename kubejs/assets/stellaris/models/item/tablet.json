@@ -1,0 +1,21 @@
+{
+  "parent": "item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "stellaris:item/tablet_in_hand"
+  },
+  "perspectives": {
+    "fixed": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "stellaris:item/tablet"
+		}
+    },
+    "gui": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "stellaris:item/tablet"
+		}
+    }
+  }
+}

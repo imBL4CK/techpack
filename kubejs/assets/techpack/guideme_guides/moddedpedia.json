@@ -4,6 +4,12 @@
       "type": "translatable",
       "translate": "techpack.item.guide_name"
     },
+    "tooltip_lines": [
+      {
+        "translate": "techpack.item.tooltip.moddedpedia",
+        "color": "gold"
+      }
+    ],
     "model": "techpack:item/moddedpedia"
   }
 }

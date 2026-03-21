@@ -16,6 +16,7 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("techpack:smd_transistor", "SMD Transistor");
   event.renameItem("techpack:smd_resistor", "SMD Resistor");
   event.renameItem("techpack:smd_diode", "SMD Diode");
+  event.renameItem("techpack:micro_computer", "Micro-Computer");
 
   event.renameItem("techpack:aluminum_ore", "Bauxite Ore");
   event.renameItem("techpack:deepslate_aluminum_ore", "Deepslate Bauxite Ore");
@@ -29,4 +30,6 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("stellaris:oxygen_tank", "Small Oxygen Tank");
   event.renameItem("stellaris:small_green_can", "Small Tin Can");
   event.renameItem("stellaris:big_green_can", "Big Tin Can");
+  event.renameItem("stellaris:vacuumator", "Canning Machine");
+  event.renameItem("stellaris:tablet", "Information Tablet");
 });

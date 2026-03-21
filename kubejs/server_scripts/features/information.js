@@ -161,6 +161,10 @@ RecipeViewerEvents.addInformation("item", e => {
       item: "stellaris:fluid_cell",
       info: "It is capable of interacting with fluids inside blocks, either obtaining them or transferring them, the tooltip indicates the fluid inside the item. Right-Click to use.",
     },
+    {
+      item: "stellaris:vacuumator",
+      info: "Allows for the canning of tin cans. Small cans store up to 10 nutrition points, while large cans store up to 20 points.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

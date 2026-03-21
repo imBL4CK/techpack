@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "ERE",
+    " P "
+  ],
+  "key": {
+    "F": {
+      "item": "pipez:fluid_pipe"
+    },
+    "E": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "create:mechanical_pump"
+    }
+  },
+  "result": {
+    "id": "stellaris:water_pump"
+  }
+}

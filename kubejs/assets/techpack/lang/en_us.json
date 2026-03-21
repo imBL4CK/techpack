@@ -1,5 +1,6 @@
 {
     "techpack.item.guide_name": "Moddedpedia",
+    "techpack.item.tooltip.moddedpedia": "by StarCorp",
     "effect.techpack.nutrition.description": "Restores hunger slowly.",
 
     "techpack.tip_title.default": "TechPack Tip:",
@@ -14,5 +15,6 @@
     "tip.techpack.curiosity_3.text": "The YouTuber ArtpokeBR was one of the main indirect contributors to the developer getting a PC.",
     "tip.techpack.curiosity_4.text": "Industrial Craft, especially the classic edition, is one of the major inspirations for the Techpack machines.",
     "tip.techpack.curiosity_5.text": "The idea of merging concepts from old mods and reinterpreting them emerged after the project's development resumed in January 2026.",
-    "tip.techpack.curiosity_6.text": "Raspberry Flavored was crucial in achieving the aesthetically polished TechPack."
+    "tip.techpack.curiosity_6.text": "Raspberry Flavored was crucial in achieving the aesthetically polished TechPack.",
+    "tip.techpack.curiosity_7.text": "StarCorp was the company responsible for sending the player to the past, shortly before a catastrophe occurred in the future."
 }
