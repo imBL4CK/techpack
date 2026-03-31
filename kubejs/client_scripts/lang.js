@@ -11,6 +11,7 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("pipez:infinity_upgrade", "Creative Connection Module");
   event.renameItem("supplementaries:wrench", "Rotation Wrench");
   event.renameItem("create:electron_tube", "Rose Quartz Electron Tube");
+  event.renameItem("ftbquests:book", "Quest Log");
   
   event.renameItem("techpack:smd_capacitor", "SMD Capacitor");
   event.renameItem("techpack:smd_transistor", "SMD Transistor");
@@ -31,5 +32,5 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("stellaris:small_green_can", "Small Tin Can");
   event.renameItem("stellaris:big_green_can", "Big Tin Can");
   event.renameItem("stellaris:vacuumator", "Canning Machine");
-  event.renameItem("stellaris:tablet", "Information Tablet");
+  event.renameItem("stellaris:tablet", "Stellar Terminal");
 });

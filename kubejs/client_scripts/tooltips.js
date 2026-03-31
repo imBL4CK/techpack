@@ -51,7 +51,8 @@ ItemEvents.modifyTooltips((e) => {
     tooltip.insert(4, Text.of("- An operation Occurs Every 20 Ticks (1 second).").color(0xffd200));
   });
   e.add("supplementaries:wrench", "Rotate the faces of a block")
-  e.modify("stellaris:tablet", (tooltip) => {
+
+  e.modify(["stellaris:tablet", "ftbquests:book"], (tooltip) => {
     tooltip.insert(1, Text.of("by StarCorp").color(0xffaa00));
   });
 });

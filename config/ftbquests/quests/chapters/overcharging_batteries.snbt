@@ -78,8 +78,8 @@
 			dependencies: ["0024155B82130D4C"]
 			id: "0E0E3A04DA447FCB"
 			tasks: [{
-				id: "56FA4233B0ED6B9F"
-				item: { count: 1, id: "techpack:thermal_dynamo" }
+				id: "3BCEC13C3090E20C"
+				item: { count: 1, id: "techpack:heat_dynamo" }
 				type: "item"
 			}]
 			x: 2.0d

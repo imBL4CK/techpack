@@ -300,7 +300,9 @@ ServerEvents.recipes((e) => {
     "stellaris:misc/spacesuit_boots",
     "stellaris:misc/fluid_cell",
     "enderio:octadic_capacitor",
-    "stellaris:misc/water_pump"
+    "stellaris:misc/water_pump",
+    "enderio:alloy_smelting/photovoltaic_plate",
+    "solarhelmet:solar_helmet_module"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

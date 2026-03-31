@@ -28,6 +28,14 @@
 			count: 1
 			id: "minecraft:bread"
 		}
+		{
+			count: 1
+			id: "ftbquests:book"
+		}
+		{
+			count: 1
+			id: "stellaris:tablet"
+		}
 	]
 	emergency_items_cooldown: 300
 	fallback_locale: ""

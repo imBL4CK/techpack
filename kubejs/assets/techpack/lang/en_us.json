@@ -1,6 +1,7 @@
 {
     "techpack.item.guide_name": "Moddedpedia",
-    "techpack.item.tooltip.moddedpedia": "by StarCorp",
+    "techpack.item.toolti1.moddedpedia": "by StarCorp",
+    "techpack.item.tooltip2.moddedpedia": "Right-click to open the guide window",
     "effect.techpack.nutrition.description": "Restores hunger slowly.",
 
     "techpack.tip_title.default": "TechPack Tip:",

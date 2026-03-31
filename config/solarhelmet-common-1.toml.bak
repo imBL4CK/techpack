@@ -1,0 +1,42 @@
+[General]
+	#Base energy production of the helmet.
+	energy_base_value = 20
+	#How much energy should the helmet produce?
+	#For this value equaling 1.0, the 'energy_base_value' is produces while in direct sunlight.
+	#Any changes to this configuration are directly multiplied with the final energy production value, after any other calculation (sunlight strength and opaque blocks
+	energy_production_multiplier = 1.0
+	#How much should the night reduce the energy value?
+	#1.0 is equal to 100% energy, so there is no decrease at all.
+	#0.5 is equal to 50% which would cut energy production in half while nighttime.
+	#0 would stop producing energy while nighttime.
+	#A value higher than 1.0 would cause more energy production while it's nighttime.
+	# Default: 0.0
+	# Range: 0.0 ~ 1000000.0
+	energy_production_night_multiplier = 0.0
+	#How much should rain reduce the energy value?
+	#1.0 is equal to 100% energy, so there is no decrease at all.
+	#0.5 is equal to 50% which would cut energy production in half while raining.
+	#0 would stop producing energy while raining.
+	#A value higher than 1.0 would cause more energy production while it's raining.
+	# Default: 0.5
+	# Range: 0.0 ~ 1000000.0
+	energy_production_rain_multiplier = 0.5
+	#How much energy should the helmet be able to hold?
+	#This is fully independent from the normal energy saving (for e.g a electric helmet from some kind of mod).
+	# Default: 20000
+	# Range: > 0
+	energy_storage = 200000
+	#Put additional items to craft a helmet with a module in here. Up to 7
+	additional_crafting_items = []
+	#The here stated items can't be used as Solar Helmet
+	helmet_blacklist = []
+	#The here stated items can be used as Solar Helmet, even when they aren't helmets at all (You can't put everything in you helmet slot)
+	helmet_whitelist = []
+	#The dimensions in here are excluded from energy production.
+	dimension_blacklist = ["minecraft:the_nether", "minecraft:the_end"]
+	#Additional blocks where sun in shining completely through.
+	additional_opaque_blocks = []
+	#Additional blocks where sun in shining partly through.
+	additional_partly_opaque_blocks = []
+	#Additional blocks where sun can't pass through.
+	additional_non_opaque_blocks = []

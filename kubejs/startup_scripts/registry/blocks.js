@@ -96,4 +96,14 @@ StartupEvents.registry("block", (e) => {
     .tagBoth("minecraft:mineable/shovel")
     .hardness(0.5)
     .mapColor(34);
+
+  e.create("techpack:warden_totem")
+    .notSolid()
+    .fullBlock(false)
+    .renderType("cutout")
+    //.placementState((event) => event.set(BlockProperties.HORIZONTAL_FACING, event.clickedFace),)
+    .requiresTool(true)
+    .tagBoth("mineable/pickaxe")
+    .tagBoth("minecraft:needs_iron_diamond")
+    .mapColor(31);
 });

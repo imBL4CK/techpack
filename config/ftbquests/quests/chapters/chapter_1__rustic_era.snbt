@@ -28,8 +28,8 @@
 				item: { count: 1, id: "minecraft:crafting_table" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 2.984385065438488d
+			y: 1.045830320537d
 		}
 		{
 			dependencies: ["186763FC5A59D49A"]
@@ -62,7 +62,7 @@
 				item: { count: 1, id: "techpack:mortar_mix" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -128,11 +128,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 1.0d
 		}
 		{
-			dependencies: ["332DE392E4088552"]
+			dependencies: ["281FDAC6E901BD9E"]
 			icon: {
 				id: "create:andesite_alloy"
 			}
@@ -167,7 +167,7 @@
 				item: { count: 1, id: "techpack:tanned_leather" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -568,7 +568,7 @@
 				item: { count: 1, id: "farmersdelight:basket" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.5d
 			y: 2.0d
 		}
 		{
@@ -671,30 +671,8 @@
 				item: { count: 1, id: "techpack:sulfur_dust" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.5d
 			y: 2.5d
-		}
-		{
-			dependencies: ["281FDAC6E901BD9E"]
-			icon: {
-				id: "techpack:copper_pickaxe"
-			}
-			id: "332DE392E4088552"
-			rewards: [{
-				count: 4
-				id: "41DA1479DED03D43"
-				item: {
-					count: 1
-					id: "minecraft:copper_ingot"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DD606F67DC05528"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 1.0d
 		}
 		{
 			dependencies: ["19F32B9CCB6C65AF"]
@@ -744,7 +722,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 4.5d
 			y: 1.0d
 		}
 	]

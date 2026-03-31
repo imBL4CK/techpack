@@ -138,42 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:spider": true
-			"hominid:famished": true
-			"minecraft:glow_squid": true
-			"minecraft:witch": true
-			"minecraft:zombie": true
-			"minecraft:squid": true
-			"hominid:juggernaut": true
-			"minecraft:skeleton": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:husk": true
+			"minecraft:creeper": true
+			"minecraft:pig": true
 			"minecraft:zombie_villager": true
-			"eidolon_repraised:slimy_slug": true
-			"minecraft:pillager": true
+			"minecraft:axolotl": true
+			"minecraft:wandering_trader": true
+			"minecraft:villager": true
+			"minecraft:glow_squid": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
+			"minecraft:wither": true
+			"minecraft:spider": true
+			"nomansland:goose": true
+			"minecraft:rabbit": true
+			"minecraft:warden": true
+			"primal:bear": true
+			"minecraft:cow": true
 			"minecraft:enderman": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:donkey": true
+			"minecraft:bat": true
+			"minecraft:sheep": true
+			"minecraft:salmon": false
+			"eidolon_repraised:wraith": true
+			"minecraft:witch": true
 			"minecraft:trader_llama": true
 			"hominid:fossilised": true
-			"minecraft:chicken": true
-			"nomansland:goose": true
-			"minecraft:cod": false
-			"eidolon_repraised:wraith": true
-			"minecraft:axolotl": true
-			"primal:bear": true
-			"minecraft:wolf": true
-			"minecraft:villager": true
-			"minecraft:donkey": true
-			"minecraft:salmon": false
 			"nomansland:tortoise": true
-			"minecraft:pig": true
-			"minecraft:wither": true
-			"minecraft:bat": true
-			"minecraft:cow": true
-			"minecraft:creeper": true
+			"minecraft:skeleton": true
+			"eidolon_repraised:slimy_slug": true
+			"minecraft:cod": false
+			"hominid:juggernaut": true
+			"hominid:famished": true
 			"minecraft:horse": true
-			"minecraft:sheep": true
-			"minecraft:wandering_trader": true
-			"minecraft:rabbit": true
+			"minecraft:squid": true
+			"minecraft:wolf": true
+			"minecraft:pillager": true
+			"minecraft:husk": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

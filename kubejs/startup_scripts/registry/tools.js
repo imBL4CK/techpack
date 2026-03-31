@@ -1,6 +1,8 @@
 StartupEvents.registry("item", (e) => {
   //Catching net
   e.create("techpack:catching_net").maxDamage(64).unstackable();
+  //
+  e.create("techpack:flint_and_soul").maxDamage(64).unstackable();
   //Iris Relic
   e.create("techpack:iris_relic", "paxel").tier("iris_relic").unstackable()
   .tag("minecraft:pickaxes").tag("minecraft:axes").tag("minecraft:shovels");

@@ -1,4 +1,4 @@
-RecipeViewerEvents.addInformation("item", e => {
+RecipeViewerEvents.addInformation("item", (e) => {
   const information = [
     {
       item: "#malum:spirits",
@@ -21,7 +21,11 @@ RecipeViewerEvents.addInformation("item", e => {
       info: "can be obtained by killing skeletons using the crude scythe or other soul-shattering damage items.",
     },
     {
-      item: ["malum:strange_crystal", "malum:large_strange_crystal", "techpack:budding_strange_crystal"],
+      item: [
+        "malum:strange_crystal",
+        "malum:large_strange_crystal",
+        "techpack:budding_strange_crystal",
+      ],
       info: "They are obtained by spreading corruption throughout the world. Once obtained, you can make a budding, which periodically grows crystals.",
     },
     {
@@ -45,7 +49,7 @@ RecipeViewerEvents.addInformation("item", e => {
       info: "Can be obtained by breaking Wild Chorus Nest using the Catching Net. Drones have a 30% chance of dropping, and Queens have a 10% chance.",
     },
     {
-      item: ["techpack:catching_net" ],
+      item: ["techpack:catching_net"],
       info: "When breaking a wild nest using a catching net, you can drop a bee drone with a 30% chance, or a queen with a 10% chance.",
     },
     {
@@ -164,6 +168,10 @@ RecipeViewerEvents.addInformation("item", e => {
     {
       item: "stellaris:vacuumator",
       info: "Allows for the canning of tin cans. Small cans store up to 10 nutrition points, while large cans store up to 20 points.",
+    },
+    {
+      item: "solarhelmet:solar_helmet_module",
+      info: "Craft this with a helmet without a template in smithing table to get a helmet with module.",
     },
   ];
   information.forEach((jei) => {

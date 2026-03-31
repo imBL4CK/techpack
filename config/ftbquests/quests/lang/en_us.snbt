@@ -74,13 +74,20 @@
 	]
 	quest.0441A15B3E47D93F.quest_subtitle: "&5Build a Pressure Chamber"
 	quest.0441A15B3E47D93F.title: "Under Pressure"
+	quest.07FBD1E23915AF6B.quest_desc: [
+		"A &dRefinery&r is a machine that &cdistills a fluid using heat&r, and is necessary for &arefining crude oil&r. It is composed of two blocks: a &econtroller and an output&r."
+		""
+		"&e-&r A refinery consists of a &9controller&r and &9outputs&r that are placed above the controller."
+		""
+		"The refinery receives &ctemperature (Pneumaticcraft)&r from either side and, when the recipe is finished, &aexpels the fluids to its outputs&r."
+	]
 	quest.07FBD1E23915AF6B.quest_subtitle: "&5Build a Refinery"
 	quest.0A8E9A4C0CB8B2F9.title: "Generating Energy"
 	quest.0C8E07CBA287F6A2.title: "Better Fertilizing"
 	quest.0DBE6BF4CFAF1A3B.quest_desc: [
-		"It may sound repetitive to emphasize the importance of organizing your items, but it’s still essential."
+		"It may sound repetitive to emphasize the importance of organizing your items, but it’s still &9essential.&r"
 		""
-		"In the early hours of gameplay, you’ll only have access to baskets, chests, and barrels, so keep them well-categorized to avoid wasting unnecessary space."
+		"In the early hours of gameplay, you’ll only have access to &ebaskets, chests, and barrels&r, so keep them well-categorized to avoid wasting &cunnecessary space&r."
 		""
 		"&5>&r Create Storage System"
 		"{@pagebreak}"
@@ -216,7 +223,7 @@
 		""
 		"Ores are important and valuable resources that usually appear in cavernous layers; they are essential for any experiment."
 		""
-		"The TechPack adds these minerals to the overworld in the form of &9Ore Blocks:"
+		"The TechPack adds these ores to the overworld in the form of &9Ore Blocks:"
 		""
 		"&e-&r Tin"
 		"&e-&r Nickel"
@@ -298,11 +305,9 @@
 	quest.237194A5F3216ABE.quest_subtitle: "&5 Find a Weeping Well"
 	quest.237194A5F3216ABE.title: "Among the depths"
 	quest.249468D2EF78C781.quest_desc: [
-		"You may have noticed that your health bar is lower than usual, and this is intentional."
+		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
-		"In TechPack, you start with only 8 hearts, but you can increase your health to &915 hearts&r by finding health crystals in caves."
-		""
-		"&e-&r The mod in question that adds this feature is &9Heart Crystals&r, which also adds a lantern that causes regeneration in nearby entities."
+		"&e-&r The mod in question that adds this feature is &9Heart Crystals&r, which also adds a lantern that gives &aregeneration&r in nearby entities."
 	]
 	quest.249468D2EF78C781.quest_subtitle: "&5Informations About the Health System"
 	quest.249468D2EF78C781.title: "Incrasing Health"
@@ -687,11 +692,7 @@
 	quest.5A719562329A55D7.title: "Storing Resources"
 	quest.5BFA90D464D2BECB.quest_subtitle: "&5Get a Hephaestus Forge"
 	quest.5BFA90D464D2BECB.title: "Forging Aura"
-	quest.5CA545337702A880.quest_desc: [
-		"Tanned leather is basically a waterproof version of conventional leather, mainly used for making bags."
-		""
-		"&e-&r Producing it on a large scale can be cumbersome, so automation is recommended as soon as possible."
-	]
+	quest.5CA545337702A880.quest_desc: ["&9Tanned leather&r is basically a waterproof version of conventional &aleather&r, mainly used for making &ebackpacks.&r"]
 	quest.5CA545337702A880.quest_subtitle: "&5Craft a Tanned Leather"
 	quest.5CA545337702A880.title: "Complicated Leather"
 	quest.5CD88DC12A6DE7FD.quest_desc: [
@@ -709,9 +710,13 @@
 	quest.5FB97C7AD100E989.quest_subtitle: "&5Craft a Bronze Machine Casing"
 	quest.5FB97C7AD100E989.title: "Steam Power"
 	quest.61269CD93AF58105.quest_desc: [
-		"Automation is one of the core pillars of the experience — you haven’t truly played a TechPack until you start building your automations."
+		"&9Automation is one of the core pillars of the experience!&r "
 		""
-		"The concept of automation is to use machines to perform processes in order to increase efficiency — that is, instead of crafting items manually, you either request or passively produce ingredients."
+		"You haven’t truly played a &zTechPack&r until you start building your automations."
+		""
+		"The concept of automation is to use &dmachines to perform processes&r in order to increase efficiency "
+		""
+		"- that is, instead of &ccrafting items manually&r, you either &arequest or passively produce ingredients.&r"
 		""
 		"&5>&r Passive Automation"
 		"{@pagebreak}"
@@ -786,18 +791,23 @@
 	quest.65F7EB4863FD3FDD.title: "Friend of the Winds"
 	quest.689A412F4D529E43.quest_subtitle: "&5Welcome to the Madness"
 	quest.689A412F4D529E43.title: "Ancient knowledge"
+	quest.69CDC1ABCED6AD47.quest_desc: [
+		"&eTransistors&r and &4Resistors&r are the components you will use to craft your more &zadvanced circuits&r. "
+		""
+		"Both are made in the &9pressure chamber&r."
+	]
 	quest.69CDC1ABCED6AD47.quest_subtitle: "&5Craft a Resistor and Transistor"
 	quest.69CDC1ABCED6AD47.title: "Circuit components"
 	quest.6A3DD1774BC7481F.quest_desc: ["Andesite alloy is the base of the create, and to obtain it, you'll need zinc."]
 	quest.6A3DD1774BC7481F.quest_subtitle: "&5Craft an Andesite Alloy"
 	quest.6A3DD1774BC7481F.title: "Alloying Andesite"
 	quest.6CB6CC7509BD29F1.quest_desc: [
-		"Sulfur is important in rubber manufacturing. It's a widely used component in techpacks and can be easily obtained:"
+		"&cSulfur is important in rubber manufacturing&r. It's a widely used component in techpacks and can be easily obtained:"
 		""
-		"&e-&r Breaking Down Coal Ores"
-		"&e-&r Finding Geodes Around the World"
+		"&e- Breaking&r Coal Ores"
+		"&e- Finding Geodes&r Around the World"
 		""
-		"Their geodes are large and contain a large amount of sulfur. Finding one can be a great help."
+		"Their &dgeodes are large&r and contain a large amount of sulfur. &aFinding one can be a great help&r."
 	]
 	quest.6CB6CC7509BD29F1.quest_subtitle: "&5How I can get sulfur?"
 	quest.6CB6CC7509BD29F1.title: "Getting Sulfur"
