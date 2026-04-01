@@ -173,6 +173,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "solarhelmet:solar_helmet_module",
       info: "Craft this with a helmet without a template in smithing table to get a helmet with module.",
     },
+    {
+      item: "techpack:warden_totem",
+      info: "It can be obtained from chests in the Ancient City, or by killing a warden with something that causes soul-shattering damage",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

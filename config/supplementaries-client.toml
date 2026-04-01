@@ -140,6 +140,10 @@
 
 #General settings
 [general]
+	#unfunny
+	"I am very boring" = true
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disables Amendments suggestion screen
@@ -158,10 +162,6 @@
 	placeable_tooltips = true
 	#Enables custom Configured config screen
 	custom_configured_screen = true
-	#unfunny
-	"I am very boring" = false
-	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
 
 #Game tweaks
 [tweaks]
