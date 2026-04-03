@@ -177,6 +177,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "techpack:warden_totem",
       info: "It can be obtained from chests in the Ancient City, or by killing a warden with something that causes soul-shattering damage",
     },
+    {
+      item: "techpack:flint_and_soul",
+      info: "It is a tool with strange properties, it has the ability to revive certain mobs when it interacts with the remains of their bodies. It is interacts with a select group of blocks, mostly mob heads",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

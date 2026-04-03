@@ -118,5 +118,15 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			id: "2386FD008FAFF6EB"
+			tasks: [{
+				id: "6F84A838AA3D41E9"
+				item: { count: 1, id: "techpack:flint_and_soul" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
 	]
 }

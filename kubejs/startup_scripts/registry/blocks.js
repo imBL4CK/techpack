@@ -97,6 +97,13 @@ StartupEvents.registry("block", (e) => {
     .hardness(0.5)
     .mapColor(34);
 
+  e.create("techpack:silite")
+    .soundType("basalt")
+    .mapColor(59)
+    .hardness(3.0)
+    .tagBoth("minecraft:mineable/pickaxe")
+    .requiresTool(true)
+
   e.create("techpack:warden_totem")
     .notSolid()
     .fullBlock(false)

@@ -95,6 +95,7 @@ ServerEvents.tags("item", (e) => {
     "stellaris:mars_plutonium_ore",
     "stellaris:oil_finder",
     "stellaris:pumpjack_drill",
+    "actuallyadditions:powered_furnace"
   ];
   entry.forEach((remove) => {
     e.add("techpack:fast_remove", remove);

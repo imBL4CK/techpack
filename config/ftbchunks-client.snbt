@@ -138,43 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:chicken": true
-			"minecraft:glow_squid": true
-			"minecraft:pig": true
+			"hominid:juggernaut": true
+			"minecraft:creeper": true
+			"minecraft:axolotl": true
+			"minecraft:cow": true
+			"minecraft:warden": true
+			"minecraft:spider": true
+			"minecraft:zombie_villager": true
+			"minecraft:enderman": true
+			"minecraft:wither": true
+			"minecraft:witch": true
+			"minecraft:zombie": true
+			"minecraft:cod": false
+			"minecraft:bat": true
+			"primal:bear": true
+			"minecraft:donkey": true
+			"minecraft:trader_llama": true
+			"minecraft:wolf": true
+			"minecraft:horse": true
+			"minecraft:pillager": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:sheep": true
 			"nomansland:tortoise": true
+			"minecraft:pig": true
+			"hominid:famished": true
+			"minecraft:chicken": true
+			"minecraft:squid": true
+			"minecraft:salmon": false
+			"nomansland:goose": true
+			"minecraft:husk": true
+			"minecraft:villager": true
+			"eidolon_repraised:wraith": true
+			"eidolon_repraised:slimy_slug": true
 			"hominid:fossilised": true
 			"minecraft:rabbit": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:cod": false
-			"primal:bear": true
-			"minecraft:axolotl": true
-			"minecraft:pillager": true
-			"minecraft:bat": true
-			"minecraft:warden": true
-			"minecraft:villager": true
-			"minecraft:wandering_trader": true
-			"hominid:famished": true
-			"minecraft:creeper": true
-			"eidolon_repraised:wraith": true
-			"minecraft:squid": true
-			"minecraft:trader_llama": true
-			"minecraft:sheep": true
-			"nomansland:goose": true
-			"eidolon_repraised:slimy_slug": true
-			"minecraft:donkey": true
-			"minecraft:husk": true
-			"minecraft:witch": true
-			"minecraft:enderman": true
+			"minecraft:glow_squid": true
 			"minecraft:skeleton": true
-			"hominid:juggernaut": true
-			"minecraft:wither": true
-			"minecraft:spider": true
-			"minecraft:horse": true
-			"minecraft:salmon": false
-			"minecraft:wolf": true
-			"minecraft:cow": true
-			"minecraft:zombie": true
-			"minecraft:zombie_villager": true
+			"minecraft:wandering_trader": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

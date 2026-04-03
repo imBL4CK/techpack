@@ -10,6 +10,17 @@ const blockTag = [
     ],
     action: "add"
   },
+  {
+    tag: "techpack:moon_terrain_replaceable",
+    block: [
+      "stellaris:moon_stone", 
+      "stellaris:moon_deepslate",
+      "minecraft:soul_soil",
+      "minecraft:deepslate",
+      "minecraft:dripstone_block",
+    ],
+    action: "add"
+  },
 ];
 const itemTag = [
   //Flour

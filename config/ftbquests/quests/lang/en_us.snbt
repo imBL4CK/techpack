@@ -304,6 +304,15 @@
 	]
 	quest.237194A5F3216ABE.quest_subtitle: "&5 Find a Weeping Well"
 	quest.237194A5F3216ABE.title: "Among the depths"
+	quest.2386FD008FAFF6EB.quest_desc: [
+		"&9Flint and Soul&r is a tool with strange properties, it has the ability to &zrevive certain mobs&r when it interacts with the &4remains of their bodies&r."
+		""
+		"&e-&r It is interacts with a &aselect group&r of blocks, &emostly mob heads&r."
+		""
+		"Mysteriously, the &cbodies don't return exactly as they were before the revival&r, such as &8skeletons&r returning without their weapons, or &bwardens&r lacking the ability to return to the depths."
+	]
+	quest.2386FD008FAFF6EB.quest_subtitle: "&5Craft a Flint and Soul"
+	quest.2386FD008FAFF6EB.title: "Edo Tensei"
 	quest.249468D2EF78C781.quest_desc: [
 		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
