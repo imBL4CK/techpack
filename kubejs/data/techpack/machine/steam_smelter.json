@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Steam Smelter"
+    "text": {
+      "translate": "block.techpack.machines.smelter.steam"
+    }
   },
   "appearance": {
     "custommachinery:block": "techpack:machines/steam/smelter#standalone",
@@ -82,7 +84,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Steam Smelter"
+        "text": {
+          "translate": "block.techpack.machines.smelter.steam"
+        }
       }
     },
     {

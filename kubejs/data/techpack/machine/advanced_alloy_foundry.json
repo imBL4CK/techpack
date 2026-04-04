@@ -1,10 +1,30 @@
 {
   "name": {
     "text": {
-      "translate": "Advanced Alloy Foundry"
+      "translate": "block.techpack.machines.alloy_foundry.advanced"
     }
   },
+  "parent": "techpack:basic_alloy_foundry",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.75
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.25
+    }
+  ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:smelter.running"
+      }
+    },
     "custommachinery:block": "techpack:machines/advanced/alloy_foundry#standalone",
     "custommachinery:item": "techpack:machines/advanced/alloy_foundry#standalone",
     "custommachinery:keep_inventory": true
@@ -180,7 +200,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Advanced Alloy Foundry"
+          "translate": "block.techpack.machines.alloy_foundry.advanced"
         }
       }
     }

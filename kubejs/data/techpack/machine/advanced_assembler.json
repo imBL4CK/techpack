@@ -4,6 +4,21 @@
       "translate": "Advanced Assembler"
     }
   },
+  "parent": "techpack:basic_assembler",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.75
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.25
+    }
+  ],
   "appearance": {
     "custommachinery:block": "techpack:machines/advanced/assembler#standalone",
     "custommachinery:item": "techpack:machines/advanced/assembler#standalone",

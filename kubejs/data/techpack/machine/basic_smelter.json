@@ -1,10 +1,25 @@
 {
   "name": {
     "text": {
-      "translate": "Basic Smelter"
+      "translate": "block.techpack.machines.smelter.basic"
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:smelter.running"
+      },
+      "custommachinery:interaction_sound": {
+        "step": "minecraft:block.metal.step",
+        "place": "minecraft:block.metal.place",
+        "hit": "minecraft:block.metal.hit",
+        "fall": "minecraft:block.metal.fall",
+        "break": "minecraft:block.metal.break"
+      }
+    },
+    "custommachinery:ambient_sound": {
+      "sound": "minecraft:"
+    },
     "custommachinery:block": "techpack:machines/basic/smelter#standalone",
     "custommachinery:item": "techpack:machines/basic/smelter#standalone",
     "custommachinery:keep_inventory": true
@@ -136,7 +151,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Basic Smelter"
+          "translate": "block.techpack.machines.smelter.basic"
         }
       }
     }

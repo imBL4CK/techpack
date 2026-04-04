@@ -1,0 +1,6 @@
+{
+  "smelter.running": {
+    "sounds": ["techpack:machines/smelter_running"],
+    "subtitle": "subtitles.techpack.smelter.running"
+  }
+}

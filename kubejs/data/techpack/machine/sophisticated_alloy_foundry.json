@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Sophisticated Alloy Foundry"
+    "text": {
+      "translate": "block.techpack.machines.alloy_foundry.sophisticated"
+    }
   },
   "parent": "techpack:basic_alloy_foundry",
   "modifiers": [
@@ -18,6 +20,11 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:smelter.running"
+      }
+    },
     "custommachinery:block": "techpack:machines/sophisticated/alloy_foundry#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/alloy_foundry#standalone",
     "custommachinery:keep_inventory": true
@@ -106,7 +113,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Sophisticated Alloy Foundry"
+        "text": {
+          "translate": "block.techpack.machines.alloy_foundry.sophisticated"
+        }
       }
     },
     {
@@ -188,7 +197,8 @@
       "y": 67
     }
   ],
-  "tooltips": [{
+  "tooltips": [
+    {
       "text": {
         "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }

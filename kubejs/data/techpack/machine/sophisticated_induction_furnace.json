@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Sophisticated Induction Furnace"
+      "translate": "block.techpack.machines.induction_furnace.sophisticated"
     }
   },
   "parent": "techpack:basic_induction_furnace",
@@ -20,6 +20,11 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:smelter.running"
+      }
+    },
     "custommachinery:block": "techpack:machines/sophisticated/induction_furnace#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/induction_furnace#standalone",
     "custommachinery:keep_inventory": true
@@ -158,7 +163,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Sophisticated Induction Furnace"
+          "translate": "block.techpack.machines.induction_furnace.sophisticated"
         }
       }
     }
@@ -167,7 +172,8 @@
     "type": "custommachinery:machine",
     "amount": 2
   },
-  "tooltips": [{
+  "tooltips": [
+    {
       "text": {
         "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }

@@ -1,8 +1,15 @@
 {
   "name": {
-    "text": "Basic Alloy Foundry"
+    "text": {
+      "translate": "block.techpack.machines.alloy_foundry.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:smelter.running"
+      }
+    },
     "custommachinery:block": "techpack:machines/basic/alloy_foundry#standalone",
     "custommachinery:item": "techpack:machines/basic/alloy_foundry#standalone",
     "custommachinery:keep_inventory": true
@@ -99,7 +106,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Alloy Foundry"
+        "text": {
+          "translate": "block.techpack.machines.alloy_foundry.basic"
+        }
       }
     },
     {

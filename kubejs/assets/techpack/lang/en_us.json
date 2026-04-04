@@ -18,6 +18,16 @@
     "gui.techpack.machines.sophisticated_tier.speed_multiplier": "- 50% Faster than basic tier",
     "gui.techpack.machines.sophisticated_tier.energy_cost_multiplier": "- 50% More energy cost than basic tier",
     
+    "block.techpack.machines.smelter.steam": "Steam Smelter",
+    "block.techpack.machines.smelter.basic": "Basic Smelter",
+    "block.techpack.machines.smelter.advanced": "Advanced Smelter",
+    "block.techpack.machines.smelter.sophisticated": "Sophisticated Smelter",
+    "block.techpack.machines.alloy_foundry.basic": "Basic Alloy Foundry",
+    "block.techpack.machines.alloy_foundry.advanced": "Advanced Alloy Foundry",
+    "block.techpack.machines.alloy_foundry.sophisticated": "Sophisticated Alloy Foundry",
+    "block.techpack.machines.induction_furnace.basic": "Basic Induction Furnace",
+    "block.techpack.machines.induction_furnace.advanced": "Advanced Induction Furnace",
+    "block.techpack.machines.induction_furnace.sophisticated": "Sophisticated Induction Furnace",
 
     "techpack.tip_title.default": "TechPack Tip:",
     "tip.techpack.portable_fluid_capsule.text": "Portable Fluid Capsule its an item that allow you to extract up to 1,000 mB of fluid from inside blocks. This is very useful for cleaning broken values.",
