@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "I": {
+      "item": "techpack:advanced_alloy_ingot"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "W": {
+      "item": "pipez:energy_pipe"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/stainless_steel"
+    },
+    "B": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:sophisticated_induction_furnace"
+  }
+}

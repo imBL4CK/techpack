@@ -1,88 +1,71 @@
 {
   "name": {
-    "text": "Advanced Solidifier"
+    "text": {
+      "translate": "Sophisticated Induction Furnace"
+    }
   },
-  "parent": "techpack:basic_solidifier",
+  "parent": "techpack:basic_induction_furnace",
   "modifiers": [
     {
       "requirement": "custommachinery:speed",
       "mode": "input",
       "operation": "multiplication",
-      "modifier": 0.75
+      "modifier": 0.5
     },
     {
       "requirement": "custommachinery:energy_per_tick",
       "mode": "input",
       "operation": "multiplication",
-      "modifier": 1.25
+      "modifier": 1.5
     }
   ],
   "appearance": {
-    "custommachinery:block": "techpack:machines/advanced/solidifier#standalone",
-    "custommachinery:item": "techpack:machines/advanced/solidifier#standalone",
+    "custommachinery:block": "techpack:machines/sophisticated/induction_furnace#standalone",
+    "custommachinery:item": "techpack:machines/sophisticated/induction_furnace#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [
     {
       "type": "custommachinery:energy",
-      "capacity": 16000,
-      "max_output": 4000,
-      "max_input": 4000
-    },
-    {
-      "id": "fluid_input_tank",
-      "type": "custommachinery:fluid",
-      "mode": "input",
-      "max_input": 1000,
       "max_output": 1000,
-      "capacity": 4000,
-      "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
-        "BACK": "NONE",
-        "LEFT": "NONE"
-      }
+      "max_input": 16000,
+      "capacity": 64000
     },
     {
+      "type": "custommachinery:item",
+      "whitelist": "#techpack:electrodes",
+      "id": "electrode_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
       "id": "input_slot",
-      "type": "custommachinery:item",
-      "mode": "input",
-      "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
-        "BACK": "NONE",
-        "LEFT": "NONE"
-      }
+      "mode": "input"
     },
     {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "OUTPUT",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "OUTPUT",
+        "RIGHT": "OUTPUT",
+        "BACK": "OUTPUT",
+        "LEFT": "OUTPUT"
+      },
       "id": "output_slot",
-      "type": "custommachinery:item",
-      "mode": "output",
-      "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
-        "BACK": "NONE",
-        "LEFT": "NONE"
-      }
+      "mode": "output"
     },
     {
-      "id": "energy_input_slot",
       "type": "custommachinery:item_energy",
-      "mode": "input",
       "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
-        "BACK": "NONE",
-        "LEFT": "NONE"
-      }
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_input_slot"
     }
   ],
   "gui": [
@@ -103,46 +86,29 @@
         "texture": "techpack:textures/gui/machines/side_config_slot.png"
       },
       "x": 153,
-      "y": 67
+      "y": 67,
+      "height": 18
     },
     {
       "type": "custommachinery:energy",
       "texture_filled": {
         "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
       },
-      "x": 53,
-      "y": 39,
+      "x": 56,
+      "y": 42,
       "texture_empty": {
         "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "fluid_input_tank",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/fluid_slot.png"
-      },
-      "x": 43,
-      "y": 20
-    },
-    {
-      "type": "custommachinery:slot",
-      "id": "input_slot",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/storage_slot.png"
-      },
-      "x": 61,
-      "y": 20
-    },
-    {
       "type": "custommachinery:player_inventory",
       "x": 7,
-      "y": 90
+      "y": 91
     },
     {
       "type": "custommachinery:progress",
-      "x": 81,
-      "y": 21,
+      "x": 86,
+      "y": 24,
       "texture_empty": {
         "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
       },
@@ -152,12 +118,30 @@
     },
     {
       "type": "custommachinery:slot",
+      "id": "electrode_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/electrode_slot.png"
+      },
+      "x": 47,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
       "id": "energy_input_slot",
       "texture": {
         "texture": "techpack:textures/gui/machines/energy_input_slot.png"
       },
-      "x": 53,
-      "y": 58
+      "x": 56,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 65,
+      "y": 23
     },
     {
       "type": "custommachinery:slot",
@@ -165,9 +149,8 @@
       "texture": {
         "texture": "techpack:textures/gui/machines/slot.png"
       },
-      "x": 106,
-      "y": 20,
-      "width": 18
+      "x": 114,
+      "y": 23
     },
     {
       "type": "custommachinery:text",
@@ -175,33 +158,40 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Advanced Solidifier"
+          "translate": "Sophisticated Induction Furnace"
         }
       }
     }
   ],
-  "tooltips": [
-    {
+  "processor": {
+    "type": "custommachinery:machine",
+    "amount": 2
+  },
+  "tooltips": [{
       "text": {
-        "translate": "gui.techpack.machines.advanced_tier.energy_storage"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }
     },
     {
       "text": {
-        "translate": "gui.techpack.machines.advanced_tier.energy_io"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_io"
       }
     },
     {
       "text": {
-        "translate": "gui.techpack.machines.advanced_tier.speed_multiplier"
+        "translate": "gui.techpack.machines.sophisticated_tier.speed_multiplier"
       },
       "color": "green"
     },
     {
       "text": {
-        "translate": "gui.techpack.machines.advanced_tier.energy_cost_multiplier"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_cost_multiplier"
       },
       "color": "red"
+    },
+    {
+      "text": "- 2x faster than a furnace, but 4x more energy cost.",
+      "color": "light_purple"
     }
   ]
 }

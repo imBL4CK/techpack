@@ -6,6 +6,8 @@
 	[blocks.globe]
 		#Enable a random globe texture for each world
 		random_world = true
+		#Displays current coordinates when using a globe
+		show_coordinates = true
 
 	[blocks.notice_board]
 		#Allows notice board displayed text to be centered instead of being left aligned
@@ -140,10 +142,6 @@
 
 #General settings
 [general]
-	#unfunny
-	"I am very boring" = true
-	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
-	dynamic_assets_generation_mode = "CACHED"
 	#Disables Optifine warn screen
 	no_optifine_warn_screen = false
 	#Disables Amendments suggestion screen
@@ -162,11 +160,29 @@
 	placeable_tooltips = true
 	#Enables custom Configured config screen
 	custom_configured_screen = true
+	#ignore this
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	test1 = 0.0
+	#ignore this
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	test2 = 0.0
+	#ignore this
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	test3 = 0.0
+	#unfunny
+	"I am very boring" = false
 
 #Game tweaks
 [tweaks]
+	#Allow to right click with a clock to display current time in numerical form
+	clock_right_click = true
 	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
 	projectile_weapon_overlay = true
+	#Allow to right click with a compass to display current coordinates in numerical form
+	compass_right_click = false
 	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
 	placeable_books_glint = false
 	#Enables banner pattern tooltip image preview
@@ -183,10 +199,6 @@
 	mob_head_shaders = true
 	#Sends your current chat when you die while typing
 	send_chat_on_death = true
-	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
-	enderman_and_spider_head_texture_pack_support = true
-	#Show a slime overlay when you hit an entity with a slimeball
-	slime_effect_overlay = true
 
 	[tweaks.colored_maps]
 		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors

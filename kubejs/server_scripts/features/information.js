@@ -181,6 +181,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "techpack:flint_and_soul",
       info: "It is a tool with strange properties, it has the ability to revive certain mobs when it interacts with the remains of their bodies. It is interacts with a select group of blocks, mostly mob heads",
     },
+    {
+      item: "techpack:silite",
+      info: "A solid rock, with a hardness similar to deepslate. Can be found in lunar caves",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

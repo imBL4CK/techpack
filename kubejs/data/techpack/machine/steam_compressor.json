@@ -126,10 +126,14 @@
   ],
   "tooltips": [
     {
-      "text": "- Steam storage: 8000 mB"
+      "text": {
+        "translate": "gui.techpack.machines.steam_tier.steam_storage"
+      }
     },
     {
-      "text": "- Steam I/O: 1000 mB/t"
+      "text": {
+        "translate": "gui.techpack.machines.steam_tier.steam_io"
+      }
     }
   ]
 }

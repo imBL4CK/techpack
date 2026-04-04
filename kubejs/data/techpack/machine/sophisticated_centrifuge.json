@@ -271,26 +271,25 @@
       }
     }
   ],
-  "tooltips": [
-    {
+  "tooltips": [{
       "text": {
-        "translate": "- Energy storage: 64.000 RF"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }
     },
     {
       "text": {
-        "translate": "- Energy I/O: 16.000 RF/t"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_io"
       }
     },
     {
       "text": {
-        "translate": "- 50% Faster than basic tier"
+        "translate": "gui.techpack.machines.sophisticated_tier.speed_multiplier"
       },
       "color": "green"
     },
     {
       "text": {
-        "translate": "- 50% More energy cost"
+        "translate": "gui.techpack.machines.sophisticated_tier.energy_cost_multiplier"
       },
       "color": "red"
     }

@@ -188,23 +188,23 @@
   "tooltips": [
     {
       "text": {
-        "translate": "- Energy storage: 16000 RF"
+        "translate": "gui.techpack.machines.advanced_tier.energy_storage"
       }
     },
     {
       "text": {
-        "translate": "- Energy I/O: 4000 RF/t"
+        "translate": "gui.techpack.machines.advanced_tier.energy_io"
       }
     },
     {
       "text": {
-        "translate": "- 25% Faster than basic tier"
+        "translate": "gui.techpack.machines.advanced_tier.speed_multiplier"
       },
       "color": "green"
     },
     {
       "text": {
-        "translate": "- 25% More energy cost"
+        "translate": "gui.techpack.machines.advanced_tier.energy_cost_multiplier"
       },
       "color": "red"
     }

@@ -19,6 +19,8 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("techpack:smd_diode", "SMD Diode");
   event.renameItem("techpack:micro_computer", "Micro-Computer");
 
+  event.renameItem("techpack:purified_aluminum_dust", "Purified Bauxite Dust");
+  event.renameItem("techpack:raw_aluminum", "Raw Bauxite");
   event.renameItem("techpack:aluminum_ore", "Bauxite Ore");
   event.renameItem("techpack:deepslate_aluminum_ore", "Deepslate Bauxite Ore");
   event.renameItem("techpack:lead_ore", "Galena Ore");

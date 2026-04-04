@@ -160,10 +160,14 @@
   ],
   "tooltips": [
     {
-      "text": "- Energy storage: 4000 RF"
+      "text": {
+        "translate": "gui.techpack.machines.basic_tier.energy_storage"
+      }
     },
     {
-      "text": "- Energy I/O: 1000 RF/t"
+      "text": {
+        "translate": "gui.techpack.machines.basic_tier.energy_io"
+      }
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "I": {
+      "item": "techpack:advanced_alloy_ingot"
+    },
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "W": {
+      "item": "create_new_age:copper_wire"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:basic_induction_furnace"
+  }
+}

@@ -3,7 +3,6 @@ console.log("> materialBuilderAPI is running")
 const entries = [
   {
     id: "copper",
-    nativeRaw: true,
     plate: true,
     gear: true,
     purifiedDust: true,
@@ -11,7 +10,6 @@ const entries = [
   },
   {
     id: "iron",
-    nativeRaw: true,
     plate: true,
     gear: true,
     purifiedDust: true,
@@ -19,7 +17,6 @@ const entries = [
   },
   {
     id: "gold",
-    nativeRaw: true,
     plate: true,
     gear: true,
     purifiedDust: true,
@@ -27,7 +24,6 @@ const entries = [
   },
   {
     id: "diamond",
-    nativeRaw: true,
     nugget: true,
     plate: true,
     gear: true,
@@ -35,7 +31,6 @@ const entries = [
   },
   {
     id: "zinc",
-    nativeRaw: true,
     plate: true,
     gear: true,
     purifiedDust: true,
@@ -44,7 +39,6 @@ const entries = [
   {
     id: "tin",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_iron_tool",
@@ -59,7 +53,6 @@ const entries = [
   {
     id: "silver",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_iron_tool",
@@ -74,7 +67,6 @@ const entries = [
   {
     id: "nickel",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_iron_tool",
@@ -89,7 +81,6 @@ const entries = [
   {
     id: "lead",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_iron_tool",
@@ -104,7 +95,6 @@ const entries = [
   {
     id: "platinum",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_diamond_tool",
@@ -119,7 +109,6 @@ const entries = [
   {
     id: "aluminum",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_diamond_tool",
@@ -134,7 +123,6 @@ const entries = [
   {
     id: "chrome",
     raw: true,
-    nativeRaw: true,
     stoneOre: true,
     deepslateOre: true,
     miningLevel: "minecraft:needs_diamond_tool",
@@ -258,12 +246,6 @@ StartupEvents.registry("item", (e) => {
     if (entry.raw) {
       console.log(`. raw ${entry.id} registered.`)
       e.create(`techpack:raw_${entry.id}`).tag(`c:raw_materials`).tag(`c:raw_materials/${entry.id}`).texture(`techpack:item/material_builder/raw_${entry.id}`);
-    }
-  });
-  entries.forEach((entry) => {
-    if (entry.nativeRaw) {
-      console.log(`. native raw ${entry.id} registered.`)
-      e.create(`techpack:native_raw_${entry.id}`).tag(`c:native_raw_materials`).tag(`c:native_raw_materials/${entry.id}`).texture(`techpack:item/material_builder/native_raw_${entry.id}`);
     }
   });
   entries.forEach((entry) => {

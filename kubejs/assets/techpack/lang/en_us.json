@@ -3,6 +3,21 @@
     "techpack.item.toolti1.moddedpedia": "by StarCorp",
     "techpack.item.tooltip2.moddedpedia": "Right-click to open the guide window",
     "effect.techpack.nutrition.description": "Restores hunger slowly.",
+    
+    "gui.techpack.machines.steam_tier.steam_storage": "Steam Storage: 8.000 mB",
+    "gui.techpack.machines.steam_tier.steam_io": "Steam I/O: 1.000 mB/t",
+    "gui.techpack.machines.basic_tier.energy_storage": "- Energy Storage: 4.000 RF",
+    "gui.techpack.machines.basic_tier.energy_io": "- Energy I/O: 1.000 RF/t",
+    "gui.techpack.machines.unlocks_new_reipes": "- Unlocks new recipes.",
+    "gui.techpack.machines.advanced_tier.energy_storage": "- Energy Storage: 16.000 RF",
+    "gui.techpack.machines.advanced_tier.energy_io": "- Energy I/O: 4.000 RF/t",
+    "gui.techpack.machines.advanced_tier.speed_multiplier": "- 25% Faster than basic tier",
+    "gui.techpack.machines.advanced_tier.energy_cost_multiplier": "- 25% More energy cost than basic tier",
+    "gui.techpack.machines.sophisticated_tier.energy_storage": "- Energy Storage: 64.000 RF",
+    "gui.techpack.machines.sophisticated_tier.energy_io": "- Energy I/O: 16.000 RF/t",
+    "gui.techpack.machines.sophisticated_tier.speed_multiplier": "- 50% Faster than basic tier",
+    "gui.techpack.machines.sophisticated_tier.energy_cost_multiplier": "- 50% More energy cost than basic tier",
+    
 
     "techpack.tip_title.default": "TechPack Tip:",
     "tip.techpack.portable_fluid_capsule.text": "Portable Fluid Capsule its an item that allow you to extract up to 1,000 mB of fluid from inside blocks. This is very useful for cleaning broken values.",
