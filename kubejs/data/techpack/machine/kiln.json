@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Kiln"
+      "translate": "block.techpack.kiln"
     }
   },
   "appearance": {
@@ -139,7 +139,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Klin"
+          "translate": "block.techpack.kiln"
         }
       }
     }

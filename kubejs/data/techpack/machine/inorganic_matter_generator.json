@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Inorganic Matter Generator"
+      "translate": "block.techpack.devices.inorganic_matter_generator"
     }
   },
   "appearance": {
@@ -166,7 +166,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Inorganic Matter Generator"
+          "translate": "block.techpack.devices.inorganic_matter_generator"
         }
       }
     }

@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Steam Compressor"
+    "text": {
+      "translate": "block.techpack.machines.compressor.steam"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_press.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/steam/compressor#standalone",
     "custommachinery:item": "techpack:machines/steam/compressor#standalone",
     "custommachinery:keep_inventory": true
@@ -71,7 +79,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Steam Compressor"
+        "text": {
+          "translate": "block.techpack.machines.compressor.steam"
+        }
       }
     },
     {

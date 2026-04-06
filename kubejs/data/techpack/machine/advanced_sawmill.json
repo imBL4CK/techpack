@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Advanced Sawmill"
+    "text": {
+      "translate": "block.techpack.machines.sawmill.advanced"
+    }
   },
   "parent": "techpack:basic_sawmill",
   "modifiers": [
@@ -18,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_saw.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/advanced/sawmill#standalone",
     "custommachinery:item": "techpack:machines/advanced/sawmill#standalone",
     "custommachinery:keep_inventory": true
@@ -178,7 +186,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Advanced Sawmill"
+        "text": {
+          "translate": "block.techpack.machines.sawmill.advanced"
+        }
       }
     },
     {

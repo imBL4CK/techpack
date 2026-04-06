@@ -7,18 +7,9 @@
   "appearance": {
     "running": {
       "custommachinery:ambient_sound": {
-        "sound": "techpack:smelter.running"
+        "sound": "techpack:machine_furnace.running"
       },
-      "custommachinery:interaction_sound": {
-        "step": "minecraft:block.metal.step",
-        "place": "minecraft:block.metal.place",
-        "hit": "minecraft:block.metal.hit",
-        "fall": "minecraft:block.metal.fall",
-        "break": "minecraft:block.metal.break"
-      }
-    },
-    "custommachinery:ambient_sound": {
-      "sound": "minecraft:"
+      "custommachinery:light": 10
     },
     "custommachinery:block": "techpack:machines/basic/smelter#standalone",
     "custommachinery:item": "techpack:machines/basic/smelter#standalone",

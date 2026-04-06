@@ -1,7 +1,16 @@
-import { techpackMachineAPI } from "./techpack_machineAPI"; 
+    import { techpackMachineAPI } from "./techpack_machineAPI"; 
 
 ServerEvents.recipes((e) => {
     const BasicRecipes = [
+        {
+            "machineType": "techpack:basic_alloy_foundry",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 50 },
+            "requireItem": ["4x #c:ingots/gold", "4x minecraft:netherite_scrap"],
+            "produceItem": ["minecraft:netherite_ingot"]
+        },
         {
             "machineType": "techpack:basic_alloy_foundry",
             "recipeTier": "basic",

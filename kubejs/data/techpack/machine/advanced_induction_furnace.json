@@ -22,8 +22,9 @@
   "appearance": {
     "running": {
       "custommachinery:ambient_sound": {
-        "sound": "techpack:smelter.running"
-      }
+        "sound": "techpack:machine_furnace.running"
+      },
+      "custommachinery:light": 10
     },
     "custommachinery:block": "techpack:machines/advanced/induction_furnace#standalone",
     "custommachinery:item": "techpack:machines/advanced/induction_furnace#standalone",

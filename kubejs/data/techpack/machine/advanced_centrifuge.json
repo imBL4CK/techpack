@@ -1,14 +1,35 @@
 {
   "name": {
     "text": {
-      "translate": "Advanced Centrifuge"
+      "translate": "block.techpack.machines.centrifuge.advanced"
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_centrifuge.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/advanced/centrifuge#standalone",
     "custommachinery:item": "techpack:machines/advanced/centrifuge#standalone",
     "custommachinery:keep_inventory": true
   },
+  "parent": "techpack:basic_centrifuge",
+  "modifiers": [
+    {
+      "requirement": "custommachinery:speed",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 0.75
+    },
+    {
+      "requirement": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "operation": "multiplication",
+      "modifier": 1.25
+    }
+  ],
   "components": [
     {
       "type": "custommachinery:energy",
@@ -251,7 +272,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Advanced Centrifuge"
+          "translate": "block.techpack.machines.centrifuge.advanced"
         }
       }
     }

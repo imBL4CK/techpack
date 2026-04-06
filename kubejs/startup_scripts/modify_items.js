@@ -2,6 +2,9 @@ ItemEvents.modification((e) => {
   e.modify("techpack:coal_coke", item => {
     item.burnTime = 6400;
   });
+  e.modify("techpack:organic_matter", item => {
+    item.burnTime = 1600;
+  });
   e.modify("techpack:hop_graphite_dust", item => {
     item.burnTime = 6400;
   });

@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Sophisticated Assembler"
+    "text": {
+      "translate": "block.techpack.machines.assembler.sophisticated"
+    }
   },
   "parent": "techpack:basic_assembler",
   "modifiers": [
@@ -18,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/sophisticated/assembler#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/assembler#standalone",
     "custommachinery:keep_inventory": true
@@ -282,11 +290,14 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Sophisticated Assembler"
+        "text": {
+          "translate": "block.techpack.machines.assembler.sophisticated"
+        }
       }
     }
   ],
-  "tooltips": [{
+  "tooltips": [
+    {
       "text": {
         "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }

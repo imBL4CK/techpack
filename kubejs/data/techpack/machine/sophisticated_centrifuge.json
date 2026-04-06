@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Sophisticated Centrifuge"
+      "translate": "block.techpack.machines.centrifuge.sophisticated"
     }
   },
   "parent": "techpack:basic_centrifuge",
@@ -20,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_centrifuge.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/sophisticated/centrifuge#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/centrifuge#standalone",
     "custommachinery:keep_inventory": true
@@ -266,12 +272,13 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Sophisticated Centrifuge"
+          "translate": "block.techpack.machines.centrifuge.sophisticated"
         }
       }
     }
   ],
-  "tooltips": [{
+  "tooltips": [
+    {
       "text": {
         "translate": "gui.techpack.machines.sophisticated_tier.energy_storage"
       }

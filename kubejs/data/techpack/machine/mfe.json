@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "MFE"
+      "translate": "block.techpack.energy_storage.mfe"
     }
   },
   "appearance": {
@@ -100,7 +100,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "MFE"
+          "translate": "block.techpack.energy_storage.mfe"
         }
       }
     }

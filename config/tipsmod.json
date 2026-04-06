@@ -23,7 +23,7 @@
   "default_title": {
     "//": "The default tile to use when rendering a tip.",
     "value": {
-      "translate": "techpack.tip_title.default",
+      "translate": "tip.techpack.tip_title.default",
       "underlined": true,
       "color": "yellow",
       "bold": true

@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Electric Pump"
+    "text": {
+      "translate": "block.techpack.devices.electric_pump"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:device_electric_pump.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/electric_pump#standalone",
     "custommachinery:item": "techpack:machines/electric_pump#standalone",
     "custommachinery:keep_inventory": true
@@ -20,7 +28,7 @@
         "BACK": "NONE",
         "LEFT": "NONE"
       },
-      "id": "fluid_output",
+      "id": "fluid_tank",
       "capacity": 8000,
       "max_input": 1000,
       "max_output": 1000
@@ -33,12 +41,110 @@
       "config": {
         "TOP": "NONE",
         "BOTTOM": "NONE",
-        "FRONT": "NONE",
-        "RIGHT": "NONE",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
         "BACK": "INPUT",
-        "LEFT": "NONE",
+        "LEFT": "INPUT",
         "input": true
       }
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "id": "fluid_output_slot",
+      "mode": "output",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "id": "energy_input_slot",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      }
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "x": 61,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/flui"
+      },
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_output_slot.png"
+      },
+      "x": 97,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 97,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.devices.electric_pump"
+        }
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 153,
+      "y": 67,
+      "height": 18
     }
   ],
   "tooltips": [
@@ -46,10 +152,14 @@
       "text": "- Pumps Water at 500 mB/t "
     },
     {
-      "text": "- Energy storage: 4000 RF"
+      "text": {
+        "translate": "gui.techpack.machines.basic_tier.energy_storage"
+      }
     },
     {
-      "text": "- Energy I/O: 1000 RF/t"
+      "text": {
+        "translate": "gui.techpack.machines.basic_tier.energy_io"
+      }
     }
   ]
 }

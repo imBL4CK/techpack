@@ -145,6 +145,18 @@ ServerEvents.recipes((e) => {
                 { item: "techpack:fissile_uranium", chance: 0.05 }
             ]
         },
+        //Calorite
+        {
+            "machineType": "techpack:basic_centrifuge",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 20 },
+            "requireItem": ["techpack:purified_calorite_dust"],
+            "produceItem": [
+                "techpack:calorite_dust", 
+                { item: "techpack:calorite_dust", chance: 0.5 },
+            ]
+        },
     ]
     recipes.forEach((recipe) => {
         techpackMachineAPI(e,recipe)

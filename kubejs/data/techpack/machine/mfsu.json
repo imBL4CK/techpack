@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "MFSU"
+      "translate": "block.techpack.energy_storage.mfsu"
     }
   },
   "appearance": {
@@ -100,7 +100,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "MFSU"
+          "translate": "block.techpack.energy_storage.mfsu"
         }
       }
     }

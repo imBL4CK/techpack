@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Sawmill"
+    "text": {
+      "translate": "block.techpack.machines.sawmill.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_saw.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/sawmill#standalone",
     "custommachinery:item": "techpack:machines/basic/sawmill#standalone",
     "custommachinery:keep_inventory": true
@@ -163,7 +171,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Sawmill"
+        "text": {
+          "translate": "block.techpack.machines.sawmill.basic"
+        }
       }
     },
     {

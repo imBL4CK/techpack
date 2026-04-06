@@ -18,6 +18,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/sophisticated/solidifier#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/solidifier#standalone",
     "custommachinery:keep_inventory": true

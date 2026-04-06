@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "CESU"
+      "translate": "block.techpack.energy_storage.cesu"
     }
   },
   "appearance": {
@@ -88,7 +88,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "CESU"
+          "translate": "block.techpack.energy_storage.cesu"
         }
       }
     }

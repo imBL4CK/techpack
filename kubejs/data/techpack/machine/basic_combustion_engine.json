@@ -1,10 +1,16 @@
 {
   "name": {
-    "text": "Basic Combustion Engine"
+    "text": {
+      "translate": "block.techpack.generators.combustion_engine.basic"
+    }
   },
   "appearance": {
     "running": {
-      "custommachinery:block": "techpack:machines/basic/combustion_engine_running#standalone"
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic_heavy.running"
+      },
+      "custommachinery:block": "techpack:machines/basic/combustion_engine_running#standalone",
+      "custommachinery:light": 7
     },
     "custommachinery:block": "techpack:machines/basic/combustion_engine_idle#standalone",
     "custommachinery:item": "techpack:machines/basic/combustion_engine_idle#standalone",
@@ -59,9 +65,140 @@
       "max_output": 1000,
       "id": "fluid_output_tank",
       "capacity": 8000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH"
+      },
+      "id": "energy_output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "fluid_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_fluid",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "fluid_output_slot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 34,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "x": 7,
+      "y": 17
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "x": 150,
+      "y": 17
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_input_slot.png"
+      },
+      "x": 7,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fluid_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_output_slot.png"
+      },
+      "x": 150,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.generators.combustion_engine.basic"
+        }
+      }
     }
   ],
   "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 103,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
     {
       "type": "custommachinery:fluid",
       "id": "fluid_input_tank",
@@ -81,17 +218,6 @@
       "texture_filled": {
         "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
       }
-    },
-    {
-      "type": "custommachinery:energy",
-      "texture_filled": {
-        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
-      },
-      "texture_empty": {
-        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
-      },
-      "x": 103,
-      "y": 23
     }
   ]
 }

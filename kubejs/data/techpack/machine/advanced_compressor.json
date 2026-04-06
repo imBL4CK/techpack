@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Advanced Compressor"
+    "text": {
+      "translate": "block.techpack.machines.compressor.advanced"
+    }
   },
   "parent": "techpack:basic_compressor",
   "modifiers": [
@@ -18,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_press.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/advanced/compressor#standalone",
     "custommachinery:item": "techpack:machines/advanced/compressor#standalone",
     "custommachinery:keep_inventory": true
@@ -87,7 +95,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Advanced Compressor"
+        "text": {
+          "translate": "block.techpack.machines.compressor.advanced"
+        }
       }
     },
     {

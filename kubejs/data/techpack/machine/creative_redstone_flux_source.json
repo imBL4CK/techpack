@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Creative Redstone-Flux Source"
+      "translate": "block.techpack.energy_storage.creative_redstone_flux_source"
     }
   },
   "appearance": {
@@ -90,7 +90,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Creative Redstone Flux Source"
+          "translate": "block.techpack.energy_storage.creative_redstone_flux_source"
         }
       }
     }

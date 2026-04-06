@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Washer"
+    "text": {
+      "translate": "block.techpack.machines.washer.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_washer.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/washer#standalone",
     "custommachinery:item": "techpack:machines/basic/washer#standalone",
     "custommachinery:keep_inventory": true
@@ -142,7 +150,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Washer"
+        "text": {
+          "translate": "block.techpack.machines.washer.basic"
+        }
       }
     },
     {

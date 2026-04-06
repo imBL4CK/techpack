@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Resource Collector"
+    "text": {
+      "translate": "block.techpack.devices.resource_collector"
+    }
   },
   "appearance": {
     "custommachinery:block": "techpack:machines/resource_collector#standalone",
@@ -214,7 +216,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Resource Collector"
+        "text": {
+          "translate": "block.techpack.devices.resource_collector"
+        }
       }
     }
   ],

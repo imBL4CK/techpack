@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "High Pressure Boiler"
+      "translate": "block.techpack.generators.high_pressure_boiler"
     }
   },
   "parent": "techpack:low_pressure_boiler",
@@ -168,7 +168,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "High Pressure Boiler"
+          "translate": "block.techpack.generators.high_pressure_boiler"
         }
       }
     }

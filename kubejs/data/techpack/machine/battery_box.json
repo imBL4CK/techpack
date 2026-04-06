@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Battery Box"
+      "translate": "block.techpack.energy_storage.battery_box"
     }
   },
   "appearance": {
@@ -104,7 +104,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Battery Box"
+          "translate": "block.techpack.energy_storage.battery_box"
         }
       }
     }

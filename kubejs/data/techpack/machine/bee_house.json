@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Bee House"
+    "text": {
+      "translate": "block.techpack.beekeeping.bee_house"
+    }
   },
   "appearance": {
     "custommachinery:block": "techpack:machines/bee_house#standalone",
@@ -178,7 +180,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Bee House"
+        "text": {
+          "translate": "block.techpack.beekeeping.bee_house"
+        }
       }
     }
   ]

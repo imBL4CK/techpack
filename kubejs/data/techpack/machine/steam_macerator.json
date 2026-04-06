@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Steam Macerator"
+    "text": {
+      "translate": "block.techpack.machines.macerator.steam"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_crushing.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/steam/macerator#standalone",
     "custommachinery:item": "techpack:machines/steam/macerator#standalone",
     "custommachinery:keep_inventory": true
@@ -80,7 +88,9 @@
     {
       "type": "custommachinery:text",
       "text": {
-        "text": "Steam Macerator"
+        "text": {
+          "translate": "block.techpack.machines.macerator.steam"
+        }
       },
       "x": 8,
       "y": 6

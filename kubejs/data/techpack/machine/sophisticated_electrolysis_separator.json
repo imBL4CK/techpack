@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Sophisticated Electrolysis Separator"
+    "text": {
+      "translate": "block.techpack.machines.electrolysis_separator.advanced"
+    }
   },
   "parent": "techpack:basic_electrolysis_separator",
   "modifiers": [
@@ -18,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/sophisticated/electrolysis_separator#standalone",
     "custommachinery:item": "techpack:machines/sophisticated/electrolysis_separator#standalone",
     "custommachinery:keep_inventory": true
@@ -285,7 +293,9 @@
     {
       "type": "custommachinery:text",
       "text": {
-        "text": "Sophist. Electrolysis Separator"
+        "text": {
+        "translate": "block.techpack.machines.electrolysis_separator.sophisticated.short"
+        }
       },
       "x": 8,
       "y": 6

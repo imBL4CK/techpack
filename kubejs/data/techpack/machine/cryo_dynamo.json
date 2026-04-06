@@ -1,11 +1,14 @@
 {
   "name": {
     "text": {
-      "translate": "Cryo Dynamo"
+      "translate": "block.techpack.generators.cryo_dynamo"
     }
   },
   "appearance": {
     "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:dynamo_cryo.running"
+      },
       "custommachinery:light": 15
     },
     "custommachinery:block": "techpack:machines/cryo_dynamo#standalone",
@@ -147,7 +150,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Cryo Dynamo"
+          "translate": "block.techpack.generators.cryo_dynamo"
         }
       }
     }

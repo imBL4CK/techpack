@@ -1,11 +1,14 @@
 {
   "name": {
     "text": {
-      "translate": "Steam Dynamo"
+      "translate": "block.techpack.generators.steam_dynamo"
     }
   },
   "appearance": {
     "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic_heavy.running"
+      },
       "custommachinery:light": 10
     },
     "custommachinery:block": "techpack:machines/steam_dynamo#standalone",
@@ -142,7 +145,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Steam Dynamo"
+          "translate": "block.techpack.generators.steam_dynamo"
         }
       }
     }

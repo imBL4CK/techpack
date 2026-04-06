@@ -3,6 +3,12 @@
     "text": "Basic Metal Former"
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_press.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/metal_former#standalone",
     "custommachinery:item": "techpack:machines/basic/metal_former#standalone",
     "custommachinery:keep_inventory": true

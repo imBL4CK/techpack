@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Compressor"
+    "text": {
+      "translate": "block.techpack.machines.compressor.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_press.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/compressor#standalone",
     "custommachinery:item": "techpack:machines/basic/compressor#standalone",
     "custommachinery:keep_inventory": true
@@ -72,7 +80,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Compressor"
+        "text": {
+          "translate": "block.techpack.machines.compressor.basic"
+        }
       }
     },
     {

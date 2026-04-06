@@ -1,10 +1,16 @@
 {
   "name": {
     "text": {
-      "translate": "Electric Composter"
+      "translate": "block.techpack.devices.electric_composter"
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/electric_composter#standalone",
     "custommachinery:item": "techpack:machines/basic/electric_composter#standalone",
     "custommachinery:keep_inventory": true
@@ -162,7 +168,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Electric Composter"
+          "translate": "block.techpack.devices.electric_composter"
         }
       }
     }
@@ -170,12 +176,12 @@
   "tooltips": [
     {
       "text": {
-        "translate": "- Energy storage: 4000 RF"
+        "translate": "gui.techpack.machines.basic_tier.energy_storage"
       }
     },
     {
       "text": {
-        "translate": "- Energy I/O: 1000 RF/t"
+        "translate": "gui.techpack.machines.basic_tier.energy_io"
       }
     }
   ]

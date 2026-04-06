@@ -1,10 +1,16 @@
 {
   "name": {
     "text": {
-      "translate": "Basic Centrifuge"
+      "translate": "block.techpack.machines.centrifuge.basic"
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_centrifuge.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/centrifuge#standalone",
     "custommachinery:item": "techpack:machines/basic/centrifuge#standalone",
     "custommachinery:keep_inventory": true
@@ -251,7 +257,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Basic Centrifuge"
+          "translate": "block.techpack.machines.centrifuge.basic"
         }
       }
     }

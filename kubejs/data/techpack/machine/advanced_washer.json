@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Advanced Washer"
+    "text": {
+      "translate": "block.techpack.machines.washer.advanced"
+    }
   },
   "parent": "techpack:basic_washer",
   "modifiers": [
@@ -18,6 +20,12 @@
     }
   ],
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_washer.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/advanced/washer#standalone",
     "custommachinery:item": "techpack:machines/advanced/washer#standalone",
     "custommachinery:keep_inventory": true
@@ -157,7 +165,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Advanced Washer"
+        "text": {
+          "translate": "block.techpack.machines.washer.advanced"
+        }
       }
     },
     {

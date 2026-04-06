@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Macerator"
+    "text": {
+      "translate": "block.techpack.machines.macerator.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_crushing.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/macerator#standalone",
     "custommachinery:item": "techpack:machines/basic/macerator#standalone",
     "custommachinery:keep_inventory": true
@@ -72,7 +80,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Macerator"
+        "text": {
+          "translate": "block.techpack.machines.macerator.basic"
+        }
       }
     },
     {

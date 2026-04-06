@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Assembler"
+    "text": {
+      "translate": "block.techpack.machines.assembler.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/assembler#standalone",
     "custommachinery:item": "techpack:machines/basic/assembler#standalone",
     "custommachinery:keep_inventory": true
@@ -267,7 +275,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Assembler"
+        "text": {
+          "translate": "block.techpack.machines.assembler.basic"
+        }
       }
     }
   ],

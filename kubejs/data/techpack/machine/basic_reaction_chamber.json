@@ -1,8 +1,16 @@
 {
   "name": {
-    "text": "Basic Reaction Chamber"
+    "text": {
+      "translate": "block.techpack.machines.reaction_chamber.basic"
+    }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_generic_heavy.running"
+      },
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/basic/reaction_chamber#standalone",
     "custommachinery:item": "techpack:machines/basic/reaction_chamber#standalone",
     "custommachinery:keep_inventory": true
@@ -272,7 +280,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Basic Reaction Chamber"
+        "text": {
+          "translate": "block.techpack.machines.reaction_chamber.basic"
+        }
       }
     }
   ],

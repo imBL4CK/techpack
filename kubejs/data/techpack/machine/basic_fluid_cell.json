@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "Basic Fluid Cell"
+      "translate": "block.techpack.devices.basic_fluid_cell"
     }
   },
   "appearance": {
@@ -108,7 +108,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Basic Fluid Cell"
+          "translate": "block.techpack.devices.basic_fluid_cell"
         }
       }
     },

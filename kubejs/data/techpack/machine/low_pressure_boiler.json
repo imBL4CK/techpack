@@ -1,6 +1,8 @@
 {
   "name": {
-    "text": "Low Pressure Boiler"
+    "text": {
+      "translate": "block.techpack.generators.low_pressure_boiler"
+    }
   },
   "appearance": {
     "running": {
@@ -150,7 +152,9 @@
       "x": 8,
       "y": 6,
       "text": {
-        "text": "Low Pressure Boiler"
+        "text": {
+          "translate": "block.techpack.generators.low_pressure_boiler"
+        }
       }
     }
   ],

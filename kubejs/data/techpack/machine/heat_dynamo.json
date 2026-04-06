@@ -1,11 +1,14 @@
 {
   "name": {
     "text": {
-      "translate": "Heat Dynamo"
+      "translate": "block.techpack.generators.heat_dynamo"
     }
   },
   "appearance": {
     "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:dynamo_heat.running"
+      },
       "custommachinery:light": 15
     },
     "custommachinery:block": "techpack:machines/heat_dynamo#standalone",
@@ -147,7 +150,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "Heat Dynamo"
+          "translate": "block.techpack.generators.heat_dynamo"
         }
       }
     }
