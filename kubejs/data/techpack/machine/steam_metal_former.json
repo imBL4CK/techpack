@@ -6,8 +6,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_press.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/steam/metal_former#standalone",
     "custommachinery:item": "techpack:machines/steam/metal_former#standalone",

@@ -8,8 +8,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_furnace.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/steam/smelter#standalone",
     "custommachinery:item": "techpack:machines/steam/smelter#standalone",

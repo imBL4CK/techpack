@@ -136,11 +136,25 @@
       "y": 17
     },
     {
+      "type": "custommachinery:texture",
+      "texture": "techpack:textures/gui/machines/tank_overlay.png",
+      "zlevel": 101,
+      "x": 7,
+      "y": 17
+    },
+    {
       "type": "custommachinery:fluid",
       "id": "fluid_output_tank",
       "texture": {
         "texture": "techpack:textures/gui/machines/tank.png"
       },
+      "x": 150,
+      "y": 17
+    },
+    {
+      "type": "custommachinery:texture",
+      "texture": "techpack:textures/gui/machines/tank_overlay.png",
+      "zlevel": 101,
       "x": 150,
       "y": 17
     },

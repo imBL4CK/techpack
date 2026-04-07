@@ -26,4 +26,12 @@ StartupEvents.registry("item", (e) => {
   e.create("techpack:worldshaper_pickaxe", "pickaxe").tier("stabillis_tier").unstackable();
   e.create("techpack:destruction_axe", "axe").tier("stabillis_tier").unstackable();
   e.create("techpack:erosion_shovel", "shovel").tier("stabillis_tier").unstackable();
+
+  e.create("techpack:glitch_knife", "sword")
+    .tier("glitch_knife")
+    .rarity("epic")
+    .tag("c:tools/knives")
+    .attackDamageBaseline(996)
+    //.modifyAttribute("lodestone:magic_damage", "b7d2f9a7-9e45-4c07-9b43-2d2c12d4a5b6", 1, "add_value")
+    .unstackable()
 });

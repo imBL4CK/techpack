@@ -8,8 +8,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_press.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/steam/compressor#standalone",
     "custommachinery:item": "techpack:machines/steam/compressor#standalone",

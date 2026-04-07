@@ -21,8 +21,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_press.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/advanced/metal_former#standalone",
     "custommachinery:item": "techpack:machines/advanced/metal_former#standalone",
@@ -177,6 +176,57 @@
       },
       "x": 153,
       "y": 67
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 53,
+      "y": 42,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "id": "input_slot_1",
+      "type": "custommachinery:slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 44,
+      "y": 23
+    },
+    {
+      "id": "input_slot_2",
+      "type": "custommachinery:slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 62,
+      "y": 23
+    },
+    {
+      "id": "output_slot",
+      "type": "custommachinery:slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 111,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 84,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
     }
   ],
   "tooltips": [

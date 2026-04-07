@@ -173,6 +173,48 @@
       }
     }
   ],
+  "jei": [
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_input",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 52,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank_output",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 99,
+      "y": 24
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 54,
+      "y": 44,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_fuel_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_fuel_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 72,
+      "y": 26,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    }
+  ],
   "tooltips": [
     {
       "text": {

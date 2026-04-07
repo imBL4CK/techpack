@@ -8,8 +8,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_generic_heavy.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/basic/reaction_chamber#standalone",
     "custommachinery:item": "techpack:machines/basic/reaction_chamber#standalone",
@@ -284,6 +283,111 @@
           "translate": "block.techpack.machines.reaction_chamber.basic"
         }
       }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      },
+      "x": 78,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 38,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 40
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 101,
+      "y": 40,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_output_tank_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 119,
+      "y": 40,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 38,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 56,
+      "y": 22
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 101,
+      "y": 22,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 119,
+      "y": 22,
+      "width": 18
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 106
+    },
+    {
+      "type": "custommachinery:progress",
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      },
+      "x": 75,
+      "y": 23
     }
   ],
   "tooltips": [

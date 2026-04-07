@@ -24,10 +24,10 @@
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_generic.running"
       },
-      "custommachinery:light": 10
+      "custommachinery:block": "techpack:machines/advanced/assembler_running#standalone"
     },
-    "custommachinery:block": "techpack:machines/advanced/assembler#standalone",
-    "custommachinery:item": "techpack:machines/advanced/assembler#standalone",
+    "custommachinery:block": "techpack:machines/advanced/assembler_idle#standalone",
+    "custommachinery:item": "techpack:machines/advanced/assembler_idle#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [

@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:block/basic_machine_casing",
+    "textures": {
+    	"face": "techpack:block/machines/electric/assembler_running"
+    }
+}

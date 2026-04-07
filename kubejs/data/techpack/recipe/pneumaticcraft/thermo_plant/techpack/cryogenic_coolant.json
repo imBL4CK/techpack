@@ -2,11 +2,8 @@
   "type": "pneumaticcraft:thermo_plant",
   "inputs": {
     "fluid": {
-      "fluid": "techpack:hydrogen_fluoride",
+      "fluid": "techpack:ice_coolant",
       "amount": 1000
-    },
-    "item": {
-      "item": "techpack:ice_coolant_paste"
     }
   },
   "outputs": {

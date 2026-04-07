@@ -1,6 +1,6 @@
 {
     "parent": "techpack:block/sophisticated_machine_casing",
     "textures": {
-    	"face": "techpack:block/machines/electric/assembler"
+    	"face": "techpack:block/machines/electric/solidifier_running"
     }
 }

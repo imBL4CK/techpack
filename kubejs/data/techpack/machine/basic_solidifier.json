@@ -9,10 +9,10 @@
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_generic.running"
       },
-      "custommachinery:light": 10
+      "custommachinery:block": "techpack:machines/basic/solidifier_running#standalone"
     },
-    "custommachinery:block": "techpack:machines/basic/solidifier#standalone",
-    "custommachinery:item": "techpack:machines/basic/solidifier#standalone",
+    "custommachinery:block": "techpack:machines/basic/solidifier_idle#standalone",
+    "custommachinery:item": "techpack:machines/basic/solidifier_idle#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [
@@ -171,6 +171,58 @@
           "translate": "block.techpack.machines.solidifier.basic"
         }
       }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 53,
+      "y": 39,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_input_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 43,
+      "y": 20
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 61,
+      "y": 20
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 81,
+      "y": 21,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 106,
+      "y": 20,
+      "width": 18
     }
   ],
   "tooltips": [

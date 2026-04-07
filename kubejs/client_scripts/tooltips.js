@@ -55,4 +55,8 @@ ItemEvents.modifyTooltips((e) => {
   e.modify(["stellaris:tablet", "ftbquests:book"], (tooltip) => {
     tooltip.insert(1, Text.of("by StarCorp").color(0xffaa00));
   });
+  e.modify("techpack:glitch_knife", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.glitch_knife.tooltip.1"));
+    tooltip.insert(2, Text.translate("item.techpack.glitch_knife.tooltip.2").color(0x7f3fb2));
+  });
 });

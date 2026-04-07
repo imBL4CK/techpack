@@ -1,6 +1,6 @@
 {
     "parent": "techpack:block/sophisticated_machine_casing",
     "textures": {
-    	"face": "techpack:block/machines/electric/electrolysis_separator"
+    	"face": "techpack:block/machines/electric/electrolysis_separator_idle"
     }
 }

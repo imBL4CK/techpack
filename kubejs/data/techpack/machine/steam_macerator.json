@@ -8,8 +8,7 @@
     "running": {
       "custommachinery:ambient_sound": {
         "sound": "techpack:machine_crushing.running"
-      },
-      "custommachinery:light": 10
+      }
     },
     "custommachinery:block": "techpack:machines/steam/macerator#standalone",
     "custommachinery:item": "techpack:machines/steam/macerator#standalone",

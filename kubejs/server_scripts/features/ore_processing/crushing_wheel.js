@@ -57,28 +57,79 @@ ServerEvents.recipes((e) => {
       ],
     });
   });
+  //Chrome
   e.custom({
     type: "create:crushing",
     processingTime: 400,
     ingredients: [
-        { item: "techpack:raw_chrome",},
+      { item: "techpack:raw_chrome",},
     ],
     results: [
-        { id: "techpack:crushed_raw_chrome" },
-        { id: "techpack:crushed_raw_chrome", chance: 0.5  },
-        { id: "create:experience_nugget", chance: 0.75 },
+      { id: "techpack:crushed_raw_chrome" },
+      { id: "techpack:crushed_raw_chrome", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
     ],
   })
   e.custom({
     type: "create:crushing",
     processingTime: 400,
     ingredients: [
-        { tag: "c:ores/chrome",},
+      { tag: "c:ores/chrome",},
     ],
     results: [
-        { id: "techpack:crushed_raw_chrome" },
-        { id: "techpack:crushed_raw_chrome", chance: 0.5  },
-        { id: "create:experience_nugget", chance: 0.75 },
+      { id: "techpack:crushed_raw_chrome" },
+      { id: "techpack:crushed_raw_chrome", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
+    ],
+  })
+  //Calorite
+  e.custom({
+    type: "create:crushing",
+    processingTime: 400,
+    ingredients: [
+      { item: "techpack:raw_calorite",},
+    ],
+    results: [
+      { id: "techpack:crushed_raw_calorite" },
+      { id: "techpack:crushed_raw_calorite", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
+    ],
+  })
+  e.custom({
+    type: "create:crushing",
+    processingTime: 400,
+    ingredients: [
+      { tag: "c:ores/calorite",},
+    ],
+    results: [
+      { id: "techpack:crushed_raw_calorite" },
+      { id: "techpack:crushed_raw_calorite", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
+    ],
+  })
+  //Desh
+  e.custom({
+    type: "create:crushing",
+    processingTime: 400,
+    ingredients: [
+      { item: "stellaris:raw_desh_ingot",},
+    ],
+    results: [
+      { id: "techpack:crushed_raw_desh" },
+      { id: "techpack:crushed_raw_desh", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
+    ],
+  })
+  e.custom({
+    type: "create:crushing",
+    processingTime: 400,
+    ingredients: [
+      { tag: "c:ores/desh",},
+    ],
+    results: [
+      { id: "techpack:crushed_raw_desh" },
+      { id: "techpack:crushed_raw_desh", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
     ],
   })
 });

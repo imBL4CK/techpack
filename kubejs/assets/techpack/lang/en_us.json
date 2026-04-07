@@ -2,6 +2,8 @@
     "item.techpack.moddedpedia.name": "Moddedpedia",
     "item.techpack.moddedpedia.tooltip.1": "by StarCorp",
     "item.techpack.moddedpedia.tooltip.2": "Right-click to open the guide window",
+    "item.techpack.glitch_knife.tooltip.1": "Something that perhaps doesn't belong to that dimension",
+    "item.techpack.glitch_knife.tooltip.2": "Debug Item",
     "effect.techpack.nutrition.description": "Restores hunger slowly.",
     
     "gui.techpack.machines.steam_tier.steam_storage": "Steam Storage: 8.000 mB",
@@ -103,10 +105,10 @@
     "tip.techpack.heat_dynamo.text": "Heat Dynamos generate small amounts of energy passively when connected to a heat source (Pneumaticcraft) of 500 degrees Celsius or higher.",
     "tip.techpack.cryo_dynamo.text": "Cryo Dynamos generate small amounts of energy passively when connected to a heat source (Pneumaticcraft) of -100 degrees Celsius or less.",
     "tip.techpack.machines.text": "Techpack Machines store their items, energy, fluids, and other components when they are broken.",
-    "tip.techpack.curiosity_1.text": "Originally, the tech pack was intended for version 1.20.1 and would have had significantly less polish, but the performance gains of version 1.21.1 were a major selling point.",
+    "tip.techpack.curiosity_1.text": "Originally, the TechPack was intended for version 1.20.1 and would have had significantly less polish, but the performance gains of version 1.21.1 were a major selling point.",
     "tip.techpack.curiosity_2.text": "The developer's interest in expert modpacks began with an E2EE series by a Brazilian YouTuber named ArtpokeBR, who is now a developer at FTB.",
     "tip.techpack.curiosity_3.text": "The YouTuber ArtpokeBR was one of the main indirect contributors to the developer getting a PC.",
-    "tip.techpack.curiosity_4.text": "Industrial Craft, especially the classic edition, is one of the major inspirations for the Techpack machines.",
+    "tip.techpack.curiosity_4.text": "Industrial Craft, especially the classic edition, is one of the major inspirations for the TechPack machines.",
     "tip.techpack.curiosity_5.text": "The idea of merging concepts from old mods and reinterpreting them emerged after the project's development resumed in January 2026.",
     "tip.techpack.curiosity_6.text": "Raspberry Flavored was crucial in achieving the aesthetically polished TechPack.",
     "tip.techpack.curiosity_7.text": "StarCorp was the company responsible for sending the player to the past, shortly before a catastrophe occurred in the future."

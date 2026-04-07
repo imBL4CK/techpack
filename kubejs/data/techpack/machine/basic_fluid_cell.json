@@ -71,6 +71,13 @@
       "y": 25
     },
     {
+      "type": "custommachinery:texture",
+      "texture": "techpack:textures/gui/machines/tank_overlay.png",
+      "zlevel": 101,
+      "x": 61,
+      "y": 25
+    },
+    {
       "type": "custommachinery:player_inventory",
       "x": 7,
       "y": 91

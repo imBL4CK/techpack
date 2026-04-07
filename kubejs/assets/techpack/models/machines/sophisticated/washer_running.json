@@ -1,6 +1,6 @@
 {
     "parent": "techpack:block/sophisticated_machine_casing",
     "textures": {
-    	"face": "techpack:block/machines/electric/centrifuge"
+    	"face": "techpack:block/machines/electric/washer_running"
     }
 }
