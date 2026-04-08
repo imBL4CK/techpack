@@ -83,6 +83,15 @@ ServerEvents.recipes((e) => {
         "produceEnergy": { perTick: 300 },
         "resetOnError": true
     },
+    //Creosote
+    {
+        "machineType": "techpack:basic_combustion_engine",
+        "processingTime": 20,
+        "jeiDisplayPriority": 10,
+        "requireFluid": [{ perTick: "1x techpack:creosote"}],
+        "produceEnergy": { perTick: 300 },
+        "resetOnError": true
+    },
 ]
 recipes.forEach((recipe) => {
         techpackMachineAPI(e,recipe)

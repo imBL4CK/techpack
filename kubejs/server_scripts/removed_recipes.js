@@ -217,7 +217,6 @@ ServerEvents.recipes((e) => {
     "industrialforegoing:laser_drill_ore/raw_materials/nickel",
     "industrialforegoing:laser_drill_ore/raw_materials/lead",
     "industrialforegoing:laser_drill_ore/raw_materials/platinum",
-    "industrialforegoing:laser_drill_ore/raw_materials/aluminum",
     "industrialforegoing:laser_drill_ore/raw_materials/copper",
     "industrialforegoing:laser_drill_ore/raw_materials/iron",
     "industrialforegoing:laser_drill_ore/raw_materials/gold",

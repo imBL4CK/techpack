@@ -66,6 +66,7 @@ StartupEvents.registry("block", (e) => {
 
     "bee_house",
     "apiary",
+    "mutation_station",
 
     "electric_composter",
     "electric_pump",

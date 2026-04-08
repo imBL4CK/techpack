@@ -75,6 +75,7 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:depth_comb", chance: 0.5 },
+                { item: "techpack:precious_comb", chance: 0.25 },
                 { item: "techpack:beewax", chance: 0.5 }
             ],
             "requirePosition": {
@@ -109,6 +110,7 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:precious_comb", chance: 0.5 },
+                { item: "techpack:depth_comb", chance: 0.25 },
                 { item: "techpack:beewax", chance: 0.5 }
             ],
             "needsSky": true

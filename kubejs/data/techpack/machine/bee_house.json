@@ -5,6 +5,11 @@
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:block.beehive.work"
+      }
+    },
     "custommachinery:block": "techpack:machines/bee_house#standalone",
     "custommachinery:item": "techpack:machines/bee_house#standalone",
     "custommachinery:keep_inventory": true

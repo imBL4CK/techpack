@@ -53,11 +53,11 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "When breaking a wild nest using a catching net, you can drop a bee drone with a 30% chance, or a queen with a 10% chance.",
     },
     {
-      item: "minecraft:raw_copper",
+      item: ["minecraft:raw_copper", "create:raw_zinc", "techpack:raw_tin"],
       info: "Can be found in the Overworld",
     },
     {
-      item: "minecraft:raw_iron",
+      item: ["minecraft:raw_iron", "techpack:raw_silver", "techpack:raw_nickel", "techpack:raw_lead",],
       info: "Can be found in the Overworld and Moon",
     },
     {
@@ -65,39 +65,7 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "Can be found in the Overworld and Nether",
     },
     {
-      item: "create:raw_zinc",
-      info: "Can be found in the Overworld",
-    },
-    {
-      item: "techpack:raw_silver",
-      info: "Can be found in the Overworld and Moon",
-    },
-    {
-      item: "techpack:raw_tin",
-      info: "Can be found in the Overworld",
-    },
-    {
-      item: "techpack:raw_nickel",
-      info: "Can be found in the Overworld and Moon",
-    },
-    {
-      item: "techpack:raw_lead",
-      info: "Can be found in the Overworld and Moon",
-    },
-    {
-      item: "techpack:raw_platinum",
-      info: "Can be found in the Moon",
-    },
-    {
-      item: "techpack:raw_aluminum",
-      info: "Can be found in the Moon",
-    },
-    {
-      item: "techpack:raw_chrome",
-      info: "Can be found in the Moon",
-    },
-    {
-      item: "create:raw_zinc",
+      item: ["techpack:raw_platinum", "techpack:raw_aluminum", "techpack:raw_chrome"],
       info: "Can be found in the Moon",
     },
     {
@@ -149,10 +117,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "#techpack:electrodes",
       info: "Electrodes are essential for induction furnaces to function. Their durability varies depending on the material used in their recipe.",
     },
-    /*{
+    {
       item: "techpack:silite",
       info: "A solid rock, with a hardness similar to deepslate. Can be found in lunar caves",
-    },*/
+    },
     {
       item: "techpack:strange_dirt",
       info: "A soil with a strange color, it seems to resemble sand, small stones can be found in its composition. Can be found in lunar caves",
@@ -182,8 +150,16 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "It is a tool with strange properties, it has the ability to revive certain mobs when it interacts with the remains of their bodies. It is interacts with a select group of blocks, mostly mob heads",
     },
     {
-      item: "techpack:silite",
-      info: "A solid rock, with a hardness similar to deepslate. Can be found in lunar caves",
+      item: "techpack:apiary",
+      info: "Apiaries are workstations where bees generate combs. Each bee species has its own specific requirements for working, which can be viewed using the JEI/EMI",
+    },
+    {
+      item: "techpack:bee_house",
+      info: "Bee House are workstations to breed bees, but without species mutation. Each bee species has its own specific requirements for working, which can be viewed using the JEI/EMI",
+    },
+    {
+      item: "techpack:mutation_station",
+      info: "Mutation Stations are workstations to mutate bees with breeding. Each bee species has its own specific requirements for working, which can be viewed using the JEI/EMI",
     },
   ];
   information.forEach((jei) => {

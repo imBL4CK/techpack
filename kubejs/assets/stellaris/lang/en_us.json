@@ -6,5 +6,9 @@
   "stellaris.screen.diesel": "Jet Suit Fuel",
   "tooltip.item.stellaris.diesel": "\uD83C\uDF22 Jet suit Fuel: %s",
   "block.stellaris.marcury_polished_stone_slab": "Polished Mercury Stone Slab",
-  "block.stellaris.marcury_stone_slab": "Mercury Stone Slab"
+  "block.stellaris.marcury_stone_slab": "Mercury Stone Slab",
+  "fluid.stellaris.fuel": "Rocket Fuel",
+  "block.stellaris.fuel": "Rocket Fuel",
+  "item.stellaris.fuel_bucket": "Rocket Fuel Bucket",
+  "tooltip.item.stellaris.rocket.fuel": "\uD83C\uDF22 Rocket Fuel: %s"
 }

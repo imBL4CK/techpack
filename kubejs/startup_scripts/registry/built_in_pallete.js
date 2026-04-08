@@ -41,6 +41,8 @@ StartupEvents.registry("block", (e) => {
     e.create(`techpack:${registry.block}`)
       .soundType("wood")
       .tagBoth("mineable/axe")
+      .tagBoth("minecraft:planks")
+      .tagBoth("techpack:polished_planks")
       .texture(`techpack:block/pallete/${registry.block}`)
       .tagBoth("techlab:pallete_blocks")
       .mapColor(registry.color);

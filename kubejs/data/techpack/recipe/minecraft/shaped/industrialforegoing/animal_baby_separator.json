@@ -12,9 +12,11 @@
     "H": {
       "item": "supplementaries:hourglass"
     },
-    "K": {
-      "item": "nomansland:fruit_cake"
-    },
+    "K": [
+      { "item": "minecraft:cake" },
+      { "item": "nomansland:fruit_cake" },
+      { "item": "dungeonsdelight:monster_cake" }
+    ],
     "C": {
       "item": "techpack:basic_machine_casing"
     },

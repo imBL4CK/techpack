@@ -1,7 +1,7 @@
 {
   "name": {
     "text": {
-      "translate": "block.techpack.beekeeping.apiary"
+      "translate": "block.techpack.beekeeping.mutation_station"
     }
   },
   "appearance": {
@@ -10,8 +10,8 @@
         "sound": "minecraft:block.beehive.work"
       }
     },
-    "custommachinery:block": "techpack:machines/apiary#standalone",
-    "custommachinery:item": "techpack:machines/apiary#standalone",
+    "custommachinery:block": "techpack:machines/mutation_station#standalone",
+    "custommachinery:item": "techpack:machines/mutation_station#standalone",
     "custommachinery:keep_inventory": true
   },
   "components": [
@@ -58,8 +58,8 @@
     },
     {
       "type": "custommachinery:item",
-      "whitelist": "#techpack:bees/queens",
-      "id": "queen_slot",
+      "whitelist": "#techpack:bees/princesses",
+      "id": "princess_slot",
       "mode": "input"
     }
   ],
@@ -89,7 +89,7 @@
       "y": 6,
       "text": {
         "text": {
-          "translate": "block.techpack.beekeeping.apiary"
+          "translate": "block.techpack.beekeeping.mutation_station"
         }
       }
     },
@@ -174,9 +174,9 @@
     },
     {
       "type": "custommachinery:slot",
-      "id": "queen_slot",
+      "id": "princess_slot",
       "texture": {
-        "texture": "techpack:textures/gui/machines/queen_slot.png"
+        "texture": "techpack:textures/gui/machines/princess_slot.png"
       },
       "x": 27,
       "y": 31

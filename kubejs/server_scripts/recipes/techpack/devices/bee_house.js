@@ -12,7 +12,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:common_bee_drone", chance: 0.3 },
-                { item: "techpack:common_bee_queen", chance: 0.1 }
+                { item: "techpack:common_bee_queen", chance: 0.1 },
+                { item: "techpack:common_bee_princess", chance: 0.1 }
             ],
             "needsSky": true
         },
@@ -26,7 +27,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:boreal_bee_drone", chance: 0.3 },
-                { item: "techpack:boreal_bee_queen", chance: 0.1 }
+                { item: "techpack:boreal_bee_queen", chance: 0.1 },
+                { item: "techpack:boreal_bee_princess", chance: 0.1 }
             ],
             "needsSky": true
         },
@@ -40,7 +42,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:fossil_bee_drone", chance: 0.3 },
-                { item: "techpack:fossil_bee_queen", chance: 0.1 }
+                { item: "techpack:fossil_bee_queen", chance: 0.1 },
+                { item: "techpack:fossil_bee_princess", chance: 0.1 }
             ],
             "requireDimension": "minecraft:the_nether",
             "needsSky": true
@@ -55,7 +58,9 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:enigmatic_bee_drone", chance: 0.3 },
-                { item: "techpack:enigmatic_bee_queen", chance: 0.1 }
+                { item: "techpack:enigmatic_bee_queen", chance: 0.1 },
+                { item: "techpack:enigmatic_bee_princess", chance: 0.1 }
+
             ],
             "requireDimension": "minecraft:the_end",
             "needsSky": true
@@ -70,7 +75,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:cavernous_bee_drone", chance: 0.3 },
-                { item: "techpack:cavernous_bee_queen", chance: 0.1 }
+                { item: "techpack:cavernous_bee_queen", chance: 0.1 },
+                { item: "techpack:cavernous_bee_princess", chance: 0.1 }
             ],
             "requirePosition": {
                 x: "", 
@@ -88,7 +94,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:magical_bee_drone", chance: 0.3 },
-                { item: "techpack:magical_bee_queen", chance: 0.1 }
+                { item: "techpack:magical_bee_queen", chance: 0.1 },
+                { item: "techpack:magical_bee_princess", chance: 0.1 }
             ],
             "needsSky": true
         },
@@ -102,7 +109,8 @@ ServerEvents.recipes((e) => {
             ],
             "produceItem": [
                 { item: "techpack:jewelry_bee_drone", chance: 0.3 },
-                { item: "techpack:jewelry_bee_queen", chance: 0.1 }
+                { item: "techpack:jewelry_bee_queen", chance: 0.1 },
+                { item: "techpack:jewelry_bee_princess", chance: 0.1 }
             ],
             "needsSky": true
         },

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "RHR",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "techpack:polished_planks"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "H": {
+      "item": "supplementaries:hourglass"
+    }
+  },
+  "result": {
+    "id": "techpack:mutation_station"
+  }
+}
