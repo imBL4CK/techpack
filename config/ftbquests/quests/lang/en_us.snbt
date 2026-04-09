@@ -431,6 +431,7 @@
 	]
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
+	quest.2E5A55ECEC89EE28.title: "Machines, Assembler²"
 	quest.3099B9CF5A6DABBF.quest_desc: [
 		"While exploring the overworld, you can find &emeteorites&r with &9advanced technologies&r."
 		""
@@ -507,7 +508,7 @@
 	quest.38DF092C5768AB6C.title: "Animal Care"
 	quest.3B9E5A89B2ED5C71.quest_desc: ["Electron tubes control the flow of energy, These are precise and considerably expensive materials."]
 	quest.3B9E5A89B2ED5C71.quest_subtitle: "&5Craft Electron Tube"
-	quest.3CA9B342DD7898D5.title: "explicar como pega sajossa"
+	quest.3CA9B342DD7898D5.title: "Producing Crystals"
 	quest.3DE253B80BC28A15.quest_desc: [
 		"&9Processors&r are the foundation of &ecutting-edge technology&r and have taken you to &8space&r."
 		""
@@ -568,6 +569,7 @@
 	quest.46ECDD632284CEF0.quest_subtitle: "&5Setup an Stock System"
 	quest.46ECDD632284CEF0.title: "Item Management System"
 	quest.4BD0D15459102CA2.title: "Storing Spirits"
+	quest.4C9158FCCC463F40.title: "Teleporting Resources"
 	quest.4E5EA95D9ACC2973.quest_desc: [
 		"To &aobtain straw&r, you must first craft the &5special tool&r required for this quest."
 		""
@@ -859,6 +861,7 @@
 	]
 	quest.785CF666F705A22B.quest_subtitle: "&5Craft a Steam Engine"
 	quest.7B354A632B37DF1C.title: "Spaceman's Suit"
+	quest.7B8E25DCCC07E764.title: "The Cleanroom"
 	quest.7C80749170E1897E.title: "Farming"
 	quest.7E8F71BE09B67753.quest_desc: [
 		"One of the &emost important multiblocks&r, it allows for the creation of &9alloys&r in a cheaper and faster way."

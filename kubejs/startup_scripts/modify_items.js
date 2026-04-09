@@ -17,6 +17,12 @@ ItemEvents.modification((e) => {
   e.modify("create:red_sand_paper", item => {
     item.maxDamage  = 128;
   });
+  e.modify("techpack:charcoal_dust", item => {
+    item.burnTime = 3200;
+  });
+  e.modify("techpack:coal_dust", item => {
+    item.burnTime = 3200;
+  });
 
   /*const armorDefs = [
     { id: 'malum:malignant_stronghold_helmet', slot: 'head', protection: 6, toughness: 3 },

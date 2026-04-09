@@ -2,6 +2,14 @@
 console.log("> materialBuilderAPI is running")
 const entries = [
   {
+    id: "charcoal",
+    dust: true,
+  },
+  {
+    id: "coal",
+    dust: true,
+  },
+  {
     id: "copper",
     plate: true,
     gear: true,

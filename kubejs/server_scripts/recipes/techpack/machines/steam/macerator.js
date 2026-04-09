@@ -97,7 +97,15 @@ ServerEvents.recipes((e) => {
             "requireFluid": [{ perTick: "1x techpack:steam" }],
             "jeiDisplayPriority": 3,
             "requireItem": ["minecraft:coal"],
-            "produceItem": ["enderio:powdered_coal"]
+            "produceItem": ["techpack:coal_dust"]
+        },
+        {
+            "machineType": "techpack:steam_macerator",
+            "processingTime": 200,  
+            "requireFluid": [{ perTick: "1x techpack:steam" }],
+            "jeiDisplayPriority": 3,
+            "requireItem": ["minecraft:charcoal"],
+            "produceItem": ["techpack:charcoal_dust"]
         },
         //Stone to Cobblestone
         {

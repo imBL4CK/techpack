@@ -161,6 +161,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "techpack:mutation_station",
       info: "Mutation Stations are workstations to mutate bees with breeding. Each bee species has its own specific requirements for working, which can be viewed using the JEI/EMI",
     },
+    {
+      item: "stellaris:antenna",
+      info: "Antenna only can be placed below the center of the launch pad",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

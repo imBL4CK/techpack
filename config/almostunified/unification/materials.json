@@ -36,7 +36,8 @@
     "c:slag",
     "c:plastics",
     "c:silicon",
-    "c:tallow"
+    "c:tallow",
+    "c:dusts/coal"
   ],
   "ignored_tags": [],
   "ignored_items": [

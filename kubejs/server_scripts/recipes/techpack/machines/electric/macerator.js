@@ -97,7 +97,16 @@ ServerEvents.recipes((e) => {
             "processingTime": 200,  
             "requireEnergy": { perTick: 10 },
             "requireItem": ["minecraft:coal"],
-            "produceItem": ["enderio:powdered_coal"]
+            "produceItem": ["techpack:coal_dust"]
+        },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 3,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:charcoal"],
+            "produceItem": ["techpack:charcoal_dust"]
         },
         {
             "machineType": "techpack:basic_macerator",
