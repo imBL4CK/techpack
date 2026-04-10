@@ -109,5 +109,15 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			id: "3A75013C20284AA2"
+			tasks: [{
+				id: "077380C3D932BAFB"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
 	]
 }

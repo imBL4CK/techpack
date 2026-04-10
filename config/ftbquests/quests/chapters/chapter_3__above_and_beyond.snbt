@@ -1,5 +1,5 @@
 {
-	autofocus_id: "7D9FEA21EC32FF30"
+	autofocus_id: "7B8E25DCCC07E764"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_3__above_and_beyond"
@@ -9,7 +9,12 @@
 	}
 	id: "4FBA4507730D2F9F"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "1DE520461ED14E15"
+		linked_quest: "4A7DF1FB2DAC43DB"
+		x: 1.5d
+		y: 3.0d
+	}]
 	quests: [
 		{
 			icon_scale: 0.8d
@@ -27,15 +32,25 @@
 		{
 			dependencies: ["6C23D4D6D2CC0776"]
 			id: "2F9B50A24683B55D"
-			rewards: [{
-				count: 4
-				id: "0CF73DA7E8C4D296"
-				item: {
-					count: 1
-					id: "ae2:fluix_glass_cable"
+			rewards: [
+				{
+					count: 16
+					id: "0CF73DA7E8C4D296"
+					item: {
+						count: 1
+						id: "ae2:fluix_glass_cable"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1C40A0980C65C9B1"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "268BD47489F00BDA"
 				item: { count: 1, id: "ae2:controller" }
@@ -119,10 +134,11 @@
 			icon_scale: 0.8d
 			id: "00E7DBCB639B2833"
 			rewards: [{
-				id: "238154E547498105"
+				count: 2
+				id: "07ADB81930244D13"
 				item: {
 					count: 1
-					id: "techpack:sophisticated_circuit_board"
+					id: "techpack:sophisticated_circuit"
 				}
 				type: "item"
 			}]
@@ -137,16 +153,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["34192ED1E524B08D"]
+			dependencies: ["4A7DF1FB2DAC43DB"]
 			id: "1CA283D2AE709200"
 			rewards: [{
-				id: "3A2CB6770D85C04D"
+				id: "4279581E8F51E5E8"
 				item: {
-					components: {
-						"ftbquests:missing_item": "techpack:coolant_bucket"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "techpack:ice_coolant_bucket"
 				}
 				type: "item"
 			}]
@@ -167,11 +180,11 @@
 			]
 			id: "123E0D14A836DCEE"
 			rewards: [{
-				count: 4
-				id: "1F342C7BFCF8DD79"
+				count: 2
+				id: "39C14887285FAFB2"
 				item: {
 					count: 1
-					id: "techpack:stainless_steel_ingot"
+					id: "techpack:sophisticated_circuit_board"
 				}
 				type: "item"
 			}]
@@ -204,18 +217,16 @@
 			y: -1.5d
 		}
 		{
-			id: "1098AB546EA8E25F"
-			tasks: [{
-				id: "7F7DF02FA9264658"
-				item: { count: 1, id: "techpack:resource_collector" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["6C23D4D6D2CC0776"]
 			id: "2E5A55ECEC89EE28"
+			rewards: [{
+				id: "372E2FFF03505BF9"
+				item: {
+					count: 1
+					id: "pneumaticcraft:printed_circuit_board"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "402975320E849673"
 				item: { count: 1, id: "techpack:advanced_assembler" }
@@ -270,21 +281,22 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7961BA9015DE7075"]
-			id: "34192ED1E524B08D"
-			tasks: [{
-				id: "66E900774CCBB6B9"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["6C23D4D6D2CC0776"]
+			icon: {
+				id: "malum:large_strange_crystal"
+			}
 			id: "3CA9B342DD7898D5"
+			rewards: [{
+				id: "5415D9A145749782"
+				item: {
+					count: 1
+					id: "techpack:budding_strange_crystal"
+				}
+				type: "item"
+			}]
 			tasks: [{
-				id: "4935B254EB2F7F92"
-				item: { count: 1, id: "techpack:budding_strange_crystal" }
+				id: "6214D709B21CCBE0"
+				item: { count: 1, id: "malum:large_strange_crystal" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -293,6 +305,14 @@
 		{
 			dependencies: ["3CA9B342DD7898D5"]
 			id: "4C9158FCCC463F40"
+			rewards: [{
+				id: "5EAF145957ED1C78"
+				item: {
+					count: 1
+					id: "tesseract:tesseract"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CC87AA9A99B0933"
 				item: { count: 1, id: "tesseract:tesseract" }

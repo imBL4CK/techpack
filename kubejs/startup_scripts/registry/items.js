@@ -83,6 +83,7 @@ StartupEvents.registry("item", (e) => {
     "void_machine_parts",
     "soul_machine_parts",
     "flux_infused_alloy_plating",
+    "obsidian_focal_lens",
   ];
   let items = [
     "scraps",

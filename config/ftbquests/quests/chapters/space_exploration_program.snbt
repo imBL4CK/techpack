@@ -70,8 +70,25 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["32737D429A709A97"]
+			dependencies: [
+				"32737D429A709A97"
+				"7961BA9015DE7075"
+			]
 			id: "4A7DF1FB2DAC43DB"
+			rewards: [{
+				id: "45522AFA27C2D412"
+				item: {
+					components: {
+						"stellaris:fluid": {
+							amounts: [L;10800L]
+							fluids: ["stellaris:oxygen"]
+						}
+					}
+					count: 1
+					id: "stellaris:big_oxygen_tank"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				dimension: "stellaris:moon"
 				icon: {
@@ -137,57 +154,14 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["4A7DF1FB2DAC43DB"]
-			id: "528E261570204A72"
-			tasks: [{
-				id: "0D4856F8D89FAE28"
-				item: { count: 1, id: "techpack:raw_aluminum" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4A7DF1FB2DAC43DB"]
-			id: "1B1B0F76E52EA485"
-			tasks: [{
-				id: "6FEA2AB05E297BE5"
-				item: { count: 1, id: "techpack:raw_chrome" }
-				type: "item"
-			}]
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["4A7DF1FB2DAC43DB"]
-			id: "4780F73371716FBC"
-			tasks: [{
-				id: "61E1FA320CF07A2A"
-				item: { count: 1, id: "techpack:raw_platinum" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
 			id: "12C2E4875DB9B98A"
 			tasks: [{
 				id: "08B32E22B173A932"
 				item: { count: 1, id: "techpack:resource_collector" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.5d
-		}
-		{
-			id: "2D1936A5F578F179"
-			tasks: [{
-				id: "6950A67FD62A95F1"
-				item: { count: 1, id: "minecraft:oak_log" }
-				type: "item"
-			}]
-			x: -5.0d
-			y: -2.5d
+			x: 1.5d
+			y: 0.0d
 		}
 	]
 }
