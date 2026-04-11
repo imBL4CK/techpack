@@ -138,43 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:horse": true
-			"minecraft:donkey": true
-			"minecraft:villager": true
-			"minecraft:cow": true
-			"minecraft:witch": true
-			"minecraft:glow_squid": true
-			"minecraft:wolf": true
-			"minecraft:wandering_trader": true
-			"primal:bear": true
-			"minecraft:pillager": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:sheep": true
 			"minecraft:wither": true
-			"hominid:famished": true
-			"minecraft:axolotl": true
 			"minecraft:bat": true
-			"eidolon_repraised:slimy_slug": true
+			"minecraft:salmon": false
 			"minecraft:zombie": true
-			"minecraft:zombie_villager": true
-			"minecraft:warden": true
-			"minecraft:creeper": true
-			"minecraft:trader_llama": true
-			"minecraft:husk": true
-			"nomansland:goose": true
-			"minecraft:squid": true
-			"minecraft:rabbit": true
-			"minecraft:pig": true
-			"hominid:juggernaut": true
 			"nomansland:tortoise": true
-			"minecraft:skeleton": true
+			"minecraft:witch": true
+			"minecraft:cow": true
+			"hominid:juggernaut": true
+			"minecraft:axolotl": true
+			"minecraft:villager": true
+			"minecraft:pig": true
+			"minecraft:warden": true
+			"minecraft:glow_squid": true
 			"minecraft:enderman": true
 			"minecraft:spider": true
-			"minecraft:cod": false
-			"hominid:fossilised": true
+			"minecraft:horse": true
+			"minecraft:wolf": true
+			"hominid:famished": true
+			"eidolon_repraised:slimy_slug": true
+			"minecraft:creeper": true
+			"nomansland:goose": true
+			"minecraft:husk": true
+			"minecraft:trader_llama": true
 			"minecraft:chicken": true
+			"minecraft:cod": false
+			"minecraft:zombie_villager": true
+			"minecraft:pillager": true
+			"primal:bear": true
+			"minecraft:wandering_trader": true
+			"minecraft:donkey": true
+			"minecraft:rabbit": true
+			"eidolon_repraised:zombie_brute": true
 			"eidolon_repraised:wraith": true
-			"minecraft:salmon": false
+			"minecraft:squid": true
+			"minecraft:sheep": true
+			"hominid:fossilised": true
+			"minecraft:skeleton": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

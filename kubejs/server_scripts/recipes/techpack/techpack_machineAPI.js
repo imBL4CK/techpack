@@ -119,7 +119,17 @@ function techpackMachineAPI(e,recipeData) {
                 ["     ", " CCC ", " CAC ", " CCC ", "     "],
             ],
             {
-                A: ["techpack:cleanroom_casing", "ae2:energy_acceptor", "ae2:interface", "ae2:pattern_provider", "techpack:battery_box", "techpack:cesu", "techpack:mfe","techpack:mfsu"],
+                A: [
+                    "techpack:cleanroom_casing", 
+                    "ae2:energy_acceptor", 
+                    "ae2:interface", 
+                    "ae2:pattern_provider", 
+                    "techpack:battery_box", 
+                    "techpack:cesu", 
+                    "techpack:mfe",
+                    "techpack:mfsu",
+                    "tesseract:tesseract",
+                ],
                 C: "techpack:cleanroom_casing",
                 D: "create:framed_glass_door[open=false]",
             },

@@ -59,4 +59,7 @@ ItemEvents.modifyTooltips((e) => {
     tooltip.insert(1, Text.translate("item.techpack.glitch_knife.tooltip.1"));
     tooltip.insert(2, Text.translate("item.techpack.glitch_knife.tooltip.2").color(0x7f3fb2));
   });
+  e.modify("industrialforegoing:laser_drill", (tooltip) => {
+    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.laser_drill.tooltip.1").color(0xffaa00));
+  });
 });

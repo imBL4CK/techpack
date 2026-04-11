@@ -792,6 +792,16 @@ ServerEvents.recipes((e) => {
             "requireFluid": ["200x techpack:redstone_acid"],
             "produceItem": ["techpack:flux_infused_alloy_plating"],
         },
+        {
+            "machineType": "techpack:sophisticated_assembler",
+            "recipeTier": "sophisticated",
+            "requireCleanroom": true,
+            "processingTime": 200,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["4x malum:soul_stained_steel_nugget", "techpack:quicksilver", "#malum:runewood_planks", "techpack:obsidian_glass"],
+            "requireFluid": ["100x techpack:polytetrafluoroethylene"],
+            "produceItem": ["techpack:obsidian_focal_lens"],
+        },
     ]
     BasicRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});
     AdvancedRecipes.forEach((recipe) => { techpackMachineAPI(e,recipe)});

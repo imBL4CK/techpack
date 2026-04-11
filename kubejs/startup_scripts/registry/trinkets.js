@@ -7,10 +7,12 @@ StartupEvents.registry("item", (e) => {
         .attachCuriosCapability(CuriosJSCapabilityBuilder.create()
             .addAttribute("minecraft:generic.movement_speed", "identifier", 0.2, "add_multiplied_base")
             .addAttribute("minecraft:generic.step_height", "identifier", 1.0, "add_value")
+            .addAttribute("minecraft:generic.armor", "identifier", 1.0, "add_value")
     );
     e.create("techpack:void_walker_galoshes").maxStackSize(1).tag("curios:feet")
         .attachCuriosCapability(CuriosJSCapabilityBuilder.create()
             .addAttribute("minecraft:generic.movement_speed", "identifier", 0.5, "add_multiplied_base")
             .addAttribute("minecraft:generic.step_height", "identifier", 1.0, "add_value")
+            .addAttribute("minecraft:generic.armor", "identifier", 2.0, "add_value")
     );
 });

@@ -119,5 +119,15 @@
 			x: 0.0d
 			y: 3.0d
 		}
+		{
+			id: "2D12BB5D9B2A6C86"
+			tasks: [{
+				id: "0BE143A7FA45EC47"
+				item: { count: 1, id: "techpack:obsidian_focal_lens" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
 	]
 }

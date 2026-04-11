@@ -905,6 +905,18 @@
 	quest.785CF666F705A22B.quest_subtitle: "&5Craft a Steam Engine"
 	quest.7961BA9015DE7075.title: "Producing Rockets"
 	quest.7B354A632B37DF1C.title: "Spaceman's Suit"
+	quest.7B8E25DCCC07E764.quest_desc: [
+		"A Cleanroom is a &9controlled environment designed to minimize contamination&r."
+		""
+		"In the techpack, it is used as a &emachine requirement, such as the assembler&r."
+		""
+		"The cleanroom is a hollow structure made with HDPE walls, &dthe only blocks that can be altered are the middle of the walls&r, which can be a select list of blocks consisting of &abatteries, AE2 interfaces, and Tesseract&r."
+		""
+		"&e-&r For recipes requiring a cleanroom to be executed, the &cdoor must be closed&r."
+		""
+		"&e-&r You can view the cleanroom structure by clicking the &5structure block icon in any recipe that requires it.&r"
+	]
+	quest.7B8E25DCCC07E764.quest_subtitle: "&5Make a Cleanroom"
 	quest.7B8E25DCCC07E764.title: "The Cleanroom"
 	quest.7C80749170E1897E.title: "Farming"
 	quest.7E8F71BE09B67753.quest_desc: [
