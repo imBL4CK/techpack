@@ -8,5 +8,3 @@
 
 # Anotacoes
 - Atualizar o bug de textura da dimensional detector na steam quarry 
-- Scraps sao obtidos em orbitas assim como factorio
-- induction furnace ic2

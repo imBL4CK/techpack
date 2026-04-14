@@ -29,7 +29,7 @@
 	#Put additional items to craft a helmet with a module in here. Up to 7
 	additional_crafting_items = []
 	#The here stated items can't be used as Solar Helmet
-	helmet_blacklist = []
+	helmet_blacklist = ["power_armor:power_armor_helmet"]
 	#The here stated items can be used as Solar Helmet, even when they aren't helmets at all (You can't put everything in you helmet slot)
 	helmet_whitelist = []
 	#The dimensions in here are excluded from energy production.

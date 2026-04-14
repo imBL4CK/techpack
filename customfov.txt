@@ -1,0 +1,15 @@
+0:profile:1
+1:fovEffectsMode:ALL
+1:speedFovEffectScale:1.0
+1:sprintingFovEffectScale:1.0
+1:aimingFovEffectScale:1.0
+1:flyingFovEffectScale:1.0
+1:submergedFovEffectScale:1.0
+1:fov:90
+2:fovEffectsMode:ALL
+2:speedFovEffectScale:1.0
+2:sprintingFovEffectScale:1.0
+2:aimingFovEffectScale:1.0
+2:flyingFovEffectScale:1.0
+2:submergedFovEffectScale:1.0
+2:fov:70
