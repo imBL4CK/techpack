@@ -57,16 +57,16 @@ ServerEvents.recipes((e) => {
       ],
     });
   });
-  //Chrome
+  //chromium
   e.custom({
     type: "create:crushing",
     processingTime: 400,
     ingredients: [
-      { item: "techpack:raw_chrome",},
+      { item: "techpack:raw_chromium",},
     ],
     results: [
-      { id: "techpack:crushed_raw_chrome" },
-      { id: "techpack:crushed_raw_chrome", chance: 0.5  },
+      { id: "techpack:crushed_raw_chromium" },
+      { id: "techpack:crushed_raw_chromium", chance: 0.5  },
       { id: "create:experience_nugget", chance: 0.75 },
     ],
   })
@@ -74,11 +74,11 @@ ServerEvents.recipes((e) => {
     type: "create:crushing",
     processingTime: 400,
     ingredients: [
-      { tag: "c:ores/chrome",},
+      { tag: "c:ores/chromium",},
     ],
     results: [
-      { id: "techpack:crushed_raw_chrome" },
-      { id: "techpack:crushed_raw_chrome", chance: 0.5  },
+      { id: "techpack:crushed_raw_chromium" },
+      { id: "techpack:crushed_raw_chromium", chance: 0.5  },
       { id: "create:experience_nugget", chance: 0.75 },
     ],
   })

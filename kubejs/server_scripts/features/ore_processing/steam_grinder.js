@@ -88,7 +88,7 @@ ServerEvents.recipes(e => {
       gear: true,
     },
     {
-      id: "chrome",
+      id: "chromium",
       raw: true,
       stoneOre: true,
       deepslateOre: true,

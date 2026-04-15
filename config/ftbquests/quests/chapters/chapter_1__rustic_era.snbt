@@ -9,7 +9,12 @@
 	}
 	id: "0D8BD511F4895AA9"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [{
+		id: "01F2E679DF0CDC06"
+		linked_quest: "4BC1868A58F03BBF"
+		x: 6.0d
+		y: 5.0d
+	}]
 	quests: [
 		{
 			id: "186763FC5A59D49A"
@@ -596,36 +601,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["29EEA4229CD05317"]
-			id: "069EA756F232E4F6"
-			rewards: [
-				{
-					id: "0C4511651F116A44"
-					item: {
-						count: 1
-						id: "malum:spirit_jar"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5B50EBCD725C0C44"
-					item: {
-						count: 1
-						id: "malum:runewood_item_pedestal"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "251E2115D456A822"
-				item: { count: 1, id: "malum:spirit_altar" }
-				type: "item"
-			}]
-			x: 6.0d
-			y: 5.0d
-		}
-		{
 			dependencies: ["516493216BEC484C"]
 			icon: {
 				id: "create:white_sail"
@@ -648,7 +623,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["069EA756F232E4F6"]
+			dependencies: ["4BC1868A58F03BBF"]
 			id: "7108004BE6176984"
 			shape: "circle"
 			tasks: [{

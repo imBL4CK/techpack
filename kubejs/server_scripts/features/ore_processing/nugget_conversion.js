@@ -5,7 +5,7 @@ ServerEvents.recipes((e) => {
     "nickel",
     "platinum",
     "aluminum",
-    "chrome",
+    "chromium",
     "uranium",
     "calorite",
     "steel",

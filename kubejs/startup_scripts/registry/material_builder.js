@@ -129,7 +129,7 @@ const entries = [
     dust: true,
   },
   {
-    id: "chrome",
+    id: "chromium",
     raw: true,
     stoneOre: true,
     deepslateOre: true,
@@ -298,7 +298,7 @@ StartupEvents.registry("item", (e) => {
       e.create(`techpack:${entry.id}_dust`).tag(`c:dusts`).tag(`c:dusts/${entry.id}`).texture(`techpack:item/material_builder/${entry.id}_dust`);
     }
   });
-  e.create("techpack:crushed_raw_chrome").texture(`techpack:item/material_builder/crushed_raw_chrome`).tag("create:crushed_raw_materials");
+  e.create("techpack:crushed_raw_chromium").texture(`techpack:item/material_builder/crushed_raw_chromium`).tag("create:crushed_raw_materials");
   e.create("techpack:crushed_raw_silicon").texture(`techpack:item/material_builder/crushed_raw_silicon`).tag("create:crushed_raw_materials");
   e.create("techpack:crushed_raw_desh").texture(`techpack:item/material_builder/crushed_raw_desh`).tag("create:crushed_raw_materials");
   e.create("techpack:crushed_raw_calorite").texture(`techpack:item/material_builder/crushed_raw_calorite`).tag("create:crushed_raw_materials");

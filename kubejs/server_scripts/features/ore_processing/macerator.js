@@ -10,7 +10,7 @@ ServerEvents.recipes(e => {
     "nickel",
     "platinum",
     "aluminum",
-    "chrome",
+    "chromium",
     "uranium",
     "bronze",
     "steel",
@@ -96,8 +96,8 @@ ServerEvents.recipes(e => {
       .jei().priority(11)
     e.recipes.custommachinery.custom_machine("techpack:steam_macerator", 200)
       .requireFluidPerTick("2x techpack:steam")
-      .requireItem("#c:ores/chrome")
-      .produceItem("techpack:raw_chrome")
+      .requireItem("#c:ores/chromium")
+      .produceItem("techpack:raw_chromium")
       .jei().priority(11)
     e.recipes.custommachinery.custom_machine("techpack:steam_macerator", 200)
       .requireFluidPerTick("2x techpack:steam")
@@ -183,8 +183,8 @@ ServerEvents.recipes(e => {
       .jei().priority(11)
     e.recipes.custommachinery.custom_machine("techpack:basic_macerator", 200)
       .requireEnergyPerTick(20)
-      .requireItem("#c:ores/chrome")
-      .produceItem("techpack:raw_chrome")
+      .requireItem("#c:ores/chromium")
+      .produceItem("techpack:raw_chromium")
       .info(info => info.tooltip("Minimum Tier Required: Basic").item("techpack:basic_circuit"))
       .jei().priority(11)
     e.recipes.custommachinery.custom_machine("techpack:basic_macerator", 200)

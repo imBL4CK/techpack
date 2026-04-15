@@ -147,6 +147,39 @@
       "height": 18
     }
   ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 103,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    }
+  ],
   "tooltips": [
     {
       "text": "- Pumps Water at 500 mB/t "

@@ -302,7 +302,8 @@ ServerEvents.recipes((e) => {
     "stellaris:misc/water_pump",
     "enderio:alloy_smelting/photovoltaic_plate",
     "solarhelmet:solar_helmet_module",
-    "minecraft:netherite_ingot"
+    "minecraft:netherite_ingot",
+    "industrialforegoing:laser_drill_ore/raw_materials/uranium"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

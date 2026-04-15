@@ -8,7 +8,12 @@
 	}
 	id: "585CCFB426D45AB3"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "1C234A5E6CD7E78D"
+		linked_quest: "56D1B7B34B0DECFC"
+		x: -6.0d
+		y: 0.5d
+	}]
 	quests: [
 		{
 			dependencies: ["3E3F7821391248A8"]
@@ -187,28 +192,6 @@
 				}
 			]
 			x: -4.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["4BDD464E3F2ABE9D"]
-			id: "0D9EF9C63D2CDC1F"
-			tasks: [{
-				id: "14FEC5A57D2CD65D"
-				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0D9EF9C63D2CDC1F"]
-			id: "1631EFA70645A927"
-			tasks: [{
-				id: "6DE3D687B6911D9F"
-				item: { count: 1, id: "industrialforegoing:bioreactor" }
-				type: "item"
-			}]
-			x: -7.0d
 			y: 1.5d
 		}
 		{

@@ -9,7 +9,7 @@ ServerEvents.recipes((e) => {
     "nickel",
     "lead",
     "platinum",
-    "chrome",
+    "chromium",
     "aluminum",
 
     "bronze",

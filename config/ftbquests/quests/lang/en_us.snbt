@@ -36,7 +36,7 @@
 	quest.00370791B3F4498A.quest_subtitle: "&5Craft a Chest or a Barrel"
 	quest.00370791B3F4498A.title: "Vanilla Storage"
 	quest.039AD7F88A0159CD.quest_desc: [
-		"Redstone coils redirect energy as it passes through their winding."
+		"&dRedstone coils&r redirect energy as it passes through their winding."
 		""
 		"They are divided into three types with distinct uses: &9reception, transmission, and conductance&r."
 		""
@@ -110,18 +110,19 @@
 	quest.0DBE6BF4CFAF1A3B.quest_subtitle: "&5Tips About Item Storage&r"
 	quest.0DBE6BF4CFAF1A3B.title: "Storing Items"
 	quest.0E0E3A04DA447FCB.quest_desc: [
-		"Thermal Dynamo is the classic heat source generator. Like our old and familiar friend, it generates a considerable amount of energy."
+		"&9Heat Dynamo&r is the classic heat source generator. Like our old and familiar friend, it generates a &econsiderable amount of energy&r."
 		""
-		"It is highly recommended for this chapter, since you won't have access to oil generators."
+		"It is &ahighly recommended for this chapter&r, since you won't have access to oil generators."
 		""
-		"&e-&r Generates &9100 Rf/t&r, consuming &910 mB/t&r of lava."
+		"&e-&r Generates &a100 Rf/t&r, consuming &c10 mB/t&r of lava."
 		""
-		"It's important to remember that the thermal dynamo has some face restrictions:"
+		"&d# Technical Info"
 		""
-		"&e-&r Can input fluids on the back."
-		"&e-&r Can output energy on the front."
+		"It's important to remember that the thermal dynamo has some &eface restrictions&r:"
+		""
+		"&e-&r Can &9input&r fluids on the back, and &6output&r energy on the front."
 	]
-	quest.0E0E3A04DA447FCB.quest_subtitle: "&5Craft a Thermal Dynamo"
+	quest.0E0E3A04DA447FCB.quest_subtitle: "&5Craft a Heat Dynamo\\"
 	quest.0E0E3A04DA447FCB.title: "The Classic Lava Generator"
 	quest.0F914F8C5666E10B.quest_desc: [
 		"&zWelcome to the age of energy (and gregfication XD)&r"
@@ -199,11 +200,11 @@
 	quest.18BD92C01809163B.title: "Portable Farmland"
 	quest.19D5F64FB46BF6B7.title: "Automating Crops (with Energy)"
 	quest.19F32B9CCB6C65AF.quest_desc: [
-		"An improved version of the makeshift mechanism with adjustments that allow for greater precision."
+		"&dAn improved version of the makeshift mechanism&r with adjustments that allow for greater precision."
 		""
-		"Due to its precision, it is commonly used in contraption parts involving logic."
+		"Due to its precision, it is commonly used in &9contraption parts involving logic&r."
 		""
-		"&e-&r It would be a precursor to &9Logic Circuits.&r"
+		"&e-&r It would be a precursor to &aElectric Circuits.&r"
 	]
 	quest.19F32B9CCB6C65AF.quest_subtitle: "&5Craft Precision Mechanism"
 	quest.1A0195C3F2E573D2.quest_desc: [
@@ -281,6 +282,7 @@
 		"Organic compost is an accumulation of various residues used to make &9Rich Soil&r."
 		""
 		"&e-&r Once the decomposition process is complete, the organic compost turns into rich soil, which can be tilled for planting"
+		""
 		"&e-&r Crops planted in rich soil grow significantly faster compared to normal farmlands"
 		"{@pagebreak}"
 		"&5* Decomposition&r "
@@ -419,15 +421,15 @@
 	quest.2878606D4273FB1C.quest_subtitle: "&5Get an Glutton"
 	quest.2878606D4273FB1C.title: "The Hungry Guy"
 	quest.29EEA4229CD05317.quest_desc: [
-		"The makeshift mechanism is nothing more than a basic mechanical circuit that makes up the contraption parts of the create; make some and assemble your workshop."
+		"The &9Makeshift Mechanism&r is nothing more than a basic mechanical circuit that makes up the &econtraption parts of the create&r."
 		""
-		"&e-&r Automating it isn't that difficult, so automate it early to save a good amount of resources."
+		"&e-&r Automating it isn't that difficult, so &aautomate it early to save a good amount of resources&r."
 	]
 	quest.29EEA4229CD05317.quest_subtitle: "&5Craft a Makeshift Mechanism"
 	quest.2AC97EB35CA8AC08.quest_desc: [
-		"&9Wrough iron&r is a variation of iron used to make better tools, with more durability and in some cases, more damage."
+		"&9Wrough iron&r is a variation of iron used to make better tools, with more &edurability and in some cases, more damage&r."
 		""
-		"&e -&r Wrough iron is also used to make things related to tools"
+		"&e -&r Wrough iron is also used to make &cthings related to tools&r"
 	]
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
@@ -452,11 +454,11 @@
 	quest.34B0C2176A78341B.quest_subtitle: "&5Craft a Anomalous Design"
 	quest.34B0C2176A78341B.title: "DaVinci's like artifact"
 	quest.36B9DBC8AD941C6E.quest_desc: [
-		"The initial way to generate steam is by using low-pressure boilers."
+		"The initial way to generate steam is by using &9low-pressure boilers&r."
 		""
-		"It converts water into steam using thermal energy from solid fuels."
+		"It converts &awater into steam using solid fuels&r."
 		""
-		"&e-&r As soon as possible, it is recommended to upgrade it to the high-pressure version."
+		"&e-&r As soon as possible, it is recommended to &zupgrade it to the high-pressure&r version."
 	]
 	quest.36B9DBC8AD941C6E.quest_subtitle: "&5Craft a Low Pressure Boiler"
 	quest.36B9DBC8AD941C6E.title: "Boiling Water"
@@ -478,13 +480,13 @@
 	quest.37D103217329768D.quest_subtitle: "&5Craft a Battery Box"
 	quest.37D103217329768D.title: "Storing RF"
 	quest.3827FDBB6FDA7DAC.quest_desc: [
-		"The blast furnace is a crucial step in modpack progression, so owning one is crucial. It's a multi-block structure that fuses materials and is essential for creating alloys."
+		"The &9blast furnace&r is a crucial step in modpack progression, so owning one is crucial. It's a multi-block structure that &afuses materials and is essential for creating alloys&r."
 		""
-		"To make your bricks, you'll need fireclay, a type of clay found in rivers like clay."
+		"To make your bricks, you'll need fireclay, &ea type of clay found in rivers like clay&r."
 		""
-		"To make a Blast Furnace, you will need to build one, which you can view by clicking on the block with a &9Blueprint&r."
+		"To make a Blast Furnace, you will need to build one, &dwhich you can view by clicking on the block with a Blueprint&r."
 		""
-		"&e-&r Consider using tiny item bus to make your first Blast Furnace"
+		"&e-&r &cConsider using tiny item bus to make your first Blast Furnace"
 		""
 		"&5>&r Multi-Blocks Structures "
 		"{@pagebreak}"
@@ -515,7 +517,7 @@
 	quest.3827FDBB6FDA7DAC.quest_subtitle: "&5Build a Blast Furnace"
 	quest.3827FDBB6FDA7DAC.title: "Steel (and Bronze) factory"
 	quest.38DF092C5768AB6C.title: "Animal Care"
-	quest.3B9E5A89B2ED5C71.quest_desc: ["Electron tubes control the flow of energy, These are precise and considerably expensive materials."]
+	quest.3B9E5A89B2ED5C71.quest_desc: ["&9Electron tubes control the flow of energy&r, These are precise and considerably &aexpensive materials&r."]
 	quest.3B9E5A89B2ED5C71.quest_subtitle: "&5Craft Electron Tube"
 	quest.3CA9B342DD7898D5.quest_desc: [
 		"&9Strange Crystals&r are an important material to make better &eelectron tubes&r. Strange crystal can be generated by &afertilizing blighted dirt&r."
@@ -599,6 +601,37 @@
 	]
 	quest.46ECDD632284CEF0.quest_subtitle: "&5Setup an Stock System"
 	quest.46ECDD632284CEF0.title: "Item Management System"
+	quest.4A7DF1FB2DAC43DB.quest_desc: [
+		"&zReaching the moon has been one of humanity's goals since we learned to make fire&r. "
+		""
+		"&9The moon is a celestial body&r that orbits the &aearth as a natural satellite&r. "
+		""
+		"&dAt first glance&r, the moon may seem like a large, empty place, and in fact, it is. "
+		""
+		"However, there are &cvery valuable resources&r that can be found there, such as &eChromium, Aluminum, and Platinum.&r"
+		"{@pagebreak}"
+		"&aAlthough these resources are generated naturally on the moon&r, but it is possible to synthesize them on Earth, &cbut in an extremely expensive and inefficient way&r."
+		""
+		"&e-&r Therefore, the most rational thing to do is to go to the moon in order to collect &ethese valuable resources&r."
+		"{@pagebreak}"
+		"&dThe moon is full of peculiarities and mysteries&r that are being discovered every moment. "
+		""
+		"The most recent discoveries are &9Silite and Strange Dirt&r."
+		""
+		"They are &9geological formations&r that are, in a way, abundant on the moon.&6 StarCorp explorers&r believe there are more curiosities to be found on this &ccelestial body, but they still need to investigate further.&r"
+		"{@pagebreak}"
+		"&d# Silite&r"
+		""
+		"Is a rock with a &avery high concentration of silicon&r, and it can be a good source of this resource. "
+		""
+		"When crushed in a crushing wheel, it &9generates crushed raw silicon&r, which can be &esmelted into silicon&r."
+		""
+		"&d# Strange dirt and Rare Earths&r"
+		""
+		"Is a concentrate of &9precious resources&r. "
+		""
+		"When broken, it generates &arare earths&r, but it &edrops itself when collected with a silk touch&r."
+	]
 	quest.4A7DF1FB2DAC43DB.quest_subtitle: "&5Reach the Moon"
 	quest.4BD0D15459102CA2.title: "Storing Spirits"
 	quest.4C9158FCCC463F40.quest_desc: [
@@ -627,7 +660,7 @@
 		""
 		"Each part has a specific function that, when put together, forms a beautiful farm."
 		""
-		"Your first farm will be a &5Makeshift Mechanism&r, so you won't have to worry about crafting large quantities the next time you make a factory."
+		"Your first farm will be a &9Makeshift Mechanism&r, so you won't have to worry about crafting large quantities the next time you make a factory."
 		""
 		"&c⚠ Alert:&r In this modpack, it is expected that you already have knowledge of the create mod, but if you don't, don't worry, here is a brief tutorial on what each block does."
 		""
@@ -682,9 +715,9 @@
 	quest.516493216BEC484C.quest_subtitle: "&5Get the first create contraptions"
 	quest.516493216BEC484C.title: "Mechanical Toys"
 	quest.5596CD9DCDDD6155.quest_desc: [
-		"Steam quarries are resource miners that drill into the layer below the bedrock and collect resources. "
+		"&9Steam Quarries are resource miners&r that drill into the layer below the &dbedrock and collect resources&r. "
 		""
-		"They consume large amounts of fuel, but in return save you from manual mining."
+		"They &cconsume large amounts of fuel&r, but in return save you from manual mining."
 		""
 		"&e-&r To function, they need to be located between layers -60 and -44 (&9the layer above the bedrock&r)."
 		""
@@ -723,6 +756,19 @@
 		"- &aChapter 2 completed&r! Prepare your resources, because the &cspace program&r has begun!"
 	]
 	quest.55D4F942D097AFE9.quest_subtitle: "&5Craft a Finished PCB&r"
+	quest.56D1B7B34B0DECFC.quest_desc: [
+		"The &9Bio-Burning Generator&r generates energy using &5Biofuel fluid&r."
+		""
+		"Biofuel fluid can be generated in a &9Bio-Reaction Chamber&r."
+		""
+		"&d# Technical Info"
+		""
+		"&e-&r The energy generation rate is &a160 RF/t&r, consuming &c1 MB/t&r."
+		""
+		"&e-&r The machine's I/O can be &econfigured in the GUI&r."
+	]
+	quest.56D1B7B34B0DECFC.quest_subtitle: "&5Craft a Bio-Burning Generator"
+	quest.56D1B7B34B0DECFC.title: "Powered by Crops"
 	quest.591CDC829FF9FC28.quest_desc: [
 		"&9Atomic Reconstruction&r periodically fires a laser beam that &etransforms resources&r."
 		""
@@ -749,17 +795,17 @@
 	quest.5CA545337702A880.quest_subtitle: "&5Craft a Tanned Leather"
 	quest.5CA545337702A880.title: "Complicated Leather"
 	quest.5CD88DC12A6DE7FD.quest_desc: [
-		"Steam machines are such a remarkable advancement that they will be very useful even when you have access to electric machines."
+		"&dSteam machines are such a remarkable advancement&r that they will be very useful even when you have access to &9electric machines&r."
 		""
-		"Steam is an easily obtainable resource, so supplying them shouldn't be a significant problem, meaning that even with access to electric machines."
+		"&aSteam is an easily obtainable resource&r, so supplying them shouldn't be a significant problem, meaning that even with &zaccess to electric machines&r."
 		""
-		"&e-&r You can use steam machines to passivate your initial resources."
+		"&e-&r You can use steam machines to &epassivate your initial resources&r."
 		""
 		"&e-&r An example is gear crafting with the &9Metal Roller&r, which improves efficiency by &52:1&r instead of&5 4:1"
 	]
 	quest.5CD88DC12A6DE7FD.quest_subtitle: "&5Craft Your First Set of Steam Machines"
 	quest.5CD88DC12A6DE7FD.title: "Steam Power"
-	quest.5FB97C7AD100E989.quest_desc: ["A simple transmission assembly that serves as the basis for the construction of primitive steam machines."]
+	quest.5FB97C7AD100E989.quest_desc: ["&dA simple transmission assembly&r that serves as the basis for the construction of &eprimitive steam machines&r."]
 	quest.5FB97C7AD100E989.quest_subtitle: "&5Craft a Bronze Machine Casing"
 	quest.5FB97C7AD100E989.title: "Steam Power"
 	quest.61269CD93AF58105.quest_desc: [
@@ -838,6 +884,7 @@
 		"It will still take a while until you get your precious &9Steam Engine&r, so the best method of generating stress until you get it will be the &9Windmills&r"
 		""
 		"&e-&r Windmills are one of the ways to generate energy passively, that is, without spending fuel"
+		""
 		"&e-&r The stress generated by it is increased depending on the amount of sails, starting with 8 and going up to 256"
 	]
 	quest.65F7EB4863FD3FDD.quest_subtitle: "&5Make a windmill generator"
@@ -851,7 +898,7 @@
 	]
 	quest.69CDC1ABCED6AD47.quest_subtitle: "&5Craft a Resistor and Transistor"
 	quest.69CDC1ABCED6AD47.title: "Circuit components"
-	quest.6A3DD1774BC7481F.quest_desc: ["Andesite alloy is the base of the create, and to obtain it, you'll need zinc."]
+	quest.6A3DD1774BC7481F.quest_desc: ["&9Andesite alloy&r is the base of the create, and to obtain it, you'll need zinc, and &eobviously andesite&r"]
 	quest.6A3DD1774BC7481F.quest_subtitle: "&5Craft an Andesite Alloy"
 	quest.6A3DD1774BC7481F.title: "Alloying Andesite"
 	quest.6C23D4D6D2CC0776.quest_subtitle: "&5Welcome to Chapter 3"

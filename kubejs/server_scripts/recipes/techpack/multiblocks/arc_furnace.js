@@ -95,7 +95,7 @@ ServerEvents.recipes(e => {
     {
         "processingTime": 1200,
         "requireEnergyPerTick": 5,
-        "requireItem": ["minecraft:iron_ingot", "techpack:nickel_ingot", "techpack:chrome_ingot"],
+        "requireItem": ["minecraft:iron_ingot", "techpack:nickel_ingot", "techpack:chromium_ingot"],
         "produceItem": ["3x techpack:hot_stainless_steel_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
     {

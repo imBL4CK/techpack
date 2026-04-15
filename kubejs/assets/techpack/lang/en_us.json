@@ -113,5 +113,7 @@
     "tip.techpack.curiosity_6.text": "Raspberry Flavored was crucial in achieving the aesthetically polished TechPack.",
     "tip.techpack.curiosity_7.text": "StarCorp was the company responsible for sending the player to the past, shortly before a catastrophe occurred in the future.",
 
-    "tooltip.techpack.energy_cost.laser_drill.tooltip.1": "Energy Consumption: 4.000 RF/t per Operation"
+    "tooltip.techpack.energy_cost.laser_drill.tooltip.1": "Energy Consumption: 4.000 RF/t per Operation",
+    "tooltip.techpack.energy_cost.bioreactor.tooltip.1": "Energy Consumption: 400 RF/t per Operation",
+    "tooltip.techpack.energy_cost.biofuel_generator.tooltip.1": "Energy Generation: 160 RF/t per Operation"
 }

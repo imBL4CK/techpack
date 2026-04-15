@@ -41,5 +41,6 @@ TrashSlotSaveState.json
 user-prefs.json
 usercache.json
 usernamecache.json
+customfov.txt
 
 *.log

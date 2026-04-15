@@ -90,8 +90,8 @@ ServerEvents.recipes((e) => {
             "processingTime": 200,  
             "requireEnergy": { perTick: 40 },
             "requireFluid": [acid],
-            "requireItem": ["techpack:crushed_raw_chrome"],
-            "produceItem": ["techpack:purified_chrome_dust",]
+            "requireItem": ["techpack:crushed_raw_chromium"],
+            "produceItem": ["techpack:purified_chromium_dust",]
         },
         {
             "machineType": "techpack:basic_washer",

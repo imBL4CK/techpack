@@ -4,5 +4,4 @@ ServerEvents.recipes((e) => {
     .produceFluidPerTick("500x minecraft:water")
     .requireBlock("minecraft:water", true, 0, -1, 0, 0, -1, 0)
     .requireEnergyPerTick(10)
-    .hide();
 });

@@ -16,7 +16,7 @@
 
 [General]
 	#Defines the _default_ color for machine casings as items or blocks. (Hex color with alpha at start) Has to be defined both server and clientside!
-	general_casing_color = "#FFFF4900"
+	general_casing_color = "#8B9FCB"
 	#Defines the _default_ color for EMI/JEI chance text color. (Hex color without alpha) Has to be defined both server and clientside!
 	chance_color = "#FFFFFF"
 	#Defines the time in ticks that the machine should check for a structure update.

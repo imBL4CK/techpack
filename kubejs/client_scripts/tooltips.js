@@ -62,4 +62,10 @@ ItemEvents.modifyTooltips((e) => {
   e.modify("industrialforegoing:laser_drill", (tooltip) => {
     tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.laser_drill.tooltip.1").color(0xffaa00));
   });
+  e.modify("industrialforegoing:bioreactor", (tooltip) => {
+    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.bioreactor.tooltip.1").color(0xffaa00));
+  });
+  e.modify("industrialforegoing:biofuel_generator", (tooltip) => {
+    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.biofuel_generator.tooltip.1").color(0xffaa00));
+  });
 });

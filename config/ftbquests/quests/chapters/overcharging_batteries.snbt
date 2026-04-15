@@ -30,8 +30,8 @@
 				item: { count: 1, id: "stellaris:solar_panel" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.5d
+			x: 4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -77,6 +77,14 @@
 		{
 			dependencies: ["0024155B82130D4C"]
 			id: "0E0E3A04DA447FCB"
+			rewards: [{
+				id: "4CB3B99544C2E5D5"
+				item: {
+					count: 1
+					id: "techpack:battery_box"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BCEC13C3090E20C"
 				item: { count: 1, id: "techpack:heat_dynamo" }
@@ -248,6 +256,41 @@
 			}]
 			x: 3.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["45A37C53986F22D5"]
+			id: "56D1B7B34B0DECFC"
+			rewards: [{
+				id: "24A4BC852B0152C2"
+				item: {
+					components: {
+						"stellaris:fluid": {
+							amounts: [L;1000L]
+							fluids: ["industrialforegoing:biofuel"]
+						}
+					}
+					count: 1
+					id: "stellaris:fluid_cell"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34D2377C7AD0A23C"
+				item: { count: 1, id: "industrialforegoing:biofuel_generator" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "2BA4E7E30A17FE2F"
+			tasks: [{
+				id: "4F6EDF3785B5B13E"
+				item: { count: 1, id: "techpack:cryo_dynamo" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
 		}
 	]
 }

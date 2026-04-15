@@ -126,10 +126,10 @@ ServerEvents.recipes((e) => {
             "jeiDisplayPriority": 1,
             "processingTime": 200,  
             "requireEnergy": { perTick: 20 },
-            "requireItem": ["techpack:purified_chrome_dust"],
+            "requireItem": ["techpack:purified_chromium_dust"],
             "produceItem": [
-                "techpack:chrome_dust", 
-                { item: "techpack:chrome_dust", chance: 0.5 },
+                "techpack:chromium_dust", 
+                { item: "techpack:chromium_dust", chance: 0.5 },
             ]
         },
         //Uranium

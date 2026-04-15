@@ -57,7 +57,12 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "Can be found in the Overworld",
     },
     {
-      item: ["minecraft:raw_iron", "techpack:raw_silver", "techpack:raw_nickel", "techpack:raw_lead",],
+      item: [
+        "minecraft:raw_iron",
+        "techpack:raw_silver",
+        "techpack:raw_nickel",
+        "techpack:raw_lead",
+      ],
       info: "Can be found in the Overworld and Moon",
     },
     {
@@ -65,7 +70,11 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "Can be found in the Overworld and Nether",
     },
     {
-      item: ["techpack:raw_platinum", "techpack:raw_aluminum", "techpack:raw_chrome"],
+      item: [
+        "techpack:raw_platinum",
+        "techpack:raw_aluminum",
+        "techpack:raw_chromium",
+      ],
       info: "Can be found in the Moon",
     },
     {
@@ -164,6 +173,30 @@ RecipeViewerEvents.addInformation("item", (e) => {
     {
       item: "stellaris:antenna",
       info: "Antenna only can be placed below the center of the launch pad",
+    },
+    {
+      item: "techpack:electric_composter",
+      info: "Turns organic materials into organic matter and organic oil",
+    },
+    {
+      item: "techpack:electric_pump",
+      info: "Pumps water when above a source, consuming 10 RF/t and generating 500 mB/t.",
+    },
+    {
+      item: "techpack:resource_collector",
+      info: "Pumps water when above a source, consuming 10 RF/t and generating 500 mB/t.",
+    },
+    {
+      item: "techpack:inorganic_matter_generator",
+      info: "Passively duplicates stones when there is adjacent water and lava (like an igneous extruder from the thermal series).",
+    },
+    {
+      item: "industrialforegoing:biofuel_generator",
+      info: "It generates energy using biofuel, its generation rate is 160 RF/t. (aka Biofuel Generator)",
+    },
+    {
+      item: "industrialforegoing:bioreactor",
+      info: "It is a machine that can process organic materials into biofuel using energy and water. (aka Bioreactor)",
     },
   ];
   information.forEach((jei) => {

@@ -62,7 +62,7 @@ ServerEvents.recipes(e => {
             dust: true,
         },
         {
-            id: "chrome",
+            id: "chromium",
             raw: true,
             stoneOre: true,
             deepslateOre: true,

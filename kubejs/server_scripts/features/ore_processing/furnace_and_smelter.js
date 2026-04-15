@@ -25,7 +25,7 @@ ServerEvents.recipes(e => {
       dust: true,
     },
     {
-      id: "chrome",
+      id: "chromium",
       raw: true,
       oreBlock: true,
       dust: true,
@@ -89,7 +89,7 @@ ServerEvents.recipes(e => {
   //Smelting
   e.smelting("minecraft:diamond", "#c:dusts/diamond").id("techpack:smelting/ore_processing/diamond_from_dust")
   e.smelting("create:zinc_ingot", "#c:dusts/zinc").id("techpack:smelting/ore_processing/zinc_from_dust").xp(0.1)
-  e.smelting("techpack:chrome_ingot", "techpack:crushed_raw_chrome").id("techpack:smelting/ore_processing/chrome_ingot_from_crushed_raw").xp(0.1)
+  e.smelting("techpack:chromium_ingot", "techpack:crushed_raw_chromium").id("techpack:smelting/ore_processing/chromium_ingot_from_crushed_raw").xp(0.1)
   e.smelting("techpack:platinum_ingot", "create:crushed_raw_platinum").id("techpack:smelting/ore_processing/platinum_ingot_from_crushed_raw").xp(0.1)
   e.smelting("techpack:tin_ingot", "create:crushed_raw_tin").id("techpack:smelting/ore_processing/tin_ingot_from_crushed_raw").xp(0.1)
   e.smelting("techpack:aluminum_ingot", "create:crushed_raw_aluminum").id("techpack:smelting/ore_processing/aluminum_ingot_from_crushed_raw").xp(0.7)
@@ -97,7 +97,7 @@ ServerEvents.recipes(e => {
   //Blasting
   e.blasting("minecraft:diamond", "#c:dusts/diamond").id("techpack:blasting/ore_processing/diamond_from_dust")
   e.blasting("create:zinc_ingot", "#c:dusts/zinc").id("techpack:blasting/ore_processing/zinc_from_dust").xp(0.1)
-  e.blasting("techpack:chrome_ingot", "techpack:crushed_raw_chrome").id("techpack:blasting/ore_processing/chrome_ingot_from_crushed_raw").xp(0.1)
+  e.blasting("techpack:chromium_ingot", "techpack:crushed_raw_chromium").id("techpack:blasting/ore_processing/chromium_ingot_from_crushed_raw").xp(0.1)
   e.blasting("techpack:platinum_ingot", "create:crushed_raw_platinum").id("techpack:blasting/ore_processing/platinum_ingot_from_crushed_raw").xp(0.1)
   e.blasting("techpack:silver_ingot", "create:crushed_raw_silver").id("techpack:blasting/ore_processing/silver_ingot_from_crushed_raw").xp(0.5)
   e.blasting("techpack:tin_ingot", "create:crushed_raw_tin").id("techpack:blasting/ore_processing/tin_ingot_from_crushed_raw").xp(0.1)
@@ -107,7 +107,7 @@ ServerEvents.recipes(e => {
   //Electric Smelter
   e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("techpack:diamond_dust").produceItem("minecraft:diamond")
   e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("techpack:zinc_dust").produceItem("create:zinc_ingot")
-  e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("techpack:crushed_raw_chrome").produceItem("techpack:chrome_ingot")
+  e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("techpack:crushed_raw_chromium").produceItem("techpack:chromium_ingot")
   e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("create:crushed_raw_platinum").produceItem("techpack:platinum_ingot")
   e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("create:crushed_raw_tin").produceItem("techpack:tin_ingot")
   e.recipes.custommachinery.custom_machine("techpack:basic_smelter", 200).requireEnergyPerTick(10).requireItem("create:crushed_raw_aluminum").produceItem("techpack:aluminum_ingot")
@@ -115,7 +115,7 @@ ServerEvents.recipes(e => {
   //Steam Smelter
   e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("techpack:diamond_dust").produceItem("minecraft:diamond")
   e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("techpack:zinc_dust").produceItem("create:zinc_ingot")
-  e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("techpack:crushed_raw_chrome").produceItem("techpack:chrome_ingot")
+  e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("techpack:crushed_raw_chromium").produceItem("techpack:chromium_ingot")
   e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("create:crushed_raw_platinum").produceItem("techpack:platinum_ingot")
   e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("create:crushed_raw_tin").produceItem("techpack:tin_ingot")
   e.recipes.custommachinery.custom_machine("techpack:steam_smelter", 200).requireFluidPerTick("1x techpack:steam").requireItem("create:crushed_raw_aluminum").produceItem("techpack:aluminum_ingot")
@@ -123,7 +123,7 @@ ServerEvents.recipes(e => {
   //Induction Furnace
   e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("techpack:diamond_dust").produceItem("minecraft:diamond").damageItem("#techpack:electrodes", 1).chance(0.5)
   e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("techpack:zinc_dust").produceItem("create:zinc_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)
-  e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("techpack:crushed_raw_chrome").produceItem("techpack:chrome_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)
+  e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("techpack:crushed_raw_chromium").produceItem("techpack:chromium_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)
   e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("create:crushed_raw_platinum").produceItem("techpack:platinum_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)
   e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("create:crushed_raw_tin").produceItem("techpack:tin_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)
   e.recipes.custommachinery.custom_machine("techpack:basic_induction_furnace", 100).requireEnergyPerTick(40).requireItem("create:crushed_raw_aluminum").produceItem("techpack:aluminum_ingot").damageItem("#techpack:electrodes", 1).chance(0.5)

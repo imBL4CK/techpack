@@ -4,7 +4,7 @@
       "type": "neoforge:not",
       "value": {
         "type": "neoforge:tag_empty",
-        "tag": "c:raw_materials/chrome"
+        "tag": "c:raw_materials/chromium"
       }
     }
   ],
@@ -14,7 +14,7 @@
   },
   "output": {
     "count": 1,
-    "tag": "c:raw_materials/chrome"
+    "tag": "c:raw_materials/chromium"
   },
   "rarity": [
     {

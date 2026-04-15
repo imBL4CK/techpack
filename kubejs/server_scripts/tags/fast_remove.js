@@ -95,7 +95,14 @@ ServerEvents.tags("item", (e) => {
     "stellaris:mars_plutonium_ore",
     "stellaris:oil_finder",
     "stellaris:pumpjack_drill",
-    "actuallyadditions:powered_furnace"
+    "actuallyadditions:powered_furnace",
+    "modular_machinery_reborn:modularium",
+    "modular_machinery_reborn:casing_plain",
+    "modular_machinery_reborn:casing_vent",
+    "modular_machinery_reborn:casing_firebox",
+    "modular_machinery_reborn:casing_gearbox",
+    "modular_machinery_reborn:casing_reinforced",
+    "modular_machinery_reborn:casing_circuitry",
   ];
   entry.forEach((remove) => {
     e.add("techpack:fast_remove", remove);
