@@ -152,7 +152,7 @@ RecipeViewerEvents.addInformation("item", (e) => {
     },
     {
       item: "techpack:warden_totem",
-      info: "It can be obtained from chests in the Ancient City, or by killing a warden with something that causes soul-shattering damage",
+      info: "It can be obtained from chests in the Ancient City, or by killing a warden with the suffering ending",
     },
     {
       item: "techpack:flint_and_soul",
@@ -197,6 +197,21 @@ RecipeViewerEvents.addInformation("item", (e) => {
     {
       item: "industrialforegoing:bioreactor",
       info: "It is a machine that can process organic materials into biofuel using energy and water. (aka Bioreactor)",
+    },
+    {
+      item: "techpack:suffering_ending",
+      info: "A weapon imbued with mysterious Umbral energy, it possesses the uncanny ability to reap the heads of mobs, including the warden.",
+    },
+    {
+      item: [
+        "minecraft:wither_skeleton_skull",
+        "minecraft:skeleton_skull",
+        "minecraft:zombie_head",
+        "minecraft:piglin_head",
+        "minecraft:creeper_head",
+        "techpack:warden_totem"
+      ],
+      info: "It can be obtained by killing the skull-related mob using a Suffering Ending.",
     },
   ];
   information.forEach((jei) => {

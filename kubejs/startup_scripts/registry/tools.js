@@ -3,9 +3,18 @@ StartupEvents.registry("item", (e) => {
   e.create("techpack:catching_net").maxDamage(64).unstackable();
   //
   e.create("techpack:flint_and_soul").maxDamage(64).unstackable();
+  e.create("techpack:suffering_ending", "sword")
+    .tier("suffering_ending")
+    .attackDamageBaseline(2.0)
+    .speedBaseline(-3.5)
+    .tag("malum:soul_shatter_capable_weapon")
+    .unstackable();
   //Iris Relic
-  e.create("techpack:iris_relic", "paxel").tier("iris_relic").unstackable()
-  .tag("minecraft:pickaxes").tag("minecraft:axes").tag("minecraft:shovels");
+  e.create("techpack:iris_relic", "paxel")
+    .tier("iris_relic")
+    .tag("malum:soul_shatter_capable_weapon")
+    .unstackable()
+    .tag("minecraft:pickaxes").tag("minecraft:axes").tag("minecraft:shovels");
   //Copper Tools
   e.create("techpack:copper_sword", "sword").tier("copper_tier").unstackable();
   e.create("techpack:copper_pickaxe", "pickaxe").tier("copper_tier").unstackable();
@@ -27,11 +36,11 @@ StartupEvents.registry("item", (e) => {
   e.create("techpack:destruction_axe", "axe").tier("stabillis_tier").unstackable();
   e.create("techpack:erosion_shovel", "shovel").tier("stabillis_tier").unstackable();
 
-  e.create("techpack:glitch_knife", "sword")
+  e.create("techpack:glitch_knife", "farmersdelight:knife")
     .tier("glitch_knife")
     .rarity("epic")
     .tag("c:tools/knives")
-    .attackDamageBaseline(996)
+    .attackDamageBonus(995.5)
     //.modifyAttribute("lodestone:magic_damage", "b7d2f9a7-9e45-4c07-9b43-2d2c12d4a5b6", 1, "add_value")
     .unstackable()
 });

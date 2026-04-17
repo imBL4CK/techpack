@@ -1,0 +1,15 @@
+{
+  "parent": "item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "techpack:item/suffering_ending_in_hand"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "techpack:item/suffering_ending_in_gui"
+    },
+    "fixed": {
+      "parent": "techpack:item/suffering_ending_in_gui"
+    }
+  }
+}

@@ -23,16 +23,66 @@ ItemEvents.modification((e) => {
   e.modify("techpack:coal_dust", item => {
     item.burnTime = 3200;
   });
-
-  /*const armorDefs = [
+  e.modify("techpack:suffering_ending", item => {
+      const entry = Item.of(item.item().id).attributeModifiers;
+      const attributes = entry.withModifierAdded(
+        "lodestone:magic_damage",
+        { amount: 4, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:generic.movement_speed",
+        { amount: -0.2, id: "identifier", operation: "add_multiplied_base", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:player.sweeping_damage_ratio",
+        { amount: 0.75, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:player.entity_interaction_range",
+        { amount: 1, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      )
+      item.setAttributeModifiersWithTooltip(attributes.modifiers())
+    }
+  )
+  e.modify("techpack:iris_relic", item => {
+      const entry = Item.of(item.item().id).attributeModifiers;
+      const attributes = entry.withModifierAdded(
+        "lodestone:magic_damage",
+        { amount: 3, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:generic.attack_damage",
+        { amount: 3, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:generic.attack_speed",
+        { amount: 1.5, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      ).withModifierAdded(
+        "minecraft:player.block_interaction_range",
+        { amount: 1, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      )
+      item.setAttributeModifiersWithTooltip(attributes.modifiers())
+    }
+  )
+  e.modify("techpack:glitch_knife", item => {
+      const entry = Item.of(item.item().id).attributeModifiers;
+      const attributes = entry.withModifierAdded(
+        "lodestone:magic_damage",
+        { amount: 999, id: "identifier", operation: "add_value", }, 
+        "mainhand"
+      )
+      item.setAttributeModifiersWithTooltip(attributes.modifiers())
+    }
+  )
+  /*
+  const armorDefs = [
     { id: 'malum:malignant_stronghold_helmet', slot: 'head', protection: 6, toughness: 3 },
     { id: 'malum:malignant_stronghold_chestplate', slot: 'chest', protection: 10, toughness: 3 },
     { id: 'malum:malignant_stronghold_leggings', slot: 'legs', protection: 10, toughness: 3 },
     { id: 'malum:malignant_stronghold_boots', slot: 'feet', protection: 6, toughness: 3 },
-    { id: 'forbidden_arcanus:tyr_helmet', slot: 'head', protection: 10, toughness: 6 },
-    { id: 'forbidden_arcanus:tyr_chestplate', slot: 'chest', protection: 15, toughness: 6 },
-    { id: 'forbidden_arcanus:tyr_leggings', slot: 'legs', protection: 15, toughness: 6 },
-    { id: 'forbidden_arcanus:tyr_boots', slot: 'feet', protection: 10, toughness: 6 },
     { id: 'stellaris:jet_suit_helmet', slot: 'head', protection: 6, toughness: 3 },
     { id: 'stellaris:jet_suit_chestplate', slot: 'chest', protection: 10, toughness: 3 },
     { id: 'stellaris:jet_suit_leggings', slot: 'legs', protection: 10, toughness: 3 },

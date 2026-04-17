@@ -2,6 +2,7 @@ StartupEvents.registry("item", (e) => {
     e.create("techpack:grip_glove").maxStackSize(1).tag("curios:hands")
         .attachCuriosCapability(CuriosJSCapabilityBuilder.create()
             .addAttribute("minecraft:player.block_break_speed", "identifier", 0.5, "add_multiplied_base")
+            .addAttribute("minecraft:player.block_interaction_range", "identifier", 1, "add_value")
         );
     e.create("techpack:wanderer_galoshes").maxStackSize(1).tag("curios:feet")
         .attachCuriosCapability(CuriosJSCapabilityBuilder.create()

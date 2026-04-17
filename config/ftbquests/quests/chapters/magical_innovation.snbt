@@ -98,7 +98,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["68361AB7488A4928"]
+			dependencies: ["7009291689D539DD"]
 			id: "334601163287FAA5"
 			tasks: [{
 				id: "31F5F6553911A94C"
@@ -106,7 +106,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			id: "3DC64198E7C44E85"
@@ -127,6 +127,28 @@
 			}]
 			x: 1.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["7009291689D539DD"]
+			id: "7B5DC00EA1248082"
+			tasks: [{
+				id: "60593B73EC99DC46"
+				item: { count: 1, id: "techpack:suffering_ending" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68361AB7488A4928"]
+			id: "7009291689D539DD"
+			tasks: [{
+				id: "648E3ABB02CCAA5F"
+				item: { count: 1, id: "techpack:flint_and_soul" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 }

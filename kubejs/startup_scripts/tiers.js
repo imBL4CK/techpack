@@ -39,6 +39,9 @@ ItemEvents.toolTierRegistry((e) => {
   e.add("glitch_knife", (tier) => {
     tier.uses = 999;
     tier.speed = 2.0;
-    tier.incorrectBlocksForDropsTag = "minecraft:incorrect_for_netherite_tool"
+  });
+  e.add("suffering_ending", (tier) => {
+    tier.uses = 2500
+    tier.repairIngredient = "malum:malignant_pewter_ingot";
   });
 });
