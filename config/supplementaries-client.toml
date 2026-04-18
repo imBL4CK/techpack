@@ -140,6 +140,8 @@
 
 #General settings
 [general]
+	#Enable Quark style config button on main menu. Needs Configured installed to work
+	config_button = false
 	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
 	dynamic_assets_generation_mode = "CACHED"
 	#Disables Optifine warn screen
@@ -148,8 +150,6 @@
 	no_amendments_screen = false
 	#Disable incompatible mods warning screen
 	no_incompatible_mods_screen = false
-	#Enable Quark style config button on main menu. Needs Configured installed to work
-	config_button = true
 	#Config button Y offset
 	# Default: 0
 	# Range: -10000 ~ 10000

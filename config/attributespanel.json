@@ -82,6 +82,18 @@
           },
           {
             "id": "critical_strike:damage"
+          },
+          {
+            "id": "runiclib:generic.lifesteal_chance"
+          },
+          {
+            "id": "runiclib:generic.lifesteal_heal_amount"
+          },
+          {
+            "id": "runiclib:generic.critical_strike_chance"
+          },
+          {
+            "id": "runiclib:generic.critical_strike_multiplier"
           }
         ],
         "blacklist": []
@@ -108,7 +120,22 @@
             "id": "minecraft:generic.knockback_resistance"
           },
           {
-            "id": "spell_engine:evasion_chance"
+            "id": "runiclib:generic.vulnerability_chance"
+          },
+          {
+            "id": "runiclib:generic.vulnerability_multiplier"
+          },
+          {
+            "id": "runiclib:generic.retaliation_amount"
+          },
+          {
+            "id": "runiclib:generic.retaliation_chance"
+          },
+          {
+            "id": "runiclib:generic.burning_retaliation_amount"
+          },
+          {
+            "id": "runiclib:generic.burning_retaliation_chance"
           }
         ],
         "blacklist": []
@@ -117,34 +144,124 @@
         "header": "Magic",
         "attributes": [
           {
-            "id": "spell_power:generic"
+            "id": "eidolon_repraised:chanting_speed"
           },
           {
-            "id": "spell_power:fire"
+            "id": "eidolon_repraised:magic_power"
           },
           {
-            "id": "spell_power:frost"
+            "id": "eidolon_repraised:max_soul_hearts"
           },
           {
-            "id": "spell_power:arcane"
+            "id": "eidolon_repraised:persistent_soul_hearts"
           },
           {
-            "id": "spell_power:lightning"
+            "id": "lodestone:magic_damage"
           },
           {
-            "id": "spell_power:soul"
+            "id": "lodestone:magic_proficiency"
           },
           {
-            "id": "spell_power:healing"
+            "id": "lodestone:magic_resistance"
           },
           {
-            "id": "spell_power:critical_damage"
+            "id": "malum:arcane_resonance"
           },
           {
-            "id": "spell_power:critical_chance"
+            "id": "malum:charge_capacity"
           },
           {
-            "id": "spell_power:haste"
+            "id": "malum:charge_duration"
+          },
+          {
+            "id": "malum:charge_recovery_rate"
+          },
+          {
+            "id": "malum:geas_limit"
+          },
+          {
+            "id": "malum:healin_received"
+          },
+          {
+            "id": "malum:malignant_aegis_capacity"
+          },
+          {
+            "id": "malum:malignant_aegis_recovery_gain"
+          },
+          {
+            "id": "malum:malignant_aegis_recovery_rate"
+          },
+          {
+            "id": "malum:malignant_conversion"
+          },
+          {
+            "id": "malum:soul_ward_capacity"
+          },
+          {
+            "id": "malum:soul_ward_integrity"
+          },
+          {
+            "id": "malum:soul_ward_recovery_again"
+          },
+          {
+            "id": "malum:soul_ward_recovery_rate"
+          },
+          {
+            "id": "malum:spirit_spoils"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Movement",
+        "attributes": [
+          {
+            "id": "minecraft:generic.movement_efficiency"
+          },
+          {
+            "id": "minecraft:generic.movement_speed"
+          },
+          {
+            "id": "minecraft:generic.water_movement_efficiency"
+          },
+          {
+            "id": "minecraft:generic.flying_speed"
+          },
+          {
+            "id": "minecraft:generic.block_break_speed"
+          },
+          {
+            "id": "minecraft:generic.sneaking_speed"
+          },
+          {
+            "id": "minecraft:generic.submerged_mining_speed"
+          },
+          {
+            "id": "neoforge:swim_speed"
+          },
+          {
+            "id": "runiclib:generic.dodge_chance"
+          }
+        ],
+        "blacklist": []
+      },
+      {
+        "header": "Capabilities",
+        "attributes": [
+          {
+            "id": "minecraft:generic.luck"
+          },
+          {
+            "id": "minecraft:generic.oxygen_bonus"
+          },
+          {
+            "id": "minecraft:generic.step_height"
+          },
+          {
+            "id": "minecraft:generic.block_interaction_range"
+          },
+          {
+            "id": "minecraft:generic.entity_interaction_range"
           }
         ],
         "blacklist": []

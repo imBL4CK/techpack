@@ -98,15 +98,14 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7009291689D539DD"]
 			id: "334601163287FAA5"
 			tasks: [{
 				id: "31F5F6553911A94C"
 				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			id: "3DC64198E7C44E85"
@@ -119,17 +118,18 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["68361AB7488A4928"]
 			id: "2386FD008FAFF6EB"
 			tasks: [{
 				id: "6F84A838AA3D41E9"
 				item: { count: 1, id: "techpack:flint_and_soul" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["7009291689D539DD"]
+			dependencies: ["2386FD008FAFF6EB"]
 			id: "7B5DC00EA1248082"
 			tasks: [{
 				id: "60593B73EC99DC46"
@@ -140,15 +140,15 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["68361AB7488A4928"]
-			id: "7009291689D539DD"
+			dependencies: ["2386FD008FAFF6EB"]
+			id: "6393093B304249CC"
 			tasks: [{
-				id: "648E3ABB02CCAA5F"
-				item: { count: 1, id: "techpack:flint_and_soul" }
+				id: "64A79FC49ACDAEFE"
+				item: { count: 1, id: "eidolon_repraised:summoning_staff" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 0.0d
+			x: -3.0d
+			y: -1.0d
 		}
 	]
 }

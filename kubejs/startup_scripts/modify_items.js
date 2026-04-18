@@ -49,7 +49,7 @@ ItemEvents.modification((e) => {
       const entry = Item.of(item.item().id).attributeModifiers;
       const attributes = entry.withModifierAdded(
         "lodestone:magic_damage",
-        { amount: 3, id: "identifier", operation: "add_value", }, 
+        { amount: 2, id: "identifier", operation: "add_value", }, 
         "mainhand"
       ).withModifierAdded(
         "minecraft:generic.attack_damage",
@@ -57,7 +57,7 @@ ItemEvents.modification((e) => {
         "mainhand"
       ).withModifierAdded(
         "minecraft:generic.attack_speed",
-        { amount: 1.5, id: "identifier", operation: "add_value", }, 
+        { amount: -2.5, id: "identifier", operation: "add_value", }, 
         "mainhand"
       ).withModifierAdded(
         "minecraft:player.block_interaction_range",
