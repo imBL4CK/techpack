@@ -1,5 +1,6 @@
 {
 	chapter.0D8BD511F4895AA9.title: "Chapter 1 - Rustic Era"
+	chapter.0FB633C3C909E430.title: "Necromancy"
 	chapter.13B1AF83D3EFA283.title: "Magical Innovation"
 	chapter.1CEDC4FEE00CE52A.title: "Arcane Artifacts"
 	chapter.28ABDB4C54685DEA.title: "Chapter 2 - From Steam to Spark"
@@ -35,6 +36,7 @@
 	quest.00370791B3F4498A.quest_desc: ["&9Chests&r and &9barrels&r they are a bit more expensive in this modpack; if you manage to craft them, congratulations, you're one of the TechPack players!"]
 	quest.00370791B3F4498A.quest_subtitle: "&5Craft a Chest or a Barrel"
 	quest.00370791B3F4498A.title: "Vanilla Storage"
+	quest.01684DC50632DE61.title: "Eidolon Rituals "
 	quest.039AD7F88A0159CD.quest_desc: [
 		"&dRedstone coils&r redirect energy as it passes through their winding."
 		""
@@ -306,15 +308,6 @@
 	]
 	quest.237194A5F3216ABE.quest_subtitle: "&5 Find a Weeping Well"
 	quest.237194A5F3216ABE.title: "Among the depths"
-	quest.2386FD008FAFF6EB.quest_desc: [
-		"&9Flint and Soul&r is a tool with strange properties, it has the ability to &zrevive certain mobs&r when it interacts with the &4remains of their bodies&r."
-		""
-		"&e-&r It is interacts with a &aselect group&r of blocks, &emostly mob heads&r."
-		""
-		"Mysteriously, the &cbodies don't return exactly as they were before the revival&r, such as &8skeletons&r returning without their weapons, or &bwardens&r lacking the ability to return to the depths."
-	]
-	quest.2386FD008FAFF6EB.quest_subtitle: "&5Craft a Flint and Soul"
-	quest.2386FD008FAFF6EB.title: "Edo Tensei"
 	quest.249468D2EF78C781.quest_desc: [
 		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
@@ -434,6 +427,15 @@
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
 	quest.2E5A55ECEC89EE28.title: "Machines, Assembler²"
+	quest.2E5C04DFB553EF81.quest_desc: [
+		"&9Flint and Soul&r is a tool with strange properties, it has the ability to &zrevive certain mobs&r when it interacts with the &4remains of their bodies&r."
+		""
+		"&e-&r It is interacts with a &aselect group&r of blocks, &emostly mob heads&r."
+		""
+		"Mysteriously, the &cbodies don't return exactly as they were before the revival&r, such as &8skeletons&r returning without their weapons, or &bwardens&r lacking the ability to return to the depths."
+	]
+	quest.2E5C04DFB553EF81.quest_subtitle: "&5Craft a Flint and Soul"
+	quest.2E5C04DFB553EF81.title: "Edo Tensei"
 	quest.2F9B50A24683B55D.quest_desc: [
 		"&zThe ME Controller is a Hub of your logical network system&r. It is the &dmost important structure&r in any system. "
 		""
@@ -601,6 +603,7 @@
 	]
 	quest.46ECDD632284CEF0.quest_subtitle: "&5Setup an Stock System"
 	quest.46ECDD632284CEF0.title: "Item Management System"
+	quest.48B631EFC46D2785.title: "Forbidden Knowlodge"
 	quest.4A7DF1FB2DAC43DB.quest_desc: [
 		"&zReaching the moon has been one of humanity's goals since we learned to make fire&r. "
 		""
@@ -1031,6 +1034,7 @@
 	]
 	quest.7F7BC1DCAFD51ED7.quest_subtitle: "&5Craft your Firts Machines"
 	quest.7F7BC1DCAFD51ED7.title: "Basic Tier Machines"
+	reward_table.739ECE8CF1AD3289.title: "flint_and_soul"
 	task.04B71C52385CF1E5.title: "Done"
 	task.05EE7A5F1B5AECAD.title: "Done"
 	task.092128560AD7A663.title: "Done"
@@ -1058,4 +1062,5 @@
 	task.7087400AAAB692F5.title: "Done"
 	task.70A2723EF2CCE0DF.title: "Done"
 	task.70F521F330F16058.title: "Done"
+	task.7AB332E7354B2624.title: "Done"
 }

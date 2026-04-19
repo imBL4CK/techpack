@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "necromancy"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "eidolon_repraised:summoning_staff"
+	}
+	id: "0FB633C3C909E430"
+	order_index: 4
+	quest_links: [{
+		id: "2EB7D14E31EC0BE0"
+		linked_quest: "237194A5F3216ABE"
+		x: 1.5d
+		y: -1.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"68361AB7488A4928"
+				"48B631EFC46D2785"
+			]
+			id: "2E5C04DFB553EF81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34C2B7E57F452A2E"
+				table_id: 8331323465427399305L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1C6FC2E09BB0E810"
+				item: { count: 1, id: "techpack:flint_and_soul" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7E149CDFA2486CAE"
+			tasks: [{
+				id: "36A017329BDA5713"
+				item: { count: 1, id: "techpack:suffering_ending" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "30979A86A7F8434C"
+			tasks: [{
+				id: "252923440A906B32"
+				item: { count: 1, id: "eidolon_repraised:summoning_staff" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "eidolon_repraised:codex"
+			}
+			id: "48B631EFC46D2785"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7AB332E7354B2624"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48B631EFC46D2785"]
+			icon: {
+				id: "eidolon_repraised:necrotic_focus"
+			}
+			id: "01684DC50632DE61"
+			tasks: [
+				{
+					id: "4D343A6044CEA3F3"
+					item: { count: 1, id: "eidolon_repraised:brazier" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "6723EAEC475DD6C6"
+					item: { count: 1, id: "eidolon_repraised:stone_hand" }
+					type: "item"
+				}
+				{
+					id: "20DBAE044B7D092F"
+					item: { count: 1, id: "eidolon_repraised:necrotic_focus" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["237194A5F3216ABE"]
+			id: "2878382BDDB9DE0E"
+			tasks: [{
+				id: "6CF1B177E3F40EEB"
+				item: { count: 1, id: "malum:umbral_spirit" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+}

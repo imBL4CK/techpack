@@ -9,7 +9,12 @@
 	}
 	id: "13B1AF83D3EFA283"
 	order_index: 3
-	quest_links: [ ]
+	quest_links: [{
+		id: "5F42EEAD4A3FF489"
+		linked_quest: "2E5C04DFB553EF81"
+		x: -1.5d
+		y: 0.0d
+	}]
 	quests: [
 		{
 			icon: {
@@ -116,39 +121,6 @@
 			}]
 			x: 0.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["68361AB7488A4928"]
-			id: "2386FD008FAFF6EB"
-			tasks: [{
-				id: "6F84A838AA3D41E9"
-				item: { count: 1, id: "techpack:flint_and_soul" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2386FD008FAFF6EB"]
-			id: "7B5DC00EA1248082"
-			tasks: [{
-				id: "60593B73EC99DC46"
-				item: { count: 1, id: "techpack:suffering_ending" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2386FD008FAFF6EB"]
-			id: "6393093B304249CC"
-			tasks: [{
-				id: "64A79FC49ACDAEFE"
-				item: { count: 1, id: "eidolon_repraised:summoning_staff" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
 		}
 	]
 }

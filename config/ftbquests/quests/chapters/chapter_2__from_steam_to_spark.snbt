@@ -441,7 +441,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["0F914F8C5666E10B"]
+			dependencies: [
+				"0F914F8C5666E10B"
+				"48B631EFC46D2785"
+			]
 			icon: {
 				id: "malum:encyclopedia_esoterica"
 			}
