@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "WLW",
-    "TGT"
+    "PGP"
   ],
   "key": {
     "W": {
@@ -11,8 +11,8 @@
     "L": {
       "item": "minecraft:redstone_lamp"
     },
-    "T": {
-      "item": "techpack:thermal_insulating_fabric"
+    "P": {
+      "tag": "c:plastics"
     },
     "G": {
       "item": "minecraft:tinted_glass"

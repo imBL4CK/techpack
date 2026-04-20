@@ -1,12 +1,12 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "TPT",
+    "FPF",
     "CGC"
   ],
   "key": {
-    "T": {
-      "item": "techpack:thermal_insulating_fabric"
+    "F": {
+      "item": "techpack:carbon_fiber"
     },
     "P": {
       "item": "techpack:flux_infused_alloy_plating"

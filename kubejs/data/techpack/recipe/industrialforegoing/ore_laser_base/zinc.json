@@ -25,10 +25,7 @@
       "depth_max": 68,
       "depth_min": 5,
       "dimension_filter": {
-        "blacklist": [
-          "minecraft:the_end",
-          "minecraft:the_nether"
-        ],
+        "blacklist": [],
         "whitelist": [
           "minecraft:overworld",
           "stellaris:moon"
@@ -44,10 +41,7 @@
       "depth_max": 255,
       "depth_min": 0,
       "dimension_filter": {
-        "blacklist": [
-          "minecraft:the_end",
-          "minecraft:the_nether"
-        ],
+        "blacklist": [],
         "whitelist": [
           "minecraft:overworld",
           "stellaris:moon"

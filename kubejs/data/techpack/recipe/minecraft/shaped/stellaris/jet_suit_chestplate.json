@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "C C",
-    "TPT",
-    "CTC"
+    "FPF",
+    "CFC"
   ],
   "key": {
     "C": {
       "tag": "c:ingots/calorite"
     },
-    "T": {
-      "item": "techpack:thermal_insulating_fabric"
+    "F": {
+      "item": "techpack:carbon_fiber"
     },
     "P": {
       "item": "techpack:flux_infused_alloy_plating"

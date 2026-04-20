@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "W W",
-    "T T"
+    "P P"
   ],
   "key": {
     "W": {
       "tag": "minecraft:wool"
     },
-    "T": {
-      "item": "techpack:thermal_insulating_fabric"
+    "P": {
+      "tag": "c:plastics"
     }
   },
   "result": {

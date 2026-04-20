@@ -40,9 +40,7 @@
       "depth_max": 32,
       "depth_min": 5,
       "dimension_filter": {
-        "blacklist": [
-          "minecraft:the_end"
-        ],
+        "blacklist": [],
         "whitelist": [
           "minecraft:the_nether",
           "minecraft:overworld",
@@ -59,9 +57,7 @@
       "depth_max": 255,
       "depth_min": 0,
       "dimension_filter": {
-        "blacklist": [
-          "minecraft:the_end"
-        ],
+        "blacklist": [],
         "whitelist": [
           "minecraft:the_nether",
           "minecraft:overworld",

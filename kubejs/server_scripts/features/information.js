@@ -213,6 +213,10 @@ RecipeViewerEvents.addInformation("item", (e) => {
       ],
       info: "It can be obtained by killing the skull-related mob using a Suffering Ending.",
     },
+    {
+      item: ["techpack:reinforced_concrete", "techpack:reinforced_concrete_bricks"],
+      info: "A variation of concrete, with a higher concentration of slags, which makes it more resistant, including against explosions. However, it cannot be dyed.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

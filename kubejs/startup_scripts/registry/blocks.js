@@ -1,78 +1,37 @@
+//priority: 98
 StartupEvents.registry("block", (e) => {
-  let pickaxe_minerable = [
-    { block: "mortar", color: 45 },
-    { block: "fireproof_bricks", color: 35 },
-  ];
-  let casing = [
-    { block: "constantan_coil", color: 37 },
-    { block: "kanthal_coil", color: 45 },
-    { block: "heatproof_casing", color: 61 },
-    { block: "aluminum_casing", color: 23 },
-    { block: "bronze_casing", color: 15 },
-    { block: "steel_casing", color: 11 },
-    { block: "chemical_inert_casing", color: 21 },
-    { block: "cleanroom_casing", color: 14 },
-    { block: "invar_frame", color: 61 },
-    { block: "bronze_machine_casing", color: 15 },
-    { block: "basic_machine_casing", color: 9 },
-    { block: "advanced_machine_casing", color: 9 },
-    { block: "sophisticated_machine_casing", color: 9 },
-  ];
-  let scaffolding = [
-    { block: "steel", color: 11 }
-  ];
-  let beeNest = [
-    { block: "forest", color: 40 },
-    { block: "boreal", color: 26 },
-    { block: "chorus", color: 47 },
-    { block: "warm", color: 54 },
-  ];
+  e.create("techpack:stick_bundle").requiresTool(true).soundType("wood").tagBoth("minecraft:mineable/axe").tagBoth("c:storage_blocks").tagBoth("c:storage_blocks/stick").mapColor(13);
+  e.create("techpack:mortar").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(45);
+  e.create("techpack:fireclay").soundType("mud").tagBoth("minecraft:mineable/shovel").mapColor(34);
+  e.create("techpack:fireproof_bricks").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(23);
 
-  pickaxe_minerable.forEach((registry) => {
-    e.create(`techpack:${registry.block}`)
-      .requiresTool(true)
-      .tagBoth("mineable/pickaxe")
-      .tagBoth("minecraft:needs_iron_tool")
-      .mapColor(registry.color);
-  });
-  casing.forEach((registry) => {
-    e.create(`techpack:${registry.block}`)
-      .soundType("metal")
-      .requiresTool(true)
-      .tagBoth("mineable/pickaxe")
-      .tagBoth("minecraft:needs_iron_tool")
-      .mapColor(registry.color);
-  });
-  beeNest.forEach((registry) => {
-    e.create(`techpack:wild_${registry.block}_nest`)
-      .soundType("wood")
-      .tagBoth("techpack:bee_nests")
-      .mapColor(registry.color);
-  });
-  scaffolding.forEach((registry) => {
-    e.create(`techpack:${registry.block}_scaffolding`)
-      .soundType("metal")
-      .requiresTool(true)
-      .tagBoth("mineable/pickaxe")
-      .tagBoth("minecraft:needs_iron_tool")
-      .suffocating(false)
-      .tagBoth("minecraft:climbable")
-      .renderType("cutout")
-      .fullBlock(false)
-      .notSolid()
-      .mapColor(registry.color);
-  });
+  //Metal-like blocks
+  e.create("techpack:bronze_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(15);
+  e.create("techpack:steel_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(11);
+  e.create("techpack:steel_scaffolding").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").suffocating(false).tagBoth("minecraft:climbable").renderType("cutout").fullBlock(false).notSolid().mapColor(11);
+  e.create("techpack:heatproof_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(61);
+  e.create("techpack:cleanroom_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(14);
+  e.create("techpack:aluminum_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(23);
+  e.create("techpack:chemical_inert_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(21);
+  e.create("techpack:invar_frame").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(61);
+  e.create("techpack:bronze_machine_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(15);
+  e.create("techpack:basic_machine_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(9);
+  e.create("techpack:advanced_machine_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(9);
+  e.create("techpack:sophisticated_machine_casing").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(9);
 
-  e.create("techpack:stick_bundle")
-    .requiresTool(true)
-    .soundType("wood")
-    .tagBoth("minecraft:mineable/axe")
-    .mapColor(13);
+  //Coils
+  e.create("techpack:constantan_coil").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(37);
+  e.create("techpack:kanthal_coil").soundType("metal").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(45);
 
-  e.create("techpack:fireclay")
-    .soundType("mud")
-    .tagBoth("minecraft:mineable/shovel")
-    .mapColor(34);
+  //Nests
+  e.create("techpack:wild_forest_nest").soundType("wood").tagBoth("techpack:bee_nests").mapColor(40);
+  e.create("techpack:wild_boreal_nest").soundType("wood").tagBoth("techpack:bee_nests").mapColor(26);
+  e.create("techpack:wild_warm_nest").soundType("wood").tagBoth("techpack:bee_nests").mapColor(54);
+  e.create("techpack:wild_chorus_nest").soundType("wood").tagBoth("techpack:bee_nests").mapColor(47);
+
+  //Misc
+  e.create("techpack:reinforced_concrete").hardness(3.0).mapColor(22).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_wooden_tool").tagBoth("c:concretes").resistance(600)
+  e.create("techpack:reinforced_concrete_bricks").hardness(3.0).mapColor(22).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_wooden_tool").tagBoth("c:concretes").resistance(600)
 
   e.create("techpack:obsidian_glass")
     .soundType("glass")

@@ -1,3 +1,4 @@
+//priority: 97
 StartupEvents.registry("block", (e) => {
   let stoneLike = [
     { block: "panel_block", color: 9 },

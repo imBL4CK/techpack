@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "RR"
+  ],
+  "key": {
+    "R": {
+      "item": "techpack:reinforced_concrete"
+    }
+  },
+  "result": {
+    "id": "techpack:reinforced_concrete_bricks",
+    "count": 4
+  }
+}

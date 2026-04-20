@@ -1,0 +1,23 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:gravels"
+    },
+    {
+      "tag": "c:sands"
+    },
+    {
+      "tag": "c:slag"
+    },
+    {
+      "tag": "c:slag"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:reinforced_concrete",
+      "count": 4
+    }
+  ]
+}

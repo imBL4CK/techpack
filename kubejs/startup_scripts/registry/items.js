@@ -31,7 +31,6 @@ StartupEvents.registry("item", (e) => {
   let processedMaterials = [
     "rubber",
     "rubber_sheet",
-    "thermal_insulating_fabric",
     "bio_plastic_sheet",
     "bio_plastic_mesh",
     "hdpe_sheet",

@@ -1,4 +1,5 @@
-StartupEvents.registry("block", (e) => {  
+//priority: 99
+StartupEvents.registry("block", (e) => {
   //Sulfur
   e.create(`techpack:budding_sulfur`).soundType("amethyst").randomTick((tick) => global.buddingSulfur(tick)).requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").noDrops().mapColor(30);
   e.create("techpack:sulfur_block").tagBoth("c:storage_blocks/sulfur").soundType("amethyst").requiresTool(true).tagBoth("mineable/pickaxe").tagBoth("minecraft:needs_iron_tool").mapColor(30);

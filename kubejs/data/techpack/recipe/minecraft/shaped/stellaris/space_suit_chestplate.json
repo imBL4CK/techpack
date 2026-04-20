@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "W W",
-    "TGT",
-    "WTW"
+    "PGP",
+    "WPW"
   ],
   "key": {
     "W": {
       "tag": "minecraft:wool"
     },
-    "T": {
-      "item": "techpack:thermal_insulating_fabric"
+    "P": {
+      "tag": "c:plastics"
     },
     "G": {
       "item": "stellaris:oxygen_tank"
