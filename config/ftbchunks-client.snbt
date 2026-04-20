@@ -138,43 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:rabbit": true
 			"minecraft:villager": true
-			"minecraft:cod": false
-			"minecraft:creeper": true
-			"minecraft:witch": true
-			"hominid:juggernaut": true
-			"minecraft:wither": true
-			"minecraft:zombie": true
 			"minecraft:cow": true
-			"nomansland:goose": true
-			"minecraft:horse": true
-			"minecraft:sheep": true
-			"eidolon_repraised:zombie_brute": true
-			"eidolon_repraised:wraith": true
-			"nomansland:tortoise": true
-			"minecraft:axolotl": true
-			"minecraft:glow_squid": true
-			"minecraft:pillager": true
 			"minecraft:donkey": true
-			"minecraft:bat": true
-			"minecraft:skeleton": true
-			"hominid:famished": true
-			"minecraft:wolf": true
-			"primal:bear": true
-			"minecraft:warden": true
-			"minecraft:wandering_trader": true
-			"minecraft:squid": true
-			"minecraft:husk": true
-			"minecraft:spider": true
-			"minecraft:chicken": true
-			"minecraft:zombie_villager": true
+			"minecraft:pillager": true
 			"minecraft:salmon": false
-			"minecraft:trader_llama": true
-			"minecraft:pig": true
 			"eidolon_repraised:slimy_slug": true
+			"minecraft:bat": true
+			"eidolon_repraised:zombie_brute": true
+			"hominid:juggernaut": true
+			"minecraft:wolf": true
+			"nomansland:tortoise": true
+			"minecraft:zombie_villager": true
+			"primal:bear": true
+			"minecraft:pig": true
+			"minecraft:sheep": true
+			"minecraft:wither": true
+			"minecraft:axolotl": true
+			"hominid:famished": true
+			"minecraft:rabbit": true
+			"minecraft:horse": true
+			"minecraft:glow_squid": true
+			"minecraft:witch": true
+			"minecraft:wandering_trader": true
+			"minecraft:trader_llama": true
+			"minecraft:creeper": true
+			"minecraft:spider": true
 			"hominid:fossilised": true
 			"minecraft:enderman": true
+			"nomansland:goose": true
+			"minecraft:zombie": true
+			"minecraft:chicken": true
+			"minecraft:skeleton": true
+			"minecraft:husk": true
+			"minecraft:squid": true
+			"minecraft:cod": false
+			"eidolon_repraised:wraith": true
+			"minecraft:warden": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

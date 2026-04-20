@@ -1,4 +1,4 @@
-//priority: 10
+//priority: 1000
 const beeSpecies = [
   {
     species: "common",
