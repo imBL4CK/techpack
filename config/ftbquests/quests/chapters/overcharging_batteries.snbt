@@ -107,30 +107,6 @@
 		{
 			dependencies: ["17ACC3F136B65A84"]
 			id: "37D103217329768D"
-			rewards: [
-				{
-					id: "645FBDC6926C584F"
-					item: {
-						components: {
-							"ftbquests:missing_item": "createaddition:connector"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-				{
-					id: "20AA8AF1845D8CB0"
-					item: {
-						components: {
-							"ftbquests:missing_item": "createaddition:gold_spool"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "616F6630C464772C"
 				item: { count: 1, id: "techpack:battery_box" }

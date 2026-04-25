@@ -1,0 +1,80 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.generators.animated_mechanical_motor"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/animated_mechanical_motor#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 4.0,
+      "config": {
+        "TOP": "ENABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "spirit_input_slot",
+      "mode": "input"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 7,
+      "y": 17,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/vertical_filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 7,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 80,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.generators.animated_mechanical_motor"
+        }
+      }
+    }
+  ]
+}

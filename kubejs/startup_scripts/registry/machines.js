@@ -61,7 +61,9 @@ StartupEvents.registry("block", (e) => {
     "steam_dynamo",
     "heat_dynamo",
     "cryo_dynamo",
+    "mimicry_dynamo",
     
+    "animated_mechanical_motor",
     "basic_combustion_engine",
 
     "bee_house",

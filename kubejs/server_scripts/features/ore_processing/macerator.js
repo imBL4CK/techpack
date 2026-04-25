@@ -19,7 +19,8 @@ ServerEvents.recipes(e => {
     "constantan",
     "kanthal",
     "advanced_alloy",
-    "stainless_steel",  
+    "stainless_steel",
+    "lithium"
   ];
   // Ingots to Dusts
   entries.forEach((entry) => {

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "FSF",
+    "CBC"
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:carbon_fiber"
+    },
+    "F": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "S": {
+      "item": "techpack:sophisticated_circuit"
+    },
+    "B": {
+      "item": "power_armor:battery"
+    }
+  },
+  "result": {
+    "id": "power_armor:power_armor_chestplate"
+  }
+}

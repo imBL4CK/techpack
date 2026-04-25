@@ -1,4 +1,5 @@
 {
+	autofocus_id: "48B631EFC46D2785"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "necromancy"
@@ -7,26 +8,33 @@
 		id: "eidolon_repraised:summoning_staff"
 	}
 	id: "0FB633C3C909E430"
-	order_index: 4
-	quest_links: [{
-		id: "2EB7D14E31EC0BE0"
-		linked_quest: "237194A5F3216ABE"
+	images: [{
+		height: 2.0d
+		image: "malum:block/banners/soulwoven_banner_sword"
+		rotation: 0.0d
+		width: 1.0d
 		x: 1.5d
-		y: -1.5d
+		y: -3.0d
 	}]
+	order_index: 4
+	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"68361AB7488A4928"
-				"48B631EFC46D2785"
-			]
+			dependencies: ["48B631EFC46D2785"]
 			id: "2E5C04DFB553EF81"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "34C2B7E57F452A2E"
-				table_id: 8331323465427399305L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "34C2B7E57F452A2E"
+					table_id: 8331323465427399305L
+					type: "choice"
+				}
+				{
+					id: "3C79D39DF707DDC5"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "1C6FC2E09BB0E810"
 				item: { count: 1, id: "techpack:flint_and_soul" }
@@ -36,30 +44,68 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["2878382BDDB9DE0E"]
+			hide_dependency_lines: true
 			id: "7E149CDFA2486CAE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "518A0EF05858F7BF"
+					table_id: 8331323465427399305L
+					type: "choice"
+				}
+				{
+					id: "65646583424F405F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "36A017329BDA5713"
 				item: { count: 1, id: "techpack:suffering_ending" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.5d
 		}
 		{
+			dependencies: ["48B631EFC46D2785"]
 			id: "30979A86A7F8434C"
+			rewards: [
+				{
+					id: "3A1F6ACCF42B5162"
+					item: {
+						count: 1
+						id: "enderio:soul_vial"
+					}
+					type: "item"
+				}
+				{
+					id: "238E7784C3262CC1"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "252923440A906B32"
 				item: { count: 1, id: "eidolon_repraised:summoning_staff" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["45498BBB06221F20"]
+			hide_until_deps_complete: true
 			icon: {
 				id: "eidolon_repraised:codex"
 			}
 			id: "48B631EFC46D2785"
+			rewards: [{
+				id: "44FB643D304D182A"
+				type: "xp"
+				xp: 30
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -72,9 +118,25 @@
 		{
 			dependencies: ["48B631EFC46D2785"]
 			icon: {
-				id: "eidolon_repraised:necrotic_focus"
+				id: "eidolon_repraised:brazier"
 			}
 			id: "01684DC50632DE61"
+			rewards: [
+				{
+					count: 8
+					id: "26486216E2CB2C51"
+					item: {
+						count: 1
+						id: "eidolon_repraised:soul_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "77659681608E6784"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "4D343A6044CEA3F3"
@@ -97,15 +159,30 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["237194A5F3216ABE"]
+			dependencies: ["48B631EFC46D2785"]
 			id: "2878382BDDB9DE0E"
+			rewards: [
+				{
+					id: "1F28AEA20D8E2A46"
+					item: {
+						count: 1
+						id: "malum:cthonic_gold"
+					}
+					type: "item"
+				}
+				{
+					id: "566FB6E00BB3C3DF"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "6CF1B177E3F40EEB"
 				item: { count: 1, id: "malum:umbral_spirit" }
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.5d
+			y: -1.5d
 		}
 	]
 }

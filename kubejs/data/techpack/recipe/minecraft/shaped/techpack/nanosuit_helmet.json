@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CSC",
+    "FOF"
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:carbon_fiber"
+    },
+    "S": {
+      "item": "techpack:sophisticated_circuit"
+    },
+    "F": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "O": {
+      "item": "techpack:obsidian_glass"
+    }
+  },
+  "result": {
+    "id": "power_armor:power_armor_helmet"
+  }
+}

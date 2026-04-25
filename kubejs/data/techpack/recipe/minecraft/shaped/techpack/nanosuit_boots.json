@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F F",
+    "C C"
+  ],
+  "key": {
+    "C": {
+      "item": "techpack:carbon_fiber"
+    },
+    "F": {
+      "item": "techpack:flux_infused_alloy_plating"
+    }
+  },
+  "result": {
+    "id": "power_armor:power_armor_boots"
+  }
+}

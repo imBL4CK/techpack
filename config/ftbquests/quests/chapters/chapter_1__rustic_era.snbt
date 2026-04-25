@@ -9,12 +9,7 @@
 	}
 	id: "0D8BD511F4895AA9"
 	order_index: 0
-	quest_links: [{
-		id: "01F2E679DF0CDC06"
-		linked_quest: "4BC1868A58F03BBF"
-		x: 6.0d
-		y: 5.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			id: "186763FC5A59D49A"
@@ -426,10 +421,11 @@
 			dependencies: ["039AD7F88A0159CD"]
 			id: "15F90AD6D095D568"
 			rewards: [{
-				id: "10F268CB8E5968F9"
+				count: 2
+				id: "0B72230AF8524BA2"
 				item: {
 					count: 1
-					id: "techpack:basic_circuit_board"
+					id: "techpack:basic_circuit"
 				}
 				type: "item"
 			}]
@@ -623,7 +619,6 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["4BC1868A58F03BBF"]
 			id: "7108004BE6176984"
 			shape: "circle"
 			tasks: [{

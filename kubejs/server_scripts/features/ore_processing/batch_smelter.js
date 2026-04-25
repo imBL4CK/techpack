@@ -72,6 +72,12 @@ ServerEvents.recipes(e => {
             dust: true,
         },
         {
+            id: "lithium",
+            raw: true,
+            nugget: true,
+            dust: true,
+        },
+        {
             id: "bronze",
             nugget: true,
             plate: true,

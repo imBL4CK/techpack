@@ -17,15 +17,25 @@
 	}]
 	quests: [
 		{
+			dependencies: ["55D4F942D097AFE9"]
+			icon: {
+				id: "techpack:advanced_machine_casing"
+			}
 			icon_scale: 0.8d
 			id: "6C23D4D6D2CC0776"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "007626699CCEC239"
-				item: { count: 1, id: "techpack:advanced_machine_casing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "007626699CCEC239"
+					item: { count: 1, id: "techpack:advanced_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "2F686B58A7156201"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -49,6 +59,11 @@
 						id: "ae2:network_tool"
 					}
 					type: "item"
+				}
+				{
+					id: "116530AEBA4333D4"
+					type: "xp"
+					xp: 30
 				}
 			]
 			tasks: [{
@@ -81,6 +96,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "245E3AAD4894E86E"
+					type: "xp"
+					xp: 30
+				}
 			]
 			tasks: [{
 				id: "4F15DE3ECD0DB4BA"
@@ -93,15 +113,22 @@
 		{
 			dependencies: ["2F9B50A24683B55D"]
 			id: "47851A8850400707"
-			rewards: [{
-				count: 2
-				id: "028ABF36C6EE535B"
-				item: {
-					count: 1
-					id: "ae2:item_cell_housing"
+			rewards: [
+				{
+					count: 2
+					id: "028ABF36C6EE535B"
+					item: {
+						count: 1
+						id: "ae2:item_cell_housing"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "527CD99A879FC9B7"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "5C4DE8CCE20BEB6A"
 				item: { count: 1, id: "ae2:drive" }
@@ -113,14 +140,21 @@
 		{
 			dependencies: ["2F9B50A24683B55D"]
 			id: "7BAA685E060A0E52"
-			rewards: [{
-				id: "210A33146CE0EBE3"
-				item: {
-					count: 1
-					id: "ae2:semi_dark_monitor"
+			rewards: [
+				{
+					id: "210A33146CE0EBE3"
+					item: {
+						count: 1
+						id: "ae2:semi_dark_monitor"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4E89F3E9B9979F4D"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "235BD6C1D2C832DC"
 				item: { count: 1, id: "ae2:terminal" }
@@ -155,14 +189,21 @@
 		{
 			dependencies: ["4A7DF1FB2DAC43DB"]
 			id: "1CA283D2AE709200"
-			rewards: [{
-				id: "4279581E8F51E5E8"
-				item: {
-					count: 1
-					id: "techpack:ice_coolant_bucket"
+			rewards: [
+				{
+					id: "4279581E8F51E5E8"
+					item: {
+						count: 1
+						id: "techpack:ice_coolant_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1CA43FD33FC330C4"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "7E924241A528BEB9"
 				item: { components: { "modular_machinery_reborn:machine": "techpack:freezer" }, count: 1, id: "modular_machinery_reborn:controller" }
@@ -179,15 +220,22 @@
 				"2E5A55ECEC89EE28"
 			]
 			id: "123E0D14A836DCEE"
-			rewards: [{
-				count: 2
-				id: "39C14887285FAFB2"
-				item: {
-					count: 1
-					id: "techpack:sophisticated_circuit_board"
+			rewards: [
+				{
+					count: 2
+					id: "39C14887285FAFB2"
+					item: {
+						count: 1
+						id: "techpack:sophisticated_circuit_board"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4CC629819887C9EB"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "19A9CEA299723BBE"
 				item: { count: 1, id: "techpack:sophisticated_circuit_board" }
@@ -199,15 +247,22 @@
 		{
 			dependencies: ["3CA9B342DD7898D5"]
 			id: "14D704B6C031E5B8"
-			rewards: [{
-				count: 4
-				id: "1DCC777D5CADD428"
-				item: {
-					count: 1
-					id: "techpack:ptfe_sheet"
+			rewards: [
+				{
+					count: 4
+					id: "1DCC777D5CADD428"
+					item: {
+						count: 1
+						id: "techpack:ptfe_sheet"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58B3D1F46AF6D646"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "55CD5C77F052D3FD"
 				item: { count: 1, id: "techpack:ptfe_sheet" }
@@ -219,14 +274,21 @@
 		{
 			dependencies: ["6C23D4D6D2CC0776"]
 			id: "2E5A55ECEC89EE28"
-			rewards: [{
-				id: "372E2FFF03505BF9"
-				item: {
-					count: 1
-					id: "pneumaticcraft:printed_circuit_board"
+			rewards: [
+				{
+					id: "372E2FFF03505BF9"
+					item: {
+						count: 1
+						id: "pneumaticcraft:printed_circuit_board"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "579BD52ECDE02426"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "402975320E849673"
 				item: { count: 1, id: "techpack:advanced_assembler" }
@@ -241,14 +303,21 @@
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "4633868F78784A07"
-			rewards: [{
-				id: "75C3D9B44CE9593E"
-				item: {
-					count: 1
-					id: "industrialforegoing:ether_gas_bucket"
+			rewards: [
+				{
+					id: "75C3D9B44CE9593E"
+					item: {
+						count: 1
+						id: "industrialforegoing:ether_gas_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "38F6C053617D0A6E"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					id: "6941EAE80D0F609E"
@@ -272,6 +341,11 @@
 		{
 			dependencies: ["7B8E25DCCC07E764"]
 			id: "7961BA9015DE7075"
+			rewards: [{
+				id: "2EAF3DF431353495"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3C95D9165F259999"
 				item: { count: 1, id: "stellaris:rocket_station" }
@@ -286,14 +360,21 @@
 				id: "malum:large_strange_crystal"
 			}
 			id: "3CA9B342DD7898D5"
-			rewards: [{
-				id: "5415D9A145749782"
-				item: {
-					count: 1
-					id: "techpack:budding_strange_crystal"
+			rewards: [
+				{
+					id: "5415D9A145749782"
+					item: {
+						count: 1
+						id: "techpack:budding_strange_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "204BD53EE95BEF0F"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "6214D709B21CCBE0"
 				item: { count: 1, id: "malum:large_strange_crystal" }
@@ -305,14 +386,21 @@
 		{
 			dependencies: ["3CA9B342DD7898D5"]
 			id: "4C9158FCCC463F40"
-			rewards: [{
-				id: "5EAF145957ED1C78"
-				item: {
-					count: 1
-					id: "tesseract:tesseract"
+			rewards: [
+				{
+					id: "5EAF145957ED1C78"
+					item: {
+						count: 1
+						id: "tesseract:tesseract"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2EB3D4C59FC54096"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
 				id: "4CC87AA9A99B0933"
 				item: { count: 1, id: "tesseract:tesseract" }
@@ -326,6 +414,11 @@
 				id: "pneumaticcraft:assembly_controller"
 			}
 			id: "5AE9F0D7DF8B4305"
+			rewards: [{
+				id: "4041D2F85AA6D2A9"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
 					id: "57674957533C5B61"
@@ -363,6 +456,11 @@
 		}
 		{
 			id: "450307EC7615791E"
+			rewards: [{
+				id: "4153C197D9C9CD43"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "363C9A00085D09AB"
 				item: { count: 1, id: "stellaris:solar_panel" }
@@ -376,6 +474,11 @@
 				id: "pipez:energy_pipe"
 			}
 			id: "6D124E989E9EDE6B"
+			rewards: [{
+				id: "68F4E68CFEECDE56"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [
 				{
 					id: "7E281FBBB00C5ED6"
@@ -397,30 +500,26 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["6D124E989E9EDE6B"]
-			id: "094244A8243998D8"
-			tasks: [{
-				id: "10AD6156254F131A"
-				item: { count: 1, id: "pipez:universal_pipe" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["6C23D4D6D2CC0776"]
 			icon: {
 				id: "techpack:cleanroom_casing"
 			}
 			id: "7B8E25DCCC07E764"
-			rewards: [{
-				id: "700285FA8731A71B"
-				item: {
-					count: 1
-					id: "techpack:cesu"
+			rewards: [
+				{
+					id: "700285FA8731A71B"
+					item: {
+						count: 1
+						id: "techpack:cesu"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "508D88A092D3F63D"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [
 				{
 					count: 51L

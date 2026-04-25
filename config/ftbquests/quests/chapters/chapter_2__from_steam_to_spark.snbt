@@ -22,19 +22,34 @@
 			x: -2.5d
 			y: 0.0d
 		}
+		{
+			id: "372DE05CB7A7FB64"
+			linked_quest: "2F59C6052DDC876B"
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	quests: [
 		{
 			dependencies: ["15F90AD6D095D568"]
+			icon: {
+				id: "techpack:basic_machine_casing"
+			}
 			icon_scale: 0.8d
 			id: "0F914F8C5666E10B"
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "32F2AAAF2D976ACD"
-				item: { count: 1, id: "techpack:basic_machine_casing" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "32F2AAAF2D976ACD"
+					item: { count: 1, id: "techpack:basic_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "716F16B01DED9B06"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -441,42 +456,6 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"0F914F8C5666E10B"
-				"48B631EFC46D2785"
-			]
-			icon: {
-				id: "malum:encyclopedia_esoterica"
-			}
-			id: "237194A5F3216ABE"
-			rewards: [{
-				count: 8
-				id: "57BA3000E6F67868"
-				item: {
-					count: 1
-					id: "malum:refined_soulstone"
-				}
-				type: "item"
-			}]
-			size: 1.0d
-			tasks: [
-				{
-					id: "49890CFF891ADD67"
-					observe_type: 0
-					timer: 0L
-					to_observe: "malum:void_conduit"
-					type: "observation"
-				}
-				{
-					id: "7E5C83C7E2FCD0F0"
-					item: { count: 1, id: "malum:encyclopedia_esoterica" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["3DE253B80BC28A15"]
 			id: "7F5AFDB7019CD36F"
 			rewards: [{
@@ -501,6 +480,7 @@
 			icon_scale: 0.8d
 			id: "55D4F942D097AFE9"
 			rewards: [{
+				count: 2
 				id: "0231F9E528A60C0F"
 				item: {
 					count: 1
@@ -542,38 +522,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["237194A5F3216ABE"]
-			id: "2878606D4273FB1C"
-			optional: true
-			rewards: [
-				{
-					id: "7F1ECE7AA64BD1F3"
-					item: {
-						count: 1
-						id: "dungeonsdelight:tokayaki"
-					}
-					type: "item"
-				}
-				{
-					id: "15463BA807CA4D9D"
-					item: {
-						count: 1
-						id: "dungeonsdelight:ghast_roll"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			tasks: [{
-				id: "0F75D2529D6049CA"
-				item: { count: 1, id: "techpack:glutton" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["237194A5F3216ABE"]
+			dependencies: ["2F59C6052DDC876B"]
 			id: "34B0C2176A78341B"
 			rewards: [{
 				id: "5AA32E375B4DF585"

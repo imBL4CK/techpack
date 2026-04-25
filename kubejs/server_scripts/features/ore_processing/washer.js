@@ -102,6 +102,15 @@ ServerEvents.recipes((e) => {
             "requireItem": ["create:crushed_raw_uranium"],
             "produceItem": ["techpack:purified_uranium_dust",]
         },
+        {
+            "machineType": "techpack:basic_washer",
+            "jeiDisplayPriority": 1,
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 40 },
+            "requireFluid": [acid],
+            "requireItem": ["techpack:crushed_raw_lithium"],
+            "produceItem": ["techpack:purified_lithium_dust",]
+        },
     ]
     recipes.forEach((recipe) => {
         techpackMachineAPI(e,recipe)

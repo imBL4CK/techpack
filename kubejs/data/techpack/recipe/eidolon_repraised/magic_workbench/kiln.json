@@ -1,0 +1,28 @@
+{
+  "type": "eidolon_repraised:worktable",
+  "pattern": [
+    "BBB",
+    "BFB",
+    "SSS"
+  ],
+  "reagents": [
+    "i   "
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:mud_bricks"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "S": {
+      "tag": "minecraft:stone_crafting_materials"
+    },
+    "i": {
+    	"item": "malum:infernal_spirit"
+    }
+  },
+  "result": {
+    "id": "techpack:kiln"
+  }
+}

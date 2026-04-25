@@ -13,3 +13,23 @@
 [copper_sink]
 	#Whether the Copper Sink provides infinite water (if false, it's just a normal 2000mB tank)
 	infiniteWater = true
+
+#Centrifugal Pump settings
+[centrifugal_pump]
+	#Maximum transport distance in blocks for the Centrifugal Pump.
+	# Default: 20
+	# Range: > 1
+	centrifugalPumpRange = 20
+
+#Copper Tap Experience Release settings
+[copper_tap_experience]
+	#Whether the Copper Tap can release experience orbs when open and no valid target is present.
+	enabled = true
+	#How many mB of experience fluid are consumed per release.
+	# Default: 10
+	# Range: 1 ~ 1000
+	rate = 10
+	#Tick interval between each experience orb release.
+	# Default: 1
+	# Range: 1 ~ 100
+	interval = 1

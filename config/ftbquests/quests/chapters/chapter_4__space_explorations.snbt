@@ -1,4 +1,5 @@
 {
+	autofocus_id: "71D32C233DFE792A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chapter_4__space_explorations"
@@ -11,25 +12,30 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["00E7DBCB639B2833"]
+			icon: {
+				id: "techpack:sophisticated_machine_casing"
+			}
+			icon_scale: 0.8d
 			id: "71D32C233DFE792A"
-			tasks: [{
-				id: "24BDA7E5DE624F19"
-				type: "checkmark"
-			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "478665C32C1D7957"
+					item: { count: 1, id: "techpack:sophisticated_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "3376EB8825E22FB3"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			id: "1217F3A85F4DD054"
-			tasks: [{
-				id: "0EF0656517F78163"
-				item: { count: 1, id: "techpack:resource_collector" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 1.5d
-		}
-		{
+			dependencies: ["71D32C233DFE792A"]
 			id: "7F60326D17B1085D"
 			tasks: [{
 				id: "02FB5EA7862090ED"
@@ -40,6 +46,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["751A22EA3B470B4D"]
 			icon: {
 				id: "industrialforegoingsouls:soul_laser_base"
 			}
@@ -62,10 +69,11 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
-			y: 1.5d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1F05558CC482F6F1"]
 			icon: {
 				id: "techpack:smd_capacitor"
 			}
@@ -96,16 +104,27 @@
 					type: "item"
 				}
 			]
-			x: 1.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
+			dependencies: ["71D32C233DFE792A"]
+			icon: {
+				id: "hostilenetworks:sim_chamber"
+			}
 			id: "751A22EA3B470B4D"
-			tasks: [{
-				id: "3001BD5DA2068F0B"
-				item: { count: 1, id: "hostilenetworks:sim_chamber" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3001BD5DA2068F0B"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					id: "7DF0302AD60EB22F"
+					item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}
@@ -117,7 +136,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: -1.5d
 		}
 		{
 			id: "2D12BB5D9B2A6C86"
@@ -126,8 +145,167 @@
 				item: { count: 1, id: "techpack:obsidian_focal_lens" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				components: {
+					"stellaris:fluid": {
+						amounts: [L;
+							0L
+							0L
+						]
+						fluids: [
+							"minecraft:empty"
+							"minecraft:empty"
+						]
+					}
+				}
+				id: "stellaris:jet_suit_chestplate"
+			}
+			id: "5DFC978053E54990"
+			tasks: [
+				{
+					id: "08E4D00C4599B80A"
+					item: { count: 1, id: "stellaris:jet_suit_helmet" }
+					type: "item"
+				}
+				{
+					id: "73C8EEC5A6641936"
+					item: { components: { "stellaris:fluid": { amounts: [L; 0L, 0L ], fluids: [ "minecraft:empty", "minecraft:empty" ] } }, count: 1, id: "stellaris:jet_suit_chestplate" }
+					type: "item"
+				}
+				{
+					id: "395053CE19AFE120"
+					item: { count: 1, id: "stellaris:jet_suit_leggings" }
+					type: "item"
+				}
+				{
+					id: "64B245F09AF9F1A7"
+					item: { count: 1, id: "stellaris:jet_suit_boots" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "power_armor:power_armor_chestplate"
+			}
+			id: "3C8214476DF01296"
+			tasks: [
+				{
+					id: "75EDE9E2819ADA9D"
+					item: { count: 1, id: "power_armor:power_armor_helmet" }
+					type: "item"
+				}
+				{
+					id: "20B7E23AB317BB6B"
+					item: { count: 1, id: "power_armor:power_armor_chestplate" }
+					type: "item"
+				}
+				{
+					id: "7367D3EA714515C9"
+					item: { count: 1, id: "power_armor:power_armor_leggings" }
+					type: "item"
+				}
+				{
+					id: "35DCE581CB63DF46"
+					item: { count: 1, id: "power_armor:power_armor_boots" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7F60326D17B1085D"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "techpack:thermal_evaporation_tower"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "3173942E6EEFE774"
+			tasks: [
+				{
+					id: "023CADEB423E367A"
+					item: { components: { "modular_machinery_reborn:machine": "techpack:thermal_evaporation_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 53L
+					id: "07D0C11279D1DABC"
+					item: { count: 1, id: "techpack:thermal_evaporation_casing" }
+					type: "item"
+				}
+				{
+					id: "5FDA54BBFF2D4462"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:fluidinputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63BADE7974903F2D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:fluidoutputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01C162465B02304C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:energyinputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["71D32C233DFE792A"]
+			id: "1F05558CC482F6F1"
+			tasks: [{
+				id: "0B8BC348217ABC8A"
+				item: { count: 1, id: "techpack:sophisticated_assembler" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3173942E6EEFE774"]
+			icon_scale: 0.8d
+			id: "2F793B86205F33CD"
+			rewards: [{
+				count: 2
+				id: "4684E0377E784CD2"
+				item: {
+					count: 1
+					id: "techpack:micro_computer"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3DAD1DAF5CE8FE3D"
+				item: { count: 1, id: "techpack:micro_computer" }
+				type: "item"
+			}]
+			x: -0.0357142857142847d
+			y: 4.5892857142857295d
+		}
+		{
+			id: "168853783B059723"
+			tasks: [{
+				id: "6443E8853274509F"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
 		}
 	]
 }

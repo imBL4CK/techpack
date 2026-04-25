@@ -10,12 +10,12 @@
       "count": 1
     },
     {
-      "item": "pneumaticcraft:printed_circuit_board",
+      "item": "techpack:basic_circuit",
       "count": 1
     }
   ],
   "input": {
-    "item": "techpack:advanced_machine_casing",
+    "item": "techpack:basic_machine_casing",
     "count": 1
   },
   "result": {

@@ -1,5 +1,4 @@
 {
-	autofocus_id: "456483F245D53C22"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "alchemical_studies"
@@ -8,32 +7,75 @@
 		id: "eidolon_repraised:crucible"
 	}
 	id: "6D756BCE50B770D7"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			icon_scale: 0.8d
+			dependencies: ["1B8B125979228105"]
+			icon: {
+				id: "eidolon_repraised:crucible"
+			}
 			id: "456483F245D53C22"
-			shape: "hexagon"
+			rewards: [
+				{
+					count: 8
+					id: "58F236DE38630818"
+					item: {
+						count: 1
+						id: "techpack:sulfur_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "4321F5AA5092308D"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "1427D9D3E09A8808"
-				item: { count: 1, id: "eidolon_repraised:crucible" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1427D9D3E09A8808"
+					item: { count: 1, id: "eidolon_repraised:crucible" }
+					type: "item"
+				}
+				{
+					id: "0EC222BA4FE6BCF0"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["456483F245D53C22"]
+			dependencies: ["2F59C6052DDC876B"]
 			id: "1153F30F21CC20AC"
+			rewards: [
+				{
+					id: "5D762BFF86752A21"
+					item: {
+						count: 1
+						id: "dungeonsdelight:tokayaki"
+					}
+					type: "item"
+				}
+				{
+					id: "3AAA258BBD34F56C"
+					item: {
+						count: 1
+						id: "dungeonsdelight:ghast_roll"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "27B6DFEC95907A03"
 				item: { count: 1, id: "techpack:glutton" }
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["456483F245D53C22"]
@@ -43,41 +85,8 @@
 				item: { count: 1, id: "eidolon_repraised:arcane_gold_ingot" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["456483F245D53C22"]
-			id: "623AF0F5536033D7"
-			tasks: [{
-				id: "50B70D20D8046286"
-				item: { count: 1, id: "techpack:kiln" }
-				type: "item"
-			}]
 			x: 1.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["4D75A138430C9516"]
-			id: "0305B989088D30E8"
-			tasks: [{
-				id: "32414502DD266433"
-				item: { count: 1, id: "malum:spellweaving_pickaxe" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["4D75A138430C9516"]
-			id: "3094DAE5E6DFA531"
-			tasks: [{
-				id: "13F0B5FD7ED25CFC"
-				item: { count: 1, id: "malum:spellweaving_axe" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 1.0d
 		}
 		{
 			dependencies: ["456483F245D53C22"]
@@ -87,6 +96,95 @@
 				item: { count: 1, id: "malum:mimicry_relay" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			icon: {
+				id: "malum:void_depot"
+			}
+			id: "2F59C6052DDC876B"
+			rewards: [
+				{
+					count: 8
+					id: "7F9416DE71931D1E"
+					item: {
+						count: 1
+						id: "malum:refined_soulstone"
+					}
+					type: "item"
+				}
+				{
+					id: "1009B6146E159820"
+					type: "xp"
+					xp: 30
+				}
+			]
+			size: 1.0d
+			tasks: [
+				{
+					id: "46D6401A5AFF1376"
+					observe_type: 0
+					timer: 0L
+					to_observe: "malum:void_conduit"
+					type: "observation"
+				}
+				{
+					id: "54CD5FFA5E48E7FD"
+					item: { count: 1, id: "malum:encyclopedia_esoterica" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["456483F245D53C22"]
+			icon: {
+				id: "minecraft:rotten_flesh"
+			}
+			id: "2E3119B4776760D3"
+			rewards: [{
+				count: 3
+				id: "3A6F67331C2E84B3"
+				item: {
+					count: 1
+					id: "malum:alchemical_calx"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68C6F36E060E56F2"
+					item: { count: 1, id: "malum:alchemical_calx" }
+					type: "item"
+				}
+				{
+					id: "50432A2F47D6E60C"
+					item: { count: 1, id: "minecraft:bone" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "36CBBE06816E1A66"
+					item: { count: 1, id: "minecraft:rotten_flesh" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32A9E50F82CCFE8C"
+					item: { count: 1, id: "minecraft:ender_pearl" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "650E11CBE9327077"
+					item: { count: 1, id: "minecraft:ink_sac" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}

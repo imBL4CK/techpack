@@ -1,0 +1,18 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "fluid": {
+      "fluid": "techpack:lithium_solution",
+      "amount": 90
+    }
+  },
+  "outputs": {
+    "item_output": {
+      "id": "techpack:lithium_ingot"
+    }
+  },
+  "temperature": {
+    "min": 0,
+    "max": 273
+  }
+}

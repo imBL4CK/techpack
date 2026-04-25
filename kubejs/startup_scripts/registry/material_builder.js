@@ -163,6 +163,14 @@ const entries = [
     dust: true,
   },
   {
+    id: "lithium",
+    raw: true,
+    ingot: true,
+    nugget: true,
+    purifiedDust: true,
+    dust: true,
+  },
+  {
     id: "bronze",
     ingot: true,
     nugget: true,
@@ -302,6 +310,7 @@ StartupEvents.registry("item", (e) => {
   e.create("techpack:crushed_raw_silicon").texture(`techpack:item/material_builder/crushed_raw_silicon`).tag("create:crushed_raw_materials");
   e.create("techpack:crushed_raw_desh").texture(`techpack:item/material_builder/crushed_raw_desh`).tag("create:crushed_raw_materials");
   e.create("techpack:crushed_raw_calorite").texture(`techpack:item/material_builder/crushed_raw_calorite`).tag("create:crushed_raw_materials");
+  e.create("techpack:crushed_raw_lithium").texture(`techpack:item/material_builder/crushed_raw_lithium`).tag("create:crushed_raw_materials");
 });
 StartupEvents.registry("block", (e) => {
   function materialBuilderAPI(e, buildData) {

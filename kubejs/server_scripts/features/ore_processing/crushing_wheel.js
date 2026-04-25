@@ -10,7 +10,8 @@ ServerEvents.recipes((e) => {
     "nickel",
     "platinum",
     "aluminum",
-    "uranium"
+    "uranium",
+    "lithium"
   ];
   entries.forEach((entry) => {
     e.custom({
@@ -129,6 +130,18 @@ ServerEvents.recipes((e) => {
     results: [
       { id: "techpack:crushed_raw_desh" },
       { id: "techpack:crushed_raw_desh", chance: 0.5  },
+      { id: "create:experience_nugget", chance: 0.75 },
+    ],
+  })
+  e.custom({
+    type: "create:crushing",
+    processingTime: 400,
+    ingredients: [
+      { tag: "c:ores/lithium",},
+    ],
+    results: [
+      { id: "techpack:crushed_raw_lithium" },
+      { id: "techpack:crushed_raw_lithium", chance: 0.5  },
       { id: "create:experience_nugget", chance: 0.75 },
     ],
   })

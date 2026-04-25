@@ -9,51 +9,39 @@
 	}
 	id: "30A59890023CC90E"
 	order_index: 0
-	quest_links: [ ]
-	quests: [
+	quest_links: [
 		{
-			dependencies: ["1B8B125979228105"]
-			id: "24765DBC74C606D9"
-			tasks: [{
-				id: "733EA357AC987060"
-				item: { count: 1, id: "eidolon_repraised:worktable" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["24765DBC74C606D9"]
-			id: "6DCD6C0B8EA47B3A"
-			tasks: [{
-				id: "7C378CAF6C2991F0"
-				item: { count: 1, id: "eidolon_repraised:crucible" }
-				type: "item"
-			}]
+			id: "1A449C6DDED73BDC"
+			linked_quest: "456483F245D53C22"
 			x: -1.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: [
-				"24765DBC74C606D9"
-				"29EEA4229CD05317"
-			]
-			id: "4BC1868A58F03BBF"
-			tasks: [{
-				id: "691F81B9B4EE6435"
-				item: { count: 1, id: "malum:spirit_altar" }
-				type: "item"
-			}]
+			id: "126B30B39333B26C"
+			linked_quest: "6C94484DF36590E0"
 			x: 1.5d
-			y: 0.0d
+			y: -2.0d
 		}
+		{
+			id: "5BE8441EF2A17AF9"
+			linked_quest: "68361AB7488A4928"
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+	quests: [
 		{
 			icon: {
 				id: "malum:encyclopedia_arcana"
 			}
 			icon_scale: 0.8d
 			id: "1B8B125979228105"
-			shape: "hexagon"
+			rewards: [{
+				id: "61AC48137FC7CF6D"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "04B71C52385CF1E5"
@@ -63,18 +51,37 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["24765DBC74C606D9"]
+			dependencies: [
+				"2F59C6052DDC876B"
+				"1B8B125979228105"
+			]
+			hide_until_deps_complete: true
 			icon: {
-				id: "malum:void_depot"
+				id: "minecraft:skeleton_skull"
 			}
-			id: "64B1962EEDBD305E"
+			id: "45498BBB06221F20"
+			rewards: [
+				{
+					count: 4
+					id: "32FE0F8E123591AC"
+					item: {
+						count: 1
+						id: "malum:warp_flux"
+					}
+					type: "item"
+				}
+				{
+					id: "6A154DA99616D4A4"
+					type: "xp"
+					xp: 30
+				}
+			]
 			tasks: [{
-				id: "1DE96B446CFFFD4A"
-				structure: "malum:weeping_well"
-				type: "structure"
+				id: "26B6D53304ED0A54"
+				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: -0.5d
 		}
 	]
 }

@@ -14,6 +14,12 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("ftbquests:book", "Quest Log");
   event.renameItem("industrialforegoing:bioreactor", "Bio-Reaction Chamber");
   event.renameItem("industrialforegoing:biofuel_generator", "Bio-Burning Generator");
+  event.renameItem("power_armor:power_armor_helmet", "Nano Suit Helmet");
+  event.renameItem("power_armor:power_armor_chestplate", "Nano Suit Chestplate");
+  event.renameItem("power_armor:power_armor_leggings", "Nano Suit Leggigs");
+  event.renameItem("power_armor:power_armor_boots", "Nano Suit Boots");
+  event.renameItem("power_armor:armor_modification_table", "Nano Suit Modification Table");
+  event.renameItem("power_armor:battery", "Lithium Battery Cell");
   
   event.renameItem("techpack:smd_capacitor", "SMD Capacitor");
   event.renameItem("techpack:smd_transistor", "SMD Transistor");

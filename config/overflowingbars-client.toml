@@ -14,7 +14,7 @@
 	left_side = false
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	#Default Value: true
-	allow_layers = true
+	allow_layers = false
 	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
 	#Default Value: 0
 	# Default: 0
@@ -33,7 +33,7 @@
 	colorize_first_row = false
 	#Add layers to this bar. When disabled any modifications to the bar from this mod will be turned off.
 	#Default Value: true
-	allow_layers = true
+	allow_layers = false
 	#Shift the bar up or down by specified number of icon rows. Allows for better mod compatibility.
 	#Default Value: 0
 	# Default: 0

@@ -50,6 +50,7 @@ StartupEvents.registry("item", (e) => {
   let components = [
     "bearing",
     "makeshift_mechanism",
+    "animated_parts",
     "silicon_wafer",
     "polished_wafer",
     "basic_circuit_board",

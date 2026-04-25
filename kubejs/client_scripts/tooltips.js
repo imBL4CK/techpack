@@ -60,16 +60,15 @@ ItemEvents.modifyTooltips((e) => {
     tooltip.insert(1, Text.of("by StarCorp").color(yellow));
   });
   e.modify("techpack:glitch_knife", (tooltip) => {
-    tooltip.insert(1, Text.translate("item.techpack.glitch_knife.tooltip.1"));
-    tooltip.insert(2, Text.translate("item.techpack.glitch_knife.tooltip.2").color(0x7f3fb2));
+    tooltip.insert(1, Text.translate("item.techpack.glitch_knife.tooltip.1").color(0x7f3fb2));
   });
   e.modify("industrialforegoing:laser_drill", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.laser_drill.tooltip.1").color(yellow));
+    tooltip.insert(1, Text.translate("item.techpack.laser_drill.tooltip.1").color(yellow));
   });
   e.modify("industrialforegoing:bioreactor", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.bioreactor.tooltip.1").color(yellow));
+    tooltip.insert(1, Text.translate("item.techpack.bioreactor.tooltip.1").color(yellow));
   });
   e.modify("industrialforegoing:biofuel_generator", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.energy_cost.biofuel_generator.tooltip.1").color(yellow));
+    tooltip.insert(1, Text.translate("item.techpack.biofuel_generator.tooltip.1").color(yellow));
   });
 });

@@ -217,6 +217,22 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: ["techpack:reinforced_concrete", "techpack:reinforced_concrete_bricks"],
       info: "A variation of concrete, with a higher concentration of slags, which makes it more resistant, including against explosions. However, it cannot be dyed.",
     },
+    {
+      item: "power_armor:armor_modification_table",
+      info: "A table that enables the application of armor modules in the NanoSuit",
+    },
+    {
+      item: "techpack:glitch_knife",
+      info: "Something that perhaps doesn't belong to that dimension",
+    },
+    {
+      item: "techpack:animated_parts",
+      info: "A set of gears that move rapidly when conducting spiritual energy",
+    },
+    {
+      item: "malum:mimicry_relay",
+      info: "It absorbs the properties of a spirit and increases its power momentarily, like a redstone repeater.",
+    },
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);

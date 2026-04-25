@@ -161,6 +161,12 @@ ServerEvents.recipes(e => {
       plate: true,
       gear: true,
     },
+    {
+      id: "lithium",
+      raw: true,
+      ingot: true,
+      nugget: true,
+    },
   ];
   entries.forEach(entry => {
     if (entry.raw) {

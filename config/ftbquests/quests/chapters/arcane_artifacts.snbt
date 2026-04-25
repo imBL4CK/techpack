@@ -5,20 +5,75 @@
 	filename: "arcane_artifacts"
 	group: "4013D3AC383A588F"
 	icon: {
-		id: "malum:erosion_scepter"
+		id: "eidolon_repraised:worktable"
 	}
 	id: "1CEDC4FEE00CE52A"
-	order_index: 2
+	images: [
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_colorful_world"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_sigil"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_sigil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+	]
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1B8B125979228105"]
 			hide_details_until_startable: false
 			icon: {
 				id: "eidolon_repraised:worktable"
 			}
-			icon_scale: 0.8d
 			id: "6C94484DF36590E0"
-			shape: "hexagon"
+			rewards: [{
+				id: "6EEA5D066A62DBA0"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "692A3B59A895E673"
@@ -36,7 +91,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6C94484DF36590E0"]
@@ -46,7 +101,7 @@
 				item: { count: 1, id: "eidolon_repraised:research_table" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -57,11 +112,10 @@
 				item: { count: 1, id: "eidolon_repraised:scriptorium" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 0.0d
 		}
 		{
-			dependencies: ["1C85EB0005A68FB4"]
 			id: "49F40F7F6022D23D"
 			tasks: [{
 				id: "083DAD8B3E67368A"
@@ -69,7 +123,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1C85EB0005A68FB4"]
@@ -79,8 +133,8 @@
 				item: { count: 1, id: "malum:runewood_obelisk" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: -0.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C85EB0005A68FB4"]
@@ -90,19 +144,99 @@
 				item: { count: 1, id: "malum:brilliant_obelisk" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 0.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["6C94484DF36590E0"]
 			id: "3DF515DC4F37E8B4"
 			tasks: [{
 				id: "2E6847DD31DA7B35"
 				item: { count: 1, id: "malum:weavers_workbench" }
 				type: "item"
 			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "0D3FCD8FB7B1076C"
+			tasks: [{
+				id: "6E07E8015FE5CFA3"
+				item: { count: 1, id: "techpack:kiln" }
+				type: "item"
+			}]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2F59C6052DDC876B"
+				"1C85EB0005A68FB4"
+			]
+			hide_dependency_lines: true
+			id: "0AD5CDC770C7D78B"
+			rewards: [{
+				id: "3CFFD8B6BDB4D787"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "10D0AE679259449F"
+				item: { count: 1, id: "techpack:iris_relic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"2F59C6052DDC876B"
+			]
+			hide_dependency_lines: true
+			id: "730C0436C6DA66E4"
+			rewards: [{
+				id: "79FE82449CD53631"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "46F22ABF3AF7E7A2"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"4D75A138430C9516"
+			]
+			hide_dependency_lines: true
+			id: "51D3D61031AA1CFA"
+			tasks: [{
+				id: "354DA60346837A62"
+				item: { count: 1, id: "malum:spellweaving_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"4D75A138430C9516"
+			]
+			hide_dependency_lines: true
+			id: "3331E609608EEFE3"
+			tasks: [{
+				id: "44465E6FCA3C9004"
+				item: { count: 1, id: "malum:spellweaving_axe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
 		}
 	]
 }

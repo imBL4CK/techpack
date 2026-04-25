@@ -1,0 +1,41 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "qol_features"
+	group: "21AA9A7C71ABF0D8"
+	icon: {
+		id: "supplementaries:present_red"
+	}
+	id: "0B9D3928E2F04F73"
+	images: [{
+		height: 1.0d
+		image: "supplementaries:item/item_shelf"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 0.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: {
+			id: "minecraft:lantern"
+		}
+		id: "4DCA6963CD6C9B45"
+		optional: true
+		rewards: [{
+			id: "0A09AC2126324EEA"
+			item: {
+				count: 1
+				id: "minecraft:lantern"
+			}
+			type: "item"
+		}]
+		tasks: [{
+			id: "7F4DB491D563F076"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

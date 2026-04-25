@@ -2,8 +2,11 @@
     "item.techpack.moddedpedia.name": "Moddedpedia",
     "item.techpack.moddedpedia.tooltip.1": "by StarCorp",
     "item.techpack.moddedpedia.tooltip.2": "Right-click to open the guide window",
-    "item.techpack.glitch_knife.tooltip.1": "Something that perhaps doesn't belong to that dimension",
-    "item.techpack.glitch_knife.tooltip.2": "Debug Item",
+    "item.techpack.glitch_knife.tooltip.1": "Debug Item",
+    "item.techpack.laser_drill.tooltip.1": "Energy Consumption: 4.000 RF/t per Operation",
+    "item.techpack.bioreactor.tooltip.1": "Energy Consumption: 400 RF/t per Operation",
+    "item.techpack.biofuel_generator.tooltip.1": "Energy Generation: 160 RF/t per Operation",
+    
     "effect.techpack.nutrition.description": "Restores hunger slowly.",
     
     "gui.techpack.machines.steam_tier.steam_storage": "Steam Storage: 8.000 mB",
@@ -36,6 +39,8 @@
     "block.techpack.generators.cryo_dynamo": "Cryo Dynamo",
     "block.techpack.generators.steam_dynamo": "Steam Dynamo",
     "block.techpack.generators.combustion_engine.basic": "Basic Combustion Engine",
+    "block.techpack.generators.animated_mechanical_motor": "Animated Mechanical Motor",
+    "block.techpack.generators.mimicry_dynamo": "Mimicry Dynamo",
     "block.techpack.machines.alloy_foundry.steam": "Steam Alloy Foundry",
     "block.techpack.machines.alloy_foundry.basic": "Basic Alloy Foundry",
     "block.techpack.machines.alloy_foundry.advanced": "Advanced Alloy Foundry",
@@ -111,9 +116,5 @@
     "tip.techpack.curiosity_4.text": "Industrial Craft, especially the classic edition, is one of the major inspirations for the TechPack machines.",
     "tip.techpack.curiosity_5.text": "The idea of merging concepts from old mods and reinterpreting them emerged after the project's development resumed in January 2026.",
     "tip.techpack.curiosity_6.text": "Raspberry Flavored was crucial in achieving the aesthetically polished TechPack.",
-    "tip.techpack.curiosity_7.text": "StarCorp was the company responsible for sending the player to the past, shortly before a catastrophe occurred in the future.",
-
-    "tooltip.techpack.energy_cost.laser_drill.tooltip.1": "Energy Consumption: 4.000 RF/t per Operation",
-    "tooltip.techpack.energy_cost.bioreactor.tooltip.1": "Energy Consumption: 400 RF/t per Operation",
-    "tooltip.techpack.energy_cost.biofuel_generator.tooltip.1": "Energy Generation: 160 RF/t per Operation"
+    "tip.techpack.curiosity_7.text": "StarCorp was the company responsible for sending the player to the past, shortly before a catastrophe occurred in the future."
 }

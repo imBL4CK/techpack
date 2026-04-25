@@ -17,7 +17,8 @@ ServerEvents.recipes((e) => {
     "kanthal",
     "advanced_alloy",
     "stainless_steel",
-    "stellarithe"
+    "stellarithe",
+    "lithium"
   ]
   ingotMaterials.forEach((craft) => {
     e.shapeless(`9x techpack:${craft}_nugget`,`techpack:${craft}_ingot`).id(`techpack:library/minecraft/shapeless/material_conversion/${craft}_nugget`);

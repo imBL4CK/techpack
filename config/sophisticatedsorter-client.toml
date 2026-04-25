@@ -6,6 +6,6 @@
 	#Only valid for containers without invalid slot such as recipe result slot if true.
 	Filter2 = true
 	#Special of screens.
-	specialList = ["block.techpack.machines.centrifuge.advanced", "block.techpack.machines.centrifuge.sophisticated"]
+	specialList = ["block.techpack.machines.centrifuge.advanced", "block.techpack.machines.centrifuge.sophisticated", "block.pneumaticcraft.thermopneumatic_processing_plant"]
 	#是否启用默认拼音排序。
 	pinyin = true

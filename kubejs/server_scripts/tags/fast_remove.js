@@ -103,6 +103,10 @@ ServerEvents.tags("item", (e) => {
     "modular_machinery_reborn:casing_gearbox",
     "modular_machinery_reborn:casing_reinforced",
     "modular_machinery_reborn:casing_circuitry",
+    "power_armor:copper_wire",
+    "power_armor:armor_plating",
+    "power_armor:compressor",
+    "power_armor:machine_frame",
   ];
   entry.forEach((remove) => {
     e.add("techpack:fast_remove", remove);

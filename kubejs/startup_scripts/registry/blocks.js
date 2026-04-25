@@ -103,6 +103,15 @@ StartupEvents.registry("block", (e) => {
       }
     },
     {
+      id: "techpack:thermal_evaporation_casing",
+      soundType: "metal",
+      requiresTool: true,
+      mapColor: 37,
+      tags: {
+        both: ["mineable/pickaxe", "minecraft:needs_iron_tool"]
+      }
+    },
+    {
       id: "techpack:invar_frame",
       soundType: "metal",
       requiresTool: true,

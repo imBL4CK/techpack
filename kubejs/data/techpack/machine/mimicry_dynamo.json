@@ -1,0 +1,144 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.generators.mimicry_dynamo"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/mimicry_dynamo#standalone"
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 16000,
+      "config": {
+        "output": true,
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "OUTPUT",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "capacity": 64000,
+      "max_input": 16000
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "spirit_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH"
+      },
+      "id": "energy_output_slot",
+      "mode": "output"
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 34,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 7,
+      "y": 17,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/tank.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/vertical_filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 7,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.generators.mimicry_dynamo"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 103,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:fluid",
+      "id": "fluid_tank",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    }
+  ]
+}

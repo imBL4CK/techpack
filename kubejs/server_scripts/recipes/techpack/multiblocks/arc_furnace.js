@@ -122,6 +122,12 @@ ServerEvents.recipes(e => {
         "requireItem": ["2x #c:gems/quartz", "4x minecraft:redstone", "2x ae2:silicon"],
         "produceItem": ["4x create:rose_quartz", { item: "techpack:rich_slag", chance: 0.5 }]
     },
+    {
+        "processingTime": 2400,
+        "requireEnergyPerTick": 5,
+        "requireItem": ["#c:dusts/uranium"],
+        "produceItem": ["techpack:hot_uranium_ingot"]
+    },
 ]
     recipes.forEach((recipe) => {
        arcFurnaceFunction(e,recipe)

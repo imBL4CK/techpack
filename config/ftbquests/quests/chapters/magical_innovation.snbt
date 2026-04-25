@@ -1,5 +1,5 @@
 {
-	autofocus_id: "68361AB7488A4928"
+	autofocus_id: "6C0683DEC74220F1"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "magical_innovation"
@@ -9,20 +9,31 @@
 	}
 	id: "13B1AF83D3EFA283"
 	order_index: 3
-	quest_links: [{
-		id: "5F42EEAD4A3FF489"
-		linked_quest: "2E5C04DFB553EF81"
-		x: -1.5d
-		y: 0.0d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["1B8B125979228105"]
 			icon: {
-				id: "techpack:spiritual_circuit"
+				id: "techpack:animated_parts"
 			}
-			icon_scale: 0.8d
 			id: "68361AB7488A4928"
-			shape: "hexagon"
+			rewards: [
+				{
+					count: 4
+					id: "73AA44F1633B1221"
+					item: {
+						count: 1
+						id: "techpack:animated_parts"
+					}
+					type: "item"
+				}
+				{
+					id: "5F330BA48F6FED65"
+					type: "xp"
+					xp: 30
+				}
+			]
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				id: "59E321C52E654C45"
@@ -32,7 +43,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["68361AB7488A4928"]
+			dependencies: ["7D638213198A1B85"]
 			id: "6C0683DEC74220F1"
 			tasks: [{
 				id: "640DA939EF68EE95"
@@ -40,7 +51,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["6C0683DEC74220F1"]
@@ -50,8 +61,8 @@
 				item: { count: 1, id: "malum:repair_pylon" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["68361AB7488A4928"]
@@ -61,11 +72,11 @@
 				item: { count: 1, id: "malum:spirit_jar" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7D638213198A1B85"]
+			dependencies: ["6668BBD8F76FC76E"]
 			icon: {
 				id: "malum:soulbinding_brazier"
 			}
@@ -75,8 +86,8 @@
 				item: { count: 1, id: "malum:soulbinding_brazier" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6C0683DEC74220F1"]
@@ -89,7 +100,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6C0683DEC74220F1"]
@@ -100,27 +111,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 2.0d
-		}
-		{
-			id: "334601163287FAA5"
-			tasks: [{
-				id: "31F5F6553911A94C"
-				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			id: "3DC64198E7C44E85"
-			tasks: [{
-				id: "4E18DA1D2F7F55EF"
-				item: { count: 1, id: "techpack:iris_relic" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
+			y: 3.0d
 		}
 	]
 }

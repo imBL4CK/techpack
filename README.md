@@ -26,4 +26,4 @@ The TechPack is licensed under the MIT license. You can freely use it to create 
 *   Join our community, report bugs, and submit suggestions on our [Discord server](https://discord.gg/KSsHCn3eww).
 *   It is recommended to allocate at least 6GB of RAM.
 *   [Official Document](https://docs.google.com/document/d/1q5kHmf7iZ7Xc6SvXxw16G-M0YuEb3x73u5uvxA15c80/edit?usp=sharing)
-*   [**My Social Media**](https://linktr.ee/bl4ck_)
+*   [My Social Media](https://linktr.ee/bl4ck_)

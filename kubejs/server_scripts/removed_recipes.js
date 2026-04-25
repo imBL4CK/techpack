@@ -303,7 +303,16 @@ ServerEvents.recipes((e) => {
     "enderio:alloy_smelting/photovoltaic_plate",
     "solarhelmet:solar_helmet_module",
     "minecraft:netherite_ingot",
-    "industrialforegoing:laser_drill_ore/raw_materials/uranium"
+    "industrialforegoing:laser_drill_ore/raw_materials/uranium",
+    "power_armor:power_armor_helmet",
+    "power_armor:power_armor_chestplate",
+    "power_armor:power_armor_leggings",
+    "power_armor:power_armor_boots",
+    "power_armor:battery",
+    "malum:spirit_infusion/spellweaving_pickaxe",
+    "malum:spirit_infusion/spellweaving_axe",
+    "malum:spirit_infusion/spirit_crucible",
+    "malum:soulbinding_brazier"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

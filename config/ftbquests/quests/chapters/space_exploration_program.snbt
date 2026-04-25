@@ -75,20 +75,27 @@
 				"7961BA9015DE7075"
 			]
 			id: "4A7DF1FB2DAC43DB"
-			rewards: [{
-				id: "45522AFA27C2D412"
-				item: {
-					components: {
-						"stellaris:fluid": {
-							amounts: [L;10800L]
-							fluids: ["stellaris:oxygen"]
+			rewards: [
+				{
+					id: "45522AFA27C2D412"
+					item: {
+						components: {
+							"stellaris:fluid": {
+								amounts: [L;10800L]
+								fluids: ["stellaris:oxygen"]
+							}
 						}
+						count: 1
+						id: "stellaris:big_oxygen_tank"
 					}
-					count: 1
-					id: "stellaris:big_oxygen_tank"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "5D8CC0BB07C0689B"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				dimension: "stellaris:moon"
 				icon: {
@@ -154,6 +161,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7F60326D17B1085D"]
 			id: "12C2E4875DB9B98A"
 			tasks: [{
 				id: "08B32E22B173A932"

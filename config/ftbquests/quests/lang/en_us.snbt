@@ -1,4 +1,5 @@
 {
+	chapter.0B9D3928E2F04F73.title: "QoL Features"
 	chapter.0D8BD511F4895AA9.title: "Chapter 1 - Rustic Era"
 	chapter.0FB633C3C909E430.title: "Necromancy"
 	chapter.13B1AF83D3EFA283.title: "Magical Innovation"
@@ -36,6 +37,36 @@
 	quest.00370791B3F4498A.quest_desc: ["&9Chests&r and &9barrels&r they are a bit more expensive in this modpack; if you manage to craft them, congratulations, you're one of the TechPack players!"]
 	quest.00370791B3F4498A.quest_subtitle: "&5Craft a Chest or a Barrel"
 	quest.00370791B3F4498A.title: "Vanilla Storage"
+	quest.00E7DBCB639B2833.title: "Path to Late Game"
+	quest.01684DC50632DE61.quest_desc: [
+		"&9Eidolon rituals are very useful&r, capable of spawning mobs, creating items, taking control of mobs, among &dother things&r."
+		""
+		"&d# Necessary items"
+		""
+		"&aThe central point of the rituals&r is the &9Brazier&r, which functions as the &5\"stage of a theater,\"&r where the &emain item for the ritual is placed&r."
+		""
+		"&e-&r The &9Stone Hands&r are the pedestals where &esecondary items are placed&r."
+		""
+		"&e-&r In some rituals, it will be necessary to use a &9Necrotic Focus&r, which &eadds a focal item to the ritual&r"
+		""
+		"&5→&r What is the Focal Item and How Rituals Works"
+		"{@pagebreak}"
+		""
+		"&d# What is the Focal Item?"
+		""
+		"In some cases, especially in rituals involving &dmagic catalysts&r, an extra item is needed, such as a &9Summoning Staff.&r"
+		""
+		"&e-&r Its the item to &ethe right of the main&r item when looking at the recipe via &9JEI/EMI&r"
+		""
+		"&d# How Rituals Works"
+		""
+		"To begin the ritual, &eall items must be in the correct positions&r. After that, using a &9Flint and Steel&r, right-clicking on the brazier will start the ritual."
+		""
+		"&e-&r &9If the conditions are correct&r, a flame will appear&r and the items will be consumed, the &aresult will then appear&r."
+		""
+		"&e-&r &9If something is wrong&r, the flame will go out and &cnothing will be consumed&r."
+	]
+	quest.01684DC50632DE61.quest_subtitle: "&5The Rituals of the Eidolon"
 	quest.01684DC50632DE61.title: "Eidolon Rituals "
 	quest.039AD7F88A0159CD.quest_desc: [
 		"&dRedstone coils&r redirect energy as it passes through their winding."
@@ -137,6 +168,27 @@
 	]
 	quest.0F914F8C5666E10B.quest_subtitle: "&5Welcome to Chapter 2"
 	quest.0F914F8C5666E10B.title: "Electrical Machinery"
+	quest.1153F30F21CC20AC.quest_desc: [
+		"&9Glutton is a small friend&r from the other side of the void who &cconsumes food&r and generates &afood-related spirits&r."
+		""
+		"&d# How it Works"
+		""
+		"&e-&r Can input items on the front"
+		""
+		"&e-&r Can output items on the bottom"
+		""
+		"&5→&r Lore: The Hungry Guy"
+		"{@pagebreak}"
+		"&d# Lore: The Hungry Guy"
+		""
+		"&aIt mysteriously comes to life&r when an organic component is dropped in the &zWeeping Well&r."
+		""
+		"Perhaps he belongs to a &especies that lives on the other side&r."
+		""
+		"It's interesting that sometimes he generates &9Lustrous Pearls&r. I don't know what it is yet, but &cI think it's important&r."
+	]
+	quest.1153F30F21CC20AC.quest_subtitle: "&5Get an Glutton"
+	quest.1153F30F21CC20AC.title: "The Hungry Guy"
 	quest.11927E2D181B985E.quest_subtitle: "&5Get a Clibano Oven"
 	quest.11927E2D181B985E.title: "The Clibano Oven"
 	quest.12D8383ABF9B4FC0.quest_desc: [
@@ -280,6 +332,15 @@
 	]
 	quest.1A3A54924B73AC16.quest_subtitle: "&5Welcome to TechPack!"
 	quest.1A3A54924B73AC16.title: "The TechPack"
+	quest.1B8B125979228105.quest_desc: [
+		"At a certain point in your journey, the &ztechnological world will unite with the magical.&r"
+		""
+		"&dThis happens because your reality is unstable&r, so fundamentals from other &crealities have merged with your world&r."
+		""
+		"Interacting with magical mechanisms &acan be very fun and useful&r."
+	]
+	quest.1B8B125979228105.quest_subtitle: "&5Unlock The Magic Path"
+	quest.1B8B125979228105.title: "World of a Thaumaturge"
 	quest.1CF3499992DEAC9D.quest_desc: [
 		"Organic compost is an accumulation of various residues used to make &9Rich Soil&r."
 		""
@@ -297,17 +358,6 @@
 	]
 	quest.1CF3499992DEAC9D.quest_subtitle: "&5Get Organic Compost"
 	quest.1CF3499992DEAC9D.title: "Reusing Compounds"
-	quest.237194A5F3216ABE.quest_desc: [
-		"Your knowledge of the arcane world is still very limited; seek out a &zWeeping Well&r to delve into the study of the Void."
-		""
-		"Throw your &9Arcane Encyclopedia&r into the well, then dive in. Your life will be consumed, but in return, your perspective on &dreality&r will change."
-		""
-		"&d# Tip&r"
-		""
-		"&e-&r The new recipes from the Malum mod probably won't load, so just &alog back&r into your map."
-	]
-	quest.237194A5F3216ABE.quest_subtitle: "&5 Find a Weeping Well"
-	quest.237194A5F3216ABE.title: "Among the depths"
 	quest.249468D2EF78C781.quest_desc: [
 		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
@@ -397,22 +447,22 @@
 	]
 	quest.281FDAC6E901BD9E.quest_subtitle: "&5Build a rustic oven"
 	quest.281FDAC6E901BD9E.title: "Its a Furnace?"
-	quest.2878606D4273FB1C.quest_desc: [
-		"&9Glutton&r is a small friend from the other side of the void who &cconsumes food&r and generates &afood-related spirits&r."
+	quest.2878382BDDB9DE0E.quest_desc: [
+		"&eA mysterious dark gem&r shrouded in secrecy, born from a sudden &calchemical accident.&r"
 		""
-		"&e-&r Can input items on the front"
-		"&e-&r Can output items on the bottom"
+		"When falling into the &dWeeping Well&r, there is a chance this item will surface. "
 		""
-		"&5>&r Lore: The Hungry Guy"
+		"While common mobs &4simply vanish into the liquid&r, sapient beings are &9rejected and spat back out.&r"
+		""
+		"&5→&r Hypotheses"
 		"{@pagebreak}"
-		"&9Lore: The Hungry Guy&r"
+		"&eThe crystal may emerge&r alongside a player. "
 		""
-		"It mysteriously comes to life when an &eorganic component&r is dropped in the &zWeeping Well&r. Perhaps he belongs to a species that lives on the other side."
+		"&e-&r Leading to the &9widely accepted hypothesis&r that it is the result of a soul fragmented by the &dimpact with the Well&r."
 		""
-		"It's interesting that sometimes he generates &9Lustrous Pearls&r. I don't know what it is yet, but I think it's important."
+		"&e-&r The greatest fear is that this crystal is a &zpiece of one's own conscious essence&r, potentially representing a &4ninth arcana yet unknown to the world&r."
 	]
-	quest.2878606D4273FB1C.quest_subtitle: "&5Get an Glutton"
-	quest.2878606D4273FB1C.title: "The Hungry Guy"
+	quest.2878382BDDB9DE0E.quest_subtitle: "&5Jump into Weeping Well"
 	quest.29EEA4229CD05317.quest_desc: [
 		"The &9Makeshift Mechanism&r is nothing more than a basic mechanical circuit that makes up the &econtraption parts of the create&r."
 		""
@@ -426,6 +476,13 @@
 	]
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
+	quest.2E3119B4776760D3.quest_desc: [
+		"Some items can be duplicated in the &9Crucible using alchemical calx&r and a &espirit related to the mob&r."
+		""
+		"&aThis can be helpful&r if you are short of any of these items in your storage."
+	]
+	quest.2E3119B4776760D3.quest_subtitle: "&5About Mob Drop Duplication"
+	quest.2E3119B4776760D3.title: "Duplicating Organic Drops"
 	quest.2E5A55ECEC89EE28.title: "Machines, Assembler²"
 	quest.2E5C04DFB553EF81.quest_desc: [
 		"&9Flint and Soul&r is a tool with strange properties, it has the ability to &zrevive certain mobs&r when it interacts with the &4remains of their bodies&r."
@@ -436,6 +493,17 @@
 	]
 	quest.2E5C04DFB553EF81.quest_subtitle: "&5Craft a Flint and Soul"
 	quest.2E5C04DFB553EF81.title: "Edo Tensei"
+	quest.2F59C6052DDC876B.quest_desc: [
+		"&cYour knowledge of the arcane world is still very limited&r. "
+		""
+		"Find a &zWeeping Well to delve into the study of the Void&r."
+		""
+		"Throw your &9Arcane Encyclopedia&r into the well, then dive in. Your life will be consumed, but in return, &dyour perspective on reality will change&r."
+		""
+		"&e-&r The new recipes from the Malum mod &4probably won't load&r, so just &alog back into your map&r."
+	]
+	quest.2F59C6052DDC876B.quest_subtitle: "&5Find a Weeping Well"
+	quest.2F59C6052DDC876B.title: "Among the depths"
 	quest.2F9B50A24683B55D.quest_desc: [
 		"&zThe ME Controller is a Hub of your logical network system&r. It is the &dmost important structure&r in any system. "
 		""
@@ -445,6 +513,27 @@
 		"&e-&r If you need more information about, open the &9ME Guide&r to see more."
 	]
 	quest.2F9B50A24683B55D.quest_subtitle: "&5Craft a ME Controller"
+	quest.30979A86A7F8434C.quest_desc: [
+		"&dA powerful magical relic&r that allows you to &ztake control of mobs&r."
+		""
+		"&eWhen a mob is subjugated, it becomes a loyal ally&r. It will automatically attack any &ccreature the wielder targets&r, as well as any &amob that dares to attack the wielder&r."
+		""
+		"&5→&r How to Obtain and How to Control Mobs"
+		"{@pagebreak}"
+		"&d# How to Obtain"
+		""
+		"The staff can be looted by &cdefeating a Necromancer&r, a Ilager variant found during raids. - &ethat the drop rate is not guaranteed&r."
+		""
+		"&d# How to Control Mobs"
+		""
+		"To bind a mob to the staff, you must perform the &aCapturing Rite (Eidolon)&r at a &9Brazier&r. "
+		""
+		"&e-&r Ensure the target mob is positioned &9near the Brazier when the ritual begins.&r"
+		""
+		"&e-&r For further details, consult the entry for this rite within the &9Ars Ecclesia.&r"
+	]
+	quest.30979A86A7F8434C.quest_subtitle: "&5Get a Summoning Staff"
+	quest.30979A86A7F8434C.title: "Under My Control"
 	quest.3099B9CF5A6DABBF.quest_desc: [
 		"While exploring the overworld, you can find &emeteorites&r with &9advanced technologies&r."
 		""
@@ -452,6 +541,8 @@
 	]
 	quest.3099B9CF5A6DABBF.quest_subtitle: "&5Craft a Meteorite Compass"
 	quest.3099B9CF5A6DABBF.title: "Finding Meteorites"
+	quest.3173942E6EEFE774.quest_subtitle: "&5Build a Thermal Evaporation Tower"
+	quest.3173942E6EEFE774.title: "The Large Orange Tower"
 	quest.34B0C2176A78341B.quest_desc: ["A strange, &9solid iron component&r used for crafting &zarcane items&r, but which seems very suitable for use in &amulti-block machines&r."]
 	quest.34B0C2176A78341B.quest_subtitle: "&5Craft a Anomalous Design"
 	quest.34B0C2176A78341B.title: "DaVinci's like artifact"
@@ -521,6 +612,7 @@
 	quest.38DF092C5768AB6C.title: "Animal Care"
 	quest.3B9E5A89B2ED5C71.quest_desc: ["&9Electron tubes control the flow of energy&r, These are precise and considerably &aexpensive materials&r."]
 	quest.3B9E5A89B2ED5C71.quest_subtitle: "&5Craft Electron Tube"
+	quest.3C8214476DF01296.title: "Nano Suit"
 	quest.3CA9B342DD7898D5.quest_desc: [
 		"&9Strange Crystals&r are an important material to make better &eelectron tubes&r. Strange crystal can be generated by &afertilizing blighted dirt&r."
 		""
@@ -566,6 +658,22 @@
 	]
 	quest.3EA0672425F7A37F.quest_subtitle: "&5Make a Pink Slime Farm"
 	quest.3EA0672425F7A37F.title: "Farming Pink Slimes"
+	quest.45498BBB06221F20.quest_desc: [
+		"Do you wish to discover a &cdangerous&r, yet &apowerful&r path?"
+		""
+		"Study the &etorn pages of human history&r."
+	]
+	quest.45498BBB06221F20.quest_subtitle: "&5Get involved in the craziness of this world."
+	quest.45498BBB06221F20.title: "Dangerous Path"
+	quest.456483F245D53C22.quest_desc: [
+		"&9Alchemy is an ancient and mystical practice&r that unites science, art, and spirituality, seeking the &etransmutation of materials&r."
+		""
+		"Alchemy is more complex than &dsimply transforming materials into gold&r."
+		""
+		"&eIf you dedicate yourself&r, you can break through the barriers of &zwhat you believe is possible&r."
+	]
+	quest.456483F245D53C22.quest_subtitle: "&5Welcome to Alchemy"
+	quest.456483F245D53C22.title: "The Matter is Equivalent"
 	quest.45A37C53986F22D5.quest_desc: [
 		"Combustion engines are a very efficient means of generating significant amounts of energy; however, the problem lies in fuel production."
 		""
@@ -603,6 +711,12 @@
 	]
 	quest.46ECDD632284CEF0.quest_subtitle: "&5Setup an Stock System"
 	quest.46ECDD632284CEF0.title: "Item Management System"
+	quest.48B631EFC46D2785.quest_desc: [
+		"&dA \"deleted\" chapter&r, beacause contains quests related to items involving &znecromancy or occult magic&r."
+		""
+		"Most of these &5mechanics are considered forbidden&r because they involve &edeath or deal with sensitive matters&r that could &4affect the world as a whole&r."
+	]
+	quest.48B631EFC46D2785.quest_subtitle: "&5The Dark Side of the Force"
 	quest.48B631EFC46D2785.title: "Forbidden Knowlodge"
 	quest.4A7DF1FB2DAC43DB.quest_desc: [
 		"&zReaching the moon has been one of humanity's goals since we learned to make fire&r. "
@@ -648,6 +762,24 @@
 	]
 	quest.4C9158FCCC463F40.quest_subtitle: "&5Craft a Tesseract"
 	quest.4C9158FCCC463F40.title: "Teleporting Resources"
+	quest.4D75A138430C9516.quest_desc: [
+		"One of the pillars for advancing &9Magical Innovation&r is the&e Mimicry Relay&r."
+		""
+		"They play the role of &dincreasing a spirit's power&r, &alike a redstone repeater&r."
+		""
+		"&eCreating advanced mechanics&r without them is almost like &ctrying to use machines without electricity or steam&r."
+	]
+	quest.4D75A138430C9516.quest_subtitle: "&5Craft Mimicry Relays"
+	quest.4D75A138430C9516.title: "Spiritual Repeater"
+	quest.4DCA6963CD6C9B45.quest_desc: [
+		"It can be a bit inconvenient having to walk around with a &ctorch or lantern in your hand&r, &dso you can equip the lantern to your player&r."
+		""
+		"The &alight follows you&r without needing to be in your hands."
+		""
+		"&e-&r To equip, simply&9 press V&r to open the radial menu, and click on the &e\"toggle belt lantern\"&r option."
+	]
+	quest.4DCA6963CD6C9B45.quest_subtitle: "&5Equip a Lantern"
+	quest.4DCA6963CD6C9B45.title: "Mobile Lighting"
 	quest.4E5EA95D9ACC2973.quest_desc: [
 		"To &aobtain straw&r, you must first craft the &5special tool&r required for this quest."
 		""
@@ -759,6 +891,7 @@
 		"- &aChapter 2 completed&r! Prepare your resources, because the &cspace program&r has begun!"
 	]
 	quest.55D4F942D097AFE9.quest_subtitle: "&5Craft a Finished PCB&r"
+	quest.55D4F942D097AFE9.title: "Let the Digital Age Begin!"
 	quest.56D1B7B34B0DECFC.quest_desc: [
 		"The &9Bio-Burning Generator&r generates energy using &5Biofuel fluid&r."
 		""
@@ -772,6 +905,14 @@
 	]
 	quest.56D1B7B34B0DECFC.quest_subtitle: "&5Craft a Bio-Burning Generator"
 	quest.56D1B7B34B0DECFC.title: "Powered by Crops"
+	quest.58535926C5D34E59.quest_desc: [
+		"&dArcane gold is a very important material for alchemy&r, and in many cases it can be &econfused with Hallowed Gold&r."
+		""
+		"&e-&r Its main difference is that &9Hallowed Gold&r conducts &dmagic related to spirits better&r."
+		""
+		"&e-&r &9Arcane gold&r, in turn, has &abetter mana conduction capabilities&r, which makes it indispensable for devices."
+	]
+	quest.58535926C5D34E59.quest_subtitle: "&5Craft Arcane Gold"
 	quest.591CDC829FF9FC28.quest_desc: [
 		"&9Atomic Reconstruction&r periodically fires a laser beam that &etransforms resources&r."
 		""
@@ -808,6 +949,7 @@
 	]
 	quest.5CD88DC12A6DE7FD.quest_subtitle: "&5Craft Your First Set of Steam Machines"
 	quest.5CD88DC12A6DE7FD.title: "Steam Power"
+	quest.5DFC978053E54990.title: "Jet Suit"
 	quest.5FB97C7AD100E989.quest_desc: ["&dA simple transmission assembly&r that serves as the basis for the construction of &eprimitive steam machines&r."]
 	quest.5FB97C7AD100E989.quest_subtitle: "&5Craft a Bronze Machine Casing"
 	quest.5FB97C7AD100E989.title: "Steam Power"
@@ -842,7 +984,6 @@
 	quest.61269CD93AF58105.title: "The Factory Must Grow"
 	quest.641436DAB4BEAE18.quest_subtitle: "&5Get a Spirit Altar"
 	quest.641436DAB4BEAE18.title: "Spirit Infusion"
-	quest.64B1962EEDBD305E.title: "Find a Weeping Well"
 	quest.659E7809B3C26998.quest_desc: [
 		"A multi-block that &eprocesses coal&r more &9efficiently&r."
 		""
@@ -892,6 +1033,13 @@
 	]
 	quest.65F7EB4863FD3FDD.quest_subtitle: "&5Make a windmill generator"
 	quest.65F7EB4863FD3FDD.title: "Friend of the Winds"
+	quest.68361AB7488A4928.quest_desc: [
+		"&eAs mentioned before&r, at certain points the tech path will merge with the magical one, and this &9chapter serves precisely that purpose&r."
+		""
+		"&dIn this chapter&r, you will see details about workstations and magical machinery that &autilize tech principles&r."
+	]
+	quest.68361AB7488A4928.quest_subtitle: "&5Welcome to Magical Innovation"
+	quest.68361AB7488A4928.title: "Become a Magical Engineering"
 	quest.689A412F4D529E43.quest_subtitle: "&5Welcome to the Madness"
 	quest.689A412F4D529E43.title: "Ancient knowledge"
 	quest.69CDC1ABCED6AD47.quest_desc: [
@@ -905,6 +1053,7 @@
 	quest.6A3DD1774BC7481F.quest_subtitle: "&5Craft an Andesite Alloy"
 	quest.6A3DD1774BC7481F.title: "Alloying Andesite"
 	quest.6C23D4D6D2CC0776.quest_subtitle: "&5Welcome to Chapter 3"
+	quest.6C23D4D6D2CC0776.title: "Advanced Age"
 	quest.6CB6CC7509BD29F1.quest_desc: [
 		"&cSulfur is important in rubber manufacturing&r. It's a widely used component in techpacks and can be easily obtained:"
 		""
@@ -917,6 +1066,7 @@
 	quest.6CB6CC7509BD29F1.title: "Getting Sulfur"
 	quest.6D124E989E9EDE6B.title: "Smart Connections"
 	quest.6D89226FAC5DB309.title: "Important Items"
+	quest.71D32C233DFE792A.title: "Age of Great Technologies"
 	quest.7218229E14CE6FB3.quest_desc: [
 		"Making rubber is a bit tedious and time-consuming, but with the Fluid Extractor, you can save yourself the headache and time."
 		""
@@ -943,6 +1093,7 @@
 	]
 	quest.7218229E14CE6FB3.quest_subtitle: "&5Get a Fluid Extractor and Latex Processing Unit"
 	quest.7218229E14CE6FB3.title: "Rubber Factory"
+	quest.751A22EA3B470B4D.title: "Digital Mob Farm"
 	quest.785CF666F705A22B.quest_desc: [
 		"&9Steam engines&r generate high amounts of SU. Their power depends on three interconnected factors:"
 		""
@@ -969,6 +1120,14 @@
 	quest.7B8E25DCCC07E764.quest_subtitle: "&5Make a Cleanroom"
 	quest.7B8E25DCCC07E764.title: "The Cleanroom"
 	quest.7C80749170E1897E.title: "Farming"
+	quest.7E149CDFA2486CAE.quest_desc: [
+		"A weapon imbued with a &zmysterious Umbral energy&r, it possesses the uncanny &9ability to reap the heads of mobs&r, including the &3warden&r."
+		""
+		"It also applies &dVulnerability I&r to the &atarget of the attack&r. "
+		""
+		"&e- Vulnerability Effect&r: reduces the target's armor points by &c25% per level&r."
+	]
+	quest.7E149CDFA2486CAE.quest_subtitle: "&5Craft a Suffering Ending"
 	quest.7E8F71BE09B67753.quest_desc: [
 		"One of the &emost important multiblocks&r, it allows for the creation of &9alloys&r in a cheaper and faster way."
 		""
@@ -1035,18 +1194,22 @@
 	quest.7F7BC1DCAFD51ED7.quest_subtitle: "&5Craft your Firts Machines"
 	quest.7F7BC1DCAFD51ED7.title: "Basic Tier Machines"
 	reward_table.739ECE8CF1AD3289.title: "flint_and_soul"
+	task.01C162465B02304C.title: "Any #modular_machinery_reborn:energyinputhatch"
 	task.04B71C52385CF1E5.title: "Done"
 	task.05EE7A5F1B5AECAD.title: "Done"
 	task.092128560AD7A663.title: "Done"
 	task.0CAA99F0F153531E.title: "Done"
+	task.0EC222BA4FE6BCF0.title: "Done"
 	task.106861A1B1251E39.title: "Done"
 	task.1A353F5ED5BE4FEC.title: "Done"
 	task.24BB2EB83DD040D8.title: "Done"
-	task.24BDA7E5DE624F19.title: "Done"
 	task.24E292689073998A.title: "Done"
+	task.26B6D53304ED0A54.title: "Done"
 	task.2C84467B424AD0CC.title: "Done"
 	task.2CEF1E067E37068E.title: "A Small Step For the Player..."
 	task.2DD606F67DC05528.title: "Done"
+	task.2F686B58A7156201.title: "Done"
+	task.3376EB8825E22FB3.title: "Done"
 	task.34771B4B5B8027A0.title: "Done"
 	task.3A1900B02D223AF6.title: "Done"
 	task.3ABE5565C7DD98BF.title: "Done"
@@ -1057,10 +1220,14 @@
 	task.5408736E7EFFD14D.title: "Done"
 	task.57804835506CADEF.title: "Done"
 	task.59E321C52E654C45.title: "Done"
+	task.5FDA54BBFF2D4462.title: "Any #modular_machinery_reborn:fluidinputhatch"
+	task.63BADE7974903F2D.title: "Any #modular_machinery_reborn:fluidoutputhatch"
 	task.66E900774CCBB6B9.title: "Moon Resources"
 	task.692A3B59A895E673.title: "Done"
 	task.7087400AAAB692F5.title: "Done"
 	task.70A2723EF2CCE0DF.title: "Done"
 	task.70F521F330F16058.title: "Done"
+	task.716F16B01DED9B06.title: "Done"
 	task.7AB332E7354B2624.title: "Done"
+	task.7F4DB491D563F076.title: "Done"
 }
