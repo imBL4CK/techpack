@@ -5,7 +5,13 @@
     }
   },
   "appearance": {
-    "custommachinery:block": "techpack:machines/mimicry_dynamo#standalone"
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:entity.minecart.riding"
+      }
+    },
+    "custommachinery:block": "techpack:machines/mimicry_dynamo#standalone",
+    "custommachinery:keep_inventory": true
   },
   "components": [
     {
@@ -121,8 +127,8 @@
       }
     },
     {
-      "type": "custommachinery:fluid",
-      "id": "fluid_tank",
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
       "texture": {
         "texture": "techpack:textures/gui/machines/fluid_slot.png"
       },

@@ -5,7 +5,13 @@
     }
   },
   "appearance": {
-    "custommachinery:block": "techpack:machines/animated_mechanical_motor#standalone"
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:entity.minecart.riding"
+      }
+    },
+    "custommachinery:block": "techpack:machines/animated_mechanical_motor#standalone",
+    "custommachinery:keep_inventory": true
   },
   "components": [
     {
@@ -74,6 +80,28 @@
         "text": {
           "translate": "block.techpack.generators.animated_mechanical_motor"
         }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
       }
     }
   ]

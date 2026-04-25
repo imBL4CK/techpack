@@ -203,14 +203,7 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "A weapon imbued with mysterious Umbral energy, it possesses the uncanny ability to reap the heads of mobs, including the warden.",
     },
     {
-      item: [
-        "minecraft:wither_skeleton_skull",
-        "minecraft:skeleton_skull",
-        "minecraft:zombie_head",
-        "minecraft:piglin_head",
-        "minecraft:creeper_head",
-        "techpack:warden_totem"
-      ],
+      item: ["minecraft:wither_skeleton_skull","minecraft:skeleton_skull","minecraft:zombie_head","minecraft:piglin_head", "minecraft:creeper_head", "techpack:warden_totem"],
       info: "It can be obtained by killing the skull-related mob using a Suffering Ending.",
     },
     {
@@ -233,6 +226,14 @@ RecipeViewerEvents.addInformation("item", (e) => {
       item: "malum:mimicry_relay",
       info: "It absorbs the properties of a spirit and increases its power momentarily, like a redstone repeater.",
     },
+    {
+      item: "malum:animated_mechanical_motor",
+      info: "A brilliant contraption capable of conducting spiritual energy and transforming it into kinetic energy. The process occurs when mimicry relays enhance the spiritual energy, causing the animated parts to rotate the axis.",
+    },
+    {
+      item: "malum:mimicry_dynamo",
+      info: "A variation of dynamos that converts spiritual energy into redstone flux. Its operation is similar to an Animated Mechanical Motor, but with the addition of a redstone transmission coil.",
+    }
   ];
   information.forEach((jei) => {
     e.add(jei.item, [jei.info]);
