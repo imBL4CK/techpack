@@ -104,6 +104,7 @@ StartupEvents.registry("item", (e) => {
     "incomplete_makeshift_mechanism",
     "incomplete_electron_tube",
     "incomplete_steam_engine",
+    "incomplete_animated_parts"
   ];
   
   e.create("techpack:stellar_capacitor","enderio:capacitor").displayName("Stellar Capacitor").rarity("epic").baseValue(5)

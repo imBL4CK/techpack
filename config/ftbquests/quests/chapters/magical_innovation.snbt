@@ -123,8 +123,8 @@
 				item: { count: 1, id: "techpack:animated_mechanical_motor" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			id: "7C3978F95F040B1F"
@@ -133,8 +133,8 @@
 				item: { count: 1, id: "techpack:mimicry_dynamo" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 }

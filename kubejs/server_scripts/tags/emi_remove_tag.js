@@ -20,6 +20,7 @@ ServerEvents.tags("item", (e) => {
         "techpack:incomplete_makeshift_mechanism",
         "techpack:incomplete_electron_tube",
         "techpack:incomplete_steam_engine",
+        "techpack:incomplete_animated_parts"
       ],
     },
   ];

@@ -1,0 +1,46 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "malum:hallowed_gold_ingot"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "item": { "id": "techpack:animated_parts" }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "malum:hallowed_gold_ingot"
+        }
+      ],
+      "results": [
+        {
+          "id": "malum:hallowed_gold_ingot"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "malum:hallowed_gold_ingot"
+        },
+        {
+          "item": "malum:soul_stained_steel_nugget"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "malum:hallowed_gold_ingot" }
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": { "id": "techpack:incomplete_animated_parts" }
+  }
+}

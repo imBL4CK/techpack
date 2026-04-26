@@ -259,13 +259,14 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["15ED0195EF216414"]
 			id: "2BA4E7E30A17FE2F"
 			tasks: [{
 				id: "4F6EDF3785B5B13E"
 				item: { count: 1, id: "techpack:cryo_dynamo" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 5.0d
 			y: 3.5d
 		}
 	]
