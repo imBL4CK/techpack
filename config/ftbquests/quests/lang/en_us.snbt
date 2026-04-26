@@ -117,6 +117,8 @@
 	quest.07FBD1E23915AF6B.quest_subtitle: "&5Build a Refinery"
 	quest.0A8E9A4C0CB8B2F9.title: "Generating Energy"
 	quest.0C8E07CBA287F6A2.title: "Better Fertilizing"
+	quest.0D3FCD8FB7B1076C.quest_subtitle: "&5Craft a Kiln"
+	quest.0D3FCD8FB7B1076C.title: "Alchemical Furnace"
 	quest.0DBE6BF4CFAF1A3B.quest_desc: [
 		"It may sound repetitive to emphasize the importance of organizing your items, but it’s still &9essential.&r"
 		""
@@ -1065,6 +1067,8 @@
 	quest.6CB6CC7509BD29F1.quest_subtitle: "&5How I can get sulfur?"
 	quest.6CB6CC7509BD29F1.title: "Getting Sulfur"
 	quest.6D124E989E9EDE6B.title: "Smart Connections"
+	quest.6D18BC8E8DCCD9DD.quest_subtitle: "&5Craft Basic Malum Ingots"
+	quest.6D18BC8E8DCCD9DD.title: "Transforming Metals"
 	quest.6D89226FAC5DB309.title: "Important Items"
 	quest.71D32C233DFE792A.title: "Age of Great Technologies"
 	quest.7218229E14CE6FB3.quest_desc: [

@@ -133,8 +133,8 @@
 				item: { count: 1, id: "malum:runewood_obelisk" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1C85EB0005A68FB4"]
@@ -144,8 +144,8 @@
 				item: { count: 1, id: "malum:brilliant_obelisk" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			id: "3DF515DC4F37E8B4"
@@ -237,6 +237,27 @@
 			}]
 			x: -1.5d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			icon: {
+				id: "malum:soul_stained_steel_ingot"
+			}
+			id: "6D18BC8E8DCCD9DD"
+			tasks: [
+				{
+					id: "6BCE714444D4CE27"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "3AC416F8F4779A87"
+					item: { count: 1, id: "malum:hallowed_gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 }

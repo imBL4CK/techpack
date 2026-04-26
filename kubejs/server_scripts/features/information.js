@@ -227,11 +227,11 @@ RecipeViewerEvents.addInformation("item", (e) => {
       info: "It absorbs the properties of a spirit and increases its power momentarily, like a redstone repeater.",
     },
     {
-      item: "malum:animated_mechanical_motor",
+      item: "techpack:animated_mechanical_motor",
       info: "A brilliant contraption capable of conducting spiritual energy and transforming it into kinetic energy. The process occurs when mimicry relays enhance the spiritual energy, causing the animated parts to rotate the axis.",
     },
     {
-      item: "malum:mimicry_dynamo",
+      item: "techpack:mimicry_dynamo",
       info: "A variation of dynamos that converts spiritual energy into redstone flux. Its operation is similar to an Animated Mechanical Motor, but with the addition of a redstone transmission coil.",
     }
   ];

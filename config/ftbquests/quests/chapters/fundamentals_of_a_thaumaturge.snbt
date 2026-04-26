@@ -19,14 +19,14 @@
 		{
 			id: "126B30B39333B26C"
 			linked_quest: "6C94484DF36590E0"
-			x: 1.5d
-			y: -2.0d
+			x: 0.0d
+			y: -0.5d
 		}
 		{
 			id: "5BE8441EF2A17AF9"
 			linked_quest: "68361AB7488A4928"
-			x: 0.0d
-			y: -3.5d
+			x: 1.5d
+			y: -2.0d
 		}
 	]
 	quests: [
@@ -81,7 +81,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -0.5d
+			y: -3.5d
 		}
 	]
 }

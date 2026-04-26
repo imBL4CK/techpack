@@ -49,13 +49,13 @@
     {
       "type": "custommachinery:progress",
       "orientation": "TOP",
-      "x": 7,
-      "y": 17,
+      "x": 10,
+      "y": 27,
       "texture_empty": {
-        "texture": "techpack:textures/gui/machines/tank.png"
+        "texture": "techpack:textures/gui/machines/empty_bubble_progress_bar.png"
       },
       "texture_filled": {
-        "texture": "techpack:textures/gui/machines/vertical_filled_progress_bar.png"
+        "texture": "techpack:textures/gui/machines/filled_bubble_progress_bar.png"
       }
     },
     {
@@ -85,15 +85,6 @@
   ],
   "jei": [
     {
-      "type": "custommachinery:slot",
-      "id": "spirit_input_slot",
-      "texture": {
-        "texture": "techpack:textures/gui/machines/fluid_slot.png"
-      },
-      "x": 56,
-      "y": 23
-    },
-    {
       "type": "custommachinery:progress",
       "x": 77,
       "y": 24,
@@ -103,6 +94,15 @@
       "texture_filled": {
         "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
       }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
     }
   ]
 }

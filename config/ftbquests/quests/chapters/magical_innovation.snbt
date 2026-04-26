@@ -12,7 +12,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1B8B125979228105"]
+			dependencies: [
+				"1B8B125979228105"
+				"6D18BC8E8DCCD9DD"
+			]
 			icon: {
 				id: "techpack:animated_parts"
 			}
@@ -112,6 +115,26 @@
 			}]
 			x: 1.5d
 			y: 3.0d
+		}
+		{
+			id: "6AAC34DD92895126"
+			tasks: [{
+				id: "3E5B171877EC3A26"
+				item: { count: 1, id: "techpack:animated_mechanical_motor" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			id: "7C3978F95F040B1F"
+			tasks: [{
+				id: "482FBAB1BDEC4482"
+				item: { count: 1, id: "techpack:mimicry_dynamo" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
 		}
 	]
 }

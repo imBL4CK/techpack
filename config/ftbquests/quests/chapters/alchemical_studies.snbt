@@ -11,7 +11,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1B8B125979228105"]
+			dependencies: [
+				"1B8B125979228105"
+				"0D3FCD8FB7B1076C"
+			]
 			icon: {
 				id: "eidolon_repraised:crucible"
 			}
