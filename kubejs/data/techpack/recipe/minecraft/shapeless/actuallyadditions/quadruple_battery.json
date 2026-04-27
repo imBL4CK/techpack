@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "actuallyadditions:triple_battery"
+    },
+    {
+      "item": "actuallyadditions:triple_battery"
+    },
+    {
+      "item": "create_new_age:overcharged_diamond" 
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:quadruple_battery"
+  }
+}

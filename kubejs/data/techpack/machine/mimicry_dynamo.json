@@ -32,6 +32,14 @@
     },
     {
       "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "NONE",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
       "id": "spirit_input_slot",
       "mode": "input"
     },
@@ -146,6 +154,18 @@
       },
       "x": 56,
       "y": 23
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Energy storage: 64.000 RF"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Energy I/O: 16.000 RF/t"
+      }
     }
   ]
 }

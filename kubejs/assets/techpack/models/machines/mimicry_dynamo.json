@@ -2,7 +2,8 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "techpack:block/machines/mimicry_dynamo"
+		"0": "techpack:block/machines/mimicry_dynamo",
+		"particle": "techpack:block/machines/mimicry_dynamo"
 	},
 	"elements": [
 		{

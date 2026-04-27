@@ -1,6 +1,19 @@
 ClientEvents.lang("en_us", (event) => {
   event.add("curios.modifiers.feet", "When wearing shoes");
 
+  event.renameItem("techpack:purified_aluminum_dust", "Purified Bauxite Dust");
+  event.renameItem("techpack:raw_aluminum", "Raw Bauxite");
+  event.renameItem("techpack:aluminum_ore", "Bauxite Ore");
+  event.renameItem("techpack:deepslate_aluminum_ore", "Deepslate Bauxite Ore");
+  event.renameItem("techpack:lead_ore", "Galena Ore");
+  event.renameItem("techpack:deepslate_lead_ore", "Deepslate Galena Ore");
+  event.renameItem("techpack:chromium_ore", "Chromite Ore");
+  event.renameItem("techpack:deepslate_chromium_ore", "Deepslate Chromite Ore");
+  event.renameItem("techpack:smd_capacitor", "SMD Capacitor");
+  event.renameItem("techpack:smd_transistor", "SMD Transistor");
+  event.renameItem("techpack:smd_resistor", "SMD Resistor");
+  event.renameItem("techpack:smd_diode", "SMD Diode");
+  event.renameItem("techpack:micro_computer", "Micro-Computer");
   event.renameItem("pipez:energy_pipe", "Redstone-Flux Cable");
   event.renameItem("pipez:fluid_pipe", "Bronze Fluid Pipe");
   event.renameItem("pipez:item_pipe", "Logistical Tube");
@@ -20,22 +33,6 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("power_armor:power_armor_boots", "Nano Suit Boots");
   event.renameItem("power_armor:armor_modification_table", "Nano Suit Modification Table");
   event.renameItem("power_armor:battery", "Lithium Battery Cell");
-  
-  event.renameItem("techpack:smd_capacitor", "SMD Capacitor");
-  event.renameItem("techpack:smd_transistor", "SMD Transistor");
-  event.renameItem("techpack:smd_resistor", "SMD Resistor");
-  event.renameItem("techpack:smd_diode", "SMD Diode");
-  event.renameItem("techpack:micro_computer", "Micro-Computer");
-
-  event.renameItem("techpack:purified_aluminum_dust", "Purified Bauxite Dust");
-  event.renameItem("techpack:raw_aluminum", "Raw Bauxite");
-  event.renameItem("techpack:aluminum_ore", "Bauxite Ore");
-  event.renameItem("techpack:deepslate_aluminum_ore", "Deepslate Bauxite Ore");
-  event.renameItem("techpack:lead_ore", "Galena Ore");
-  event.renameItem("techpack:deepslate_lead_ore", "Deepslate Galena Ore");
-  event.renameItem("techpack:chromium_ore", "Chromite Ore");
-  event.renameItem("techpack:deepslate_chromium_ore", "Deepslate Chromite Ore");
-
   event.renameItem("stellaris:raw_desh_ingot", "Raw Desh");
   event.renameItem("stellaris:fluid_cell", "Portable Fluid Capsule");
   event.renameItem("stellaris:oxygen_tank", "Small Oxygen Tank");
@@ -43,4 +40,9 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("stellaris:big_green_can", "Big Tin Can");
   event.renameItem("stellaris:vacuumator", "Canning Machine");
   event.renameItem("stellaris:tablet", "Stellar Terminal");
+  event.renameItem("actuallyadditions:single_battery", "Single Zinc Rechargeable Cell");
+  event.renameItem("actuallyadditions:double_battery", "Double Zinc Rechargeable Cell");
+  event.renameItem("actuallyadditions:triple_battery", "Single Lead Rechargeable Cell");
+  event.renameItem("actuallyadditions:quadruple_battery", "Double Lead Rechargeable Cell");
+  event.renameItem("actuallyadditions:quintuple_battery", "Single Silver Rechargeable Cell");
 });

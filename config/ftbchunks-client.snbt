@@ -138,43 +138,43 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"minecraft:cod": false
-			"minecraft:wolf": true
-			"minecraft:husk": true
-			"nomansland:goose": true
-			"eidolon_repraised:slimy_slug": true
-			"primal:bear": true
-			"minecraft:horse": true
-			"minecraft:spider": true
-			"minecraft:villager": true
-			"minecraft:rabbit": true
-			"nomansland:tortoise": true
-			"minecraft:witch": true
-			"minecraft:wither": true
-			"minecraft:cow": true
-			"minecraft:bat": true
-			"minecraft:donkey": true
-			"minecraft:skeleton": true
-			"minecraft:axolotl": true
-			"minecraft:enderman": true
-			"minecraft:zombie_villager": true
-			"minecraft:salmon": false
-			"minecraft:trader_llama": true
-			"minecraft:glow_squid": true
-			"hominid:fossilised": true
-			"minecraft:warden": true
-			"hominid:juggernaut": true
-			"hominid:famished": true
-			"minecraft:pillager": true
-			"minecraft:wandering_trader": true
-			"eidolon_repraised:wraith": true
-			"eidolon_repraised:zombie_brute": true
-			"minecraft:creeper": true
-			"minecraft:squid": true
-			"minecraft:chicken": true
 			"minecraft:zombie": true
-			"minecraft:pig": true
+			"minecraft:cod": false
 			"minecraft:sheep": true
+			"eidolon_repraised:slimy_slug": true
+			"minecraft:enderman": true
+			"minecraft:spider": true
+			"minecraft:pig": true
+			"minecraft:husk": true
+			"eidolon_repraised:wraith": true
+			"minecraft:glow_squid": true
+			"minecraft:axolotl": true
+			"minecraft:pillager": true
+			"minecraft:donkey": true
+			"minecraft:trader_llama": true
+			"eidolon_repraised:zombie_brute": true
+			"minecraft:salmon": false
+			"minecraft:villager": true
+			"minecraft:zombie_villager": true
+			"nomansland:tortoise": true
+			"hominid:juggernaut": true
+			"minecraft:witch": true
+			"nomansland:goose": true
+			"minecraft:bat": true
+			"minecraft:rabbit": true
+			"minecraft:wandering_trader": true
+			"minecraft:wither": true
+			"primal:bear": true
+			"minecraft:squid": true
+			"minecraft:wolf": true
+			"hominid:fossilised": true
+			"minecraft:chicken": true
+			"minecraft:creeper": true
+			"minecraft:warden": true
+			"minecraft:skeleton": true
+			"minecraft:cow": true
+			"minecraft:horse": true
+			"hominid:famished": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

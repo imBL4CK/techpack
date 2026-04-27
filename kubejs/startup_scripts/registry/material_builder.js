@@ -10,6 +10,10 @@ const entries = [
     dust: true,
   },
   {
+    id: "lapis",
+    dust: true,
+  },
+  {
     id: "copper",
     plate: true,
     gear: true,
@@ -217,6 +221,13 @@ const entries = [
   },
   {
     id: "flux_infused_alloy",
+    ingot: true,
+    nugget: true,
+    hotIngot: true,
+    dust: true,
+  },
+  {
+    id: "annealed_copper",
     ingot: true,
     nugget: true,
     hotIngot: true,

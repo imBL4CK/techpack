@@ -20,7 +20,8 @@ ServerEvents.recipes(e => {
     "kanthal",
     "advanced_alloy",
     "stainless_steel",
-    "lithium"
+    "lithium",
+    "annealed_copper"
   ];
   // Ingots to Dusts
   entries.forEach((entry) => {

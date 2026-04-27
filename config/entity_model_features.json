@@ -29,5 +29,7 @@
   "enforceOptiFineAnimSyntaxLimits": true,
   "allowOptifineFallbackProperties": true,
   "showReloadErrorToast": true,
-  "exportRotations": false
+  "exportRotations": false,
+  "asmMaths": true,
+  "logASM": false
 }

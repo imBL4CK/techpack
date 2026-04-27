@@ -1044,6 +1044,16 @@
 	quest.6A3DD1774BC7481F.quest_desc: ["&9Andesite alloy&r is the base of the create, and to obtain it, you'll need zinc, and &eobviously andesite&r"]
 	quest.6A3DD1774BC7481F.quest_subtitle: "&5Craft an Andesite Alloy"
 	quest.6A3DD1774BC7481F.title: "Alloying Andesite"
+	quest.6AAC34DD92895126.quest_desc: [
+		"A brilliant contraption capable of &zconducting spiritual energy&r and transforming it into &ekinetic energy&r. "
+		""
+		"The process occurs when mimicry relays&d enhance the spiritual energy&r, causing the &9animated parts to rotate the shaft&r."
+		""
+		"&e-&r Items can be inserted from all sides &4except the top face&r."
+		""
+		"&e-&r Connections to shafts can be &amade on the top face&r."
+	]
+	quest.6AAC34DD92895126.quest_subtitle: "&5Craft an Animated Mechanical Motor"
 	quest.6C23D4D6D2CC0776.quest_subtitle: "&5Welcome to Chapter 3"
 	quest.6C23D4D6D2CC0776.title: "Advanced Age"
 	quest.6CB6CC7509BD29F1.quest_desc: [
@@ -1113,6 +1123,16 @@
 	]
 	quest.7B8E25DCCC07E764.quest_subtitle: "&5Make a Cleanroom"
 	quest.7B8E25DCCC07E764.title: "The Cleanroom"
+	quest.7C3978F95F040B1F.quest_desc: [
+		"A variation of dynamos that converts &zspiritual energy&r into &credstone flux&r. "
+		""
+		"Its operation is similar to an &9Animated Mechanical Motor&r, but with the addition of a &eredstone transmission coil&r."
+		""
+		"&e-&r Items can be inserted from all sides &4except the front&r."
+		""
+		"&e-&r Energy can be extracted from the &afront face&r."
+	]
+	quest.7C3978F95F040B1F.quest_subtitle: "&5Craft a Mimicry Dynamo"
 	quest.7C80749170E1897E.title: "Farming"
 	quest.7E149CDFA2486CAE.quest_desc: [
 		"A weapon imbued with a &zmysterious Umbral energy&r, it possesses the uncanny &9ability to reap the heads of mobs&r, including the &3warden&r."

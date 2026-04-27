@@ -135,6 +135,14 @@ ServerEvents.recipes((e) => {
             "requireItem": ["minecraft:gravel"],
             "produceItem": ["minecraft:sand"]
         },
+        {
+            "machineType": "techpack:basic_macerator",
+            "recipeTier": "basic",
+            "processingTime": 200,  
+            "requireEnergy": { perTick: 10 },
+            "requireItem": ["minecraft:lapis_lazuli"],
+            "produceItem": ["techpack:lapis_dust"]
+        },
     ]
     const AdvancedRecipes = [
         {

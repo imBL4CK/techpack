@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "actuallyadditions:single_battery"
+    },
+    {
+      "item": "actuallyadditions:single_battery"
+    },
+    {
+      "item": "create_new_age:overcharged_gold" 
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:double_battery"
+  }
+}

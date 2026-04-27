@@ -43,6 +43,13 @@ ServerEvents.recipes(e => {
             "requireFluid": ["100x techpack:cryogenic_coolant"],
             "requireItem": ["techpack:hot_stellarithe_ingot"],
             "produceItem": ["techpack:stellarithe_ingot"]
+        },
+        {
+            "processingTime": 300,
+            "requireEnergyPerTick": 1000,
+            "requireFluid": ["1000x #techpack:coolants"],
+            "requireItem": ["techpack:hot_annealed_copper_ingot"],
+            "produceItem": ["techpack:annealed_copper_ingot"]
         }
     ]
     recipes.forEach((recipe) => {

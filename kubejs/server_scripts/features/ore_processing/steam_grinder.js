@@ -2,6 +2,10 @@ ServerEvents.recipes(e => {
   let recipe = e.recipes.modular_machinery_reborn.machine_recipe
   const entries = [
     {
+      id: "annealed_copper",
+      ingot: true,
+    },
+    {
       id: "copper",
       plate: true,
       gear: true,

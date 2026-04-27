@@ -9,6 +9,18 @@ ServerEvents.recipes((e) => {
     {
       "processingTime": 100,
       "requireEnergyPerTick": 10,
+      "requireItem": ["actuallyadditions:double_battery"],
+      "produceItem": ["actuallyadditions:single_battery", "techpack:scraps"],
+    },
+    {
+      "processingTime": 100,
+      "requireEnergyPerTick": 10,
+      "requireItem": ["actuallyadditions:quadruple_battery"],
+      "produceItem": ["actuallyadditions:triple_battery", "techpack:scraps"],
+    },
+    {
+      "processingTime": 100,
+      "requireEnergyPerTick": 10,
       "requireItem": ["create:whisk"],
       "produceItem": ["3x minecraft:iron_ingot", "create:andesite_alloy", "techpack:scraps"],
     },

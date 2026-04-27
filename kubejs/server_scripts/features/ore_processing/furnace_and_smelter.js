@@ -67,6 +67,10 @@ ServerEvents.recipes(e => {
       raw: true,
       dust: true,
     },
+    {
+      id: "annealed_copper",
+      dust: true,
+    },
   ];
   entries.forEach((entry) => {
     if (entry.raw) {

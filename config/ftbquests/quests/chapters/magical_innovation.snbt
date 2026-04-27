@@ -8,6 +8,24 @@
 		id: "malum:soulbinding_brazier"
 	}
 	id: "13B1AF83D3EFA283"
+	images: [
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.5d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -117,7 +135,14 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["6C0683DEC74220F1"]
+			hide_dependency_lines: true
 			id: "6AAC34DD92895126"
+			rewards: [{
+				id: "7CF94691943EB3EF"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "3E5B171877EC3A26"
 				item: { count: 1, id: "techpack:animated_mechanical_motor" }
@@ -127,7 +152,14 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["6C0683DEC74220F1"]
+			hide_dependency_lines: true
 			id: "7C3978F95F040B1F"
+			rewards: [{
+				id: "7B396E224399A277"
+				type: "xp"
+				xp: 30
+			}]
 			tasks: [{
 				id: "482FBAB1BDEC4482"
 				item: { count: 1, id: "techpack:mimicry_dynamo" }

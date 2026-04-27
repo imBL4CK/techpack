@@ -40,7 +40,7 @@
         "BACK": "NONE",
         "LEFT": "NONE"
       },
-      "capacity": 32000,
+      "capacity": 16000,
       "max_input": 4000
     },
     {
@@ -198,22 +198,17 @@
     },
     {
       "text": {
-        "translate": "- Steam I/O: 4000 mB"
+        "translate": "- Steam I/O: 4.000 mB"
       }
     },
     {
       "text": {
-        "translate": "- Energy generation: 50 RF/t"
+        "translate": "- Energy storage: 16.000 RF"
       }
     },
     {
       "text": {
-        "translate": "- Energy storage: 32.000 RF"
-      }
-    },
-    {
-      "text": {
-        "translate": "- Energy I/O: 4000 RF/t"
+        "translate": "- Energy I/O: 4.000 RF/t"
       }
     }
   ]

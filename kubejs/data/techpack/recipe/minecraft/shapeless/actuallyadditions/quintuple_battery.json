@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:silver_battery_cell"
+    },
+    {
+      "item": "techpack:flux_infused_alloy_ingot" 
+    },
+    {
+      "item": "create:cardboard"
+    },
+    {
+      "tag": "c:dusts/lapis"
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:quintuple_battery"
+  }
+}

@@ -88,13 +88,13 @@ ServerEvents.recipes(e => {
     },
     {
         "processingTime": 600,
-        "requireEnergyPerTick": 5,
+        "requireEnergyPerTick": 50,
         "requireItem": ["minecraft:iron_ingot", "techpack:nickel_ingot", "techpack:aluminum_ingot"],
         "produceItem": ["3x techpack:hot_kanthal_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
     {
         "processingTime": 1200,
-        "requireEnergyPerTick": 5,
+        "requireEnergyPerTick": 100,
         "requireItem": ["minecraft:iron_ingot", "techpack:nickel_ingot", "techpack:chromium_ingot"],
         "produceItem": ["3x techpack:hot_stainless_steel_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
@@ -106,13 +106,13 @@ ServerEvents.recipes(e => {
     },
     {
         "processingTime": 1200,
-        "requireEnergyPerTick": 5,
+        "requireEnergyPerTick": 20,
         "requireItem": ["minecraft:iron_ingot", "minecraft:ender_pearl"],
         "produceItem": ["enderio:pulsating_alloy_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
     {
         "processingTime": 1200,
-        "requireEnergyPerTick": 5,
+        "requireEnergyPerTick": 20,
         "requireItem": ["minecraft:redstone", "enderio:conductive_alloy_ingot", "minecraft:gold_ingot"],
         "produceItem": ["enderio:energetic_alloy_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
@@ -124,9 +124,27 @@ ServerEvents.recipes(e => {
     },
     {
         "processingTime": 2400,
-        "requireEnergyPerTick": 5,
+        "requireEnergyPerTick": 100,
         "requireItem": ["#c:dusts/uranium"],
-        "produceItem": ["techpack:hot_uranium_ingot"]
+        "produceItem": ["techpack:hot_uranium_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
+    },
+    {
+        "processingTime": 1200,
+        "requireEnergyPerTick": 100,
+        "requireItem": ["#c:ingots/copper", "minecraft:glowstone_dust", "minecraft:redstone"],
+        "produceItem": ["techpack:hot_annealed_copper_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
+    },
+    {
+        "processingTime": 1200,
+        "requireEnergyPerTick": 300,
+        "requireItem": ["techpack:raw_calorite"],
+        "produceItem": ["techpack:hot_calorite_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
+    },
+    {
+        "processingTime": 1200,
+        "requireEnergyPerTick": 300,
+        "requireItem": ["techpack:crushed_raw_calorite"],
+        "produceItem": ["techpack:hot_calorite_ingot", { item: "techpack:rich_slag", chance: 0.5 }]
     },
 ]
     recipes.forEach((recipe) => {

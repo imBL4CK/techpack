@@ -134,6 +134,13 @@ ServerEvents.recipes((e) => {
             "requireItem": ["minecraft:gravel"],
             "produceItem": ["minecraft:sand"]
         },
+        {
+            "machineType": "techpack:steam_macerator",
+            "processingTime": 200,  
+            "requireFluid": [{ perTick: "1x techpack:steam" }],
+            "requireItem": ["minecraft:lapis_lazuli"],
+            "produceItem": ["techpack:lapis_dust"]
+        },
     ]
     recipes.forEach((recipe) => {
         techpackMachineAPI(e,recipe)

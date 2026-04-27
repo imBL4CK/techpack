@@ -6,3 +6,4 @@
 # Anotacoes
 - Atualizar o bug de textura da dimensional detector na steam quarry 
 - tornar a suffering ending incompativel com sweeping edge
+- adicionar particulas de brilho aos minerios

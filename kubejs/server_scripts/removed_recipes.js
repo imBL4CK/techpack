@@ -312,7 +312,12 @@ ServerEvents.recipes((e) => {
     "malum:spirit_infusion/spellweaving_pickaxe",
     "malum:spirit_infusion/spellweaving_axe",
     "malum:spirit_infusion/spirit_crucible",
-    "malum:soulbinding_brazier"
+    "malum:soulbinding_brazier",
+    "actuallyadditions:single_battery",
+    "actuallyadditions:double_battery",
+    "actuallyadditions:triple_battery",
+    "actuallyadditions:quadruple_battery",
+    "actuallyadditions:quintuple_battery",
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });
