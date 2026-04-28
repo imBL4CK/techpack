@@ -1,0 +1,211 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unusual_cuisine"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "farmersdelight:honey_glazed_ham_block"
+	}
+	id: "4D6DFE1B91FC0A68"
+	images: [
+		{
+			height: 2.0d
+			image: "farmersdelight:block/cutting_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/cutting_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/cutting_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/cutting_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:block/cutting_board"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "farmersdelight:stove"
+			}
+			icon_scale: 0.8d
+			id: "555CF09F047EED79"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "64B3FF3B33529390"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71CC365CAB56F704"]
+			id: "3C72F10EE49F265A"
+			tasks: [{
+				id: "252A19FF473834C1"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["555CF09F047EED79"]
+			id: "71CC365CAB56F704"
+			tasks: [{
+				id: "6788A521746226CB"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C72F10EE49F265A"]
+			icon: {
+				id: "minecraft:campfire"
+			}
+			id: "569832E4F84893A0"
+			tasks: [{
+				id: "6D9BC2531F7DA31F"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["569832E4F84893A0"]
+			id: "440E777F442A2313"
+			tasks: [{
+				id: "513FFA16ACFD8F02"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "farmersdelight:mushroom_rice"
+			}
+			id: "5CAEF0DF78EA0488"
+			tasks: [{
+				id: "16372B74700E2DEA"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:meals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:barbecue_stick"
+			}
+			id: "59287049ECEBE616"
+			tasks: [{
+				id: "58F4CD394D5A8F85"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:snacks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:honey_glazed_ham_block"
+			}
+			id: "39F1195E1F1D22B9"
+			tasks: [{
+				id: "45D545BD0A84E040"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:feasts)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:melon_popsicle"
+			}
+			id: "2E5E67A173FF0D62"
+			tasks: [{
+				id: "79EF01D3C296455A"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:sweets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "farmersdelight:glow_berry_custard"
+			}
+			id: "277495692A187E06"
+			tasks: [{
+				id: "120D62F6CF199E23"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(farmersdelight:drinks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:dungeon_stove"
+			}
+			icon_scale: 0.8d
+			id: "273248C08854D919"
+			invisible: true
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					icon: {
+						id: "minecraft:spawner"
+					}
+					id: "2A8C48F1C3EE0BC7"
+					observe_type: 0
+					timer: 0L
+					to_observe: "minecraft:spawner"
+					type: "observation"
+				}
+				{
+					id: "009C6D1F21680FD0"
+					item: { count: 1, id: "dungeonsdelight:stained_scrap" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}

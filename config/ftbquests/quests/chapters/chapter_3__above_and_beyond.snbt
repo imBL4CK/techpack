@@ -9,12 +9,26 @@
 	}
 	id: "4FBA4507730D2F9F"
 	order_index: 2
-	quest_links: [{
-		id: "1DE520461ED14E15"
-		linked_quest: "4A7DF1FB2DAC43DB"
-		x: 1.5d
-		y: 3.0d
-	}]
+	quest_links: [
+		{
+			id: "1DE520461ED14E15"
+			linked_quest: "4A7DF1FB2DAC43DB"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "4792D96357F3D2AE"
+			linked_quest: "5D27599F8A06793C"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "413C2BBF332CBBCC"
+			linked_quest: "4A5E76E755F85CCC"
+			x: -1.5d
+			y: 3.0d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["55D4F942D097AFE9"]
@@ -245,7 +259,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3CA9B342DD7898D5"]
+			dependencies: ["5D27599F8A06793C"]
 			id: "14D704B6C031E5B8"
 			rewards: [
 				{
@@ -298,47 +312,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7961BA9015DE7075"]
-			icon: {
-				id: "minecraft:wither_skeleton_skull"
-			}
-			id: "4633868F78784A07"
-			rewards: [
-				{
-					id: "75C3D9B44CE9593E"
-					item: {
-						count: 1
-						id: "industrialforegoing:ether_gas_bucket"
-					}
-					type: "item"
-				}
-				{
-					id: "38F6C053617D0A6E"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [
-				{
-					id: "6941EAE80D0F609E"
-					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
-					type: "item"
-				}
-				{
-					id: "05D22DCAEDB8F1A0"
-					item: { count: 1, id: "industrialforegoing:laser_drill" }
-					type: "item"
-				}
-				{
-					id: "43A63116A39969F9"
-					item: { count: 1, id: "industrialforegoing:stasis_chamber" }
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: 3.0d
-		}
-		{
 			dependencies: ["7B8E25DCCC07E764"]
 			id: "7961BA9015DE7075"
 			rewards: [{
@@ -355,36 +328,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["6C23D4D6D2CC0776"]
-			icon: {
-				id: "malum:large_strange_crystal"
-			}
-			id: "3CA9B342DD7898D5"
-			rewards: [
-				{
-					id: "5415D9A145749782"
-					item: {
-						count: 1
-						id: "techpack:budding_strange_crystal"
-					}
-					type: "item"
-				}
-				{
-					id: "204BD53EE95BEF0F"
-					type: "xp"
-					xp: 30
-				}
-			]
-			tasks: [{
-				id: "6214D709B21CCBE0"
-				item: { count: 1, id: "malum:large_strange_crystal" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["3CA9B342DD7898D5"]
+			dependencies: ["5D27599F8A06793C"]
 			id: "4C9158FCCC463F40"
 			rewards: [
 				{

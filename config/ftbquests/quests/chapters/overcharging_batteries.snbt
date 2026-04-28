@@ -4,10 +4,10 @@
 	filename: "overcharging_batteries"
 	group: "4097FAA9FF0516CA"
 	icon: {
-		id: "techpack:battery_box"
+		id: "techpack:silver_battery_cell"
 	}
 	id: "7696EE02F2B1DD58"
-	order_index: 2
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -234,7 +234,10 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["45A37C53986F22D5"]
+			dependencies: [
+				"45A37C53986F22D5"
+				"03E0EB184E5D142C"
+			]
 			id: "56D1B7B34B0DECFC"
 			rewards: [{
 				id: "24A4BC852B0152C2"

@@ -7,10 +7,12 @@
 	chapter.28ABDB4C54685DEA.title: "Chapter 2 - From Steam to Spark"
 	chapter.30A59890023CC90E.title: "Fundamentals of a Thaumaturge"
 	chapter.46BF282F06B04D68.title: "Chapter 4 - Space Explorations"
+	chapter.49A0378775107271.title: "Biology of Mobs"
+	chapter.4D6DFE1B91FC0A68.title: "Unusual Cuisine"
 	chapter.4FBA4507730D2F9F.title: "Chapter 3 - Above and Beyond"
 	chapter.585CCFB426D45AB3.title: "Harvest and Farms"
-	chapter.5D365D0FAB7BA68D.title: "Mysteries of This World"
 	chapter.60C1129EFB537008.title: "Welcome!"
+	chapter.6CA4BCDE5DB5DD95.title: "Encyclopedia of Zoology"
 	chapter.6D756BCE50B770D7.title: "Alchemical Studies"
 	chapter.6D8DF15E67E008D3.title: "Space Exploration Program"
 	chapter.7696EE02F2B1DD58.title: "Energy Controll"
@@ -115,6 +117,16 @@
 		"The refinery receives &ctemperature (Pneumaticcraft)&r from either side and, when the recipe is finished, &aexpels the fluids to its outputs&r."
 	]
 	quest.07FBD1E23915AF6B.quest_subtitle: "&5Build a Refinery"
+	quest.085A1040CB00EEAF.title: "Beekeeping"
+	quest.0A09F2EA50A063B6.quest_desc: [
+		"A zombie is a common &eundead type of hostile mob&r."
+		""
+		"&e-&r They are common at night, and cause physical damage,"
+		""
+		"&e-&r They &acan infect villagers&r, turning them into &czombie villagers&r."
+	]
+	quest.0A09F2EA50A063B6.quest_subtitle: "&5Kill a Zombie"
+	quest.0A09F2EA50A063B6.title: "Udead Invasion"
 	quest.0A8E9A4C0CB8B2F9.title: "Generating Energy"
 	quest.0C8E07CBA287F6A2.title: "Better Fertilizing"
 	quest.0D3FCD8FB7B1076C.quest_subtitle: "&5Craft a Kiln"
@@ -247,13 +259,6 @@
 	]
 	quest.186763FC5A59D49A.quest_subtitle: "&5Craft a Crafting Table"
 	quest.186763FC5A59D49A.title: "Lets Start! (again)"
-	quest.18BD92C01809163B.quest_desc: [
-		"The planter is a special pot that works like a farmland, but it does not need to be adjacent to water"
-		""
-		"&e-&r Also prevent the crop from being trampled"
-	]
-	quest.18BD92C01809163B.quest_subtitle: "&5Get a planter"
-	quest.18BD92C01809163B.title: "Portable Farmland"
 	quest.19D5F64FB46BF6B7.title: "Automating Crops (with Energy)"
 	quest.19F32B9CCB6C65AF.quest_desc: [
 		"&dAn improved version of the makeshift mechanism&r with adjustments that allow for greater precision."
@@ -343,23 +348,13 @@
 	]
 	quest.1B8B125979228105.quest_subtitle: "&5Unlock The Magic Path"
 	quest.1B8B125979228105.title: "World of a Thaumaturge"
-	quest.1CF3499992DEAC9D.quest_desc: [
-		"Organic compost is an accumulation of various residues used to make &9Rich Soil&r."
+	quest.1D84CFAD6CFAD2F3.quest_desc: [
+		"Are you curious about the &cmonsters in this world?&r This quest tab is here to &eanswer your questions&r!"
 		""
-		"&e-&r Once the decomposition process is complete, the organic compost turns into rich soil, which can be tilled for planting"
-		""
-		"&e-&r Crops planted in rich soil grow significantly faster compared to normal farmlands"
-		"{@pagebreak}"
-		"&5* Decomposition&r "
-		"To transform &9Organic Compost&r into &9Rich Soil&r, simply place it as a block in the world. Over time, it will naturally decompose into Rich Soil. This process can happen anywhere, but it can be accelerated under certain conditions:"
-		""
-		"&e-&r Exposure to direct sunlight"
-		"&e-&r Direct contact with water (in adjacent blocks)"
-		"&e-&r Presence of activator blocks nearby, such as:"
-		"&e-&r Red or Brown Mushrooms, Mushroom Colonies, Mycelium and Podzol"
+		"You can view quick information &aabout relevant mobs at any time&r."
 	]
-	quest.1CF3499992DEAC9D.quest_subtitle: "&5Get Organic Compost"
-	quest.1CF3499992DEAC9D.title: "Reusing Compounds"
+	quest.1D84CFAD6CFAD2F3.quest_subtitle: "&5Kill a Monster"
+	quest.1D84CFAD6CFAD2F3.title: "Welcome to the Mobestiary"
 	quest.249468D2EF78C781.quest_desc: [
 		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
@@ -411,6 +406,8 @@
 	]
 	quest.250E31A75164ECFE.quest_subtitle: "&5Craft Mortar"
 	quest.250E31A75164ECFE.title: "Molding Clay"
+	quest.273248C08854D919.title: "Let's Deeper into the Dungeons"
+	quest.277495692A187E06.title: "Drinks"
 	quest.281FDAC6E901BD9E.quest_desc: [
 		"A &9Rustic Oven&r is a multi-block structure that works similarly to a &efurnace&r. "
 		""
@@ -465,6 +462,8 @@
 		"&e-&r The greatest fear is that this crystal is a &zpiece of one's own conscious essence&r, potentially representing a &4ninth arcana yet unknown to the world&r."
 	]
 	quest.2878382BDDB9DE0E.quest_subtitle: "&5Jump into Weeping Well"
+	quest.290AFD6FDD371066.quest_subtitle: "&5Kill a Skeleton"
+	quest.290AFD6FDD371066.title: "Nerf Bedrock Skeleton"
 	quest.29EEA4229CD05317.quest_desc: [
 		"The &9Makeshift Mechanism&r is nothing more than a basic mechanical circuit that makes up the &econtraption parts of the create&r."
 		""
@@ -478,6 +477,33 @@
 	]
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
+	quest.2E0383F12074DF07.quest_desc: [
+		"&9Birds are tamable passive mobs&r that spawn in various biomes &edependent on their variant&r."
+		""
+		"Birds randomly fly around, following &deach other and occasionally landing&r."
+		""
+		"During the day, birds will &arandomly play ambient sounds&r related to their variant, such as cardinal calls, bluejay calls, etc. They will &cnot play these sounds during the night&r. "
+		""
+		"&aBirds can be tamed&r using all Vanilla seeds. Upon being tamed, they will follow their &9owner and can be commanded to sit or follow&r. "
+		""
+		"&5→&r Bird Species"
+		"{@pagebreak}"
+		"&d# Bird Species"
+		""
+		"&e-&r &9Cardinals&r spawn in forests, savannas, swamps, and deserts."
+		""
+		"&e-&r &9Canaries&r spawn in hills and mountains."
+		""
+		"&e-&r &9Robins&r spawn in forests, mountains and plains."
+		""
+		"&e-&r &9Bluejays&r spawn in taigas, hills, ice spikes, and other snowy biomes."
+		""
+		"&e-&r &9Sparrows&r spawn in plains and cherry groves."
+		""
+		"&e-&r &9Finches&r spawn in forests and savannas."
+	]
+	quest.2E0383F12074DF07.quest_subtitle: "&5Observe all the Birds"
+	quest.2E0383F12074DF07.title: "The Singers of Nature"
 	quest.2E3119B4776760D3.quest_desc: [
 		"Some items can be duplicated in the &9Crucible using alchemical calx&r and a &espirit related to the mob&r."
 		""
@@ -495,6 +521,9 @@
 	]
 	quest.2E5C04DFB553EF81.quest_subtitle: "&5Craft a Flint and Soul"
 	quest.2E5C04DFB553EF81.title: "Edo Tensei"
+	quest.2E5E67A173FF0D62.title: "Sweets"
+	quest.2F208ECCEE69C7BE.quest_subtitle: "&5Kill a Enderman"
+	quest.2F208ECCEE69C7BE.title: "Dont look Into Their Eyes"
 	quest.2F59C6052DDC876B.quest_desc: [
 		"&cYour knowledge of the arcane world is still very limited&r. "
 		""
@@ -545,6 +574,20 @@
 	quest.3099B9CF5A6DABBF.title: "Finding Meteorites"
 	quest.3173942E6EEFE774.quest_subtitle: "&5Build a Thermal Evaporation Tower"
 	quest.3173942E6EEFE774.title: "The Large Orange Tower"
+	quest.33A081BE0E4C1769.quest_desc: [
+		"&9Boars are passive mobs&r found commonly in &esavanna biomes and forests&r. "
+		""
+		"Boars unlike their pig counterparts, &cthey can not be equipped with saddles&r."
+		""
+		"&e-&r Boars will try to &davoid players when possible&r."
+		""
+		"&e-&r When a boar is struck by lightning, &dit transforms into a zoglin&r."
+		""
+		"&cIf attacked&r, they will aggro on their attacker and &ewill not stop until either the attacker dies&r or they reach half health, in which they will run away."
+		" "
+	]
+	quest.33A081BE0E4C1769.quest_subtitle: "&5Observe a Boar"
+	quest.33A081BE0E4C1769.title: "Hakuna Matata"
 	quest.34B0C2176A78341B.quest_desc: ["A strange, &9solid iron component&r used for crafting &zarcane items&r, but which seems very suitable for use in &amulti-block machines&r."]
 	quest.34B0C2176A78341B.quest_subtitle: "&5Craft a Anomalous Design"
 	quest.34B0C2176A78341B.title: "DaVinci's like artifact"
@@ -611,32 +654,22 @@
 	]
 	quest.3827FDBB6FDA7DAC.quest_subtitle: "&5Build a Blast Furnace"
 	quest.3827FDBB6FDA7DAC.title: "Steel (and Bronze) factory"
-	quest.38DF092C5768AB6C.title: "Animal Care"
+	quest.38DF092C5768AB6C.title: "Animal Farming"
+	quest.39F1195E1F1D22B9.title: "Feasts"
+	quest.3A357E89AC6E03A0.quest_subtitle: "&5Kill a Creeper"
+	quest.3A357E89AC6E03A0.title: "Pop Icon"
 	quest.3B9E5A89B2ED5C71.quest_desc: ["&9Electron tubes control the flow of energy&r, These are precise and considerably &aexpensive materials&r."]
 	quest.3B9E5A89B2ED5C71.quest_subtitle: "&5Craft Electron Tube"
-	quest.3C8214476DF01296.title: "Nano Suit"
-	quest.3CA9B342DD7898D5.quest_desc: [
-		"&9Strange Crystals&r are an important material to make better &eelectron tubes&r. Strange crystal can be generated by &afertilizing blighted dirt&r."
+	quest.3C4DE67E902647AE.quest_desc: [
+		"In this world, we have &dmany curious animals&r with their own &aunique behaviors&r. How about &eresearching them?&r"
 		""
-		"&dTo Generate blighted dirt&r, you firstly have to make a &9Unchained Rite&r, a &zMalum Mod ritual&r."
-		""
-		"&5→&r Unchained Rite"
-		"{@pagebreak}"
-		"&d# Unchained Rite"
-		""
-		"A ritual made usaing totem base, &9either runewood or soulwood&r. The ritual &camasses undirected arcane energy&r in a totem, resulting in a &zchaotic dispersion that violently transforms it into Soulwood&r."
-		""
-		"Part of the &esurrounding land will be transformed&r, so do it in a &4non-important&r location."
-		""
-		"&a# How to Make a Unchained Rite"
-		""
-		"&e-&r First, place a totem base,"
-		"&e-&r Place 5 Runewood or Soulwood logs above the totem base,"
-		"&e-&r Use Arcane spirits in the logs, engraiving the wood with a heart shape,"
-		"&e-&r Right-Click in the base."
+		"In this &9quests tab&r, you will find information about various &eanimals present in this world&r."
 	]
-	quest.3CA9B342DD7898D5.quest_subtitle: "&5Get Strange Crystals"
-	quest.3CA9B342DD7898D5.title: "Producing Crystals"
+	quest.3C4DE67E902647AE.quest_subtitle: "&5Start Researching Animals"
+	quest.3C4DE67E902647AE.title: "Gotta See 'Em All"
+	quest.3C72F10EE49F265A.quest_subtitle: "&5Craft a Cooking Pot"
+	quest.3C72F10EE49F265A.title: "Grandma's Cooking Pot"
+	quest.3C8214476DF01296.title: "Nano Suit"
 	quest.3DE253B80BC28A15.quest_desc: [
 		"&9Processors&r are the foundation of &ecutting-edge technology&r and have taken you to &8space&r."
 		""
@@ -646,7 +679,6 @@
 	]
 	quest.3DE253B80BC28A15.quest_subtitle: "&5Craft the First Processors"
 	quest.3DE253B80BC28A15.title: "Tons of Information in Seconds"
-	quest.3E3F7821391248A8.title: "Forestry Days"
 	quest.3EA0672425F7A37F.quest_desc: [
 		"&9Mob Slaughter Factory&r uses energy to &ckill mobs&r within its range, producing &6liquid meat&r and &dpink slime&r."
 		""
@@ -660,6 +692,28 @@
 	]
 	quest.3EA0672425F7A37F.quest_subtitle: "&5Make a Pink Slime Farm"
 	quest.3EA0672425F7A37F.title: "Farming Pink Slimes"
+	quest.42EA80357EAF9711.quest_desc: [
+		"&9Bass are common aquatic passive mobs&r found in &eswamps and swamp-like biomes&r."
+		""
+		"&e-&r Bass tend to &aswim in schools&r."
+		""
+		"&e-&r Bass &ccannot survive&r outside of water"
+		""
+		"&dThe player may collect a bass&r by using a water bucket on it. "
+		""
+		"Bass placed with buckets &cdo not despawn naturally&r. "
+	]
+	quest.42EA80357EAF9711.quest_subtitle: "&5Observe an Bass"
+	quest.42EA80357EAF9711.title: "Prey of the Swamp"
+	quest.42F317DBA97747AC.quest_desc: [
+		"The planter is a special pot that works like a farmland, but it &9does not need to be adjacent to water&r"
+		""
+		"&e-&r The planter also prevents the crop from being &clost when a player jumps over it&r."
+	]
+	quest.42F317DBA97747AC.quest_subtitle: "&5Craft a Planter"
+	quest.42F317DBA97747AC.title: "Portable Farmland"
+	quest.440E777F442A2313.quest_subtitle: "&5Craft a Skillet"
+	quest.440E777F442A2313.title: "A Powerful Weapon (and Skillet too)"
 	quest.45498BBB06221F20.quest_desc: [
 		"Do you wish to discover a &cdangerous&r, yet &apowerful&r path?"
 		""
@@ -683,7 +737,6 @@
 	]
 	quest.45A37C53986F22D5.quest_subtitle: "&5Craft a Combustion Engine"
 	quest.45A37C53986F22D5.title: "Burning Fuels"
-	quest.4633868F78784A07.title: "Ether Gas"
 	quest.46ECDD632284CEF0.quest_desc: [
 		"Finally, the day has arrived to store items in a logical system! With &9stock tickers, stock links, and packagers&r, you can manage items much more easily."
 		""
@@ -710,6 +763,7 @@
 	]
 	quest.48B631EFC46D2785.quest_subtitle: "&5The Dark Side of the Force"
 	quest.48B631EFC46D2785.title: "Forbidden Knowlodge"
+	quest.4A5E76E755F85CCC.title: "Playing with Danger"
 	quest.4A7DF1FB2DAC43DB.quest_desc: [
 		"&zReaching the moon has been one of humanity's goals since we learned to make fire&r. "
 		""
@@ -743,6 +797,27 @@
 	]
 	quest.4A7DF1FB2DAC43DB.quest_subtitle: "&5Reach the Moon"
 	quest.4BD0D15459102CA2.title: "Storing Spirits"
+	quest.4C45258ECF6E5D93.quest_desc: [
+		"&9Bears&r spawn above grass in &eforested biomes and taigas&r in groups of up to two. "
+		""
+		"If there is a group, &dthe second bear is a cub&r. "
+		""
+		"The &acubs are passive&r, and &cadults are hostile&r when with cubs or provoked"
+		""
+		"If a cub is attacked, all &eadults within the area become hostile&r toward the player or mob."
+		""
+		"&e-&r &dBears eat items such as &rsalmon, cooked salmon, honeycomb, sweet berries, and venison."
+		"{@pagebreak}"
+		"Bears will search out blocks like sweet berry bushes, bee hives, and campfires, sniffing in the air. "
+		""
+		"When they find a block, they will harvest items from them and eat the items found."
+		""
+		"Bears sleep between the ticks of 6000-12000 and 18000-23000. While sleeping, they snore similar to foxes."
+		""
+		"If hit while sleeping, they will wake up in an aggressive state and will go back to sleep once they either kill their target or lose sight of them."
+	]
+	quest.4C45258ECF6E5D93.quest_subtitle: "&5Observe a Bear"
+	quest.4C45258ECF6E5D93.title: "A True Honey Fan"
 	quest.4C9158FCCC463F40.quest_desc: [
 		"&zTesseract allows you to transport Items, Fluid and Energy! &r"
 		""
@@ -781,7 +856,6 @@
 	]
 	quest.4E5EA95D9ACC2973.quest_subtitle: "&5Get Straw"
 	quest.4E5EA95D9ACC2973.title: "Sharpening the points"
-	quest.500E72630047E1FA.title: "Farming Sweets"
 	quest.516493216BEC484C.quest_desc: [
 		"Before you start your first factories, you need to craft the first machines."
 		""
@@ -841,6 +915,9 @@
 	]
 	quest.516493216BEC484C.quest_subtitle: "&5Get the first create contraptions"
 	quest.516493216BEC484C.title: "Mechanical Toys"
+	quest.548660C85C078428.quest_subtitle: "&5Kill a Spider"
+	quest.548660C85C078428.title: "Night Hunter"
+	quest.555CF09F047EED79.title: "Traditional Cuisine"
 	quest.5596CD9DCDDD6155.quest_desc: [
 		"&9Steam Quarries are resource miners&r that drill into the layer below the &dbedrock and collect resources&r. "
 		""
@@ -884,6 +961,8 @@
 	]
 	quest.55D4F942D097AFE9.quest_subtitle: "&5Craft a Finished PCB&r"
 	quest.55D4F942D097AFE9.title: "Let the Digital Age Begin!"
+	quest.569832E4F84893A0.quest_subtitle: "&5About Farmer's Delight Heat Sources"
+	quest.569832E4F84893A0.title: "Heat Sources"
 	quest.56D1B7B34B0DECFC.quest_desc: [
 		"The &9Bio-Burning Generator&r generates energy using &5Biofuel fluid&r."
 		""
@@ -916,6 +995,7 @@
 	]
 	quest.591CDC829FF9FC28.quest_subtitle: "&5Craft an Atomic Reconstructor"
 	quest.591CDC829FF9FC28.title: "Transmuting Items"
+	quest.59287049ECEBE616.title: "Snacks"
 	quest.5A719562329A55D7.quest_desc: [
 		"The &9baskets&r are used to store items, each slot can store &e27 stacks&r."
 		""
@@ -925,11 +1005,14 @@
 	]
 	quest.5A719562329A55D7.quest_subtitle: "&5Craft a Basket"
 	quest.5A719562329A55D7.title: "Storing Resources"
+	quest.5B312C829D447165.quest_subtitle: "&5Observe a Cow"
+	quest.5B312C829D447165.title: "Milk Source"
 	quest.5BFA90D464D2BECB.quest_subtitle: "&5Get a Hephaestus Forge"
 	quest.5BFA90D464D2BECB.title: "Forging Aura"
 	quest.5CA545337702A880.quest_desc: ["&9Tanned leather&r is basically a waterproof version of conventional &aleather&r, mainly used for making &ebackpacks.&r"]
 	quest.5CA545337702A880.quest_subtitle: "&5Craft a Tanned Leather"
 	quest.5CA545337702A880.title: "Complicated Leather"
+	quest.5CAEF0DF78EA0488.title: "Meals"
 	quest.5CD88DC12A6DE7FD.quest_desc: [
 		"&dSteam machines are such a remarkable advancement&r that they will be very useful even when you have access to &9electric machines&r."
 		""
@@ -941,6 +1024,28 @@
 	]
 	quest.5CD88DC12A6DE7FD.quest_subtitle: "&5Craft Your First Set of Steam Machines"
 	quest.5CD88DC12A6DE7FD.title: "Steam Power"
+	quest.5D27599F8A06793C.quest_desc: [
+		"&9Strange Crystals&r are an important material to make better &eelectron tubes&r. Strange crystal can be generated by &afertilizing blighted dirt&r."
+		""
+		"&dTo Generate blighted dirt&r, you firstly have to make a &9Unchained Rite&r, a &zMalum Mod ritual&r."
+		""
+		"&5→&r Unchained Rite"
+		"{@pagebreak}"
+		"&d# Unchained Rite"
+		""
+		"A ritual made usaing totem base, &9either runewood or soulwood&r. The ritual &camasses undirected arcane energy&r in a totem, resulting in a &zchaotic dispersion that violently transforms it into Soulwood&r."
+		""
+		"Part of the &esurrounding land will be transformed&r, so do it in a &4non-important&r location."
+		""
+		"&a# How to Make a Unchained Rite"
+		""
+		"&e-&r First, place a totem base,"
+		"&e-&r Place 5 Runewood or Soulwood logs above the totem base,"
+		"&e-&r Use Arcane spirits in the logs, engraiving the wood with a heart shape,"
+		"&e-&r Right-Click in the base."
+	]
+	quest.5D27599F8A06793C.quest_subtitle: "&5Get Strange Crystals"
+	quest.5D27599F8A06793C.title: "Producing Crystals"
 	quest.5DFC978053E54990.title: "Jet Suit"
 	quest.5FB97C7AD100E989.quest_desc: ["&dA simple transmission assembly&r that serves as the basis for the construction of &eprimitive steam machines&r."]
 	quest.5FB97C7AD100E989.quest_subtitle: "&5Craft a Bronze Machine Casing"
@@ -1066,10 +1171,46 @@
 	]
 	quest.6CB6CC7509BD29F1.quest_subtitle: "&5How I can get sulfur?"
 	quest.6CB6CC7509BD29F1.title: "Getting Sulfur"
+	quest.6CDDFA771C0C3AD0.quest_desc: [
+		"An &9Alligator is a neutral mob&r found in &eswamps and other swamp-like biomes&r. They are predators to other swamp animals. "
+		""
+		"The &ahatchlings are passive&r, and &cadults are hostile&r when near alligator eggs or provoked"
+		""
+		"&dAlligators also occasionally attack animals like&r: pigs, cows, sheep, deer, and catfish."
+	]
+	quest.6CDDFA771C0C3AD0.quest_subtitle: "&5Observe an Alligator"
+	quest.6CDDFA771C0C3AD0.title: "Swamp Predator"
 	quest.6D124E989E9EDE6B.title: "Smart Connections"
 	quest.6D18BC8E8DCCD9DD.quest_subtitle: "&5Craft Basic Malum Ingots"
 	quest.6D18BC8E8DCCD9DD.title: "Transforming Metals"
 	quest.6D89226FAC5DB309.title: "Important Items"
+	quest.6FE1F2207412D225.quest_desc: [
+		"&9Butterflies are flying passive mobs&r that can be found flying around in &eforest biomes&r. "
+		""
+		"Similar to bees, they also &apollinate flowers and crops&r, but do not create any &cbyproducts like honeycomb&r."
+		""
+		"If butterflies are given a flower, they breed and &dproduce a caterpillar&r. "
+		""
+		"After being born, caterpillars will look for a &enearby log at least 1 block above ground and climb&r to it before forming a chrysalis. They will hatch into a &drandom butterfly variant&r."
+		""
+		"&e-&r Chrysalises can be &9picked up with Shears&r."
+	]
+	quest.6FE1F2207412D225.quest_subtitle: "&5Observe a Butterfly"
+	quest.7157C541E8C744BF.quest_desc: [
+		"&9Deer are common passive mobs&r that supply venison and are found in &eforest biomes and cherry groves&r."
+		""
+		"&9Deer run from players who come near&r, but can be “tempted” and &abred with apples&r. "
+		""
+		"&e-&r When deer run away from Players, it &etriggers a chain reaction&r and all nearby deer will also run."
+		""
+		"&e-&r &dDeer will occasionally lean down&r and eat grass blocks, similar to sheep."
+		""
+		"If the Player moves &ewithout crouching&r while the deer is tempted this way, &cit will spook and run away&r."
+	]
+	quest.7157C541E8C744BF.quest_subtitle: "&5Observe a Deer"
+	quest.7157C541E8C744BF.title: "The Forest Runners"
+	quest.71CC365CAB56F704.quest_subtitle: "&5Craft a Cutting Board"
+	quest.71CC365CAB56F704.title: "Indispensable Utility"
 	quest.71D32C233DFE792A.title: "Age of Great Technologies"
 	quest.7218229E14CE6FB3.quest_desc: [
 		"Making rubber is a bit tedious and time-consuming, but with the Fluid Extractor, you can save yourself the headache and time."
@@ -1097,7 +1238,44 @@
 	]
 	quest.7218229E14CE6FB3.quest_subtitle: "&5Get a Fluid Extractor and Latex Processing Unit"
 	quest.7218229E14CE6FB3.title: "Rubber Factory"
+	quest.727A790A7CC5FE4E.title: "Mob Care"
+	quest.7409DC2804234B2F.quest_desc: [
+		"&9Organic compost&r is an accumulation of various residues used to make &eRich Soil&r."
+		""
+		"&e-&r Once the &adecomposition process is complete&r, the organic compost turns into &9Rich Soil&r, which can be tilled for planting"
+		""
+		"&e-&r Crops planted in rich soil &agrow significantly faster&r compared to &cnormal farmlands&r"
+		"{@pagebreak}"
+		"&d# Decomposition&r "
+		""
+		"To transform &eOrganic Compost&r into &9Rich Soil&r, simply place it as a block in the world. Over time, it will naturally decompose into Rich Soil. "
+		""
+		"This process can happen anywhere, but it &ecan be accelerated under certain conditions&r:"
+		""
+		"&e-&r Exposure to &6direct sunlight&r"
+		""
+		"&e-&r Direct contact with &9water (in adjacent blocks)&r"
+		""
+		"&e-&r Presence of activator blocks nearby, such as: &aRed or Brown Mushrooms, Mushroom Colonies, Mycelium and Podzol&r"
+	]
+	quest.7409DC2804234B2F.quest_subtitle: "&5Get Organic Compost"
+	quest.7409DC2804234B2F.title: "Reusing Compounds"
 	quest.751A22EA3B470B4D.title: "Digital Mob Farm"
+	quest.76F43BCEA6F55E0F.quest_desc: [
+		"&9Catfish are common aquatic passive mobs&r found in &eswamps and swamp-like biomes&r."
+		""
+		"&e-&r Catfish are not schooling fish and &aswim around on their own&r."
+		""
+		"&e-&r Catfish will &doccasionally hunt and kill smaller water animals&r, such as cod, tadpoles, and bass."
+		""
+		"&e-&r Catfish &ccannot survive&r outside of water"
+		""
+		"&dThe player may collect a catfish&r by using a water bucket on it. "
+		""
+		"Catfish placed with buckets &cdo not despawn naturally&r. "
+	]
+	quest.76F43BCEA6F55E0F.quest_subtitle: "&5Observe a Catfish"
+	quest.76F43BCEA6F55E0F.title: "Bass Eater"
 	quest.785CF666F705A22B.quest_desc: [
 		"&9Steam engines&r generate high amounts of SU. Their power depends on three interconnected factors:"
 		""
@@ -1133,7 +1311,7 @@
 		"&e-&r Energy can be extracted from the &afront face&r."
 	]
 	quest.7C3978F95F040B1F.quest_subtitle: "&5Craft a Mimicry Dynamo"
-	quest.7C80749170E1897E.title: "Farming"
+	quest.7C80749170E1897E.title: "Agriculture"
 	quest.7E149CDFA2486CAE.quest_desc: [
 		"A weapon imbued with a &zmysterious Umbral energy&r, it possesses the uncanny &9ability to reap the heads of mobs&r, including the &3warden&r."
 		""
@@ -1215,6 +1393,8 @@
 	task.0CAA99F0F153531E.title: "Done"
 	task.0EC222BA4FE6BCF0.title: "Done"
 	task.106861A1B1251E39.title: "Done"
+	task.120D62F6CF199E23.title: "Any #farmersdelight:drinks"
+	task.16372B74700E2DEA.title: "Any #farmersdelight:meals"
 	task.1A353F5ED5BE4FEC.title: "Done"
 	task.24BB2EB83DD040D8.title: "Done"
 	task.24E292689073998A.title: "Done"
@@ -1225,23 +1405,32 @@
 	task.2F686B58A7156201.title: "Done"
 	task.3376EB8825E22FB3.title: "Done"
 	task.34771B4B5B8027A0.title: "Done"
+	task.3609ADAA2D619310.title: "Done"
 	task.3A1900B02D223AF6.title: "Done"
 	task.3ABE5565C7DD98BF.title: "Done"
+	task.42AB253E776C2602.title: "Done"
+	task.45D545BD0A84E040.title: "Any #farmersdelight:feasts"
 	task.468B08B39E490286.title: "Any #techpack:can_storage_items"
 	task.4A3AF79709F1993F.title: "Done"
 	task.4A5E974B836AE8B5.title: "Done"
 	task.4CF347A8D71FE272.title: "Done"
 	task.5408736E7EFFD14D.title: "Done"
 	task.57804835506CADEF.title: "Done"
+	task.58F4CD394D5A8F85.title: "Any #farmersdelight:snacks"
 	task.59E321C52E654C45.title: "Done"
 	task.5FDA54BBFF2D4462.title: "Any #modular_machinery_reborn:fluidinputhatch"
 	task.63BADE7974903F2D.title: "Any #modular_machinery_reborn:fluidoutputhatch"
+	task.64B3FF3B33529390.title: "Done"
+	task.66AE23D9CE5E1A84.title: "Done"
 	task.66E900774CCBB6B9.title: "Moon Resources"
 	task.692A3B59A895E673.title: "Done"
+	task.6D9BC2531F7DA31F.title: "Done"
 	task.7087400AAAB692F5.title: "Done"
 	task.70A2723EF2CCE0DF.title: "Done"
 	task.70F521F330F16058.title: "Done"
 	task.716F16B01DED9B06.title: "Done"
+	task.79EF01D3C296455A.title: "Any #farmersdelight:sweets"
 	task.7AB332E7354B2624.title: "Done"
+	task.7B507F6D2198906D.title: "Silver Wings"
 	task.7F4DB491D563F076.title: "Done"
 }

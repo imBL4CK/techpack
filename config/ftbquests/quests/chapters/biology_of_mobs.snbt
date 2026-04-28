@@ -1,0 +1,182 @@
+{
+	autofocus_id: "1D84CFAD6CFAD2F3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biology_of_mobs"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "dungeonsdelight:spider_extract"
+	}
+	id: "49A0378775107271"
+	images: [
+		{
+			height: 2.0d
+			image: "dungeonsdelight:item/wormwood_hanging_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "dungeonsdelight:item/wormwood_hanging_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "dungeonsdelight:item/wormwood_hanging_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "dungeonsdelight:item/wormwood_hanging_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			height: 2.0d
+			image: "dungeonsdelight:item/wormwood_hanging_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 2.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "dungeonsdelight:monster_pot"
+			}
+			id: "1D84CFAD6CFAD2F3"
+			rewards: [{
+				id: "34D1FA7F7E5E6B7D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "7BB073C2B81B3FBF"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "minecraft:zombie_spawn_egg"
+			}
+			id: "0A09F2EA50A063B6"
+			rewards: [{
+				count: 4
+				id: "39C86E4E9D0D7403"
+				item: {
+					count: 1
+					id: "minecraft:rotten_flesh"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "103707982A260447"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "290AFD6FDD371066"
+			rewards: [{
+				count: 4
+				id: "07BA80FDAFCBAB25"
+				item: {
+					count: 1
+					id: "minecraft:bone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "4EB8BD7EFAD744DE"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "3A357E89AC6E03A0"
+			rewards: [{
+				count: 4
+				id: "0E8D878533AB3D54"
+				item: {
+					count: 1
+					id: "minecraft:gunpowder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "7C9D673AAD851BB5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "548660C85C078428"
+			rewards: [{
+				count: 4
+				id: "53752A6A2D75C27D"
+				item: {
+					count: 1
+					id: "minecraft:spider_eye"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "2204978B706E96FD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			id: "2F208ECCEE69C7BE"
+			rewards: [{
+				count: 4
+				id: "02EE4DD61831AB6C"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "minecraft:enderman"
+				id: "6CE861646D29148D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+	]
+}

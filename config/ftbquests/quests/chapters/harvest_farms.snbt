@@ -1,4 +1,5 @@
 {
+	autofocus_id: "7409DC2804234B2F"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "harvest_farms"
@@ -7,56 +8,40 @@
 		id: "farmersdelight:wild_carrots"
 	}
 	id: "585CCFB426D45AB3"
-	order_index: 1
+	images: [
+		{
+			height: 2.0d
+			image: "farmersdelight:item/hanging_canvas_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:item/hanging_canvas_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "farmersdelight:item/hanging_canvas_sign"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
 	quest_links: [{
 		id: "1C234A5E6CD7E78D"
 		linked_quest: "56D1B7B34B0DECFC"
-		x: -6.0d
-		y: 0.5d
+		x: 0.0d
+		y: 5.5d
 	}]
 	quests: [
-		{
-			dependencies: ["3E3F7821391248A8"]
-			icon: {
-				id: "techpack:bee_house"
-			}
-			id: "500E72630047E1FA"
-			tasks: [
-				{
-					id: "605FCF576A5FEE5D"
-					item: { count: 1, id: "techpack:apiary" }
-					type: "item"
-				}
-				{
-					id: "550B70A57E4A48B0"
-					item: { count: 1, id: "techpack:bee_house" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["4BDD464E3F2ABE9D"]
-			icon: {
-				id: "techpack:common_bee_queen"
-			}
-			id: "3E3F7821391248A8"
-			tasks: [
-				{
-					id: "450F39603E1CE783"
-					item: { count: 1, id: "techpack:common_bee_drone" }
-					type: "item"
-				}
-				{
-					id: "4C64715E9E22A540"
-					item: { count: 1, id: "techpack:common_bee_queen" }
-					type: "item"
-				}
-			]
-			x: -4.0d
-			y: -0.5d
-		}
 		{
 			icon: {
 				id: "farmersdelight:wild_cabbages"
@@ -69,8 +54,8 @@
 				id: "3ABE5565C7DD98BF"
 				type: "checkmark"
 			}]
-			x: -5.5d
-			y: -3.5d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["7C80749170E1897E"]
@@ -85,19 +70,8 @@
 				to_observe: "minecraft:farmland"
 				type: "observation"
 			}]
-			x: -5.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["19B0325B0E19BD12"]
-			id: "4BDD464E3F2ABE9D"
-			tasks: [{
-				id: "20C17784454675B9"
-				item: { count: 1, id: "supplementaries:flax" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -0.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["19D5F64FB46BF6B7"]
@@ -122,11 +96,11 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: -0.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["4BDD464E3F2ABE9D"]
+			dependencies: ["7409DC2804234B2F"]
 			icon: {
 				id: "create:mechanical_harvester"
 			}
@@ -144,11 +118,11 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: -0.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["4BDD464E3F2ABE9D"]
+			dependencies: ["38DF092C5768AB6C"]
 			icon: {
 				id: "industrialforegoing:sewer"
 			}
@@ -165,11 +139,11 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 0.5d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0C8E07CBA287F6A2"]
+			dependencies: ["727A790A7CC5FE4E"]
 			icon: {
 				id: "industrialforegoing:animal_feeder"
 			}
@@ -191,52 +165,218 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
-			id: "4A04F4D941F658E6"
+			dependencies: [
+				"516493216BEC484C"
+				"19B0325B0E19BD12"
+			]
+			id: "7409DC2804234B2F"
 			tasks: [{
-				id: "7087400AAAB692F5"
-				type: "checkmark"
+				id: "02CF4D9B48664D92"
+				item: { count: 1, id: "farmersdelight:organic_compost" }
+				type: "item"
 			}]
-			x: -2.0d
-			y: -3.0d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["4A04F4D941F658E6"]
-			id: "7BB5DE5484347A22"
+			dependencies: ["7409DC2804234B2F"]
+			id: "42F317DBA97747AC"
+			optional: true
+			shape: "circle"
 			tasks: [{
-				id: "3280F488E32E43F4"
+				id: "7AC84635CED75F91"
+				item: { count: 1, id: "supplementaries:planter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14ABCE219E289B0E"]
+			id: "7FC25BB9B82A47BC"
+			tasks: [{
+				id: "0775CA48C2020205"
 				item: { count: 1, id: "techpack:apiary" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["4A04F4D941F658E6"]
-			id: "06F0EAB239A18677"
+			dependencies: ["7FC25BB9B82A47BC"]
+			id: "13C403A923CE6183"
 			tasks: [{
-				id: "1D6F91EF2B679044"
+				id: "2F1229F6E2620019"
 				item: { count: 1, id: "techpack:bee_house" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13C403A923CE6183"]
+			id: "3420672BB2D66453"
+			tasks: [{
+				id: "65232D323B3672B7"
+				item: { count: 1, id: "techpack:mutation_station" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "dungeonsdelight:stained_scrap"
+			}
+			icon_scale: 0.8d
+			id: "727A790A7CC5FE4E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3609ADAA2D619310"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				id: "techpack:common_bee_drone"
+			}
+			icon_scale: 0.8d
+			id: "085A1040CB00EEAF"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "66AE23D9CE5E1A84"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["085A1040CB00EEAF"]
+			icon: {
+				id: "techpack:wild_forest_nest"
+			}
+			id: "14ABCE219E289B0E"
+			tasks: [{
+				id: "4C8B1E5EE2307DC5"
+				observe_type: 1
+				timer: 0L
+				to_observe: "techpack:bee_nests"
+				type: "observation"
+			}]
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
-				"06F0EAB239A18677"
-				"7BB5DE5484347A22"
+				"7961BA9015DE7075"
+				"22C113710EA79324"
 			]
-			id: "0591E033D5A7F38F"
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "4A5E76E755F85CCC"
+			rewards: [
+				{
+					id: "214D9F1266A83142"
+					item: {
+						count: 1
+						id: "industrialforegoing:ether_gas_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "17553EE8DAFD5FBD"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [
+				{
+					id: "240515F718ADCA86"
+					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+					type: "item"
+				}
+				{
+					id: "4E40E24EF8E0B26B"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+				{
+					id: "53D44A508C6E9F24"
+					item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["727A790A7CC5FE4E"]
+			id: "3A1F47408CA50727"
 			tasks: [{
-				id: "24BB2EB83DD040D8"
-				type: "checkmark"
+				id: "65FC39129AB836DE"
+				item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A1F47408CA50727"]
+			id: "22C113710EA79324"
+			tasks: [{
+				id: "66C4E7194B079FC4"
+				item: { count: 1, id: "industrialforegoing:mob_crusher" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A5E76E755F85CCC"]
+			icon: {
+				id: "industrialforegoingsouls:soul_laser_base"
+			}
+			id: "041B00E247F27FD3"
+			tasks: [
+				{
+					id: "621EBD425DE9E5BC"
+					item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "59F8CCAA6924F998"
+					item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
+					type: "item"
+				}
+				{
+					id: "6DE91B1E174F3D65"
+					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["041B00E247F27FD3"]
+			id: "427BBA29F8D3131F"
+			tasks: [{
+				id: "16D30C1745ECA88F"
+				item: { count: 1, id: "hostilenetworks:sim_chamber" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
 		}
 	]
 }

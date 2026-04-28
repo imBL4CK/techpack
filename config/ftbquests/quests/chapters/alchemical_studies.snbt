@@ -7,6 +7,14 @@
 		id: "eidolon_repraised:crucible"
 	}
 	id: "6D756BCE50B770D7"
+	images: [{
+		height: 2.0d
+		image: "malum:block/banners/soulwoven_banner_break"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: -3.0d
+	}]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
@@ -78,7 +86,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["456483F245D53C22"]
@@ -127,6 +135,9 @@
 			size: 1.0d
 			tasks: [
 				{
+					icon: {
+						id: "malum:void_depot"
+					}
 					id: "46D6401A5AFF1376"
 					observe_type: 0
 					timer: 0L
@@ -190,6 +201,36 @@
 			]
 			x: -1.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2F59C6052DDC876B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "malum:large_strange_crystal"
+			}
+			id: "5D27599F8A06793C"
+			rewards: [
+				{
+					id: "0B22B3D4925BB31B"
+					item: {
+						count: 1
+						id: "techpack:budding_strange_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "19629D300A302849"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "486138295C75FED6"
+				item: { count: 1, id: "malum:large_strange_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
 		}
 	]
 }

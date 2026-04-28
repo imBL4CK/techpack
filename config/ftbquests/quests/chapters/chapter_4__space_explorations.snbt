@@ -46,33 +46,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["751A22EA3B470B4D"]
-			icon: {
-				id: "industrialforegoingsouls:soul_laser_base"
-			}
-			id: "05600F66BE6EB256"
-			tasks: [
-				{
-					id: "5C96E316E2635364"
-					item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7E330F3D9AA3C395"
-					item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
-					type: "item"
-				}
-				{
-					id: "266EEE12B71BA065"
-					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
-					type: "item"
-				}
-			]
-			x: -3.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["1F05558CC482F6F1"]
 			icon: {
 				id: "techpack:smd_capacitor"
@@ -145,8 +118,8 @@
 				item: { count: 1, id: "techpack:obsidian_focal_lens" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			icon: {

@@ -57,6 +57,14 @@
 			x: 1.5d
 			y: -4.0d
 		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_colorful_world"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -258,6 +266,16 @@
 			]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			id: "77F42814AE6A37AD"
+			tasks: [{
+				id: "130F2C055F57685F"
+				item: { count: 1, id: "modular_angelring:angel_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 }

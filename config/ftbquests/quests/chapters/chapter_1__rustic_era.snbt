@@ -291,8 +291,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: 7.0d
+			x: 6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3827FDBB6FDA7DAC"]
@@ -574,30 +574,6 @@
 		}
 		{
 			dependencies: ["516493216BEC484C"]
-			id: "1CF3499992DEAC9D"
-			tasks: [{
-				id: "6230E01835506EA8"
-				item: { count: 1, id: "farmersdelight:organic_compost" }
-				type: "item"
-			}]
-			x: 9.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["1CF3499992DEAC9D"]
-			id: "18BD92C01809163B"
-			optional: true
-			shape: "circle"
-			tasks: [{
-				id: "731C15F1D4738B9F"
-				item: { count: 1, id: "supplementaries:planter" }
-				type: "item"
-			}]
-			x: 10.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["516493216BEC484C"]
 			icon: {
 				id: "create:white_sail"
 			}
@@ -615,18 +591,7 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 7.0d
-		}
-		{
-			id: "7108004BE6176984"
-			shape: "circle"
-			tasks: [{
-				id: "131F49E2323CB44D"
-				item: { count: 1, id: "create:empty_blaze_burner" }
-				type: "item"
-			}]
-			x: 4.5d
+			x: 5.5d
 			y: 5.0d
 		}
 		{
@@ -662,8 +627,8 @@
 				item: { components: { "modular_machinery_reborn:machine": "techpack:steam_quarry" }, count: 1, id: "modular_machinery_reborn:controller" }
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.0d
+			x: 13.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["186763FC5A59D49A"]

@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "encyclopedia_of_zoology"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "naturalist:capture_net"
+	}
+	id: "6CA4BCDE5DB5DD95"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "naturalist:capture_net"
+			}
+			icon_scale: 0.8d
+			id: "3C4DE67E902647AE"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "42AB253E776C2602"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6CDDFA771C0C3AD0"
+			tasks: [{
+				icon: {
+					id: "naturalist:alligator_spawn_egg"
+				}
+				id: "0DA3010DB174D48F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:alligator"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			id: "42EA80357EAF9711"
+			tasks: [{
+				icon: {
+					id: "naturalist:bass_spawn_egg"
+				}
+				id: "590027CFD33A4C8A"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:bass"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "5B312C829D447165"
+			tasks: [{
+				icon: {
+					id: "minecraft:cow_spawn_egg"
+				}
+				id: "1DFE2268F7121C72"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:cow"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4C45258ECF6E5D93"
+			tasks: [{
+				icon: {
+					id: "naturalist:bear_spawn_egg"
+				}
+				id: "6315F28CD6C4571C"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:bear"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "naturalist:sparrow_spawn_egg"
+			}
+			id: "2E0383F12074DF07"
+			tasks: [
+				{
+					icon: {
+						id: "naturalist:cardinal_spawn_egg"
+					}
+					id: "05ECDDC3C25DBE17"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:cardinal"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:canary_spawn_egg"
+					}
+					id: "06837C308AD3F28A"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:canary"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:bluejay_spawn_egg"
+					}
+					id: "266ECF45676267D9"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:bluejay"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:robin_spawn_egg"
+					}
+					id: "003A73C815E08785"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:robin"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:sparrow_spawn_egg"
+					}
+					id: "61215DB5F71CD22D"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:sparrow"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:finch_spawn_egg"
+					}
+					id: "60103F28CC833022"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:finch"
+					type: "observation"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "33A081BE0E4C1769"
+			tasks: [{
+				icon: {
+					id: "naturalist:boar_spawn_egg"
+				}
+				id: "12BA3F7672374DD7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:boar"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "6FE1F2207412D225"
+			tasks: [{
+				icon: {
+					id: "naturalist:butterfly_spawn_egg"
+				}
+				id: "7B507F6D2198906D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:butterfly"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "76F43BCEA6F55E0F"
+			tasks: [{
+				icon: {
+					id: "naturalist:catfish_spawn_egg"
+				}
+				id: "611A822CC83EF2CD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:catfish"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "naturalist:deer_spawn_egg"
+			}
+			id: "7157C541E8C744BF"
+			tasks: [{
+				icon: {
+					id: "naturalist:deer_spawn_egg"
+				}
+				id: "6CDCC2E24D9CC840"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:deer"
+				type: "observation"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+}
