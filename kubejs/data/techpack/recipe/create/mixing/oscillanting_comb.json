@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:oscillanting_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:beewax"
+    },
+    {
+      "id": "minecraft:ender_pearl"
+    },
+    {
+      "id": "create:honey",
+      "amount": 50
+    }
+  ]
+}

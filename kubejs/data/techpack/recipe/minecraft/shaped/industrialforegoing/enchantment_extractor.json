@@ -1,27 +1,27 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "HDH",
-    "LCL",
-    "SPS"
+    "PGP",
+    "RMR",
+    "SCS"
   ],
   "key": {
-    "H": {
+    "P": {
       "item": "techpack:hdpe_sheet"
     },
-    "D": {
-      "item": "forbidden_arcanus:dark_matter"
+    "G": {
+      "item": "minecraft:grindstone"
     },
-    "L": {
-      "item": "malum:spirit_catalyzer"
+    "R": {
+      "item": "malum:mimicry_relay"
     },
-    "C": {
+    "M": {
       "item": "techpack:advanced_machine_casing"
     },
     "S": {
       "item": "techpack:redstone_spiritual_coil"
     },
-    "P": {
+    "C": {
       "item": "techpack:spiritual_circuit"
     }
   },

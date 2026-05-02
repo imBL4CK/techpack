@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:warm_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:beewax"
+    },
+    {
+      "id": "minecraft:nether_wart"
+    },
+    {
+      "id": "create:honey",
+      "amount": 50
+    }
+  ]
+}

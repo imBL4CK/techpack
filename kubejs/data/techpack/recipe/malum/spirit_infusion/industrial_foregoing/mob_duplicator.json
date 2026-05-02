@@ -1,0 +1,62 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "techpack:spiritual_circuit"
+        },
+        {
+            "item": "techpack:flint_and_soul"
+        },
+        {
+            "item": "techpack:platinum_gear",
+            "count": 2
+        },
+        {
+            "item": "malum:fused_consciousness"
+        },
+        {
+            "item": "malum:mimicry_relay"
+        }
+    ],
+    "input": {
+        "item": "techpack:sophisticated_machine_casing",
+        "count": 1
+    },
+    "result": {
+        "id": "industrialforegoing:mob_duplicator"
+    },
+    "spirits": [
+        {
+            "type": "malum:sacred",
+            "count": 16
+        },
+        {
+            "type": "malum:wicked",
+            "count": 16
+        },
+        {
+            "type": "malum:arcane",
+            "count": 16
+        },
+        {
+            "type": "malum:eldritch",
+            "count": 16
+        },
+        {
+            "type": "malum:aerial",
+            "count": 16
+        },
+        {
+            "type": "malum:aqueous",
+            "count": 16
+        },
+        {
+            "type": "malum:earthen",
+            "count": 16
+        },
+        {
+            "type": "malum:infernal",
+            "count": 16
+        }
+    ]
+}

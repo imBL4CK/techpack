@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PFP",
+    "BMB",
+    "RCR"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "F": {
+      "item": "minecraft:fishing_rod"
+    },
+    "B": { 
+      "item": "minecraft:barrel"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:marine_fisher"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FSF",
+    "BMB",
+    "RCR"
+  ],
+  "key": {
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "S": {
+      "item": "techpack:steel_pickaxe"
+    },
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "R": {
+      "tag": "c:gears/constantan"
+    },
+    "C": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:material_stonework_factory"
+  }
+}

@@ -118,8 +118,8 @@
 				item: { count: 1, id: "techpack:obsidian_focal_lens" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
 			icon: {
@@ -160,8 +160,8 @@
 					type: "item"
 				}
 			]
-			x: -7.0d
-			y: 1.0d
+			x: -0.5d
+			y: -2.5d
 		}
 		{
 			icon: {
@@ -190,8 +190,8 @@
 					type: "item"
 				}
 			]
-			x: -6.0d
-			y: 1.0d
+			x: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["7F60326D17B1085D"]
@@ -277,8 +277,8 @@
 				item: { count: 1, id: "pipez:universal_pipe" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -2.5d
+			x: -1.0d
+			y: -1.5d
 		}
 	]
 }

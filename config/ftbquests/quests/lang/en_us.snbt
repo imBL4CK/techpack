@@ -15,7 +15,7 @@
 	chapter.6CA4BCDE5DB5DD95.title: "Encyclopedia of Zoology"
 	chapter.6D756BCE50B770D7.title: "Alchemical Studies"
 	chapter.6D8DF15E67E008D3.title: "Space Exploration Program"
-	chapter.7696EE02F2B1DD58.title: "Energy Controll"
+	chapter.7696EE02F2B1DD58.title: "Energy Control"
 	chapter_group.21AA9A7C71ABF0D8.title: "About"
 	chapter_group.225813B7649167DE.title: "Chapters"
 	chapter_group.4013D3AC383A588F.title: "Mysteries of This World"
@@ -39,6 +39,14 @@
 	quest.00370791B3F4498A.quest_desc: ["&9Chests&r and &9barrels&r they are a bit more expensive in this modpack; if you manage to craft them, congratulations, you're one of the TechPack players!"]
 	quest.00370791B3F4498A.quest_subtitle: "&5Craft a Chest or a Barrel"
 	quest.00370791B3F4498A.title: "Vanilla Storage"
+	quest.00E7DBCB639B2833.quest_desc: [
+		"An &9sophisticated circuit&r with &eanalog and digital components&r."
+		""
+		"From here, &dsophisticated machines&r can be created, &zlaser drills, digital mob farms ad much, much more!&r"
+		""
+		"- &aChapter 3 completed!&r And now is where we separate the &caverage engineers from the great engineers.&r"
+	]
+	quest.00E7DBCB639B2833.quest_subtitle: "&5Craft a Sophisticated Circuit"
 	quest.00E7DBCB639B2833.title: "Path to Late Game"
 	quest.01684DC50632DE61.quest_desc: [
 		"&9Eidolon rituals are very useful&r, capable of spawning mobs, creating items, taking control of mobs, among &dother things&r."
@@ -83,7 +91,20 @@
 	]
 	quest.039AD7F88A0159CD.quest_subtitle: "&5Craft Coils"
 	quest.039AD7F88A0159CD.title: "Energy Coils"
-	quest.03E0EB184E5D142C.title: "Automating Crops (with Energy)"
+	quest.03E0EB184E5D142C.title: "Automating Crops 2: with Energy"
+	quest.03F49E1F493EA39A.quest_desc: [
+		"&9Lizards&r spawn in groups of 1-2 in various biomes, including but not limited to &eswamps, forests, and jungles&r."
+		""
+		"&dLizards can be tamed using spider eyes&r, in which they will follow their new owner and &ecan be commanded to sit&r."
+		""
+		"&e-&rTheir tails regrow after &912,000 ticks, or 1 minute&r."
+		""
+		"&e-&r Lizards drop their tails &aupon reaching half health&r. "
+		""
+		"Their tail will flop around, and mobs will sometimes &cprioritize it as their new target&r, but not always."
+	]
+	quest.03F49E1F493EA39A.quest_subtitle: "&5Observe a Lizard"
+	quest.03F49E1F493EA39A.title: "The Best U-Turn User"
 	quest.0441A15B3E47D93F.quest_desc: [
 		"&9Pressure Chamber&r is a &emulti-block structure&r used to compress various materials into others. "
 		""
@@ -205,6 +226,20 @@
 	quest.1153F30F21CC20AC.title: "The Hungry Guy"
 	quest.11927E2D181B985E.quest_subtitle: "&5Get a Clibano Oven"
 	quest.11927E2D181B985E.title: "The Clibano Oven"
+	quest.123E0D14A836DCEE.quest_desc: ["Simply craft the base for &esophisticated circuits&r."]
+	quest.123E0D14A836DCEE.quest_subtitle: "&5Craft a Sophisticated Circuit Board"
+	quest.123E0D14A836DCEE.title: "Expensive Plates"
+	quest.12A2A2FDF6A37C74.quest_desc: [
+		"&zTesseract allows you to transport Items, Fluid and Energy! &r"
+		""
+		"Tesseracts work at &aany distance and even across dimensions&r. "
+		""
+		"Use multiple channels to have &9different groups&r of Tesseracts!"
+		""
+		"&e-&r The chunk where the tesseract is located &cneeds to be loaded&r for it to function correctly."
+	]
+	quest.12A2A2FDF6A37C74.quest_subtitle: "&5Craft a Tesseract"
+	quest.12A2A2FDF6A37C74.title: "Teleporting Resources"
 	quest.12D8383ABF9B4FC0.quest_desc: [
 		"Generating stress with create isn't that difficult, so you can take advantage of this fact to convert &zSU to RF&r"
 		""
@@ -238,6 +273,26 @@
 	]
 	quest.14D21C3042F0550E.quest_subtitle: "&5Craft an Inscriber"
 	quest.14D21C3042F0550E.title: "5nm AGAIN?"
+	quest.14D704B6C031E5B8.quest_desc: [
+		"&9Ptfe, commonly known as Teflon&r, is a high-performance, non-stick synthetic polymer &eresistant to high temperatures and corrosive chemicals&r."
+		""
+		"&dIt is used in sophisticated machines&r due to its superior properties compared to &apolyethylene.&r"
+	]
+	quest.14D704B6C031E5B8.quest_subtitle: "&5Craft a Ptfe Sheet"
+	quest.14D704B6C031E5B8.title: "Chemical Resistant Plastic"
+	quest.1599DD4F25990658.quest_desc: [
+		"&9Pigs are passive mobs&r that inhabit &eforests and field biomes&r."
+		""
+		"Unlike other mobs, they can be &cequipped with saddles&r for manual transport."
+		""
+		"&e-&r To guide them, the player must use a &dcarrot on a stick&r while riding."
+		""
+		"&e-&r If a pig is struck by lightning, it &dtransforms into a zombified piglin&r."
+		""
+		"They can be &alured and bred&r using carrots, potatoes, or beetroots."
+	]
+	quest.1599DD4F25990658.quest_subtitle: "&5Observe a Pig"
+	quest.1599DD4F25990658.title: "Peppa Relatives"
 	quest.15F90AD6D095D568.quest_desc: [
 		"It seems the steam age has barely begun and electricity has already arrived, and you're not wrong! &9Electricity and steam go hand in hand.&r"
 		""
@@ -247,6 +302,15 @@
 	]
 	quest.15F90AD6D095D568.quest_subtitle: "&5Craft Basic Circuit"
 	quest.15F90AD6D095D568.title: "Eletric Era"
+	quest.161890B727ED875B.quest_desc: [
+		"&9Ducks are passive mobs&r that can be found in &eswamp biomes&r, slapping their webbed feet &9upon the ground as they walk&r."
+		""
+		"&e-&r &dDucks wander aimlessly&r but follow Players holding seeds."
+		""
+		"&9Upon entering water&r, ducks will bring in their legs and float on the water, not&a flapping their wings like chickens&r."
+	]
+	quest.161890B727ED875B.quest_subtitle: "&5Observe a Duck"
+	quest.161890B727ED875B.title: "StarDucks"
 	quest.17ACC3F136B65A84.title: "Storing energy"
 	quest.186763FC5A59D49A.quest_desc: [
 		"&9Crafting table&r is the basis of any gameplay, being the &emain mechanic&r of all progression"
@@ -259,7 +323,8 @@
 	]
 	quest.186763FC5A59D49A.quest_subtitle: "&5Craft a Crafting Table"
 	quest.186763FC5A59D49A.title: "Lets Start! (again)"
-	quest.19D5F64FB46BF6B7.title: "Automating Crops (with Energy)"
+	quest.19B0325B0E19BD12.title: "Cultivating"
+	quest.19D5F64FB46BF6B7.title: "Automating Crops: With Create"
 	quest.19F32B9CCB6C65AF.quest_desc: [
 		"&dAn improved version of the makeshift mechanism&r with adjustments that allow for greater precision."
 		""
@@ -348,6 +413,23 @@
 	]
 	quest.1B8B125979228105.quest_subtitle: "&5Unlock The Magic Path"
 	quest.1B8B125979228105.title: "World of a Thaumaturge"
+	quest.1CA283D2AE709200.quest_desc: [
+		"The &9Freezer&r is indispensable from this point on, in it, &every hot materials are cooled&r, most of which are metals."
+		""
+		"To see how the structure is built, you can view it in &aEMI/JEI&r or by clicking on the controller with a &dBlueprint&r"
+		""
+		"&5→&r Multi-Blocks Structures "
+		"{@pagebreak}"
+		"&9# Multi-Blocks Structures&r"
+		""
+		"Multi-blocks are structures that work like machines, but have some differences such as:"
+		""
+		"&e-&r &9Having hatches&r: Blocks that are outputs and inputs for items, fluids or energy. "
+		"&e-&r &9Have a controller&r: Main block of the structure"
+		"&e-&r &9Follow a construction model&r: Each multiblock has a different structure"
+	]
+	quest.1CA283D2AE709200.quest_subtitle: "&5Build a Freezer"
+	quest.1CA283D2AE709200.title: "The Big Ice Box"
 	quest.1D84CFAD6CFAD2F3.quest_desc: [
 		"Are you curious about the &cmonsters in this world?&r This quest tab is here to &eanswer your questions&r!"
 		""
@@ -355,6 +437,32 @@
 	]
 	quest.1D84CFAD6CFAD2F3.quest_subtitle: "&5Kill a Monster"
 	quest.1D84CFAD6CFAD2F3.title: "Welcome to the Mobestiary"
+	quest.1D95FC606C3B22F5.quest_desc: [
+		"&9Tortoises&r spawn in groups of 1-3 &ein various biomes, including but not limited to swamps, jungles and deserts&r."
+		""
+		"&e-&r Depending on the biome they spawn in, &dtortoises may have different appearances.&r"
+		""
+		"&9If a player approaches a tortoise without sneaking&r or holding one of their favored food items, tortoises &ewill hide in their shell and not move&r until the player leaves them alone."
+		""
+		"&e-&r &aTortoises can be tamed and bred with&r dandelions, brown mushrooms, cactuses, or bamboo."
+		""
+		"Upon breeding, one of the tortoises &dwill look around for a spot to lay their eggs&r before playing a digging animation with particles.  "
+	]
+	quest.1D95FC606C3B22F5.quest_subtitle: "&5Observe a Tortoise"
+	quest.1D95FC606C3B22F5.title: "Mr. Huguei "
+	quest.1D973035BC215BCB.quest_desc: [
+		"&9Wolves are neutral mobs&r found in &eforests, taigas, and groves&r."
+		""
+		"While they usually ignore players, &cthey will attack in a pack&r if a single member is struck."
+		""
+		"&e-&r Wolves can be &atamed by feeding them bones&r, turning them into loyal pets."
+		""
+		"&e-&r Once tamed, they &dwirelessly track and attack mobs&r that the player strikes or is struck by."
+		""
+		"Tamed wolves can be &abred using any type of meat&r, including raw or cooked varieties."
+	]
+	quest.1D973035BC215BCB.quest_subtitle: "&5Observe a Wolf"
+	quest.1D973035BC215BCB.title: "Men Best Friend"
 	quest.249468D2EF78C781.quest_desc: [
 		"In TechPack, you start with &a10 hearts&r, but you can increase your health to &920 hearts&r by finding &ehealth crystals&r in caves."
 		""
@@ -363,9 +471,9 @@
 	quest.249468D2EF78C781.quest_subtitle: "&5Informations About the Health System"
 	quest.249468D2EF78C781.title: "Incrasing Health"
 	quest.24F5ECC2B60B0519.quest_desc: [
-		"Previously, generating power with steam could be a hassle, as the steam dynamo required both steam and rotational energy, generating low amounts of RF."
+		"Previously, &9generating power with steam could be a hassle&r, as the steam dynamo required both &csteam and rotational energy&r, generating low amounts of RF."
 		""
-		"The &9Basic Steam Turbine&r generates greater amounts of power than the steam dynamo, using less steam and not requiring rotational energy, which can be a significant advantage."
+		"The &eBasic Steam Turbine&r generates greater amounts of power than the steam dynamo, using &aless steam and not requiring rotational energy&r, which can be a significant advantage."
 		""
 		"&5>&r Multi-Blocks Structures "
 		"{@pagebreak}"
@@ -446,6 +554,21 @@
 	]
 	quest.281FDAC6E901BD9E.quest_subtitle: "&5Build a rustic oven"
 	quest.281FDAC6E901BD9E.title: "Its a Furnace?"
+	quest.2821968A7665099A.quest_desc: [
+		"&9Working with wires all the time is annoying&r, and spamming wires can make your factory look uglier, so how &aabout using connection interfaces&r?"
+		""
+		"Connection interfaces are &ddivided into 3&r:"
+		""
+		"&e- Energy&r: Redstone-Flux Cable"
+		"&e- Fluids&r: Bronze Fluid Pipe"
+		"&e- Items&r: Logistical Tube"
+		""
+		"To extract one of these components, simply &eshift-right-clicking with a wrench&r change the interface &dconnected to the block to extraction mode&r."
+		""
+		"The player can still add modules to &cimprove its properties&r."
+	]
+	quest.2821968A7665099A.quest_subtitle: "&5Craft Some Connection Interfaces"
+	quest.2821968A7665099A.title: "Smart Connections"
 	quest.2878382BDDB9DE0E.quest_desc: [
 		"&eA mysterious dark gem&r shrouded in secrecy, born from a sudden &calchemical accident.&r"
 		""
@@ -477,6 +600,17 @@
 	]
 	quest.2AC97EB35CA8AC08.quest_subtitle: "&5Cast a wrough iron ingot"
 	quest.2AC97EB35CA8AC08.title: "Casting Iron"
+	quest.2CCF2DA8517CADD0.quest_desc: [
+		"&9Pattern Providers&r are blocks used to &eperform autocrafting&r."
+		""
+		"They receive &aencoded recipe patterns&r and send the items to &dconnected machines or interfaces&r."
+		""
+		"They are the &e\"middleman\"&r that takes the recipe and makes it happen on the machines."
+		""
+		"&9Renamed pattern providers&r retain their name &ceven when placed on the ground&r, this can be useful for &avisualization in a pattern access terminal&r."
+	]
+	quest.2CCF2DA8517CADD0.quest_subtitle: "&5Craft a Pattern Provider"
+	quest.2CCF2DA8517CADD0.title: "Requesting"
 	quest.2E0383F12074DF07.quest_desc: [
 		"&9Birds are tamable passive mobs&r that spawn in various biomes &edependent on their variant&r."
 		""
@@ -511,6 +645,12 @@
 	]
 	quest.2E3119B4776760D3.quest_subtitle: "&5About Mob Drop Duplication"
 	quest.2E3119B4776760D3.title: "Duplicating Organic Drops"
+	quest.2E5A55ECEC89EE28.quest_desc: [
+		"Your great friend, &9the assembler, returns&r, but this time with &amany more recipes&r!"
+		""
+		"The advanced tier assembler &eunlocks many new recipes&r, some will &drequire a cleanroom,&r so I recommend &cchecking out the quest&r."
+	]
+	quest.2E5A55ECEC89EE28.quest_subtitle: "&5Craft a Advanced Assembler"
 	quest.2E5A55ECEC89EE28.title: "Machines, Assembler²"
 	quest.2E5C04DFB553EF81.quest_desc: [
 		"&9Flint and Soul&r is a tool with strange properties, it has the ability to &zrevive certain mobs&r when it interacts with the &4remains of their bodies&r."
@@ -541,9 +681,14 @@
 		"Controller &aneeds energy to work&r, and &cconsumes passively amount of RF/t&r based the &eamount of channels used&r."
 		""
 		"&e-&r The energy can be inserted directly or using an &9energy acceptor&r."
+		""
 		"&e-&r If you need more information about, open the &9ME Guide&r to see more."
 	]
 	quest.2F9B50A24683B55D.quest_subtitle: "&5Craft a ME Controller"
+	quest.2F9B50A24683B55D.title: "AWS Server"
+	quest.2FC8D33BFBB76D04.quest_desc: ["&9A rocket station&r is a workstation &ewhere rockets are made&r."]
+	quest.2FC8D33BFBB76D04.quest_subtitle: "&5Craft a Rocket Station"
+	quest.2FC8D33BFBB76D04.title: "Producing Rockets"
 	quest.30979A86A7F8434C.quest_desc: [
 		"&dA powerful magical relic&r that allows you to &ztake control of mobs&r."
 		""
@@ -574,6 +719,19 @@
 	quest.3099B9CF5A6DABBF.title: "Finding Meteorites"
 	quest.3173942E6EEFE774.quest_subtitle: "&5Build a Thermal Evaporation Tower"
 	quest.3173942E6EEFE774.title: "The Large Orange Tower"
+	quest.31BCD68D7131DFFC.quest_desc: [
+		"&9Chickens are small passive mobs&r found in almost &eevery terrestrial biome&r."
+		""
+		"They provide resources such as &ceggs, feathers, and raw chicken&r."
+		""
+		"&e-&r Chickens &dflap their wings to fall slowly&r, making them immune to fall damage."
+		""
+		"&e-&r They lay an egg periodically, which can be &ethrown to try and hatch a chick&r."
+		""
+		"They can be &abred using any type of seed&r."
+	]
+	quest.31BCD68D7131DFFC.quest_subtitle: "&5Observe a Chicken"
+	quest.31BCD68D7131DFFC.title: "Egg Source"
 	quest.33A081BE0E4C1769.quest_desc: [
 		"&9Boars are passive mobs&r found commonly in &esavanna biomes and forests&r. "
 		""
@@ -588,6 +746,19 @@
 	]
 	quest.33A081BE0E4C1769.quest_subtitle: "&5Observe a Boar"
 	quest.33A081BE0E4C1769.title: "Hakuna Matata"
+	quest.3457A9F9B4CCAD4F.quest_desc: [
+		"&9Rhinos&r spawn in groups of 3-4 in &esavanna biomes&r."
+		""
+		"&dRhinos are relatively docile&r but will begin attacking players who &cattack them or their calves&r."
+		""
+		"If attacked by players, they will scrape their foot on the ground a few times &ebefore quickly charging in a straight line&r. "
+		""
+		"Upon hitting the player, they will be &cknocked into the air as well as backwards&r, a bit similar to &diron golems&r."
+		""
+		"If blocked with a shield, &athis attack will in turn stun them&r, giving the player time to run away or attack."
+	]
+	quest.3457A9F9B4CCAD4F.quest_subtitle: "&5Observe a Rhino"
+	quest.3457A9F9B4CCAD4F.title: "A Strong Thrust"
 	quest.34B0C2176A78341B.quest_desc: ["A strange, &9solid iron component&r used for crafting &zarcane items&r, but which seems very suitable for use in &amulti-block machines&r."]
 	quest.34B0C2176A78341B.quest_subtitle: "&5Craft a Anomalous Design"
 	quest.34B0C2176A78341B.title: "DaVinci's like artifact"
@@ -667,9 +838,33 @@
 	]
 	quest.3C4DE67E902647AE.quest_subtitle: "&5Start Researching Animals"
 	quest.3C4DE67E902647AE.title: "Gotta See 'Em All"
+	quest.3C72F10EE49F265A.quest_desc: [
+		"&9The Cooking Pot&r is necessary for &ecooking certain recipes&r."
+		""
+		"It needs to be&6 heated by a heat source&r such as Magma Block or Stove and features a &5simple interface&r"
+		""
+		"&e- 6 slots&r for possible ingredients"
+		"&e- 1 slot&r for a container"
+		"&e- 1 output&r slot"
+		""
+		"&dThe Cooking Pot takes 10 seconds&r to cook each recipe and can &agenerate experience depending on the recipe&r."
+	]
 	quest.3C72F10EE49F265A.quest_subtitle: "&5Craft a Cooking Pot"
 	quest.3C72F10EE49F265A.title: "Grandma's Cooking Pot"
 	quest.3C8214476DF01296.title: "Nano Suit"
+	quest.3D4CAC55E1578EC7.quest_desc: [
+		"&9Elephants&r spawn above grass in &esavanna biomes&r in groups of 2-3."
+		""
+		"&dElephants roam the savannas aimlessly&r, similar to other mobs, but when they come into the &cvicinity of a bee they will run away quickly&r."
+		""
+		"Elephant &9calves will follow their parents&r with a maximum distance of 12 blocks, &equickly following if they stray too far away&r. "
+		""
+		"&aElephants do not attack players&r who come near their calves, but &cwill attack players&r if they attack their calves."
+		""
+		"&9Elephants can not be bred&r and can only be found with &ecalves upon natural spawning&r."
+	]
+	quest.3D4CAC55E1578EC7.quest_subtitle: "&5Observe a Elephant"
+	quest.3D4CAC55E1578EC7.title: "The Powerful Guardian of the Savannas"
 	quest.3DE253B80BC28A15.quest_desc: [
 		"&9Processors&r are the foundation of &ecutting-edge technology&r and have taken you to &8space&r."
 		""
@@ -712,6 +907,17 @@
 	]
 	quest.42F317DBA97747AC.quest_subtitle: "&5Craft a Planter"
 	quest.42F317DBA97747AC.title: "Portable Farmland"
+	quest.440E777F442A2313.quest_desc: [
+		"&9The Skillet&r functions like a campfire, but can store up to 64 items, &efrying one at a tim&re."
+		""
+		"&e-&r Interestingly, it can also be used as a weapon, &4dealing 8 damage&r."
+		""
+		"It needs to be heated by a &6heat source&r like a Magma Block or Stove and &edoes not have an interface&r."
+		""
+		"When an ingredient is fried, the skillet &adrops it upwards&r, allowing it to be collected with blocks &9like the Andesite Funnel&r."
+		""
+		"The skillet t&eakes 6 seconds to fry each recipe&r, but this time can be reduced if &denchanted with Flame Aspect&r."
+	]
 	quest.440E777F442A2313.quest_subtitle: "&5Craft a Skillet"
 	quest.440E777F442A2313.title: "A Powerful Weapon (and Skillet too)"
 	quest.45498BBB06221F20.quest_desc: [
@@ -731,9 +937,11 @@
 	quest.456483F245D53C22.quest_subtitle: "&5Welcome to Alchemy"
 	quest.456483F245D53C22.title: "The Matter is Equivalent"
 	quest.45A37C53986F22D5.quest_desc: [
-		"Combustion engines are a very efficient means of generating significant amounts of energy; however, the problem lies in fuel production."
+		"&9Combustion engines&r are a very efficient means of &egenerating significant amounts of energy&r. "
 		""
-		"Petroleum-based fuels are not renewable, so it is important to maintain significant oil reserves before starting to operate factories solely with combustion engines."
+		"&e-&r Petroleum-based fuels &care not renewable&r"
+		""
+		"So it is important to &dmaintain significant oil reserves&r before starting to operate factories &asolely with combustion engines&r."
 	]
 	quest.45A37C53986F22D5.quest_subtitle: "&5Craft a Combustion Engine"
 	quest.45A37C53986F22D5.title: "Burning Fuels"
@@ -756,6 +964,15 @@
 	]
 	quest.46ECDD632284CEF0.quest_subtitle: "&5Setup an Stock System"
 	quest.46ECDD632284CEF0.title: "Item Management System"
+	quest.47851A8850400707.quest_desc: [
+		"&9ME drives&r allow items to be &estored digitally&r."
+		""
+		"&e-&r ME drives &crequire energy&r to work"
+		""
+		"To better understand &9how bytes and cell types work&r, I recommend looking at the &dAE2 Guide&r."
+	]
+	quest.47851A8850400707.quest_subtitle: "&5Craft a ME Drive"
+	quest.47851A8850400707.title: "Digital Storage"
 	quest.48B631EFC46D2785.quest_desc: [
 		"&dA \"deleted\" chapter&r, beacause contains quests related to items involving &znecromancy or occult magic&r."
 		""
@@ -763,6 +980,28 @@
 	]
 	quest.48B631EFC46D2785.quest_subtitle: "&5The Dark Side of the Force"
 	quest.48B631EFC46D2785.title: "Forbidden Knowlodge"
+	quest.4A5E76E755F85CCC.quest_desc: [
+		"&9Ether gas is a fluid&r that can be extracted from the &ewither using a fluid laser base&r."
+		""
+		"The fluid laser base &dneeds laser drills nearby&r to operate."
+		""
+		"&9If you're observant&r, you should know that the &cwither destroys blocks when it comes into contact with them&r, which is why the &dstasis chamber&r is essential."
+		""
+		"&5→&r Laser Drills and Laser Bases "
+		"{@pagebreak}"
+		"&d# Laser Drills and Laser Bases"
+		""
+		"Laser bases &aproduce materials&r when loaded by &elaser drills&r."
+		""
+		"&9Laser drills&r &crequire energy to work&r, laser bases do not."
+		""
+		"&5→&r Stasis Chamber"
+		"{@pagebreak}"
+		"&d# Stasis Chamber"
+		""
+		"&9When provided with eergy&r, this machine will &afreeze and heal any entity&r that are in its working area"
+	]
+	quest.4A5E76E755F85CCC.quest_subtitle: "&5Collect Ether Gas"
 	quest.4A5E76E755F85CCC.title: "Playing with Danger"
 	quest.4A7DF1FB2DAC43DB.quest_desc: [
 		"&zReaching the moon has been one of humanity's goals since we learned to make fire&r. "
@@ -796,6 +1035,20 @@
 		"When broken, it generates &arare earths&r, but it &edrops itself when collected with a silk touch&r."
 	]
 	quest.4A7DF1FB2DAC43DB.quest_subtitle: "&5Reach the Moon"
+	quest.4A7DF1FB2DAC43DB.title: "A Small Step For the Player..."
+	quest.4ACE4A31F18DA010.quest_desc: [
+		"&9Sheep are common passive mobs&r primarily used for their &ewool and mutton&r."
+		""
+		"They are found in &eplains and forest biomes&r, often in small flocks."
+		""
+		"&e-&r Sheep can be &dsheared using shears&r to obtain 1-3 blocks of wool without killing them."
+		""
+		"&e-&r Like deer, they &doccasionally lean down to eat grass&r, which regrows their wool."
+		""
+		"They can be &atempted and bred using wheat&r, following the player similar to cows."
+	]
+	quest.4ACE4A31F18DA010.quest_subtitle: "&5Observe a Sheep"
+	quest.4ACE4A31F18DA010.title: "A Small Ball of Cloud"
 	quest.4BD0D15459102CA2.title: "Storing Spirits"
 	quest.4C45258ECF6E5D93.quest_desc: [
 		"&9Bears&r spawn above grass in &eforested biomes and taigas&r in groups of up to two. "
@@ -818,17 +1071,6 @@
 	]
 	quest.4C45258ECF6E5D93.quest_subtitle: "&5Observe a Bear"
 	quest.4C45258ECF6E5D93.title: "A True Honey Fan"
-	quest.4C9158FCCC463F40.quest_desc: [
-		"&zTesseract allows you to transport Items, Fluid and Energy! &r"
-		""
-		"Tesseracts work at &aany distance and even across dimensions&r. "
-		""
-		"Use multiple channels to have &9different groups&r of Tesseracts!"
-		""
-		"&e-&r The chunk where the tesseract is located &cneeds to be loaded&r for it to function correctly."
-	]
-	quest.4C9158FCCC463F40.quest_subtitle: "&5Craft a Tesseract"
-	quest.4C9158FCCC463F40.title: "Teleporting Resources"
 	quest.4D75A138430C9516.quest_desc: [
 		"One of the pillars for advancing &9Magical Innovation&r is the&e Mimicry Relay&r."
 		""
@@ -961,6 +1203,21 @@
 	]
 	quest.55D4F942D097AFE9.quest_subtitle: "&5Craft a Finished PCB&r"
 	quest.55D4F942D097AFE9.title: "Let the Digital Age Begin!"
+	quest.5604AE927884A044.quest_desc: [
+		"&9Lions&r spawn in groups of 3-5 above in &esavanna biomes&r. "
+		""
+		"&e-&r There is a likely chance for groups to&d have at least one lion cub&r."
+		""
+		"&e-&r Upon spawning, lions assign one of the female lions as the &dleader of the pride&r, This is visualized by &clions without manes&r. "
+		""
+		"If this lion dies, &9they will assign a new leader&r. Lions will follow the pride leader and they will &calso hunt in groups at night&r."
+		""
+		"&9When hunting at night&r, lions will slowly stalk their prey before &egetting close enough to sprint and attack them&r. "
+		""
+		"Some lions are lost in the process if they try to take down a larger, more powerful prey, but &aotherwise they are usually successful&r."
+	]
+	quest.5604AE927884A044.quest_subtitle: "&5Observe a Lion"
+	quest.5604AE927884A044.title: "Savanna King"
 	quest.569832E4F84893A0.quest_subtitle: "&5About Farmer's Delight Heat Sources"
 	quest.569832E4F84893A0.title: "Heat Sources"
 	quest.56D1B7B34B0DECFC.quest_desc: [
@@ -984,6 +1241,12 @@
 		"&e-&r &9Arcane gold&r, in turn, has &abetter mana conduction capabilities&r, which makes it indispensable for devices."
 	]
 	quest.58535926C5D34E59.quest_subtitle: "&5Craft Arcane Gold"
+	quest.58868289E73B54D9.quest_desc: [
+		"&9Desh solar panels&r simply generate energy &eduring the day without any fuel costs&r."
+		""
+		"Their &conly restriction for operation&r is that they must be in direct sunlight."
+	]
+	quest.58868289E73B54D9.quest_subtitle: "&5Craft a Desh Solar Panel"
 	quest.591CDC829FF9FC28.quest_desc: [
 		"&9Atomic Reconstruction&r periodically fires a laser beam that &etransforms resources&r."
 		""
@@ -1005,6 +1268,25 @@
 	]
 	quest.5A719562329A55D7.quest_subtitle: "&5Craft a Basket"
 	quest.5A719562329A55D7.title: "Storing Resources"
+	quest.5AE9F0D7DF8B4305.quest_desc: [
+		"&9Assembly machines&r communicate with each other when they are horizontally adjacent. &eNote that only one machine of each type&r can exist in the system &c(with the exception of the Assembly IO Unit)&r."
+		""
+		"&e-&r The assembly line runs on &dcompressed air&r."
+		""
+		"&e-&r You only need to &dsupply air to the Assembly Controller&r to power the whole system."
+		""
+		"&e-&r The Controller &daccepts programs to command other machines&r, and its GUI shows diagnostic information about its status."
+	]
+	quest.5AE9F0D7DF8B4305.quest_subtitle: "&5Build a Assembly Line"
+	quest.5B312C829D447165.quest_desc: [
+		"&9Cows are passive mobs&r found in &eplains and forest biomes&r."
+		""
+		"&e-&r They can be milked at any time using an &9empty bucket&r."
+		""
+		"&e-&r They will follow the player who is holding &awheat&r in their hands."
+		""
+		"For &5breeding&r, the player must feed two adult cows wheat, resulting in a calf."
+	]
 	quest.5B312C829D447165.quest_subtitle: "&5Observe a Cow"
 	quest.5B312C829D447165.title: "Milk Source"
 	quest.5BFA90D464D2BECB.quest_subtitle: "&5Get a Hephaestus Forge"
@@ -1047,6 +1329,17 @@
 	quest.5D27599F8A06793C.quest_subtitle: "&5Get Strange Crystals"
 	quest.5D27599F8A06793C.title: "Producing Crystals"
 	quest.5DFC978053E54990.title: "Jet Suit"
+	quest.5E811B732A0D41C9.quest_desc: [
+		"&9Zebras&r spawn in groups of 2-3 in &esavanna biomes&r."
+		""
+		"&e-&r For the most part, &azebras act like horses.&r "
+		""
+		"The differences are that zebras actively &erun from players when approached&r and move slightly faster in water."
+		""
+		"&dZebras can be tamed and bred&r similar to normal horses, but they are a&c little harder to tame due to needing to run after them&r."
+	]
+	quest.5E811B732A0D41C9.quest_subtitle: "&5Observe a Zebra"
+	quest.5E811B732A0D41C9.title: "Black with White Stripes or White with Black Stripes?"
 	quest.5FB97C7AD100E989.quest_desc: ["&dA simple transmission assembly&r that serves as the basis for the construction of &eprimitive steam machines&r."]
 	quest.5FB97C7AD100E989.quest_subtitle: "&5Craft a Bronze Machine Casing"
 	quest.5FB97C7AD100E989.title: "Steam Power"
@@ -1079,6 +1372,15 @@
 	]
 	quest.61269CD93AF58105.quest_subtitle: "&5Automating Concepts&r"
 	quest.61269CD93AF58105.title: "The Factory Must Grow"
+	quest.61AC9420EC1437CB.quest_desc: [
+		"&9Fireflies are flying passive mobs&r that can be found flying around &eduring night&r."
+		""
+		"&dFireflies aimlessly fly around&r, flickering the glow of their behind on and off in &esomewhat random intervals&r."
+		""
+		"When it becomes daylight and a Firefly &cis not nametagged or persistent&r via something like being put in a Boat, &aThey will go into the grass&r, spawning grass breaking particles and a small &dshuffling noise before despawning&r."
+	]
+	quest.61AC9420EC1437CB.quest_subtitle: "&5Observe a Firefly"
+	quest.61AC9420EC1437CB.title: "Natural Lights"
 	quest.641436DAB4BEAE18.quest_subtitle: "&5Get a Spirit Altar"
 	quest.641436DAB4BEAE18.title: "Spirit Infusion"
 	quest.659E7809B3C26998.quest_desc: [
@@ -1130,6 +1432,19 @@
 	]
 	quest.65F7EB4863FD3FDD.quest_subtitle: "&5Make a windmill generator"
 	quest.65F7EB4863FD3FDD.title: "Friend of the Winds"
+	quest.660BEB9C31B2DC00.quest_desc: [
+		"&9Hippos&r spawn in groups of 3-4 in &esavanna biomes near or in sources of water&r."
+		""
+		"&dHippos aimlessly wander around the savannas&r, occasionally taking a dip in the cool water where &9they will randomly swim around&r."
+		""
+		"&e-&r &cHippos attack boats&r as well as players who come into the water."
+		""
+		"&e-&r Hippos can be tempted and &afed melon blocks&r. "
+		""
+		"&e-&r They will only actually &dbreed if they are in the water&r."
+	]
+	quest.660BEB9C31B2DC00.quest_subtitle: "&5Observe a Hippo"
+	quest.660BEB9C31B2DC00.title: "I Like 'em Big, I Like 'em Chunky."
 	quest.68361AB7488A4928.quest_desc: [
 		"&eAs mentioned before&r, at certain points the tech path will merge with the magical one, and this &9chapter serves precisely that purpose&r."
 		""
@@ -1139,6 +1454,19 @@
 	quest.68361AB7488A4928.title: "Become a Magical Engineering"
 	quest.689A412F4D529E43.quest_subtitle: "&5Welcome to the Madness"
 	quest.689A412F4D529E43.title: "Ancient knowledge"
+	quest.68CEF89D7E9E2B79.quest_desc: [
+		"&9Dragonflies are flying passive mobs&r that can be found flying around in &eswamp biomes&r."
+		""
+		"&dDragonflies randomly zip&r around in the air, making buzzing noises as they fly."
+		""
+		"&e-&r &dTheir flying patterns&r are a bit more jagged than bees."
+		""
+		"&aDragonflies are considered arthropods&r and take increased damage from the &9Bane of Arthropods enchantment&r."
+		""
+		"Feeding them a &dchorus fruit will make them burp&r, letting out a small puff of a &csingle bottle’s worth of dragon’s breath&r."
+	]
+	quest.68CEF89D7E9E2B79.quest_subtitle: "&5Observe a Dragonfly"
+	quest.68CEF89D7E9E2B79.title: "Distant Relatives of the Ender Dragon"
 	quest.69CDC1ABCED6AD47.quest_desc: [
 		"&eTransistors&r and &4Resistors&r are the components you will use to craft your more &zadvanced circuits&r. "
 		""
@@ -1159,8 +1487,15 @@
 		"&e-&r Connections to shafts can be &amade on the top face&r."
 	]
 	quest.6AAC34DD92895126.quest_subtitle: "&5Craft an Animated Mechanical Motor"
+	quest.6C23D4D6D2CC0776.quest_desc: [
+		"&zCongratulations on getting this far! You were exceptional!&r"
+		""
+		"&dUpon reaching Chapter 3&r, you are &aofficially in the mid-game&r, and from here on, you will unlock many new mechanics that will help in the creation of your next &efactories and systems&r!"
+		""
+		"&9This chapter may seem shorter than the previous one&r, but don't be fooled, there are &emany things you unlock from here on out&r."
+	]
 	quest.6C23D4D6D2CC0776.quest_subtitle: "&5Welcome to Chapter 3"
-	quest.6C23D4D6D2CC0776.title: "Advanced Age"
+	quest.6C23D4D6D2CC0776.title: "The Era of Big Systems"
 	quest.6CB6CC7509BD29F1.quest_desc: [
 		"&cSulfur is important in rubber manufacturing&r. It's a widely used component in techpacks and can be easily obtained:"
 		""
@@ -1180,9 +1515,15 @@
 	]
 	quest.6CDDFA771C0C3AD0.quest_subtitle: "&5Observe an Alligator"
 	quest.6CDDFA771C0C3AD0.title: "Swamp Predator"
-	quest.6D124E989E9EDE6B.title: "Smart Connections"
 	quest.6D18BC8E8DCCD9DD.quest_subtitle: "&5Craft Basic Malum Ingots"
 	quest.6D18BC8E8DCCD9DD.title: "Transforming Metals"
+	quest.6D6E649FFD15DFCA.quest_desc: [
+		"&9Vultures&r spawn in groups of 2-4 in &esavanna, badlands and desert biomes&r."
+		""
+		"Vultures are &dpassive mobs&r that fly in the skies."
+	]
+	quest.6D6E649FFD15DFCA.quest_subtitle: "&5Observe a Vulture"
+	quest.6D6E649FFD15DFCA.title: "Frameeenguu"
 	quest.6D89226FAC5DB309.title: "Important Items"
 	quest.6FE1F2207412D225.quest_desc: [
 		"&9Butterflies are flying passive mobs&r that can be found flying around in &eforest biomes&r. "
@@ -1260,6 +1601,21 @@
 	]
 	quest.7409DC2804234B2F.quest_subtitle: "&5Get Organic Compost"
 	quest.7409DC2804234B2F.title: "Reusing Compounds"
+	quest.745A97E23586BBDC.quest_desc: [
+		"&9Giraffes&r spawn in groups of 2-4 in &esavanna biomes&r."
+		""
+		"&aGiraffes wander around savanna biomes&r, looking around with their tall necks."
+		""
+		"&dThey wander aimlessly&r, running from the player for a short period when attacked. &eBaby giraffes follow their parents&r like other mobs."
+		""
+		"&dGiraffes can be fed apples or golden apples&r to allow the player to &aride them for 30 seconds&r. "
+		""
+		"&e-&r While riding giraffes, &9the player’s map distance is increased by 1.5x&r. "
+		""
+		"&e-&r Giraffes can be &9bred with hay bales&r, and can only be bred when they’re not being ridden."
+	]
+	quest.745A97E23586BBDC.quest_subtitle: "&5Observe a Giraffe"
+	quest.745A97E23586BBDC.title: "The Long Necks"
 	quest.751A22EA3B470B4D.title: "Digital Mob Farm"
 	quest.76F43BCEA6F55E0F.quest_desc: [
 		"&9Catfish are common aquatic passive mobs&r found in &eswamps and swamp-like biomes&r."
@@ -1286,8 +1642,31 @@
 		"For maximum power, it is essential to use the &9Blaze Burner&r as a heat source. The level of energy generated is limited by the lowest factor among these three."
 	]
 	quest.785CF666F705A22B.quest_subtitle: "&5Craft a Steam Engine"
-	quest.7961BA9015DE7075.title: "Producing Rockets"
 	quest.7B354A632B37DF1C.title: "Spaceman's Suit"
+	quest.7B6D7069D17F1596.quest_desc: [
+		"&9Snakes&r spawn in solitary groups of 1 in &evarious biomes, including but not limited to forest, plains and swamps.&r"
+		""
+		"&e-&r Depending on the biome they spawn in, &dsnakes may have different appearances&r."
+		""
+		"&e-&r Snakes have a 20% chance to &9spawn with an item in their stomach&r."
+		""
+		"If a snake has no item in its stomach, &dit will search out dropped items that it can eat&r and will consume them. "
+		""
+		"&e-&r Snakes sleep from the ticks of &a12,000-18,000&r and &a23,000 to 28,000&r. "
+		""
+		"&eIf attacked while sleeping&r, they will &cwake up angry&r, and will not go back to sleep for a little while after either losing range or killing what attacked them."
+		""
+		"&5→&r About Stomach "
+		"{@pagebreak}"
+		"&d# About Stomach"
+		""
+		"After &96,000 ticks or 5 minutes&r, the item will be &edigested and its stomach will be emptied&r."
+		""
+		"&cItems drop from Snakes when harmed&r like they’re spitting up their food, and upon doing this the item will have an &a80 tick (4 second) timer before it can be picked up&r. "
+		""
+		"During this time, the snake &cwill attack the player or mob&r that hurt it."
+	]
+	quest.7B6D7069D17F1596.quest_subtitle: "&5Observe all the Snakes"
 	quest.7B8E25DCCC07E764.quest_desc: [
 		"A Cleanroom is a &9controlled environment designed to minimize contamination&r."
 		""
@@ -1301,6 +1680,13 @@
 	]
 	quest.7B8E25DCCC07E764.quest_subtitle: "&5Make a Cleanroom"
 	quest.7B8E25DCCC07E764.title: "The Cleanroom"
+	quest.7BAA685E060A0E52.quest_desc: [
+		"&9Terminals&r allow you to access &edifferent functionalities of a system&r."
+		""
+		"The most common functionality is for &dviewing items and crafting&r, but there are also terminals for &aencoding recipes&r and &bviewing the pattern providers&r connected to the system."
+	]
+	quest.7BAA685E060A0E52.quest_subtitle: "&5Craft ME Terminal"
+	quest.7BAA685E060A0E52.title: "The Windows"
 	quest.7C3978F95F040B1F.quest_desc: [
 		"A variation of dynamos that converts &zspiritual energy&r into &credstone flux&r. "
 		""
@@ -1312,6 +1698,21 @@
 	]
 	quest.7C3978F95F040B1F.quest_subtitle: "&5Craft a Mimicry Dynamo"
 	quest.7C80749170E1897E.title: "Agriculture"
+	quest.7C9A67E36E0BD524.quest_desc: [
+		"&9Snails&r spawn in groups of 1-3 in &evarious biomes, including forest, savannas, plains, swamps and mushroom fields among many more&r"
+		""
+		"&dSnails randomly crawl around&r, making squishy noises as they move, and if a player approaches, &9they will stop moving and hide in their shells&r."
+		""
+		"Snails can be bucketed, and will &abecome persistent when released&r, not despawning. "
+		""
+		"They can also be &drenamed in an anvil using this item&r, without the need for name tags, similar to axolotls."
+		""
+		"&e-&r Snails can be dyed, and will change their texture when this is done. &aThey will also not despawn.&r"
+		""
+		"Snails can be &abred with Beetroot&r and will lay an egg block that works similarly to &dFrogspawn but is placed on solid blocks&r."
+	]
+	quest.7C9A67E36E0BD524.quest_subtitle: "&5Observe a Snail"
+	quest.7C9A67E36E0BD524.title: "Larries"
 	quest.7E149CDFA2486CAE.quest_desc: [
 		"A weapon imbued with a &zmysterious Umbral energy&r, it possesses the uncanny &9ability to reap the heads of mobs&r, including the &3warden&r."
 		""
@@ -1396,15 +1797,16 @@
 	task.120D62F6CF199E23.title: "Any #farmersdelight:drinks"
 	task.16372B74700E2DEA.title: "Any #farmersdelight:meals"
 	task.1A353F5ED5BE4FEC.title: "Done"
+	task.1C229888FFAD65D9.title: "Any #modular_machinery_reborn:energyinputhatch"
 	task.24BB2EB83DD040D8.title: "Done"
 	task.24E292689073998A.title: "Done"
 	task.26B6D53304ED0A54.title: "Done"
 	task.2C84467B424AD0CC.title: "Done"
-	task.2CEF1E067E37068E.title: "A Small Step For the Player..."
+	task.2DBA26114B530FCE.title: "Any #modular_machinery_reborn:fluidinputhatch"
 	task.2DD606F67DC05528.title: "Done"
-	task.2F686B58A7156201.title: "Done"
 	task.3376EB8825E22FB3.title: "Done"
 	task.34771B4B5B8027A0.title: "Done"
+	task.354016C026D776C2.title: "Any #modular_machinery_reborn:outputbus"
 	task.3609ADAA2D619310.title: "Done"
 	task.3A1900B02D223AF6.title: "Done"
 	task.3ABE5565C7DD98BF.title: "Done"
@@ -1424,6 +1826,7 @@
 	task.66AE23D9CE5E1A84.title: "Done"
 	task.66E900774CCBB6B9.title: "Moon Resources"
 	task.692A3B59A895E673.title: "Done"
+	task.6970DAE5637F5860.title: "Any #modular_machinery_reborn:inputbus"
 	task.6D9BC2531F7DA31F.title: "Done"
 	task.7087400AAAB692F5.title: "Done"
 	task.70A2723EF2CCE0DF.title: "Done"

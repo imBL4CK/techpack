@@ -24,6 +24,7 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("pipez:infinity_upgrade", "Creative Connection Module");
   event.renameItem("supplementaries:wrench", "Rotation Wrench");
   event.renameItem("create:electron_tube", "Rose Quartz Electron Tube");
+  event.renameItem("create:brass_hand", "Rose Quartz Hand");
   event.renameItem("ftbquests:book", "Quest Log");
   event.renameItem("industrialforegoing:bioreactor", "Bio-Reaction Chamber");
   event.renameItem("industrialforegoing:biofuel_generator", "Bio-Burning Generator");
@@ -40,6 +41,7 @@ ClientEvents.lang("en_us", (event) => {
   event.renameItem("stellaris:big_green_can", "Big Tin Can");
   event.renameItem("stellaris:vacuumator", "Canning Machine");
   event.renameItem("stellaris:tablet", "Stellar Terminal");
+  event.renameItem("stellaris:solar_panel", "Desh Solar Panel");
   event.renameItem("actuallyadditions:single_battery", "Single Zinc Rechargeable Cell");
   event.renameItem("actuallyadditions:double_battery", "Double Zinc Rechargeable Cell");
   event.renameItem("actuallyadditions:triple_battery", "Single Lead Rechargeable Cell");

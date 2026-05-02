@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "GMG",
+    "RCR"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "B": {
+      "item": "minecraft:brewing_stand"
+    },
+    "G": {
+      "item": "minecraft:glass_bottle"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:potion_brewer"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FGF",
+    "UMU",
+    "RCR"
+  ],
+  "key": {
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "G": {
+      "item": "techpack:obsidian_glass"
+    },
+    "U": [
+      { "item": "farmersdelight:brown_mushroom_colony" },
+      { "item": "farmersdelight:red_mushroom_colony" }
+    ],
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:spores_recreator"
+  }
+}

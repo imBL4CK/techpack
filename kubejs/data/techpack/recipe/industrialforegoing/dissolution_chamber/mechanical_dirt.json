@@ -1,0 +1,37 @@
+{
+    "type": "industrialforegoing:dissolution_chamber",
+    "processingTime": 300,
+    "input": [
+        {
+            "item": "techpack:basic_machine_casing"
+        },
+        {
+            "item": "farmersdelight:rich_soil"
+        },
+        {
+            "item": "farmersdelight:rich_soil"
+        },
+        {
+            "item": "farmersdelight:straw"
+        },
+        {
+            "item": "farmersdelight:straw"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "minecraft:rotten_flesh"
+        },
+        {
+            "item": "techpack:redstone_spiritual_coil"
+        }
+    ],
+    "inputFluid": {
+        "fluid": "industrialforegoing:meat",
+        "amount": 1000
+    },
+    "output": {
+        "id": "industrialforegoing:mechanical_dirt"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "techpack:spiritual_circuit"
+        },
+        {
+            "item": "techpack:flint_and_soul"
+        },
+        {
+            "item": "techpack:platinum_gear",
+            "count": 2
+        },
+        {
+            "item": "minecraft:wither_skeleton_skull",
+            "count": 2
+        }
+    ],
+    "input": {
+        "item": "techpack:sophisticated_machine_casing",
+        "count": 1
+    },
+    "result": {
+        "id": "industrialforegoing:wither_builder"
+    },
+    "spirits": [
+        {
+            "type": "malum:eldritch",
+            "count": 8
+        },
+        {
+            "type": "malum:wicked",
+            "count": 16
+        }
+    ]
+}

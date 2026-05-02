@@ -7,6 +7,32 @@
 		id: "naturalist:capture_net"
 	}
 	id: "6CA4BCDE5DB5DD95"
+	images: [
+		{
+			height: 8.0d
+			image: "kevs_attributes_panel:textures/gui/gui.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			height: 8.0d
+			image: "kevs_attributes_panel:textures/gui/gui.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			height: 8.0d
+			image: "kevs_attributes_panel:textures/gui/gui.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 8.0d
+			y: 6.0d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
@@ -37,8 +63,8 @@
 				to_observe: "naturalist:alligator"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 6.5d
+			x: 7.5d
+			y: 3.5d
 		}
 		{
 			id: "42EA80357EAF9711"
@@ -52,8 +78,8 @@
 				to_observe: "naturalist:bass"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 5.0d
+			x: 6.5d
+			y: 3.5d
 		}
 		{
 			id: "5B312C829D447165"
@@ -67,8 +93,8 @@
 				to_observe: "minecraft:cow"
 				type: "observation"
 			}]
-			x: 0.0d
-			y: 2.0d
+			x: -2.5d
+			y: 3.5d
 		}
 		{
 			id: "4C45258ECF6E5D93"
@@ -82,8 +108,8 @@
 				to_observe: "naturalist:bear"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 6.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -152,8 +178,8 @@
 					type: "observation"
 				}
 			]
-			x: 0.0d
-			y: 3.5d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			id: "33A081BE0E4C1769"
@@ -167,8 +193,8 @@
 				to_observe: "naturalist:boar"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 2.0d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			id: "6FE1F2207412D225"
@@ -182,7 +208,7 @@
 				to_observe: "naturalist:butterfly"
 				type: "observation"
 			}]
-			x: 1.5d
+			x: -10.5d
 			y: 3.5d
 		}
 		{
@@ -197,8 +223,8 @@
 				to_observe: "naturalist:catfish"
 				type: "observation"
 			}]
-			x: -1.5d
-			y: 5.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			icon: {
@@ -215,8 +241,303 @@
 				to_observe: "naturalist:deer"
 				type: "observation"
 			}]
-			x: -3.0d
-			y: 2.0d
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			id: "68CEF89D7E9E2B79"
+			tasks: [{
+				icon: {
+					id: "naturalist:dragonfly_spawn_egg"
+				}
+				id: "2AB61DEB3BFC9830"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:dragonfly"
+				type: "observation"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			id: "161890B727ED875B"
+			tasks: [{
+				icon: {
+					id: "naturalist:duck_spawn_egg"
+				}
+				id: "5E82BE6024B5DB4F"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:duck"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			id: "3D4CAC55E1578EC7"
+			tasks: [{
+				icon: {
+					id: "naturalist:elephant_spawn_egg"
+				}
+				id: "5110D2E4908A1EBF"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:elephant"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			id: "61AC9420EC1437CB"
+			tasks: [{
+				icon: {
+					id: "naturalist:firefly_spawn_egg"
+				}
+				id: "3734E8D1EF83CF46"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:firefly"
+				type: "observation"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			id: "745A97E23586BBDC"
+			tasks: [{
+				icon: {
+					id: "naturalist:giraffe_spawn_egg"
+				}
+				id: "5C488B3B5B61B999"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:giraffe"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+		{
+			id: "660BEB9C31B2DC00"
+			tasks: [{
+				icon: {
+					id: "naturalist:hippo_spawn_egg"
+				}
+				id: "265483BD7B7A8CBC"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:hippo"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			id: "5604AE927884A044"
+			tasks: [{
+				icon: {
+					id: "naturalist:lion_spawn_egg"
+				}
+				id: "533323AB43BBCC2E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:lion"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			id: "03F49E1F493EA39A"
+			tasks: [{
+				icon: {
+					id: "naturalist:lizard_spawn_egg"
+				}
+				id: "5D362BBF19200149"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:lizard"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			id: "3457A9F9B4CCAD4F"
+			tasks: [{
+				icon: {
+					id: "naturalist:rhino_spawn_egg"
+				}
+				id: "2545CB90267EE0C7"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:rhino"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "7C9A67E36E0BD524"
+			tasks: [{
+				icon: {
+					id: "naturalist:snail_spawn_egg"
+				}
+				id: "7C162BED8AA0C42D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:snail"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				id: "naturalist:snake_spawn_egg"
+			}
+			id: "7B6D7069D17F1596"
+			tasks: [
+				{
+					icon: {
+						id: "naturalist:coral_snake_spawn_egg"
+					}
+					id: "2F1779E32814FD43"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:coral_snake"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:rattlesnake_spawn_egg"
+					}
+					id: "3A163D45C59CE1DD"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:rattlesnake"
+					type: "observation"
+				}
+				{
+					icon: {
+						id: "naturalist:snake_spawn_egg"
+					}
+					id: "460C294BD766DF69"
+					observe_type: 5
+					timer: 0L
+					to_observe: "naturalist:snake"
+					type: "observation"
+				}
+			]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "1D95FC606C3B22F5"
+			tasks: [{
+				icon: {
+					id: "naturalist:tortoise_spawn_egg"
+				}
+				id: "48977B618D12F0FD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:tortoise"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			id: "6D6E649FFD15DFCA"
+			tasks: [{
+				icon: {
+					id: "naturalist:vulture_spawn_egg"
+				}
+				id: "19C9E0DE207EFCC9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:vulture"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			id: "5E811B732A0D41C9"
+			tasks: [{
+				icon: {
+					id: "naturalist:zebra_spawn_egg"
+				}
+				id: "5F3A61436587BFE9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "naturalist:zebra"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			id: "1599DD4F25990658"
+			tasks: [{
+				icon: {
+					id: "minecraft:pig_spawn_egg"
+				}
+				id: "0CD2876877CF6426"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:pig"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "31BCD68D7131DFFC"
+			tasks: [{
+				icon: {
+					id: "minecraft:chicken_spawn_egg"
+				}
+				id: "438624C05ADE2C9E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:chicken"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			id: "4ACE4A31F18DA010"
+			tasks: [{
+				icon: {
+					id: "minecraft:sheep_spawn_egg"
+				}
+				id: "350F497F711DA472"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:sheep"
+				type: "observation"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "1D973035BC215BCB"
+			tasks: [{
+				icon: {
+					id: "minecraft:wolf_spawn_egg"
+				}
+				id: "5AA30C85FEEDCB32"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:wolf"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 }

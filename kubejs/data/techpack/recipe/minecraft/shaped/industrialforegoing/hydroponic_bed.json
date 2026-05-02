@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HOH",
+    "GSG",
+    "RCR"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "O": {
+      "item": "techpack:organic_matter"
+    },
+    "G": {
+      "item": "techpack:obsidian_glass"
+    },
+    "S": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:hydroponic_bed"
+  }
+}

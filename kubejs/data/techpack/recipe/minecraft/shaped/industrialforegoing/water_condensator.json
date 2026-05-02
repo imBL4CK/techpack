@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PFP",
+    "UMU",
+    "RCR"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "F": {
+      "item": "techpack:basic_fluid_cell"
+    },
+    "U": {
+      "item": "create:mechanical_pump"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:water_condensator"
+  }
+}

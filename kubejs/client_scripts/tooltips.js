@@ -71,4 +71,52 @@ ItemEvents.modifyTooltips((e) => {
   e.modify("industrialforegoing:biofuel_generator", (tooltip) => {
     tooltip.insert(1, Text.translate("item.techpack.biofuel_generator.tooltip.1").color(yellow));
   });
+  e.modify("industrialforegoing:stasis_chamber", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.stasis_chamber.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:hydroponic_bed", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.hydroponic_bed.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:wither_builder", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.wither_builder.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:mob_duplicator", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.mob_duplicator.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:dissolution_chamber", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.dissolution_chamber.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:latex_processing_unit", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.latex_processing.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:plant_gatherer", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.plant_gatherer.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:plant_fertilizer", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.plant_fertilizer.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:plant_sower", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.plant_sower.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:sewer", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.sewer.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:sewage_composter", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.sewage_composter.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:mob_slaughter_factory", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.mob_slaughter_factory.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:mob_crusher", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.mob_crusher.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:animal_rancher", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.animal_rancher.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:animal_feeder", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.animal_feeder.tooltip.1").color(yellow));
+  });
+  e.modify("industrialforegoing:animal_baby_separator", (tooltip) => {
+    tooltip.insert(1, Text.translate("item.techpack.animal_baby_separator.tooltip.1").color(yellow));
+  });
 });

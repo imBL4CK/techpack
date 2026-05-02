@@ -59,8 +59,20 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["21079FF23179A062"]
+			dependencies: [
+				"21079FF23179A062"
+				"7B8E25DCCC07E764"
+			]
 			id: "2FC8D33BFBB76D04"
+			rewards: [{
+				count: 4
+				id: "6CDD05F0BAE665D7"
+				item: {
+					count: 1
+					id: "techpack:heavy_duty_plate"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "72A23D935B3512B1"
 				item: { count: 1, id: "stellaris:rocket_station" }
@@ -72,7 +84,7 @@
 		{
 			dependencies: [
 				"32737D429A709A97"
-				"7961BA9015DE7075"
+				"2FC8D33BFBB76D04"
 			]
 			id: "4A7DF1FB2DAC43DB"
 			rewards: [

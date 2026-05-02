@@ -7,6 +7,14 @@
 		id: "techpack:silver_battery_cell"
 	}
 	id: "7696EE02F2B1DD58"
+	images: [{
+		height: 2.0d
+		image: "dynamic_fps:textures/battery/icon/charging_10.png"
+		rotation: 0.0d
+		width: 2.0d
+		x: 3.0d
+		y: -1.5d
+	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -21,17 +29,6 @@
 			}]
 			x: 3.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["45A37C53986F22D5"]
-			id: "15ED0195EF216414"
-			tasks: [{
-				id: "139A5A05044CB96D"
-				item: { count: 1, id: "stellaris:solar_panel" }
-				type: "item"
-			}]
-			x: 4.5d
-			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -262,7 +259,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["15ED0195EF216414"]
 			id: "2BA4E7E30A17FE2F"
 			tasks: [{
 				id: "4F6EDF3785B5B13E"
@@ -271,6 +267,64 @@
 			}]
 			x: 5.0d
 			y: 3.5d
+		}
+		{
+			dependencies: ["45A37C53986F22D5"]
+			id: "58868289E73B54D9"
+			rewards: [
+				{
+					id: "22031017CE54CA2A"
+					type: "xp"
+					xp: 30
+				}
+				{
+					count: 4
+					id: "7F2A3A2A70AE30FB"
+					item: {
+						count: 1
+						id: "enderio:photovoltaic_plate"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "274489D46B33C679"
+				item: { count: 1, id: "stellaris:solar_panel" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				id: "pipez:energy_pipe"
+			}
+			id: "2821968A7665099A"
+			rewards: [{
+				id: "60AD9A99D13718F7"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "none"
+			tasks: [
+				{
+					id: "30A50A9911019785"
+					item: { count: 1, id: "pipez:energy_pipe" }
+					type: "item"
+				}
+				{
+					id: "24F1C4E784E87698"
+					item: { count: 1, id: "pipez:item_pipe" }
+					type: "item"
+				}
+				{
+					id: "2093356F1CA648B9"
+					item: { count: 1, id: "pipez:fluid_pipe" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -1.5d
 		}
 	]
 }

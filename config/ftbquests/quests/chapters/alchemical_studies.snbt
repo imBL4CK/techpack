@@ -209,21 +209,14 @@
 				id: "malum:large_strange_crystal"
 			}
 			id: "5D27599F8A06793C"
-			rewards: [
-				{
-					id: "0B22B3D4925BB31B"
-					item: {
-						count: 1
-						id: "techpack:budding_strange_crystal"
-					}
-					type: "item"
+			rewards: [{
+				id: "0B22B3D4925BB31B"
+				item: {
+					count: 1
+					id: "techpack:budding_strange_crystal"
 				}
-				{
-					id: "19629D300A302849"
-					type: "xp"
-					xp: 30
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				id: "486138295C75FED6"
 				item: { count: 1, id: "malum:large_strange_crystal" }

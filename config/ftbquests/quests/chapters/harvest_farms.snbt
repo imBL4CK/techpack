@@ -64,6 +64,9 @@
 			}
 			id: "19B0325B0E19BD12"
 			tasks: [{
+				icon: {
+					id: "minecraft:farmland"
+				}
 				id: "097E38E25D6D69BD"
 				observe_type: 0
 				timer: 0L
@@ -276,28 +279,21 @@
 		}
 		{
 			dependencies: [
-				"7961BA9015DE7075"
 				"22C113710EA79324"
+				"2FC8D33BFBB76D04"
 			]
 			icon: {
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "4A5E76E755F85CCC"
-			rewards: [
-				{
-					id: "214D9F1266A83142"
-					item: {
-						count: 1
-						id: "industrialforegoing:ether_gas_bucket"
-					}
-					type: "item"
+			rewards: [{
+				id: "214D9F1266A83142"
+				item: {
+					count: 1
+					id: "industrialforegoing:ether_gas_bucket"
 				}
-				{
-					id: "17553EE8DAFD5FBD"
-					type: "xp"
-					xp: 30
-				}
-			]
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "240515F718ADCA86"
@@ -312,6 +308,11 @@
 				{
 					id: "53D44A508C6E9F24"
 					item: { count: 1, id: "industrialforegoing:stasis_chamber" }
+					type: "item"
+				}
+				{
+					id: "0C442932C5C9C847"
+					item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }
 					type: "item"
 				}
 			]

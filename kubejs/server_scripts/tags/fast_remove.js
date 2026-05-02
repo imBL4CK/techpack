@@ -107,6 +107,12 @@ ServerEvents.tags("item", (e) => {
     "power_armor:armor_plating",
     "power_armor:compressor",
     "power_armor:machine_frame",
+    "industrialforegoing:resourceful_furnace",
+    "industrialforegoing:machine_frame_pity",
+    "industrialforegoing:machine_frame_simple",
+    "industrialforegoing:machine_frame_advanced",
+    "industrialforegoing:machine_frame_supreme",
+    "industrialforegoing:pitiful_generator",
   ];
   entry.forEach((remove) => {
     e.add("techpack:fast_remove", remove);

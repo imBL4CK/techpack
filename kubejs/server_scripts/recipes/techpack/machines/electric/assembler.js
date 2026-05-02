@@ -334,6 +334,36 @@ ServerEvents.recipes((e) => {
             "requireItem": ["3x techpack:tanned_leather", "2x minecraft:string", "#c:chests/wooden"],
             "produceItem": ["actuallyadditions:travelers_sack"],
         },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 13,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["malum:hallowed_gold_ingot", "create:brass_funnel"],
+            "produceItem": ["2x industrialforegoing:item_transporter_type"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 13,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["malum:hallowed_gold_ingot", "#techpack:electrical_insulators"],
+            "produceItem": ["2x industrialforegoing:fluid_transporter_type"],
+        },
+        {
+            "machineType": "techpack:basic_assembler",
+            "recipeTier": "basic",
+            "jeiDisplayPriority": 13,
+            "processingTime": 400,
+            "requireEnergy": { perTick: 20 },
+            "requireFluid": ["100x techpack:redstone_acid"],
+            "requireItem": ["malum:hallowed_gold_ingot", "minecraft:ender_pearl"],
+            "produceItem": ["2x industrialforegoing:world_transporter_type"],
+        },
     ]
     const AdvancedRecipes = [
         {
@@ -656,6 +686,26 @@ ServerEvents.recipes((e) => {
             "requireEnergy": { perTick: 20 },
             "requireItem": ["2x enderio:soul_chain", "2x enderio:soularium_ingot"],
             "produceItem": ["techpack:soul_machine_parts"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 11,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["techpack:advanced_machine_casing", "ae2:calculation_processor", "ae2:logic_processor", "ae2:fluix_covered_dense_cable"],
+            "produceItem": ["2x ae2:quantum_ring"],
+        },
+        {
+            "machineType": "techpack:advanced_assembler",
+            "recipeTier": "advanced",
+            "jeiDisplayPriority": 11,
+            "requireCleanroom": true,
+            "processingTime": 600,
+            "requireEnergy": { perTick: 100 },
+            "requireItem": ["pneumaticcraft:printed_circuit_board", "techpack:obsidian_glass", "2x malum:convoluted_lens", "enderio:ender_resonator"],
+            "produceItem": ["ae2:quantum_link"],
         },
     ]
     const SophisticatedRecipes = [

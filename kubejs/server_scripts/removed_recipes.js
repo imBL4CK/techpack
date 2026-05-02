@@ -318,6 +318,24 @@ ServerEvents.recipes((e) => {
     "actuallyadditions:triple_battery",
     "actuallyadditions:quadruple_battery",
     "actuallyadditions:quintuple_battery",
+    "industrialforegoing:wither_builder",
+    "industrialforegoing:hydroponic_bed",
+    "industrialforegoing:mob_duplicator",
+    "ae2:network/blocks/quantum_ring",
+    "ae2:network/blocks/quantum_link",
+    "industrialforegoing:water_condensator",
+    "industrialforegoing:sludge_refiner",
+    "industrialforegoing:potion_brewer",
+    "industrialforegoing:spores_recreator",
+    "industrialforegoing:dye_mixer",
+    "industrialforegoing:marine_fisher",
+    "industrialforegoing:mob_detector",
+    "industrialforegoing:material_stonework_factory",
+    "industrialforegoing:item_transporter_type",
+    "industrialforegoing:fluid_transporter_type",
+    "industrialforegoing:world_transporter_type",
+    "industrialforegoing:dissolution_chamber/mechanical_dirt",
+    "create:crafting/kinetics/brass_hand"
   ];
 
   remove_recipes.forEach((recipeID) => {  e.remove({ id: recipeID }) });

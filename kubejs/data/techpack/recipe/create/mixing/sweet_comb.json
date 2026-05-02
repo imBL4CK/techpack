@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:sweet_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:beewax"
+    },
+    {
+      "id": "minecraft:sugar"
+    },
+    {
+      "id": "create:honey",
+      "amount": 50
+    }
+  ]
+}

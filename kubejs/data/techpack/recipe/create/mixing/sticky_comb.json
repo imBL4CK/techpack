@@ -1,0 +1,21 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:sticky_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:beewax"
+    },
+    {
+      "id": "nomansland:resin"
+    },
+    {
+      "id": "create:honey",
+      "amount": 50
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "UMU",
+    "NCN"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "U": {
+      "item": "minecraft:cauldron"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "N": {
+      "tag": "c:gears/nickel"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:sludge_refiner"
+  }
+}
