@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "entries": [
+    "techpack:cavernous_bee_inject",
+    "techpack:enigmatic_bee_inject",
+    "techpack:fossil_bee_inject",
+    "techpack:wizard_bee_inject"
+  ]
+}

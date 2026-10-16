@@ -1,0 +1,13 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#techpack:is_mars",
+  "features": [
+    "techpack:sulfur_clusters/side_up",
+    "techpack:sulfur_clusters/side_down",
+    "techpack:sulfur_clusters/side_north",
+    "techpack:sulfur_clusters/side_south",
+    "techpack:sulfur_clusters/side_east",
+    "techpack:sulfur_clusters/side_west"
+  ],
+  "step": "underground_ores"
+}

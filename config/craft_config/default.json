@@ -1,0 +1,11 @@
+{
+  "general": {
+    "keybind_notification": {
+      "keybind_notifier_type": "HOTBAR",
+      "boolean_formatting": "\u00268[\u00267{name}\u00268] \u00267→ \u0026r {value}",
+      "cycling_list_formatting": "\u00268[\u00267{name}\u00268] \u00267→ \u0026r {value}",
+      "preset_formatting": "\u00268[\u00267{mod}\u00268] \u00267→ \u0026r {preset}"
+    }
+  },
+  "_keybinds": {}
+}

@@ -1,0 +1,18 @@
+{
+    "item": "pneumaticcraft:printed_circuit_board",
+    "machines": [
+        "techpack:combustion_engine",
+        "techpack:steam_dynamo",
+        "techpack:heat_dynamo",
+        "techpack:cryo_dynamo",
+        "techpack:mimic_dynamo"
+    ],
+    "requirements": [
+        {
+            "requirement": "custommachinery:energy_per_tick",
+            "mode": "output",
+            "operation": "multiplication",
+            "modifier": 2.0
+        }
+    ]
+}

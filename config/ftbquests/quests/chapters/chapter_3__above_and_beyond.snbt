@@ -1,0 +1,354 @@
+{
+	autofocus_id: "6C23D4D6D2CC0776"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_3__above_and_beyond"
+	group: "225813B7649167DE"
+	icon: {
+		id: "techpack:advanced_machine_casing"
+	}
+	id: "4FBA4507730D2F9F"
+	order_index: 2
+	quest_links: [
+		{
+			id: "1DE520461ED14E15"
+			linked_quest: "4A7DF1FB2DAC43DB"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "4792D96357F3D2AE"
+			linked_quest: "5D27599F8A06793C"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			id: "413C2BBF332CBBCC"
+			linked_quest: "4A5E76E755F85CCC"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "6AF91CC878AB911B"
+			linked_quest: "2FC8D33BFBB76D04"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "7CDD4A39C6A8E989"
+			linked_quest: "12A2A2FDF6A37C74"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["55D4F942D097AFE9"]
+			icon: {
+				id: "techpack:advanced_machine_casing"
+			}
+			icon_scale: 0.8d
+			id: "6C23D4D6D2CC0776"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "007626699CCEC239"
+				item: { count: 1, id: "techpack:advanced_machine_casing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			id: "2F9B50A24683B55D"
+			rewards: [
+				{
+					count: 16
+					id: "0CF73DA7E8C4D296"
+					item: {
+						count: 1
+						id: "ae2:fluix_glass_cable"
+					}
+					type: "item"
+				}
+				{
+					id: "1C40A0980C65C9B1"
+					item: {
+						count: 1
+						id: "ae2:network_tool"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "268BD47489F00BDA"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "2CCF2DA8517CADD0"
+			rewards: [
+				{
+					count: 2
+					id: "14F07D237173F386"
+					item: {
+						count: 1
+						id: "ae2:annihilation_core"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4C69279506CE0BF8"
+					item: {
+						count: 1
+						id: "ae2:formation_core"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F15DE3ECD0DB4BA"
+				item: { count: 1, id: "ae2:pattern_provider" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "47851A8850400707"
+			rewards: [{
+				count: 2
+				id: "028ABF36C6EE535B"
+				item: {
+					count: 1
+					id: "ae2:item_cell_housing"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C4DE8CCE20BEB6A"
+				item: { count: 1, id: "ae2:drive" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2F9B50A24683B55D"]
+			id: "7BAA685E060A0E52"
+			rewards: [{
+				id: "210A33146CE0EBE3"
+				item: {
+					count: 1
+					id: "ae2:semi_dark_monitor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "235BD6C1D2C832DC"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["123E0D14A836DCEE"]
+			icon_scale: 0.8d
+			id: "00E7DBCB639B2833"
+			rewards: [
+				{
+					count: 2
+					id: "07ADB81930244D13"
+					item: {
+						count: 1
+						id: "techpack:sophisticated_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "06F041754ED5DD97"
+					item: {
+						components: {
+							"trofers:trophy": "techpack:above_and_beyond"
+						}
+						count: 1
+						id: "trofers:small_pillar"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6EACBB5D545711D2"
+				item: { count: 1, id: "techpack:sophisticated_circuit" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A7DF1FB2DAC43DB"]
+			icon: {
+				id: "techpack:ice_coolant_bucket"
+			}
+			id: "1CA283D2AE709200"
+			tasks: [{
+				id: "6998ECC26D5622A3"
+				item: { count: 1, id: "techpack:ice_coolant_bucket" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"14D704B6C031E5B8"
+				"1CA283D2AE709200"
+				"2E5A55ECEC89EE28"
+			]
+			id: "123E0D14A836DCEE"
+			rewards: [{
+				count: 2
+				id: "39C14887285FAFB2"
+				item: {
+					count: 1
+					id: "techpack:sophisticated_circuit_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A9CEA299723BBE"
+				item: { count: 1, id: "techpack:sophisticated_circuit_board" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D27599F8A06793C"]
+			id: "14D704B6C031E5B8"
+			rewards: [{
+				count: 4
+				id: "1DCC777D5CADD428"
+				item: {
+					count: 1
+					id: "techpack:ptfe_sheet"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "55CD5C77F052D3FD"
+				item: { count: 1, id: "techpack:ptfe_sheet" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			id: "2E5A55ECEC89EE28"
+			rewards: [{
+				id: "372E2FFF03505BF9"
+				item: {
+					count: 1
+					id: "pneumaticcraft:printed_circuit_board"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "402975320E849673"
+				item: { count: 1, id: "techpack:advanced_integral_augment" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "pneumaticcraft:assembly_controller"
+			}
+			id: "5AE9F0D7DF8B4305"
+			rewards: [{
+				id: "4041D2F85AA6D2A9"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [
+				{
+					id: "57674957533C5B61"
+					item: { count: 1, id: "pneumaticcraft:assembly_platform" }
+					type: "item"
+				}
+				{
+					id: "04DE9D24AA83BEE1"
+					item: { count: 1, id: "pneumaticcraft:assembly_controller" }
+					type: "item"
+				}
+				{
+					id: "4C5C1871B73C49E3"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_export" }
+					type: "item"
+				}
+				{
+					id: "54A9D424B3606A46"
+					item: { count: 1, id: "pneumaticcraft:assembly_io_unit_import" }
+					type: "item"
+				}
+				{
+					id: "54FB4CEEAFB7A1CD"
+					item: { count: 1, id: "pneumaticcraft:assembly_drill" }
+					type: "item"
+				}
+				{
+					id: "781B358F48D571B3"
+					item: { count: 1, id: "pneumaticcraft:assembly_laser" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6C23D4D6D2CC0776"]
+			icon: {
+				id: "techpack:cleanroom_casing"
+			}
+			id: "7B8E25DCCC07E764"
+			rewards: [{
+				id: "700285FA8731A71B"
+				item: {
+					components: {
+						"ftbquests:missing_item": "techpack:cesu"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 51L
+					id: "7EC7B17200A2E9EE"
+					item: { count: 1, id: "techpack:cleanroom_casing" }
+					type: "item"
+				}
+				{
+					id: "64EA73311EC6DA59"
+					item: { count: 1, id: "create:framed_glass_door" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "item": "malum:malignant_pewter_ingot",
+      "count": 2
+    },
+    {
+      "item": "malum:void_salts",
+      "count": 8
+    },
+    {
+      "item": "techpack:void_seed"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_sword"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:suffering_ending"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 32
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 32
+    },
+    {
+      "type": "malum:umbral",
+      "count": 1
+    }
+  ]
+}

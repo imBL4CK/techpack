@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IDI",
+    "SCS",
+    "KBK"
+  ],
+  "key": {
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "D": {
+      "item": "actuallyadditions:diamatine_crystal"
+    },
+    "S": {
+      "item": "malum:soul_stained_steel_knife"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "K": {
+      "item": "supplementaries:bamboo_spikes"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:mob_slaughter_factory"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "tabId": "example_guidebook",
+  "enabled": false,
+  "icon": {
+    "item": "minecraft:written_book",
+    "fallbackItem": "minecraft:book",
+    "scale": 1.0
+  },
+  "tooltip": "Example Guidebook Tab",
+  "order": 100,
+  "action": {
+    "type": "use_item",
+    "item": "minecraft:written_book"
+  },
+  "requiredMods": [
+    "examplemod"
+  ]
+}

@@ -1,0 +1,10 @@
+# Afazeres
+- adicionar descricao para as quests de energy controll ~
+- Adicionar as loot tables ao "Loot Integrations"
+- Melhorar a pagina das especies das abelhas
+- Boron e borosilica glass
+
+# Anotacoes
+- Atualizar o bug de textura da dimensional detector na steam quarry 
+- tornar a suffering ending incompativel com sweeping edge
+- adicionar particulas de brilho aos minerios

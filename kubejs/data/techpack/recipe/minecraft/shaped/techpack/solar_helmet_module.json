@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "H"
+  ],
+  "key": {
+    "S": {
+      "item": "enderio:photovoltaic_plate"
+    },
+    "H": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "id": "solarhelmet:solar_helmet_module"
+  }
+}

@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "space_exploration_program"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		components: {
+			"ad_astra:fluids": [{
+				amount: 3000L
+				id: "ad_astra:fuel"
+			}]
+		}
+		id: "ad_astra:tier_1_rocket"
+	}
+	id: "6D8DF15E67E008D3"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["54F57AB2C707E0E0"]
+			icon: {
+				id: "ad_astra:tier_1_rocket"
+			}
+			icon_scale: 0.8d
+			id: "32737D429A709A97"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "09789A13AF67BCE3"
+				item: { count: 1, id: "ad_astra:tier_1_rocket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FC8D33BFBB76D04"]
+			icon: {
+				id: "ad_astra:rocket_fin"
+			}
+			id: "54F57AB2C707E0E0"
+			tasks: [
+				{
+					id: "52E138C349AFE12C"
+					item: { count: 1, id: "ad_astra:steel_engine" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "122F82AB7AF59C97"
+					item: { count: 1, id: "ad_astra:rocket_fin" }
+					type: "item"
+				}
+				{
+					id: "3E3060F1B64B8FF6"
+					item: { count: 1, id: "ad_astra:rocket_nose_cone" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "techpack:heavy_duty_plate"
+					}
+					id: "60D534AEAA6C68BE"
+					type: "custom"
+				}
+			]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B8E25DCCC07E764"]
+			id: "2FC8D33BFBB76D04"
+			rewards: [{
+				count: 4
+				id: "6CDD05F0BAE665D7"
+				item: {
+					count: 1
+					id: "techpack:heavy_duty_plate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "72A23D935B3512B1"
+				item: { count: 1, id: "ad_astra:nasa_workbench" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"32737D429A709A97"
+				"2FC8D33BFBB76D04"
+			]
+			id: "4A7DF1FB2DAC43DB"
+			rewards: [{
+				id: "5D8CC0BB07C0689B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: {
+					id: "ad_astra:moon_globe"
+				}
+				id: "2CEF1E067E37068E"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "ad_astra:space_suit"
+			}
+			id: "7B354A632B37DF1C"
+			rewards: [{
+				id: "057C7A9358C0A10E"
+				item: {
+					components: {
+						"ad_astra:fluids": [{
+							amount: 3000L
+							id: "ad_astra:oxygen"
+						}]
+					}
+					count: 1
+					id: "ad_astra:large_gas_tank"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6398DF3348439ED7"
+					item: { count: 1, id: "ad_astra:space_helmet" }
+					type: "item"
+				}
+				{
+					id: "1FD74A2BA57DA4CD"
+					item: { count: 1, id: "ad_astra:space_suit" }
+					type: "item"
+				}
+				{
+					id: "5AA9E1BE5F31B5C5"
+					item: { count: 1, id: "ad_astra:space_pants" }
+					type: "item"
+				}
+				{
+					id: "1A3BD1EA02AF4E00"
+					item: { count: 1, id: "ad_astra:space_boots" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "12C2E4875DB9B98A"
+			tasks: [{
+				id: "08B32E22B173A932"
+				item: { count: 1, id: "techpack:resource_collector" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+	]
+}

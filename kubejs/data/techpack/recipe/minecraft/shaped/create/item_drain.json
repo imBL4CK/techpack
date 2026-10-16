@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "C",
+    "R"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:iron_bars"
+    },
+    "C": {
+      "item": "create:copper_casing"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    }
+  },
+  "result": {
+    "id": "create:item_drain"
+  }
+}

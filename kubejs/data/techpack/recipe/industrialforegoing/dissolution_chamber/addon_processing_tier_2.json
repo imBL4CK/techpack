@@ -1,0 +1,37 @@
+{
+    "type": "industrialforegoing:dissolution_chamber",
+    "input": [
+        {
+            "tag": "c:plastics"
+        },
+        {
+            "tag": "c:plastics"
+        },
+        {
+            "tag": "c:glass_panes"
+        },
+        {
+            "tag": "c:gears/diamond"
+        },
+        {
+            "tag": "c:gears/diamond"
+        },
+        {
+            "item": "pneumaticcraft:printed_circuit_board"
+        },
+        {
+            "item": "minecraft:crafting_table"
+        },
+        {
+            "item": "minecraft:furnace"
+        }
+    ],
+    "inputFluid": {
+        "amount": 500,
+        "fluid": "techpack:redstone_acid"
+    },
+    "output": {
+        "id": "industrialforegoing:processing_addon_tier_2"
+    },
+    "processingTime": 200
+}

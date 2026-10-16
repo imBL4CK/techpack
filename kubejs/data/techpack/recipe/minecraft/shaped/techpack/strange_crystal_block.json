@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "malum:large_strange_crystal"
+    }
+  },
+  "result": {
+    "id": "techpack:strange_crystal_block"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": "techpack:hot_uranium_ingot",
+    "block_in": "ad_astra:cryo_fuel",
+    "time": 180,
+    "post": [
+        "drop biggerreactors:uranium_ingot"
+    ]
+}

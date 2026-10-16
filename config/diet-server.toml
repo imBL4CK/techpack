@@ -1,0 +1,13 @@
+#Range: 0 ~ 100
+deathPenaltyMin = 5
+#Range: 0 ~ 100
+deathPenaltyLoss = 10
+#Allowed Values: AMOUNT, PERCENT, RESET
+deathPenaltyMethod = "AMOUNT"
+#Range: 0 ~ 100
+gainPenaltyPerGroup = 15
+#Range: 0 ~ 100
+decayPenaltyPerGroup = 15
+foodOverrides = []
+generateGroupsForEmptyItems = true
+hideTooltipsUntilEaten = false

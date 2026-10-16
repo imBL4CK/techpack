@@ -1,0 +1,14 @@
+{
+  "debug": false,
+  "offsetX100": -250,
+  "offsetY100": -50,
+  "offsetZ100": -600,
+  "pivotX100": 500,
+  "pivotY100": 600,
+  "pivotZ100": 500,
+  "rotXDeg": 180,
+  "rotYDeg": 0,
+  "rotZDeg": 0,
+  "scale100": 500,
+  "extraLampLight": []
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " W ",
+    "PCP",
+    "GMG"
+  ],
+  "key": {
+    "W": {
+      "item": "create:crushing_wheel"
+    },
+    "P": {
+      "item": "create:fluid_pipe"
+    },
+    "C": {
+      "item": "techpack:bronze_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    }
+  },
+  "result": {
+    "id": "techpack:steam_macerator"
+  }
+}

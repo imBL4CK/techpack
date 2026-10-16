@@ -1,0 +1,66 @@
+StartupEvents.registry("item", (e) => {
+    
+  //Copper Tools
+  e.create("techpack:copper_sword", "sword")
+    .tier("copper_tier")
+    .unstackable();
+  e.create("techpack:copper_pickaxe", "pickaxe")
+    .tier("copper_tier")
+    .unstackable();
+  e.create("techpack:copper_axe", "axe")
+    .tier("copper_tier")
+    .unstackable();
+  e.create("techpack:copper_shovel", "shovel")
+    .tier("copper_tier")
+    .unstackable();
+
+  //Steel Tools
+  e.create("techpack:steel_sword", "sword")
+    .tier("steel_tier")
+    .unstackable();
+  e.create("techpack:steel_pickaxe", "pickaxe")
+    .tier("steel_tier")
+    .unstackable();
+  e.create("techpack:steel_axe", "axe")
+    .tier("steel_tier")
+    .unstackable();
+  e.create("techpack:steel_shovel", "shovel")
+    .tier("steel_tier")
+    .unstackable();
+  e.create("techpack:steel_hoe", "hoe")
+    .tier("steel_tier")
+    .unstackable();
+
+  //Iris Relic
+  e.create("techpack:iris_relic", "paxel")
+    .tier("iris_relic")
+    .tag("malum:soul_shatter_capable_weapon")
+    .unstackable()
+    .tag("minecraft:pickaxes")
+    .tag("minecraft:axes")
+    .tag("minecraft:shovels");
+
+  //Suffering Ending
+  e.create("techpack:suffering_ending", "sword")
+    .tier("suffering_ending")
+    .attackDamageBaseline(4.0)
+    .speedBaseline(-3.5)
+    .tag("malum:soul_shatter_capable_weapon")
+    .tag("malum:enchantable/haunted")
+    .tag("malum:enchantable/animated")
+    .unstackable();
+
+  //Flint and Soul
+  e.create("techpack:flint_and_soul")
+    .maxDamage(64)
+    .unstackable();
+
+  //Glitch Knife
+  e.create("techpack:glitch_knife", "farmersdelight:knife")
+    .tier("glitch_knife")
+    .rarity("epic")
+    .tag("c:tools/knives")
+    .tag("malum:soul_shatter_capable_weapon")
+    .attackDamageBonus(995.5)
+    .unstackable();
+});

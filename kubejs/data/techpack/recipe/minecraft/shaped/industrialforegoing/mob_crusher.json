@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HTH",
+    "SMS",
+    "GCG"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "T": {
+      "item": "malum:tyrving"
+    },
+    "S": {
+      "item": "dungeonsdelight:stained_scrap"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/gold"
+    },
+    "C": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:mob_crusher"
+  }
+}

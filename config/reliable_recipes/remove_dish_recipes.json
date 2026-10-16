@@ -1,0 +1,25 @@
+[
+  {
+    "action": "remove_recipe",
+    "id": [
+      "minecraft:cake",
+      "farmersdelight:cake_from_milk_bottle",
+      "naturalist:cake",
+      "create:crafting/curiosities/cake",
+      "farmersdelight:cake_from_wheat",
+      "farmersdelight:bread_from_wheat",
+      "minecraft:bread",
+      "minecraft:cookie",
+      "farmersdelight:sweet_berry_cookie",
+      "farmersdelight:honey_cookie",
+      "minecraft:cookie",
+      "minecraft:pumpkin_pie",
+      "naturalist:pumpkin_pie",
+      "farmersdelight:pumpkin_pie_from_pie_crust",
+      "farmersdelight:honey_glazed_ham_block",
+      "farmersdelight:roast_chicken_block",
+      "farmersdelight:shepherds_pie_block",
+      "farmersdelight:gleaming_salad_block"
+    ]
+  }
+]

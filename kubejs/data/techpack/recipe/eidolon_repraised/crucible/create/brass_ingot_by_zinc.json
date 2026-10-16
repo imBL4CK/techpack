@@ -1,0 +1,19 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "tag": "c:ingots/copper" },
+        { "tag": "c:ingots/zinc" },
+        { "item": "malum:infernal_spirit" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "create:brass_ingot",
+    "count": 3
+  }
+}

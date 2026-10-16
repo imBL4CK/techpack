@@ -1,0 +1,31 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+      	{ "item": "eidolon_repraised:ender_calx" }
+      ]
+    },
+    {
+      "items": [
+        { "tag": "c:dusts/redstone" },
+        { "tag": "c:dusts/redstone" },
+        { "tag": "c:dusts/redstone" },
+        { "tag": "c:dusts/redstone" },
+        { "tag": "c:dyes/red" },
+        { "tag": "c:dyes/red" }
+      ]
+    },
+    {
+      "stirs": 2,
+      "items": [
+        { "item": "occultism:tallow" },
+        { "item": "occultism:tallow" }
+      ]
+    }
+  ],
+  "result": {
+    "id": "eidolon_repraised:magicians_wax",
+    "count": 4
+  }
+}

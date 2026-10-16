@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    {
+      "item": "techpack:steel_scaffolding"
+    }
+  ],
+  "result": {
+    "id": "techpack:steel_scaffolding_stairs",
+    "count": 1
+  }
+}

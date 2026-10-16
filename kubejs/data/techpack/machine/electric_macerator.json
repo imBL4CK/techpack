@@ -1,0 +1,291 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.machines.electric.macerator"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/electric/macerator_idle#standalone",
+    "custommachinery:item": "techpack:machines/electric/macerator_idle#standalone",
+    "custommachinery:keep_inventory": true,
+    "running": {
+      "custommachinery:block": "techpack:machines/electric/macerator_running#standalone",
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_crushing.running"
+      }
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 1000,
+      "capacity": 4000,
+      "max_input": 1000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "energy_input_slot"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "whitelist": "#techpack:integral_augments",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "integral_augment_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "blacklist": "#techpack:integral_augments",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "upgrade_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 151,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 56,
+      "y": 42,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 82,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/progress_bars/empty_left_arrow.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/progress_bars/filled_left_arrow.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 56,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 56,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "tooltips": {
+        "text": {
+          "translate": "gui.techpack.machines.integral_augment_slot"
+        }
+      },
+      "id": "integral_augment_slot",
+      "priority": 1,
+      "texture": {
+        "texture": "techpack:textures/gui/machines/integral_augment_slot.png"
+      },
+      "x": 133,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_slot.png"
+      },
+      "x": 109,
+      "y": 19
+    },
+    {
+      "type": "custommachinery:slot",
+      "tooltips": {
+        "text": {
+          "translate": "gui.techpack.machines.upgrade_slot"
+        }
+      },
+      "id": "upgrade_slot",
+      "priority": 3,
+      "texture": {
+        "texture": "techpack:textures/gui/machines/upgrade_slot.png"
+      },
+      "x": 115,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.machines.electric.macerator"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 0,
+      "y": 26,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 22,
+      "y": 6,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/progress_bars/empty_left_arrow.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/progress_bars/filled_left_arrow.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 0,
+      "y": 4
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "integral_augment_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/integral_augment_slot_alt.png"
+      },
+      "x": 50,
+      "y": 28
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_slot.png"
+      },
+      "x": 46,
+      "y": 0
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "tooltip.techpack.machine_block"
+      }
+    },
+    {
+      "text": {
+        "translate": ""
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.block_stats"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.electric_tier_machine_1"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.electric_tier_machine_2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "malum:astral_weave",
+            "count": 2
+        },
+        {
+            "item": "techpack:void_seed"
+        }
+    ],
+    "input": {
+        "item": "malum:soulwoven_silk"
+    },
+    "result": {
+        "id": "techpack:sparkly_glove"
+    },
+    "spirits": [
+        {
+            "type": "malum:aerial",
+            "count": 8
+        },
+        {
+            "type": "malum:earthen",
+            "count": 8
+        },
+        {
+            "type": "malum:arcane",
+            "count": 8
+        }
+    ]
+}

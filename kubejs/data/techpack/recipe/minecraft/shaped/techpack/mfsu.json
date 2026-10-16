@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "LML",
+    "CLC"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:ptfe_sheet"
+    },
+    "L": {
+      "item": "power_armor:battery"
+    },
+    "M": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "C": {
+      "item": "techpack:redstone_conductance_coil"
+    }
+  },
+  "result": {
+    "id": "techpack:mfsu"
+  }
+}

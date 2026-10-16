@@ -1,0 +1,143 @@
+{
+	always_invisible: true
+	autofocus_id: "129DB02075D635C6"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hello_world"
+	group: "4097FAA9FF0516CA"
+	icon: {
+		id: "tempad:workstation"
+	}
+	id: "66C14788997BBFE1"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "tempad:chronon_generator"
+			}
+			icon_scale: 0.8d
+			id: "0D4D4876A42BD18E"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5C02FE0DE0C80135"
+					item: { count: 1, id: "tempad:chronon_generator" }
+					type: "item"
+				}
+				{
+					id: "6CB27EA6AF641DCE"
+					item: { count: 1, id: "tempad:chronon_cell" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			icon_scale: 0.8d
+			id: "129DB02075D635C6"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7DE638F1C51D31E1"
+				item: { count: 1, id: "tempad:time_steel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["222BC9377868DF4A"]
+			icon: {
+				id: "tempad:chronomark"
+			}
+			id: "7EA0C252AE747A73"
+			tasks: [
+				{
+					id: "49A27E05428075A7"
+					item: { count: 1, id: "tempad:chronomark" }
+					type: "item"
+				}
+				{
+					id: "6FD60B81183FE2A2"
+					item: { count: 1, id: "tempad:chronon_battery" }
+					type: "item"
+				}
+				{
+					id: "4F284F70DFC89204"
+					item: { count: 1, id: "tempad:chronometer" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7EA0C252AE747A73"]
+			id: "0DF4B0A3880CB45F"
+			tasks: [{
+				id: "411F1D4D1BEFA18C"
+				item: { count: 1, id: "tempad:metronome" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7EA0C252AE747A73"]
+			id: "31D78481E44CC07F"
+			tasks: [{
+				id: "27C4429CB3A71913"
+				item: { count: 1, id: "tempad:workstation" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EA0C252AE747A73"]
+			id: "16DD6216484179AA"
+			tasks: [{
+				id: "0C47B1F750FCA07D"
+				item: { count: 1, id: "tempad:time_twister" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D4D4876A42BD18E"]
+			icon: {
+				id: "tempad:timedoor_marker"
+			}
+			id: "7721C547F0BB7737"
+			tasks: [
+				{
+					id: "2981114A71D83B51"
+					item: { count: 1, id: "tempad:timedoor_projector" }
+					type: "item"
+				}
+				{
+					id: "767E61D9B7F13A22"
+					item: { count: 1, id: "tempad:timedoor_marker" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["129DB02075D635C6"]
+			id: "222BC9377868DF4A"
+			tasks: [{
+				id: "2B74C634262231B3"
+				item: { count: 1, id: "tempad:tempad" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "CCC",
+        "CSC",
+        "CCC"
+    ],
+    "key": {
+        "C": {
+            "tag": "c:cobblestones"
+        },
+        "S": {
+            "tag": "c:stones"
+        }
+    },
+    "result": {
+        "id": "techpack:panel_block",
+        "count": 8
+    }
+}

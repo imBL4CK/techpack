@@ -1,0 +1,9 @@
+{
+  "source_item": "farmersdelight:grilled_salmon",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "fruits": 0.015,
+    "proteins": 0.04
+  }
+}

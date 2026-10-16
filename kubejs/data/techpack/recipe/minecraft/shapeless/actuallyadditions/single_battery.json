@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "techpack:zinc_battery_cell"
+    },
+    {
+      "item": "create_new_age:overcharged_gold" 
+    },
+    {
+      "item": "create:cardboard"
+    },
+    {
+      "tag": "c:dusts/lapis"
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:single_battery"
+  }
+}

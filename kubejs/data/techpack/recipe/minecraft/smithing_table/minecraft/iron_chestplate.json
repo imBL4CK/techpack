@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:chainmail_chestplate"
+  },
+  "addition": {
+    "item": "techpack:curved_iron_plate"
+  },
+  "template": {
+    "item": "techpack:curved_iron_plate"
+  },
+  "result": {
+    "id": "minecraft:iron_chestplate"
+  }
+}

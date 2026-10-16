@@ -1,0 +1,227 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.beekeeping.bee_house"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:block.beehive.work"
+      }
+    },
+    "custommachinery:block": "techpack:machines/bee_house#standalone",
+    "custommachinery:item": "techpack:machines/bee_house#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#techpack:bees/drones",
+      "id": "drone_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_3",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_4",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_5",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_6",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "output_slot_7",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#techpack:bees/queens",
+      "id": "queen_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_gui.png"
+      },
+      "width": 176,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:button",
+      "toggle": true,
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_mutate_button.png"
+      },
+      "tooltips": {
+        "text": {
+          "translate": "gui.techpack.machines.toggle_mutate_button"
+        }
+      },
+      "id": "toggle_mutate",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/mutate_button.png"
+      },
+      "x": 133,
+      "y": 84,
+      "texture_toggle": {
+        "texture": "techpack:textures/gui/machines/pressed_mutate_button.png"
+      },
+      "texture_toggle_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_pressed_mutate_button.png"
+      }
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 151,
+      "y": 84
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 108
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 58,
+      "y": 36,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_bubble_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_bubble_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "drone_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/drone_slot.png"
+      },
+      "x": 22,
+      "y": 50,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 105,
+      "y": 15
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 83,
+      "y": 26
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 127,
+      "y": 25
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 105,
+      "y": 39
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_5",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 83,
+      "y": 50
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_6",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 127,
+      "y": 49
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_7",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/hexagonal_slot.png"
+      },
+      "x": 105,
+      "y": 63
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "queen_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/queen_slot.png"
+      },
+      "x": 22,
+      "y": 26,
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.beekeeping.bee_house"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:hexed_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:glowstone_dust",
+      "count": 3,
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "count": 3,
+      "chance": 0.5
+    },
+    {
+      "id": "malum:hex_ash",
+      "chance": 0.5
+    },
+    {
+      "id": "create:honey",
+      "amount": 100
+    }
+  ]
+}

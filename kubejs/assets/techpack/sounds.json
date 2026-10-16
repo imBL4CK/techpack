@@ -1,0 +1,46 @@
+{
+  "dynamo_heat.running": {
+    "sounds": ["techpack:machines/dynamo_heat_running"],
+    "subtitle": "subtitles.techpack.dynamo_heat.running"
+  },
+  "dynamo_cryo.running": {
+    "sounds": ["techpack:machines/dynamo_cryo_running"],
+    "subtitle": "subtitles.techpack.dynamo_cryo.running"
+  },
+  "machine_generic.running": {
+    "sounds": ["techpack:machines/machine_generic_running"],
+    "subtitle": "subtitles.techpack.machine_generic.running"
+  },
+  "machine_generic_heavy.running": {
+    "sounds": ["techpack:machines/machine_generic_heavy_running"],
+    "subtitle": "subtitles.techpack.machine_generic_heavy.running"
+  },
+  "machine_centrifuge.running": {
+    "sounds": ["techpack:machines/machine_centrifuge_running"],
+    "subtitle": "subtitles.techpack.machine_centrifuge.running"
+  },
+  "machine_crushing.running": {
+    "sounds": ["techpack:machines/machine_crushing_running"],
+    "subtitle": "subtitles.techpack.machine_crushing.running"
+  },
+  "machine_furnace.running": {
+    "sounds": ["techpack:machines/machine_furnace_running"],
+    "subtitle": "subtitles.techpack.machine_furnace.running"
+  },
+  "machine_press.running": {
+    "sounds": ["techpack:machines/machine_press_running"],
+    "subtitle": "subtitles.techpack.machine_press.running"
+  },
+  "machine_saw.running": {
+    "sounds": ["techpack:machines/machine_saw_running"],
+    "subtitle": "subtitles.techpack.machine_saw.running"
+  },
+  "machine_fluid_transposer.running": {
+    "sounds": ["techpack:machines/machine_fluid_transposer_running"],
+    "subtitle": "subtitles.techpack.machine_fluid_transposer.running"
+  },
+  "device_electric_pump.running": {
+    "sounds": ["techpack:machines/device_electric_pump_running"],
+    "subtitle": "subtitles.techpack.device_electric_pump.running"
+  }
+}

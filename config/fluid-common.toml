@@ -1,0 +1,70 @@
+#Gutter Outlet settings
+[gutter_outlet]
+	#Whether gutter outlet can collect rain water
+	collectRain = true
+	#Whether gutter outlet can collect snow as powder snow fluid
+	collectSnow = true
+	#Whether gutter outlet can collect fluid from dripstone (lava/water)
+	collectDripstone = true
+	#Whether gutter outlet can collect world fluid sources from above
+	collectWorldFluid = true
+
+#Copper Sink settings
+[copper_sink]
+	#Whether the Copper Sink provides infinite water (if false, it's just a normal 2000mB tank)
+	infiniteWater = true
+
+#Centrifugal Pump settings
+[centrifugal_pump]
+	#Maximum transport distance in blocks for the Centrifugal Pump.
+	# Default: 20
+	# Range: > 1
+	centrifugalPumpRange = 20
+
+#Communicating Vessel settings
+[communicating_vessel]
+	#Whether infinite fluid sources connected to a Communicating Vessel are rate-limited
+	infiniteSourceRateLimitEnabled = true
+	#Maximum mB per tick transferred from an infinite fluid source through a Communicating Vessel
+	# Default: 64000
+	# Range: > 1
+	infiniteSourceRateLimit = 64000
+
+#Copper Tap settings
+[copper_tap]
+	#Whether the Copper Tap uses low speed mode, increasing item filling time to 30 ticks.
+	lowSpeedMode = false
+
+	#Copper Tap experience release settings
+	[copper_tap.experience]
+		#Whether the Copper Tap can release experience orbs when open and no valid target is present.
+		enabled = true
+		#How many mB of experience fluid are consumed per release.
+		# Default: 10
+		# Range: 1 ~ 1000
+		rate = 10
+		#Tick interval between each experience orb release.
+		# Default: 1
+		# Range: 1 ~ 100
+		interval = 1
+
+#Can Filler settings
+[can_filler]
+	#Maximum mB of fluid one fluid package can hold. Packages can be created with less than this amount.
+	# Default: 4000
+	# Range: 1000 ~ 100000
+	fluidPerPackage = 4000
+
+#Pipette settings
+[pipette]
+	#Maximum distance in blocks a Pipette can reach across.
+	# Default: 5
+	# Range: > 1
+	range = 5
+
+#Logistics Junction settings
+[logistics_junction]
+	#Maximum distance for a Logistics Junction flexible upper-output link.
+	# Default: 5
+	# Range: > 1
+	linkRange = 5

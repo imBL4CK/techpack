@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "PBP",
+    "BFB"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:blast_furnace"
+    },
+    "B": {
+      "item": "techpack:cinder_bricks"
+    },
+    "P": {
+      "tag": "c:plates/iron"
+    }
+},
+  "result": {
+    "id": "techpack:cinder_blast_furnace"
+  }
+}

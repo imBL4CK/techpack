@@ -1,0 +1,4 @@
+#Stress impact configurations for fluid
+#[in Stress Units]
+[impact]
+	pipette = 2.0

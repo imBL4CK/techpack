@@ -1,0 +1,7 @@
+{
+  "item.solarhelmet.solar_helmet_module": "Solar Panel Module",
+  "item.solarhelmet:solar_helmet_module.desc": "Craft this with a helmet without a template in smithing table to get a helmet with module.",
+  "item.solarhelmet:solar_helmet_module_installed.text": "Solar Panel Attached",
+  "item.solarhelmet:solar_helmet_energy.text": "Energy stored: %d RF/%d RF",
+  "tab.solarhelmet": "Solar Helmet"
+}

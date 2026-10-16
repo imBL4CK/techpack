@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "SCS",
+    "GBG"
+  ],
+  "key": {
+    "F": {
+      "item": "precision_fluid_pipette:fluid_pipette"
+    },
+    "S": {
+      "item": "create_new_age:copper_wire"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "G": {
+      "item": "techpack:steel_gear"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:electric_fluid_transposer"
+  }
+}

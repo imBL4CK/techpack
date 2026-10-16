@@ -1,0 +1,18 @@
+{
+  "type": "create:milling",
+  "processingTime": 100,
+  "ingredients": [
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:red_sand"
+    },
+    {
+      "chance": 0.2,
+      "id": "techpack:mica"
+    }
+  ]
+}

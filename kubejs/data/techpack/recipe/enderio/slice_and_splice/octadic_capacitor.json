@@ -1,0 +1,28 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    {
+      "item": "techpack:carbon_fiber"
+    },
+    {
+      "item": "techpack:flux_powder"
+    },
+    {
+      "item": "techpack:carbon_fiber"
+    },
+    {
+      "item": "enderio:double_layer_capacitor"
+    },
+    {
+      "item": "enderio:vibrant_alloy_ingot"
+    },
+    {
+      "item": "enderio:double_layer_capacitor"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio:octadic_capacitor"
+  }
+}

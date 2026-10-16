@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#techpack:is_venus",
+  "features": [
+    "techpack:sulfur_geode"
+  ],
+  "step": "underground_ores"
+}

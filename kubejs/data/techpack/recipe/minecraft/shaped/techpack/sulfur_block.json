@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "techpack:sulfur_dust"
+    }
+  },
+  "result": {
+    "id": "techpack:sulfur_block"
+  }
+}

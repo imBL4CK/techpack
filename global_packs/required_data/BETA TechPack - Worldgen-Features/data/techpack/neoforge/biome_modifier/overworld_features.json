@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "techpack:fireclay",
+    "techpack:nickel_ore",
+    "techpack:tin_ore",
+    "techpack:cinnabar_geode",
+    "techpack:sulfur_clusters/side_up",
+    "techpack:sulfur_clusters/side_down",
+    "techpack:sulfur_clusters/side_north",
+    "techpack:sulfur_clusters/side_south",
+    "techpack:sulfur_clusters/side_east",
+    "techpack:sulfur_clusters/side_west"
+  ],
+  "step": "underground_ores"
+}

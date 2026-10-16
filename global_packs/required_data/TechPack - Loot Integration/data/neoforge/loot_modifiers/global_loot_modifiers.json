@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "entries": [
+    "techpack:global_loot_modifiers",
+    "techpack:ingots",
+    "techpack:basic_alloys",
+    "techpack:basic_components",
+    "techpack:tools"
+  ]
+}

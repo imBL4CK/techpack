@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "F F",
+    "F F"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:ingots/calorite"
+    },
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    }
+  },
+  "result": {
+    "id": "ad_astra:jet_suit_pants"
+  }
+}

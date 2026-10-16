@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "C C",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "farmersdelight:canvas"
+    }
+  },
+  "result": {
+    "id": "farmersdelight:basket"
+  }
+}

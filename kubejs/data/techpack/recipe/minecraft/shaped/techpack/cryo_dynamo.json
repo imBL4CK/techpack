@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " T ",
+    "IEI",
+    "AMA"
+  ],
+  "key": {
+    "T": {
+      "item": "techpack:redstone_transmission_coil"
+    },
+    "I": {
+      "item": "techpack:invar_ingot"
+    },
+    "E": {
+      "item": "techpack:engine_assembly"
+    },
+    "A": {
+      "item": "techpack:aluminum_ingot"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    }
+  },
+  "result": {
+    "id": "techpack:cryo_dynamo"
+  }
+}

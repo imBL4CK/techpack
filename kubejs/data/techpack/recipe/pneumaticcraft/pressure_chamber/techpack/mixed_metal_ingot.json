@@ -1,0 +1,24 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "count": 3,
+      "tag": "c:ingots/steel"
+    },
+    {
+      "count": 3,
+      "tag": "c:ingots/bronze"
+    },
+    {
+      "count": 3,
+      "tag": "c:ingots/tin"
+    } 
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "count": 2,
+      "id": "techpack:mixed_metal_ingot"
+    }
+  ]
+}

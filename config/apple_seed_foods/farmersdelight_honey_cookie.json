@@ -1,0 +1,9 @@
+{
+  "source_item": "farmersdelight:honey_cookie",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "sugars": 0.005,
+    "grains": 0.0025
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": [
+        "minecraft:blaze_rod",
+        {"item": "techpack:hop_graphite_dust", "count": 4}
+    ],
+    "block_in": "minecraft:water",
+    "time": 60,
+    "post": [
+        "drop techpack:hop_graphite_electrode"
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "techpack:cinnabar_shard"
+  },
+  "result": {
+    "id": "techpack:quicksilver_drop"
+  },
+  "experience": 0.3
+}

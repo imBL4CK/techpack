@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PRP",
+    "MGM",
+    "PRP"
+  ],
+  "key": {
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "P": {
+      "tag": "c:ingots/advanced_alloy"
+    },
+    "M": {
+      "item": "techpack:mica"
+    },
+    "G": {
+      "tag": "c:gears/advanced_alloy"
+    }
+  },
+  "result": {
+    "id": "techpack:advanced_machine_casing"
+  }
+}

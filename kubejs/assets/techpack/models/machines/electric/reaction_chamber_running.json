@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/reaction_chamber_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/reaction_chamber_running"
+    }
+}

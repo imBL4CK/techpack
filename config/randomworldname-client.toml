@@ -1,0 +1,10 @@
+#Name Lists
+[names]
+	#List of place names
+	places = ["Altar", "Asylum", "Castle", "Cathedral", "Cave", "Chapel", "Citadel", "City", "Dungeon", "Factory", "Forest", "Fortress", "Gardens", "Graveyard", "Hamlet", "Haven", "Hill", "Island", "Kingdom", "Library", "Mausoleum", "Monument", "Mountain", "Museum", "Nation", "Ocean", "Orchard", "Oubliette", "Pillar", "Planet", "Prison", "Ruin", "Spire", "Temple", "Tomb", "Tower", "Town", "Vault", "Village", "Volcano", "Ziggurat"]
+	#List of adjectives
+	adjectives = ["Abundance", "Avarice", "Charity", "Chastity", "Copper", "Darkness", "Death", "Desolation", "Despair", "Diamond", "Diligence", "Doom", "Energy", "Envy", "Essence", "Evil", "Fertility", "Fire", "Fortitude", "Glass", "Gluttony", "Gold", "Greed", "Growth", "Hope", "Humility", "Ice", "Iron", "Kindness", "Life", "Light", "Lust", "Magic", "Mana", "Nature", "Netherite", "Patience", "Pestilence", "Piety", "Power", "Pride", "Quartz", "Rapture", "Redstone", "Righteousness", "Sacrilege", "Sloth", "Solitude", "Sorrow", "Stone", "Temperance", "Wanderlust", "Wealth", "Wrath"]
+	#Separator between places and adjectives
+	separator = " of "
+	#<Place> before <Adjective>
+	order = true

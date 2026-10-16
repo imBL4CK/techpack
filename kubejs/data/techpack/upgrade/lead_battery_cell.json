@@ -1,0 +1,18 @@
+{
+    "item": "techpack:lead_battery_cell",
+    "max": 1,
+    "machines": [
+        "techpack:zinc_battery_box",
+        "techpack:lead_battery_box",
+        "techpack:silver_battery_box",
+        "techpack:stainless_steel_battery_box"
+    ],
+    "components": [
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "capacity",
+            "modifier": 4
+        }
+    ]
+}

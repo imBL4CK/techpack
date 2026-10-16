@@ -1,0 +1,16 @@
+{
+  "tabId": "example_resource_texture",
+  "enabled": false,
+  "icon": {
+    "fallbackItem": "minecraft:map",
+    "scale": 1.0,
+    "customTexture": "modtabs:textures/gui/inventory.png"
+  },
+  "tooltip": "Example Resource Texture Tab",
+  "order": 103,
+  "action": {
+    "type": "use_item",
+    "item": "minecraft:map"
+  },
+  "requiredMods": []
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "SMS",
+    "CBC"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "S": {
+      "item": "malum:soul_stained_steel_nugget"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "C": {
+      "tag": "c:gears/copper"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:fluid_collector"
+  }
+}

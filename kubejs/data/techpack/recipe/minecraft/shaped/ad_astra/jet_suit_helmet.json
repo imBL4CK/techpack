@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FPF",
+    "CGC"
+  ],
+  "key": {
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "C": {
+      "tag": "c:ingots/calorite"
+    },
+    "G": {
+      "item": "techpack:obsidian_glass"
+    }
+  },
+  "result": {
+    "id": "ad_astra:jet_suit_helmet"
+  }
+}

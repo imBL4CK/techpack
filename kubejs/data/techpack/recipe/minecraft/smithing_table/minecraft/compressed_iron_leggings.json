@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "minecraft:iron_leggings"
+  },
+  "addition": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "template": {
+    "item": "pneumaticcraft:ingot_iron_compressed"
+  },
+  "result": {
+    "id": "pneumaticcraft:compressed_iron_leggings"
+  }
+}

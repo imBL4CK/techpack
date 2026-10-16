@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/assembler_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/assembler_running"
+    }
+}

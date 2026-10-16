@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/sawmill_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/sawmill_running"
+    }
+}

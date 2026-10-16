@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SLS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "techpack:steel_plate"
+    },
+    "L": {
+      "item": "techpack:low_pressure_boiler"
+    }
+  },
+  "result": {
+    "id": "techpack:high_pressure_boiler"
+  }
+}

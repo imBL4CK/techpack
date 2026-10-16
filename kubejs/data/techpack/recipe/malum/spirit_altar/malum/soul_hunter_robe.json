@@ -1,0 +1,33 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "malum:soulwoven_silk",
+            "count": 4
+        },
+        {
+            "item": "malum:refined_soulstone",
+            "count": 4
+        },
+        {
+            "item": "techpack:tanned_leather",
+            "count": 2
+        }
+    ],
+    "input": {
+        "item": "minecraft:leather_chestplate"
+    },
+    "result": {
+        "id": "malum:soul_hunter_robe"
+    },
+    "spirits": [
+        {
+            "type": "malum:aerial",
+            "count": 8
+        },
+        {
+            "type": "malum:earthen",
+            "count": 8
+        }
+    ]
+}

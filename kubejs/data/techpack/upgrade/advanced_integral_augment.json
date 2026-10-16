@@ -1,0 +1,46 @@
+{
+    "item": "techpack:advanced_integral_augment",
+    "max": 1,
+    "machines": [
+        "techpack:electric_alloy_foundry",
+        "techpack:electric_assembler",
+        "techpack:electric_centrifuge",
+        "techpack:electric_compressor",
+        "techpack:electric_electrolysis_separator",
+        "techpack:electric_fluid_transposer",
+        "techpack:electric_induction_furnace",
+        "techpack:electric_macerator",
+        "techpack:electric_metal_former",
+        "techpack:electric_reaction_chamber",
+        "techpack:electric_sawmill",
+        "techpack:electric_smelter"
+    ],
+    "requirements": [
+        {
+            "requirement": "custommachinery:speed",
+            "operation": "multiplication",
+            "mode": "input",
+            "modifier": 0.8
+        }
+    ],
+    "components": [
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "capacity",
+            "modifier": 4
+        },
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "max_input",
+            "modifier": 4
+        },
+        {
+            "component": "custommachinery:energy",
+            "operation": "multiplication",
+            "target": "max_output",
+            "modifier": 4
+        }
+    ]
+}

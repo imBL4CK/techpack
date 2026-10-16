@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:precious_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gold_nugget",
+      "count": 6,
+      "chance": 0.5
+    },
+    {
+      "id": "eidolon_repraised:silver_nugget",
+      "count": 6,
+      "chance": 0.5
+    },
+    {
+      "id": "eidolon_repraised:lead_nugget",
+      "count": 6,
+      "chance": 0.5
+    },
+    {
+      "id": "create:honey",
+      "amount": 100
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+    "parent": "block/cube",
+    "textures": {
+    	"face": "techpack:block/machines/bee_house_side",
+    	"side": "techpack:block/machines/apiary_side",
+		"end": "techpack:block/machines/apiary_end",
+    	"particle": "techpack:block/machines/bee_house_side"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#end", "cullface": "up" },
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#face", "cullface": "north" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+            }
+        }
+    ]
+}

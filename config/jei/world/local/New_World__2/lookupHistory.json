@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"techpack:warm_comb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:fossil_bee_queen"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:fossil_bee_drone","components":{"forbidden_arcanus:modifier":"forbidden_arcanus:eternal","minecraft:item_name":"{\"extra\":[\" \",{\"translate\":\"item.techpack.fossil_bee_drone\"}],\"translate\":\"modifier.forbidden_arcanus.eternal\"}","!minecraft:damage":{},"!minecraft:max_damage":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:wild_warm_nest"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

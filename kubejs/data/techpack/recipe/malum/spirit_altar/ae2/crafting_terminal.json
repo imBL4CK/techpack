@@ -1,0 +1,36 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "ae2:calculation_processor"
+    },
+    {
+      "item": "create:mechanical_arm"
+    },
+    {
+      "item": "create:mechanical_crafter",
+      "count": 9
+    }
+  ],
+  "input": {
+    "item": "ae2:terminal",
+    "count": 1
+  },
+  "result": {
+    "id": "ae2:crafting_terminal"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 16
+    },
+    {
+      "type": "malum:earthen",
+      "count": 16
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 16
+    }
+  ]
+}

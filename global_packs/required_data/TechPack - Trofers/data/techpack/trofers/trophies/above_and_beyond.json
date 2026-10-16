@@ -1,0 +1,34 @@
+{
+  "name": {
+    "color": "#FFFF55",
+    "translate": "trophy.trofers.composed",
+    "with": [
+      {
+        "translate": "item.techpack.trophy.above_and_beyond.name"
+      }
+    ]
+  },
+  "tooltip": {
+    "translate": "tooltip.techpack.trophy.above_and_beyond"
+  },
+  "item": {
+    "id": "ae2:controller"
+  },
+  "display": {
+    "offset": [0, 4, 0],
+    "scale": 0.75,
+    "speed": 0.25
+  },
+  "animation": {
+    "type": "spinning"
+  },
+  "colors": {
+    "accent": "#FFFF55",
+    "base": "#FFFFFF"
+  },
+  "effects": {
+    "sound": {
+      "id": "techpack:machine_generic.running"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "tag": "techpack:electrical_insulators"
+    },
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "pressure": 3.0,
+  "results": [
+    {
+      "id": "techpack:capacitor",
+      "count": 2
+    }
+  ]
+}

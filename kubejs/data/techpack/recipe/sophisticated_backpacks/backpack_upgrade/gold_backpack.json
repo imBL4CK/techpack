@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:gold_backpack"
+    }
+  ],
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    },
+    "H": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "M": {
+      "item": "malum:mimicry_relay"
+    }
+  },
+  "pattern": [
+    "MHM",
+    "HBH",
+    "MHM"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:gold_backpack"
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+          {
+            "type": "minecraft:empty",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:copper_pickaxe",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:copper_axe",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:copper_shovel",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:copper_sword",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.9
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "naturalist:capture_net",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:flint_and_steel",
+            "weight": 7,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:flint_and_soul",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_pickaxe",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_shovel",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_sword",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:steel_pickaxe",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:steel_axe",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:steel_shovel",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "techpack:steel_sword",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.7
+                }
+              }
+            ]
+          }
+      ],
+      "functions": []
+    }
+  ]
+}

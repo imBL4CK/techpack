@@ -1,0 +1,8 @@
+{
+  "source_item": "nomansland:honeyed_apple",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "fruits": 0.02
+  }
+}

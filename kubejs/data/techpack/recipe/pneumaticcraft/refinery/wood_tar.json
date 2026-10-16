@@ -1,0 +1,20 @@
+{
+  "type": "pneumaticcraft:refinery",
+  "input": {
+    "fluid": "techpack:wood_tar",
+    "amount": 10
+  },
+  "outputs": [
+    {
+      "id": "techpack:benzene",
+      "amount": 5
+    },
+    {
+      "id": "techpack:creosote",
+      "amount": 5
+    }
+  ],
+  "temperature": {
+    "min": 373
+  }
+}

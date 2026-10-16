@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "TCT",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "C": {
+      "item": "naturalist:capture_net"
+    },
+    "T": {
+      "item": "techpack:tanned_leather"
+    }
+  },
+  "result": {
+    "id": "techpack:apiary"
+  }
+}

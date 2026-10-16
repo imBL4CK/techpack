@@ -1,0 +1,10 @@
+{
+  "type": "malum:void_favor",
+  "input": {
+    "item": "techpack:quicksilver_drop"
+  },
+  "result": {
+    "count": 1,
+    "id": "techpack:void_seed"
+  }
+}

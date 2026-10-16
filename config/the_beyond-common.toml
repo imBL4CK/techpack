@@ -1,0 +1,16 @@
+#Progression / discovery gating
+[knowledge]
+	#Hide Farlands/Wall/Beyond content (biomes, structures, items,
+	#creative-tab entries, /locate targets, compass suggestions,
+	#JEI/REI recipes) until the player personally reaches them.
+	#When false, all content is visible regardless of progression.
+	#Default: true
+	hideUndiscoveredContent = true
+	#How knowledge is shared between players on the server.
+	#PER_PLAYER — each player has independent progression.
+	#SHARED_WORLD — any player's discovery unlocks content for all.
+	#PER_PLAYER_WITH_IMPORT — per-player, but players may import
+	#                         knowledge from other worlds (on login).
+	#Default: PER_PLAYER
+	#Allowed Values: PER_PLAYER, SHARED_WORLD, PER_PLAYER_WITH_IMPORT
+	knowledgeMode = "PER_PLAYER"

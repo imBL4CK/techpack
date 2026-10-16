@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TZT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "tag": "c:ingots/tin"
+    },
+    "Z": {
+      "item": "techpack:zinc_battery_cell"
+    }
+  },
+  "result": {
+    "id": "modular_machinery_reborn:energyinputhatch_tiny"
+  }
+}

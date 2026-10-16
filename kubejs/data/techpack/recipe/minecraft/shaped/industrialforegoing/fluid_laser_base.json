@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HPH",
+    "FMF",
+    "GCG"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "P": {
+      "item": "create:hose_pulley"
+    },
+    "F": {
+      "item": "supplementaries:faucet"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/copper"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:fluid_laser_base"
+  }
+}

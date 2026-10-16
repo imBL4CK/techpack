@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  R",
+    " P ",
+    "Q  "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "malum:soul_stained_steel_plating"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "result": {
+    "id": "techpack:redstone_spiritual_coil"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "source_item": "farmersdelight:bacon_sandwich",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.015,
+    "grains": 0.04
+  }
+}

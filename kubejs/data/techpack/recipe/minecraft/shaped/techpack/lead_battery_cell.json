@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LPL",
+    "LRL",
+    "LPL"
+  ],
+  "key": {
+    "L": {
+      "tag": "c:ingots/lead"
+    },
+    "P": {
+      "tag": "c:plastics"
+    },
+    "R": {
+      "item": "techpack:flux_powder"
+    }
+  },
+  "result": {
+    "id": "techpack:lead_battery_box"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "source_item": "create:sweet_roll",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "grains": 0.04
+  }
+}

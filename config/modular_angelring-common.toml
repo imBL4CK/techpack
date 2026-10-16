@@ -1,0 +1,16 @@
+#Inertia Module: Change this value for slower or faster slowdown (closer to 1 for slower).
+# Default: 0.75
+# Range: 0.0 ~ 1.0
+slowdownFactor = 0.75
+#Magnet Module: Effect radius.
+# Default: 5.0
+# Range: 1.0 ~ 32.0
+magnetRadius = 5.0
+#Magnet Module: Pull speed.
+# Default: 0.2
+# Range: 0.0 ~ 1.0
+magnetPullSpeed = 0.2
+#Speed Module: Max speed
+# Default: 0.15
+# Range: 0.0 ~ 1.0
+maxFlightSpeed = 0.15

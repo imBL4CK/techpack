@@ -1,0 +1,8 @@
+{
+  "source_item": "nomansland:pear_juice",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "sugars": 0.02
+  }
+}

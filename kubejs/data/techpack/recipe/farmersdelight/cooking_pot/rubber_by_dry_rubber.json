@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "experience": 0.8,
+  "ingredients": [
+    {
+      "item": "industrialforegoing:dryrubber"
+    },
+    {
+      "tag": "c:dusts/sulfur"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "techpack:rubber"
+  }
+}

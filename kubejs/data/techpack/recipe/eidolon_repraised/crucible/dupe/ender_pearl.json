@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:ender_pearl" },
+        { "item": "malum:alchemical_calx" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "malum:eldritch_spirit" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "minecraft:ender_pearl",
+    "count": 2
+  }
+}

@@ -1,0 +1,5 @@
+	[integration.jei]
+		#Service Addresses that have recipes associated with them will be shown in JEI as ingredients.
+		#Changing the value requires relogging into the world or /reload to take effect.
+		# Default: true.
+		service_address_ingredient = true

@@ -1,0 +1,79 @@
+[
+  {
+    "action": "replace_input",
+    "target": "minecraft:ender_pearl",
+    "replacement": "pneumaticcraft:printed_circuit_board",
+    "id": [
+      "tempad:tempad",
+      "tempad:time_twister",
+      "tempad:chronomark"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": [
+      "#c:ingots/iron",
+      "minecraft:iron_ingot"
+    ],
+    "replacement": "#techpack:casing_materials",
+    "id": [
+      "minecraft:cauldron",
+      "minecraft:hopper",
+      "minecraft:minecart",
+      "minecraft:stonecutter",
+      "minecraft:bucket",
+      "minecraft:shears",
+      "minecraft:blast_furnace",
+      "minecraft:piston",
+      "supplementaries:cannon",
+      "supplementaries:cannon_2",
+      "supplementaries:faucet",
+      "nomansland:tap"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/iron",
+    "replacement": "#c:ingots/wrought_iron",
+    "id": [
+      "minecraft:anvil"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "ad_astra:steel_blocks",
+    "replacement": "techpack:heavy_duty_plate",
+    "id": [
+      "ad_astra:nasa_workbench/tier_1_rocket_from_nasa_workbench"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:redstone",
+    "replacement": "techpack:flux_powder",
+    "id": [
+      "ae2:inscriber/logic_processor",
+      "ae2:inscriber/engineering_processor",
+      "ae2:inscriber/calculation_processor"
+    ]
+  },
+  {
+    "action": "replace_input",
+    "target":  "pneumaticcraft:solar_cell",
+    "replacement": "enderio:photovoltaic_plate",
+    "id": "pneumaticcraft:solar_compressor"
+  },
+  {
+    "action": "replace_input",
+    "target": "#c:ingots/iron",
+    "replacement": "#c:ingots/wrought_iron",
+    "id": [
+      "minecraft:iron_axe",
+      "minecraft:iron_pickaxe",
+      "minecraft:iron_shovel",
+      "minecraft:iron_sword",
+      "minecraft:iron_hoe",
+      "malum:crude_scythe"
+    ]
+  }
+]

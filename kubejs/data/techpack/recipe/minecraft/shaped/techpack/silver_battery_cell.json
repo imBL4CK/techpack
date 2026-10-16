@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SHS",
+    "SQS",
+    "SHS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/silver"
+    },
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "Q": {
+      "item": "techpack:quicksilver_drop"
+    }
+  },
+  "result": {
+    "id": "techpack:silver_battery_box"
+  }
+}

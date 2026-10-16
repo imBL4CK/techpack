@@ -1,0 +1,10 @@
+{
+  "source_item": "farmersdelight:chicken_sandwich",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.03,
+    "vegetables": 0.02,
+    "grains": 0.04
+  }
+}

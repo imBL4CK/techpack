@@ -1,0 +1,22 @@
+{
+  "type": "envelope:mail_crafting",
+  "address": "envelope:starcorp_remnant",
+  "ingredients": [
+    {
+      "item": "create:electron_tube"
+    },
+    {
+      "item": "techpack:scraps"
+    },
+    {
+      "item": "techpack:scraps"
+    },
+    {
+      "item": "techpack:scraps"
+    }
+  ],
+  "result": {
+    "id": "create:electron_tube",
+    "count": 2
+  }
+}

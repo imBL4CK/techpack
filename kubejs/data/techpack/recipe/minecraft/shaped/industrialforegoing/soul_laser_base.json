@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PKP",
+    "VCV",
+    "LSL"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:ptfe_sheet"
+    },
+    "K": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "V": {
+      "item": "techpack:sculk_vibration_coil"
+    },
+    "C": {
+      "item": "techpack:sophisticated_machine_casing"
+    },
+    "L": {
+      "item": "techpack:lead_gear"
+    },
+    "S": {
+      "item": "techpack:sophisticated_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoingsouls:soul_laser_base"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "techpack:item/suffering_ending_hand"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 12.75, 0],
+			"scale": [2, 2, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 12.75, 0],
+			"scale": [2, 2, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [1.13, 5, 1.13],
+			"scale": [2, 2, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -25],
+			"translation": [1.13, 5, 1.13],
+			"scale": [2, 2, 0.68]
+		},
+		"gui": {
+			"translation": [1.75, 1.75, 0],
+			"scale": [1.2, 1.2, 1]
+		},
+		"head": {
+			"rotation": [0, 0, -45],
+			"translation": [4, 0.25, 0],
+			"scale": [3, 3, 1]
+		}
+	}
+}

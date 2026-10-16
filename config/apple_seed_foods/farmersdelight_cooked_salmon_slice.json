@@ -1,0 +1,8 @@
+{
+  "source_item": "farmersdelight:cooked_salmon_slice",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.01
+  }
+}

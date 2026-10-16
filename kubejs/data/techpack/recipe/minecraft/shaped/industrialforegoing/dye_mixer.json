@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PXP",
+    "GMG",
+    "RCR"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "X": {
+      "item": "create:whisk"
+    },
+    "G": { 
+      "tag": "c:gears/gold" 
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:dye_mixer"
+  }
+}

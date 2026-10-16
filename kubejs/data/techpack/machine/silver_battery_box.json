@@ -1,0 +1,171 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.energy_storage.silver_battery_box"
+    }
+  },
+  "appearance": {
+    "custommachinery:block": "techpack:machines/energy_storage/silver_battery_box#standalone",
+    "custommachinery:item": "techpack:machines/energy_storage/silver_battery_box#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe"
+    ]
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 256000,
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH",
+        "input": true,
+        "output": true
+      },
+      "capacity": 4096000,
+      "max_input": 256000
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "max_output": 64,
+      "id": "energy_input_slot",
+      "mode": "input",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "max_output": 64,
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "energy_output_slot",
+      "mode": "output",
+      "capacity": 1,
+      "max_input": 64
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "battery_slot",
+      "mode": "input",
+      "capacity": 1
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "craftingpoweroutput": 7,
+      "erroredpoweroutput": 12
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:config",
+      "texture_hovered": {
+        "texture": "techpack:textures/gui/machines/hovered_side_config_slot.png"
+      },
+      "texture": {
+        "texture": "techpack:textures/gui/machines/side_config_slot.png"
+      },
+      "x": 151,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 34,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "battery_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/battery_cell_slot.png"
+      },
+      "x": 133,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_input_slot.png"
+      },
+      "x": 98,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 60,
+      "y": 34
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.energy_storage.silver_battery_box"
+        }
+      }
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "tooltip.techpack.energy_storage_block"
+      }
+    },
+    {
+      "text": {
+        "translate": ""
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.block_stats"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.silver_battery_box_1"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.silver_battery_box_2"
+      }
+    }
+  ]
+}

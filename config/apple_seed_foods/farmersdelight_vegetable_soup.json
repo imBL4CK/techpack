@@ -1,0 +1,8 @@
+{
+  "source_item": "farmersdelight:vegetable_soup",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "vegetables": 0.05
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HFH",
+    "LCL",
+    "SPS"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "F": {
+      "item": "malum:fused_consciousness"
+    },
+    "L": {
+      "item": "malum:convoluted_lens"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "S": {
+      "item": "techpack:redstone_spiritual_coil"
+    },
+    "P": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:enchantment_sorter"
+  }
+}

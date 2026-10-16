@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/macerator_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/macerator_running"
+    }
+}

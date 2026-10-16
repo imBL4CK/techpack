@@ -1,0 +1,41 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "tag": "c:ingots/aluminum",
+            "count": 4
+        },
+        {
+            "item": "malum:malignant_pewter_plating"
+        },
+        {
+            "item": "ae2:fluix_pearl"
+        }
+    ],
+    "input": {
+        "item": "ae2:engineering_processor",
+        "count": 1
+    },
+    "result": {
+        "id": "ae2:controller",
+        "count": 2
+    },
+    "spirits": [
+        {
+            "type": "malum:arcane",
+            "count": 4
+        },
+        {
+            "type": "malum:earthen",
+            "count": 4
+        },
+        {
+            "type": "malum:aerial",
+            "count": 2
+        },
+        {
+            "type": "malum:eldritch",
+            "count": 2
+        }
+    ]
+}

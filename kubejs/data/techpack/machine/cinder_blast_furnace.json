@@ -1,0 +1,401 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.cinder_blast_furnace"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:block.furnace.fire_crackle"
+      },
+      "custommachinery:block": "techpack:machines/cinder_blast_furnace_running#standalone",
+      "custommachinery:light": 15
+    },
+    "custommachinery:block": "techpack:machines/cinder_blast_furnace_idle#standalone",
+    "custommachinery:interaction_sound": {
+      "fall": "minecraft:block.stone.fall",
+      "place": "minecraft:block.stone.place",
+      "hit": "minecraft:block.stone.hit",
+      "break": "minecraft:block.stone.break",
+      "step": "minecraft:block.stone.step"
+    },
+    "custommachinery:shape": {
+      "north": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.25,
+          1.0
+        ],
+        [
+          0.125,
+          0.25,
+          0.125,
+          0.875,
+          2.0,
+          0.875
+        ]
+      ],
+      "south": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.25,
+          1.0
+        ],
+        [
+          0.125,
+          0.25,
+          0.125,
+          0.875,
+          2.0,
+          0.875
+        ]
+      ],
+      "west": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.25,
+          1.0
+        ],
+        [
+          0.125,
+          0.25,
+          0.125,
+          0.875,
+          2.0,
+          0.875
+        ]
+      ],
+      "east": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.25,
+          1.0
+        ],
+        [
+          0.125,
+          0.25,
+          0.125,
+          0.875,
+          2.0,
+          0.875
+        ]
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "NONE",
+        "LEFT": "INPUT"
+      },
+      "id": "input_slot_1",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "NONE",
+        "LEFT": "INPUT"
+      },
+      "id": "input_slot_2",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "NONE",
+        "LEFT": "INPUT"
+      },
+      "id": "input_slot_3",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "INPUT",
+        "RIGHT": "INPUT",
+        "BACK": "NONE",
+        "LEFT": "INPUT"
+      },
+      "id": "input_slot_4",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "output_slot_1",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item",
+      "whitelist": "#c:slag",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "OUTPUT",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE"
+      },
+      "id": "output_slot_2",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_fuel",
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "NONE",
+        "RIGHT": "NONE",
+        "BACK": "INPUT",
+        "LEFT": "NONE"
+      },
+      "id": "fuel_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "pausedpoweroutput": 3,
+      "comparatorinputtype": "custommachinery:working_core",
+      "comparatorinputid": "1",
+      "powertopause": 15,
+      "craftingpoweroutput": 7,
+      "erroredpoweroutput": 12
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_gui.png"
+      },
+      "width": 176,
+      "height": 192
+    },
+    {
+      "type": "custommachinery:fuel",
+      "x": 54,
+      "y": 60
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 111
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 83,
+      "y": 33,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "fuel_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 52,
+      "y": 76
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 43,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 61,
+      "y": 23
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 43,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 61,
+      "y": 41
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_slot.png"
+      },
+      "x": 112,
+      "y": 29
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "tooltips": [
+        {
+          "text": {
+            "translate": "gui.techpack.machines.secundary_output_slot"
+          }
+        }
+      ],
+      "x": 116,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.cinder_blast_furnace"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:fuel",
+      "x": 10,
+      "y": 38
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 37,
+      "y": 5,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 0,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 18,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_3",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 0,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "input_slot_4",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 18,
+      "y": 18
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_1",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/big_slot.png"
+      },
+      "x": 62,
+      "y": 0
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "output_slot_2",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/slot.png"
+      },
+      "x": 66,
+      "y": 28
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "- Fluids are outputted in top"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Ingredients and fuel are input in sides"
+      }
+    },
+    {
+      "text": {
+        "translate": "- Result are outputs in bottom"
+      }
+    }
+  ]
+}

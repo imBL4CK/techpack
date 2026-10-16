@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BB",
+    "BB"
+  ],
+  "key": {
+    "B": {
+      "item": "techpack:cinder_brick"
+    }
+  },
+  "result": {
+    "id": "techpack:cinder_bricks"
+  }
+}

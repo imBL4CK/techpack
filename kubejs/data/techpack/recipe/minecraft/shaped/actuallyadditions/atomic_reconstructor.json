@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PLP",
+    "GCG",
+    "RBT"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:steel_plate"
+    },
+    "L": {
+      "item": "actuallyadditions:lens"
+    },
+    "G": {
+      "item": "techpack:steel_gear"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    },
+    "T": {
+      "item": "techpack:redstone_transmission_coil"
+    }
+  },
+  "result": {
+    "id": "actuallyadditions:atomic_reconstructor"
+  }
+}

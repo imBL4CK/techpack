@@ -1,0 +1,27 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:void_crystal"
+  },
+  "modifiers": [
+    {
+      "item": "eidolon_repraised:soul_shard"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "malum:grim_talc"
+    },
+    {
+      "item": "malum:ether"
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:empowered_void_crystal",
+    "count": 1
+  },
+  "color": 13421772,
+  "energy": 10000,
+  "time": 100
+}

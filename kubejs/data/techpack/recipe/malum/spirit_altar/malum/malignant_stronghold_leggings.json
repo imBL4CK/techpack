@@ -1,0 +1,43 @@
+{
+  "type": "malum:spirit_infusion",
+  "carryOverComponentData": true,
+  "extraInputs": [
+    {
+      "count": 8,
+      "item": "malum:soulwoven_silk"
+    },
+    {
+      "count": 3,
+      "item": "malum:malignant_pewter_plating"
+    },
+    {
+      "item": "techpack:void_seed"
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "malum:soul_stained_steel_leggings"
+  },
+  "result": {
+    "count": 1,
+    "id": "malum:malignant_stronghold_leggings"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 32
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 32
+    },
+    {
+      "type": "malum:wicked",
+      "count": 16
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 16
+    }
+  ]
+}

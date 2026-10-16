@@ -1,0 +1,19 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:blaze_powder" },
+        { "item": "minecraft:redstone" },
+        { "item": "minecraft:glowstone_dust" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "techpack:flux_powder",
+    "count": 6
+  }
+}

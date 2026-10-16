@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/centrifuge_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/centrifuge_running"
+    }
+}

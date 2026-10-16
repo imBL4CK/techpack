@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HEH",
+    "BCB",
+    "SPS"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "E": {
+      "item": "enderio:enchanter"
+    },
+    "B": {
+      "item": "malum:brilliant_obelisk"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "S": {
+      "item": "techpack:redstone_spiritual_coil"
+    },
+    "P": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:enchantment_factory"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "source_item": "minecraft:pumpkin_pie",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "sugars": 0.02,
+    "proteins": 0.03,
+    "vegetables": 0.027
+  }
+}

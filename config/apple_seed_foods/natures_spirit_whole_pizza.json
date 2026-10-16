@@ -1,0 +1,9 @@
+{
+  "source_item": "natures_spirit:whole_pizza",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "vegetables": 0.02,
+    "grains": 0.03
+  }
+}

@@ -1,0 +1,3 @@
+#Envelope will add its items to various loot chests, etc. Use datapack if you need finer control. This is basically a kill switch.
+#Default: true
+loot = true

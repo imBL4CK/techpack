@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IFI",
+    "PCP",
+    "RBR"
+  ],
+  "key": {
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "F": {
+      "item": "supplementaries:flower_box"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:plant_sower"
+  }
+}

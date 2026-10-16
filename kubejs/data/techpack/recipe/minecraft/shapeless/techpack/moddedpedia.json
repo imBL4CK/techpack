@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    }
+  ],
+  "result": {
+    "id": "guideme:guide",
+    "components": {
+      "guideme:guide_id": "techpack:moddedpedia"
+    }
+  }
+}

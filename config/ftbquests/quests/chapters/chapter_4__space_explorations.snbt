@@ -1,0 +1,213 @@
+{
+	always_invisible: true
+	autofocus_id: "71D32C233DFE792A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_4__space_explorations"
+	group: "225813B7649167DE"
+	icon: {
+		id: "techpack:sophisticated_machine_casing"
+	}
+	id: "46BF282F06B04D68"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["00E7DBCB639B2833"]
+			icon: {
+				id: "techpack:sophisticated_machine_casing"
+			}
+			icon_scale: 0.8d
+			id: "71D32C233DFE792A"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "478665C32C1D7957"
+					item: { count: 1, id: "techpack:sophisticated_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "3376EB8825E22FB3"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "techpack:smd_capacitor"
+			}
+			id: "58DB3CEC6DFDFB6E"
+			tasks: [
+				{
+					count: 4L
+					id: "5F3B9F8D797DD739"
+					item: { count: 1, id: "techpack:smd_capacitor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1F5D0CB089BB0647"
+					item: { count: 1, id: "techpack:smd_transistor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "465A9F7958B929DB"
+					item: { count: 1, id: "techpack:smd_resistor" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3FE0D261051C8DD5"
+					item: { count: 1, id: "techpack:smd_diode" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D32C233DFE792A"]
+			icon: {
+				id: "hostilenetworks:sim_chamber"
+			}
+			id: "751A22EA3B470B4D"
+			tasks: [
+				{
+					id: "3001BD5DA2068F0B"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					id: "7DF0302AD60EB22F"
+					item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71D32C233DFE792A"]
+			id: "3A75013C20284AA2"
+			tasks: [{
+				id: "077380C3D932BAFB"
+				item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71D32C233DFE792A"]
+			icon: {
+				components: {
+					"modular_machinery_reborn:machine": "techpack:thermal_evaporation_tower"
+				}
+				id: "modular_machinery_reborn:controller"
+			}
+			id: "3173942E6EEFE774"
+			tasks: [
+				{
+					id: "023CADEB423E367A"
+					item: { components: { "modular_machinery_reborn:machine": "techpack:thermal_evaporation_tower" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 53L
+					id: "07D0C11279D1DABC"
+					item: { count: 1, id: "techpack:thermal_evaporation_casing" }
+					type: "item"
+				}
+				{
+					id: "5FDA54BBFF2D4462"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:fluidinputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "63BADE7974903F2D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:fluidoutputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "01C162465B02304C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modular_machinery_reborn:energyinputhatch)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0DDBBF10DF87B77E"]
+			id: "168853783B059723"
+			tasks: [{
+				id: "6443E8853274509F"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71D32C233DFE792A"]
+			id: "0DDBBF10DF87B77E"
+			tasks: [{
+				id: "5DB230E6A57D03F8"
+				item: { count: 1, id: "techpack:sophisticated_integral_augment" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0DDBBF10DF87B77E"]
+			id: "11E383D2552D94AB"
+			tasks: [{
+				id: "7E3C43FD022EFE62"
+				item: { count: 1, id: "techpack:flux_infused_alloy_plating" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "00BF63A3F828C8BC"
+			tasks: [{
+				id: "01C880AB7646FFC2"
+				item: { count: 1, id: "enderio_endergy:stellar_alloy_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00BF63A3F828C8BC"]
+			id: "48C10318F703D464"
+			tasks: [{
+				id: "28A16719F4C82F6A"
+				item: { count: 1, id: "enderio_endergy:stellar_capacitor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3173942E6EEFE774"]
+			id: "5C8F82384CA19FB9"
+			tasks: [{
+				id: "7767C877289B8176"
+				item: { count: 1, id: "techpack:lithium_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+}

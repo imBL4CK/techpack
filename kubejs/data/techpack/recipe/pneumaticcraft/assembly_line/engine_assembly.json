@@ -1,0 +1,12 @@
+{
+  "type": "pneumaticcraft:assembly_drill",
+  "program": "drill",
+  "input": {
+    "tag": "c:ingots/steel",
+    "count": 4
+  },
+  "result": {
+    "id": "techpack:engine_assembly",
+    "count": 1
+  }
+}

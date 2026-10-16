@@ -1,0 +1,21 @@
+{
+  "type": "pneumaticcraft:thermo_plant",
+  "inputs": {
+    "fluid": {
+      "fluid": "pneumaticcraft:diesel",
+      "amount": 100
+    },
+    "item": {
+      "item": "techpack:flux_powder"
+    }
+  },
+  "outputs": {
+    "fluid_output": {
+      "id": "stellaris:diesel",
+      "amount": 100
+    }
+  },
+  "temperature": {
+    "min": 373
+  }
+}

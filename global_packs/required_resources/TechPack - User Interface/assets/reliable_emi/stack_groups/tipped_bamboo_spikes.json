@@ -1,0 +1,9 @@
+{
+  "type": "remi:group",
+  "contents": [
+    {
+      "type": "item",
+      "id": "supplementaries:bamboo_spikes_tipped"
+    }
+  ]
+}

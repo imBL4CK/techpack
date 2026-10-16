@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/steam/compressor_idle",
+    "textures": {
+        "face": "techpack:block/machines/steam/compressor_running"
+    }
+}

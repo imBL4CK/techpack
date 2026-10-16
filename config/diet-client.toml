@@ -1,0 +1,6 @@
+addButton = true
+#Range: -10000 ~ 10000
+buttonX = 106
+#Range: -10000 ~ 10000
+buttonY = -22
+textColor = "4210752"

@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:sticky_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "nomansland:resin",
+      "chance": 0.5
+    },
+    {
+      "id": "create:honey",
+      "amount": 100
+    }
+  ]
+}

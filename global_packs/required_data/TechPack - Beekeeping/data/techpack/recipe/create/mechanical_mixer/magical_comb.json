@@ -1,0 +1,25 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:magical_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:lapis_lazuli",
+      "count": 6,
+      "chance": 0.5
+    },
+    {
+      "id": "malum:hex_ash",
+      "count": 4,
+      "chance": 0.5
+    },
+    {
+      "id": "create:honey",
+      "amount": 100
+    }
+  ]
+}

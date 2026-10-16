@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "techpack:block/sulfur_cluster",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "techpack:block/sulfur_cluster"
+    },
+    "facing=north": {
+      "model": "techpack:block/sulfur_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "techpack:block/sulfur_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=east": {
+      "model": "techpack:block/sulfur_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {
+      "model": "techpack:block/sulfur_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

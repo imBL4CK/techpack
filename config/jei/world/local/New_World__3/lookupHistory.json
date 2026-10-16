@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"techpack:raw_lead"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_nickel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_silver"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_tin"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_chrome"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_aluminum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:raw_platinum"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:raw_gold"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:raw_copper"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:raw_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:steam_dynamo"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

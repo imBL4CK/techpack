@@ -1,0 +1,19 @@
+{
+  "type": "envelope:mail_crafting",
+  "address": "envelope:starcorp_remnant",
+  "ingredients": [
+    {
+      "item": "techpack:tanned_leather"
+    },
+    {
+      "item": "techpack:scraps"
+    },
+    {
+      "item": "techpack:scraps"
+    }
+  ],
+  "result": {
+    "id": "techpack:tanned_leather",
+    "count": 2
+  }
+}

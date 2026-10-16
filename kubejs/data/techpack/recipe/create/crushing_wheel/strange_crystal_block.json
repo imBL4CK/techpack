@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "processing_time": 100,
+  "ingredients": [
+    {
+      "item": "techpack:strange_crystal_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "malum:large_strange_crystal",
+      "count": 4
+    }
+  ]
+}

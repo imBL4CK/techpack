@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/materials",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/ingredients",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/ingots",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/foods",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/basic_alloys",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/basic_components",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/tools",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/advanced_alloys",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "techpack:chests/advanced_components",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

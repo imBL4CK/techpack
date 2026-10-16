@@ -1,0 +1,147 @@
+#Maximum number of particles allowed
+# Default: 1500
+# Range: > 0
+maxParticleAmount = 1500
+# Default: 100
+# Range: > 0
+particleDensity = 100
+# Default: 200
+# Range: > 0
+particleStormDensity = 200
+# Default: 25
+# Range: > 0
+particleRadius = 25
+doRainParticles = true
+doSplashParticles = true
+doSmokeParticles = true
+doRippleParticles = true
+doStreakParticles = true
+doSnowParticles = true
+doSandParticles = true
+doShrubParticles = true
+doFogParticles = false
+doGroundFogParticles = true
+doRainSounds = true
+doSnowSounds = true
+doSandSounds = true
+renderVanillaWeather = false
+tickVanillaWeather = false
+biomeTint = true
+# Default: 50
+# Range: 0 ~ 100
+tintMix = 50
+spawnAboveClouds = false
+# Default: 191
+# Range: 0 ~ 256
+cloudHeight = 191
+alwaysRaining = false
+yLevelWindAdjustment = true
+syncRegistry = true
+
+[rain]
+	#Rain particle density
+	# Default: 100
+	# Range: 1 ~ 100
+	density = 100
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 1.0
+	# Default: 0.3
+	# Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 0.3
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stormWindStrength = 0.5
+	# Default: 100
+	# Range: 1 ~ 100
+	opacity = 100
+	# Default: 5
+	# Range: > 0
+	splashDensity = 5
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+
+[snow]
+	# Default: 40
+	# Range: 1 ~ 100
+	density = 40
+	# Default: 0.08
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.08
+	# Default: 0.03
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rotationAmount = 0.03
+	# Default: 0.05
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stormRotationAmount = 0.05
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 1.0
+	# Default: 3.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	stormWindStrength = 3.0
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+
+[ripple]
+	# Default: 16
+	# Range: 4 ~ 256
+	resolution = 16
+	useResourcepackResolution = true
+
+[sand]
+	# Default: 80
+	# Range: 1 ~ 100
+	density = 80
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	# Default: 0.3
+	# Range: 0.0 ~ 1.7976931348623157E308
+	windStrength = 0.3
+	# Default: 0.1
+	# Range: 0.0 ~ 1.7976931348623157E308
+	moteSize = 0.1
+	# Default: 2.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	size = 2.0
+	spawnOnGround = true
+	matchTags = "minecraft:camel_sand_step_sound_blocks"
+
+[shrub]
+	# Default: 2
+	# Range: 1 ~ 100
+	density = 2
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rotationAmount = 0.2
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	bounciness = 0.2
+
+[fog]
+	# Default: 20
+	# Range: 1 ~ 100
+	density = 20
+	# Default: 0.2
+	# Range: 0.0 ~ 1.7976931348623157E308
+	gravity = 0.2
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	size = 0.5
+
+[groundFog]
+	# Default: 20
+	# Range: 1 ~ 100
+	density = 20
+	# Default: 64
+	# Range: 0 ~ 256
+	spawnHeight = 64
+	# Default: 8.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	size = 8.0

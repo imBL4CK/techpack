@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "C C",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "techpack:tanned_leather"
+    },
+    "C": {
+      "item": "farmersdelight:canvas"
+    }
+  },
+  "result": {
+    "id": "minecraft:leather_leggings"
+  }
+}

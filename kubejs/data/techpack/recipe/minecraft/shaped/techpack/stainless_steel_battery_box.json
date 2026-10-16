@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "SQS",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:ingots/stainless_steel"
+    },
+    "P": {
+      "item": "techpack:ptfe_sheet"
+    },
+    "Q": {
+      "item": "techpach:quicksilver_drop"
+    }
+  },
+  "result": {
+    "id": "techpack:stainless_steel_battery_box"
+  }
+}

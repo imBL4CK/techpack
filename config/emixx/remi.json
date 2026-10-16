@@ -1,0 +1,40 @@
+{
+  "enableCreativeModeTabs": false,
+  "syncSelectedCreativeModeTab": false,
+  "showCreativeTabNameInSearchbar": false,
+  "maxSidebarTabs": 0,
+  "disabledCreativeModeTabs": [
+    "minecraft:op_blocks"
+  ],
+  "enableStackGroups": true,
+  "enableCreateStackGroupButton": true,
+  "disabledStackGroups": [
+    "enderio:clear_glass",
+    "c:ingots",
+    "c:raw_materials",
+    "techpack:bees/princesses",
+    "c:dusts",
+    "techpack:bees/drones",
+    "enderio:fused_quartz",
+    "c:nuggets",
+    "techpack:bees/queens"
+  ],
+  "stackGroupItemOrder": {},
+  "emiOnlyInRecipeBook": false,
+  "emiOnlyInRecipeBookState": false,
+  "dragCheatToInventory": true,
+  "enableCategorizedTagPages": true,
+  "enableEntityTags": true,
+  "enableTagSearchEnhancements": true,
+  "disablePaginationWrapping": false,
+  "scrollInsteadOfPagination": false,
+  "showTitleInsteadOfPageNumbers": false,
+  "hidePageButtonWhenOnePage": false,
+  "incrementalScrollbarFill": false,
+  "searchWidgetAlignWithPanel": false,
+  "searchWidgetTopOffset": 0,
+  "searchWidgetHorizontalPadding": 4,
+  "searchWidgetVerticalPadding": 2,
+  "searchWidgetSuggestionTextColor": -8355712,
+  "searchWidgetTextColor": -1
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OSO",
+    "HAH",
+    "RMR"
+  ],
+  "key": {
+    "O": {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    "S": {
+      "item": "create:shaft"
+    },
+    "H": {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    "A": {
+      "item": "techpack:animated_parts"
+    },
+    "R": {
+      "tag": "malum:runewood_planks"
+    },
+    "M": {
+      "item": "malum:mimicry_relay"
+    }
+  },
+  "result": {
+    "id": "techpack:animated_mechanical_motor"
+  }
+}

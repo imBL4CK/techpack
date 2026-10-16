@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/alloy_foundry_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/alloy_foundry_running"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "FAF",
+    "DCD"
+  ],
+  "key": {
+    "P": {
+      "item": "enderio:photovoltaic_plate"
+    },
+    "F": {
+      "item": "techpack:carbon_fiber"
+    },
+    "A": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "D": {
+      "tag": "c:plates/desh"
+    },
+    "C": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    }
+  },
+  "result": {
+    "id": "ad_astra:solar_panel"
+  }
+}

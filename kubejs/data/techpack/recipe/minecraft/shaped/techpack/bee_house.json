@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "TBT",
+    "PPP"
+  ],
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "techpack:combs"
+    },
+    "T": {
+      "item": "techpack:tanned_leather"
+    }
+  },
+  "result": {
+    "id": "techpack:bee_house"
+  }
+}

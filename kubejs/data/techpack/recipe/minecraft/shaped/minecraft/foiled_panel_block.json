@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "PPP",
+        "PTP",
+        "PPP"
+    ],
+    "key": {
+        "P": {
+            "item": "techpack:panel_block"
+        },
+        "T": {
+            "item": "techpack:tin_plate"
+        }
+    },
+    "result": {
+        "id": "techpack:foiled_panel_block",
+        "count": 8
+    }
+}

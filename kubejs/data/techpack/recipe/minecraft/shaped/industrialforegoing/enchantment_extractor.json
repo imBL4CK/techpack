@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PGP",
+    "RMR",
+    "SCS"
+  ],
+  "key": {
+    "P": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "G": {
+      "item": "minecraft:grindstone"
+    },
+    "R": {
+      "item": "malum:mimicry_relay"
+    },
+    "M": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "S": {
+      "item": "techpack:redstone_spiritual_coil"
+    },
+    "C": {
+      "item": "techpack:spiritual_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:enchantment_extractor"
+  }
+}

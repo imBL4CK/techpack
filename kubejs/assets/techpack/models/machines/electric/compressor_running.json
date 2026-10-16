@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/compressor_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/compressor_running"
+    }
+}

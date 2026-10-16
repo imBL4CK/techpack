@@ -1,0 +1,16 @@
+[
+  {
+    "action": "remove_recipe",
+    "type": "ad_astra:compressing"
+  },
+  {
+    "action": "remove_recipe",
+    "type": "actuallyadditions:crushing"
+  },
+  {
+    "action": "remove_recipe",
+    "type": "create:crushing",
+    "input": ["#c:ores", "#c:raw_materials"],
+    "output": "#create:crushed_raw_materials"
+  }
+]

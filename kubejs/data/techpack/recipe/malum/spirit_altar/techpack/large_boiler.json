@@ -1,0 +1,49 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:redstone_reception_coil",
+      "count": 4
+    },
+    {
+      "item": "techpack:steel_plate",
+      "count": 4
+    },
+    {
+      "item": "techpack:mica",
+      "count": 2
+    },
+    {
+      "item": "techpack:basic_circuit",
+      "count": 1
+    }
+  ],
+  "input": {
+    "item": "techpack:bronze_casing",
+    "count": 1
+  },
+  "result": {
+    "id": "modular_machinery_reborn:controller",
+    "components": {
+      "modular_machinery_reborn:machine": "techpack:large_boiler"
+    }
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 4
+    },
+    {
+      "type": "malum:infernal",
+      "count": 4
+    },
+    {
+      "type": "malum:aqueous",
+      "count": 2
+    },
+    {
+      "type": "malum:aerial",
+      "count": 2
+    }
+  ]
+}

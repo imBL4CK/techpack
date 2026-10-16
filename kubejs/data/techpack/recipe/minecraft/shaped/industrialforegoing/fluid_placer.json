@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PBP",
+    "HMH",
+    "CBC"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "B": {
+      "item": "minecraft:bucket"
+    },
+    "H": {
+      "item": "malum:hallowed_gold_nugget"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "C": {
+      "tag": "c:gears/copper"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:fluid_placer"
+  }
+}

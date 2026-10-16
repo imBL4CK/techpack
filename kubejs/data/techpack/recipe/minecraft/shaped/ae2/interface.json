@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IBI",
+    "FCA",
+    "IBI"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:ingots/aluminum"
+    },
+    "B": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "F": {
+      "item": "ae2:annihilation_core"
+    },
+    "C": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "A": {
+      "item": "ae2:formation_core"
+    }
+  },
+  "result": {
+    "id": "ae2:interface"
+  }
+}

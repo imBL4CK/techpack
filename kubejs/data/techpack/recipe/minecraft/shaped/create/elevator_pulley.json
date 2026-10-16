@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "R",
+    "P"
+  ],
+  "key": {
+    "B": {
+      "item": "create:brass_casing"
+    },
+    "R": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "P": {
+      "tag": "c:ingots/iron"
+    }
+  },
+  "result": {
+    "id": "create:elevator_pulley"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/steam/smelter_idle",
+    "textures": {
+        "face": "techpack:block/machines/steam/smelter_running"
+    }
+}

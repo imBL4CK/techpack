@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/electrolysis_separator_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/electrolysis_separator_running"
+    }
+}

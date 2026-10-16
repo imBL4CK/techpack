@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:bone" },
+        { "item": "malum:alchemical_calx" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "malum:wicked_spirit" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "minecraft:bone",
+    "count": 2
+  }
+}

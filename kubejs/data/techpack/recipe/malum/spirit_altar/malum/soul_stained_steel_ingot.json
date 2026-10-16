@@ -1,0 +1,26 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "malum:refined_soulstone",
+      "count": 4
+    }
+  ],
+  "input": {
+    "count": 1,
+    "item": "techpack:steel_ingot"
+  },
+  "result": {
+    "id": "malum:soul_stained_steel_ingot"
+  },
+  "spirits": [
+    {
+      "type": "malum:earthen",
+      "count": 1
+    },
+    {
+      "type": "malum:arcane",
+      "count": 1
+    }
+  ]
+}

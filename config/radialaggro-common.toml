@@ -1,0 +1,12 @@
+#General settings
+[general]
+	#If true the indicator will be shown when a mob first targets the player (default: false)
+	initialAggro = false
+	#The duration in ticks that the aggro indicator will be shown for (default: 200, 10 seconds)
+	# Default: 200
+	# Range: > 1
+	indicatorDuration = 200
+	#If true the indicator will be hidden when the entity is within the player's field of view (default: false)
+	hideInView = false
+	#If true the blacklist will be inverted to a whitelist, meaning only entities in the list will show the indicator (default: false)
+	invertBlacklist = false

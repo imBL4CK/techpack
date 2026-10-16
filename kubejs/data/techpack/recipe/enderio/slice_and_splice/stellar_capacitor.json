@@ -1,0 +1,28 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "enderio_endergy:melodic_capacitor"
+    },
+    {
+      "item": "enderio_endergy:stellar_alloy_ingot"
+    },
+    {
+      "item": "enderio_endergy:melodic_capacitor"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "id": "enderio_endergy:stellar_capacitor"
+  }
+}

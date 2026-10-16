@@ -1,0 +1,8 @@
+{
+  "source_item": "farmersdelight:barbecue_stick",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.04
+  }
+}

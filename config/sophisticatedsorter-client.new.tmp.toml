@@ -1,0 +1,9 @@
+[Setting]
+	#name, mod, count, tags
+	SortBy = "name"
+	#Only valid for containers with more than 10 slots if true.
+	Filter1 = true
+	#Only valid for containers without invalid slot such as recipe result slot if true.
+	Filter2 = true
+	#Special of screens.
+	specialList = ["block.techpack.machines.centrifuge.advanced", "block.techpack.machines.centrifuge.sophisticated", "block.pneumaticcraft.thermopneumatic_processing_plant", "block.techpack.machines.electric.assembler", "block.techpack.machines.electric.metal_former", "block.techpack.machines.electric.induction_furnace", "block.techpack.beekeeping.apiary", 

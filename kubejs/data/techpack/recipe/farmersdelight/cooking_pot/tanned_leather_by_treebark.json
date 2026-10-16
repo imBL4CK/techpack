@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "recipe_book_tab": "meals",
+  "experience": 0.3,
+  "ingredients": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "farmersdelight:tree_bark"
+    },
+    {
+      "item": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "techpack:tanned_leather"
+  }
+}

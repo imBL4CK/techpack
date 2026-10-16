@@ -1,0 +1,19 @@
+{
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "top": {
+      "tag": "c:plates/steel"
+    },
+    "middle": {
+      "item": "ad_astra:etrium_rod"
+    },
+    "bottom": {
+      "item": "techpack:redstone_conductance_coil"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "id": "ad_astra:etrionic_core",
+    "count": 1
+  }
+}

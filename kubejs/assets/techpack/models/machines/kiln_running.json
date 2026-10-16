@@ -1,0 +1,7 @@
+{
+    "parent": "techpack:machines/kiln_idle",
+    "textures": {
+		"2": "techpack:block/machines/basic_alchemical_crucible_front_lit",
+		"4": "techpack:block/machines/basic_alchemical_crucible_top_lit"
+    }
+}

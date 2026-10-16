@@ -1,0 +1,10 @@
+{
+  "source_item": "nomansland:sweet_tart",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "fruits": 0.0075,
+    "proteins": 0.015,
+    "grains": 0.005
+  }
+}

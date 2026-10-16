@@ -1,0 +1,34 @@
+{
+  "name": {
+    "color": "#FFFF55",
+    "translate": "trophy.trofers.composed",
+    "with": [
+      {
+        "translate": "item.techpack.trophy.rustic_era.name"
+      }
+    ]
+  },
+  "tooltip": {
+    "translate": "tooltip.techpack.trophy.rustic_era"
+  },
+  "item": {
+    "id": "techpack:low_pressure_boiler"
+  },
+  "display": {
+    "offset": [0, 4, 0],
+    "scale": 0.75,
+    "speed": 0.25
+  },
+  "animation": {
+    "type": "spinning"
+  },
+  "colors": {
+    "accent": "#FFFF55",
+    "base": "#FFFFFF"
+  },
+  "effects": {
+    "sound": {
+      "id": "minecraft:block.furnace.fire_crackle"
+    }
+  }
+}

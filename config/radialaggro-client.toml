@@ -1,0 +1,30 @@
+#Client settings
+[client]
+	#The scale of the radius of the aggro indicator. Higher values will make the indicator appear further away from the center of the screen (default: 1.0F)
+	# Default: 1.0
+	# Range: 0.01 ~ 1.0
+	radiusScale = 1.0
+	#The symbol used for the aggro indicator. This can be any single character or a string of characters (default: "^")
+	symbol = "^"
+	#The red value of the symbol color rgb (default: 255)
+	# Default: 255
+	# Range: 0 ~ 255
+	symbolColorRed = 255
+	#The green value of the symbol color rgb (default: 0)
+	# Default: 0
+	# Range: 0 ~ 255
+	symbolColorGreen = 0
+	#The blue value of the symbol color rgb (default: 0)
+	# Default: 0
+	# Range: 0 ~ 255
+	symbolColorBlue = 0
+	#If true the symbol will not rotate to match the direction of the entity, it will always be upright (default: false)
+	symbolRotationLock = false
+	#The scale of the symbol used for the aggro indicator. Higher values will make the symbol larger (default: 2.0D)
+	# Default: 2.0
+	# Range: 0.01 ~ 10.0
+	symbolScale = 2.0
+	#If true the indicator will fade in when it appears (default: true)
+	fadeIn = true
+	#If true the indicator will fade out when it disappears (default: true)
+	fadeOut = true

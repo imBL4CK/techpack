@@ -1,0 +1,18 @@
+{
+  "item_settings": {
+    "display_name": {
+      "type": "translatable",
+      "translate": "item.techpack.moddedpedia.name"
+    },
+    "tooltip_lines": [
+      {
+        "translate": "item.techpack.moddedpedia.tooltip.1",
+        "color": "gold"
+      },
+      {
+        "translate": "item.techpack.moddedpedia.tooltip.2"
+      }
+    ],
+    "model": "techpack:item/moddedpedia"
+  }
+}

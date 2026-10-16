@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CS",
+    "SA"
+  ],
+  "key": {
+    "C": {
+      "item": "farmersdelight:canvas"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "result": {
+    "id": "create:white_sail",
+    "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "type": "malum:spirit_infusion",
+    "extraInputs": [
+        {
+            "item": "malum:convoluted_lens"
+        },
+        {
+            "item": "techpack:hdpe_sheet",
+            "count": 4
+        }
+    ],
+    "input": {
+        "item": "techpack:void_seed",
+        "count": 1
+    },
+    "result": {
+        "id": "industrialforegoing:mob_imprisonment_tool"
+    },
+    "spirits": [
+        {
+            "type": "malum:arcane",
+            "count": 32
+        },
+        {
+            "type": "malum:eldritch",
+            "count": 32
+        },
+        {
+            "type": "malum:wicked",
+            "count": 32
+        },
+        {
+            "type": "malum:sacred",
+            "count": 32
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "source_item": "supplementaries:lumisene_bottle",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "sugars": 0.004,
+    "fruits": 0.03
+  }
+}

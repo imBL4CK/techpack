@@ -1,0 +1,24 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "techpack:instable_comb"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:chorus_fruit",
+      "count": 3,
+      "chance": 0.5
+    },
+    {
+      "id": "minecraft:chorus_flower",
+      "chance": 0.05
+    },
+    {
+      "id": "create:honey",
+      "amount": 100
+    }
+  ]
+}

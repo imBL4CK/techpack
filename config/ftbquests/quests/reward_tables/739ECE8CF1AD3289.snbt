@@ -1,0 +1,12 @@
+{
+	id: "739ECE8CF1AD3289"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "287189BEB068CFF9", item: { count: 1, id: "minecraft:zombie_head" } }
+		{ id: "108076C9B2C10687", item: { count: 1, id: "minecraft:creeper_head" } }
+		{ id: "50F67B9195F75E87", item: { count: 1, id: "minecraft:piglin_head" } }
+		{ id: "616DC619A8A14A48", item: { count: 1, id: "minecraft:skeleton_skull" } }
+		{ id: "3CF8F69707EC3F34", item: { count: 1, id: "minecraft:wither_skeleton_skull" } }
+	]
+}

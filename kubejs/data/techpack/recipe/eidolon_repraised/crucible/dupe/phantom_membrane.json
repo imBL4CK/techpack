@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:phantom_membrane" },
+        { "item": "malum:alchemical_calx" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "malum:aerial_spirit" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "minecraft:phantom_membrane",
+    "count": 2
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/fluid_transposer_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/fluid_transposer_running"
+    }
+}

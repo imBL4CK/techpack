@@ -1,0 +1,8 @@
+{
+  "source_item": "farmersdelight:fried_egg",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.03
+  }
+}

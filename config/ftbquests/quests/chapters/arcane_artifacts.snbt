@@ -1,0 +1,288 @@
+{
+	autofocus_id: "6C94484DF36590E0"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arcane_artifacts"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "eidolon_repraised:worktable"
+	}
+	id: "1CEDC4FEE00CE52A"
+	images: [
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_colorful_world"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_sigil"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_sigil"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_colorful_world"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "malum:block/banners/soulwoven_banner_default"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1B8B125979228105"]
+			hide_details_until_startable: false
+			icon: {
+				id: "eidolon_repraised:worktable"
+			}
+			id: "6C94484DF36590E0"
+			rewards: [{
+				id: "6EEA5D066A62DBA0"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "692A3B59A895E673"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "1C85EB0005A68FB4"
+			tasks: [{
+				id: "6E5B1891977158E9"
+				item: { count: 1, id: "malum:spirit_altar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6C94484DF36590E0"]
+			id: "046905B7B5A103DA"
+			tasks: [{
+				id: "209A0E6075E2E344"
+				item: { count: 1, id: "eidolon_repraised:research_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["046905B7B5A103DA"]
+			id: "3F1DBEFBC29CD8D0"
+			tasks: [{
+				id: "6441ADE44AD63ACA"
+				item: { count: 1, id: "eidolon_repraised:scriptorium" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "49F40F7F6022D23D"
+			tasks: [{
+				id: "083DAD8B3E67368A"
+				item: { count: 1, id: "malum:runic_workbench" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			id: "7BAD891E3F751E80"
+			tasks: [{
+				id: "2591B8487162B350"
+				item: { count: 1, id: "malum:runewood_obelisk" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			id: "1CC4B12781DEA31D"
+			tasks: [{
+				id: "3B0B4491A2C96471"
+				item: { count: 1, id: "malum:brilliant_obelisk" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			id: "3DF515DC4F37E8B4"
+			tasks: [{
+				id: "2E6847DD31DA7B35"
+				item: { count: 1, id: "malum:weavers_workbench" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2F59C6052DDC876B"
+				"1C85EB0005A68FB4"
+			]
+			hide_dependency_lines: true
+			id: "0AD5CDC770C7D78B"
+			rewards: [{
+				id: "3CFFD8B6BDB4D787"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "10D0AE679259449F"
+				item: { count: 1, id: "techpack:iris_relic" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"2F59C6052DDC876B"
+			]
+			hide_dependency_lines: true
+			id: "730C0436C6DA66E4"
+			rewards: [{
+				id: "79FE82449CD53631"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				id: "46F22ABF3AF7E7A2"
+				item: { count: 1, id: "industrialforegoing:mob_imprisonment_tool" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"4D75A138430C9516"
+			]
+			hide_dependency_lines: true
+			id: "51D3D61031AA1CFA"
+			tasks: [{
+				id: "354DA60346837A62"
+				item: { count: 1, id: "malum:spellweaving_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"1C85EB0005A68FB4"
+				"4D75A138430C9516"
+			]
+			hide_dependency_lines: true
+			id: "3331E609608EEFE3"
+			tasks: [{
+				id: "44465E6FCA3C9004"
+				item: { count: 1, id: "malum:spellweaving_axe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1C85EB0005A68FB4"]
+			icon: {
+				id: "malum:soul_stained_steel_ingot"
+			}
+			id: "6D18BC8E8DCCD9DD"
+			tasks: [
+				{
+					id: "6BCE714444D4CE27"
+					item: { count: 1, id: "malum:soul_stained_steel_ingot" }
+					type: "item"
+				}
+				{
+					id: "3AC416F8F4779A87"
+					item: { count: 1, id: "malum:hallowed_gold_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "77F42814AE6A37AD"
+			tasks: [{
+				id: "130F2C055F57685F"
+				item: { components: { "ftbquests:missing_item": "modular_angelring:angel_ring" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			id: "637B5F85CB189588"
+			tasks: [{
+				id: "21559D998578CF48"
+				item: { count: 1, id: "techpack:sparkly_glove" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+}

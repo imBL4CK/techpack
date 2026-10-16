@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SCS",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "tag": "c:plates/steel"
+    },
+    "C": {
+      "item": "techpack:bronze_casing"
+    }
+  },
+  "result": {
+    "id": "techpack:thermal_evaporation_casing"
+  }
+}

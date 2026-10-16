@@ -1,0 +1,10 @@
+{
+  "name": {
+    "translate": "address.techpack.starcorp_remnant"
+  },
+  "icon": "★",
+  "location": {
+    "type": "relative",
+    "distance": 100
+  }
+}

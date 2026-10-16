@@ -1,0 +1,436 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.generators.mimicry_dynamo"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:entity.minecart.riding"
+      },
+      "custommachinery:light": 15
+    },
+    "custommachinery:block": "techpack:machines/mimicry_dynamo#standalone",
+    "custommachinery:keep_inventory": true,
+    "custommachinery:shape": {
+      "north": [
+        [
+          0.0,
+          0.0,
+          0.5,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.375,
+          0.0625,
+          0.1875,
+          0.625,
+          0.9375,
+          0.5
+        ],
+        [
+          0.25,
+          0.25,
+          0.0,
+          0.375,
+          0.75,
+          0.5
+        ],
+        [
+          0.375,
+          0.25,
+          0.0,
+          0.75,
+          0.75,
+          0.1875
+        ],
+        [
+          0.625,
+          0.25,
+          0.1875,
+          0.75,
+          0.75,
+          0.5
+        ],
+        [
+          0.0625,
+          0.375,
+          0.1875,
+          0.25,
+          0.625,
+          0.5
+        ],
+        [
+          0.75,
+          0.375,
+          0.1875,
+          0.9375,
+          0.625,
+          0.5
+        ]
+      ],
+      "south": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          0.5
+        ],
+        [
+          0.375,
+          0.0625,
+          0.5,
+          0.625,
+          0.9375,
+          0.8125
+        ],
+        [
+          0.25,
+          0.25,
+          0.5,
+          0.375,
+          0.75,
+          1.0
+        ],
+        [
+          0.375,
+          0.25,
+          0.8125,
+          0.75,
+          0.75,
+          1.0
+        ],
+        [
+          0.625,
+          0.25,
+          0.5,
+          0.75,
+          0.75,
+          0.8125
+        ],
+        [
+          0.0625,
+          0.375,
+          0.5,
+          0.25,
+          0.625,
+          0.8125
+        ],
+        [
+          0.75,
+          0.375,
+          0.5,
+          0.9375,
+          0.625,
+          0.8125
+        ]
+      ],
+      "west": [
+        [
+          0.5,
+          0.0,
+          0.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.1875,
+          0.0625,
+          0.375,
+          0.5,
+          0.9375,
+          0.625
+        ],
+        [
+          0.0,
+          0.25,
+          0.25,
+          0.1875,
+          0.75,
+          0.75
+        ],
+        [
+          0.1875,
+          0.25,
+          0.25,
+          0.5,
+          0.75,
+          0.375
+        ],
+        [
+          0.1875,
+          0.25,
+          0.625,
+          0.5,
+          0.75,
+          0.75
+        ],
+        [
+          0.1875,
+          0.375,
+          0.0625,
+          0.5,
+          0.625,
+          0.25
+        ],
+        [
+          0.1875,
+          0.375,
+          0.75,
+          0.5,
+          0.625,
+          0.9375
+        ]
+      ],
+      "east": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          1.0,
+          1.0
+        ],
+        [
+          0.5,
+          0.0625,
+          0.375,
+          0.8125,
+          0.9375,
+          0.625
+        ],
+        [
+          0.5,
+          0.25,
+          0.25,
+          1.0,
+          0.75,
+          0.375
+        ],
+        [
+          0.5,
+          0.25,
+          0.625,
+          1.0,
+          0.75,
+          0.75
+        ],
+        [
+          0.8125,
+          0.25,
+          0.375,
+          1.0,
+          0.75,
+          0.625
+        ],
+        [
+          0.5,
+          0.375,
+          0.0625,
+          0.8125,
+          0.625,
+          0.25
+        ],
+        [
+          0.5,
+          0.375,
+          0.75,
+          0.8125,
+          0.625,
+          0.9375
+        ]
+      ]
+    }
+  },
+  "components": [
+    {
+      "type": "custommachinery:energy",
+      "max_output": 16000,
+      "config": {
+        "TOP": "NONE",
+        "BOTTOM": "NONE",
+        "FRONT": "OUTPUT",
+        "RIGHT": "NONE",
+        "BACK": "NONE",
+        "LEFT": "NONE",
+        "output": true
+      },
+      "capacity": 64000,
+      "max_input": 16000
+    },
+    {
+      "type": "custommachinery:item",
+      "config": {
+        "TOP": "INPUT",
+        "BOTTOM": "INPUT",
+        "FRONT": "NONE",
+        "RIGHT": "INPUT",
+        "BACK": "INPUT",
+        "LEFT": "INPUT"
+      },
+      "id": "spirit_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:item_energy",
+      "config": {
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
+        "FRONT": "BOTH",
+        "RIGHT": "BOTH",
+        "BACK": "BOTH",
+        "LEFT": "BOTH"
+      },
+      "id": "energy_output_slot",
+      "mode": "output"
+    },
+    {
+      "type": "custommachinery:item_upgrade",
+      "id": "upgrade_slot",
+      "mode": "input",
+      "capacity": 64
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15,
+      "craftingpoweroutput": 7,
+      "erroredpoweroutput": 12
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 79,
+      "y": 34,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 10,
+      "y": 27,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_bubble_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_bubble_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "energy_output_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/energy_output_slot.png"
+      },
+      "x": 79,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 7,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "upgrade_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/upgrade_slot.png"
+      },
+      "x": 151,
+      "y": 68
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.generators.mimicry_dynamo"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:energy",
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_energy_bar.png"
+      },
+      "x": 103,
+      "y": 23,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_energy_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "tooltip.techpack.generator_block"
+      }
+    },
+    {
+      "text": {
+        "translate": ""
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.block_stats"
+      }
+    },
+    {
+      "text": {
+        "translate": "tooltip.techpack.mimicry_dynamo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "general": {
+    "preview": {
+      "enable_mod": true,
+      "toggle_preview": true,
+      "hold_preview": false
+    },
+    "rendering": {
+      "preview_mode": "OUTLINE",
+      "transparent_opacity": 1.0,
+      "outline_color": "#FFFFFFFF",
+      "disable_vanilla_outline": true
+    }
+  },
+  "block_filter": {
+    "filtering": {
+      "filter_type": "ALL",
+      "filter_mode": "WHITELIST",
+      "whitelisted_blocks": [],
+      "blacklisted_blocks": []
+    }
+  },
+  "_keybinds": {
+    "toggle_preview": {
+      "enabled": true,
+      "notify": true,
+      "mode": "TOGGLE"
+    },
+    "hold_preview": {
+      "enabled": true,
+      "notify": false,
+      "mode": "HOLD"
+    },
+    "preview_mode": {
+      "enabled": true,
+      "notify": true
+    },
+    "filter_type": {
+      "enabled": true,
+      "notify": true
+    }
+  }
+}

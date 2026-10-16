@@ -1,0 +1,12 @@
+{
+  "source_item": "dungeonsdelight:creeperilla_squib",
+  "auto_calculated": true,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "proteins": 0.0,
+    "sugars": 0.0,
+    "fruits": 0.0,
+    "grains": 0.0,
+    "vegetables": 0.0
+  }
+}

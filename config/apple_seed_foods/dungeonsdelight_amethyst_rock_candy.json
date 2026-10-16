@@ -1,0 +1,9 @@
+{
+  "source_item": "dungeonsdelight:amethyst_rock_candy",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "sugars": 0.02,
+    "fruits": 0.015
+  }
+}

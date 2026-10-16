@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  R",
+    " P ",
+    "Q  "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "tag": "c:plates/gold"
+    },
+    "Q": {
+      "item": "create:polished_rose_quartz"
+    }
+  },
+  "result": {
+    "id": "techpack:redstone_reception_coil"
+  }
+}

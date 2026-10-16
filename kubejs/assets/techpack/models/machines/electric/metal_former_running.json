@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/electric/metal_former_idle",
+    "textures": {
+    	"face": "techpack:block/machines/electric/metal_former_running"
+    }
+}

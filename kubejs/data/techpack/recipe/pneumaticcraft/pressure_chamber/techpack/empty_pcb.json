@@ -1,0 +1,27 @@
+{
+  "type": "pneumaticcraft:pressure_chamber",
+  "inputs": [
+    {
+      "count": 2,
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "count": 1,
+      "item": "ae2:printed_silicon"
+    },
+    {
+      "count": 1,
+      "item": "techpack:hdpe_sheet"
+    },
+    {
+      "item": "create_new_age:overcharged_golden_wire"
+    }
+  ],
+  "pressure": 4.0,
+  "results": [
+    {
+      "count": 1,
+      "id": "pneumaticcraft:empty_pcb"
+    }
+  ]
+}

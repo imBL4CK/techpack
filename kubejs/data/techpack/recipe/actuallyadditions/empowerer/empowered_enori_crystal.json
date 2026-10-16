@@ -1,0 +1,27 @@
+{
+  "type": "actuallyadditions:empowering",
+  "base": {
+    "item": "actuallyadditions:enori_crystal"
+  },
+  "modifiers": [
+    {
+      "item": "eidolon_repraised:soul_shard"
+    },
+    {
+      "item": "create:experience_nugget"
+    },
+    {
+      "item": "malum:rotting_essence"
+    },
+    {
+      "item": "malum:ether"
+    }
+  ],
+  "result": {
+    "id": "actuallyadditions:empowered_enori_crystal",
+    "count": 1
+  },
+  "color": 13421772,
+  "energy": 10000,
+  "time": 100
+}

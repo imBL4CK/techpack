@@ -1,0 +1,87 @@
+{
+	autofocus_id: "24765DBC74C606D9"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fundamentals_of_a_thaumaturge"
+	group: "4013D3AC383A588F"
+	icon: {
+		id: "eidolon_repraised:scriptorium"
+	}
+	id: "30A59890023CC90E"
+	order_index: 0
+	quest_links: [
+		{
+			id: "1A449C6DDED73BDC"
+			linked_quest: "456483F245D53C22"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "126B30B39333B26C"
+			linked_quest: "6C94484DF36590E0"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "5BE8441EF2A17AF9"
+			linked_quest: "68361AB7488A4928"
+			x: 1.5d
+			y: -2.0d
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "malum:encyclopedia_arcana"
+			}
+			icon_scale: 0.8d
+			id: "1B8B125979228105"
+			rewards: [{
+				id: "61AC48137FC7CF6D"
+				type: "xp"
+				xp: 30
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "04B71C52385CF1E5"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2F59C6052DDC876B"
+				"1B8B125979228105"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "45498BBB06221F20"
+			rewards: [
+				{
+					count: 4
+					id: "32FE0F8E123591AC"
+					item: {
+						count: 1
+						id: "malum:warp_flux"
+					}
+					type: "item"
+				}
+				{
+					id: "6A154DA99616D4A4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			tasks: [{
+				id: "26B6D53304ED0A54"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+	]
+}

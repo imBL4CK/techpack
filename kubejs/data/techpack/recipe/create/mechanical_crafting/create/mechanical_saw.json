@@ -1,0 +1,22 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "pattern": [
+    "MC#"
+  ],
+  "key": {
+    "M": {
+      "item": "techpack:makeshift_mechanism"
+    },
+    "C": {
+      "item": "create:andesite_casing"
+    },
+    "#": {
+      "item": "techpack:iron_gear"
+    }
+  },
+  "result": {
+    "id": "create:mechanical_saw",
+    "count": 1
+  }
+}

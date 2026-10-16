@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S  ",
+    "SS ",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "techpack:steel_scaffolding"
+    }
+  },
+  "result": {
+    "id": "techpack:steel_scaffolding_stairs",
+    "count": 4
+  }
+}

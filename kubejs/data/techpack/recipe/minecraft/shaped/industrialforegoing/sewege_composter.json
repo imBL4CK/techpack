@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "WCW",
+    "RBR"
+  ],
+  "key": {
+    "P": {
+      "tag": "c:plastics"
+    },
+    "S": {
+      "item": "minecraft:composter"
+    },
+    "W": {
+      "item": "techpack:beewax"
+    },
+    "C": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "R": {
+      "item": "techpack:redstone_reception_coil"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "industrialforegoing:sewage_composter"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"modular_machinery_reborn:controller","components":{"modular_machinery_reborn:machine":"techpack:advanced_steam_turbine"}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:common_bee_drone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:sweet_comb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:calcium_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:sulfur_dust"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:coal_coke"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:slag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:rich_slag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:mortar_mix"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:fireclay_ball"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:fireproof_brick"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:wrought_iron_ingot"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:latex"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:rubber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:rubber_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

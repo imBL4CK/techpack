@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "pneumaticcraft:plastic",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:transistor",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:resistor",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:diode",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:void_machine_parts",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:soul_machine_parts",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:photovoltaic_plate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:carbon_fiber",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:logic_processor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:engineering_processor",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "ae2:calculation_processor",
+          "weight": 2
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

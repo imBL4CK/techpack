@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:diamond_backpack"
+    }
+  ],
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "sophisticatedbackpacks:gold_backpack"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "malum:fused_consciousness"
+    },
+    "L": {
+      "item": "malum:convoluted_lens"
+    }
+  },
+  "pattern": [
+    "CDL",
+    "DBD",
+    "LDC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sophisticatedbackpacks:diamond_backpack"
+  }
+}

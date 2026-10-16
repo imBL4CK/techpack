@@ -1,0 +1,23 @@
+{
+  "type": "eidolon_repraised:crucible",
+  "steps": [
+    {
+      "items": [
+        { "item": "minecraft:ink_sac" },
+        { "item": "malum:alchemical_calx" }
+      ]
+    },
+    {
+      "items": [
+        { "item": "malum:aqueous_spirit" }
+      ]
+    },
+    {
+      "stirs": 1
+    }
+  ],
+  "result": {
+    "id": "minecraft:ink_sac",
+    "count": 2
+  }
+}

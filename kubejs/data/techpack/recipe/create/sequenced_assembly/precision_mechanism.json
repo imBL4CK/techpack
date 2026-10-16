@@ -1,0 +1,65 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "techpack:makeshift_mechanism"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": { "id": "create:precision_mechanism" }
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "techpack:makeshift_mechanism"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "techpack:makeshift_mechanism" }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "techpack:makeshift_mechanism"
+        },
+        {
+          "tag": "c:plates/gold"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "techpack:makeshift_mechanism" }
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "techpack:makeshift_mechanism"
+        },
+        {
+          "item": "create:cogwheel"
+        }
+      ],
+      "results": [
+        {
+          "item": { "id": "techpack:makeshift_mechanism" }
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "item": { "id": "create:incomplete_precision_mechanism" }
+  }
+}

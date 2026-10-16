@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "HSH",
+    "SAS",
+    "CSC"
+  ],
+  "key": {
+    "H": {
+      "item": "techpack:hdpe_sheet"
+    },
+    "S": {
+      "item": "techpack:silver_battery_cell"
+    },
+    "A": {
+      "item": "techpack:advanced_machine_casing"
+    },
+    "C": {
+      "item": "techpack:redstone_conductance_coil"
+    }
+  },
+  "result": {
+    "id": "techpack:mfe"
+  }
+}

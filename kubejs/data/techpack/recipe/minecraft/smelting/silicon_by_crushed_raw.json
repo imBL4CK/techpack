@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "techpack:crushed_raw_silicon"
+  },
+  "result": {
+    "id": "ae2:silicon"
+  },
+  "experience": 0.3
+}

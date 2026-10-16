@@ -1,0 +1,6 @@
+[*]
+background:          techpack:textures/gui/quest.png; tile_size=806
+
+widget_border:     #1B1D1E
+widget_background: #44000000
+quest_view_background: #d8000000

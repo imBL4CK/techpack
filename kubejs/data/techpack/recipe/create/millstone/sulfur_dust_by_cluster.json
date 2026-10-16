@@ -1,0 +1,15 @@
+{
+  "type": "create:milling",
+  "processing_time": 200,
+  "ingredients": [
+    {
+      "item": "techpack:sulfur_cluster"
+    }
+  ],
+  "results": [
+    {
+      "id": "techpack:sulfur_dust",
+      "count": 4
+    }
+  ]
+}

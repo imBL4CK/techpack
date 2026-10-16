@@ -1,0 +1,15 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"techpack:rubber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:rubber_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:tetrafluoroethylene"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:polytetrafluoroethylene"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:ptfe_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:hdpe_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:ethylene"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:plastic"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:bio_plastic_sheet"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:bio_plastic_mesh"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"techpack:latex"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

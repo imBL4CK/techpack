@@ -1,0 +1,26 @@
+{
+  "type": "malum:spirit_infusion",
+  "extraInputs": [
+    {
+      "item": "techpack:soul_machine_parts",
+      "count": 4
+    }
+  ],
+  "input": {
+    "item": "techpack:advanced_machine_casing",
+    "count": 1
+  },
+  "result": {
+    "id": "enderio:ensouled_chassis"
+  },
+  "spirits": [
+    {
+      "type": "malum:arcane",
+      "count": 4
+    },
+    {
+      "type": "malum:eldritch",
+      "count": 2
+    }
+  ]
+}

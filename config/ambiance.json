@@ -1,0 +1,92 @@
+{
+  "blocks": {
+    "endPortalFrame": {
+      "enableParticle": true,
+      "particleSize": 1.0,
+      "particleColor": "#C7FFBF",
+      "ashType": "FANCY",
+      "soundVolume": 0.8,
+      "soundType": "FANCY"
+    },
+    "endPortal": {
+      "enableParticle": true,
+      "particleSize": 1.0,
+      "smokeType": "VANILLA"
+    },
+    "endGateway": {
+      "enableParticle": true,
+      "particleSize": 1.0
+    },
+    "fire": {
+      "enableParticle": true,
+      "smokeType": "VANILLA"
+    },
+    "campfire": {
+      "enableParticle": true,
+      "smokeType": "VANILLA",
+      "flameType": "VANILLA"
+    },
+    "candle": {
+      "enableParticle": true,
+      "smokeType": "VANILLA",
+      "flameType": "VANILLA"
+    },
+    "torch": {
+      "enableParticle": true,
+      "smokeType": "VANILLA",
+      "flameType": "VANILLA"
+    },
+    "cauldron": {
+      "water": {
+        "enableParticle": true,
+        "enableSound": true,
+        "soundVolume": 0.2
+      },
+      "lava": {
+        "enableParticle": true,
+        "enableSound": true,
+        "soundVolume": 0.2
+      }
+    },
+    "soulSand": {
+      "enableParticle": true
+    },
+    "sculkSpread": {
+      "enableParticle": true
+    },
+    "decoratedPot": {
+      "enableParticle": true,
+      "enableSound": true,
+      "soundVolume": 0.2
+    },
+    "trialChamber": {
+      "vault": {
+        "enableParticle": true
+      },
+      "spawner": {
+        "enableParticle": true
+      },
+      "enableParticle": true
+    }
+  },
+  "items": {
+    "eyeOfEnder": {
+      "eyeOfEnderType": "FANCY"
+    }
+  },
+  "entities": {
+    "blaze": {
+      "enableParticle": true,
+      "blazeParticle": "VANILLA"
+    },
+    "enderman": {
+      "enderManParticle": "FANCY"
+    },
+    "endermite": {
+      "enderMiteParticle": "FANCY"
+    }
+  },
+  "otherMods": {
+    "endremCompat": true
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "envelope:mail_crafting",
+  "address": "envelope:starcorp_remnant",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "techpack:scraps"
+    },
+    {
+      "item": "techpack:scraps"
+    }
+  ],
+  "result": {
+    "id": "envelope:package",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\":\"item.techpack.envelope.meal_delivery\"}",
+      "minecraft:container_loot": {
+        "loot_table": "envelope:packages/meal_delivery"
+      }
+    }
+  }
+}

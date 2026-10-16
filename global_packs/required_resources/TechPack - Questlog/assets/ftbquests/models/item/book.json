@@ -1,0 +1,21 @@
+{
+  "parent": "item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "ftbquests:item/questbook_in_hand"
+  },
+  "perspectives": {
+    "fixed": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "ftbquests:item/questbook"
+		}
+    },
+    "gui": {
+		"parent": "minecraft:item/generated",
+		"textures": {
+			"layer0": "ftbquests:item/questbook"
+		}
+    }
+  }
+}

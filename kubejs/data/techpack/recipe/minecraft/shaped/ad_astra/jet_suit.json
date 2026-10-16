@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "TNT",
+    "EME"
+  ],
+  "key": {
+    "C": {
+      "tag": "c:plates/calorite"
+    },
+    "P": {
+      "item": "techpack:flux_infused_alloy_plating"
+    },
+    "T": {
+      "item": "ad_astra:calorite_tank"
+    },
+    "N": {
+      "item": "ad_astra:netherite_space_suit"
+    },
+    "E": {
+      "item": "ad_astra:etrionic_capacitor"
+    },
+    "M": {
+      "item": "ad_astra:calorite_engine"
+    }
+  },
+  "result": {
+    "id": "ad_astra:jet_suit"
+  }
+}

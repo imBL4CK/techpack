@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/glutton_idle",
+    "textures": {
+		"1": "techpack:block/glutton_eating"
+    }
+}

@@ -1,0 +1,119 @@
+{
+  "name": {
+    "text": {
+      "translate": "block.techpack.generators.animated_mechanical_motor"
+    }
+  },
+  "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "minecraft:entity.minecart.riding"
+      }
+    },
+    "custommachinery:block": "techpack:machines/animated_mechanical_motor#standalone",
+    "custommachinery:keep_inventory": true
+  },
+  "components": [
+    {
+      "type": "custommachinery:contraption",
+      "stress_impact": 4.0,
+      "config": {
+        "TOP": "ENABLED",
+        "BOTTOM": "DISABLED",
+        "FRONT": "DISABLED",
+        "RIGHT": "DISABLED",
+        "BACK": "DISABLED",
+        "LEFT": "DISABLED"
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "id": "spirit_input_slot",
+      "mode": "input"
+    },
+    {
+      "type": "custommachinery:redstone",
+      "powertopause": 15
+    }
+  ],
+  "gui": [
+    {
+      "type": "custommachinery:background",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/base_gui.png"
+      },
+      "width": 176,
+      "height": 176
+    },
+    {
+      "type": "custommachinery:player_inventory",
+      "x": 7,
+      "y": 91
+    },
+    {
+      "type": "custommachinery:progress",
+      "orientation": "TOP",
+      "x": 10,
+      "y": 27,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_bubble_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_bubble_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/storage_slot.png"
+      },
+      "x": 7,
+      "y": 59
+    },
+    {
+      "type": "custommachinery:status",
+      "x": 80,
+      "y": 35
+    },
+    {
+      "type": "custommachinery:text",
+      "x": 8,
+      "y": 6,
+      "text": {
+        "text": {
+          "translate": "block.techpack.generators.animated_mechanical_motor"
+        }
+      }
+    }
+  ],
+  "jei": [
+    {
+      "type": "custommachinery:progress",
+      "x": 77,
+      "y": 24,
+      "texture_empty": {
+        "texture": "techpack:textures/gui/machines/empty_progress_bar.png"
+      },
+      "texture_filled": {
+        "texture": "techpack:textures/gui/machines/filled_progress_bar.png"
+      }
+    },
+    {
+      "type": "custommachinery:slot",
+      "id": "spirit_input_slot",
+      "texture": {
+        "texture": "techpack:textures/gui/machines/fluid_slot.png"
+      },
+      "x": 56,
+      "y": 23
+    }
+  ],
+  "tooltips": [
+    {
+      "text": {
+        "translate": "tooltip.techpack.generator_block"
+      }
+    }
+  ]
+}

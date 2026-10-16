@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "WMW",
+    "GBG"
+  ],
+  "key": {
+    "C": {
+      "item": "create:crushing_wheel"
+    },
+    "W": {
+      "item": "create_new_age:copper_wire"
+    },
+    "M": {
+      "item": "techpack:basic_machine_casing"
+    },
+    "G": {
+      "tag": "c:gears/steel"
+    },
+    "B": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "techpack:electric_macerator"
+  }
+}

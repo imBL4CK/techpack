@@ -1,0 +1,572 @@
+{
+	autofocus_id: "1333EA4B54BEBCD3"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_1__rustic_era"
+	group: "225813B7649167DE"
+	icon: {
+		id: "techpack:bronze_machine_casing"
+	}
+	id: "0D8BD511F4895AA9"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "186763FC5A59D49A"
+			rewards: [{
+				count: 4
+				id: "7E66036CAE1F1742"
+				item: {
+					count: 1
+					id: "minecraft:oak_log"
+				}
+				type: "item"
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3A0A572A40C08F81"
+				item: { count: 1, id: "minecraft:crafting_table" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5D12F44F3D591A8D"]
+			icon: {
+				id: "create:andesite_alloy"
+			}
+			icon_scale: 0.8d
+			id: "6A3DD1774BC7481F"
+			rewards: [{
+				count: 4
+				id: "70276759FAE84D4D"
+				item: {
+					count: 1
+					id: "create:andesite_casing"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5A5ED17C2228D74B"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "5CA545337702A880"
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "00C1DD70FAD9A860"
+				item: { count: 1, id: "techpack:tanned_leather" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A3DD1774BC7481F"]
+			id: "3827FDBB6FDA7DAC"
+			rewards: [{
+				count: 4
+				id: "039B29015CB84A06"
+				item: {
+					count: 1
+					id: "techpack:coal_coke"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C5F4995EE8C993"
+				item: { count: 1, id: "techpack:cinder_blast_furnace" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			hide_dependency_lines: true
+			id: "2AC97EB35CA8AC08"
+			rewards: [{
+				count: 2
+				id: "554FC7405B087258"
+				item: {
+					count: 1
+					id: "techpack:wrought_iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5BD765819EF13EB7"
+				item: { count: 1, id: "techpack:wrought_iron_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A3DD1774BC7481F"]
+			id: "1333EA4B54BEBCD3"
+			rewards: [{
+				count: 8
+				id: "46BA4D337BF94909"
+				item: {
+					count: 1
+					id: "techpack:rubber"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "206B8C6BCCCBD1A4"
+				item: { count: 1, id: "nomansland:tap" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1333EA4B54BEBCD3"]
+			id: "29EEA4229CD05317"
+			rewards: [{
+				count: 2
+				id: "39DCF94325517442"
+				item: {
+					count: 1
+					id: "techpack:makeshift_mechanism"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "7D46C876F4F37BAE"
+				item: { count: 1, id: "techpack:makeshift_mechanism" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["29EEA4229CD05317"]
+			icon: {
+				id: "create:mechanical_mixer"
+			}
+			id: "516493216BEC484C"
+			rewards: [{
+				count: 4
+				id: "5DC12BCD249F85C8"
+				item: {
+					count: 1
+					id: "techpack:makeshift_mechanism"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1E88FB3E363EAE8C"
+					item: { count: 1, id: "create:mechanical_press" }
+					type: "item"
+				}
+				{
+					id: "7778B12D002DBF4E"
+					item: { count: 1, id: "create:mechanical_mixer" }
+					type: "item"
+				}
+				{
+					id: "5D148ECFC000F1A2"
+					item: { count: 1, id: "create:mechanical_saw" }
+					type: "item"
+				}
+				{
+					id: "69CBB32F617727CB"
+					item: { count: 1, id: "create:encased_fan" }
+					type: "item"
+				}
+				{
+					id: "276A29FA706DB97E"
+					item: { count: 1, id: "create:deployer" }
+					type: "item"
+				}
+				{
+					id: "45F733F90184F2D1"
+					item: { count: 1, id: "create:mechanical_drill" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			id: "5FB97C7AD100E989"
+			rewards: [{
+				count: 4
+				id: "17687CE8A2FFA911"
+				item: {
+					count: 1
+					id: "techpack:bronze_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F8CA4419951F69F"
+				item: { count: 1, id: "techpack:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29EEA4229CD05317"]
+			id: "3B9E5A89B2ED5C71"
+			rewards: [{
+				count: 4
+				id: "0ED6FE4A349E0627"
+				item: {
+					count: 1
+					id: "create:rose_quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37C604EED5272C6E"
+				item: { count: 1, id: "create:electron_tube" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3B9E5A89B2ED5C71"]
+			id: "19F32B9CCB6C65AF"
+			rewards: [{
+				count: 3
+				id: "7FDBF9241BE07C0A"
+				item: {
+					count: 1
+					id: "minecraft:gold_ingot"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "07487AC1384EFB95"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5FB97C7AD100E989"
+				"19F32B9CCB6C65AF"
+				"36B9DBC8AD941C6E"
+			]
+			icon: {
+				components: {
+					"custommachinery:machine": "techpack:steam_alloy_foundry"
+				}
+				id: "custommachinery:custom_machine_item"
+			}
+			icon_scale: 0.8d
+			id: "5CD88DC12A6DE7FD"
+			rewards: [
+				{
+					id: "26E26434295253A4"
+					item: {
+						count: 1
+						id: "techpack:bronze_machine_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "4E99C7641FCBAF34"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "7CFD6383E969E8AF"
+					item: { count: 1, id: "techpack:steam_alloy_foundry" }
+					type: "item"
+				}
+				{
+					id: "21DD03A2F2397D05"
+					item: { count: 1, id: "techpack:steam_compressor" }
+					type: "item"
+				}
+				{
+					id: "108A90FCC872A6DA"
+					item: { count: 1, id: "techpack:steam_macerator" }
+					type: "item"
+				}
+				{
+					id: "4B256DB2DDB0194D"
+					item: { count: 1, id: "techpack:steam_metal_former" }
+					type: "item"
+				}
+				{
+					id: "7C6E052D6BA8B694"
+					item: { count: 1, id: "techpack:steam_smelter" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["039AD7F88A0159CD"]
+			id: "15F90AD6D095D568"
+			rewards: [
+				{
+					count: 2
+					id: "0B72230AF8524BA2"
+					item: {
+						count: 1
+						id: "techpack:basic_circuit"
+					}
+					type: "item"
+				}
+				{
+					id: "43AA74FB0361AADA"
+					item: {
+						components: {
+							"trofers:trophy": "techpack:rustic_era"
+						}
+						count: 1
+						id: "trofers:small_pillar"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7F2CFB1EDFBFC992"
+				item: { count: 1, id: "techpack:basic_circuit" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15F90AD6D095D568"]
+			id: "46ECDD632284CEF0"
+			rewards: [
+				{
+					count: 2
+					id: "4C10F5AEBE932276"
+					item: {
+						count: 1
+						id: "create:stock_link"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2559306E1F49EEB5"
+					item: {
+						count: 1
+						id: "create:packager"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "293F6B1BD05905FF"
+				item: { count: 1, id: "create:stock_ticker" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["15F90AD6D095D568"]
+			id: "785CF666F705A22B"
+			rewards: [{
+				id: "04AEB0713C494FCB"
+				item: {
+					count: 1
+					id: "create:blaze_burner"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E3E7E4BED0534E9"
+				item: { count: 1, id: "create:steam_engine" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CD88DC12A6DE7FD"]
+			icon: {
+				id: "techpack:redstone_reception_coil"
+			}
+			id: "039AD7F88A0159CD"
+			rewards: [
+				{
+					count: 2
+					id: "657759CCE7F1900A"
+					item: {
+						count: 1
+						id: "techpack:redstone_reception_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "50E07985E7474973"
+					item: {
+						count: 1
+						id: "techpack:redstone_transmission_coil"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B4FFA4CC1F09838"
+					item: { count: 1, id: "techpack:redstone_reception_coil" }
+					type: "item"
+				}
+				{
+					id: "444BD12A486A8D7B"
+					item: { count: 1, id: "techpack:redstone_transmission_coil" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3827FDBB6FDA7DAC"]
+			id: "36B9DBC8AD941C6E"
+			rewards: [
+				{
+					id: "363A1868A5DB03C9"
+					item: {
+						count: 1
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "60936143F0290F5C"
+					item: {
+						count: 1
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77608A487B03A6D3"
+				item: { count: 1, id: "techpack:low_pressure_boiler" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["516493216BEC484C"]
+			icon: {
+				id: "create:white_sail"
+			}
+			id: "65F7EB4863FD3FDD"
+			rewards: [{
+				count: 8
+				id: "7C0887BE2434844F"
+				item: {
+					count: 1
+					id: "farmersdelight:canvas"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "62DD659E6FE2242A"
+					item: { count: 1, id: "create:windmill_bearing" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "09CACFE81AD5ACE1"
+					item: { count: 1, id: "create:white_sail" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "techpack:sulfur_dust"
+			}
+			id: "6CB6CC7509BD29F1"
+			rewards: [{
+				count: 8
+				id: "49476AF57160481F"
+				item: {
+					count: 1
+					id: "techpack:sulfur_dust"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "179ABF298A2462FF"
+				item: { count: 1, id: "techpack:sulfur_cluster" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19F32B9CCB6C65AF"]
+			id: "5596CD9DCDDD6155"
+			rewards: [{
+				count: 4
+				id: "11667BFF0A969449"
+				item: {
+					count: 1
+					id: "techpack:steel_casing"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "0B196E1C14A6AB9E"
+				item: { components: { "modular_machinery_reborn:machine": "techpack:steam_quarry" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["186763FC5A59D49A"]
+			id: "5D12F44F3D591A8D"
+			tasks: [{
+				id: "325A4C16E09BBBF0"
+				item: { components: { "custommachinery:machine": "techpack:kiln" }, count: 1, id: "custommachinery:custom_machine_item" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+	]
+}

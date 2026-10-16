@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:remove_features",
+  "biomes": "#c:is_overworld",
+  "features": "biggerreactors:uranium_ore",
+  "step": "underground_ores"
+}

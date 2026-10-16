@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WYW",
+    "EPE",
+    "WCW"
+  ],
+  "key": {
+    "W": {
+      "item": "pneumaticcraft:pressure_chamber_wall"
+    },
+    "Y": {
+      "item": "actuallyadditions:enori_crystal"
+    },
+    "E": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "P": {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    "C": {
+      "item": "techpack:basic_circuit"
+    }
+  },
+  "result": {
+    "id": "pneumaticcraft:pressure_chamber_valve"
+  }
+}

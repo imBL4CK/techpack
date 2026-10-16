@@ -1,0 +1,109 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:redstone_reception_coil",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:redstone_transmission_coil",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:redstone_conductance_coil",
+          "weight": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:makeshift_mechanism",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "enderio:grains_of_infinity",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:flux_powder",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:zinc_battery_cell",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:bronze_machine_casing",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:basic_circuit_board",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "create:electron_tube",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:low_pressure_boiler",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:engine_assembly",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "techpack:high_pressure_boiler",
+          "weight": 1
+        }
+      ],
+      "functions": []
+    }
+  ]
+}

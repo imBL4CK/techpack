@@ -1,0 +1,6 @@
+{
+    "parent": "techpack:machines/combustion_engine_idle",
+    "textures": {
+		  "2": "techpack:block/machines/combustion_chamber_running"
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "activePresetId": "b80a745a-6851-4850-8d23-c958986a27d5",
+  "presets": [
+    {
+      "id": "b80a745a-6851-4850-8d23-c958986a27d5",
+      "name": "Default",
+      "scope": "DEFAULT",
+      "worldIds": []
+    }
+  ]
+}

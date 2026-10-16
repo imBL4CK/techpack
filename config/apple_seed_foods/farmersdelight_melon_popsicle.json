@@ -1,0 +1,8 @@
+{
+  "source_item": "farmersdelight:melon_popsicle",
+  "auto_calculated": false,
+  "comment": "Edit this file to add custom nutrition values",
+  "nutritions": {
+    "fruits": 0.04
+  }
+}

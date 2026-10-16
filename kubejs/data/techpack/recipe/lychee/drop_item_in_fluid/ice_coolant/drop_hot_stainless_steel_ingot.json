@@ -1,0 +1,9 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": "techpack:hot_stainless_steel_ingot",
+    "block_in": "techpack:ice_coolant",
+    "time": 300,
+    "post": [
+        "drop techpack:stainless_steel_ingot"
+    ]
+}

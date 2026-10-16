@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ZIZ",
+    "ZRZ",
+    "ZIZ"
+  ],
+  "key": {
+    "Z": {
+      "tag": "c:ingots/zinc"
+    },
+    "I": {
+      "tag": "techpack:electrical_insulators"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "id": "techpack:zinc_battery_box"
+  }
+}
