@@ -19,6 +19,7 @@
       "break": "minecraft:block.mud.break",
       "step": "minecraft:block.mud.step"
     },
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
     "custommachinery:shape": {
       "north": [
         [
@@ -233,17 +234,15 @@
     },
     {
       "type": "custommachinery:slot",
+      "tooltips": {
+        "text": {
+          "translate": "gui.techpack.machines.secundary_output_slot"
+        }
+      },
       "id": "output_slot_2",
       "texture": {
         "texture": "techpack:textures/gui/machines/slot.png"
       },
-      "tooltips": [
-        {
-          "text": {
-            "translate": "gui.techpack.machines.secundary_output_slot"
-          }
-        }
-      ],
       "x": 116,
       "y": 49
     },

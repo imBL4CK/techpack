@@ -5,16 +5,17 @@
     }
   },
   "appearance": {
+    "running": {
+      "custommachinery:ambient_sound": {
+        "sound": "techpack:machine_press.running"
+      },
+      "custommachinery:block": "techpack:machines/steam/compressor_running#standalone",
+      "custommachinery:light": 10
+    },
     "custommachinery:block": "techpack:machines/steam/compressor_idle#standalone",
     "custommachinery:item": "techpack:machines/steam/compressor_idle#standalone",
     "custommachinery:keep_inventory": true,
-    "running": {
-      "custommachinery:block": "techpack:machines/steam/compressor_running#standalone",
-      "custommachinery:light": 10,
-      "custommachinery:ambient_sound": {
-        "sound": "techpack:machine_press.running"
-      }
-    }
+    "custommachinery:mining_level": "minecraft:needs_stone_tool"
   },
   "components": [
     {

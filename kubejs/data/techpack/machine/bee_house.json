@@ -12,7 +12,12 @@
     },
     "custommachinery:block": "techpack:machines/bee_house#standalone",
     "custommachinery:item": "techpack:machines/bee_house#standalone",
-    "custommachinery:keep_inventory": true
+    "custommachinery:keep_inventory": true,
+    "custommachinery:requires_tool": false,
+    "custommachinery:tool_type": [
+      "minecraft:mineable/pickaxe",
+      "minecraft:mineable/axe"
+    ]
   },
   "components": [
     {

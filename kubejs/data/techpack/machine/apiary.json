@@ -12,7 +12,10 @@
     },
     "custommachinery:block": "techpack:machines/apiary#standalone",
     "custommachinery:item": "techpack:machines/apiary#standalone",
-    "custommachinery:keep_inventory": true
+    "custommachinery:keep_inventory": true,
+    "custommachinery:mining_level": "minecraft:needs_stone_tool",
+    "custommachinery:requires_tool": false,
+    "custommachinery:tool_type": "minecraft:mineable/axe"
   },
   "components": [
     {

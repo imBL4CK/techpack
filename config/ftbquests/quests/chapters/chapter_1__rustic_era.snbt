@@ -562,7 +562,7 @@
 			id: "5D12F44F3D591A8D"
 			tasks: [{
 				id: "325A4C16E09BBBF0"
-				item: { components: { "custommachinery:machine": "techpack:kiln" }, count: 1, id: "custommachinery:custom_machine_item" }
+				item: { count: 1, id: "techpack:kiln" }
 				type: "item"
 			}]
 			x: 6.5d
