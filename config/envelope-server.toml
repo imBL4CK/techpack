@@ -26,11 +26,7 @@
 	#Fox will hunt and kill pigeons.
 	#Default: true
 	hunted_by_fox = true
-	#Chance to evade damage while delivering. `#envelope:bypasses_pigeon_delivery_evasion` tag can be used to control which damage types will not be affected.
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	damage_evasion_chance_while_delivering = 0.0
-	#Pigeon searches for nearby dropped seeds (envelope:pigeon_food) and eats them.
+	#Pigeon searches for nearby dropped seeds (#envelope:pigeon_food) and eats them.
 	eats_seeds = true
 	#Pigeon will convert into a Charred Pigeon when it stays in the ultrawarm dimension for some time.
 	#Default: true
@@ -39,10 +35,33 @@
 	# Default: 300
 	# Range: > 0
 	convert_into_charred_ticks = 300
+	#Villagers will feed nearby pigeons by throwing them seeds.
+	#Requires 'pigeon.eats_seeds' config option to be enabled.
+	#Default: true
+	villager_feeding_pigeons = true
+	#Only Nitwits can feed pigeons.
+	#Default: true
+	villager_feeding_pigeons_only_nitwits = true
+	#Chance of an Archimedes spawning when 'envelope:spawns_archimedes' mob is killed by 'envelope:spawns_archimedes' damage type (player explosion by default).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	archimedes_chance = 0.05
+	#Chance of a Ghost Pigeon spawning nearby when a Villager is converted into a Zombie Villager on a full moon night.
+	#Default: true
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	ghost_spawn_chance = 0.5
+	#On Halloween, Ghost Pigeon will spawn in villages at night and as a service courier.
+	#Default: true
+	ghost_on_halloween = true
+	#Speed (in blocks per second) while in traveling (background) phases of a delivery.
+	# Default: 25.0
+	# Range: 0.1 ~ 9999.0
+	delivery_travel_speed = 25.0
 
 [charred_pigeon]
 	#Charred Pigeons can spawn naturally in '#envelope:allows_charred_pigeon_spawns' biomes.
-	# Default: true
+	#Default: true
 	spawns_naturally = true
 	#Chance of a Charred Pigeon carrying mail when spawned.
 	# Default: 0.2
@@ -103,21 +122,29 @@
 	payback_box_return_chance = 0.75
 
 [delivery]
-	#Default distance (in blocks) that will be used if distance between two addresses cannot be determined (recipient does not exist, for example).
+	#Default distance (in blocks) that will be used if distance between two addresses cannot be determined.
 	# Default: 1500
 	# Range: > 1
 	default_distance = 1500
-	#Courier speed (in blocks per second) while in traveling (background) phases.
-	# Default: 20.0
-	# Range: 0.01 ~ 9999.0
-	courier_travel_speed = 20.0
-	#Distance (in blocks) after which travel duration stops increasing and stays at maximum value.
+	#Distance (in blocks) after which travel duration stops increasing.
 	# Default: 5000
 	# Range: > 1
 	travel_duration_distance_cap = 5000
-	#Delivering pigeons will not spawn when 'doMobSpawning' rule is set to 'false'.
-	#Default: false (spawn anyway)
-	spawning_respects_domobspawning_rule = false
+	#Distance (in blocks) above and to the side of the mailbox where the courier disappears (transitions to the traveling phase).
+	# Default: 24
+	# Range: 1 ~ 64
+	ascend_distance = 24
+	#Global modifier on the delivery phase duration.
+	# Default: 1.0
+	# Range: 0.0 ~ 999.0
+	phase_duration_modifier = 1.0
+	#Delivering couriers will spawn regardless of 'doMobSpawning' gamerule.
+	#Default: true
+	spawning_ignores_domobspawning_rule = true
+	#Chance to evade damage while delivering. `#envelope:bypasses_courier_delivery_evasion` tag can be used to control which damage types will not be affected.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	courier_damage_evasion_chance = 0.0
 
 [payback]
 	#'Short' payback request duration (in minutes).
@@ -138,19 +165,74 @@
 		#Default: true
 		notice_sending_enabled = true
 
-[misc]
-	#Villagers will feed nearby pigeons by throwing them seeds.
-	#Requires 'pigeon.eats_seeds' config option to be enabled.
-	#Default: true
-	villager_feeding_pigeons = true
-	#Only Nitwits can feed pigeons.
-	#Default: true
-	villager_feeding_pigeons_only_nitwits = true
-	#Chance of an Archimedes spawning when 'envelope:spawns_archimedes' mob is killed by 'envelope:spawns_archimedes' damage type (player explosion by default).
-	# Default: 0.05
-	# Range: 0.0 ~ 1.0
-	archimedes_chance = 0.05
+	[service_addresses.mail_service]
+		#Courier Death Notice letter will be sent to the origin mailbox when the courier dies while delivering.
+		#Default: true
+		courier_death_notice = true
 
-[debug]
-	#Enable debug features. Will negatively impact performance. Don't enable unless it's needed.
-	debug_mode = false
+	[service_addresses.cloud_depository]
+		#Cloud Depository accepts mail into storage. Setting this to 'false' will prevent the depository from accepting items and requests and hide the address from Address Tag and JEI
+		#Default: true
+		enabled = true
+		#Cloud Depository only serves players.
+		#Default: true
+		only_players = true
+		#Starting storage capacity of an account.
+		# Default: 8
+		# Range: 1 ~ 999
+		account_storage_starting_capacity = 8
+		#Maximum storage capacity of an account. Should be larger than 'account_storage_starting_capacity'.
+		# Default: 128
+		# Range: 1 ~ 999
+		account_storage_max_capacity = 128
+		#Storage capacity added per one expansion request.
+		# Default: 8
+		# Range: 1 ~ 999
+		account_storage_capacity_per_expansion = 8
+
+[bat]
+	#At night, Bat works at mail service as a service courier.
+	#When the courier passes through mail hub - it will switch between Pigeon and Bat depending on the time of day.
+	#Default: true
+	employed_at_mail_service = true
+	#If there is no regular Bat nearby, a service one will be summoned (spawned) instead.
+	#Default: true
+	summoned_to_mailbox = true
+	#Bat summoning ignores doMobSpawning rule.
+	#Default: true
+	summoned_to_mailbox_ignores_domobspawning_rule = true
+	#Cooldown (in ticks) to wait from previous employment before attempting to employ another Bat at the same Mailbox.
+	# Default: 600
+	# Range: > 1
+	employ_cooldown = 600
+	#Maximum time (in ticks) between Bat employment attempts.
+	#The actual employ time is randomized within this interval.
+	# Default: 400
+	# Range: > 1
+	employ_interval = 400
+	#Maximum number of deliveries a single bat can do before leaving.
+	#This will only apply when delivery had a reply, as the bat will despawn early if it's not carrying anything back.
+	# Default: 3
+	# Range: 1 ~ 999
+	max_deliveries = 3
+	#Speed (in blocks per second) while in traveling (background) phases of a delivery.
+	# Default: 50.0
+	# Range: 0.1 ~ 9999.0
+	delivery_travel_speed = 50.0
+
+[seal]
+	#How much time (in ticks) player needs to use a sealed item before the seal is removed.
+	# Default: 10
+	# Range: 0 ~ 9999
+	seal_remove_duration = 10
+	#Soulbound Seal Stamp item is enabled. If set to false, item will not be craftable and usable.
+	#Default: true
+	soulbound_seal_stamp_enabled = true
+	#Soulbound Seal Stamp will have durability which will decrease on each seal application.
+	#If durability reaches 0 - Soulbound Seal Stamp will be converted into a regular Seal Stamp.
+	soulbound_seal_stamp_consumable = true
+	#Soulbound Seal Stamp will create a seal lock when the item is sealed.
+	#Seal lock keeps the item in owner's inventory when they die, and prevents other players from removing the seal until the owner dies.
+	soulbound_seal_stamp_creates_lock = true
+	#Owner (sealer) can remove locked seal (created by Soulbound Seal Stamp or commands) regardless of its lock status.
+	soulbound_seal_owner_bypasses_lock = true

@@ -131,6 +131,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "eidolon_repraised": {
+    "enthrall_tooltip": true
+  },
   "exposure": {
     "lightroom": true,
     "photograph_frame": true

@@ -1,6 +1,23 @@
 #Visual settings for the End dimension
 [visuals]
-	#Enable Beyond's custom atmospheric End fog.
+	#Enable custom atmospheric End fog.
 	#When disabled, vanilla End fog is used (no custom distances or shape overrides).
 	#Default: true
 	enableCustomFog = true
+	#Enable custom sky renderer.
+	#When disabled, vanilla End sky renderer is used.
+	#Default: true
+	enableCustomSky = true
+	#Clamp light map values.
+	#When enabled, the light map is clamped. Useful if you use mods that change the lightmap as well.
+	#When the Beyond is paired with other mods, there is a chance of the lightmap overspilling into green instead of purple.
+	#Default: false
+	clampLightMap = false
+	#Enable swirling clouds in the main island.
+	#Default: true
+	enableSwirlingClouds = true
+
+#Pearl mirror reflection
+[mirror]
+	#Mirror occlusion shape: true = block's real model (fences show gaps); false = cheaper AABB box. Default: true
+	occlusionModelBased = true

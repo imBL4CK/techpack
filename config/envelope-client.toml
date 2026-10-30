@@ -1,5 +1,11 @@
+#When hovering over a Seal Stamp item outside of player inventory or menu (in JEI, for example) - default die (first letter of player name) will be hidden from tooltip.
+hide_default_seal_stamp_die_outside_of_inventory = true
+
 	[integration.jei]
 		#Service Addresses that have recipes associated with them will be shown in JEI as ingredients.
 		#Changing the value requires relogging into the world or /reload to take effect.
 		# Default: true.
 		service_address_ingredient = true
+		#Add information about some items and ingredients
+		#Default: true
+		information = true

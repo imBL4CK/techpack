@@ -45,7 +45,6 @@ StartupEvents.registry("block", (e) => {
     //Beekeeping
     "bee_house",
     "apiary",
-    "mutation_station",
 
     //Devices
     "electric_composter",
