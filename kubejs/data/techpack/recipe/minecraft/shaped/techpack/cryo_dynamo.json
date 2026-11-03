@@ -3,7 +3,7 @@
   "pattern": [
     " T ",
     "IEI",
-    "AMA"
+    "SMS"
   ],
   "key": {
     "T": {
@@ -15,8 +15,8 @@
     "E": {
       "item": "techpack:engine_assembly"
     },
-    "A": {
-      "item": "techpack:aluminum_ingot"
+    "S": {
+      "item": "eidolon_repraised:silver_ingot"
     },
     "M": {
       "item": "techpack:advanced_machine_casing"

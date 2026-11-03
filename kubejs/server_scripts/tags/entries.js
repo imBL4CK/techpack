@@ -1,4 +1,4 @@
-const blockTag = [
+const entries = [
   //Fireclacy can replace
   {
     tag: "techpack:fireclay_can_replace",
@@ -21,8 +21,6 @@ const blockTag = [
     ],
     action: "add"
   },
-];
-const itemTag = [
   //Flour
   {
     tag: "c:flours/wheat",
@@ -35,27 +33,10 @@ const itemTag = [
     item: ["create:dough"],
     action: "add"
   },
-  //Slag
-  {
-    tag: "c:slag",
-    item: "techpack:slag",
-    action: "add"
-  },
   //Plastic
   {
     tag: "c:plastics",
-    item: ["pneumaticcraft:plastic", "techpack:bio_plastic_sheet", "techpack:ptfe_sheet"],
-    action: "add"
-  },
-  //Coal Coke
-  {
-    tag: "c:coal_coke",
-    item: "techpack:coal_coke",
-    action: "add"
-  },
-  {
-    tag: "techpack:coal_cokes",
-    item: ["#c:coal_coke", "techpack:hop_graphite_dust"],
+    item: "pneumaticcraft:plastic",
     action: "add"
   },
   //Fireclay can replace
@@ -70,40 +51,10 @@ const itemTag = [
     ],
     action: "add"
   },
-  //Rubbers
-  {
-    tag: "c:rubbers",
-    item: "techpack:rubber_sheet",
-    action: "add"
-  },
   //Electrical Insulators
   {
     tag: "techpack:electrical_insulators",
     item: ["#c:rubbers", "#c:plastics"],
-    action: "add"
-  },
-  //Wrought Iron
-  {
-    tag: "c:ingots/wrought_iron",
-    item: "techpack:wrought_iron_ingot",
-    action: "add"
-  },
-  //Sulfur dust
-  {
-    tag: "c:dusts/sulfur",
-    item: "techpack:sulfur_dust",
-    action: "add"
-  },
-  //Stick storage block
-  {
-    tag: "c:storage_blocks/sticks",
-    item: "techpack:stick_bundle",
-    action: "add"
-  },
-  //Pulpifiable
-  {
-    tag: "create:pulpifiable",
-    item: "techpack:sawdust",
     action: "add"
   },
   //Fireclay can replace
@@ -112,55 +63,27 @@ const itemTag = [
     item: ["#c:ingots/iron", "#c:ingots/tin", "#c:ingots/zinc"],
     action: "add"
   },
-  //Quicksilver
-  {
-    tag: "c:quicksilver",
-    item: ["techpack:quicksilver_drop"],
-    action: "add"
-  },
-  //Quicksilver
-  {
-    tag: "techpack:integral_augments",
-    item: ["techpack:advanced_integral_augment", "techpack:sophisticated_integral_augment"],
-    action: "add"
-  },
-  //Graphite Ingot
-  {
-    tag: "c:ingots/graphite",
-    item: ["techpack:graphite_ingot"],
-    action: "add"
-  },
 ];
-const fluidTag = [
-  {
-    tag: "techpack:coolants",
-    fluid: ["techpack:ice_coolant", "techpack:hydrogen_fluoride"],
-    action: "add"
-  },]
-ServerEvents.tags("block", (e) => {
-  blockTag.forEach((entry) => {
-    if (entry.action == "add") {
-      e.add(entry.tag, entry.block);
-    } else if (entry.action == "remove") {
-      e.remove(entry.tag, entry.block);
-    }
-  });
-});
-ServerEvents.tags("item", (e) => {
-  itemTag.forEach((entry) => {
-    if (entry.action == "add") {
-      e.add(entry.tag, entry.item);
-    } else if (entry.action == "remove") {
-      e.remove(entry.tag, entry.item);
-    }
-  });
-});
-ServerEvents.tags("fluid", (e) => {
-  fluidTag.forEach((entry) => {
-    if (entry.action == "add") {
-      e.add(entry.tag, entry.fluid);
-    } else if (entry.action == "remove") {
-      e.remove(entry.tag, entry.fluid);
-    }
-  });
-});
+entries.forEach((value) => {
+  if (value.block) {
+    ServerEvents.tags("block", (e) => {
+        if (value.action == "add") {
+          e.add(value.tag, value.block);
+        } 
+        else if (value.action == "remove") {
+          e.remove(value.tag, value.block);
+        }
+    });
+  }
+
+  if (value.item) {
+    ServerEvents.tags("item", (e) => {
+        if (value.action == "add") {
+          e.add(value.tag, value.item);
+        } 
+        else if (value.action == "remove") {
+          e.remove(value.tag, value.item);
+        }
+    });
+  }
+})

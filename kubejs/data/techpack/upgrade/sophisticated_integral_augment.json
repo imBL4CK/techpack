@@ -1,6 +1,20 @@
 {
     "item": "techpack:sophisticated_integral_augment",
     "max": 1,
+    "tooltip": [
+        {
+            "text": "tooltip.techpack.unlocks_new_recipes"
+        },
+        {
+            "text": ""
+        },
+        {
+            "text": "tooltip.techpack.integral_augment_slot"
+        },
+        {
+            "text": "custommachinery.upgrade.tooltip"
+        }
+    ],
     "machines": [
         "techpack:electric_alloy_foundry",
         "techpack:electric_assembler",

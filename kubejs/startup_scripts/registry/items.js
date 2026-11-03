@@ -1,111 +1,81 @@
 StartupEvents.registry("item", (e) => {
-  let rawResources = [
-    "fireclay_ball",
-    "cinder_brick",
-    "sulfur_dust",
-    "slag",
-    "rich_slag",
-    "coal_coke",
-    "cinnabar_shard",
-    "quicksilver_drop",
-    "mica",
-    "rare_earths"
-  ];
-  let organicResources = [
-    "tanned_leather",
-    "sawdust",
-    "beewax",
-    "biomass",
-  ];
-  let processedMaterials = [
-    "flux_powder",
-    "rubber",
-    "rubber_sheet",
-    "hdpe_sheet",
-    "bio_plastic_sheet",
-    "ptfe_sheet",
-    "carbon_mesh",
-    "carbon_fiber",
-    "graphite_ingot",
-    "hop_graphite_dust",
-    "wrought_iron_ingot",
-    "mixed_metal_ingot",
-    "heavy_duty_plate",
-  ];
-  let components = [
-    "bearing",
-    "engine_assembly",
-    "makeshift_mechanism",
-    "animated_parts",
-    "basic_circuit_board",
-    "sophisticated_circuit_board",
-    "basic_circuit",
-    "spiritual_circuit",
-    "sophisticated_circuit",
-    "silicon_wafer",
-    "polished_wafer",
-    "redstone_reception_coil",
-    "redstone_conductance_coil",
-    "redstone_transmission_coil",
-    "redstone_spiritual_coil",
-    "sculk_vibration_coil",
-    "transistor",
-    "resistor",
-    "diode",
-    "malignant_pewter_capacitor",
-    "malignant_pewter_transistor",
-    "malignant_pewter_resistor",
-    "crystal_electron_tube",
-    "smd_capacitor",
-    "smd_transistor",
-    "smd_resistor",
-    "smd_diode",
-    "zinc_battery_cell",
-    "lead_battery_cell",
-    "silver_battery_cell",
-    "void_machine_parts",
-    "soul_machine_parts",
-    "flux_infused_alloy_plating",
-  ];
-  let items = [
-    "advanced_integral_augment",
-    "sophisticated_integral_augment",
-    "scraps",
-    "curved_copper_plate",
-    "curved_iron_plate",
-    "curved_diamond_plate",
-    "void_seed",
-    "void_metal_ingot",
-    "wither_drop",
-    "organic_component",
-    "lustrous_pearl",
-  ];
-  let transitionalItems = [
-    "incomplete_makeshift_mechanism",
-    "incomplete_electron_tube",
-    "incomplete_steam_engine",
-    "incomplete_animated_parts"
-  ];
-
-  rawResources.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  organicResources.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  processedMaterials.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  components.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  items.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  transitionalItems.forEach((registry) => {
-    e.create(`techpack:${registry}`);
-  });
-  
+  e.create("techpack:fireclay_ball")
+  e.create("techpack:cinder_brick")
+  e.create("techpack:sulfur_dust").tag("c:dusts/sulfur")
+  e.create("techpack:slag").tag("c:slag")
+  e.create("techpack:rich_slag")
+  e.create("techpack:coal_coke").tag("c:coal_coke").tag("techpack:coal_cokes")
+  e.create("techpack:cinnabar_shard")
+  e.create("techpack:quicksilver_drop").tag("c:quicksilver")
+  e.create("techpack:mica")
+  e.create("techpack:rare_earths")
+  e.create("techpack:tanned_leather")
+  e.create("techpack:sawdust").tag("create:pulpifiable")
+  e.create("techpack:beewax")
+  e.create("techpack:biomass")
+  e.create("techpack:flux_powder")
+  e.create("techpack:rubber")
+  e.create("techpack:rubber_sheet").tag("c:rubbers")
+  e.create("techpack:hdpe_sheet")
+  e.create("techpack:bio_plastic_sheet").tag("c:plastics")
+  e.create("techpack:ptfe_sheet").tag("c:plastics")
+  e.create("techpack:carbon_mesh")
+  e.create("techpack:carbon_fiber")
+  e.create("techpack:graphite_ingot").tag("c:ingots").tag("c:ingots/graphite")
+  e.create("techpack:hop_graphite_dust").tag("c:dusts").tag("c:dusts/graphite").tag("techpack:coal_cokes")
   e.create("techpack:graphite_electrode").tag("techpack:electrodes").maxDamage(1024);
   e.create("techpack:hop_graphite_electrode").tag("techpack:electrodes").maxDamage(2048);
+  e.create("techpack:wrought_iron_ingot").tag("c:ingots").tag("c:ingots/wrought_iron")
+  e.create("techpack:mixed_metal_ingot")
+  e.create("techpack:heavy_duty_plate")
+  e.create("techpack:bearing")
+  e.create("techpack:engine_assembly")
+  e.create("techpack:makeshift_mechanism")
+  e.create("techpack:animated_parts")
+  e.create("techpack:basic_circuit_board")
+  e.create("techpack:sophisticated_circuit_board")
+  e.create("techpack:basic_circuit")
+  e.create("techpack:spiritual_circuit")
+  e.create("techpack:sophisticated_circuit")
+  e.create("techpack:silicon_wafer")
+  e.create("techpack:polished_wafer")
+  e.create("techpack:redstone_reception_coil")
+  e.create("techpack:redstone_conductance_coil")
+  e.create("techpack:redstone_transmission_coil")
+  e.create("techpack:redstone_spiritual_coil")
+  e.create("techpack:sculk_vibration_coil")
+  e.create("techpack:transistor")
+  e.create("techpack:resistor")
+  e.create("techpack:diode")
+  e.create("techpack:malignant_pewter_capacitor")
+  e.create("techpack:malignant_pewter_transistor")
+  e.create("techpack:malignant_pewter_resistor")
+  e.create("techpack:crystal_electron_tube")
+  e.create("techpack:smd_capacitor")
+  e.create("techpack:smd_transistor")
+  e.create("techpack:smd_resistor")
+  e.create("techpack:smd_diode")
+  e.create("techpack:zinc_battery_cell")
+  e.create("techpack:lead_battery_cell")
+  e.create("techpack:silver_battery_cell")
+  e.create("techpack:void_machine_parts")
+  e.create("techpack:soul_machine_parts")
+  e.create("techpack:flux_infused_alloy_plating")
+  e.create("techpack:advanced_integral_augment").tag("techpack:integral_augments")
+  e.create("techpack:sophisticated_integral_augment").tag("techpack:integral_augments")
+  e.create("techpack:scraps")
+  e.create("techpack:curved_copper_plate")
+  e.create("techpack:curved_iron_plate")
+  e.create("techpack:curved_diamond_plate")
+  e.create("techpack:void_seed")
+  e.create("techpack:void_metal_ingot").tag("c:ingots").tag("c:ingots/void_metal")
+  e.create("techpack:wither_drop")
+  e.create("techpack:organic_component")
+  e.create("techpack:lustrous_pearl")
+  e.create("techpack:recipe_speed_augment").rarity("uncommon");
+  e.create("techpack:energy_production_augment").rarity("uncommon");
+  e.create("techpack:incomplete_makeshift_mechanism").tag("c:hidden_from_recipe_viewers")
+  e.create("techpack:incomplete_electron_tube").tag("c:hidden_from_recipe_viewers")
+  e.create("techpack:incomplete_steam_engine").tag("c:hidden_from_recipe_viewers")
+  e.create("techpack:incomplete_animated_parts").tag("c:hidden_from_recipe_viewers")
 });

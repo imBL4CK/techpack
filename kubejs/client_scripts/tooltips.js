@@ -142,49 +142,4 @@ ItemEvents.modifyTooltips((e) => {
     tooltip.insert(3, Text.of("- Transfers 4 Items per Operation (Without Modules)"));
     tooltip.insert(4, Text.of("- An operation Occurs Every 20 Ticks (1 second).").color(yellow));
   });
-  
-  //Integral Augments
-  e.modify("techpack:advanced_integral_augment", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.unlocks_new_recipes"));
-    tooltip.insert(2, Text.translate("tooltip.techpack.integral_augment_slot"));
-    tooltip.insert(3, Text.translate(""));
-    tooltip.insert(4, Text.translate("tooltip.techpack.when_installed"));
-    tooltip.insert(5, Text.translate("tooltip.techpack.sophisticated_integral_augment"));
-    tooltip.removeLine(6);
-  });
-  e.modify("techpack:sophisticated_integral_augment", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.unlocks_new_recipes"));
-    tooltip.insert(2, Text.translate("tooltip.techpack.integral_augment_slot"));
-    tooltip.insert(3, Text.translate(""));
-    tooltip.insert(4, Text.translate("tooltip.techpack.when_installed"));
-    tooltip.insert(5, Text.translate("tooltip.techpack.advanced_integral_augment"));
-    tooltip.removeLine(6);
-  
-  //Battery Cells
-  e.modify("techpack:zinc_battery_cell", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.battery_cell_slot"));
-    tooltip.insert(2, Text.translate(""));
-    tooltip.insert(3, Text.translate("tooltip.techpack.when_installed"));
-    tooltip.insert(4, Text.translate("tooltip.techpack.zinc_battery_cell_1"));
-    tooltip.insert(5, Text.translate("tooltip.techpack.zinc_battery_cell_2"));
-    tooltip.removeLine(6);
-  });
-  e.modify("techpack:lead_battery_cell", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.battery_cell_slot"));
-    tooltip.insert(2, Text.translate(""));
-    tooltip.insert(3, Text.translate("tooltip.techpack.when_installed"));
-    tooltip.insert(4, Text.translate("tooltip.techpack.lead_battery_cell_1"));
-    tooltip.insert(5, Text.translate("tooltip.techpack.lead_battery_cell_2"));
-    tooltip.removeLine(6);
-  });
-  e.modify("techpack:silver_battery_cell", (tooltip) => {
-    tooltip.insert(1, Text.translate("tooltip.techpack.battery_cell_slot"));
-    tooltip.insert(2, Text.translate(""));
-    tooltip.insert(3, Text.translate("tooltip.techpack.when_installed"));
-    tooltip.insert(4, Text.translate("tooltip.techpack.silver_battery_cell_1"));
-    tooltip.insert(5, Text.translate("tooltip.techpack.silver_battery_cell_2"));
-    tooltip.removeLine(6);
-  });
-  
-})
 });

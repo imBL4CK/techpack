@@ -3,6 +3,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "techpack:block/machines/mimicry_dynamo",
+		"coil": "techpack:block/machines/dynamo_coil",
 		"particle": "techpack:block/machines/mimicry_dynamo"
 	},
 	"elements": [
@@ -24,12 +25,11 @@
 			"to": [12, 12, 8],
 			"rotation": {"angle": 0, "axis": "y", "origin": [4, 4, 0]},
 			"faces": {
-				"north": {"uv": [0, 12, 4, 16], "texture": "#0"},
-				"east": {"uv": [0, 12, 4, 8], "rotation": 90, "texture": "#0"},
-				"south": {"uv": [2, 2, 6, 6], "texture": "#0"},
-				"west": {"uv": [0, 8, 4, 12], "rotation": 90, "texture": "#0"},
-				"up": {"uv": [0, 8, 4, 12], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [0, 12, 4, 8], "rotation": 180, "texture": "#0"}
+				"north": {"uv": [8, 0, 16, 8], "texture": "#coil"},
+				"east": {"uv": [0, 16, 8, 8], "rotation": 90, "texture": "#coil"},
+				"west": {"uv": [0, 8, 8, 16], "rotation": 90, "texture": "#coil"},
+				"up": {"uv": [0, 8, 8, 16], "rotation": 180, "texture": "#coil"},
+				"down": {"uv": [0, 16, 8, 8], "rotation": 180, "texture": "#coil"}
 			}
 		},
 		{

@@ -399,6 +399,24 @@ ServerEvents.recipes((e) => {
             "requireItem": ["#c:ingots/lead", "techpack:flux_powder" ],
             "produceItem": ["2x techpack:lead_battery_cell"],
         },
+        {
+            "machineType": "techpack:electric_assembler",
+            "recipeTier": "basic",
+            "processingTime": 400,
+            "requireEnergy": { perTick: 10 },
+            "requireFluid": ["100x pneumaticcraft:plastic"],
+            "requireItem": ["4x #c:plates/tin", "techpack:flux_powder", "ae2:calculation_processor"],
+            "produceItem": ["techpack:recipe_speed_augment"],
+        },
+        {
+            "machineType": "techpack:electric_assembler",
+            "recipeTier": "basic",
+            "processingTime": 400,
+            "requireEnergy": { perTick: 10 },
+            "requireFluid": ["100x pneumaticcraft:plastic"],
+            "requireItem": ["4x #c:plates/tin", "techpack:redstone_transmission_coil", "ae2:engineering_processor"],
+            "produceItem": ["techpack:energy_production_augment"],
+        },
         //Advanced Recipes
         {
             "machineType": "techpack:electric_assembler",

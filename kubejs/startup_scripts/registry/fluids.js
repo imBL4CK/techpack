@@ -1,6 +1,7 @@
 StartupEvents.registry("fluid", (e) => {
     //Steam
     e.create("techpack:steam")
+        .tag("c:steam")
         .stillTexture("techpack:fluids/steam_still")
         .flowingTexture("techpack:fluids/steam_flow")
         .type(fluidType => {
@@ -13,6 +14,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Ice Coolant
     e.create("techpack:ice_coolant", "thin")
+        .tag("techpack:coolants")
         .stillTexture("techpack:fluids/ice_coolant_still")
         .flowingTexture("techpack:fluids/ice_coolant_flow")
         .tint(0xbfe7f9)
@@ -46,6 +48,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Creosote
     e.create("techpack:creosote", "thin")
+        .tag("c:creosote")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0xa47d4b)
@@ -57,6 +60,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Benzene
     e.create("techpack:benzene", "thin")
+        .tag("c:benzene")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0xbf8720)
@@ -68,6 +72,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Ethylene
     e.create("techpack:ethylene", "thin")
+        .tag("c:ethylene")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0xb5a7de)
@@ -79,6 +84,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Fluorine
     e.create("techpack:fluorine", "thin")
+        .tag("c:fluorine")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0xa3ade6)
@@ -90,6 +96,7 @@ StartupEvents.registry("fluid", (e) => {
         
     //Tetrafluoroethylene 
     e.create("techpack:tetrafluoroethylene", "thick")
+        .tag("c:tetrafluoroethylene")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0x9c7060)
@@ -101,6 +108,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Polytetrafluoroethylene
     e.create("techpack:polytetrafluoroethylene", "thick")
+        .tag("c:polytetrafluoroethylene")
         .stillTexture("techpack:fluids/waterbobbu_fluid_still")
         .flowingTexture("techpack:fluids/waterbobbu_fluid_flow")
         .tint(0x756b62)
@@ -112,6 +120,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Brine
     e.create("techpack:brine", "thin")
+        .tag("c:brine")
         .stillTexture("techpack:fluids/brine_still")
         .flowingTexture("techpack:fluids/brine_flow")
         .tint(0xf5d7a3)
@@ -123,6 +132,7 @@ StartupEvents.registry("fluid", (e) => {
 
     //Lithium Solution
     e.create("techpack:lithium_solution", "thick")
+        .tag("c:liquid_lithium")
         .stillTexture("techpack:fluids/lithium_solution_still")
         .flowingTexture("techpack:fluids/lithium_solution_flow")
         .tint(0xddf6ff)

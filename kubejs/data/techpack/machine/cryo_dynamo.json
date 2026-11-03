@@ -9,7 +9,7 @@
       "custommachinery:ambient_sound": {
         "sound": "techpack:dynamo_cryo.running"
       },
-      "custommachinery:light": 15
+      "custommachinery:block": "techpack:machines/cryo_dynamo_active#standalone"
     },
     "custommachinery:block": "techpack:machines/cryo_dynamo#standalone",
     "custommachinery:interaction_sound": {
@@ -167,9 +167,9 @@
     },
     {
       "type": "custommachinery:redstone",
-      "powertopause": 15,
-      "craftingpoweroutput": 7,
-      "erroredpoweroutput": 12
+      "power_to_pause": 15,
+      "crafting_power_output": 7,
+      "errored_power_output": 12
     }
   ],
   "gui": [
@@ -240,7 +240,7 @@
     },
     {
       "type": "custommachinery:text",
-      "x": 8,
+      "x": 56,
       "y": 6,
       "text": {
         "text": {

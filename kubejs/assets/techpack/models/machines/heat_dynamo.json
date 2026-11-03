@@ -1,7 +1,8 @@
 {
     "parent": "techpack:machines/dynamo_preset",
     "textures": {
-        "0": "techpack:block/machines/heat_dynamo",
-        "particle": "techpack:block/machines/heat_dynamo"
+        "side": "techpack:block/machines/heat_dynamo_side",
+        "end": "techpack:block/machines/heat_dynamo_end",
+        "particle": "techpack:block/machines/heat_dynamo_side"
     }
 }

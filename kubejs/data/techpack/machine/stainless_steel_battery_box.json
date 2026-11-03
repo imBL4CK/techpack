@@ -18,12 +18,12 @@
       "type": "custommachinery:energy",
       "max_output": 1024000,
       "config": {
-        "TOP": "NONE",
-        "BOTTOM": "NONE",
+        "TOP": "BOTH",
+        "BOTTOM": "BOTH",
         "FRONT": "BOTH",
-        "RIGHT": "NONE",
+        "RIGHT": "BOTH",
         "BACK": "BOTH",
-        "LEFT": "NONE",
+        "LEFT": "BOTH",
         "input": true,
         "output": true
       },
@@ -62,9 +62,9 @@
     },
     {
       "type": "custommachinery:redstone",
-      "powertopause": 15,
-      "craftingpoweroutput": 7,
-      "erroredpoweroutput": 12
+      "power_to_pause": 15,
+      "crafting_power_output": 7,
+      "errored_power_output": 12
     }
   ],
   "gui": [
