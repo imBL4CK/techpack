@@ -39,5 +39,5 @@ Please do not use the project's assets for commercial purposes. TechPack contain
   &nbsp;
   <a href="https://docs.google.com/document/d/1q5kHmf7iZ7Xc6SvXxw16G-M0YuEb3x73u5uvxA15c80/edit?usp=sharing"><img src="https://i.imgur.com/6V061Qw.png" alt="Documentation" width="168"></a>
   &nbsp;
-  <a href="https://linktr.ee/bl4ck_"><img src="https://i.imgur.com/mOJ6NNH.png" alt="Linktree" width="168"></a>
+  <a href="https://github.com/imBL4CK/techpack"><img src="https://i.imgur.com/XejoVXB.png" alt="Repository" width="168"></a>
 </p>
