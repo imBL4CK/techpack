@@ -268,7 +268,7 @@
 			id: "77F42814AE6A37AD"
 			tasks: [{
 				id: "130F2C055F57685F"
-				item: { components: { "ftbquests:missing_item": "modular_angelring:angel_ring" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "techpack:angel_ring" }
 				type: "item"
 			}]
 			x: 0.0d

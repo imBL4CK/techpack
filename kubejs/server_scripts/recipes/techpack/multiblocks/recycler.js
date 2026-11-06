@@ -46,7 +46,7 @@ ServerEvents.recipes((e) => {
       "processingTime": 100,
       "requireEnergyPerTick": 10,
       "requireItem": ["enderio:basic_capacitor"],
-      "produceItem": ["enderio:grains_of_infinity", "6x techpack:tin_nugget", "6x enderio:conductive_alloy_nugget", "techpack:scraps"],
+      "produceItem": ["enderio:grains_of_infinity", "3x techpack:tin_nugget", "3x enderio:conductive_alloy_nugget", "techpack:scraps"],
     },
     {
       "processingTime": 100,
